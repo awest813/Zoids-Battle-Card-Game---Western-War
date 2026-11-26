@@ -9,6 +9,10 @@ from card_text_table import RAM_BASE
 ZOID_COUNT = 81
 CEP_COUNT = 193
 CEP_RULE_MAP = 0x800F1A80
+ZOID_TYPE_TABLE = 0x800ECB10
+ZOID_TYPE_COUNT = 34
+ZOID_ABILITY_TABLE = 0x800EC8CC
+ZOID_ABILITY_COUNT = 48
 FACE_STRIDE = 0x5800
 
 
@@ -33,6 +37,17 @@ def card_records():
 def cep_rule_indices(executable):
     offset = CEP_RULE_MAP - RAM_BASE
     return executable[offset:offset + CEP_COUNT]
+
+
+def zoid_label_slots(executable):
+    for kind, table, count in (
+        ("type", ZOID_TYPE_TABLE, ZOID_TYPE_COUNT),
+        ("ability", ZOID_ABILITY_TABLE, ZOID_ABILITY_COUNT),
+    ):
+        for index in range(count):
+            address = table + index * 4
+            source, = struct.unpack_from("<I", executable, address - RAM_BASE)
+            yield kind, address, source
 
 
 def english_names():

@@ -26,6 +26,28 @@ CARD_LABELS = {
     "TXT-2475": "Empire",
 }
 
+ZOID_LABELS_OUTSIDE_TRACKER = {
+    "恐竜型": "Dinosaur Type",
+    "昆虫型": "Insect Type",
+    "クマ型": "Bear Type",
+    "ヘビ型": "Snake Type",
+    "カメ型": "Turtle Type",
+    "翼竜型": "Pterosaur Type",
+    "ワニ型": "Crocodile Type",
+    "エイ型": "Ray Type",
+    "サイ型": "Rhino Type",
+    "暴走": "Rampage",
+    "奇襲": "Surprise Attack",
+    "対空": "Anti-Air",
+    "格闘弱": "Weak Melee",
+    "輸送": "Transport",
+    "取得": "Collect",
+    "介抱": "Tend",
+    "集中": "Focus",
+    "探索": "Search",
+    "獲得": "Acquire",
+}
+
 # Card-selection and roster fields allow thirteen glyphs. The faces retain
 # the full English names from CARD_NAMES_EN.tsv.
 COMPACT_CARD_LABELS = {

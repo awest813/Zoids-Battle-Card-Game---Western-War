@@ -31331,3 +31331,193 @@ term = "nul"
 pad = "none"
 en = "ABC"
 note = "English launcher Latin-first page caption"
+
+[[entry]]
+src_hex = "8bb097b38c5e"
+src_jp = "恐竜型"
+src_addr = 0x800f6fb0
+ptr_addrs = ["0x800ecb1c"]
+term = "nul"
+pad = "none"
+en = "Dinosaur Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "8da9928e8c5e"
+src_jp = "昆虫型"
+src_addr = 0x800f6fa8
+ptr_addrs = ["0x800ecb2c"]
+term = "nul"
+pad = "none"
+en = "Insect Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "834e837d8c5e"
+src_jp = "クマ型"
+src_addr = 0x800f6fa0
+ptr_addrs = ["0x800ecb34"]
+term = "nul"
+pad = "none"
+en = "Bear Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "837783728c5e"
+src_jp = "ヘビ型"
+src_addr = 0x800f6f98
+ptr_addrs = ["0x800ecb38"]
+term = "nul"
+pad = "none"
+en = "Snake Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "834a83818c5e"
+src_jp = "カメ型"
+src_addr = 0x800f6f90
+ptr_addrs = ["0x800ecb4c"]
+term = "nul"
+pad = "none"
+en = "Turtle Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "978397b38c5e"
+src_jp = "翼竜型"
+src_addr = 0x800f6f88
+ptr_addrs = ["0x800ecb50"]
+term = "nul"
+pad = "none"
+en = "Pterosaur Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "838f836a8c5e"
+src_jp = "ワニ型"
+src_addr = 0x800f6f80
+ptr_addrs = ["0x800ecb58"]
+term = "nul"
+pad = "none"
+en = "Crocodile Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "834783438c5e"
+src_jp = "エイ型"
+src_addr = 0x800f6f78
+ptr_addrs = ["0x800ecb64"]
+term = "nul"
+pad = "none"
+en = "Ray Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "835483438c5e"
+src_jp = "サイ型"
+src_addr = 0x800f6f70
+ptr_addrs = ["0x800ecb8c"]
+term = "nul"
+pad = "none"
+en = "Rhino Type"
+note = "Zoid type outside static tracker"
+
+[[entry]]
+src_hex = "965c9196"
+src_jp = "暴走"
+src_addr = 0x800f6f68
+ptr_addrs = ["0x800ec91c"]
+term = "nul"
+pad = "none"
+en = "Rampage"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "8aef8f50"
+src_jp = "奇襲"
+src_addr = 0x800f6f60
+ptr_addrs = ["0x800ec920"]
+term = "nul"
+pad = "none"
+en = "Surprise Attack"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "91ce8bf3"
+src_jp = "対空"
+src_addr = 0x800f6f58
+ptr_addrs = ["0x800ec944"]
+term = "nul"
+pad = "none"
+en = "Anti-Air"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "8a6993ac8ee3"
+src_jp = "格闘弱"
+src_addr = 0x800f6f50
+ptr_addrs = ["0x800ec948"]
+term = "nul"
+pad = "none"
+en = "Weak Melee"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "97419197"
+src_jp = "輸送"
+src_addr = 0x800f6f48
+ptr_addrs = ["0x800ec96c"]
+term = "nul"
+pad = "none"
+en = "Transport"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "8ee693be"
+src_jp = "取得"
+src_addr = 0x800f6f40
+ptr_addrs = ["0x800ec978"]
+term = "nul"
+pad = "none"
+en = "Collect"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "89ee95f8"
+src_jp = "介抱"
+src_addr = 0x800f6f38
+ptr_addrs = ["0x800ec97c"]
+term = "nul"
+pad = "none"
+en = "Tend"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "8f579286"
+src_jp = "集中"
+src_addr = 0x800f6f30
+ptr_addrs = ["0x800ec980"]
+term = "nul"
+pad = "none"
+en = "Focus"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "92548df5"
+src_jp = "探索"
+src_addr = 0x800f6f28
+ptr_addrs = ["0x800ec984"]
+term = "nul"
+pad = "none"
+en = "Search"
+note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "8a6c93be"
+src_jp = "獲得"
+src_addr = 0x800f6f20
+ptr_addrs = ["0x800ec988"]
+term = "nul"
+pad = "none"
+en = "Acquire"
+note = "Zoid ability outside static tracker"

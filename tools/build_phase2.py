@@ -11,7 +11,8 @@ import csv
 import os
 from collections import Counter, defaultdict
 
-from card_catalog import card_records, english_names
+from card_catalog import card_records, english_names, zoid_label_slots
+from card_text_table import EXE
 from translations_memory import MEMORY, MEMORY_DISPLAY
 from translations_tutorial import TUTORIAL
 from translations_ui import UI
@@ -26,7 +27,7 @@ from translations_story_5 import STORY_5
 from translations_story_6 import STORY_6
 from translations_story_7 import STORY_7
 from translations_story_8 import STORY_8
-from translations_card_labels import CARD_LABELS, COMPACT_CARD_LABELS
+from translations_card_labels import CARD_LABELS, COMPACT_CARD_LABELS, ZOID_LABELS_OUTSIDE_TRACKER
 from translations_card_text_1 import CARD_TEXT_1
 from translations_card_text_2 import CARD_TEXT_2
 from translations_card_text_3 import CARD_TEXT_3
@@ -239,6 +240,32 @@ pending_lines += [
     'note = "English launcher Latin-first page caption"',
     "",
 ]
+
+# The short strings near the end of retail data were outside the tracker scan.
+executable = EXE.read_bytes()
+added_labels = set()
+tracked_sources = {int(row["ram_addr"], 16) for row in tracker}
+for kind, slot, source in zoid_label_slots(executable):
+    if source in tracked_sources:
+        continue
+    offset = source - RAM_BASE
+    raw = executable[offset:executable.index(b"\0", offset)]
+    japanese = raw.decode("shift_jis")
+    added_labels.add(japanese)
+    pending_lines += [
+        "[[entry]]",
+        f'src_hex = "{raw.hex()}"',
+        f'src_jp = {toml_quote(japanese)}',
+        f"src_addr = {source:#010x}",
+        f'ptr_addrs = ["{slot:#010x}"]',
+        'term = "nul"',
+        'pad = "none"',
+        f'en = {toml_quote(ZOID_LABELS_OUTSIDE_TRACKER[japanese])}',
+        f'note = "Zoid {kind} outside static tracker"',
+        "",
+    ]
+if added_labels != ZOID_LABELS_OUTSIDE_TRACKER.keys():
+    raise ValueError("The retail Zoid label tables do not match the supplemental labels")
 
 for japanese, english in (MEMORY_DISPLAY | MENU_DISPLAY).items():
     safe_lines += [

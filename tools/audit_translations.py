@@ -4,6 +4,7 @@ import re
 import tomllib
 from collections import Counter
 
+from card_catalog import zoid_label_slots
 from card_text_table import EXE, RAM_BASE, card_text_slots
 from translations_objectives import OBJECTIVES, fits_objective
 
@@ -99,4 +100,12 @@ for card, slot, source in missing:
     end = executable.find(b"\0", offset)
     japanese = executable[offset:end].decode("shift_jis", "replace")
     print(f"  card {card} slot {slot} {source:#010x} {japanese!r}")
+zoid_slots = list(zoid_label_slots(executable))
+for kind in ("type", "ability"):
+    slots = [(address, source) for group, address, source in zoid_slots if group == kind]
+    missing_labels = [(address, source) for address, source in slots if (address, source) not in covered]
+    print(f"Zoid {kind} slots", len(slots), "uncovered", len(missing_labels))
+    for address, source in missing_labels:
+        print(f"  slot {address:#010x}, source {source:#010x}")
+    errors |= bool(missing_labels)
 raise SystemExit(1 if errors or missing else 0)
