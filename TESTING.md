@@ -105,6 +105,20 @@ Add `--choices` to the script audit to scan prompts followed by Yes/No. For the 
 
 For dialogue with substituted values, check a greeting after naming the commander, a card acquisition or equip message, and the shop price prompt. Check that the name or number appears and that confirmation returns to the original script. In a disposable test, use a card name that pushes the message onto a second page and check each line against the fourteen-glyph limit.
 
+### Movie inventory and opening playback
+
+`analysis/MOVIE_INVENTORY.csv` records 155 clips from the retail disc. The opening has 1,544 frames at nominal 15 fps. The TOMY logo and 153 small clips use nominal 30 fps. `duration_seconds` describes the encoded clip. The game can leave playback earlier. Every clip has an XA audio stream. Two pairs have identical encoded audio, recorded under `matching_xa`. Whether a clip contains speech or readable text still requires review.
+
+Run the inventory against the original BIN. To review a clip locally, extract it into the ignored `work/` directory. The clip export preserves 2,352-byte sectors, including the XA audio. Ordinary file extraction uses 2,048-byte sectors and truncates audio data.
+
+```powershell
+$DiscPath = 'Zoids - Battle Card Game - Seihou Tairiku Senki (Japan).bin'
+python -B -X utf8 tools/audit_movies.py $DiscPath
+python -B -X utf8 tools/audit_movies.py $DiscPath --extract M/OP_MOVIE.STR --output work/opening-review.str
+```
+
+For an in-game playback check, start a fresh English stage. During the opening, `cdrom_state` reports mode `0xE0`, seek MSF `[2, 19, 51]` (LBA 10326), and a `last_sector.lba` inside the opening extent. `fmv_state` reports active XA and an increasing MDEC decode count. The test run observed 1,415 sectors over 566 emulator frames, which agrees with 150 sectors per second at 60 Hz. Use the sector range to identify the clip. Caption synchronization still needs verification against the frames actually presented, including when playback stops or is interrupted.
+
 ### Text
 
 - [ ] Memory-card dialog is clean English, no tail bleed.

@@ -24,7 +24,7 @@ Pass `-ProjectDir`, `-BuildDir`, or `-ToolchainBin` to select a different build 
 - The English runtime wraps long battle dialogue at fourteen glyphs per line. An extended objective and the End Turn choice were tested in the native renderer by opening their scripts in a disposable battle. The choice opens on the last page and passes Yes and No back to the original script. Other script layouts still need in-game coverage.
 - The audit covers 139 references to short dialogue fragments outside the original inventory. The English runtime inserts player names, card names, and amounts before wrapping the text to fit the battle panel.
 - The texture pack includes 274 full-size card overlays, 274 thumbnail name bands, and 18 translated printed Zoid abilities. Range and movement modifiers on 67 Zoid faces use the values in the game's card records. The 193 CEP rules are draft translations. Other printed abilities and card legends still need translation.
-- The Card Album, Zoid Album, and locked Movie Album were spot-checked in-game. Unlocked movie entries and subtitle work are still open.
+- The Card Album, Zoid Album, and locked Movie Album were spot-checked in-game. The movie inventory identifies all 155 clips by disc path and records their frame counts and XA audio streams. Content review, subtitle playback, and unlocked Movie Album testing remain open.
 
 ## Edit and audit
 
