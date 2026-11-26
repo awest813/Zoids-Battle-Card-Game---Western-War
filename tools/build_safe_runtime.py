@@ -1,7 +1,9 @@
-"""Rebuild the REFERENCE localization object and link an isolated English runtime."""
+"""Rebuild the REFERENCE localization objects and link an isolated English runtime."""
 
 import argparse
+import csv
 import hashlib
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -11,7 +13,11 @@ BIN = Path.home() / ".local/share/retcomm/toolchains/cmake-clang-v1/latest/bin"
 WORKSPACE = Path(__file__).resolve().parents[1]
 TARGET = "ZoidsBattleCardGame.exe"
 OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/text_xlate.cpp.obj"
+RENDERER_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/gpu_gl_renderer.c.obj"
 BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
+MOVIE_CAPTIONS = Path(__file__).with_name("movie_captions.inc")
+CAPTION_TEXT = WORKSPACE / "translations/zoids.movie_captions.json"
+MOVIE_INVENTORY = WORKSPACE / "analysis/MOVIE_INVENTORY.csv"
 
 STACK_SCRATCH = """    // Scratch below the caller's $sp, 8-byte aligned, with headroom.
     if (sp < 0x80001000u) return false;
@@ -103,6 +109,106 @@ def command_for(build, target, toolchain=BIN):
                                    text=True, encoding="utf-8").strip()
 
 
+def captioned_renderer(source, osd):
+    font = re.search(r"static const uint8_t FONT8X8\[95\]\[8\] = \{.*?\n\};", osd, re.S)
+    if not font:
+        raise ValueError("Missing reference OSD font")
+    glyph_rows = re.findall(r"\{((?:0x[0-9A-Fa-f]{2},?\s*){8})\}", font[0])
+    if len(glyph_rows) != 95:
+        raise ValueError("Unexpected reference OSD glyph count")
+    glyph_widths = []
+    for glyph in glyph_rows:
+        mask = 0
+        for row in re.findall(r"0x[0-9A-Fa-f]{2}", glyph):
+            mask |= int(row, 16)
+        glyph_widths.append(1 + (mask.bit_length() - (mask & -mask).bit_length() + 1 if mask else 3))
+    with MOVIE_INVENTORY.open(encoding="utf-8-sig", newline="") as inventory:
+        clips = {row["path"]: row for row in csv.DictReader(inventory)}
+    records = []
+    for path, cues in json.loads(CAPTION_TEXT.read_text(encoding="utf-8")).items():
+        clip = clips[path]
+        disc = [int(clip[key]) for key in ("start_lba", "sector_count", "nominal_fps", "width", "height")]
+        width, height = disc[-2:]
+        for cue in cues:
+            first, end = cue["frames"]
+            x, y, w, h = cue["box"]
+            lines = cue["lines"]
+            if not 0 <= first < end <= int(clip["frame_count"]):
+                raise ValueError(f"{path}: caption frame range outside the movie: {cue}")
+            if not (0 <= x < x + w <= width and 0 <= y < y + h <= height and w <= 320 and h <= 48):
+                raise ValueError(f"{path}: caption box outside the movie or too large: {cue}")
+            if not (1 <= len(lines) <= 2 and h >= (20 if len(lines) == 2 else 8)):
+                raise ValueError(f"{path}: caption lines do not fit the box: {cue}")
+            for line in lines:
+                if (not line or any(not 32 <= ord(char) <= 126 for char in line)
+                        or sum(glyph_widths[ord(char) - 32] for char in line) > w - 4):
+                    raise ValueError(f"{path}: caption line is non-ASCII or too wide: {line!r}")
+            numbers = ", ".join(map(str, (*disc, first, end, x, y, w, h)))
+            text = ", ".join(json.dumps(line) for line in lines)
+            records.append(f"    {{ {numbers}, {{ {text} }} }},")
+    if not records:
+        raise ValueError("No movie captions defined")
+    table = "static const ZoidsMovieCaption zoids_captions[] = {\n" + "\n".join(records) + "\n};"
+    code = MOVIE_CAPTIONS.read_text(encoding="utf-8").replace("/* ZOIDS_CAPTION_DATA */", font[0] + "\n" + table)
+    replacements = (
+        ('#include "gpu_fmv_hd.h"', '#include "gpu_fmv_hd.h"\n#include "cdrom.h"\n#include "mdec.h"'),
+        ("static void present_fmv_hd(const FmvHdImage *hd) {",
+         code + "\nstatic void present_fmv_hd(const FmvHdImage *hd, const FmvHdTimeline *timeline) {"),
+        ("    pres_record(GL_PRES_CPU, 0, 0, hd->w, hd->h, lx, ly, lw, lh);",
+         "    zoids_movie_captions(timeline->stream_lba, timeline->delivered_lba, ww, wh, lx, ly, lw, lh);\n"
+         "    pres_record(GL_PRES_CPU, 0, 0, hd->w, hd->h, lx, ly, lw, lh);"),
+        ("    if (s_present_d24) {\n        FmvHdImage hd;\n        const FmvHdTimeline timeline =",
+         "    const FmvHdTimeline timeline ="),
+        ("decode_serial };\n        if (gpu_fmv_hd_lookup",
+         "decode_serial };\n    if (s_present_d24) {\n        FmvHdImage hd;\n        if (gpu_fmv_hd_lookup"),
+        ("present_fmv_hd(&hd); return;", "present_fmv_hd(&hd, &timeline); return;"),
+        ("    pres_record(GL_PRES_CPU, 0, 0, src_w, src_h, lx, ly, lw, lh);",
+         "    if (s_present_d24 && decode_serial)\n"
+         "        zoids_movie_captions(stream_lba, delivered_lba, ww, wh, lx, ly, lw, lh);\n"
+         "    pres_record(GL_PRES_CPU, 0, 0, src_w, src_h, lx, ly, lw, lh);"),
+        ("static void present_vram_impl(int disp_x, int disp_y, int w, int h, int linear,\n"
+         "                              int force_4_3) {",
+         "static void present_vram_impl(int disp_x, int disp_y, int w, int h, int linear,\n"
+         "                              int force_4_3, int stream_lba, int delivered_lba) {"),
+        ("        const int32_t a[6] = { disp_x, disp_y, w, h, linear, force_4_3 };\n"
+         "        if (rth_record_present(RTH_PRESENT_VRAM, 6, a)) return;",
+         "        const int32_t a[8] = { disp_x, disp_y, w, h, linear, force_4_3, stream_lba, delivered_lba };\n"
+         "        if (rth_record_present(RTH_PRESENT_VRAM, 8, a)) return;"),
+        ("    pres_record(geometry?GL_PRES_GEOMETRY:GL_PRES_VRAM, disp_x, disp_y, w, h, lx, ly, lw, lh);",
+         "    zoids_movie_captions(stream_lba, delivered_lba, ww, wh, lx, ly, lw, lh);\n"
+         "    pres_record(geometry?GL_PRES_GEOMETRY:GL_PRES_VRAM, disp_x, disp_y, w, h, lx, ly, lw, lh);"),
+        ("void gl_renderer_present_vram(int disp_x, int disp_y, int w, int h, int linear,\n"
+         "                              int force_4_3) {",
+         "static void present_vram_with_movie(int disp_x, int disp_y, int w, int h, int linear,\n"
+         "                                   int force_4_3, int stream_lba, int delivered_lba) {"),
+        ("    present_vram_impl(disp_x, disp_y, w, h, linear, force_4_3);",
+         "    present_vram_impl(disp_x, disp_y, w, h, linear, force_4_3, stream_lba, delivered_lba);"),
+        ("int gl_renderer_present_wide_fbo(int disp_x, int disp_y, int disp_h, int linear) {",
+         "void gl_renderer_present_vram(int disp_x, int disp_y, int w, int h, int linear, int force_4_3) {\n"
+         "    const int stream_lba = mdec_recently_active(8) ? cdrom_get_stream_start_lba() : -1;\n"
+         "    const int delivered_lba = stream_lba < 0 ? -1 : cdrom_get_delivered_lba();\n"
+         "    present_vram_with_movie(disp_x, disp_y, w, h, linear, force_4_3, stream_lba, delivered_lba);\n"
+         "}\n\nint gl_renderer_present_wide_fbo(int disp_x, int disp_y, int disp_h, int linear) {"),
+        ("        gl_renderer_present_vram(a[0], a[1], a[2], a[3], a[4], a[5]);",
+         "        present_vram_with_movie(a[0], a[1], a[2], a[3], a[4], a[5], a[6], a[7]);"),
+    )
+    for stock, updated in replacements:
+        if source.count(stock) != 1:
+            raise ValueError(f"Unexpected reference renderer source near {stock!r}")
+        source = source.replace(stock, updated, 1)
+    return source
+
+
+def compile_replacement(build, toolchain, target, compiler_name, source, output, original):
+    compile_command = command_for(build, target, toolchain)
+    compiler_marker = compiler_name + " "
+    if compiler_marker not in compile_command or " -MD -MT " not in compile_command:
+        raise ValueError(f"Unexpected compiler invocation for {target}")
+    flags = compile_command.split(compiler_marker, 1)[1].split(" -MD -MT ", 1)[0]
+    subprocess.run(f'"{toolchain / compiler_name}" {flags} -iquote "{original.parent}" '
+                   f'-o "{output}" -c "{source}"', cwd=build, check=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--project-dir", type=Path, default=PROJECT)
@@ -115,10 +221,13 @@ def main():
     output = WORKSPACE / "work" / "localization-build" / build.name
     output.mkdir(parents=True, exist_ok=True)
     runtime = project / "psxrecomp/runtime/src/text_xlate.cpp"
+    renderer = runtime.with_name("gpu_gl_renderer.c")
+    osd = runtime.with_name("host_osd.c")
     stock_exe = build / TARGET
-    fingerprint = hashlib.sha256(runtime.read_bytes() + stock_exe.read_bytes()
-                                 + str(build).encode() + str(toolchain).encode()
-                                 + Path(__file__).read_bytes() + BATTLE_DIALOGUE.read_bytes()).hexdigest()
+    sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE,
+               MOVIE_CAPTIONS, CAPTION_TEXT, MOVIE_INVENTORY)
+    fingerprint = hashlib.sha256(b"".join(path.read_bytes() for path in sources)
+                                 + str(build).encode() + str(toolchain).encode()).hexdigest()
     stamp = output / "source.sha256"
     if (output / TARGET).is_file() and stamp.is_file() and stamp.read_text() == fingerprint:
         print(output / TARGET)
@@ -127,20 +236,23 @@ def main():
     code = output / "text_xlate.cpp"
     code.write_text(relocated_source(runtime.read_text(encoding="utf-8")), encoding="utf-8")
     obj = output / "text_xlate.cpp.obj"
-    compile_command = command_for(build, OBJECT, toolchain)
-    if "clang++.exe " not in compile_command or " -MD -MT " not in compile_command:
-        raise ValueError("Unexpected compiler invocation in the REFERENCE build")
-    compiler_flags = compile_command.split("clang++.exe ", 1)[1].split(" -MD -MT ", 1)[0]
+    video_code = output / "gpu_gl_renderer.c"
+    video_obj = output / "gpu_gl_renderer.c.obj"
+    video_code.write_text(captioned_renderer(renderer.read_text(encoding="utf-8"),
+                                             osd.read_text(encoding="utf-8")), encoding="utf-8")
+    compile_replacement(build, toolchain, RENDERER_OBJECT, "clang.exe", video_code, video_obj, renderer)
+    compile_replacement(build, toolchain, OBJECT, "clang++.exe", code, obj, runtime)
     compiler = toolchain / "clang++.exe"
-    subprocess.run(f'"{compiler}" {compiler_flags} -o "{obj}" -c "{code}"', cwd=build, check=True)
 
     graph = (build / "build.ninja").read_text(encoding="utf-8")
     marker = f"build {TARGET}: CXX_EXECUTABLE_LINKER__psx-runtime_Release "
     edge = graph.split(marker, 1)[1].splitlines()
     inputs = edge[0].split(" |", 1)[0]
-    if inputs.count(OBJECT) != 1:
-        raise ValueError("Missing or duplicate localization object in the link edge")
-    inputs = inputs.replace(OBJECT, f'"{obj.as_posix()}"').replace("$:", ":")
+    for original, replacement in ((OBJECT, obj), (RENDERER_OBJECT, video_obj)):
+        if inputs.count(original) != 1:
+            raise ValueError(f"Missing or duplicate localization object in the link edge: {original}")
+        inputs = inputs.replace(original, f'"{replacement.as_posix()}"')
+    inputs = inputs.replace("$:", ":")
     variables = {}
     for line in edge[1:]:
         match = re.fullmatch(r"  ([A-Z_]+) = (.*)", line)

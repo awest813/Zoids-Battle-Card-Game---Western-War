@@ -1,0 +1,11 @@
+{
+  "M/OP_MOVIE.STR": [
+    {"frames": [494, 532], "box": [44, 20, 232, 23], "lines": ["ZOIDS BATTLE CARD GAME"]},
+    {"frames": [494, 532], "box": [56, 133, 208, 36], "lines": ["WESTERN CONTINENTAL WAR"]},
+    {"frames": [535, 568], "box": [15, 161, 211, 34], "lines": ["The Empire nearly won", "the last war in Europa."]},
+    {"frames": [568, 588], "box": [109, 161, 205, 34], "lines": ["You'll lead the attack", "on Europa as commander."]},
+    {"frames": [588, 612], "box": [109, 161, 205, 34], "lines": ["Let me brief you", "on the operation."]},
+    {"frames": [652, 665], "box": [109, 160, 205, 34], "lines": ["Target confirmed."]},
+    {"frames": [700, 726], "box": [109, 161, 205, 30], "lines": ["Let's go, Liger!"]}
+  ]
+}
