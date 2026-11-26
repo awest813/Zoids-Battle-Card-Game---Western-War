@@ -129,6 +129,10 @@ The TOMY logo's visible wording is already English. Sampled frames across all 15
 
 ### Text
 
+The Zoid face pass compared the game's printed rules against matching retail card photographs. Check the built-in weapon label and HP cost on Geno Saurer, a preserved targeting diagram on Gojulas V1, and the denser rules on the compact Geno Breaker RS and Blade Liger BS faces. The two Liger Zero faces in the game have different printed rules from the retail cards checked. Their special text still needs verification. [Geno Saurer card](https://ameblo.jp/bluekoara/entry-12253089685.html) · [Republic booster photographs](https://jp.mercari.com/item/m65897994071) · [Geno Breaker RS card](https://ameblo.jp/bluekoara/entry-12367147043.html) · [Blade Liger BS card](https://ameblo.jp/bluekoara/entry-12368697968.html)
+
+The OpenGL album test opened Geno Saurer, Gojulas V1, Geno Breaker RS, Blade Liger BS, Heldigunner DT and Ultrasaurus. A disposable state exposed locked entries and the two compact variants for rendering. A pixel comparison with the prior pack found changes limited to the rule bands of 29 faces and confirmed that the targeting diagrams were preserved.
+
 - [ ] Memory-card dialog is clean English, no tail bleed.
 - [ ] Opening story: 10–20 consecutive lines, no clipping.
 - [ ] Battle voice/tutorial prompts are English.

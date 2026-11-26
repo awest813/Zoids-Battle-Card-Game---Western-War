@@ -20,27 +20,70 @@ THUMB_ARCHIVE_HASH = "b38a63767faf619609cb6888c4cc77a75365c2db14c78ccecee9463666
 PACK = Path("work/localization-textures/SLPS-03255")
 WATER_OR_AIR = "Water aptitude on water tiles. Air aptitude on all other tiles."
 BLADE_LIGER_SPECIAL = "Side melee power 800. Frontal attack damage taken -200."
+FOCUSED_CANNON = "Focused Charged Particle Cannon. Spend 200 HP. Deal 700 piercing damage to 2 Zoids in front range."
+TRANSPORT = "When moving, carry up to 2 adjacent allied M-types or 4 adjacent allied S-types."
+WEAPON_DESTROY = "On a hit, discard 1 target Custom Card instead of dealing damage."
+BERSERK_CANNON = ("Built-in Charged Particle Cannon. Deal 700 piercing damage to 2 Zoids in front or rear range. "
+                 "Berserk. Roll 1 on a hit check and attack an ally in range.")
+AMBUSH = "Ambush. When attacked by a Zoid in range, attack first. No counterattack after an ambush."
+ALL_DIRECTION_SHOT = ("Built-in All-Direction Shot. Deal 400 damage to all Zoids within 2 tiles, "
+                      "including allies and bases. Melee hit checks -1.")
 ZOID_SPECIAL = {
     6: "Frontal attack damage taken -100.",
+    10: FOCUSED_CANNON,
     13: "Enemy ranged hit checks -1.",
     14: "Melee attack 700. Can also attack the two forward diagonals.",
+    15: "Red Parts armor reduces damage from frontal attacks by 100.",
+    16: "Charged Particle Cannon. Spend 200 HP. Deal 900 piercing damage to 2 Zoids in range.",
+    17: TRANSPORT,
     18: "Melee attack +100.",
     19: "Ranged attack +100 against Zoids with air aptitude.",
+    20: f"Weapon Destroy. {WEAPON_DESTROY}\n{FOCUSED_CANNON}",
     21: "Melee attack +200.",
+    22: "Booster Cannon. Ranged power 500, range 5.",
     23: WATER_OR_AIR,
+    24: f"Equipment Destroy. {WEAPON_DESTROY}\n"
+        "Focused Charged Particle Cannon. Spend 200 HP. Deal 800 piercing damage to 2 Zoids in front range.",
+    25: BERSERK_CANNON,
+    26: AMBUSH,
     27: WATER_OR_AIR,
+    29: "In forest, can attack and counterattack the two rear diagonal tiles.",
+    30: FOCUSED_CANNON,
     32: "Can also make ranged attacks one square diagonally behind, on either side.",
     41: BLADE_LIGER_SPECIAL,
     42: "Side melee power 700.",
     43: "Counterattack hit checks +1.",
     44: "Ranged hit checks +1 against Zoids with air aptitude.",
+    45: "Long Range Rifle. Ranged power 600, range 7, hit checks +1. Lose 200 HP on a roll of 1.",
+    46: "Melee power 700 against L-types. Hit checks +1 against Zoids with air aptitude.",
+    47: "Melee 2 adjacent Zoids at once. Lose 200 HP on a roll of 1.",
+    48: TRANSPORT,
     49: "Range +3 on turns when this Zoid does not move.",
+    50: "Strike Nose. Melee attacks and counters can also reach 2 tiles straight ahead.",
+    51: "Underwater Shot. While in water, ranged power 500, range 5.",
     52: "Ranged attack +200 against Zoids with air aptitude.",
+    53: "Large-Caliber Beam Cannon. Ranged power 600, range 9, straight ahead only.",
+    54: "Sniper Rifle. Ranged power 600, range 5, straight back only.",
     55: WATER_OR_AIR,
+    56: ALL_DIRECTION_SHOT,
+    57: "After moving straight, frontal melee power +200.",
     60: BLADE_LIGER_SPECIAL,
+    63: ALL_DIRECTION_SHOT,
+    64: BERSERK_CANNON,
+    66: AMBUSH,
+    67: "Frontal damage taken -200. A hit roll of 6 against Geno Breaker doubles damage without the +100 crit bonus.",
+    73: "Twin Fangs. Melee up to 2 Zoids across the 3 forward tiles.",
+    74: "Instead of a normal move, move twice as far on sand. You cannot leave sand.",
     76: "Melee attack +100.",
+    77: "ATK +400 vs Van's Zoid. On hit, discard 1 target Custom instead of damage. "
+        "Use Shadow here for +700 HP, +300 ATK. Shadow's revival effect is unavailable.",
+    78: "Side melee +100. ATK +300 vs Raven's Zoid. Energy Shield cuts frontal damage by 300. "
+        "Use Zeke here for +800 HP, +200 ATK. Zeke's revival effect is unavailable.",
 }
-ZOID_SPECIAL_RIGHT_EDGE = {6: 104, 14: 104, 32: 104, 41: 103, 60: 103}
+ZOID_SPECIAL_RIGHT_EDGE = {
+    6: 104, 14: 104, 29: 103, 32: 104, 41: 103, 47: 103, 50: 104, 60: 103, 67: 102, 73: 103,
+}
+ZOID_BUILT_IN_WEAPONS = {10, 16, 20, 24, 30, 45}
 REVIEWED_RULES = {
     0: "All Zoids within one square of the user take 300 damage, including diagonals. Allies and bases are also affected.",
     1: "Target a square 5–10 spaces straight ahead. Zoids on the target take 300 damage. Zoids on adjacent squares take 200. Allies and bases are also affected.",
@@ -160,7 +203,12 @@ def paint_zoid(face, name, index, record):
     paint_label(face, special_box, "SPECIAL", "#dfdfd6", "#343331", max_size=18)
     if index in ZOID_SPECIAL:
         right = ZOID_SPECIAL_RIGHT_EDGE.get(index, 119)
-        paint_rule(face, (29, 138, right, 153), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
+        bottom = 154 if index in (20, 24, 56, 63, 67, 77, 78) else 153
+        if index in ZOID_BUILT_IN_WEAPONS:
+            paint_label(face, (8, 144, 29, bottom), "BUILT-IN", "#bc492e", "#fff0dd", max_size=15)
+        if compact_stats:
+            face.paste("#d2d3cd", scaled((8, special_box[3], special_box[2], bottom)))
+        paint_rule(face, (special_box[2], special_box[1], right, bottom), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
 
 
 def paint_cep(face, name, rule, pilot, source):
