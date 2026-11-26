@@ -116,6 +116,7 @@ enabled = $("$latinFirst".ToLowerInvariant())
 [IO.File]::WriteAllText((Join-Path $mods "state.toml"), $modState)
 
 $env:PSX_XLATE_CAPTURE = if ($Capture) { "1" } else { "0" }
+$env:PSX_XLATE_TABLE_DIR = $activeTables
 $env:PSX_LANG = $Lang
 $env:PSX_STARVATION_TIMEOUT_US = "0"
 $argLine = "--no-launcher --game `"$config`" --disc `"$cue`" --memcard-dir `"$SaveDir`" --debug-port $Port"

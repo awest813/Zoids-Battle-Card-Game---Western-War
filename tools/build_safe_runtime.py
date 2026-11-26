@@ -68,6 +68,12 @@ def relocated_source(source):
         ("    const uint32_t sp = cpu->gpr[29];\n", ""),
         ("apply_to_reg(ram, cpu, sp, argregs[a], te, term)",
          "apply_to_reg(ram, argregs[a], te, term)"),
+        ("    if (project_root && *project_root)\n"
+         '        g_dir = (fs::path(project_root) / "translations").string();',
+         '    const char* table_dir = std::getenv("PSX_XLATE_TABLE_DIR");\n'
+         "    if (table_dir && *table_dir) g_dir = table_dir;\n"
+         "    else if (project_root && *project_root)\n"
+         '        g_dir = (fs::path(project_root) / "translations").string();'),
         (STACK_SCRATCH, HASH_ARENA),
     )
     for stock, updated in replacements:
