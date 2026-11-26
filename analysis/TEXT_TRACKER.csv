@@ -369,8 +369,8 @@ TXT-0367,004958,80014158,27,13,tutorial,inplace,2,800c49f0,28,13,27,P1,translate
 TXT-0368,004974,80014174,17,8,tutorial,inplace,6,800c49dc,20,9,19,P1,translated,ことができます。,with the same name.,6 pointer(s); pointer redirection
 TXT-0369,004988,80014188,27,13,tutorial,inplace,2,800c49d8,28,13,27,P1,translated,数字の数までカードをつける,You can attach cards up to,2 pointer(s); pointer redirection
 TXT-0370,0049a4,800141a4,27,13,tutorial,inplace,2,800c49d4,28,13,27,P1,translated,ゾイドのＷＲで書かれている,the number shown in the Zoid's WR.,2 pointer(s); pointer redirection
-TXT-0371,0049c0,800141c0,27,13,tutorial,inplace,2,800c49bc,28,13,27,P1,translated,カードを、ゾイドにとりつけ,Attach cards to the Zoid,2 pointer(s); pointer redirection
-TXT-0372,0049dc,800141dc,25,12,tutorial,inplace,2,800c49b8,28,13,27,P1,translated,このフェイズで、カスタム,"In this phase, Custom",2 pointer(s); pointer redirection
+TXT-0371,0049c0,800141c0,27,13,tutorial,inplace,2,800c49bc,28,13,27,P1,translated,カードを、ゾイドにとりつけ,with Custom,2 pointer(s); pointer redirection
+TXT-0372,0049dc,800141dc,25,12,tutorial,inplace,2,800c49b8,28,13,27,P1,translated,このフェイズで、カスタム,Equip Zoids,2 pointer(s); pointer redirection
 TXT-0373,0049f8,800141f8,27,13,tutorial,inplace,2,800c49a4,28,13,27,P1,translated,カスタムフェイズがきます。,the Custom Phase begins.,2 pointer(s); pointer redirection
 TXT-0374,004a14,80014214,27,13,tutorial,inplace,2,800c49a0,28,13,27,P1,translated,武器を装備することができる,You can equip weapons,2 pointer(s); pointer redirection
 TXT-0375,004a30,80014230,25,12,tutorial,inplace,2,800c499c,28,13,27,P1,translated,ターンの始めに、ゾイドに,"At the start of your turn,",2 pointer(s); pointer redirection
@@ -614,8 +614,8 @@ TXT-0612,005ffc,800157fc,19,9,story,inplace,1,800c98f4,20,9,19,P1,translated,選
 TXT-0613,006010,80015810,23,11,story,inplace,1,800c98f0,24,11,23,P1,translated,コマンダーとして、君が,"As commander, you",1 pointer(s); pointer redirection
 TXT-0614,006028,80015828,27,13,story,inplace,1,800c98ec,28,13,27,P1,translated,今回、このオペレーションの,"This time, for this operation",1 pointer(s); pointer redirection
 TXT-0615,006044,80015844,19,9,story,inplace,1,800c98c4,20,9,19,P1,translated,これは聖戦なのだ。,This is a holy war.,1 pointer(s); pointer redirection
-TXT-0616,006058,80015858,27,13,story,inplace,1,800c98ac,28,13,27,P1,translated,規律と秩序をもたらす義務が,We must bring order and discipline.,1 pointer(s); pointer redirection
-TXT-0617,006074,80015874,27,13,story,inplace,1,800c98a8,28,13,27,P1,translated,われわれは、エウロペ大陸に,We shall bring the Europa continent,1 pointer(s); pointer redirection
+TXT-0616,006058,80015858,27,13,story,inplace,1,800c98ac,28,13,27,P1,translated,規律と秩序をもたらす義務が,order and discipline to Europa.,1 pointer(s); pointer redirection
+TXT-0617,006074,80015874,27,13,story,inplace,1,800c98a8,28,13,27,P1,translated,われわれは、エウロペ大陸に,It's our duty to bring,1 pointer(s); pointer redirection
 TXT-0618,006090,80015890,17,8,story,inplace,1,800c9894,20,9,19,P1,translated,聞いての通りだ。,As you heard.,1 pointer(s); pointer redirection
 TXT-0619,0060a4,800158a4,17,8,story,inplace,1,800c9880,20,9,19,P1,translated,ごくろう、少佐。,"Well done, Major.",1 pointer(s); pointer redirection
 TXT-0620,0060b8,800158b8,13,6,story,inplace,1,800c9854,16,7,15,P1,translated,わかったな。,Understood?,1 pointer(s); pointer redirection
@@ -626,7 +626,7 @@ TXT-0624,006108,80015908,29,14,story,inplace,1,800c9828,32,15,31,P1,translated,�
 TXT-0625,006128,80015928,27,13,story,inplace,1,800c9808,28,13,27,P1,translated,ガイガロスをバックアップ。,Back up Gaigalus.,1 pointer(s); pointer redirection
 TXT-0626,006144,80015944,29,14,story,inplace,1,800c9804,32,15,31,P1,translated,第二に西エウロペ大陸を攻略。,"Second, take West Europa.",1 pointer(s); pointer redirection
 TXT-0627,006164,80015964,27,13,story,inplace,1,800c97e4,28,13,27,P1,translated,共和国の補給ルートを絶つ。,Cut off the Republic's supply route.,1 pointer(s); pointer redirection
-TXT-0628,006180,80015980,25,12,story,inplace,1,800c97dc,28,13,27,P1,translated,第一に、北エウロペ大陸を,"First, North Europa",1 pointer(s); pointer redirection
+TXT-0628,006180,80015980,25,12,story,inplace,1,800c97dc,28,13,27,P1,translated,第一に、北エウロペ大陸を,"First, we take",1 pointer(s); pointer redirection
 TXT-0629,00619c,8001599c,15,7,story,inplace,1,800c97bc,16,7,15,P1,translated,わかれている。,is divided.,1 pointer(s); pointer redirection
 TXT-0630,0061ac,800159ac,25,12,story,inplace,1,800c97b8,28,13,27,P1,translated,オペレーションは３段階に,The operation has three stages.,1 pointer(s); pointer redirection
 TXT-0631,0061c8,800159c8,25,12,story,inplace,1,800c9790,28,13,27,P1,translated,協力し、共和国を攻める。,Cooperate and attack the Republic.,1 pointer(s); pointer redirection
@@ -1097,7 +1097,7 @@ TXT-1095,008d68,80018568,29,14,story,inplace,1,800cc910,32,15,31,P1,translated,�
 TXT-1096,008d88,80018588,25,12,story,inplace,1,800cc90c,28,13,27,P1,translated,そこで、われわれの部隊が,So our unit,1 pointer(s); pointer redirection
 TXT-1097,008da4,800185a4,27,13,story,inplace,1,800cc8f8,28,13,27,P1,translated,攻撃をしかけているはずだ。,should be attacking by now.,1 pointer(s); pointer redirection
 TXT-1098,008dc0,800185c0,27,13,story,inplace,1,800cc8f4,28,13,27,P1,translated,すでに、ガイガロスの部隊は,The Gaigalus unit has already,1 pointer(s); pointer redirection
-TXT-1099,008ddc,800185dc,27,13,story,inplace,1,800cc8dc,28,13,27,P1,translated,ニューヘリックシティに侵攻,invaded New Helic City.,1 pointer(s); pointer redirection
+TXT-1099,008ddc,800185dc,27,13,story,inplace,1,800cc8dc,28,13,27,P1,translated,ニューヘリックシティに侵攻,we'll invade New Helic City.,1 pointer(s); pointer redirection
 TXT-1100,008df8,800185f8,29,14,story,inplace,1,800cc8d8,32,15,31,P1,translated,これより、ガイガロスと協力し,"Now, in cooperation with Gaigalus,",1 pointer(s); pointer redirection
 TXT-1101,008e18,80018618,21,10,story,inplace,1,800ccc78,24,11,23,P1,translated,正常であるならば…。,If it is normal...,1 pointer(s); pointer redirection
 TXT-1102,008e30,80018630,27,13,story,inplace,1,800ccc74,28,13,27,P1,translated,ただ、その頂点にたつものが,"However, whoever stands at the top",1 pointer(s); pointer redirection
@@ -1152,8 +1152,8 @@ TXT-1150,0092c0,80018ac0,9,4,story,inplace,1,800ccec0,12,5,11,P1,translated,し�
 TXT-1151,0092cc,80018acc,23,11,story,inplace,1,800ccebc,24,11,23,P1,translated,集結させて、これを撃破,Assemble them and destroy this.,1 pointer(s); pointer redirection
 TXT-1152,0092e4,80018ae4,27,13,story,inplace,1,800cceb8,28,13,27,P1,translated,最後に、西エウロペに帝国を,"Finally, place the Empire in West Europa",1 pointer(s); pointer redirection
 TXT-1153,009300,80018b00,25,12,story,inplace,1,800cce98,28,13,27,P1,translated,北エウロペを奪回します。,We will retake North Europa.,1 pointer(s); pointer redirection
-TXT-1154,00931c,80018b1c,27,13,story,inplace,1,800cce80,28,13,27,P1,translated,受けて、北エウロペの東から,"Receiving it, from the east of North Europa",1 pointer(s); pointer redirection
-TXT-1155,009338,80018b38,27,13,story,inplace,1,800cce7c,28,13,27,P1,translated,次に、デルポイからの補給を,"Next, the supplies from Delphi",1 pointer(s); pointer redirection
+TXT-1154,00931c,80018b1c,27,13,story,inplace,1,800cce80,28,13,27,P1,translated,受けて、北エウロペの東から,then land on North Europa's,1 pointer(s); pointer redirection
+TXT-1155,009338,80018b38,27,13,story,inplace,1,800cce7c,28,13,27,P1,translated,次に、デルポイからの補給を,"Next, get supplies from Delphi,",1 pointer(s); pointer redirection
 TXT-1156,009354,80018b54,25,12,story,inplace,1,800cce5c,28,13,27,P1,translated,南エウロペを奪回します。,We will retake South Europa.,1 pointer(s); pointer redirection
 TXT-1157,009370,80018b70,25,12,story,inplace,1,800cce58,28,13,27,P1,translated,これを撃退し、そのまま、,"Repel this and, as is,",1 pointer(s); pointer redirection
 TXT-1158,00938c,80018b8c,29,14,story,inplace,1,800cce44,32,15,31,P1,translated,攻撃をしかけると思われます。,They will probably attack.,1 pointer(s); pointer redirection
@@ -1413,7 +1413,7 @@ TXT-1411,00ab90,8001a390,25,12,story,inplace,1,800ceb28,28,13,27,P1,translated,�
 TXT-1412,00abac,8001a3ac,29,14,story,inplace,1,800ceb24,32,15,31,P1,translated,また、カタパルトで固定され、,"Also, fixed on the catapult,",1 pointer(s); pointer redirection
 TXT-1413,00abcc,8001a3cc,27,13,story,inplace,1,800ceb0c,28,13,27,P1,translated,ファンがはずされているよう,The fan seems to be removed.,1 pointer(s); pointer redirection
 TXT-1414,00abe8,8001a3e8,29,14,story,inplace,1,800ceb08,32,15,31,P1,translated,デスザウラーは調整中のため、,"The Death Saurer is under adjustment,",1 pointer(s); pointer redirection
-TXT-1415,00ac08,8001a408,27,13,story,inplace,1,800cead8,28,13,27,P1,translated,すでに、実戦配備されている,It is already deployed for combat.,1 pointer(s); pointer redirection
+TXT-1415,00ac08,8001a408,27,13,story,inplace,1,800cead8,28,13,27,P1,translated,すでに、実戦配備されている,It's already deployed for combat?,1 pointer(s); pointer redirection
 TXT-1416,00ac24,8001a424,13,6,story,inplace,1,800ceac4,16,7,15,P1,translated,バケモノか？,Is it a monster?,1 pointer(s); pointer redirection
 TXT-1417,00ac34,8001a434,23,11,story,inplace,1,800ceac0,24,11,23,P1,translated,あの、荷電粒子砲を持つ,That one with the charged particle cannon,1 pointer(s); pointer redirection
 TXT-1418,00ac4c,8001a44c,15,7,story,inplace,1,800ceabc,16,7,15,P1,translated,デスザウラー？,The Death Saurer?,1 pointer(s); pointer redirection

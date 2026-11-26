@@ -4,7 +4,8 @@ These are applied last so they replace the longer first-pass lines.
 """
 
 POLISH = {
-    "TXT-0616": "We must bring order and discipline.",
+    "TXT-0616": "order and discipline to Europa.",
+    "TXT-0617": "It's our duty to bring",
     "TXT-0638": "Our Empire advanced, and from the east",
     "TXT-0677": "Only the Command Wolf is a threat.",
     "TXT-0696": "There is a base in the desert they fled to.",

@@ -4773,7 +4773,7 @@ ptr_addrs = ["0x800c49bc", "0x800c647c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Attach cards to the Zoid"
+en = "with Custom"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4786,7 +4786,7 @@ ptr_addrs = ["0x800c49b8", "0x800c6478"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "In this phase, Custom"
+en = "Equip Zoids"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -7958,7 +7958,7 @@ ptr_addrs = ["0x800c98ac"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We must bring order and discipline."
+en = "order and discipline to Europa."
 note = "story inplace max=13"
 
 [[entry]]
@@ -7971,7 +7971,7 @@ ptr_addrs = ["0x800c98a8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We shall bring the Europa continent"
+en = "It's our duty to bring"
 note = "story inplace max=13"
 
 [[entry]]
@@ -8114,7 +8114,7 @@ ptr_addrs = ["0x800c97dc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "First, North Europa"
+en = "First, we take"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14237,7 +14237,7 @@ ptr_addrs = ["0x800cc8dc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "invaded New Helic City."
+en = "we'll invade New Helic City."
 note = "story inplace max=13"
 
 [[entry]]
@@ -14952,7 +14952,7 @@ ptr_addrs = ["0x800cce80"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Receiving it, from the east of North Europa"
+en = "then land on North Europa's"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14965,7 +14965,7 @@ ptr_addrs = ["0x800cce7c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Next, the supplies from Delphi"
+en = "Next, get supplies from Delphi,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18345,7 +18345,7 @@ ptr_addrs = ["0x800cead8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "It is already deployed for combat."
+en = "It's already deployed for combat?"
 note = "story inplace max=13"
 
 [[entry]]
@@ -31521,3 +31521,303 @@ term = "nul"
 pad = "none"
 en = "Acquire"
 note = "Zoid ability outside static tracker"
+
+[[entry]]
+src_hex = "82dc82b78142"
+src_jp = "ます。"
+src_addr = 0x800f6b94
+ptr_addrs = ["0x800c49c0", "0x800c6480"]
+term = "nul"
+pad = "none"
+en = "Cards here."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82be82c88142"
+src_jp = "だな。"
+src_addr = 0x800f6b9c
+ptr_addrs = ["0x800c4b7c"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "835d83438368"
+src_jp = "ゾイド"
+src_addr = 0x800f6ba4
+ptr_addrs = ["0x800c4eb0", "0x800ca0a0", "0x800ca384", "0x800caa38", "0x800cae60", "0x800cafa0", "0x800cb520", "0x800cb77c", "0x800cbe24", "0x800cc1f4", "0x800cc43c", "0x800cc810", "0x800cd710", "0x800cddac", "0x800ce1d0", "0x800ce5cc", "0x800cea18", "0x800cec48", "0x800cf158", "0x800cf504", "0x800cf6dc", "0x800cfbd4", "0x800cfd34"]
+term = "nul"
+pad = "none"
+en = "Zoid"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "836083628142"
+src_jp = "チッ。"
+src_addr = 0x800f6bac
+ptr_addrs = ["0x800c53c8"]
+term = "nul"
+pad = "none"
+en = "Tch."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82be82cb8142"
+src_jp = "だね。"
+src_addr = 0x800f6bb4
+ptr_addrs = ["0x800c5c24"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82ad82bb82c1"
+src_jp = "くそっ"
+src_addr = 0x800f6bd4
+ptr_addrs = ["0x800c698c", "0x800c6a50", "0x800c6b58", "0x800c6bdc", "0x800c6ca0", "0x800c6ebc", "0x800c6f3c", "0x800c6fbc", "0x800c7078", "0x800c71a8", "0x800c726c", "0x800c72f0"]
+term = "nul"
+pad = "none"
+en = "Damn it!"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "816381638163"
+src_jp = "………"
+src_addr = 0x800f6bdc
+ptr_addrs = ["0x800c98d8"]
+term = "nul"
+pad = "none"
+en = "..."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82a082e98142"
+src_jp = "ある。"
+src_addr = 0x800f6be4
+ptr_addrs = ["0x800c98b0", "0x800cadc8", "0x800cc2c8"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "8d5597aa8142"
+src_jp = "攻略。"
+src_addr = 0x800f6bec
+ptr_addrs = ["0x800c97e0"]
+term = "nul"
+pad = "none"
+en = "North Europa."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82a882a28141"
+src_jp = "おい、"
+src_addr = 0x800f6bfc
+ptr_addrs = ["0x800c970c"]
+term = "nul"
+pad = "none"
+en = "Hey,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "8a7489ba8141"
+src_jp = "閣下、"
+src_addr = 0x800f6c0c
+ptr_addrs = ["0x800c9b8c", "0x800c9c24", "0x800cc174", "0x800cc308"]
+term = "nul"
+pad = "none"
+en = "Your Excellency,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82d382de8142"
+src_jp = "ふむ。"
+src_addr = 0x800f6c14
+ptr_addrs = ["0x800c9e30"]
+term = "nul"
+pad = "none"
+en = "Hmm."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "837483938142"
+src_jp = "フン。"
+src_addr = 0x800f6c24
+ptr_addrs = ["0x800c9fd0", "0x800ca2b4"]
+term = "nul"
+pad = "none"
+en = "Hmph."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "92ca82b98142"
+src_jp = "通せ。"
+src_addr = 0x800f6c2c
+ptr_addrs = ["0x800c9f70", "0x800ca254"]
+term = "nul"
+pad = "none"
+en = "Send him in."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82c582b78142"
+src_jp = "です。"
+src_addr = 0x800f6c3c
+ptr_addrs = ["0x800ca9d8", "0x800cdf60", "0x800ceb10"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "91e588d18141"
+src_jp = "大尉、"
+src_addr = 0x800f6c44
+ptr_addrs = ["0x800caeec"]
+term = "nul"
+pad = "none"
+en = "Captain,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82e682b58142"
+src_jp = "よし。"
+src_addr = 0x800f6c4c
+ptr_addrs = ["0x800cb1dc"]
+term = "nul"
+pad = "none"
+en = "All right."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "81638142"
+src_jp = "…。"
+src_addr = 0x800f6c54
+ptr_addrs = ["0x800cb168", "0x800cbd00", "0x800cc0d8", "0x800cc9c8", "0x800cca80", "0x800ccb2c", "0x800ccbac", "0x800ccbd8", "0x800ce078", "0x800cf744", "0x800d0164"]
+term = "nul"
+pad = "none"
+en = "..."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "8cce82a98142"
+src_jp = "湖か。"
+src_addr = 0x800f6c5c
+ptr_addrs = ["0x800cb24c"]
+term = "nul"
+pad = "none"
+en = "A lake, huh?"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82ad82ea8142"
+src_jp = "くれ。"
+src_addr = 0x800f6c64
+ptr_addrs = ["0x800cb334"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82e682b58141"
+src_jp = "よし、"
+src_addr = 0x800f6c6c
+ptr_addrs = ["0x800cb48c", "0x800cbc38", "0x800cee40"]
+term = "nul"
+pad = "none"
+en = "All right,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "8a7489ba8142"
+src_jp = "閣下。"
+src_addr = 0x800f6c7c
+ptr_addrs = ["0x800cc93c"]
+term = "nul"
+pad = "none"
+en = "Your Excellency."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82b782e98142"
+src_jp = "する。"
+src_addr = 0x800f6c84
+ptr_addrs = ["0x800cc8e0", "0x800cf94c"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "8fe397a48142"
+src_jp = "上陸。"
+src_addr = 0x800f6c8c
+ptr_addrs = ["0x800cce84"]
+term = "nul"
+pad = "none"
+en = "east coast."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "97b989f08142"
+src_jp = "了解。"
+src_addr = 0x800f6c9c
+ptr_addrs = ["0x800cd458", "0x800cd560"]
+term = "nul"
+pad = "none"
+en = "Understood."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82de81638142"
+src_jp = "む…。"
+src_addr = 0x800f6ca4
+ptr_addrs = ["0x800cdb40"]
+term = "nul"
+pad = "none"
+en = "Hmm..."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82c882c98148"
+src_jp = "なに？"
+src_addr = 0x800f6cac
+ptr_addrs = ["0x800cda40"]
+term = "nul"
+pad = "none"
+en = "What?"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82a0815b8141"
+src_jp = "あー、"
+src_addr = 0x800f6cb4
+ptr_addrs = ["0x800ce08c"]
+term = "nul"
+pad = "none"
+en = "Uh,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82a082a08142"
+src_jp = "ああ。"
+src_addr = 0x800f6cbc
+ptr_addrs = ["0x800ce644"]
+term = "nul"
+pad = "none"
+en = "Right."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82cc82a98163"
+src_jp = "のか…"
+src_addr = 0x800f6cc4
+ptr_addrs = ["0x800ceadc"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"

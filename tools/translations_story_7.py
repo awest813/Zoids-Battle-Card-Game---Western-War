@@ -49,7 +49,7 @@ STORY_7 = {
     "TXT-1412": "Also, fixed on the catapult,",
     "TXT-1413": "The fan seems to be removed.",
     "TXT-1414": "The Death Saurer is under adjustment,",
-    "TXT-1415": "It is already deployed for combat.",
+    "TXT-1415": "It's already deployed for combat?",
     "TXT-1416": "Is it a monster?",
     "TXT-1417": "That one with the charged particle cannon",
     "TXT-1418": "The Death Saurer?",

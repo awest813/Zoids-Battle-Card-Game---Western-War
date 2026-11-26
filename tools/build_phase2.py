@@ -11,6 +11,7 @@ import csv
 import os
 from collections import Counter, defaultdict
 
+from battle_script import short_dialogue_slots
 from card_catalog import card_records, english_names, zoid_label_slots
 from card_text_table import EXE
 from translations_memory import MEMORY, MEMORY_DISPLAY
@@ -35,6 +36,7 @@ from translations_card_text_4 import CARD_TEXT_4
 from translations_card_names_2 import CARD_NAMES_2
 from translations_polish import POLISH
 from translations_objectives import OBJECTIVES, fits_objective
+from translations_dialogue_short import SHORT_DIALOGUE
 
 RAM_BASE = 0x8000F800
 ALL_TR = {}
@@ -241,31 +243,57 @@ pending_lines += [
     "",
 ]
 
+def supplemental_lines(raw, japanese, source, slots, english, note):
+    addresses = ", ".join(f'"{slot:#010x}"' for slot in sorted(set(slots)))
+    return [
+        "[[entry]]",
+        f'src_hex = "{raw.hex()}"',
+        f'src_jp = {toml_quote(japanese)}',
+        f"src_addr = {source:#010x}",
+        f"ptr_addrs = [{addresses}]",
+        'term = "nul"',
+        'pad = "none"',
+        f'en = {toml_quote(english)}',
+        f'note = "{note}"',
+        "",
+    ]
+
+
 # The short strings near the end of retail data were outside the tracker scan.
 executable = EXE.read_bytes()
+
+
+def source_text(source):
+    offset = source - RAM_BASE
+    raw = executable[offset:executable.index(b"\0", offset)]
+    return raw, raw.decode("shift_jis")
+
+
 added_labels = set()
 tracked_sources = {int(row["ram_addr"], 16) for row in tracker}
 for kind, slot, source in zoid_label_slots(executable):
     if source in tracked_sources:
         continue
-    offset = source - RAM_BASE
-    raw = executable[offset:executable.index(b"\0", offset)]
-    japanese = raw.decode("shift_jis")
+    raw, japanese = source_text(source)
     added_labels.add(japanese)
-    pending_lines += [
-        "[[entry]]",
-        f'src_hex = "{raw.hex()}"',
-        f'src_jp = {toml_quote(japanese)}',
-        f"src_addr = {source:#010x}",
-        f'ptr_addrs = ["{slot:#010x}"]',
-        'term = "nul"',
-        'pad = "none"',
-        f'en = {toml_quote(ZOID_LABELS_OUTSIDE_TRACKER[japanese])}',
-        f'note = "Zoid {kind} outside static tracker"',
-        "",
-    ]
+    pending_lines += supplemental_lines(raw, japanese, source, [slot],
+                                       ZOID_LABELS_OUTSIDE_TRACKER[japanese],
+                                       f"Zoid {kind} outside static tracker")
 if added_labels != ZOID_LABELS_OUTSIDE_TRACKER.keys():
     raise ValueError("The retail Zoid label tables do not match the supplemental labels")
+
+dialogue_addresses = defaultdict(list)
+for slot, source in short_dialogue_slots(executable, tracked_sources):
+    dialogue_addresses[source].append(slot)
+added_dialogue = set()
+for source, slots in sorted(dialogue_addresses.items()):
+    raw, japanese = source_text(source)
+    if japanese in SHORT_DIALOGUE:
+        added_dialogue.add(japanese)
+        pending_lines += supplemental_lines(raw, japanese, source, slots, SHORT_DIALOGUE[japanese],
+                                           "Short dialogue outside static tracker")
+if added_dialogue != SHORT_DIALOGUE.keys():
+    raise ValueError("The retail dialogue groups do not match the supplemental fragments")
 
 for japanese, english in (MEMORY_DISPLAY | MENU_DISPLAY).items():
     safe_lines += [

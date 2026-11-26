@@ -367,8 +367,8 @@ TXT-0367,tutorial,同じ名前のカードは１枚しか,0x80014158,2,800c49f0;
 TXT-0368,tutorial,ことができます。,0x80014174,6,800c49dc;800c4acc;800c649c;800c658c;800d1df8;800d1efc,20,9,with the same name.
 TXT-0369,tutorial,数字の数までカードをつける,0x80014188,2,800c49d8;800c6498,28,13,You can attach cards up to
 TXT-0370,tutorial,ゾイドのＷＲで書かれている,0x800141a4,2,800c49d4;800c6494,28,13,the number shown in the Zoid's WR.
-TXT-0371,tutorial,カードを、ゾイドにとりつけ,0x800141c0,2,800c49bc;800c647c,28,13,Attach cards to the Zoid
-TXT-0372,tutorial,このフェイズで、カスタム,0x800141dc,2,800c49b8;800c6478,28,13,"In this phase, Custom"
+TXT-0371,tutorial,カードを、ゾイドにとりつけ,0x800141c0,2,800c49bc;800c647c,28,13,with Custom
+TXT-0372,tutorial,このフェイズで、カスタム,0x800141dc,2,800c49b8;800c6478,28,13,Equip Zoids
 TXT-0373,tutorial,カスタムフェイズがきます。,0x800141f8,2,800c49a4;800c6464,28,13,the Custom Phase begins.
 TXT-0374,tutorial,武器を装備することができる,0x80014214,2,800c49a0;800c6460,28,13,You can equip weapons
 TXT-0375,tutorial,ターンの始めに、ゾイドに,0x80014230,2,800c499c;800c645c,28,13,"At the start of your turn,"
@@ -612,8 +612,8 @@ TXT-0612,story,選ばれたわけだが、,0x800157fc,1,800c98f4,20,9,"You were 
 TXT-0613,story,コマンダーとして、君が,0x80015810,1,800c98f0,24,11,"As commander, you"
 TXT-0614,story,今回、このオペレーションの,0x80015828,1,800c98ec,28,13,"This time, for this operation"
 TXT-0615,story,これは聖戦なのだ。,0x80015844,1,800c98c4,20,9,This is a holy war.
-TXT-0616,story,規律と秩序をもたらす義務が,0x80015858,1,800c98ac,28,13,We must bring order and discipline.
-TXT-0617,story,われわれは、エウロペ大陸に,0x80015874,1,800c98a8,28,13,We shall bring the Europa continent
+TXT-0616,story,規律と秩序をもたらす義務が,0x80015858,1,800c98ac,28,13,order and discipline to Europa.
+TXT-0617,story,われわれは、エウロペ大陸に,0x80015874,1,800c98a8,28,13,It's our duty to bring
 TXT-0618,story,聞いての通りだ。,0x80015890,1,800c9894,20,9,As you heard.
 TXT-0619,story,ごくろう、少佐。,0x800158a4,1,800c9880,20,9,"Well done, Major."
 TXT-0620,story,わかったな。,0x800158b8,1,800c9854,16,7,Understood?
@@ -624,7 +624,7 @@ TXT-0624,story,最後に、南エウロペ大陸の北を,0x80015908,1,800c9828,
 TXT-0625,story,ガイガロスをバックアップ。,0x80015928,1,800c9808,28,13,Back up Gaigalus.
 TXT-0626,story,第二に西エウロペ大陸を攻略。,0x80015944,1,800c9804,32,15,"Second, take West Europa."
 TXT-0627,story,共和国の補給ルートを絶つ。,0x80015964,1,800c97e4,28,13,Cut off the Republic's supply route.
-TXT-0628,story,第一に、北エウロペ大陸を,0x80015980,1,800c97dc,28,13,"First, North Europa"
+TXT-0628,story,第一に、北エウロペ大陸を,0x80015980,1,800c97dc,28,13,"First, we take"
 TXT-0629,story,わかれている。,0x8001599c,1,800c97bc,16,7,is divided.
 TXT-0630,story,オペレーションは３段階に,0x800159ac,1,800c97b8,28,13,The operation has three stages.
 TXT-0631,story,協力し、共和国を攻める。,0x800159c8,1,800c9790,28,13,Cooperate and attack the Republic.
@@ -1095,7 +1095,7 @@ TXT-1095,story,後方よりはさみうちをかける。,0x80018568,1,800cc910,
 TXT-1096,story,そこで、われわれの部隊が,0x80018588,1,800cc90c,28,13,So our unit
 TXT-1097,story,攻撃をしかけているはずだ。,0x800185a4,1,800cc8f8,28,13,should be attacking by now.
 TXT-1098,story,すでに、ガイガロスの部隊は,0x800185c0,1,800cc8f4,28,13,The Gaigalus unit has already
-TXT-1099,story,ニューヘリックシティに侵攻,0x800185dc,1,800cc8dc,28,13,invaded New Helic City.
+TXT-1099,story,ニューヘリックシティに侵攻,0x800185dc,1,800cc8dc,28,13,we'll invade New Helic City.
 TXT-1100,story,これより、ガイガロスと協力し,0x800185f8,1,800cc8d8,32,15,"Now, in cooperation with Gaigalus,"
 TXT-1101,story,正常であるならば…。,0x80018618,1,800ccc78,24,11,If it is normal...
 TXT-1102,story,ただ、その頂点にたつものが,0x80018630,1,800ccc74,28,13,"However, whoever stands at the top"
@@ -1150,8 +1150,8 @@ TXT-1150,story,します。,0x80018ac0,1,800ccec0,12,5,We will.
 TXT-1151,story,集結させて、これを撃破,0x80018acc,1,800ccebc,24,11,Assemble them and destroy this.
 TXT-1152,story,最後に、西エウロペに帝国を,0x80018ae4,1,800cceb8,28,13,"Finally, place the Empire in West Europa"
 TXT-1153,story,北エウロペを奪回します。,0x80018b00,1,800cce98,28,13,We will retake North Europa.
-TXT-1154,story,受けて、北エウロペの東から,0x80018b1c,1,800cce80,28,13,"Receiving it, from the east of North Europa"
-TXT-1155,story,次に、デルポイからの補給を,0x80018b38,1,800cce7c,28,13,"Next, the supplies from Delphi"
+TXT-1154,story,受けて、北エウロペの東から,0x80018b1c,1,800cce80,28,13,then land on North Europa's
+TXT-1155,story,次に、デルポイからの補給を,0x80018b38,1,800cce7c,28,13,"Next, get supplies from Delphi,"
 TXT-1156,story,南エウロペを奪回します。,0x80018b54,1,800cce5c,28,13,We will retake South Europa.
 TXT-1157,story,これを撃退し、そのまま、,0x80018b70,1,800cce58,28,13,"Repel this and, as is,"
 TXT-1158,story,攻撃をしかけると思われます。,0x80018b8c,1,800cce44,32,15,They will probably attack.
@@ -1411,7 +1411,7 @@ TXT-1411,story,移動もできないようです。,0x8001a390,1,800ceb28,28,13,
 TXT-1412,story,また、カタパルトで固定され、,0x8001a3ac,1,800ceb24,32,15,"Also, fixed on the catapult,"
 TXT-1413,story,ファンがはずされているよう,0x8001a3cc,1,800ceb0c,28,13,The fan seems to be removed.
 TXT-1414,story,デスザウラーは調整中のため、,0x8001a3e8,1,800ceb08,32,15,"The Death Saurer is under adjustment,"
-TXT-1415,story,すでに、実戦配備されている,0x8001a408,1,800cead8,28,13,It is already deployed for combat.
+TXT-1415,story,すでに、実戦配備されている,0x8001a408,1,800cead8,28,13,It's already deployed for combat?
 TXT-1416,story,バケモノか？,0x8001a424,1,800ceac4,16,7,Is it a monster?
 TXT-1417,story,あの、荷電粒子砲を持つ,0x8001a434,1,800ceac0,24,11,That one with the charged particle cannon
 TXT-1418,story,デスザウラー？,0x8001a44c,1,800ceabc,16,7,The Death Saurer?

@@ -4,8 +4,10 @@ import re
 import tomllib
 from collections import Counter
 
+from battle_script import short_dialogue_slots
 from card_catalog import zoid_label_slots
 from card_text_table import EXE, RAM_BASE, card_text_slots
+from translations_dialogue_short import SHORT_DIALOGUE
 from translations_objectives import OBJECTIVES, fits_objective
 
 print("== TEXT_TRACKER ==")
@@ -108,4 +110,23 @@ for kind in ("type", "ability"):
     for address, source in missing_labels:
         print(f"  slot {address:#010x}, source {source:#010x}")
     errors |= bool(missing_labels)
+
+print("\n== short dialogue outside the tracker ==")
+short_sources = {}
+checked_short = 0
+missing_short = []
+for address, source in short_dialogue_slots(executable, {int(row["ram_addr"], 16) for row in rows}):
+    if source not in short_sources:
+        offset = source - RAM_BASE
+        short_sources[source] = executable[offset:executable.index(b"\0", offset)].decode("shift_jis")
+    if short_sources[source] in SHORT_DIALOGUE:
+        checked_short += 1
+        if (address, source) not in covered:
+            missing_short.append(address)
+print("translated pointer slots", checked_short, "uncovered", len(missing_short))
+remaining_short = sorted(set(short_sources.values()) - SHORT_DIALOGUE.keys())
+print("remaining sources", len(remaining_short), remaining_short)
+for address in missing_short:
+    print(f"  slot {address:#010x}")
+errors |= bool(missing_short)
 raise SystemExit(1 if errors or missing else 0)

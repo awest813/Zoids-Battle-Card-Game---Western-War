@@ -2,27 +2,23 @@
 
 import argparse
 import csv
-import struct
 import sys
 from collections import defaultdict
 from pathlib import Path
 
-from card_text_table import EXE, RAM_BASE, TABLE_START
+from battle_script import dialogue_groups
+from card_text_table import EXE
 from translations_objectives import OBJECTIVE_CELLS
 
 
 def script_rows(executable, tracker, followup):
     """Read recognized opcode 0x12 groups followed by the selected command."""
     sources = {}
-    for offset in range(0x800C0000 - RAM_BASE, TABLE_START - RAM_BASE, 2):
-        opcode, mode, line_count = struct.unpack_from("<3I", executable, offset)
-        if opcode != 0x12 or mode not in (0, 1) or line_count not in (1, 2, 3):
-            continue
-        *lines, next_opcode = struct.unpack_from(f"<{line_count + 1}I", executable, offset + 12)
+    for address, next_opcode, lines in dialogue_groups(executable):
         if next_opcode != followup or any(source not in tracker for source in lines):
             continue
         for source in lines:
-            sources.setdefault(source, offset + RAM_BASE)
+            sources.setdefault(source, address)
     for source, group in sources.items():
         yield tracker[source], group
 

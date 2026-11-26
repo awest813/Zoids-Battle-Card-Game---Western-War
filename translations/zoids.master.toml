@@ -4822,7 +4822,7 @@ ptr_addrs = ["0x800c49bc", "0x800c647c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Attach cards to the Zoid"
+en = "with Custom"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4835,7 +4835,7 @@ ptr_addrs = ["0x800c49b8", "0x800c6478"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "In this phase, Custom"
+en = "Equip Zoids"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -8007,7 +8007,7 @@ ptr_addrs = ["0x800c98ac"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We must bring order and discipline."
+en = "order and discipline to Europa."
 note = "story inplace max=13"
 
 [[entry]]
@@ -8020,7 +8020,7 @@ ptr_addrs = ["0x800c98a8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We shall bring the Europa continent"
+en = "It's our duty to bring"
 note = "story inplace max=13"
 
 [[entry]]
@@ -8163,7 +8163,7 @@ ptr_addrs = ["0x800c97dc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "First, North Europa"
+en = "First, we take"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14286,7 +14286,7 @@ ptr_addrs = ["0x800cc8dc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "invaded New Helic City."
+en = "we'll invade New Helic City."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15001,7 +15001,7 @@ ptr_addrs = ["0x800cce80"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Receiving it, from the east of North Europa"
+en = "then land on North Europa's"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15014,7 +15014,7 @@ ptr_addrs = ["0x800cce7c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Next, the supplies from Delphi"
+en = "Next, get supplies from Delphi,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18394,7 +18394,7 @@ ptr_addrs = ["0x800cead8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "It is already deployed for combat."
+en = "It's already deployed for combat?"
 note = "story inplace max=13"
 
 [[entry]]

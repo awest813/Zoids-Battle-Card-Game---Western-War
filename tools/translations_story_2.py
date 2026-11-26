@@ -28,7 +28,7 @@ STORY_2 = {
     "TXT-0625": "Back up Gaigalus.",
     "TXT-0626": "Second, take West Europa.",
     "TXT-0627": "Cut off the Republic's supply route.",
-    "TXT-0628": "First, North Europa",
+    "TXT-0628": "First, we take",
     "TXT-0629": "is divided.",
     "TXT-0630": "The operation has three stages.",
     "TXT-0631": "Cooperate and attack the Republic.",
