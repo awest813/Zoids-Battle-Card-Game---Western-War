@@ -11,6 +11,7 @@ BIN = Path.home() / ".local/share/retcomm/toolchains/cmake-clang-v1/latest/bin"
 WORKSPACE = Path(__file__).resolve().parents[1]
 TARGET = "ZoidsBattleCardGame.exe"
 OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/text_xlate.cpp.obj"
+BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
 
 STACK_SCRATCH = """    // Scratch below the caller's $sp, 8-byte aligned, with headroom.
     if (sp < 0x80001000u) return false;
@@ -75,6 +76,9 @@ def relocated_source(source):
          "    else if (project_root && *project_root)\n"
          '        g_dir = (fs::path(project_root) / "translations").string();'),
         (STACK_SCRATCH, HASH_ARENA),
+        ("} // namespace", BATTLE_DIALOGUE.read_text(encoding="utf-8") + "\n} // namespace"),
+        ("    uint32_t* argregs[4] =",
+         "    if (app) paginate_battle_text(ram, cpu, target);\n    uint32_t* argregs[4] ="),
     )
     for stock, updated in replacements:
         if source.count(stock) != 1:
@@ -103,7 +107,7 @@ def main():
     stock_exe = build / TARGET
     fingerprint = hashlib.sha256(runtime.read_bytes() + stock_exe.read_bytes()
                                  + str(build).encode() + str(toolchain).encode()
-                                 + Path(__file__).read_bytes()).hexdigest()
+                                 + Path(__file__).read_bytes() + BATTLE_DIALOGUE.read_bytes()).hexdigest()
     stamp = output / "source.sha256"
     if (output / TARGET).is_file() and stamp.is_file() and stamp.read_text() == fingerprint:
         print(output / TARGET)
