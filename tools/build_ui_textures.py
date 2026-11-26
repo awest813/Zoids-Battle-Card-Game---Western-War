@@ -325,7 +325,13 @@ def battle_phase_textures(output, tim_dir, font):
         for semi in (False, True):
             variants.update(packed_variants(archive, entry, upload, palettes, semitransparent=semi))
         for name, original in variants.items():
-            render(original, 1, font).save(output / name)
+            localized = render(original, 1, font)
+            localized.save(output / name)
+            if entry == 7 and "-ADA57F44DA5C7B41-" in name:
+                # The Player Turn draw requests a separate crop of the atlas.
+                player_turn = localized.crop((0, 192, 128, 224))
+                crop_name = name.replace("-0-0-128x256-", "-0-192-128x32-")
+                player_turn.save(output / crop_name)
         print(f"{render.__name__}: {len(variants)} full-palette replacements")
 
 
