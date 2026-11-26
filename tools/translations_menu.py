@@ -1,6 +1,12 @@
 """English for menu, deck, and name-entry labels (TXT-1853..1924)."""
 
 KEYPAD_LAYOUT_IDS = {f"TXT-{number:04d}" for number in range(1894, 1907)}
+ALBUM_HEADINGS = {
+    "TXT-1884": (0x8001F238, 0x80065818, "ゾイドカード　　"),
+    "TXT-1885": (0x8001F24C, 0x80065818, "カスタムカード　"),
+    "TXT-1886": (0x8001F260, 0x80065818, "イベントカード　"),
+    "TXT-1887": (0x8001F274, 0x80065850, "パイロットカード"),
+}
 MENU_DISPLAY = {
     "あなたの名前を入力してください": "Enter Name",
     "コマンダー": "Commander",

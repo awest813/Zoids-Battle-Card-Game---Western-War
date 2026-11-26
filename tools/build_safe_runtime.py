@@ -9,6 +9,8 @@ import subprocess
 from itertools import groupby
 from pathlib import Path
 
+from translations_menu import ALBUM_HEADINGS, MENU
+
 PROJECT = Path.home() / "zoids-recomp/zoids-battle-card-game"
 BIN = Path.home() / ".local/share/retcomm/toolchains/cmake-clang-v1/latest/bin"
 WORKSPACE = Path(__file__).resolve().parents[1]
@@ -16,6 +18,8 @@ TARGET = "ZoidsBattleCardGame.exe"
 OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/text_xlate.cpp.obj"
 RENDERER_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/gpu_gl_renderer.c.obj"
 BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
+ALBUM_HEADINGS_SOURCE = Path(__file__).with_name("album_headings.inc")
+MENU_TRANSLATIONS = Path(__file__).with_name("translations_menu.py")
 MOVIE_CAPTIONS = Path(__file__).with_name("movie_captions.inc")
 MOVIE_LOOKUP = Path(__file__).with_name("movie_lookup.inc")
 CAPTION_TEXT = WORKSPACE / "translations/zoids.movie_captions.json"
@@ -56,6 +60,19 @@ ASSIGN_HASH_SLOTS = """    // Sorted source hashes give identical tables identic
 """
 
 
+def localized_album_headings():
+    rows = []
+    for text_id, (source, caller, japanese) in ALBUM_HEADINGS.items():
+        label = MENU[text_id]
+        if len(japanese) != 8 or len(label) > 8 or not label.isascii():
+            raise ValueError(f"{text_id}: Card Album headings use eight glyph cells")
+        full_width = "".join("　" if char == " " else chr(ord(char) + 0xFEE0) for char in label.ljust(8))
+        columns = [", ".join(f"{value:#04x}" for value in text.encode("shift_jis"))
+                   for text in (japanese, full_width)]
+        rows.append(f"    {{ {source:#010x}u, {caller:#010x}u, {{ {columns[0]} }}, {{ {columns[1]}, 0, 0 }} }},")
+    return ALBUM_HEADINGS_SOURCE.read_text(encoding="utf-8").replace("/* ALBUM_HEADINGS */", "\n".join(rows))
+
+
 def relocated_source(source):
     replacements = (
         ("constexpr uint32_t kPtrScratchBase  = 0x801E0000u;",
@@ -90,8 +107,10 @@ def relocated_source(source):
          "        case 0x03B2: return 0x83C0;\n"
          "        case 0x03B3: return 0x83C1;\n"
          "        case 0x03B4: return 0x83C2;"),
-        ("} // namespace", BATTLE_DIALOGUE.read_text(encoding="utf-8") + "\n} // namespace"),
+        ("} // namespace", BATTLE_DIALOGUE.read_text(encoding="utf-8") + "\n"
+         + localized_album_headings() + "\n} // namespace"),
         ("    uint32_t* argregs[4] =",
+         "    if (app && redirect_album_heading(ram, cpu, target)) return;\n"
          "    if (app) paginate_battle_text(ram, cpu, target);\n    uint32_t* argregs[4] ="),
         ("        if (scratch_recent(va)) continue;  // don't recapture our own English scratch",
          "        if (scratch_recent(va) || (va >= kScriptLines && va < kScriptArenaLimit)) continue;"),
@@ -238,7 +257,7 @@ def main():
     osd = runtime.with_name("host_osd.c")
     stock_exe = build / TARGET
     sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE,
-               MOVIE_CAPTIONS, MOVIE_LOOKUP, CAPTION_TEXT, MOVIE_INVENTORY)
+               ALBUM_HEADINGS_SOURCE, MENU_TRANSLATIONS, MOVIE_CAPTIONS, MOVIE_LOOKUP, CAPTION_TEXT, MOVIE_INVENTORY)
     fingerprint = hashlib.sha256(b"".join(path.read_bytes() for path in sources)
                                  + str(build).encode() + str(toolchain).encode()).hexdigest()
     stamp = output / "source.sha256"

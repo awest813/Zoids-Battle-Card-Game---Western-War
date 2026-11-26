@@ -17,7 +17,7 @@ from card_text_table import EXE
 from translations_memory import MEMORY, MEMORY_DISPLAY
 from translations_tutorial import TUTORIAL
 from translations_ui import UI
-from translations_menu import MENU, MENU_DISPLAY, PACKED_MENU
+from translations_menu import ALBUM_HEADINGS, MENU, MENU_DISPLAY, PACKED_MENU
 from translations_story_open import STORY_OPEN
 from translations_voice import VOICE
 from translations_story_1 import STORY_1
@@ -87,7 +87,6 @@ if missing:
 HASH_SAFE_OVERRIDES = {"TXT-0003", "TXT-0066"}
 # The English launcher rotates the existing Latin page to the front.
 KEYPAD_LABEL_SLOTS = {"TXT-1892": "8001f38c", "TXT-1893": "8001f3ac"}
-ALBUM_CATEGORY_IDS = {"TXT-1884", "TXT-1885", "TXT-1886", "TXT-1887"}
 # DAT names also appear as standalone rule and roster labels in the EXE.
 # Keep their dispatch spelling consistent when both tables know the same key.
 COMPACT_CARD_NAMES = {name: COMPACT_CARD_LABELS.get(english, english.upper())
@@ -196,7 +195,7 @@ for r in tracker:
     if r["id"] in HASH_SAFE_OVERRIDES:
         method = "hash"
     visible = clean_visible(r["japanese"])
-    if r["id"] in ALBUM_CATEGORY_IDS:
+    if r["id"] in ALBUM_HEADINGS:
         visible = r["japanese"]
     raw = (visible if method == "hash" else r["japanese"]).encode("shift_jis")
     max_cells = int(r["max_fullwidth_cells"])
