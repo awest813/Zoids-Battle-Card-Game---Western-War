@@ -18,6 +18,17 @@ FIELDS = (
     "path", "start_lba", "sector_count", "width", "height", "frame_count",
     "nominal_fps", "duration_seconds", "xa_sector_count", "xa_streams", "matching_xa",
 )
+EXE_SHA256 = "0cf561e0050e80ae57bf7ca3e3f30914e1a5ebc837738118158049198b56f0bb"
+EXE_ADDRESS_BASE = 0x8000F800
+ALBUM_FLAGS = 0x800113FC
+MOVIE_TABLE = 0x800C23CC
+ALBUM_GROUPS = (
+    ("melee", 5, 81, 0x01),
+    ("ranged", 86, 81, 0x02),
+    ("special", 167, 81, 0x04),
+    ("custom_event", 248, 193, 0x08),
+)
+BOOT_MOVIES = {"M/OP_MOVIE.STR", "M/TOMYLOGO.STR"}
 
 
 def movie_entries(disc):
@@ -94,10 +105,44 @@ def write_inventory(disc, entries, output):
         writer.writerow(row)
 
 
+def write_album_inventory(executable, entries, output):
+    if hashlib.sha256(executable).hexdigest() != EXE_SHA256:
+        raise ValueError("the Movie Album table requires the original SLPS_032.55 executable")
+    flag_offset = ALBUM_FLAGS - EXE_ADDRESS_BASE
+    # The game clears the save's movie flags and seeds only the first 103 bytes.
+    flags = executable[flag_offset:flag_offset + 103].ljust(193, b"\0")
+    extents = {entry["path"]: entry["lba"] for entry in entries}
+    rows = []
+    seen = set()
+    for category, first_record, count, bit in ALBUM_GROUPS:
+        for card_index in range(count):
+            if not flags[card_index] & bit:
+                continue
+            record = MOVIE_TABLE - EXE_ADDRESS_BASE + 16 * (first_record + card_index)
+            pointer, = struct.unpack_from("<I", executable, record)
+            start = pointer - EXE_ADDRESS_BASE
+            end = executable.index(0, start, start + 32)
+            # The B2Z0010 path has a period after the ISO version suffix.
+            path = executable[start:end].decode("ascii").removeprefix("\\")
+            path = path.removesuffix(".").removesuffix(";1").replace("\\", "/")
+            if path not in extents or path in seen:
+                raise ValueError(f"invalid or repeated Movie Album clip: {path}")
+            seen.add(path)
+            page, tile = divmod(len(rows), 9)
+            rows.append((page + 1, tile + 1, category, card_index, path, extents[path]))
+    if seen != extents.keys() - BOOT_MOVIES:
+        raise ValueError("the Movie Album does not cover all non-boot STR files")
+    writer = csv.writer(output, lineterminator="\n")
+    writer.writerow(("page", "tile", "category", "card_index", "path", "start_lba"))
+    writer.writerows(rows)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("disc", type=Path, help="single-track retail Mode 2/2352 BIN")
-    parser.add_argument("--extract", metavar="CLIP", help="disc path to extract for local review")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--extract", metavar="CLIP", help="disc path to extract for local review")
+    mode.add_argument("--album-exe", type=Path, help="original SLPS_032.55 to audit the Movie Album grid")
     parser.add_argument("--output", type=Path, help="new local STR file for --extract")
     args = parser.parse_args()
     if bool(args.extract) != bool(args.output):
@@ -118,6 +163,8 @@ def main():
                 with args.output.open("xb") as output:
                     for sector in movie_sectors(disc, entry):
                         output.write(sector)
+            elif args.album_exe:
+                write_album_inventory(args.album_exe.read_bytes(), entries, sys.stdout)
             else:
                 write_inventory(disc, entries, sys.stdout)
     except (OSError, ValueError) as exc:

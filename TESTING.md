@@ -114,6 +114,7 @@ Run the inventory against the original BIN. To review a clip locally, extract it
 ```powershell
 $DiscPath = 'Zoids - Battle Card Game - Seihou Tairiku Senki (Japan).bin'
 python -B -X utf8 tools/audit_movies.py $DiscPath
+python -B -X utf8 tools/audit_movies.py $DiscPath --album-exe extracted/SLPS_032.55
 python -B -X utf8 tools/audit_movies.py $DiscPath --extract M/OP_MOVIE.STR --output work/opening-review.str
 ```
 
@@ -123,7 +124,11 @@ For an in-game playback check, start a fresh English stage. During the opening, 
 
 Use `present_shot` to inspect the composed image. The movie title appears around LBA 15446. Two briefing shots follow around 15796 and 16076. During a passage with captions, skip with Start and confirm the next screen has no movie text. For a resume test, save in a disposable slot during the title and restore the state after leaving playback. Confirm the title captions reappear at the same position in the movie.
 
-The opening's map shows Gaigalus and New Helic City. In the battle preview, inspect the Battle Phase heading and the English names and rules in the blue name banners as both cards rise and settle. Tiny lettering printed on the card images still needs replacement. The windowed REFERENCE run returned to the localized interactive title after normal playback and cleared the movie overlay immediately after a Start skip. The first interactive title frame sampled after skipping from a restored state still showed the Japanese title artwork. The Movie Album replay route remains unverified.
+The opening's map shows Gaigalus and New Helic City. In the battle preview, inspect the Battle Phase heading and the English names and rules in the blue name banners as both cards rise and settle. Tiny lettering printed on the card images still needs replacement. The windowed REFERENCE run returned to the localized interactive title after normal playback and cleared the movie overlay immediately after a Start skip. The first interactive title frame sampled after skipping from a restored state still showed the Japanese title artwork.
+
+The `--album-exe` report reads the original executable's catalog order and checks every tile against the disc. The 17 pages contain 63 melee, 63 ranged, 11 special, and 16 Custom/Event clips. TOMY and the opening are boot clips. In Album Mode, select Movie Album. Use L1 and R1 to change pages. Disposable unlock fixtures verified playback and return to the grid for Death Saurer's melee clip on page 1, Gustav MS on page 5, Geno Saurer's special on page 15, and All-Direction Shot on page 16. The locked tile next to Death Saurer displayed `SECRET` and did not seek to a clip on confirm. Geno Saurer displayed the red `SP` badge beside its English name.
+
+Death Saurer's ranged clip on page 8 reproduced a playback stall in the English REFERENCE build, including as the first album replay after boot. The thumbnail and English label appeared. On confirm, the movie panel went black and the runtime entered the game's CD file search for `M/S0/SZ0041.STR` without seeking to its LBA 93501. Both streams decoded when extracted from the retail disc.
 
 The TOMY logo's visible wording is already English. Sampled frames across all 153 small clips showed Zoid and weapon animations. Audio still requires review before assigning their subtitle status.
 
