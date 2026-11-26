@@ -1643,9 +1643,9 @@ TXT-1641,ui,P0,inplace,00c19c,0x8001b99c,800d0034,28,13,結局、帝国の主力
 TXT-1642,ui,P0,inplace,00c1b8,0x8001b9b8,800d0020,32,15,止められたが、被害は大きい。,"was stopped, but the damage is great.",37,no,draft,table-driven; use pointer redirection
 TXT-1643,ui,P0,inplace,00c1d8,0x8001b9d8,800d001c,28,13,デススティンガーの暴走は,The Death Stinger's rampage...,30,no,draft,table-driven; use pointer redirection
 TXT-1644,ui,P0,inplace,00c1f4,0x8001b9f4,800d0664,28,13,のカードを使用しますか？,Use the card?,13,yes,draft,table-driven; use pointer redirection
-TXT-1645,ui,P0,inplace,00c210,0x8001ba10,800d06a8,20,9,よろしいですか？,Is this okay?,13,no,draft,table-driven; use pointer redirection
-TXT-1646,ui,P0,inplace,00c224,0x8001ba24,800d06a4,24,11,敵軍の行動へ移行しても,"Even if we move to the enemy turn,",34,no,draft,table-driven; use pointer redirection
-TXT-1647,ui,P0,inplace,00c23c,0x8001ba3c,800d06a0,24,11,自軍の行動を終了させ、,end your army's actions and,27,no,draft,table-driven; use pointer redirection
+TXT-1645,ui,P0,inplace,00c210,0x8001ba10,800d06a8,20,9,よろしいですか？,Proceed?,8,yes,draft,table-driven; use pointer redirection
+TXT-1646,ui,P0,inplace,00c224,0x8001ba24,800d06a4,24,11,敵軍の行動へ移行しても,and pass the turn to the enemy.,31,no,draft,table-driven; use pointer redirection
+TXT-1647,ui,P0,inplace,00c23c,0x8001ba3c,800d06a0,24,11,自軍の行動を終了させ、,End your army's actions,23,no,draft,table-driven; use pointer redirection
 TXT-1648,ui,P0,inplace,00c254,0x8001ba54,800d06e8,20,9,を装備しました。, equipped.,10,no,draft,table-driven; use pointer redirection
 TXT-1649,ui,P0,inplace,00c268,0x8001ba68,800d0724,28,13,こちらでよろしいですか？,Is this okay?,13,yes,draft,table-driven; use pointer redirection
 TXT-1650,ui,P0,inplace,00c284,0x8001ba84,800d0760,24,11,カードを使用しますか？,Use a card?,11,yes,draft,table-driven; use pointer redirection

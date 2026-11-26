@@ -101,6 +101,8 @@ The retail battle script renderer uses a 30-byte stack buffer for each line. The
 
 The English runtime wraps those groups to fourteen glyphs and displays up to three lines per page. For a pagination regression test, use a disposable English stage and two objective lines that wrap to five lines total. Confirm only after the indicator appears. The first confirmation should advance to page two and the second should resume the battle. Save and reload on the second page to check that confirmation still returns to the original script. Keep the fixture text and save files local.
 
+Add `--choices` to the script audit to scan prompts followed by Yes/No. For the End Turn prompt, confirm the first page and wait for both options on the second page. Repeat from a test state and try both answers to check that the choice advances the original script.
+
 ### Text
 
 - [ ] Memory-card dialog is clean English, no tail bleed.

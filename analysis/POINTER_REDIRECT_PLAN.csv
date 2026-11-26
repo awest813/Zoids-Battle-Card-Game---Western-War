@@ -1641,9 +1641,9 @@ TXT-1641,ui,結局、帝国の主力部隊を追撃,0x8001b99c,1,800d0034,28,13,
 TXT-1642,ui,止められたが、被害は大きい。,0x8001b9b8,1,800d0020,32,15,"was stopped, but the damage is great."
 TXT-1643,ui,デススティンガーの暴走は,0x8001b9d8,1,800d001c,28,13,The Death Stinger's rampage...
 TXT-1644,ui,のカードを使用しますか？,0x8001b9f4,1,800d0664,28,13,Use the card?
-TXT-1645,ui,よろしいですか？,0x8001ba10,1,800d06a8,20,9,Is this okay?
-TXT-1646,ui,敵軍の行動へ移行しても,0x8001ba24,1,800d06a4,24,11,"Even if we move to the enemy turn,"
-TXT-1647,ui,自軍の行動を終了させ、,0x8001ba3c,1,800d06a0,24,11,end your army's actions and
+TXT-1645,ui,よろしいですか？,0x8001ba10,1,800d06a8,20,9,Proceed?
+TXT-1646,ui,敵軍の行動へ移行しても,0x8001ba24,1,800d06a4,24,11,and pass the turn to the enemy.
+TXT-1647,ui,自軍の行動を終了させ、,0x8001ba3c,1,800d06a0,24,11,End your army's actions
 TXT-1648,ui,を装備しました。,0x8001ba54,1,800d06e8,20,9, equipped.
 TXT-1649,ui,こちらでよろしいですか？,0x8001ba68,2,800d0724;800d19f0,28,13,Is this okay?
 TXT-1650,ui,カードを使用しますか？,0x8001ba84,1,800d0760,24,11,Use a card?

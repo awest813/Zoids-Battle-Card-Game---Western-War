@@ -11,15 +11,15 @@ from card_text_table import EXE, RAM_BASE, TABLE_START
 from translations_objectives import OBJECTIVE_CELLS
 
 
-def script_rows(executable, tracker):
-    """Read recognized opcode 0x12 groups followed by the input-wait opcode."""
+def script_rows(executable, tracker, followup):
+    """Read recognized opcode 0x12 groups followed by the selected command."""
     sources = {}
     for offset in range(0x800C0000 - RAM_BASE, TABLE_START - RAM_BASE, 2):
         opcode, mode, line_count = struct.unpack_from("<3I", executable, offset)
         if opcode != 0x12 or mode not in (0, 1) or line_count not in (1, 2, 3):
             continue
         *lines, next_opcode = struct.unpack_from(f"<{line_count + 1}I", executable, offset + 12)
-        if next_opcode != 6 or any(source not in tracker for source in lines):
+        if next_opcode != followup or any(source not in tracker for source in lines):
             continue
         for source in lines:
             sources.setdefault(source, offset + RAM_BASE)
@@ -30,10 +30,11 @@ def script_rows(executable, tracker):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--csv", action="store_true", help="Write details for every overlong row")
+    parser.add_argument("--choices", action="store_true", help="Audit prompts followed by a Yes/No choice")
     args = parser.parse_args()
     with Path("analysis/TEXT_TRACKER.csv").open(encoding="utf-8", newline="") as inventory:
         tracker = {int(row["ram_addr"], 16): row for row in csv.DictReader(inventory)}
-    lines = list(script_rows(EXE.read_bytes(), tracker))
+    lines = list(script_rows(EXE.read_bytes(), tracker, 0x13 if args.choices else 6))
     oversize = [(row, group) for row, group in lines if len(row["english"]) > OBJECTIVE_CELLS]
     if args.csv:
         writer = csv.writer(sys.stdout)

@@ -21384,7 +21384,7 @@ ptr_addrs = ["0x800d06a8"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Is this okay?"
+en = "Proceed?"
 note = "ui inplace max=9"
 
 [[entry]]
@@ -21397,7 +21397,7 @@ ptr_addrs = ["0x800d06a4"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Even if we move to the enemy turn,"
+en = "and pass the turn to the enemy."
 note = "ui inplace max=11"
 
 [[entry]]
@@ -21410,7 +21410,7 @@ ptr_addrs = ["0x800d06a0"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "end your army's actions and"
+en = "End your army's actions"
 note = "ui inplace max=11"
 
 [[entry]]

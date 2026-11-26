@@ -1,4 +1,4 @@
-// SLPS-03255 battle script "show text" and "wait for input" commands.
+// SLPS-03255 battle script text and input commands.
 constexpr uint32_t kBattleScriptContext = 0x80109538u;
 constexpr uint32_t kBattleTextHandler = 0x8004B404u;
 constexpr uint32_t kAfterBattleCommand = 0x8004D664u;
@@ -10,6 +10,7 @@ constexpr uint32_t kScriptLines = 0x80630010u;
 constexpr uint32_t kScriptArenaLimit = 0x80640000u;
 constexpr uint16_t kShowText = 0x12u;
 constexpr uint16_t kWaitInput = 6u;
+constexpr uint16_t kChooseYesNo = 0x13u;
 constexpr size_t kBattleLineCells = 14u;
 
 uint32_t script_read(uint8_t* ram, uint32_t address, unsigned bytes = 4) {
@@ -74,8 +75,8 @@ void paginate_battle_text(uint8_t* ram, CPUState* cpu, uint32_t target) {
     const uint32_t base = script_read(ram, context + 4);
     const uint32_t index = script_read(ram, context + 8, 2);
     if (target == kAfterBattleCommand) {
-        // The native wait handler advances to our sentinel only after the
-        // player confirms. Saved games carry this metadata in guest RAM.
+        // The last generated command leaves the interpreter at our sentinel.
+        // A choice needs the original context while the last page is visible.
         if (base != kScriptArena || index != script_read(ram, kScriptMetadata + 8))
             return;
         const uint32_t original = script_read(ram, kScriptMetadata);
@@ -96,11 +97,13 @@ void paginate_battle_text(uint8_t* ram, CPUState* cpu, uint32_t target) {
     const uint32_t mode = script_read(ram, start + 4);
     const uint32_t count = script_read(ram, start + 8);
     if (mode > 1 || count == 0 || count > 3) return;
-    const uint32_t continuation = index + 2 * (count + 4);
-    if (continuation >= 0x8000u ||
-        base + continuation * 2 >= kRetailScriptLimit ||
-        script_read(ram, start + 12 + count * 4) != kWaitInput)
-        return;
+    const uint32_t followup = start + 12 + count * 4;
+    if (followup + 4 > kRetailScriptLimit) return;
+    const uint32_t next_command = script_read(ram, followup);
+    const bool choice = next_command == kChooseYesNo;
+    if (!choice && next_command != kWaitInput) return;
+    const uint32_t continuation = index + 2 * (count + (choice ? 3 : 4));
+    if (continuation >= 0x8000u || base + continuation * 2 >= kRetailScriptLimit) return;
 
     BattleLine lines[3];
     bool needs_wrap = false;
@@ -115,7 +118,8 @@ void paginate_battle_text(uint8_t* ram, CPUState* cpu, uint32_t target) {
     for (uint32_t i = 0; i < count; ++i) wrap_battle_line(lines[i], wrapped);
     constexpr uint32_t stride = 32;
     const size_t pages = (wrapped.size() + 2) / 3;
-    const size_t end = index + 2 * (4 * pages + wrapped.size());
+    const size_t waits = pages - (choice ? 1 : 0);
+    const size_t end = index + 2 * (3 * pages + wrapped.size() + waits);
     if (end >= 0x8000u ||
         wrapped.size() > (kScriptArenaLimit - kScriptLines) / stride)
         return;
@@ -140,8 +144,10 @@ void paginate_battle_text(uint8_t* ram, CPUState* cpu, uint32_t target) {
             script_write(ram, address, line);
             address += 4;
         }
-        script_write(ram, address, kWaitInput);
-        address += 4;
+        if (!choice || first + rows < wrapped.size()) {
+            script_write(ram, address, kWaitInput);
+            address += 4;
+        }
     }
     script_write(ram, address, 0);
     script_write(ram, kScriptMetadata, base);
