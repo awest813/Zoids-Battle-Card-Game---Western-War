@@ -20,7 +20,8 @@ Pass `-ProjectDir`, `-BuildDir`, or `-ToolchainBin` to select a different build 
 ## Status
 
 - The audit covers 2,462 translated text records, 13 functional keypad records, and all 674 mapped card text slots.
-- Both factions' Battle Results were verified in the native OpenGL renderer using a test build that opens Results from deployment. Normal Free Mode still halts during battle startup, so a complete campaign playthrough and the battle action menus remain unverified.
+- Both factions' Battle Results were verified in the native OpenGL renderer using a test build that opens Results from deployment. A normal Free Mode sortie now reaches the English objectives, Draw Phase, and first-turn Custom Phase. Card selection and the equip-target screen were spot-checked in-game. Full battles and campaign playthroughs remain unverified.
+- The battle script audit flags 1,118 lines wider than the original fourteen-glyph panel. Longer dialogue still needs reflow and in-game verification.
 - The texture pack includes 274 full-size card overlays and 274 thumbnail name bands. The 193 CEP rules are draft translations. Some printed Zoid special abilities and small legends still need translation.
 - The Card Album, Zoid Album, and locked Movie Album were spot-checked in-game. Unlocked movie entries and subtitle work are still open.
 

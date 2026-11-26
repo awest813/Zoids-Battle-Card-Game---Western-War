@@ -407,14 +407,14 @@ TXT-0405,004d3c,8001453c,29,14,story,inplace,1,800c4b78,32,15,31,P1,translated,�
 TXT-0406,004d5c,8001455c,19,9,story,inplace,1,800c4b74,20,9,19,P1,translated,なかなかのものだ。,Not bad at all.,1 pointer(s); pointer redirection
 TXT-0407,004d70,80014570,29,14,story,inplace,8,800c4bd4,32,15,31,P1,translated,敵はデッキを持っていません。,The enemy has no deck.,8 pointer(s); pointer redirection
 TXT-0408,004d90,80014590,15,7,story,inplace,8,800c4bd0,16,7,15,P1,translated,『敵カード無』,No Enemy Cards,8 pointer(s); pointer redirection
-TXT-0409,004da0,800145a0,17,8,story,inplace,58,800c4bbc,20,9,19,P1,translated,敗北：味方の全滅,Defeat: All allies lost,58 pointer(s); pointer redirection
-TXT-0410,004db4,800145b4,15,7,story,inplace,21,800c4bb8,16,7,15,P1,translated,勝利：敵の全滅,Victory: Destroy all enemies,21 pointer(s); pointer redirection
+TXT-0409,004da0,800145a0,17,8,story,inplace,58,800c4bbc,20,9,19,P1,translated,敗北：味方の全滅,Lose: All down,58 pointer(s); pointer redirection
+TXT-0410,004db4,800145b4,15,7,story,inplace,21,800c4bb8,16,7,15,P1,translated,勝利：敵の全滅,Win: Rout foes,21 pointer(s); pointer redirection
 TXT-0411,004dc4,800145c4,23,11,story,inplace,9,800c4c10,24,11,23,P1,translated,やむをえん、撤退しろ。,We have no choice. Retreat.,9 pointer(s); pointer redirection
-TXT-0412,004ddc,800145dc,27,13,story,inplace,1,800c4c4c,28,13,27,P1,translated,勝利：コマンドウルフの破壊,Victory: Destroy Command Wolf,1 pointer(s); pointer redirection
+TXT-0412,004ddc,800145dc,27,13,story,inplace,1,800c4c4c,28,13,27,P1,translated,勝利：コマンドウルフの破壊,Win: Cmd Wolf,1 pointer(s); pointer redirection
 TXT-0413,004df8,800145f8,21,10,story,inplace,63,800c4c94,24,11,23,P1,translated,×１を入手しました。,Obtained x1.,63 pointer(s); pointer redirection
 TXT-0414,004e10,80014610,21,10,story,inplace,4,800c4c90,24,11,23,P1,translated,『ゾイドコア強化剤』,Zoid Core Booster,4 pointer(s); pointer redirection
 TXT-0415,004e28,80014628,9,4,story,inplace,32,800c4c8c,12,5,11,P1,translated,カスタム,Custom,32 pointer(s); pointer redirection
-TXT-0416,004e34,80014634,29,14,story,inplace,24,800c4d80,32,15,31,P1,translated,勝利：敵の全滅・敵基地の破壊,Victory: Destroy all enemies/base,24 pointer(s); pointer redirection
+TXT-0416,004e34,80014634,29,14,story,inplace,24,800c4d80,32,15,31,P1,translated,勝利：敵の全滅・敵基地の破壊,Rout foes/base,24 pointer(s); pointer redirection
 TXT-0417,004e54,80014654,21,10,story,inplace,1,800c4d54,24,11,23,P1,translated,こざかしいやつらだ。,Clever little pests.,1 pointer(s); pointer redirection
 TXT-0418,004e6c,8001466c,19,9,story,inplace,1,800c4d40,20,9,19,P1,translated,守ろうというのか？,They intend to defend it?,1 pointer(s); pointer redirection
 TXT-0419,004e80,80014680,27,13,story,inplace,1,800c4d3c,28,13,27,P1,translated,あんな少数のゾイドで基地を,"With so few Zoids, they think",1 pointer(s); pointer redirection
@@ -424,7 +424,7 @@ TXT-0422,004eb8,800146b8,19,9,story,inplace,1,800c4dc4,20,9,19,P1,translated,『
 TXT-0423,004ecc,800146cc,23,11,story,inplace,1,800c4eb4,24,11,23,P1,translated,『デスザウラー・Ｖ１』,Death Saurer V1,1 pointer(s); pointer redirection
 TXT-0424,004ee4,800146e4,15,7,story,inplace,2,800c4e84,16,7,15,P1,translated,発見しました。,Found it.,2 pointer(s); pointer redirection
 TXT-0425,004ef4,800146f4,21,10,story,inplace,1,800c4e80,24,11,23,P1,translated,敵基地より、ゾイドを,Enemy Zoids are launching,1 pointer(s); pointer redirection
-TXT-0426,004f0c,8001470c,21,10,story,inplace,6,800c4ff8,24,11,23,P1,translated,　　　２０ターン経過,20 turns passed,6 pointer(s); pointer redirection
+TXT-0426,004f0c,8001470c,21,10,story,inplace,6,800c4ff8,24,11,23,P1,translated,　　　２０ターン経過,20 turns pass,6 pointer(s); pointer redirection
 TXT-0427,004f24,80014724,15,7,story,inplace,1,800c503c,16,7,15,P1,translated,いけないか…。,This won't do...,1 pointer(s); pointer redirection
 TXT-0428,004f34,80014734,25,12,story,inplace,1,800c5038,28,13,27,P1,translated,ルートを見なおさなくては,We need to rethink the route.,1 pointer(s); pointer redirection
 TXT-0429,004f50,80014750,15,7,story,inplace,1,800c5034,16,7,15,P1,translated,一時撤退して、,We'll retreat for now and,1 pointer(s); pointer redirection
@@ -438,8 +438,8 @@ TXT-0436,004fdc,800147dc,25,12,story,inplace,1,800c5224,28,13,27,P1,translated,�
 TXT-0437,004ff8,800147f8,9,4,story,inplace,1,800c5220,12,5,11,P1,translated,狙いは、,Their target is,1 pointer(s); pointer redirection
 TXT-0438,005004,80014804,21,10,story,inplace,1,800c520c,24,11,23,P1,translated,共和国の部隊が接近。,Republic forces approaching.,1 pointer(s); pointer redirection
 TXT-0439,00501c,8001481c,17,8,story,inplace,1,800c5208,20,9,19,P1,translated,レーダーに反応。,Radar contact.,1 pointer(s); pointer redirection
-TXT-0440,005030,80014830,21,10,story,inplace,10,800c5288,24,11,23,P1,translated,　　　味方基地の破壊,Allied base destroyed,10 pointer(s); pointer redirection
-TXT-0441,005048,80014848,29,14,story,inplace,1,800c5280,32,15,31,P1,translated,勝利：ストームソーダーの破壊,Victory: Destroy Storm Sworder,1 pointer(s); pointer redirection
+TXT-0440,005030,80014830,21,10,story,inplace,10,800c5288,24,11,23,P1,translated,　　　味方基地の破壊,Our base falls,10 pointer(s); pointer redirection
+TXT-0441,005048,80014848,29,14,story,inplace,1,800c5280,32,15,31,P1,translated,勝利：ストームソーダーの破壊,Win: Storm Sw.,1 pointer(s); pointer redirection
 TXT-0442,005068,80014868,21,10,story,inplace,1,800c52c8,24,11,23,P1,translated,『高機動スラスター』,High-Mobility Thruster,1 pointer(s); pointer redirection
 TXT-0443,005080,80014880,21,10,story,inplace,1,800c534c,24,11,23,P1,translated,撤退して出なおそう。,Let's retreat and try again.,1 pointer(s); pointer redirection
 TXT-0444,005098,80014898,29,14,story,inplace,1,800c5348,32,15,31,P1,translated,基地を捨てることになるとは…,To think we'd abandon the base...,1 pointer(s); pointer redirection
@@ -449,30 +449,30 @@ TXT-0447,0050dc,800148dc,25,12,story,inplace,1,800c5408,28,13,27,P1,translated,�
 TXT-0448,0050f8,800148f8,19,9,story,inplace,1,800c548c,20,9,19,P1,translated,『冷却剤噴霧装置』,Coolant Spray Device,1 pointer(s); pointer redirection
 TXT-0449,00510c,8001490c,27,13,story,inplace,3,800c54cc,28,13,27,P1,translated,やむをえない、撤退しよう。,No choice. Let's retreat.,3 pointer(s); pointer redirection
 TXT-0450,005128,80014928,13,6,story,inplace,1,800c5540,16,7,15,P1,translated,　　　の破壊, destroyed,1 pointer(s); pointer redirection
-TXT-0451,005138,80014938,29,14,story,inplace,1,800c553c,32,15,31,P1,translated,勝利：ゴジュラス　ジ・オーガ,Victory: Gojulas the Ogre,1 pointer(s); pointer redirection
+TXT-0451,005138,80014938,29,14,story,inplace,1,800c553c,32,15,31,P1,translated,勝利：ゴジュラス　ジ・オーガ,Gojulas Ogre,1 pointer(s); pointer redirection
 TXT-0452,005158,80014958,23,11,story,inplace,1,800c5510,24,11,23,P1,translated,今のうちに破壊するぞ！,Let's destroy it while we can!,1 pointer(s); pointer redirection
 TXT-0453,005170,80014970,17,8,story,inplace,1,800c550c,20,9,19,P1,translated,固定されている。,It's fixed in place.,1 pointer(s); pointer redirection
 TXT-0454,005184,80014984,25,12,story,inplace,1,800c5508,28,13,27,P1,translated,ゴジュラスはカタパルトに,The Gojulas is on the catapult,1 pointer(s); pointer redirection
 TXT-0455,0051a0,800149a0,9,4,story,inplace,2,800c5584,12,5,11,P1,translated,『魚雷』,Torpedo,2 pointer(s); pointer redirection
 TXT-0456,0051ac,800149ac,17,8,story,inplace,1,800c55c8,20,9,19,P1,translated,一時退却しよう！,Let's retreat for now!,1 pointer(s); pointer redirection
 TXT-0457,0051c0,800149c0,19,9,story,inplace,1,800c55c4,20,9,19,P1,translated,恐るべきパワーだ。,What terrible power.,1 pointer(s); pointer redirection
-TXT-0458,0051d4,800149d4,29,14,story,inplace,1,800c5604,32,15,31,P1,translated,勝利：デススティンガーの破壊,Victory: Destroy the Death Stinger,1 pointer(s); pointer redirection
+TXT-0458,0051d4,800149d4,29,14,story,inplace,1,800c5604,32,15,31,P1,translated,勝利：デススティンガーの破壊,Death Stinger,1 pointer(s); pointer redirection
 TXT-0459,0051f4,800149f4,19,9,story,inplace,1,800c5664,20,9,19,P1,translated,体制を立て直そう。,Let's regroup.,1 pointer(s); pointer redirection
 TXT-0460,005208,80014a08,19,9,story,inplace,1,800c5660,20,9,19,P1,translated,手がつけられない。,It's unstoppable.,1 pointer(s); pointer redirection
 TXT-0461,00521c,80014a1c,13,6,story,inplace,1,800c565c,16,7,15,P1,translated,なんて力だ。,What power.,1 pointer(s); pointer redirection
 TXT-0462,00522c,80014a2c,19,9,story,inplace,1,800c5764,20,9,19,P1,translated,次を準備するんだ！,Prepare the next one!,1 pointer(s); pointer redirection
 TXT-0463,005240,80014a40,17,8,story,inplace,1,800c5760,20,9,19,P1,translated,体制を立て直す。,Regroup.,1 pointer(s); pointer redirection
-TXT-0464,005254,80014a54,23,11,story,inplace,1,800c586c,24,11,23,P1,translated,　　　１５ターンの経過,15 turns passed,1 pointer(s); pointer redirection
-TXT-0465,00526c,80014a6c,21,10,story,inplace,1,800c5864,24,11,23,P1,translated,勝利：グスタフの破壊,Victory: Destroy the Gustav,1 pointer(s); pointer redirection
+TXT-0464,005254,80014a54,23,11,story,inplace,1,800c586c,24,11,23,P1,translated,　　　１５ターンの経過,15 turns pass,1 pointer(s); pointer redirection
+TXT-0465,00526c,80014a6c,21,10,story,inplace,1,800c5864,24,11,23,P1,translated,勝利：グスタフの破壊,Win: Gustav,1 pointer(s); pointer redirection
 TXT-0466,005284,80014a84,19,9,story,inplace,2,800c58ac,20,9,19,P1,translated,『ＷＲ増設ラッチ』,WR Expansion Latch,2 pointer(s); pointer redirection
 TXT-0467,005298,80014a98,21,10,story,inplace,1,800c58ec,24,11,23,P1,translated,敵の増援がくるか…。,Enemy reinforcements?,1 pointer(s); pointer redirection
-TXT-0468,0052b0,80014ab0,27,13,story,inplace,1,800c592c,28,13,27,P1,translated,勝利：ジェノザウラーの破壊,Victory: Destroy the Geno Zaurer,1 pointer(s); pointer redirection
+TXT-0468,0052b0,80014ab0,27,13,story,inplace,1,800c592c,28,13,27,P1,translated,勝利：ジェノザウラーの破壊,Win: Geno Saur,1 pointer(s); pointer redirection
 TXT-0469,0052cc,80014acc,23,11,story,inplace,2,800c5988,24,11,23,P1,translated,『エネルギーシールド』,Energy Shield,2 pointer(s); pointer redirection
 TXT-0470,0052e4,80014ae4,25,12,story,inplace,1,800c5a48,28,13,27,P1,translated,『大口径ビームキャノン』,Large-Bore Beam Cannon,1 pointer(s); pointer redirection
 TXT-0471,005300,80014b00,27,13,story,inplace,1,800c5b1c,28,13,27,P1,translated,やむをえん、一時撤退しろ。,We have no choice. Retreat for now.,1 pointer(s); pointer redirection
 TXT-0472,00531c,80014b1c,17,8,story,inplace,1,800c5ba0,20,9,19,P1,translated,間にあうのか…？,Will we make it...?,1 pointer(s); pointer redirection
 TXT-0473,005330,80014b30,9,4,story,inplace,1,800c5b9c,12,5,11,P1,translated,クッ…。,Ugh...,1 pointer(s); pointer redirection
-TXT-0474,00533c,80014b3c,27,13,story,inplace,1,800c5c68,28,13,27,P1,translated,勝利：デッドボーダーの破壊,Victory: Destroy the Dead Border,1 pointer(s); pointer redirection
+TXT-0474,00533c,80014b3c,27,13,story,inplace,1,800c5c68,28,13,27,P1,translated,勝利：デッドボーダーの破壊,Dead Border,1 pointer(s); pointer redirection
 TXT-0475,005358,80014b58,17,8,story,inplace,1,800c5c3c,20,9,19,P1,translated,もらっちまおう。,I'll take it.,1 pointer(s); pointer redirection
 TXT-0476,00536c,80014b6c,27,13,story,inplace,1,800c5c38,28,13,27,P1,translated,とっとと倒して、もらうもん,"Hurry up and beat them, then take",1 pointer(s); pointer redirection
 TXT-0477,005388,80014b88,29,14,story,inplace,1,800c5c20,32,15,31,P1,translated,要するにお宝の番人というワケ,"In short, it's a treasure guardian.",1 pointer(s); pointer redirection
@@ -484,8 +484,8 @@ TXT-0482,005410,80014c10,29,14,story,inplace,1,800c5d10,32,15,31,P1,translated,�
 TXT-0483,005430,80014c30,29,14,story,inplace,1,800c5cfc,32,15,31,P1,translated,む、あれはウルトラザウルス。,"Hm, that's an Ultrasaurus.",1 pointer(s); pointer redirection
 TXT-0484,005450,80014c50,11,5,story,inplace,1,800c5d84,12,5,11,P1,translated,撤退だ…。,Retreat...,1 pointer(s); pointer redirection
 TXT-0485,00545c,80014c5c,17,8,story,inplace,1,800c5d80,20,9,19,P1,translated,ここまで来て…。,After coming this far...,1 pointer(s); pointer redirection
-TXT-0486,005470,80014c70,21,10,story,inplace,1,800c5e48,24,11,23,P1,translated,敗北：味方基地の破壊,Defeat: Allied base destroyed,1 pointer(s); pointer redirection
-TXT-0487,005488,80014c88,25,12,story,inplace,1,800c5e44,28,13,27,P1,translated,勝利：ライガー３体の破壊,Victory: Destroy 3 Ligers,1 pointer(s); pointer redirection
+TXT-0486,005470,80014c70,21,10,story,inplace,1,800c5e48,24,11,23,P1,translated,敗北：味方基地の破壊,Lose: No base,1 pointer(s); pointer redirection
+TXT-0487,005488,80014c88,25,12,story,inplace,1,800c5e44,28,13,27,P1,translated,勝利：ライガー３体の破壊,Win: 3 Ligers,1 pointer(s); pointer redirection
 TXT-0488,0054a4,80014ca4,19,9,story,inplace,5,800c5fd4,20,9,19,P1,translated,が手に入りました。,was obtained.,5 pointer(s); pointer redirection
 TXT-0489,0054b8,80014cb8,9,4,story,inplace,2,800c5fcc,12,5,11,P1,translated,ゾイドの,The Zoid's,2 pointer(s); pointer redirection
 TXT-0490,0054c4,80014cc4,23,11,story,inplace,2,800c604c,24,11,23,P1,translated,どうかご注意ください。,Please be careful.,2 pointer(s); pointer redirection
@@ -506,12 +506,12 @@ TXT-0504,005604,80014e04,11,5,story,inplace,2,800c663c,12,5,11,P1,translated,よ
 TXT-0505,005610,80014e10,27,13,story,inplace,1,800c6638,28,13,27,P1,translated,戦場のカンはにぶっていない,Your battlefield instinct hasn't dulled.,1 pointer(s); pointer redirection
 TXT-0506,00562c,80014e2c,27,13,story,inplace,1,800c66d4,28,13,27,P1,translated,すぐに、体制をたてなおせ！,Regroup immediately!,1 pointer(s); pointer redirection
 TXT-0507,005648,80014e48,11,5,story,inplace,1,800c66d0,12,5,11,P1,translated,一時退却！,Retreat for now!,1 pointer(s); pointer redirection
-TXT-0508,005654,80014e54,25,12,story,inplace,1,800c6710,28,13,27,P1,translated,勝利：レッドホーンの破壊,Victory: Destroy the Red Horn,1 pointer(s); pointer redirection
+TXT-0508,005654,80014e54,25,12,story,inplace,1,800c6710,28,13,27,P1,translated,勝利：レッドホーンの破壊,Win: Red Horn,1 pointer(s); pointer redirection
 TXT-0509,005670,80014e70,25,12,story,inplace,1,800c6754,28,13,27,P1,translated,『自己修復強化ユニット』,Self-Repair Booster Unit,1 pointer(s); pointer redirection
 TXT-0510,00568c,80014e8c,15,7,story,inplace,1,800c679c,16,7,15,P1,translated,一時退却する！,Retreat for now!,1 pointer(s); pointer redirection
 TXT-0511,00569c,80014e9c,13,6,story,inplace,1,800c6798,16,7,15,P1,translated,ようだな…。,I see...,1 pointer(s); pointer redirection
 TXT-0512,0056ac,80014eac,25,12,story,inplace,1,800c6794,28,13,27,P1,translated,帝国もかなり準備していた,The Empire was well prepared.,1 pointer(s); pointer redirection
-TXT-0513,0056c8,80014ec8,19,9,story,inplace,1,800c67d8,20,9,19,P1,translated,勝利：敵４体の破壊,Victory: Destroy 4 enemies,1 pointer(s); pointer redirection
+TXT-0513,0056c8,80014ec8,19,9,story,inplace,1,800c67d8,20,9,19,P1,translated,勝利：敵４体の破壊,Win: 4 foes,1 pointer(s); pointer redirection
 TXT-0514,0056dc,80014edc,13,6,story,inplace,2,800c688c,16,7,15,P1,translated,『フィーネ』,Fine,2 pointer(s); pointer redirection
 TXT-0515,0056ec,80014eec,9,4,story,inplace,2,800c6888,12,5,11,P1,translated,イベント,Event,2 pointer(s); pointer redirection
 TXT-0516,0056f8,80014ef8,21,10,story,inplace,1,800c685c,24,11,23,P1,translated,急いで保護するんだ！,Hurry and protect them!,1 pointer(s); pointer redirection
@@ -520,7 +520,7 @@ TXT-0518,005730,80014f30,17,8,story,inplace,1,800c68cc,20,9,19,P1,translated,一
 TXT-0519,005744,80014f44,25,12,story,inplace,1,800c694c,28,13,27,P1,translated,『ロングレンジライフル』,Long-Range Rifle,1 pointer(s); pointer redirection
 TXT-0520,005760,80014f60,13,6,story,inplace,10,800c6990,16,7,15,P1,translated,一時退却だ！,Retreat!,10 pointer(s); pointer redirection
 TXT-0521,005770,80014f70,27,13,story,inplace,1,800c6a10,28,13,27,P1,translated,『ストライクロングクロー』,Strike Long Claw,1 pointer(s); pointer redirection
-TXT-0522,00578c,80014f8c,29,14,story,inplace,1,800c6a90,32,15,31,P1,translated,勝利：セイバータイガーの破壊,Victory: Destroy the Saber Tiger,1 pointer(s); pointer redirection
+TXT-0522,00578c,80014f8c,29,14,story,inplace,1,800c6a90,32,15,31,P1,translated,勝利：セイバータイガーの破壊,Saber Tiger,1 pointer(s); pointer redirection
 TXT-0523,0057ac,80014fac,19,9,story,inplace,1,800c6be0,20,9,19,P1,translated,なんということだ…,What is this...,1 pointer(s); pointer redirection
 TXT-0524,0057c0,80014fc0,15,7,story,inplace,1,800c6c60,16,7,15,P1,translated,『火炎放射器』,Flamethrower,1 pointer(s); pointer redirection
 TXT-0525,0057d0,80014fd0,15,7,story,inplace,1,800c6d54,16,7,15,P1,translated,かえってくれ！,Go back!,1 pointer(s); pointer redirection
@@ -532,11 +532,11 @@ TXT-0530,005848,80015048,27,13,story,inplace,1,800c6ce0,28,13,27,P1,translated,�
 TXT-0531,005864,80015064,19,9,story,inplace,1,800c6dc0,20,9,19,P1,translated,と退却になります。,and retreat.,1 pointer(s); pointer redirection
 TXT-0532,005878,80015078,29,14,story,inplace,1,800c6dbc,32,15,31,P1,translated,味方の領地にゾイドを移動する,Move a Zoid into allied territory,1 pointer(s); pointer redirection
 TXT-0533,005898,80015098,9,4,story,inplace,1,800c6db8,12,5,11,P1,translated,『退却』,Retreat,1 pointer(s); pointer redirection
-TXT-0534,0058a4,800150a4,19,9,story,inplace,1,800c6da4,20,9,19,P1,translated,敗北：味方３機破壊,Defeat: 3 allies destroyed,1 pointer(s); pointer redirection
-TXT-0535,0058b8,800150b8,15,7,story,inplace,1,800c6da0,16,7,15,P1,translated,　　　敵の全滅,Destroy all enemies,1 pointer(s); pointer redirection
-TXT-0536,0058c8,800150c8,21,10,story,inplace,1,800c6d9c,24,11,23,P1,translated,勝利：味方の３機退却,Victory: Retreat 3 allies,1 pointer(s); pointer redirection
+TXT-0534,0058a4,800150a4,19,9,story,inplace,1,800c6da4,20,9,19,P1,translated,敗北：味方３機破壊,Lose: 3 down,1 pointer(s); pointer redirection
+TXT-0535,0058b8,800150b8,15,7,story,inplace,1,800c6da0,16,7,15,P1,translated,　　　敵の全滅,or rout foes,1 pointer(s); pointer redirection
+TXT-0536,0058c8,800150c8,21,10,story,inplace,1,800c6d9c,24,11,23,P1,translated,勝利：味方の３機退却,Withdraw 3,1 pointer(s); pointer redirection
 TXT-0537,0058e0,800150e0,29,14,story,inplace,1,800c6dfc,32,15,31,P1,translated,情報は持ちかえれなかったか…,We couldn't bring back the information...,1 pointer(s); pointer redirection
-TXT-0538,005900,80015100,25,12,story,inplace,1,800c6f7c,28,13,27,P1,translated,勝利：デスザウラーの破壊,Victory: Destroy the Death Saurer,1 pointer(s); pointer redirection
+TXT-0538,005900,80015100,25,12,story,inplace,1,800c6f7c,28,13,27,P1,translated,勝利：デスザウラーの破壊,Death Saurer,1 pointer(s); pointer redirection
 TXT-0539,00591c,8001511c,15,7,story,inplace,1,800c703c,16,7,15,P1,translated,またしても…。,Again...,1 pointer(s); pointer redirection
 TXT-0540,00592c,8001512c,19,9,story,inplace,1,800c716c,20,9,19,P1,translated,気をつけるんだ！！,Be careful!!,1 pointer(s); pointer redirection
 TXT-0541,005940,80015140,21,10,story,inplace,1,800c7168,24,11,23,P1,translated,みんな、荷電粒子砲に,"Everyone, the charged particle cannon!",1 pointer(s); pointer redirection
@@ -545,64 +545,64 @@ TXT-0543,005970,80015170,13,6,story,inplace,1,800c72f4,16,7,15,P1,translated,で
 TXT-0544,005980,80015180,19,9,story,inplace,1,800c73a4,20,9,19,P1,translated,中止して撤退する！,Cancel and retreat!,1 pointer(s); pointer redirection
 TXT-0545,005994,80015194,29,14,story,inplace,1,800c73a0,32,15,31,P1,translated,ウルトラザウルスの積みこみを,Load the Ultrasaurus,1 pointer(s); pointer redirection
 TXT-0546,0059b4,800151b4,19,9,story,inplace,1,800c7374,20,9,19,P1,translated,敵の本隊がきます！,The enemy main force is coming!,1 pointer(s); pointer redirection
-TXT-0547,0059c8,800151c8,25,12,story,inplace,1,800c73e0,28,13,27,P1,translated,勝利：ゲーター４機の破壊,Victory: Destroy 4 Gators,1 pointer(s); pointer redirection
+TXT-0547,0059c8,800151c8,25,12,story,inplace,1,800c73e0,28,13,27,P1,translated,勝利：ゲーター４機の破壊,Win: 4 Gators,1 pointer(s); pointer redirection
 TXT-0548,0059e4,800151e4,9,4,story,inplace,4,800c746c,12,5,11,P1,translated,とは…。,and...,4 pointer(s); pointer redirection
 TXT-0549,0059f0,800151f0,27,13,story,inplace,3,800c7468,28,13,27,P1,translated,こんなところで足止めされる,To be stopped here,3 pointer(s); pointer redirection
-TXT-0550,005a0c,8001520c,23,11,story,inplace,1,800c74a8,24,11,23,P1,translated,勝利：ブラキオスの破壊,Victory: Destroy the Brachios,1 pointer(s); pointer redirection
+TXT-0550,005a0c,8001520c,23,11,story,inplace,1,800c74a8,24,11,23,P1,translated,勝利：ブラキオスの破壊,Win: Brachios,1 pointer(s); pointer redirection
 TXT-0551,005a24,80015224,15,7,story,inplace,1,800c7534,16,7,15,P1,translated,全機撤退する！,"All units, retreat!",1 pointer(s); pointer redirection
 TXT-0552,005a34,80015234,15,7,story,inplace,1,800c7530,16,7,15,P1,translated,やむをえんな。,It can't be helped.,1 pointer(s); pointer redirection
-TXT-0553,005a44,80015244,29,14,story,inplace,1,800c75b0,32,15,31,P1,translated,勝利：ジェノブレイカーの破壊,Victory: Destroy the Geno Breaker,1 pointer(s); pointer redirection
+TXT-0553,005a44,80015244,29,14,story,inplace,1,800c75b0,32,15,31,P1,translated,勝利：ジェノブレイカーの破壊,Geno Breaker,1 pointer(s); pointer redirection
 TXT-0554,005a64,80015264,29,14,story,inplace,1,800c7638,32,15,31,P1,translated,慣れない機体ではこんなものだ,This is all I can do in an unfamiliar unit.,1 pointer(s); pointer redirection
 TXT-0555,005a84,80015284,11,5,story,inplace,1,800c7634,12,5,11,P1,translated,まぁいい。,"Well, fine.",1 pointer(s); pointer redirection
 TXT-0556,005a90,80015290,17,8,story,inplace,1,800c76d8,20,9,19,P1,translated,上陸になります。,We're landing.,1 pointer(s); pointer redirection
 TXT-0557,005aa4,800152a4,29,14,story,inplace,1,800c76d4,32,15,31,P1,translated,ゾイドを敵の領地に移動すると,Moving a Zoid into enemy territory,1 pointer(s); pointer redirection
 TXT-0558,005ac4,800152c4,9,4,story,inplace,1,800c76d0,12,5,11,P1,translated,『上陸』,Land,1 pointer(s); pointer redirection
-TXT-0559,005ad0,800152d0,21,10,story,inplace,1,800c76b8,24,11,23,P1,translated,敗北：味方４体の破壊,Defeat: 4 allies destroyed,1 pointer(s); pointer redirection
-TXT-0560,005ae8,800152e8,27,13,story,inplace,1,800c76b4,28,13,27,P1,translated,勝利：敵の全滅・５体の上陸,Victory: Destroy all enemies / land 5,1 pointer(s); pointer redirection
+TXT-0559,005ad0,800152d0,21,10,story,inplace,1,800c76b8,24,11,23,P1,translated,敗北：味方４体の破壊,Lose: 4 down,1 pointer(s); pointer redirection
+TXT-0560,005ae8,800152e8,27,13,story,inplace,1,800c76b4,28,13,27,P1,translated,勝利：敵の全滅・５体の上陸,Rout or land 5,1 pointer(s); pointer redirection
 TXT-0561,005b04,80015304,29,14,story,inplace,1,800c7714,32,15,31,P1,translated,ダイノ島にいったん退却する！,Retreat to Dino Island for now!,1 pointer(s); pointer redirection
 TXT-0562,005b24,80015324,29,14,story,inplace,1,800c7790,32,15,31,P1,translated,これで勝ったと思わないことだ,Don't think you've won.,1 pointer(s); pointer redirection
 TXT-0563,005b44,80015344,19,9,story,inplace,1,800c77d0,20,9,19,P1,translated,一時退却するんだ！,Retreat for now!,1 pointer(s); pointer redirection
 TXT-0564,005b58,80015358,21,10,story,inplace,1,800c77cc,24,11,23,P1,translated,なんという戦力だ…。,What fighting strength...,1 pointer(s); pointer redirection
 TXT-0565,005b70,80015370,23,11,story,inplace,1,800c7868,24,11,23,P1,translated,部隊を組みなおすんだ！,Reorganize the units!,1 pointer(s); pointer redirection
 TXT-0566,005b88,80015388,15,7,story,inplace,1,800c7864,16,7,15,P1,translated,一時退却して、,"Retreat for now,",1 pointer(s); pointer redirection
-TXT-0567,005b98,80015398,21,10,story,inplace,1,800c7930,24,11,23,P1,translated,　　　１０ターン経過,10 turns passed,1 pointer(s); pointer redirection
-TXT-0568,005bb0,800153b0,17,8,story,inplace,1,800c7988,20,9,19,P1,translated,　　　基地の破壊,Base destroyed,1 pointer(s); pointer redirection
-TXT-0569,005bc4,800153c4,21,10,story,inplace,1,800c7984,24,11,23,P1,translated,敗北：２０ターン経過,Defeat: 20 turns passed,1 pointer(s); pointer redirection
-TXT-0570,005bdc,800153dc,21,10,story,inplace,1,800c7970,24,11,23,P1,translated,敗北：味方３体の破壊,Defeat: 3 allies destroyed,1 pointer(s); pointer redirection
-TXT-0571,005bf4,800153f4,25,12,story,inplace,1,800c79cc,28,13,27,P1,translated,　　　レッドホーンの破壊,Red Horn destroyed,1 pointer(s); pointer redirection
-TXT-0572,005c10,80015410,25,12,story,inplace,1,800c79c8,28,13,27,P1,translated,　　　ジェノザウラーと、,Geno Zaurer and,1 pointer(s); pointer redirection
-TXT-0573,005c2c,8001542c,21,10,story,inplace,1,800c7a68,24,11,23,P1,translated,　　　１５ターン経過,15 turns passed,1 pointer(s); pointer redirection
-TXT-0574,005c44,80015444,15,7,story,inplace,49,800c84f8,16,7,15,P1,translated,出撃制限：なし,Deployment limit: None,49 pointer(s); pointer redirection
-TXT-0575,005c54,80015454,25,12,story,inplace,16,800c84f4,28,13,27,P1,translated,出撃可能ゾイド：最大５体,Deployable Zoids: Up to 5,16 pointer(s); pointer redirection
-TXT-0576,005c70,80015470,23,11,story,inplace,2,800c8538,24,11,23,P1,translated,出撃制限：Ｌ型出撃不可,Deployment limit: No L-types,2 pointer(s); pointer redirection
-TXT-0577,005c88,80015488,25,12,story,inplace,24,800c85f4,28,13,27,P1,translated,出撃可能ゾイド：最大７体,Deployable Zoids: Up to 7,24 pointer(s); pointer redirection
-TXT-0578,005ca4,800154a4,19,9,story,inplace,23,800c86b4,20,9,19,P1,translated,配備ポイント：７０,Deployment points: 70,23 pointer(s); pointer redirection
-TXT-0579,005cb8,800154b8,25,12,story,inplace,4,800c8810,28,13,27,P1,translated,出撃制限：飛行タイプ不可,Deployment limit: No flying types,4 pointer(s); pointer redirection
-TXT-0580,005cd4,800154d4,25,12,story,inplace,2,800c88d8,28,13,27,P1,translated,出撃可能ゾイド：最大８体,Deployable Zoids: Up to 8,2 pointer(s); pointer redirection
-TXT-0581,005cf0,800154f0,19,9,story,inplace,2,800c88d4,20,9,19,P1,translated,配備ポイント：８０,Deployment points: 80,2 pointer(s); pointer redirection
-TXT-0582,005d04,80015504,19,9,story,inplace,3,800c8918,20,9,19,P1,translated,配備ポイント：５０,Deployment points: 50,3 pointer(s); pointer redirection
-TXT-0583,005d18,80015518,27,13,story,inplace,2,800c8a74,28,13,27,P1,translated,出撃制限：Ｓ型のみ出撃可能,Deployment limit: S-types only,2 pointer(s); pointer redirection
-TXT-0584,005d34,80015534,27,13,story,inplace,10,800c8ab4,28,13,27,P1,translated,出撃可能ゾイド：最大１１体,Deployable Zoids: Up to 11,10 pointer(s); pointer redirection
-TXT-0585,005d50,80015550,21,10,story,inplace,2,800c8ab0,24,11,23,P1,translated,配備ポイント：１００,Deployment points: 100,2 pointer(s); pointer redirection
-TXT-0586,005d68,80015568,27,13,story,inplace,2,800c8af4,28,13,27,P1,translated,出撃可能ゾイド：最大１０体,Deployable Zoids: Up to 10,2 pointer(s); pointer redirection
-TXT-0587,005d84,80015584,25,12,story,inplace,2,800c8b38,28,13,27,P1,translated,出撃制限：Ｌ型、Ｍ型不可,Deployment limit: No L or M types,2 pointer(s); pointer redirection
-TXT-0588,005da0,800155a0,23,11,story,inplace,4,800c8b74,24,11,23,P1,translated,配備ポイント：１００Ｐ,Deployment points: 100P,4 pointer(s); pointer redirection
-TXT-0589,005db8,800155b8,25,12,story,inplace,1,800c8bb8,28,13,27,P1,translated,出撃可能ゾイド：最大４体,Deployable Zoids: Up to 4,1 pointer(s); pointer redirection
-TXT-0590,005dd4,800155d4,25,12,story,inplace,1,800c8bf8,28,13,27,P1,translated,出撃可能ゾイド：３体限定,Deployable Zoids: 3 only,1 pointer(s); pointer redirection
-TXT-0591,005df0,800155f0,21,10,story,inplace,1,800c8c38,24,11,23,P1,translated,配備ポイント：８５Ｐ,Deployment points: 85P,1 pointer(s); pointer redirection
-TXT-0592,005e08,80015608,27,13,story,inplace,1,800c8c98,28,13,27,P1,translated,　　　　　砂適正ゾイド不可,No desert-aptitude Zoids,1 pointer(s); pointer redirection
-TXT-0593,005e24,80015624,25,12,story,inplace,1,800c8c94,28,13,27,P1,translated,　　　　　飛行タイプ不可,No flying types,1 pointer(s); pointer redirection
-TXT-0594,005e40,80015640,19,9,story,inplace,1,800c8c90,20,9,19,P1,translated,出撃制限：Ｌ型不可,Deployment limit: No L-types,1 pointer(s); pointer redirection
-TXT-0595,005e54,80015654,25,12,story,inplace,3,800c8cd8,28,13,27,P1,translated,出撃可能ゾイド：最大３体,Deployable Zoids: Up to 3,3 pointer(s); pointer redirection
-TXT-0596,005e70,80015670,21,10,story,inplace,2,800c8cd4,24,11,23,P1,translated,配備ポイント：６０Ｐ,Deployment points: 60P,2 pointer(s); pointer redirection
+TXT-0567,005b98,80015398,21,10,story,inplace,1,800c7930,24,11,23,P1,translated,　　　１０ターン経過,10 turns pass,1 pointer(s); pointer redirection
+TXT-0568,005bb0,800153b0,17,8,story,inplace,1,800c7988,20,9,19,P1,translated,　　　基地の破壊,Base falls,1 pointer(s); pointer redirection
+TXT-0569,005bc4,800153c4,21,10,story,inplace,1,800c7984,24,11,23,P1,translated,敗北：２０ターン経過,Lose: 20 turns,1 pointer(s); pointer redirection
+TXT-0570,005bdc,800153dc,21,10,story,inplace,1,800c7970,24,11,23,P1,translated,敗北：味方３体の破壊,Lose: 3 down,1 pointer(s); pointer redirection
+TXT-0571,005bf4,800153f4,25,12,story,inplace,1,800c79cc,28,13,27,P1,translated,　　　レッドホーンの破壊,Red Horn falls,1 pointer(s); pointer redirection
+TXT-0572,005c10,80015410,25,12,story,inplace,1,800c79c8,28,13,27,P1,translated,　　　ジェノザウラーと、,Geno Saurer +,1 pointer(s); pointer redirection
+TXT-0573,005c2c,8001542c,21,10,story,inplace,1,800c7a68,24,11,23,P1,translated,　　　１５ターン経過,15 turns pass,1 pointer(s); pointer redirection
+TXT-0574,005c44,80015444,15,7,story,inplace,49,800c84f8,16,7,15,P1,translated,出撃制限：なし,No type limits,49 pointer(s); pointer redirection
+TXT-0575,005c54,80015454,25,12,story,inplace,16,800c84f4,28,13,27,P1,translated,出撃可能ゾイド：最大５体,Max 5 Zoids,16 pointer(s); pointer redirection
+TXT-0576,005c70,80015470,23,11,story,inplace,2,800c8538,24,11,23,P1,translated,出撃制限：Ｌ型出撃不可,No L-types,2 pointer(s); pointer redirection
+TXT-0577,005c88,80015488,25,12,story,inplace,24,800c85f4,28,13,27,P1,translated,出撃可能ゾイド：最大７体,Max 7 Zoids,24 pointer(s); pointer redirection
+TXT-0578,005ca4,800154a4,19,9,story,inplace,23,800c86b4,20,9,19,P1,translated,配備ポイント：７０,70 deploy pts,23 pointer(s); pointer redirection
+TXT-0579,005cb8,800154b8,25,12,story,inplace,4,800c8810,28,13,27,P1,translated,出撃制限：飛行タイプ不可,No air types,4 pointer(s); pointer redirection
+TXT-0580,005cd4,800154d4,25,12,story,inplace,2,800c88d8,28,13,27,P1,translated,出撃可能ゾイド：最大８体,Max 8 Zoids,2 pointer(s); pointer redirection
+TXT-0581,005cf0,800154f0,19,9,story,inplace,2,800c88d4,20,9,19,P1,translated,配備ポイント：８０,80 deploy pts,2 pointer(s); pointer redirection
+TXT-0582,005d04,80015504,19,9,story,inplace,3,800c8918,20,9,19,P1,translated,配備ポイント：５０,50 deploy pts,3 pointer(s); pointer redirection
+TXT-0583,005d18,80015518,27,13,story,inplace,2,800c8a74,28,13,27,P1,translated,出撃制限：Ｓ型のみ出撃可能,S-types only,2 pointer(s); pointer redirection
+TXT-0584,005d34,80015534,27,13,story,inplace,10,800c8ab4,28,13,27,P1,translated,出撃可能ゾイド：最大１１体,Max 11 Zoids,10 pointer(s); pointer redirection
+TXT-0585,005d50,80015550,21,10,story,inplace,2,800c8ab0,24,11,23,P1,translated,配備ポイント：１００,100 deploy pts,2 pointer(s); pointer redirection
+TXT-0586,005d68,80015568,27,13,story,inplace,2,800c8af4,28,13,27,P1,translated,出撃可能ゾイド：最大１０体,Max 10 Zoids,2 pointer(s); pointer redirection
+TXT-0587,005d84,80015584,25,12,story,inplace,2,800c8b38,28,13,27,P1,translated,出撃制限：Ｌ型、Ｍ型不可,No L/M-types,2 pointer(s); pointer redirection
+TXT-0588,005da0,800155a0,23,11,story,inplace,4,800c8b74,24,11,23,P1,translated,配備ポイント：１００Ｐ,100 deploy pts,4 pointer(s); pointer redirection
+TXT-0589,005db8,800155b8,25,12,story,inplace,1,800c8bb8,28,13,27,P1,translated,出撃可能ゾイド：最大４体,Max 4 Zoids,1 pointer(s); pointer redirection
+TXT-0590,005dd4,800155d4,25,12,story,inplace,1,800c8bf8,28,13,27,P1,translated,出撃可能ゾイド：３体限定,3 Zoids only,1 pointer(s); pointer redirection
+TXT-0591,005df0,800155f0,21,10,story,inplace,1,800c8c38,24,11,23,P1,translated,配備ポイント：８５Ｐ,85 deploy pts,1 pointer(s); pointer redirection
+TXT-0592,005e08,80015608,27,13,story,inplace,1,800c8c98,28,13,27,P1,translated,　　　　　砂適正ゾイド不可,No sand types,1 pointer(s); pointer redirection
+TXT-0593,005e24,80015624,25,12,story,inplace,1,800c8c94,28,13,27,P1,translated,　　　　　飛行タイプ不可,No air types,1 pointer(s); pointer redirection
+TXT-0594,005e40,80015640,19,9,story,inplace,1,800c8c90,20,9,19,P1,translated,出撃制限：Ｌ型不可,No L-types,1 pointer(s); pointer redirection
+TXT-0595,005e54,80015654,25,12,story,inplace,3,800c8cd8,28,13,27,P1,translated,出撃可能ゾイド：最大３体,Max 3 Zoids,3 pointer(s); pointer redirection
+TXT-0596,005e70,80015670,21,10,story,inplace,2,800c8cd4,24,11,23,P1,translated,配備ポイント：６０Ｐ,60 deploy pts,2 pointer(s); pointer redirection
 TXT-0597,005e88,80015688,29,14,story,inplace,2,800c8f38,32,15,31,P1,translated,それ以下では出撃できません。,"Below that, you cannot deploy.",2 pointer(s); pointer redirection
 TXT-0598,005ea8,800156a8,29,14,story,inplace,1,800c8f34,32,15,31,P1,translated,ゾイドを５体選んでください。,Select 5 Zoids.,1 pointer(s); pointer redirection
-TXT-0599,005ec8,800156c8,17,8,story,inplace,1,800c8f1c,20,9,19,P1,translated,出撃ゾイド：５体,Deployed Zoids: 5,1 pointer(s); pointer redirection
-TXT-0600,005edc,800156dc,27,13,story,inplace,2,800c9224,28,13,27,P1,translated,出撃制限：Ｌ型以上出撃不可,Deployment limit: No L-types or larger,2 pointer(s); pointer redirection
+TXT-0599,005ec8,800156c8,17,8,story,inplace,1,800c8f1c,20,9,19,P1,translated,出撃ゾイド：５体,Deploy 5 Zoids,1 pointer(s); pointer redirection
+TXT-0600,005edc,800156dc,27,13,story,inplace,2,800c9224,28,13,27,P1,translated,出撃制限：Ｌ型以上出撃不可,No L/LL-types,2 pointer(s); pointer redirection
 TXT-0601,005ef8,800156f8,29,14,story,inplace,1,800c9278,32,15,31,P1,translated,ゾイドを８体選んでください。,Select 8 Zoids.,1 pointer(s); pointer redirection
-TXT-0602,005f18,80015718,17,8,story,inplace,1,800c9260,20,9,19,P1,translated,出撃ゾイド：８体,Deployed Zoids: 8,1 pointer(s); pointer redirection
-TXT-0603,005f2c,8001572c,25,12,story,inplace,1,800c9408,28,13,27,P1,translated,出撃可能ゾイド：４体限定,Deployable Zoids: 4 only,1 pointer(s); pointer redirection
-TXT-0604,005f48,80015748,21,10,story,inplace,1,800c9488,24,11,23,P1,translated,配備ポイント：８０Ｐ,Deployment points: 80P,1 pointer(s); pointer redirection
+TXT-0602,005f18,80015718,17,8,story,inplace,1,800c9260,20,9,19,P1,translated,出撃ゾイド：８体,Deploy 8 Zoids,1 pointer(s); pointer redirection
+TXT-0603,005f2c,8001572c,25,12,story,inplace,1,800c9408,28,13,27,P1,translated,出撃可能ゾイド：４体限定,4 Zoids only,1 pointer(s); pointer redirection
+TXT-0604,005f48,80015748,21,10,story,inplace,1,800c9488,24,11,23,P1,translated,配備ポイント：８０Ｐ,80 deploy pts,1 pointer(s); pointer redirection
 TXT-0605,005f60,80015760,23,11,story,inplace,1,800c9940,24,11,23,P1,translated,がんばってくれたまえ。,Do your best.,1 pointer(s); pointer redirection
 TXT-0606,005f78,80015778,25,12,story,inplace,1,800c993c,28,13,27,P1,translated,演習の準備は整っている。,The exercise is ready.,1 pointer(s); pointer redirection
 TXT-0607,005f94,80015794,21,10,story,inplace,1,800c9928,24,11,23,P1,translated,見せてやってほしい。,Show me what you can do.,1 pointer(s); pointer redirection
@@ -1922,7 +1922,7 @@ TXT-1920,01104c,8002084c,29,14,menu,inplace,1,800208b4,32,15,31,P0,translated,�
 TXT-1921,01106c,8002086c,31,15,menu,inplace,1,800208b8,32,15,31,P0,translated,交　　代記　　録設　　定捨て場,SwapSaveOptsBin,1 pointer(s); pointer redirection
 TXT-1922,01108c,8002088c,29,14,menu,inplace,1,800208bc,29,14,28,P0,translated,帝国軍基地　　　共和国軍基地,EBase   R Base,1 pointer(s); pointer redirection
 TXT-1923,0112d4,80020ad4,19,9,menu,inplace,1,80020afc,20,9,19,P0,translated,ジャンプブースター,JUMP BOOSTER,1 pointer(s); pointer redirection
-TXT-1924,0112e8,80020ae8,13,6,menu,inplace,1,80020b00,13,6,12,P0,translated,高速ビーグル,HIGH-SPEED BEAGLE,1 pointer(s); pointer redirection
+TXT-1924,0112e8,80020ae8,13,6,menu,inplace,1,80020b00,13,6,12,P0,translated,高速ビーグル,HS BEAGLE,1 pointer(s); pointer redirection
 TXT-1925,0145c4,80023dc4,25,12,card,inplace,1,800eaad4,28,13,27,P1,translated,ＲＺ−０２８・ＢＳ　　　,RZ-028 BS,1 pointer(s); pointer redirection
 TXT-1926,0145e0,80023de0,21,10,card,inplace,1,800eaad0,24,11,23,P1,translated,バン搭乗機　　　　　,Van's Zoid,1 pointer(s); pointer redirection
 TXT-1927,0145f8,80023df8,21,10,card,inplace,1,800eaabc,136,67,135,P1,translated,レイヴン搭乗機　　　,Raven's Zoid,1 pointer(s); pointer redirection
@@ -2129,7 +2129,7 @@ TXT-2127,016378,80025b78,23,11,card,inplace,1,800ebeb8,24,11,23,P1,translated,�
 TXT-2128,016390,80025b90,15,7,card,inplace,1,800ebeb0,16,7,15,P1,translated,コマンドウルフ,COMMAND WOLF,1 pointer(s); pointer redirection
 TXT-2129,0163a0,80025ba0,33,16,card,inplace,1,800ebe80,36,17,35,P1,translated,ＨＰを３００減らして＋１できる。,to add +1.,1 pointer(s); pointer redirection
 TXT-2130,0163c4,80025bc4,23,11,card,inplace,1,800ebe7c,24,11,23,P1,translated,命中判定のダイス目に、,"When making a hit check, you may spend 300 HP",1 pointer(s); pointer redirection
-TXT-2131,0163dc,80025bdc,21,10,card,inplace,1,800ebe70,24,11,23,P1,translated,コマンドウルフ・ＡＳ,COMMAND WOLF AS,1 pointer(s); pointer redirection
+TXT-2131,0163dc,80025bdc,21,10,card,inplace,1,800ebe70,24,11,23,P1,translated,コマンドウルフ・ＡＳ,CMD WOLF AS,1 pointer(s); pointer redirection
 TXT-2132,0163f4,80025bf4,17,8,card,inplace,4,800ebe6c,20,9,19,P1,translated,砂　ＨＰ＋２００,Sand: HP +200,4 pointer(s); pointer redirection
 TXT-2133,016408,80025c08,23,11,card,inplace,1,800ebe44,24,11,23,P1,translated,乗機ゾイドから与える。,from your Zoid.,1 pointer(s); pointer redirection
 TXT-2134,016420,80025c20,35,17,card,inplace,1,800ebe40,36,17,35,P1,translated,機に、ダイスの目×１００分のＨＰを,to one adjacent Zoid,1 pointer(s); pointer redirection
@@ -2425,7 +2425,7 @@ TXT-2423,0183d0,80027bd0,17,8,card,inplace,1,800ec938,20,9,19,P1,translated,対�
 TXT-2424,0183e4,80027be4,17,8,card,inplace,1,800ec934,20,9,19,P1,translated,カウンターヒット,Counter Hit,1 pointer(s); pointer redirection
 TXT-2425,0183f8,80027bf8,19,9,card,inplace,2,800ec930,20,9,19,P1,translated,エネルギーシールド,ENERGY SHIELD,2 pointer(s); pointer redirection
 TXT-2426,01840c,80027c0c,15,7,card,inplace,1,800ec92c,16,7,15,P1,translated,ウイングソ−ド,Wing Sword,1 pointer(s); pointer redirection
-TXT-2427,01841c,80027c1c,19,9,card,inplace,1,800ec928,20,9,19,P1,translated,ＧＰＳ複合センサー,GPS COMPOSITE SENSOR,1 pointer(s); pointer redirection
+TXT-2427,01841c,80027c1c,19,9,card,inplace,1,800ec928,20,9,19,P1,translated,ＧＰＳ複合センサー,GPS SENSOR,1 pointer(s); pointer redirection
 TXT-2428,018430,80027c30,15,7,card,inplace,1,800ec924,16,7,15,P1,translated,イオンエンジン,Ion Engine,1 pointer(s); pointer redirection
 TXT-2429,018440,80027c40,19,9,card,inplace,1,800ec918,20,9,19,P1,translated,突撃用超硬度ドリル,Assault Ultra-Hard Drill,1 pointer(s); pointer redirection
 TXT-2430,018454,80027c54,19,9,card,inplace,1,800ec914,20,9,19,P1,translated,ビームガトリング砲,Beam Gatling Cannon,1 pointer(s); pointer redirection
@@ -2433,12 +2433,12 @@ TXT-2431,018468,80027c68,17,8,card,inplace,1,800ec910,20,9,19,P1,translated,ハ�
 TXT-2432,01847c,80027c7c,11,5,card,inplace,1,800ec90c,12,5,11,P1,translated,電子かく乱,Electronic Jamming,1 pointer(s); pointer redirection
 TXT-2433,018488,80027c88,9,4,card,inplace,1,800ec908,12,5,11,P1,translated,特殊装甲,Special Armor,1 pointer(s); pointer redirection
 TXT-2434,018494,80027c94,19,9,card,inplace,1,800ec904,20,9,19,P1,translated,クラッシャークロー,Crusher Claw,1 pointer(s); pointer redirection
-TXT-2435,0184a8,80027ca8,9,4,card,inplace,1,800ec900,12,5,11,P1,translated,全方位弾,ALL-DIRECTION SHOT,1 pointer(s); pointer redirection
+TXT-2435,0184a8,80027ca8,9,4,card,inplace,1,800ec900,12,5,11,P1,translated,全方位弾,ALL-DIR SHOT,1 pointer(s); pointer redirection
 TXT-2436,0184b4,80027cb4,19,9,card,inplace,1,800ec8fc,20,9,19,P1,translated,スナイパーライフル,Sniper Rifle,1 pointer(s); pointer redirection
-TXT-2437,0184c8,80027cc8,21,10,card,inplace,1,800ec8f8,24,11,23,P1,translated,大口径ビームキャノン,LARGE-BORE BEAM CANNON,1 pointer(s); pointer redirection
+TXT-2437,0184c8,80027cc8,21,10,card,inplace,1,800ec8f8,24,11,23,P1,translated,大口径ビームキャノン,L.B. BEAM GUN,1 pointer(s); pointer redirection
 TXT-2438,0184e0,80027ce0,21,10,card,inplace,1,800ec8f4,24,11,23,P1,translated,マニューバーミサイル,Maneuver Missile,1 pointer(s); pointer redirection
 TXT-2439,0184f8,80027cf8,17,8,card,inplace,1,800ec8f0,20,9,19,P1,translated,ストライクノーズ,Strike Nose,1 pointer(s); pointer redirection
-TXT-2440,01850c,80027d0c,21,10,card,inplace,1,800ec8ec,24,11,23,P1,translated,ロングレンジライフル,LONG-RANGE RIFLE,1 pointer(s); pointer redirection
+TXT-2440,01850c,80027d0c,21,10,card,inplace,1,800ec8ec,24,11,23,P1,translated,ロングレンジライフル,LR RIFLE,1 pointer(s); pointer redirection
 TXT-2441,018524,80027d24,19,9,card,inplace,1,800ec8e0,20,9,19,P1,translated,ブースターキャノン,Booster Cannon,1 pointer(s); pointer redirection
 TXT-2442,018538,80027d38,9,4,card,inplace,1,800ec8dc,12,5,11,P1,translated,武器破壊,Weapon Destroy,1 pointer(s); pointer redirection
 TXT-2443,018544,80027d44,11,5,card,inplace,2,800ec8d8,12,5,11,P1,translated,荷電粒子砲,Charged Particle Cannon,2 pointer(s); pointer redirection

@@ -5267,7 +5267,7 @@ ptr_addrs = ["0x800c4bbc", "0x800c4c50", "0x800c4d84", "0x800c4e44", "0x800c4f34
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Defeat: All allies lost"
+en = "Lose: All down"
 note = "story inplace max=9"
 
 [[entry]]
@@ -5280,7 +5280,7 @@ ptr_addrs = ["0x800c4bb8", "0x800c4ff0", "0x800c5388", "0x800c56a0", "0x800c571c
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "Victory: Destroy all enemies"
+en = "Win: Rout foes"
 note = "story inplace max=7"
 
 [[entry]]
@@ -5306,7 +5306,7 @@ ptr_addrs = ["0x800c4c4c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Victory: Destroy Command Wolf"
+en = "Win: Cmd Wolf"
 note = "story inplace max=13"
 
 [[entry]]
@@ -5358,7 +5358,7 @@ ptr_addrs = ["0x800c4d80", "0x800c4e40", "0x800c4f30", "0x800c5078", "0x800c513c
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Victory: Destroy all enemies/base"
+en = "Rout foes/base"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5488,7 +5488,7 @@ ptr_addrs = ["0x800c4ff8", "0x800c5b60", "0x800c7338", "0x800c73e8", "0x800c76bc
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "20 turns passed"
+en = "20 turns pass"
 note = "story inplace max=11"
 
 [[entry]]
@@ -5670,7 +5670,7 @@ ptr_addrs = ["0x800c5288", "0x800c5724", "0x800c57a8", "0x800c5e08", "0x800c5f0c
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Allied base destroyed"
+en = "Our base falls"
 note = "story inplace max=11"
 
 [[entry]]
@@ -5683,7 +5683,7 @@ ptr_addrs = ["0x800c5280"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Victory: Destroy Storm Sworder"
+en = "Win: Storm Sw."
 note = "story inplace max=15"
 
 [[entry]]
@@ -5813,7 +5813,7 @@ ptr_addrs = ["0x800c553c"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Victory: Gojulas the Ogre"
+en = "Gojulas Ogre"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5904,7 +5904,7 @@ ptr_addrs = ["0x800c5604"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Victory: Destroy the Death Stinger"
+en = "Death Stinger"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5982,7 +5982,7 @@ ptr_addrs = ["0x800c586c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "15 turns passed"
+en = "15 turns pass"
 note = "story inplace max=11"
 
 [[entry]]
@@ -5995,7 +5995,7 @@ ptr_addrs = ["0x800c5864"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Victory: Destroy the Gustav"
+en = "Win: Gustav"
 note = "story inplace max=11"
 
 [[entry]]
@@ -6034,7 +6034,7 @@ ptr_addrs = ["0x800c592c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Victory: Destroy the Geno Zaurer"
+en = "Win: Geno Saur"
 note = "story inplace max=13"
 
 [[entry]]
@@ -6112,7 +6112,7 @@ ptr_addrs = ["0x800c5c68"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Victory: Destroy the Dead Border"
+en = "Dead Border"
 note = "story inplace max=13"
 
 [[entry]]
@@ -6268,7 +6268,7 @@ ptr_addrs = ["0x800c5e48"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Defeat: Allied base destroyed"
+en = "Lose: No base"
 note = "story inplace max=11"
 
 [[entry]]
@@ -6281,7 +6281,7 @@ ptr_addrs = ["0x800c5e44"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Victory: Destroy 3 Ligers"
+en = "Win: 3 Ligers"
 note = "story inplace max=13"
 
 [[entry]]
@@ -6554,7 +6554,7 @@ ptr_addrs = ["0x800c6710"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Victory: Destroy the Red Horn"
+en = "Win: Red Horn"
 note = "story inplace max=13"
 
 [[entry]]
@@ -6619,7 +6619,7 @@ ptr_addrs = ["0x800c67d8"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Victory: Destroy 4 enemies"
+en = "Win: 4 foes"
 note = "story inplace max=9"
 
 [[entry]]
@@ -6736,7 +6736,7 @@ ptr_addrs = ["0x800c6a90"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Victory: Destroy the Saber Tiger"
+en = "Saber Tiger"
 note = "story inplace max=15"
 
 [[entry]]
@@ -6892,7 +6892,7 @@ ptr_addrs = ["0x800c6da4"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Defeat: 3 allies destroyed"
+en = "Lose: 3 down"
 note = "story inplace max=9"
 
 [[entry]]
@@ -6905,7 +6905,7 @@ ptr_addrs = ["0x800c6da0"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "Destroy all enemies"
+en = "or rout foes"
 note = "story inplace max=7"
 
 [[entry]]
@@ -6918,7 +6918,7 @@ ptr_addrs = ["0x800c6d9c"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Victory: Retreat 3 allies"
+en = "Withdraw 3"
 note = "story inplace max=11"
 
 [[entry]]
@@ -6944,7 +6944,7 @@ ptr_addrs = ["0x800c6f7c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Victory: Destroy the Death Saurer"
+en = "Death Saurer"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7061,7 +7061,7 @@ ptr_addrs = ["0x800c73e0"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Victory: Destroy 4 Gators"
+en = "Win: 4 Gators"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7100,7 +7100,7 @@ ptr_addrs = ["0x800c74a8"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Victory: Destroy the Brachios"
+en = "Win: Brachios"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7139,7 +7139,7 @@ ptr_addrs = ["0x800c75b0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Victory: Destroy the Geno Breaker"
+en = "Geno Breaker"
 note = "story inplace max=15"
 
 [[entry]]
@@ -7217,7 +7217,7 @@ ptr_addrs = ["0x800c76b8"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Defeat: 4 allies destroyed"
+en = "Lose: 4 down"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7230,7 +7230,7 @@ ptr_addrs = ["0x800c76b4"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Victory: Destroy all enemies / land 5"
+en = "Rout or land 5"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7321,7 +7321,7 @@ ptr_addrs = ["0x800c7930"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "10 turns passed"
+en = "10 turns pass"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7334,7 +7334,7 @@ ptr_addrs = ["0x800c7988"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Base destroyed"
+en = "Base falls"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7347,7 +7347,7 @@ ptr_addrs = ["0x800c7984"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Defeat: 20 turns passed"
+en = "Lose: 20 turns"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7360,7 +7360,7 @@ ptr_addrs = ["0x800c7970"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Defeat: 3 allies destroyed"
+en = "Lose: 3 down"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7373,7 +7373,7 @@ ptr_addrs = ["0x800c79cc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Red Horn destroyed"
+en = "Red Horn falls"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7386,7 +7386,7 @@ ptr_addrs = ["0x800c79c8"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Geno Zaurer and"
+en = "Geno Saurer +"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7399,7 +7399,7 @@ ptr_addrs = ["0x800c7a68"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "15 turns passed"
+en = "15 turns pass"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7412,7 +7412,7 @@ ptr_addrs = ["0x800c84f8", "0x800c8578", "0x800c85b8", "0x800c85f8", "0x800c8638
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "Deployment limit: None"
+en = "No type limits"
 note = "story inplace max=7"
 
 [[entry]]
@@ -7425,7 +7425,7 @@ ptr_addrs = ["0x800c84f4", "0x800c8534", "0x800c8574", "0x800c85b4", "0x800c8634
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: Up to 5"
+en = "Max 5 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7438,7 +7438,7 @@ ptr_addrs = ["0x800c8538", "0x800c8898"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Deployment limit: No L-types"
+en = "No L-types"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7451,7 +7451,7 @@ ptr_addrs = ["0x800c85f4", "0x800c8674", "0x800c86fc", "0x800c8740", "0x800c8784
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: Up to 7"
+en = "Max 7 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7464,7 +7464,7 @@ ptr_addrs = ["0x800c86b4", "0x800c86f8", "0x800c873c", "0x800c8780", "0x800c87c4
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Deployment points: 70"
+en = "70 deploy pts"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7477,7 +7477,7 @@ ptr_addrs = ["0x800c8810", "0x800c8c40", "0x800c9490", "0x800c94d4"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployment limit: No flying types"
+en = "No air types"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7490,7 +7490,7 @@ ptr_addrs = ["0x800c88d8", "0x800c9198"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: Up to 8"
+en = "Max 8 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7503,7 +7503,7 @@ ptr_addrs = ["0x800c88d4", "0x800c9084"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Deployment points: 80"
+en = "80 deploy pts"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7516,7 +7516,7 @@ ptr_addrs = ["0x800c8918", "0x800c895c", "0x800c8a6c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Deployment points: 50"
+en = "50 deploy pts"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7529,7 +7529,7 @@ ptr_addrs = ["0x800c8a74", "0x800c8f20"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Deployment limit: S-types only"
+en = "S-types only"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7542,7 +7542,7 @@ ptr_addrs = ["0x800c8ab4", "0x800c8b34", "0x800c8b78", "0x800c8c3c", "0x800c92bc
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Deployable Zoids: Up to 11"
+en = "Max 11 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7555,7 +7555,7 @@ ptr_addrs = ["0x800c8ab0", "0x800c92b8"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Deployment points: 100"
+en = "100 deploy pts"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7568,7 +7568,7 @@ ptr_addrs = ["0x800c8af4", "0x800c8c7c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Deployable Zoids: Up to 10"
+en = "Max 10 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7581,7 +7581,7 @@ ptr_addrs = ["0x800c8b38", "0x800c9388"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployment limit: No L or M types"
+en = "No L/M-types"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7594,7 +7594,7 @@ ptr_addrs = ["0x800c8b74", "0x800c9340", "0x800c93c4", "0x800c94cc"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Deployment points: 100P"
+en = "100 deploy pts"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7607,7 +7607,7 @@ ptr_addrs = ["0x800c8bb8"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: Up to 4"
+en = "Max 4 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7620,7 +7620,7 @@ ptr_addrs = ["0x800c8bf8"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: 3 only"
+en = "3 Zoids only"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7633,7 +7633,7 @@ ptr_addrs = ["0x800c8c38"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Deployment points: 85P"
+en = "85 deploy pts"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7646,7 +7646,7 @@ ptr_addrs = ["0x800c8c98"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "No desert-aptitude Zoids"
+en = "No sand types"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7659,7 +7659,7 @@ ptr_addrs = ["0x800c8c94"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "No flying types"
+en = "No air types"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7672,7 +7672,7 @@ ptr_addrs = ["0x800c8c90"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Deployment limit: No L-types"
+en = "No L-types"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7685,7 +7685,7 @@ ptr_addrs = ["0x800c8cd8", "0x800c9448", "0x800c9514"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: Up to 3"
+en = "Max 3 Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7698,7 +7698,7 @@ ptr_addrs = ["0x800c8cd4", "0x800c9510"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Deployment points: 60P"
+en = "60 deploy pts"
 note = "story inplace max=11"
 
 [[entry]]
@@ -7737,7 +7737,7 @@ ptr_addrs = ["0x800c8f1c"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Deployed Zoids: 5"
+en = "Deploy 5 Zoids"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7750,7 +7750,7 @@ ptr_addrs = ["0x800c9224", "0x800c9304"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Deployment limit: No L-types or larger"
+en = "No L/LL-types"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7776,7 +7776,7 @@ ptr_addrs = ["0x800c9260"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Deployed Zoids: 8"
+en = "Deploy 8 Zoids"
 note = "story inplace max=9"
 
 [[entry]]
@@ -7789,7 +7789,7 @@ ptr_addrs = ["0x800c9408"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Deployable Zoids: 4 only"
+en = "4 Zoids only"
 note = "story inplace max=13"
 
 [[entry]]
@@ -7802,7 +7802,7 @@ ptr_addrs = ["0x800c9488"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Deployment points: 80P"
+en = "80 deploy pts"
 note = "story inplace max=11"
 
 [[entry]]
@@ -24156,7 +24156,7 @@ ptr_addrs = ["0x80020b00"]
 term = "nul"
 pad = "slot"
 orig_w = 6
-en = "HIGH-SPEED BEAGLE"
+en = "HS BEAGLE"
 note = "menu inplace max=6"
 
 [[entry]]
@@ -26847,7 +26847,7 @@ ptr_addrs = ["0x800ebe70"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "COMMAND WOLF AS"
+en = "CMD WOLF AS"
 note = "card inplace max=11"
 
 [[entry]]
@@ -30695,7 +30695,7 @@ ptr_addrs = ["0x800ec928"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "GPS COMPOSITE SENSOR"
+en = "GPS SENSOR"
 note = "card inplace max=9"
 
 [[entry]]
@@ -30799,7 +30799,7 @@ ptr_addrs = ["0x800ec900"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "ALL-DIRECTION SHOT"
+en = "ALL-DIR SHOT"
 note = "card inplace max=5"
 
 [[entry]]
@@ -30825,7 +30825,7 @@ ptr_addrs = ["0x800ec8f8"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "LARGE-BORE BEAM CANNON"
+en = "L.B. BEAM GUN"
 note = "card inplace max=11"
 
 [[entry]]
@@ -30864,7 +30864,7 @@ ptr_addrs = ["0x800ec8ec"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "LONG-RANGE RIFLE"
+en = "LR RIFLE"
 note = "card inplace max=11"
 
 [[entry]]

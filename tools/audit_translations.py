@@ -5,6 +5,7 @@ import tomllib
 from collections import Counter
 
 from card_text_table import EXE, RAM_BASE, card_text_slots
+from translations_objectives import OBJECTIVES, fits_objective
 
 print("== TEXT_TRACKER ==")
 rows = list(csv.DictReader(open("analysis/TEXT_TRACKER.csv", encoding="utf-8")))
@@ -45,6 +46,9 @@ live_files = (
 )
 executable = EXE.read_bytes()
 covered = set()
+objective_addresses = {int(row["ram_addr"], 16): row["id"] for row in rows
+                       if row["id"] in OBJECTIVES}
+objective_entries = set()
 errors = bool(empty or jp_left or remaining or len(ids) != len(set(ids)))
 for f in ("translations/zoids.master.toml", *live_files):
     with open(f, "rb") as table:
@@ -55,6 +59,12 @@ for f in ("translations/zoids.master.toml", *live_files):
     ram = [e for e in d if "ram_addr" in e]
     bad_addrs = []
     for e in d:
+        objective = objective_addresses.get(e.get("src_addr"))
+        if f in live_files and objective:
+            objective_entries.add(objective)
+            if not fits_objective(e.get("en", "")):
+                print(f"  {objective} exceeds the battle panel's text buffer in {f}")
+                errors = True
         for a in e.get("ptr_addrs", []):
             slot_address = int(a, 0)
             if not (0x80000000 <= slot_address <= 0x801FFFFC) or slot_address % 4:
@@ -71,6 +81,13 @@ for f in ("translations/zoids.master.toml", *live_files):
           "ram_addr", len(ram), "bad_ptr", len(bad_addrs))
     if bad_addrs[:3]:
         print("   bad sample", bad_addrs[:3])
+
+missing_objectives = OBJECTIVES.keys() - objective_entries
+print("\n== battle objectives ==")
+print("checked", len(objective_entries), "uncovered", len(missing_objectives))
+if missing_objectives:
+    print("  missing objective rows", sorted(missing_objectives))
+    errors = True
 
 print("\n== card records ==")
 slots = list(card_text_slots(executable))

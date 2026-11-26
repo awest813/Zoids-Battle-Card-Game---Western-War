@@ -26,13 +26,14 @@ from translations_story_5 import STORY_5
 from translations_story_6 import STORY_6
 from translations_story_7 import STORY_7
 from translations_story_8 import STORY_8
-from translations_card_labels import CARD_LABELS
+from translations_card_labels import CARD_LABELS, COMPACT_CARD_LABELS
 from translations_card_text_1 import CARD_TEXT_1
 from translations_card_text_2 import CARD_TEXT_2
 from translations_card_text_3 import CARD_TEXT_3
 from translations_card_text_4 import CARD_TEXT_4
 from translations_card_names_2 import CARD_NAMES_2
 from translations_polish import POLISH
+from translations_objectives import OBJECTIVES, fits_objective
 
 RAM_BASE = 0x8000F800
 ALL_TR = {}
@@ -57,6 +58,7 @@ ALL_TR.update(CARD_TEXT_3)
 ALL_TR.update(CARD_TEXT_4)
 ALL_TR.update(CARD_NAMES_2)
 ALL_TR.update(POLISH)  # last: shorten long story lines
+ALL_TR.update(OBJECTIVES)
 
 
 def toml_quote(s):
@@ -69,6 +71,9 @@ def clean_visible(s):
 
 tracker = list(csv.DictReader(open("analysis/TEXT_TRACKER.csv", encoding="utf-8")))
 by_id = {r["id"]: r for r in tracker}
+for text_id, english in OBJECTIVES.items():
+    if text_id not in by_id or not fits_objective(english):
+        raise ValueError(f"{text_id} does not fit the battle objective buffer")
 for text_id, parts in PACKED_MENU.items():
     if "".join(japanese for japanese, _ in parts) != by_id[text_id]["japanese"]:
         raise ValueError(f"{text_id} packed label boundaries do not match the source")
@@ -82,15 +87,11 @@ KEYPAD_LABEL_SLOTS = {"TXT-1892": "8001f38c", "TXT-1893": "8001f3ac"}
 ALBUM_CATEGORY_IDS = {"TXT-1884", "TXT-1885", "TXT-1886", "TXT-1887"}
 # DAT names also appear as standalone rule and roster labels in the EXE.
 # Keep their dispatch spelling consistent when both tables know the same key.
-ROSTER_ABBREVIATIONS = {
-    "Lightning Saix K": "L. SAIX K",
-    "Shield Liger DCS-J": "SHIELD DCS-J",
-    "Gojulas the Ogre": "GOJULAS OGRE",
-    "Cannon Tortoise HBG": "CANNON T. HBG",
-    "Shield Liger DCS P": "SHIELD DCS P",
-}
-COMPACT_CARD_NAMES = {name: ROSTER_ABBREVIATIONS.get(english, english.upper())
+COMPACT_CARD_NAMES = {name: COMPACT_CARD_LABELS.get(english, english.upper())
                       for name, english in english_names().items()}
+for name, label in COMPACT_CARD_NAMES.items():
+    if not label.isascii() or len(label) > 13:
+        raise ValueError(f"{name} does not fit the compact card name field: {label}")
 for row in tracker:
     if row["id"] in ALL_TR and row["japanese"] in COMPACT_CARD_NAMES:
         ALL_TR[row["id"]] = COMPACT_CARD_NAMES[row["japanese"]]

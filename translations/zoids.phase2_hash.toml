@@ -640,6 +640,13 @@ en = "ZOID NAME"
 note = "UI display string outside static tracker"
 
 [[entry]]
+src_hex = "8ee8814081408e4488da8140814093ae8d55814081408c8293c1814081408eea"
+src_jp = "手　　札移　　動攻　　撃特　　殊"
+term = "nul"
+en = "HandMoveAtk Spcl"
+note = "UI display string outside static tracker"
+
+[[entry]]
 src_hex = "83668358835583458389815b"
 src_jp = "デスザウラー"
 term = "nul"
@@ -741,7 +748,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835a8343836f815b835e8343834b815b814582718272"
 src_jp = "セイバータイガー・ＲＳ"
 term = "nul"
-en = "SABER TIGER RS"
+en = "S. TIGER RS"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -755,7 +762,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "83668358835583458389815b814582758250"
 src_jp = "デスザウラー・Ｖ１"
 term = "nul"
-en = "DEATH SAURER V1"
+en = "D. SAURER V1"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -776,7 +783,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835a8343836f815b835e8343834b815b814582728272"
 src_jp = "セイバータイガー・ＳＳ"
 term = "nul"
-en = "SABER TIGER SS"
+en = "S. TIGER SS"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -811,14 +818,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "83578346836d8375838c8343834a815b814582718272"
 src_jp = "ジェノブレイカー・ＲＳ"
 term = "nul"
-en = "GENO BREAKER RS"
+en = "GENO BRKR RS"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "836683588358836583428393834b815b8145826a"
 src_jp = "デススティンガー・Ｋ"
 term = "nul"
-en = "DEATH STINGER K"
+en = "D. STINGER K"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -839,14 +846,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835a8343836f815b835e8343834b815b82608273"
 src_jp = "セイバータイガーＡＴ"
 term = "nul"
-en = "SABER TIGER AT"
+en = "S. TIGER AT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "835a8343836f815b835e8343834b815b82658273"
 src_jp = "セイバータイガーＦＴ"
 term = "nul"
-en = "SABER TIGER FT"
+en = "S. TIGER FT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -895,7 +902,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "834a836d83938367815b835e8358"
 src_jp = "カノントータス"
 term = "nul"
-en = "CANNON TORTOISE"
+en = "CANNON TORT."
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -923,7 +930,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835f8375838b835c815b835f"
 src_jp = "ダブルソーダ"
 term = "nul"
-en = "DOUBLE SWORDER"
+en = "DBL SWORDER"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -958,7 +965,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8352837d839383688345838b8374814582608272"
 src_jp = "コマンドウルフ・ＡＳ"
 term = "nul"
-en = "COMMAND WOLF AS"
+en = "CMD WOLF AS"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1042,7 +1049,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8356815b838b836883898343834b815b826382628272"
 src_jp = "シールドライガーＤＣＳ"
 term = "nul"
-en = "SHIELD LIGER DCS"
+en = "SHIELD DCS"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1063,7 +1070,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835a8343836f815b835e8343834b815b826082738145826f"
 src_jp = "セイバータイガーＡＴ・Ｐ"
 term = "nul"
-en = "SABER TIGER AT P"
+en = "S. TIGER AT P"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1098,14 +1105,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "838983438367836a8393834f83548343834e8358"
 src_jp = "ライトニングサイクス"
 term = "nul"
-en = "LIGHTNING SAIX"
+en = "L. SAIX"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8375838c815b836883898343834b815b82608261"
 src_jp = "ブレードライガーＡＢ"
 term = "nul"
-en = "BLADE LIGER AB"
+en = "BLADE LGR AB"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1119,7 +1126,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "83788341837483408343835e815b8273826f"
 src_jp = "ベアファイターＴＰ"
 term = "nul"
-en = "BEAR FIGHTER TP"
+en = "BEAR FTR TP"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1140,7 +1147,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "836683628368837b815b835f815b8273826f"
 src_jp = "デッドボーダーＴＰ"
 term = "nul"
-en = "DEAD BORDER TP"
+en = "DEAD BDR TP"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1154,7 +1161,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8377838b83668342834b83938369815b82638273"
 src_jp = "ヘルディガンナーＤＴ"
 term = "nul"
-en = "HELDIGUNNER DT"
+en = "HELDGUNNER DT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1175,7 +1182,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8375838c815b836883898343834b815b814582618272"
 src_jp = "ブレードライガー・ＢＳ"
 term = "nul"
-en = "BLADE LIGER BS"
+en = "BLADE LGR BS"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1189,14 +1196,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "915395fb88ca9265"
 src_jp = "全方位弾"
 term = "nul"
-en = "ALL-DIRECTION SHOT"
+en = "ALL-DIR SHOT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "92b78b9797a3837e83548343838b"
 src_jp = "長距離ミサイル"
 term = "nul"
-en = "LONG-RANGE MISSILE"
+en = "LR MISSILE"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1210,7 +1217,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8ea98cc88f43959c8bad89bb8386836a83628367"
 src_jp = "自己修復強化ユニット"
 term = "nul"
-en = "SELF-REPAIR UNIT"
+en = "REPAIR UNIT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1224,7 +1231,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "93f1984191ac8ecb9643"
 src_jp = "二連速射砲"
 term = "nul"
-en = "TWIN RAPID-FIRE GUN"
+en = "TWIN R.F. GUN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1238,21 +1245,21 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835d83438368835283418bad89bb8ddc"
 src_jp = "ゾイドコア強化剤"
 term = "nul"
-en = "ZOID CORE BOOSTER"
+en = "CORE BOOSTER"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "98418ecb837c83628368"
 src_jp = "連射ポッド"
 term = "nul"
-en = "RAPID-FIRE POD"
+en = "R. FIRE POD"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8251824f837e838a836f838b834a8393837c83628368"
 src_jp = "２０ミリバルカンポッド"
 term = "nul"
-en = "20 MM VULCAN POD"
+en = "20MM VULCAN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1266,7 +1273,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8266826f827295a18d87835a83938354815b"
 src_jp = "ＧＰＳ複合センサー"
 term = "nul"
-en = "GPS COMPOSITE SENSOR"
+en = "GPS SENSOR"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1287,7 +1294,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8d828b4093ae835883898358835e815b"
 src_jp = "高機動スラスター"
 term = "nul"
-en = "HIGH-MOBILITY THRUSTER"
+en = "MOB. THRUSTER"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1301,7 +1308,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "83588382815b834e83668342835883608383815b83578383815b"
 src_jp = "スモークディスチャージャー"
 term = "nul"
-en = "SMOKE DISCHARGER"
+en = "SMOKE UNIT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1315,7 +1322,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "977a93ae8d488dec88f5"
 src_jp = "陽動工作員"
 term = "nul"
-en = "DIVERSION AGENT"
+en = "DIVERSION"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1350,7 +1357,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "834a8358835e838083498374819583608383815b8357"
 src_jp = "カスタムオフ＆チャージ"
 term = "nul"
-en = "CUSTOM OFF & CHARGE"
+en = "UNEQUIP&LOAD"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1385,21 +1392,21 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "836f838a8350815b83688f9c8b8e"
 src_jp = "バリケード除去"
 term = "nul"
-en = "REMOVE BARRICADE"
+en = "REMOVE WALL"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8a4f959489d7936497b18e719643"
 src_jp = "外部荷電粒子砲"
 term = "nul"
-en = "EXTERNAL CHARGED PARTICLE CANNON"
+en = "EXTERNAL CPC"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "93648ea5836c836283679265"
 src_jp = "電磁ネット弾"
 term = "nul"
-en = "ELECTROMAGNETIC NET ROUND"
+en = "EM NET ROUND"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1413,14 +1420,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "838d8393834f838c83938357838983438374838b"
 src_jp = "ロングレンジライフル"
 term = "nul"
-en = "LONG-RANGE RIFLE"
+en = "LR RIFLE"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8358836783898343834e838d8393834f834e838d815b"
 src_jp = "ストライクロングクロー"
 term = "nul"
-en = "STRIKE LONG CLAW"
+en = "STRIKE CLAW"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1434,14 +1441,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "82768271919d90dd838983628360"
 src_jp = "ＷＲ増設ラッチ"
 term = "nul"
-en = "WR EXPANSION LATCH"
+en = "WR EXPANSION"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "838c815b835f815b984193ae91ce8bf39643"
 src_jp = "レーダー連動対空砲"
 term = "nul"
-en = "RADAR-GUIDED AA GUN"
+en = "RADAR AA GUN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1455,14 +1462,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "93648e7190ed97aa959491e0"
 src_jp = "電子戦略部隊"
 term = "nul"
-en = "ELECTRONIC WARFARE UNIT"
+en = "EW UNIT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8bad8f508fe397a4834a8376835a838b"
 src_jp = "強襲上陸カプセル"
 term = "nul"
-en = "ASSAULT LANDING CAPSULE"
+en = "LANDING POD"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1490,14 +1497,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "834a815b838b8145826b814583568385836f838b8363"
 src_jp = "カール・Ｌ・シュバルツ"
 term = "nul"
-en = "KARL L. SCHWARZ"
+en = "K. L. SCHWARZ"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "834c838b835683468145836e838b8367838a815b8351838b"
 src_jp = "キルシェ・ハルトリーゲル"
 term = "nul"
-en = "KIRSCHE HARTRIEGEL"
+en = "K. HARTRIEGEL"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1511,14 +1518,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "91e58cfb8c618372815b8380834c8383836d8393"
 src_jp = "大口径ビームキャノン"
 term = "nul"
-en = "LARGE-BORE BEAM CANNON"
+en = "L.B. BEAM GUN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "92b489b9946794ad90b68aed"
 src_jp = "超音波発生器"
 term = "nul"
-en = "ULTRASONIC GENERATOR"
+en = "ULTRASONIC"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1532,7 +1539,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "97e28b708ddc95ac96b691959275"
 src_jp = "冷却剤噴霧装置"
 term = "nul"
-en = "COOLANT SPRAYER"
+en = "COOLANT SPRAY"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1546,7 +1553,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8d8291ac8372815b834f838b"
 src_jp = "高速ビーグル"
 term = "nul"
-en = "HIGH-SPEED BEAGLE"
+en = "HS BEAGLE"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1574,7 +1581,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8bad8d7392e38e40959491e0"
 src_jp = "強行偵察部隊"
 term = "nul"
-en = "ARMED RECON UNIT"
+en = "ARMED RECON"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1588,7 +1595,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8dec90ed95cf8d58"
 src_jp = "作戦変更"
 term = "nul"
-en = "CHANGE OF PLAN"
+en = "PLAN CHANGE"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1609,21 +1616,21 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "835d83438368835283418a8890ab834383498393"
 src_jp = "ゾイドコア活性イオン"
 term = "nul"
-en = "ZOID CORE ACTIVATOR"
+en = "CORE ACTIVATE"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8f8794d495cf8d58"
 src_jp = "順番変更"
 term = "nul"
-en = "CHANGE TURN ORDER"
+en = "TURN ORDER"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8ce395fb8c7889fa8356835883658380"
 src_jp = "後方警戒システム"
 term = "nul"
-en = "REAR WARNING SYSTEM"
+en = "REAR WARNING"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1679,7 +1686,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8349815b834b836d834383688145835683838368815b"
 src_jp = "オーガノイド・シャドー"
 term = "nul"
-en = "ORGANOID SHADOW"
+en = "ORG. SHADOW"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1693,14 +1700,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "836c83498145835e815b8367838b835683628376"
 src_jp = "ネオ・タートルシップ"
 term = "nul"
-en = "NEO TURTLE SHIP"
+en = "NEO TURTLE"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "93f1984191e58c5e834c8383836d8393"
 src_jp = "二連大型キャノン"
 term = "nul"
-en = "TWIN HEAVY CANNON"
+en = "TWIN HVY GUN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1784,77 +1791,77 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "91e58cfb8c618fd58c829643"
 src_jp = "大口径衝撃砲"
 term = "nul"
-en = "LARGE-BORE IMPACT CANNON"
+en = "L.B. IMPACT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8cf58a7796c08dca"
 src_jp = "光学迷彩"
 term = "nul"
-en = "OPTICAL CAMOUFLAGE"
+en = "OPTICAL CAMO"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "89c191ac8fd58c829643"
 src_jp = "加速衝撃砲"
 term = "nul"
-en = "ACCELERATED IMPACT CANNON"
+en = "ACCEL. IMPACT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8ded8ae2977092b48d6493788368838a838b"
 src_jp = "削岩用超硬度ドリル"
 term = "nul"
-en = "ULTRAHARD ROCK DRILL"
+en = "HARD ROCK DRL"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "92b48d648a70"
 src_jp = "超硬角"
 term = "nul"
-en = "ULTRAHARD HORN"
+en = "HARD HORN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "825398419195926e91ce926e837e83548343838b837c83628368"
 src_jp = "４連装地対地ミサイルポッド"
 term = "nul"
-en = "QUAD SURFACE MISSILE POD"
+en = "QUAD SSM POD"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "915393568cf382528263838c815b835f815b"
 src_jp = "全天候３Ｄレーダー"
 term = "nul"
-en = "ALL-WEATHER 3D RADAR"
+en = "3D AW RADAR"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8ea98cc8975593b1837e83548343838b"
 src_jp = "自己誘導ミサイル"
 term = "nul"
-en = "HOMING MISSILE"
+en = "HOMING MSL"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "83748342815b836c82cc82a88ae882a2"
 src_jp = "フィーネのお願い"
 term = "nul"
-en = "FINE'S REQUEST"
+en = "FINE REQUEST"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "96438c8290778c60"
 src_jp = "砲撃陣形"
 term = "nul"
-en = "ARTILLERY FORMATION"
+en = "ARTY FORM"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "82a982ad979090ed9640"
 src_jp = "かく乱戦法"
 term = "nul"
-en = "DISRUPTION TACTICS"
+en = "DISRUPT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1868,14 +1875,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "978e978b"
 src_jp = "落雷"
 term = "nul"
-en = "LIGHTNING STRIKE"
+en = "LIGHTNING"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "975593b193649467"
 src_jp = "誘導電波"
 term = "nul"
-en = "GUIDANCE SIGNAL"
+en = "GUIDE SIGNAL"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1910,7 +1917,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "838a815b838a83478145836e838b8367837d8393"
 src_jp = "リーリエ・ハルトマン"
 term = "nul"
-en = "LILIE HARTMANN"
+en = "L. HARTMANN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1931,7 +1938,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "83438393836683428353814583898393836f815b8367"
 src_jp = "インディゴ・ランバート"
 term = "nul"
-en = "INDIGO LAMBERT"
+en = "I. LAMBERT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1945,7 +1952,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "838b8368838b8374936f8fea"
 src_jp = "ルドルフ登場"
 term = "nul"
-en = "RUDOLPH ARRIVES"
+en = "RUDOLPH IN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
@@ -1959,14 +1966,14 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "8347836683428145834e838c835a83938367"
 src_jp = "エディ・クレセント"
 term = "nul"
-en = "EDDIE CRESCENT"
+en = "E. CRESCENT"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]
 src_hex = "8388836e839381458267814583568385835e8345837483428393"
 src_jp = "ヨハン・Ｈ・シュタウフィン"
 term = "nul"
-en = "JOHANN H. STAUFIN"
+en = "J. H. STAUFIN"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]

@@ -405,14 +405,14 @@ TXT-0405,story,実戦でもこうあってほしいもの,0x8001453c,1,800c4b78,
 TXT-0406,story,なかなかのものだ。,0x8001455c,1,800c4b74,20,9,Not bad at all.
 TXT-0407,story,敵はデッキを持っていません。,0x80014570,8,800c4bd4;800c5620;800c5948;800c5ae0;800c5c84;800c6694;800c67f4;800c7828,32,15,The enemy has no deck.
 TXT-0408,story,『敵カード無』,0x80014590,8,800c4bd0;800c561c;800c5944;800c5adc;800c5c80;800c6690;800c67f0;800c7824,16,7,No Enemy Cards
-TXT-0409,story,敗北：味方の全滅,0x800145a0,58,800c4bbc;800c4c50;800c4d84;800c4e44;800c4f34;800c4ff4;800c507c;800c5140;800c5284;800c538c;800c544c;800c5544;800c5608;800c56a4;800c5720;800c57a4;800c5868;800c5930;800c5a08;800c5ac8;800c5b5c;800c5c6c;800c5d44;800c5dc4;800c5e04;800c5e88;800c5ec8;800c5f08;800c5f4c;800c5f90;800c667c;800c6714;800c67dc;800c690c;800c69d0;800c6a94;800c6b9c;800c6c20;800c6e3c;800c6f00;800c6f80;800c7000;800c70bc;800c71ec;800c72b0;800c7334;800c73e4;800c74ac;800c75b4;800c7754;800c7810;800c78a8;800c78e8;800c792c;800c79e0;800c7a24;800c7a64;800c7aa8,20,9,Defeat: All allies lost
-TXT-0410,story,勝利：敵の全滅,0x800145b4,21,800c4bb8;800c4ff0;800c5388;800c56a0;800c571c;800c5ac4;800c5b58;800c5ec4;800c5f48;800c5f8c;800c6678;800c6b98;800c6efc;800c6ffc;800c72ac;800c7330;800c780c;800c796c;800c79c4;800c7a20;800c7aa4,16,7,Victory: Destroy all enemies
+TXT-0409,story,敗北：味方の全滅,0x800145a0,58,800c4bbc;800c4c50;800c4d84;800c4e44;800c4f34;800c4ff4;800c507c;800c5140;800c5284;800c538c;800c544c;800c5544;800c5608;800c56a4;800c5720;800c57a4;800c5868;800c5930;800c5a08;800c5ac8;800c5b5c;800c5c6c;800c5d44;800c5dc4;800c5e04;800c5e88;800c5ec8;800c5f08;800c5f4c;800c5f90;800c667c;800c6714;800c67dc;800c690c;800c69d0;800c6a94;800c6b9c;800c6c20;800c6e3c;800c6f00;800c6f80;800c7000;800c70bc;800c71ec;800c72b0;800c7334;800c73e4;800c74ac;800c75b4;800c7754;800c7810;800c78a8;800c78e8;800c792c;800c79e0;800c7a24;800c7a64;800c7aa8,20,9,Lose: All down
+TXT-0410,story,勝利：敵の全滅,0x800145b4,21,800c4bb8;800c4ff0;800c5388;800c56a0;800c571c;800c5ac4;800c5b58;800c5ec4;800c5f48;800c5f8c;800c6678;800c6b98;800c6efc;800c6ffc;800c72ac;800c7330;800c780c;800c796c;800c79c4;800c7a20;800c7aa4,16,7,Win: Rout foes
 TXT-0411,story,やむをえん、撤退しろ。,0x800145c4,9,800c4c10;800c4cd0;800c4e04;800c4ef4;800c4fb4;800c58f0;800c59c8;800c5a88;800c5cc0,24,11,We have no choice. Retreat.
-TXT-0412,story,勝利：コマンドウルフの破壊,0x800145dc,1,800c4c4c,28,13,Victory: Destroy Command Wolf
+TXT-0412,story,勝利：コマンドウルフの破壊,0x800145dc,1,800c4c4c,28,13,Win: Cmd Wolf
 TXT-0413,story,×１を入手しました。,0x800145f8,63,800c4c94;800c4dc8;800c4eb8;800c4f78;800c50c0;800c5184;800c52cc;800c5490;800c5588;800c57ec;800c58b0;800c598c;800c5a4c;800c6758;800c6890;800c6950;800c6a14;800c6ad8;800c6c64;800c6e80;800c7100;800c7230;800c742c;800c74f4;800c75f8;800ca0a8;800ca0e4;800ca38c;800ca3c8;800ca768;800caa40;800caa7c;800caab8;800cae68;800cafa8;800cb528;800cb784;800cb94c;800cbb54;800cbe2c;800cbe68;800cc1fc;800cc444;800cc818;800cc854;800cdd3c;800cdd78;800cddb4;800ce160;800ce19c;800ce1d8;800ce598;800ce5d4;800cea20;800cec50;800ceef8;800cf0e8;800cf124;800cf160;800cf50c;800cf6e4;800cfbdc;800cfd3c,24,11,Obtained x1.
 TXT-0414,story,『ゾイドコア強化剤』,0x80014610,4,800c4c90;800c4f74;800c57e8;800c6ad4,24,11,Zoid Core Booster
 TXT-0415,story,カスタム,0x80014628,32,800c4c8c;800c4dc0;800c4f70;800c50b8;800c517c;800c52c4;800c5488;800c5580;800c57e4;800c58a8;800c5984;800c5a44;800c6750;800c6948;800c6a0c;800c6ad0;800c6c5c;800c6e78;800c70f8;800c7228;800c7424;800c74ec;800c75f0;800c9d34;800c9df8;800ca760;800cb944;800cbb4c;800cd4bc;800cd5c4;800cd9b8;800ceef0,12,5,Custom
-TXT-0416,story,勝利：敵の全滅・敵基地の破壊,0x80014634,24,800c4d80;800c4e40;800c4f30;800c5078;800c513c;800c5448;800c57a0;800c5a04;800c5d40;800c5dc0;800c5e00;800c5e84;800c5f04;800c6908;800c69cc;800c6c1c;800c6e38;800c70b8;800c71e8;800c7750;800c78a4;800c78e4;800c7928;800c7a60,32,15,Victory: Destroy all enemies/base
+TXT-0416,story,勝利：敵の全滅・敵基地の破壊,0x80014634,24,800c4d80;800c4e40;800c4f30;800c5078;800c513c;800c5448;800c57a0;800c5a04;800c5d40;800c5dc0;800c5e00;800c5e84;800c5f04;800c6908;800c69cc;800c6c1c;800c6e38;800c70b8;800c71e8;800c7750;800c78a4;800c78e4;800c7928;800c7a60,32,15,Rout foes/base
 TXT-0417,story,こざかしいやつらだ。,0x80014654,1,800c4d54,24,11,Clever little pests.
 TXT-0418,story,守ろうというのか？,0x8001466c,1,800c4d40,20,9,They intend to defend it?
 TXT-0419,story,あんな少数のゾイドで基地を,0x80014680,1,800c4d3c,28,13,"With so few Zoids, they think"
@@ -422,7 +422,7 @@ TXT-0422,story,『パイルバンカー』,0x800146b8,1,800c4dc4,20,9,Pile Bunke
 TXT-0423,story,『デスザウラー・Ｖ１』,0x800146cc,1,800c4eb4,24,11,Death Saurer V1
 TXT-0424,story,発見しました。,0x800146e4,2,800c4e84;800cd698,16,7,Found it.
 TXT-0425,story,敵基地より、ゾイドを,0x800146f4,1,800c4e80,24,11,Enemy Zoids are launching
-TXT-0426,story,　　　２０ターン経過,0x8001470c,6,800c4ff8;800c5b60;800c7338;800c73e8;800c76bc;800c79e4,24,11,20 turns passed
+TXT-0426,story,　　　２０ターン経過,0x8001470c,6,800c4ff8;800c5b60;800c7338;800c73e8;800c76bc;800c79e4,24,11,20 turns pass
 TXT-0427,story,いけないか…。,0x80014724,1,800c503c,16,7,This won't do...
 TXT-0428,story,ルートを見なおさなくては,0x80014734,1,800c5038,28,13,We need to rethink the route.
 TXT-0429,story,一時撤退して、,0x80014750,1,800c5034,16,7,We'll retreat for now and
@@ -436,8 +436,8 @@ TXT-0436,story,わが帝国基地のようです。,0x800147dc,1,800c5224,28,13,
 TXT-0437,story,狙いは、,0x800147f8,1,800c5220,12,5,Their target is
 TXT-0438,story,共和国の部隊が接近。,0x80014804,1,800c520c,24,11,Republic forces approaching.
 TXT-0439,story,レーダーに反応。,0x8001481c,1,800c5208,20,9,Radar contact.
-TXT-0440,story,　　　味方基地の破壊,0x80014830,10,800c5288;800c5724;800c57a8;800c5e08;800c5f0c;800c5f50;800c6ba0;800c72b4;800c74b0;800c78ec,24,11,Allied base destroyed
-TXT-0441,story,勝利：ストームソーダーの破壊,0x80014848,1,800c5280,32,15,Victory: Destroy Storm Sworder
+TXT-0440,story,　　　味方基地の破壊,0x80014830,10,800c5288;800c5724;800c57a8;800c5e08;800c5f0c;800c5f50;800c6ba0;800c72b4;800c74b0;800c78ec,24,11,Our base falls
+TXT-0441,story,勝利：ストームソーダーの破壊,0x80014848,1,800c5280,32,15,Win: Storm Sw.
 TXT-0442,story,『高機動スラスター』,0x80014868,1,800c52c8,24,11,High-Mobility Thruster
 TXT-0443,story,撤退して出なおそう。,0x80014880,1,800c534c,24,11,Let's retreat and try again.
 TXT-0444,story,基地を捨てることになるとは…,0x80014898,1,800c5348,32,15,To think we'd abandon the base...
@@ -447,30 +447,30 @@ TXT-0447,story,口先だけではないようだ。,0x800148dc,1,800c5408,28,13,
 TXT-0448,story,『冷却剤噴霧装置』,0x800148f8,1,800c548c,20,9,Coolant Spray Device
 TXT-0449,story,やむをえない、撤退しよう。,0x8001490c,3,800c54cc;800c56e0;800c5828,28,13,No choice. Let's retreat.
 TXT-0450,story,　　　の破壊,0x80014928,1,800c5540,16,7, destroyed
-TXT-0451,story,勝利：ゴジュラス　ジ・オーガ,0x80014938,1,800c553c,32,15,Victory: Gojulas the Ogre
+TXT-0451,story,勝利：ゴジュラス　ジ・オーガ,0x80014938,1,800c553c,32,15,Gojulas Ogre
 TXT-0452,story,今のうちに破壊するぞ！,0x80014958,1,800c5510,24,11,Let's destroy it while we can!
 TXT-0453,story,固定されている。,0x80014970,1,800c550c,20,9,It's fixed in place.
 TXT-0454,story,ゴジュラスはカタパルトに,0x80014984,1,800c5508,28,13,The Gojulas is on the catapult
 TXT-0455,story,『魚雷』,0x800149a0,2,800c5584;800c74f0,12,5,Torpedo
 TXT-0456,story,一時退却しよう！,0x800149ac,1,800c55c8,20,9,Let's retreat for now!
 TXT-0457,story,恐るべきパワーだ。,0x800149c0,1,800c55c4,20,9,What terrible power.
-TXT-0458,story,勝利：デススティンガーの破壊,0x800149d4,1,800c5604,32,15,Victory: Destroy the Death Stinger
+TXT-0458,story,勝利：デススティンガーの破壊,0x800149d4,1,800c5604,32,15,Death Stinger
 TXT-0459,story,体制を立て直そう。,0x800149f4,1,800c5664,20,9,Let's regroup.
 TXT-0460,story,手がつけられない。,0x80014a08,1,800c5660,20,9,It's unstoppable.
 TXT-0461,story,なんて力だ。,0x80014a1c,1,800c565c,16,7,What power.
 TXT-0462,story,次を準備するんだ！,0x80014a2c,1,800c5764,20,9,Prepare the next one!
 TXT-0463,story,体制を立て直す。,0x80014a40,1,800c5760,20,9,Regroup.
-TXT-0464,story,　　　１５ターンの経過,0x80014a54,1,800c586c,24,11,15 turns passed
-TXT-0465,story,勝利：グスタフの破壊,0x80014a6c,1,800c5864,24,11,Victory: Destroy the Gustav
+TXT-0464,story,　　　１５ターンの経過,0x80014a54,1,800c586c,24,11,15 turns pass
+TXT-0465,story,勝利：グスタフの破壊,0x80014a6c,1,800c5864,24,11,Win: Gustav
 TXT-0466,story,『ＷＲ増設ラッチ』,0x80014a84,2,800c58ac;800c70fc,20,9,WR Expansion Latch
 TXT-0467,story,敵の増援がくるか…。,0x80014a98,1,800c58ec,24,11,Enemy reinforcements?
-TXT-0468,story,勝利：ジェノザウラーの破壊,0x80014ab0,1,800c592c,28,13,Victory: Destroy the Geno Zaurer
+TXT-0468,story,勝利：ジェノザウラーの破壊,0x80014ab0,1,800c592c,28,13,Win: Geno Saur
 TXT-0469,story,『エネルギーシールド』,0x80014acc,2,800c5988;800c722c,24,11,Energy Shield
 TXT-0470,story,『大口径ビームキャノン』,0x80014ae4,1,800c5a48,28,13,Large-Bore Beam Cannon
 TXT-0471,story,やむをえん、一時撤退しろ。,0x80014b00,1,800c5b1c,28,13,We have no choice. Retreat for now.
 TXT-0472,story,間にあうのか…？,0x80014b1c,1,800c5ba0,20,9,Will we make it...?
 TXT-0473,story,クッ…。,0x80014b30,1,800c5b9c,12,5,Ugh...
-TXT-0474,story,勝利：デッドボーダーの破壊,0x80014b3c,1,800c5c68,28,13,Victory: Destroy the Dead Border
+TXT-0474,story,勝利：デッドボーダーの破壊,0x80014b3c,1,800c5c68,28,13,Dead Border
 TXT-0475,story,もらっちまおう。,0x80014b58,1,800c5c3c,20,9,I'll take it.
 TXT-0476,story,とっとと倒して、もらうもん,0x80014b6c,1,800c5c38,28,13,"Hurry up and beat them, then take"
 TXT-0477,story,要するにお宝の番人というワケ,0x80014b88,1,800c5c20,32,15,"In short, it's a treasure guardian."
@@ -482,8 +482,8 @@ TXT-0482,story,とすると、ガイガロスの部隊は,0x80014c10,1,800c5d10,
 TXT-0483,story,む、あれはウルトラザウルス。,0x80014c30,1,800c5cfc,32,15,"Hm, that's an Ultrasaurus."
 TXT-0484,story,撤退だ…。,0x80014c50,1,800c5d84,12,5,Retreat...
 TXT-0485,story,ここまで来て…。,0x80014c5c,1,800c5d80,20,9,After coming this far...
-TXT-0486,story,敗北：味方基地の破壊,0x80014c70,1,800c5e48,24,11,Defeat: Allied base destroyed
-TXT-0487,story,勝利：ライガー３体の破壊,0x80014c88,1,800c5e44,28,13,Victory: Destroy 3 Ligers
+TXT-0486,story,敗北：味方基地の破壊,0x80014c70,1,800c5e48,24,11,Lose: No base
+TXT-0487,story,勝利：ライガー３体の破壊,0x80014c88,1,800c5e44,28,13,Win: 3 Ligers
 TXT-0488,story,が手に入りました。,0x80014ca4,5,800c5fd4;800c6018;800c6090;800c60ac;800c60c8,20,9,was obtained.
 TXT-0489,story,ゾイドの,0x80014cb8,2,800c5fcc;800c6010,12,5,The Zoid's
 TXT-0490,story,どうかご注意ください。,0x80014cc4,2,800c604c;800c60fc,24,11,Please be careful.
@@ -504,12 +504,12 @@ TXT-0504,story,ようだな。,0x80014e04,2,800c663c;800c6ce4,12,5,You seem read
 TXT-0505,story,戦場のカンはにぶっていない,0x80014e10,1,800c6638,28,13,Your battlefield instinct hasn't dulled.
 TXT-0506,story,すぐに、体制をたてなおせ！,0x80014e2c,1,800c66d4,28,13,Regroup immediately!
 TXT-0507,story,一時退却！,0x80014e48,1,800c66d0,12,5,Retreat for now!
-TXT-0508,story,勝利：レッドホーンの破壊,0x80014e54,1,800c6710,28,13,Victory: Destroy the Red Horn
+TXT-0508,story,勝利：レッドホーンの破壊,0x80014e54,1,800c6710,28,13,Win: Red Horn
 TXT-0509,story,『自己修復強化ユニット』,0x80014e70,1,800c6754,28,13,Self-Repair Booster Unit
 TXT-0510,story,一時退却する！,0x80014e8c,1,800c679c,16,7,Retreat for now!
 TXT-0511,story,ようだな…。,0x80014e9c,1,800c6798,16,7,I see...
 TXT-0512,story,帝国もかなり準備していた,0x80014eac,1,800c6794,28,13,The Empire was well prepared.
-TXT-0513,story,勝利：敵４体の破壊,0x80014ec8,1,800c67d8,20,9,Victory: Destroy 4 enemies
+TXT-0513,story,勝利：敵４体の破壊,0x80014ec8,1,800c67d8,20,9,Win: 4 foes
 TXT-0514,story,『フィーネ』,0x80014edc,2,800c688c;800cc850,16,7,Fine
 TXT-0515,story,イベント,0x80014eec,2,800c6888;800cc84c,12,5,Event
 TXT-0516,story,急いで保護するんだ！,0x80014ef8,1,800c685c,24,11,Hurry and protect them!
@@ -518,7 +518,7 @@ TXT-0518,story,一時退却する…。,0x80014f30,1,800c68cc,20,9,Retreat for n
 TXT-0519,story,『ロングレンジライフル』,0x80014f44,1,800c694c,28,13,Long-Range Rifle
 TXT-0520,story,一時退却だ！,0x80014f60,10,800c6990;800c6a54;800c6b5c;800c6ca4;800c6ec0;800c6f40;800c6fc0;800c707c;800c71ac;800c7270,16,7,Retreat!
 TXT-0521,story,『ストライクロングクロー』,0x80014f70,1,800c6a10,28,13,Strike Long Claw
-TXT-0522,story,勝利：セイバータイガーの破壊,0x80014f8c,1,800c6a90,32,15,Victory: Destroy the Saber Tiger
+TXT-0522,story,勝利：セイバータイガーの破壊,0x80014f8c,1,800c6a90,32,15,Saber Tiger
 TXT-0523,story,なんということだ…,0x80014fac,1,800c6be0,20,9,What is this...
 TXT-0524,story,『火炎放射器』,0x80014fc0,1,800c6c60,16,7,Flamethrower
 TXT-0525,story,かえってくれ！,0x80014fd0,1,800c6d54,16,7,Go back!
@@ -530,11 +530,11 @@ TXT-0530,story,無事、偵察隊はもどってきた,0x80015048,1,800c6ce0,28,
 TXT-0531,story,と退却になります。,0x80015064,1,800c6dc0,20,9,and retreat.
 TXT-0532,story,味方の領地にゾイドを移動する,0x80015078,1,800c6dbc,32,15,Move a Zoid into allied territory
 TXT-0533,story,『退却』,0x80015098,1,800c6db8,12,5,Retreat
-TXT-0534,story,敗北：味方３機破壊,0x800150a4,1,800c6da4,20,9,Defeat: 3 allies destroyed
-TXT-0535,story,　　　敵の全滅,0x800150b8,1,800c6da0,16,7,Destroy all enemies
-TXT-0536,story,勝利：味方の３機退却,0x800150c8,1,800c6d9c,24,11,Victory: Retreat 3 allies
+TXT-0534,story,敗北：味方３機破壊,0x800150a4,1,800c6da4,20,9,Lose: 3 down
+TXT-0535,story,　　　敵の全滅,0x800150b8,1,800c6da0,16,7,or rout foes
+TXT-0536,story,勝利：味方の３機退却,0x800150c8,1,800c6d9c,24,11,Withdraw 3
 TXT-0537,story,情報は持ちかえれなかったか…,0x800150e0,1,800c6dfc,32,15,We couldn't bring back the information...
-TXT-0538,story,勝利：デスザウラーの破壊,0x80015100,1,800c6f7c,28,13,Victory: Destroy the Death Saurer
+TXT-0538,story,勝利：デスザウラーの破壊,0x80015100,1,800c6f7c,28,13,Death Saurer
 TXT-0539,story,またしても…。,0x8001511c,1,800c703c,16,7,Again...
 TXT-0540,story,気をつけるんだ！！,0x8001512c,1,800c716c,20,9,Be careful!!
 TXT-0541,story,みんな、荷電粒子砲に,0x80015140,1,800c7168,24,11,"Everyone, the charged particle cannon!"
@@ -543,64 +543,64 @@ TXT-0543,story,でなおしだ！,0x80015170,1,800c72f4,16,7,We'll try again!
 TXT-0544,story,中止して撤退する！,0x80015180,1,800c73a4,20,9,Cancel and retreat!
 TXT-0545,story,ウルトラザウルスの積みこみを,0x80015194,1,800c73a0,32,15,Load the Ultrasaurus
 TXT-0546,story,敵の本隊がきます！,0x800151b4,1,800c7374,20,9,The enemy main force is coming!
-TXT-0547,story,勝利：ゲーター４機の破壊,0x800151c8,1,800c73e0,28,13,Victory: Destroy 4 Gators
+TXT-0547,story,勝利：ゲーター４機の破壊,0x800151c8,1,800c73e0,28,13,Win: 4 Gators
 TXT-0548,story,とは…。,0x800151e4,4,800c746c;800c7574;800c7678;800cc074,12,5,and...
 TXT-0549,story,こんなところで足止めされる,0x800151f0,3,800c7468;800c7570;800c7674,28,13,To be stopped here
-TXT-0550,story,勝利：ブラキオスの破壊,0x8001520c,1,800c74a8,24,11,Victory: Destroy the Brachios
+TXT-0550,story,勝利：ブラキオスの破壊,0x8001520c,1,800c74a8,24,11,Win: Brachios
 TXT-0551,story,全機撤退する！,0x80015224,1,800c7534,16,7,"All units, retreat!"
 TXT-0552,story,やむをえんな。,0x80015234,1,800c7530,16,7,It can't be helped.
-TXT-0553,story,勝利：ジェノブレイカーの破壊,0x80015244,1,800c75b0,32,15,Victory: Destroy the Geno Breaker
+TXT-0553,story,勝利：ジェノブレイカーの破壊,0x80015244,1,800c75b0,32,15,Geno Breaker
 TXT-0554,story,慣れない機体ではこんなものだ,0x80015264,1,800c7638,32,15,This is all I can do in an unfamiliar unit.
 TXT-0555,story,まぁいい。,0x80015284,1,800c7634,12,5,"Well, fine."
 TXT-0556,story,上陸になります。,0x80015290,1,800c76d8,20,9,We're landing.
 TXT-0557,story,ゾイドを敵の領地に移動すると,0x800152a4,1,800c76d4,32,15,Moving a Zoid into enemy territory
 TXT-0558,story,『上陸』,0x800152c4,1,800c76d0,12,5,Land
-TXT-0559,story,敗北：味方４体の破壊,0x800152d0,1,800c76b8,24,11,Defeat: 4 allies destroyed
-TXT-0560,story,勝利：敵の全滅・５体の上陸,0x800152e8,1,800c76b4,28,13,Victory: Destroy all enemies / land 5
+TXT-0559,story,敗北：味方４体の破壊,0x800152d0,1,800c76b8,24,11,Lose: 4 down
+TXT-0560,story,勝利：敵の全滅・５体の上陸,0x800152e8,1,800c76b4,28,13,Rout or land 5
 TXT-0561,story,ダイノ島にいったん退却する！,0x80015304,1,800c7714,32,15,Retreat to Dino Island for now!
 TXT-0562,story,これで勝ったと思わないことだ,0x80015324,1,800c7790,32,15,Don't think you've won.
 TXT-0563,story,一時退却するんだ！,0x80015344,1,800c77d0,20,9,Retreat for now!
 TXT-0564,story,なんという戦力だ…。,0x80015358,1,800c77cc,24,11,What fighting strength...
 TXT-0565,story,部隊を組みなおすんだ！,0x80015370,1,800c7868,24,11,Reorganize the units!
 TXT-0566,story,一時退却して、,0x80015388,1,800c7864,16,7,"Retreat for now,"
-TXT-0567,story,　　　１０ターン経過,0x80015398,1,800c7930,24,11,10 turns passed
-TXT-0568,story,　　　基地の破壊,0x800153b0,1,800c7988,20,9,Base destroyed
-TXT-0569,story,敗北：２０ターン経過,0x800153c4,1,800c7984,24,11,Defeat: 20 turns passed
-TXT-0570,story,敗北：味方３体の破壊,0x800153dc,1,800c7970,24,11,Defeat: 3 allies destroyed
-TXT-0571,story,　　　レッドホーンの破壊,0x800153f4,1,800c79cc,28,13,Red Horn destroyed
-TXT-0572,story,　　　ジェノザウラーと、,0x80015410,1,800c79c8,28,13,Geno Zaurer and
-TXT-0573,story,　　　１５ターン経過,0x8001542c,1,800c7a68,24,11,15 turns passed
-TXT-0574,story,出撃制限：なし,0x80015444,49,800c84f8;800c8578;800c85b8;800c85f8;800c8638;800c8678;800c86bc;800c8700;800c8744;800c8788;800c87cc;800c8854;800c88dc;800c8920;800c8964;800c89a8;800c89ec;800c8a30;800c8ab8;800c8af8;800c8b7c;800c8bbc;800c8bfc;800c8cdc;800c8d1c;800c8d5c;800c8d9c;800c8ddc;800c8e1c;800c8e5c;800c8e9c;800c8ee0;800c8f7c;800c8fc0;800c9004;800c9048;800c908c;800c90d0;800c9114;800c9158;800c919c;800c91e0;800c9264;800c92c0;800c9348;800c93cc;800c940c;800c944c;800c9518,16,7,Deployment limit: None
-TXT-0575,story,出撃可能ゾイド：最大５体,0x80015454,16,800c84f4;800c8534;800c8574;800c85b4;800c8634;800c86b8;800c891c;800c8960;800c8a70;800c8d18;800c8d58;800c8d98;800c8dd8;800c8e18;800c8e58;800c8e98,28,13,Deployable Zoids: Up to 5
-TXT-0576,story,出撃制限：Ｌ型出撃不可,0x80015470,2,800c8538;800c8898,24,11,Deployment limit: No L-types
-TXT-0577,story,出撃可能ゾイド：最大７体,0x80015488,24,800c85f4;800c8674;800c86fc;800c8740;800c8784;800c87c8;800c880c;800c8850;800c8894;800c89a4;800c89e8;800c8a2c;800c8edc;800c8f78;800c8fbc;800c9000;800c9044;800c9088;800c90cc;800c9110;800c9154;800c91dc;800c9220;800c9300,28,13,Deployable Zoids: Up to 7
-TXT-0578,story,配備ポイント：７０,0x800154a4,23,800c86b4;800c86f8;800c873c;800c8780;800c87c4;800c8808;800c884c;800c8890;800c89a0;800c89e4;800c8a28;800c8ed8;800c8f74;800c8fb8;800c8ffc;800c9040;800c90c8;800c910c;800c9150;800c9194;800c91d8;800c921c;800c92fc,20,9,Deployment points: 70
-TXT-0579,story,出撃制限：飛行タイプ不可,0x800154b8,4,800c8810;800c8c40;800c9490;800c94d4,28,13,Deployment limit: No flying types
-TXT-0580,story,出撃可能ゾイド：最大８体,0x800154d4,2,800c88d8;800c9198,28,13,Deployable Zoids: Up to 8
-TXT-0581,story,配備ポイント：８０,0x800154f0,2,800c88d4;800c9084,20,9,Deployment points: 80
-TXT-0582,story,配備ポイント：５０,0x80015504,3,800c8918;800c895c;800c8a6c,20,9,Deployment points: 50
-TXT-0583,story,出撃制限：Ｓ型のみ出撃可能,0x80015518,2,800c8a74;800c8f20,28,13,Deployment limit: S-types only
-TXT-0584,story,出撃可能ゾイド：最大１１体,0x80015534,10,800c8ab4;800c8b34;800c8b78;800c8c3c;800c92bc;800c9344;800c9384;800c93c8;800c948c;800c94d0,28,13,Deployable Zoids: Up to 11
-TXT-0585,story,配備ポイント：１００,0x80015550,2,800c8ab0;800c92b8,24,11,Deployment points: 100
-TXT-0586,story,出撃可能ゾイド：最大１０体,0x80015568,2,800c8af4;800c8c7c,28,13,Deployable Zoids: Up to 10
-TXT-0587,story,出撃制限：Ｌ型、Ｍ型不可,0x80015584,2,800c8b38;800c9388,28,13,Deployment limit: No L or M types
-TXT-0588,story,配備ポイント：１００Ｐ,0x800155a0,4,800c8b74;800c9340;800c93c4;800c94cc,24,11,Deployment points: 100P
-TXT-0589,story,出撃可能ゾイド：最大４体,0x800155b8,1,800c8bb8,28,13,Deployable Zoids: Up to 4
-TXT-0590,story,出撃可能ゾイド：３体限定,0x800155d4,1,800c8bf8,28,13,Deployable Zoids: 3 only
-TXT-0591,story,配備ポイント：８５Ｐ,0x800155f0,1,800c8c38,24,11,Deployment points: 85P
-TXT-0592,story,　　　　　砂適正ゾイド不可,0x80015608,1,800c8c98,28,13,No desert-aptitude Zoids
-TXT-0593,story,　　　　　飛行タイプ不可,0x80015624,1,800c8c94,28,13,No flying types
-TXT-0594,story,出撃制限：Ｌ型不可,0x80015640,1,800c8c90,20,9,Deployment limit: No L-types
-TXT-0595,story,出撃可能ゾイド：最大３体,0x80015654,3,800c8cd8;800c9448;800c9514,28,13,Deployable Zoids: Up to 3
-TXT-0596,story,配備ポイント：６０Ｐ,0x80015670,2,800c8cd4;800c9510,24,11,Deployment points: 60P
+TXT-0567,story,　　　１０ターン経過,0x80015398,1,800c7930,24,11,10 turns pass
+TXT-0568,story,　　　基地の破壊,0x800153b0,1,800c7988,20,9,Base falls
+TXT-0569,story,敗北：２０ターン経過,0x800153c4,1,800c7984,24,11,Lose: 20 turns
+TXT-0570,story,敗北：味方３体の破壊,0x800153dc,1,800c7970,24,11,Lose: 3 down
+TXT-0571,story,　　　レッドホーンの破壊,0x800153f4,1,800c79cc,28,13,Red Horn falls
+TXT-0572,story,　　　ジェノザウラーと、,0x80015410,1,800c79c8,28,13,Geno Saurer +
+TXT-0573,story,　　　１５ターン経過,0x8001542c,1,800c7a68,24,11,15 turns pass
+TXT-0574,story,出撃制限：なし,0x80015444,49,800c84f8;800c8578;800c85b8;800c85f8;800c8638;800c8678;800c86bc;800c8700;800c8744;800c8788;800c87cc;800c8854;800c88dc;800c8920;800c8964;800c89a8;800c89ec;800c8a30;800c8ab8;800c8af8;800c8b7c;800c8bbc;800c8bfc;800c8cdc;800c8d1c;800c8d5c;800c8d9c;800c8ddc;800c8e1c;800c8e5c;800c8e9c;800c8ee0;800c8f7c;800c8fc0;800c9004;800c9048;800c908c;800c90d0;800c9114;800c9158;800c919c;800c91e0;800c9264;800c92c0;800c9348;800c93cc;800c940c;800c944c;800c9518,16,7,No type limits
+TXT-0575,story,出撃可能ゾイド：最大５体,0x80015454,16,800c84f4;800c8534;800c8574;800c85b4;800c8634;800c86b8;800c891c;800c8960;800c8a70;800c8d18;800c8d58;800c8d98;800c8dd8;800c8e18;800c8e58;800c8e98,28,13,Max 5 Zoids
+TXT-0576,story,出撃制限：Ｌ型出撃不可,0x80015470,2,800c8538;800c8898,24,11,No L-types
+TXT-0577,story,出撃可能ゾイド：最大７体,0x80015488,24,800c85f4;800c8674;800c86fc;800c8740;800c8784;800c87c8;800c880c;800c8850;800c8894;800c89a4;800c89e8;800c8a2c;800c8edc;800c8f78;800c8fbc;800c9000;800c9044;800c9088;800c90cc;800c9110;800c9154;800c91dc;800c9220;800c9300,28,13,Max 7 Zoids
+TXT-0578,story,配備ポイント：７０,0x800154a4,23,800c86b4;800c86f8;800c873c;800c8780;800c87c4;800c8808;800c884c;800c8890;800c89a0;800c89e4;800c8a28;800c8ed8;800c8f74;800c8fb8;800c8ffc;800c9040;800c90c8;800c910c;800c9150;800c9194;800c91d8;800c921c;800c92fc,20,9,70 deploy pts
+TXT-0579,story,出撃制限：飛行タイプ不可,0x800154b8,4,800c8810;800c8c40;800c9490;800c94d4,28,13,No air types
+TXT-0580,story,出撃可能ゾイド：最大８体,0x800154d4,2,800c88d8;800c9198,28,13,Max 8 Zoids
+TXT-0581,story,配備ポイント：８０,0x800154f0,2,800c88d4;800c9084,20,9,80 deploy pts
+TXT-0582,story,配備ポイント：５０,0x80015504,3,800c8918;800c895c;800c8a6c,20,9,50 deploy pts
+TXT-0583,story,出撃制限：Ｓ型のみ出撃可能,0x80015518,2,800c8a74;800c8f20,28,13,S-types only
+TXT-0584,story,出撃可能ゾイド：最大１１体,0x80015534,10,800c8ab4;800c8b34;800c8b78;800c8c3c;800c92bc;800c9344;800c9384;800c93c8;800c948c;800c94d0,28,13,Max 11 Zoids
+TXT-0585,story,配備ポイント：１００,0x80015550,2,800c8ab0;800c92b8,24,11,100 deploy pts
+TXT-0586,story,出撃可能ゾイド：最大１０体,0x80015568,2,800c8af4;800c8c7c,28,13,Max 10 Zoids
+TXT-0587,story,出撃制限：Ｌ型、Ｍ型不可,0x80015584,2,800c8b38;800c9388,28,13,No L/M-types
+TXT-0588,story,配備ポイント：１００Ｐ,0x800155a0,4,800c8b74;800c9340;800c93c4;800c94cc,24,11,100 deploy pts
+TXT-0589,story,出撃可能ゾイド：最大４体,0x800155b8,1,800c8bb8,28,13,Max 4 Zoids
+TXT-0590,story,出撃可能ゾイド：３体限定,0x800155d4,1,800c8bf8,28,13,3 Zoids only
+TXT-0591,story,配備ポイント：８５Ｐ,0x800155f0,1,800c8c38,24,11,85 deploy pts
+TXT-0592,story,　　　　　砂適正ゾイド不可,0x80015608,1,800c8c98,28,13,No sand types
+TXT-0593,story,　　　　　飛行タイプ不可,0x80015624,1,800c8c94,28,13,No air types
+TXT-0594,story,出撃制限：Ｌ型不可,0x80015640,1,800c8c90,20,9,No L-types
+TXT-0595,story,出撃可能ゾイド：最大３体,0x80015654,3,800c8cd8;800c9448;800c9514,28,13,Max 3 Zoids
+TXT-0596,story,配備ポイント：６０Ｐ,0x80015670,2,800c8cd4;800c9510,24,11,60 deploy pts
 TXT-0597,story,それ以下では出撃できません。,0x80015688,2,800c8f38;800c927c,32,15,"Below that, you cannot deploy."
 TXT-0598,story,ゾイドを５体選んでください。,0x800156a8,1,800c8f34,32,15,Select 5 Zoids.
-TXT-0599,story,出撃ゾイド：５体,0x800156c8,1,800c8f1c,20,9,Deployed Zoids: 5
-TXT-0600,story,出撃制限：Ｌ型以上出撃不可,0x800156dc,2,800c9224;800c9304,28,13,Deployment limit: No L-types or larger
+TXT-0599,story,出撃ゾイド：５体,0x800156c8,1,800c8f1c,20,9,Deploy 5 Zoids
+TXT-0600,story,出撃制限：Ｌ型以上出撃不可,0x800156dc,2,800c9224;800c9304,28,13,No L/LL-types
 TXT-0601,story,ゾイドを８体選んでください。,0x800156f8,1,800c9278,32,15,Select 8 Zoids.
-TXT-0602,story,出撃ゾイド：８体,0x80015718,1,800c9260,20,9,Deployed Zoids: 8
-TXT-0603,story,出撃可能ゾイド：４体限定,0x8001572c,1,800c9408,28,13,Deployable Zoids: 4 only
-TXT-0604,story,配備ポイント：８０Ｐ,0x80015748,1,800c9488,24,11,Deployment points: 80P
+TXT-0602,story,出撃ゾイド：８体,0x80015718,1,800c9260,20,9,Deploy 8 Zoids
+TXT-0603,story,出撃可能ゾイド：４体限定,0x8001572c,1,800c9408,28,13,4 Zoids only
+TXT-0604,story,配備ポイント：８０Ｐ,0x80015748,1,800c9488,24,11,80 deploy pts
 TXT-0605,story,がんばってくれたまえ。,0x80015760,1,800c9940,24,11,Do your best.
 TXT-0606,story,演習の準備は整っている。,0x80015778,1,800c993c,28,13,The exercise is ready.
 TXT-0607,story,見せてやってほしい。,0x80015794,1,800c9928,24,11,Show me what you can do.
@@ -1871,7 +1871,7 @@ TXT-1920,menu,取り外しは　いいいえ反　　撃,0x8002084c,1,800208b4,3
 TXT-1921,menu,交　　代記　　録設　　定捨て場,0x8002086c,1,800208b8,32,15,SwapSaveOptsBin
 TXT-1922,menu,帝国軍基地　　　共和国軍基地,0x8002088c,1,800208bc,29,14,EBase   R Base
 TXT-1923,menu,ジャンプブースター,0x80020ad4,1,80020afc,20,9,JUMP BOOSTER
-TXT-1924,menu,高速ビーグル,0x80020ae8,1,80020b00,13,6,HIGH-SPEED BEAGLE
+TXT-1924,menu,高速ビーグル,0x80020ae8,1,80020b00,13,6,HS BEAGLE
 TXT-1925,card,ＲＺ−０２８・ＢＳ　　　,0x80023dc4,1,800eaad4,28,13,RZ-028 BS
 TXT-1926,card,バン搭乗機　　　　　,0x80023de0,1,800eaad0,24,11,Van's Zoid
 TXT-1927,card,レイヴン搭乗機　　　,0x80023df8,1,800eaabc,136,67,Raven's Zoid
@@ -2078,7 +2078,7 @@ TXT-2127,card,水・空適性ゾイド不可。,0x80025b78,1,800ebeb8,24,11,Wate
 TXT-2128,card,コマンドウルフ,0x80025b90,1,800ebeb0,16,7,COMMAND WOLF
 TXT-2129,card,ＨＰを３００減らして＋１できる。,0x80025ba0,1,800ebe80,36,17,to add +1.
 TXT-2130,card,命中判定のダイス目に、,0x80025bc4,1,800ebe7c,24,11,"When making a hit check, you may spend 300 HP"
-TXT-2131,card,コマンドウルフ・ＡＳ,0x80025bdc,1,800ebe70,24,11,COMMAND WOLF AS
+TXT-2131,card,コマンドウルフ・ＡＳ,0x80025bdc,1,800ebe70,24,11,CMD WOLF AS
 TXT-2132,card,砂　ＨＰ＋２００,0x80025bf4,4,800ebe6c;800ec4ec;800ec5ec;800ec7ec,20,9,Sand: HP +200
 TXT-2133,card,乗機ゾイドから与える。,0x80025c08,1,800ebe44,24,11,from your Zoid.
 TXT-2134,card,機に、ダイスの目×１００分のＨＰを,0x80025c20,1,800ebe40,36,17,to one adjacent Zoid
@@ -2374,7 +2374,7 @@ TXT-2423,card,対空迎撃用ソナー,0x80027bd0,1,800ec938,20,9,Anti-Air Inter
 TXT-2424,card,カウンターヒット,0x80027be4,1,800ec934,20,9,Counter Hit
 TXT-2425,card,エネルギーシールド,0x80027bf8,2,800ec930;800ec954,20,9,ENERGY SHIELD
 TXT-2426,card,ウイングソ−ド,0x80027c0c,1,800ec92c,16,7,Wing Sword
-TXT-2427,card,ＧＰＳ複合センサー,0x80027c1c,1,800ec928,20,9,GPS COMPOSITE SENSOR
+TXT-2427,card,ＧＰＳ複合センサー,0x80027c1c,1,800ec928,20,9,GPS SENSOR
 TXT-2428,card,イオンエンジン,0x80027c30,1,800ec924,16,7,Ion Engine
 TXT-2429,card,突撃用超硬度ドリル,0x80027c40,1,800ec918,20,9,Assault Ultra-Hard Drill
 TXT-2430,card,ビームガトリング砲,0x80027c54,1,800ec914,20,9,Beam Gatling Cannon
@@ -2382,12 +2382,12 @@ TXT-2431,card,ハンマーナックル,0x80027c68,1,800ec910,20,9,Hammer Knuckle
 TXT-2432,card,電子かく乱,0x80027c7c,1,800ec90c,12,5,Electronic Jamming
 TXT-2433,card,特殊装甲,0x80027c88,1,800ec908,12,5,Special Armor
 TXT-2434,card,クラッシャークロー,0x80027c94,1,800ec904,20,9,Crusher Claw
-TXT-2435,card,全方位弾,0x80027ca8,1,800ec900,12,5,ALL-DIRECTION SHOT
+TXT-2435,card,全方位弾,0x80027ca8,1,800ec900,12,5,ALL-DIR SHOT
 TXT-2436,card,スナイパーライフル,0x80027cb4,1,800ec8fc,20,9,Sniper Rifle
-TXT-2437,card,大口径ビームキャノン,0x80027cc8,1,800ec8f8,24,11,LARGE-BORE BEAM CANNON
+TXT-2437,card,大口径ビームキャノン,0x80027cc8,1,800ec8f8,24,11,L.B. BEAM GUN
 TXT-2438,card,マニューバーミサイル,0x80027ce0,1,800ec8f4,24,11,Maneuver Missile
 TXT-2439,card,ストライクノーズ,0x80027cf8,1,800ec8f0,20,9,Strike Nose
-TXT-2440,card,ロングレンジライフル,0x80027d0c,1,800ec8ec,24,11,LONG-RANGE RIFLE
+TXT-2440,card,ロングレンジライフル,0x80027d0c,1,800ec8ec,24,11,LR RIFLE
 TXT-2441,card,ブースターキャノン,0x80027d24,1,800ec8e0,20,9,Booster Cannon
 TXT-2442,card,武器破壊,0x80027d38,1,800ec8dc,12,5,Weapon Destroy
 TXT-2443,card,荷電粒子砲,0x80027d44,2,800ec8d8;800ec8e8,12,5,Charged Particle Cannon

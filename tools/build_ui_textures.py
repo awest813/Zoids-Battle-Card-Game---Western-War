@@ -196,6 +196,45 @@ def battle_result(image, ratio, font):
     return image
 
 
+def battle_phase_header(image, ratio, font):
+    headings = (
+        ((0, 0, 48, 16), "DRAW"),
+        ((48, 0, 112, 16), "CUSTOM"),
+        ((112, 0, 192, 16), "MOVE & FIGHT"),
+        ((192, 0, 224, 16), "END"),
+        ((0, 16, 64, 32), "PHASE"),
+    )
+    ink = faded((250, 250, 250, 255), ratio)
+    edge = faded((28, 28, 34, 255), ratio)
+    for box, heading in headings:
+        x, y, right, bottom = box
+        image.paste((0, 0, 0, 0), box)
+        glyph = text_layer(heading, (right - x - 1, bottom - y), font, 15, ink, edge)
+        image.alpha_composite(glyph, (x, y))
+    return image
+
+
+def battle_phase_plaques(image, _ratio, font):
+    labels = ("DRAW PHASE", "CUSTOM PHASE", "MOVE PHASE", "BATTLE PHASE",
+              "END PHASE", "ENEMY TURN", "PLAYER TURN", "PLAY CARD")
+    for row, label in enumerate(labels):
+        y = row * 32
+        left, right = (9, 86) if row < 5 else (14, 113)
+        box = (left, y + 5, right, y + 28)
+        region = image.crop(box)
+        # The darkest interior shade fills the existing plaque behind its lettering.
+        visible = [pixel for pixel in struct.iter_unpack("4B", region.tobytes()) if pixel[3]]
+        if not visible:
+            continue
+        shade = min(visible, key=lambda rgb: sum(rgb[:3]))
+        original = max(visible, key=lambda rgb: max(rgb[:3]) - min(rgb[:3]))
+        ink = tuple(max(0, min(255, int(v * 1.1))) for v in original[:3]) + (255,)
+        image.paste(shade, box)
+        glyph = text_layer(label, (right - left, 22), font, 12, ink, (5, 5, 12, 255))
+        image.alpha_composite(glyph, box[:2])
+    return image
+
+
 ROSTER_ICONS = {
     (16, 104): "DP",
     (112, 104): "ALL",
@@ -274,6 +313,22 @@ def result_variants(path, entry, upload, palette):
     }
 
 
+def battle_phase_textures(output, tim_dir, font):
+    targets = (
+        (1, "0D4796B6C01E2BF8", ("AADDEBE587988EE9",), battle_phase_header),
+        (7, "65BB4E37AD741CAB",
+         ("ADA57F44DA5C7B41", "F59956196F338B81", "70B9F1A3F3400002"), battle_phase_plaques),
+    )
+    archive = tim_dir / "GAME.TIM"
+    for entry, upload, palettes, render in targets:
+        variants = {}
+        for semi in (False, True):
+            variants.update(packed_variants(archive, entry, upload, palettes, semitransparent=semi))
+        for name, original in variants.items():
+            render(original, 1, font).save(output / name)
+        print(f"{render.__name__}: {len(variants)} full-palette replacements")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dump-dir", action="append", type=Path,
@@ -286,6 +341,7 @@ def main():
     font = "arialbd.ttf"
     roster_icons(output, dumps, font)
     tim_dir = ROOT / "extracted/TIM"
+    battle_phase_textures(output, tim_dir, font)
     data = (tim_dir / "CARD_T.TIM").read_bytes()
     native_trade = paletted_image((320, 240), data[0x220:], data[20:532], p8=True, semitransparent=True)
     name_palettes = ("7CBD707322EDD1A9", "0A6C13463C31C65A", "B597D20C389A9477",

@@ -1,0 +1,77 @@
+"""Compact copy for the battle objective and deployment panels.
+
+The battle script renderer at 0x8004B404 copies fullwidth Shift-JIS text
+to a 30-byte stack buffer before rasterizing it. Reserve two bytes for
+the terminator, matching the retail limit of fourteen visible glyphs.
+"""
+
+OBJECTIVE_CELLS = 14
+OBJECTIVES = {
+    "TXT-0409": "Lose: All down",
+    "TXT-0410": "Win: Rout foes",
+    "TXT-0412": "Win: Cmd Wolf",
+    "TXT-0416": "Rout foes/base",
+    "TXT-0426": "20 turns pass",
+    "TXT-0440": "Our base falls",
+    "TXT-0441": "Win: Storm Sw.",
+    "TXT-0450": " destroyed",
+    "TXT-0451": "Gojulas Ogre",
+    "TXT-0458": "Death Stinger",
+    "TXT-0464": "15 turns pass",
+    "TXT-0465": "Win: Gustav",
+    "TXT-0468": "Win: Geno Saur",
+    "TXT-0474": "Dead Border",
+    "TXT-0486": "Lose: No base",
+    "TXT-0487": "Win: 3 Ligers",
+    "TXT-0508": "Win: Red Horn",
+    "TXT-0513": "Win: 4 foes",
+    "TXT-0522": "Saber Tiger",
+    "TXT-0534": "Lose: 3 down",
+    "TXT-0535": "or rout foes",
+    "TXT-0536": "Withdraw 3",
+    "TXT-0538": "Death Saurer",
+    "TXT-0547": "Win: 4 Gators",
+    "TXT-0550": "Win: Brachios",
+    "TXT-0553": "Geno Breaker",
+    "TXT-0559": "Lose: 4 down",
+    "TXT-0560": "Rout or land 5",
+    "TXT-0567": "10 turns pass",
+    "TXT-0568": "Base falls",
+    "TXT-0569": "Lose: 20 turns",
+    "TXT-0570": "Lose: 3 down",
+    "TXT-0571": "Red Horn falls",
+    "TXT-0572": "Geno Saurer +",
+    "TXT-0573": "15 turns pass",
+    "TXT-0574": "No type limits",
+    "TXT-0575": "Max 5 Zoids",
+    "TXT-0576": "No L-types",
+    "TXT-0577": "Max 7 Zoids",
+    "TXT-0578": "70 deploy pts",
+    "TXT-0579": "No air types",
+    "TXT-0580": "Max 8 Zoids",
+    "TXT-0581": "80 deploy pts",
+    "TXT-0582": "50 deploy pts",
+    "TXT-0583": "S-types only",
+    "TXT-0584": "Max 11 Zoids",
+    "TXT-0585": "100 deploy pts",
+    "TXT-0586": "Max 10 Zoids",
+    "TXT-0587": "No L/M-types",
+    "TXT-0588": "100 deploy pts",
+    "TXT-0589": "Max 4 Zoids",
+    "TXT-0590": "3 Zoids only",
+    "TXT-0591": "85 deploy pts",
+    "TXT-0592": "No sand types",
+    "TXT-0593": "No air types",
+    "TXT-0594": "No L-types",
+    "TXT-0595": "Max 3 Zoids",
+    "TXT-0596": "60 deploy pts",
+    "TXT-0599": "Deploy 5 Zoids",
+    "TXT-0600": "No L/LL-types",
+    "TXT-0602": "Deploy 8 Zoids",
+    "TXT-0603": "4 Zoids only",
+    "TXT-0604": "80 deploy pts",
+}
+
+
+def fits_objective(text):
+    return all(32 <= ord(glyph) <= 126 for glyph in text) and 0 < len(text) <= OBJECTIVE_CELLS

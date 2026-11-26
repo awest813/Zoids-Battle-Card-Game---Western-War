@@ -93,6 +93,12 @@ The saved state may be from an older table; the runtime's idle sweep repairs the
 
 ## 4. Test checklist
 
+### Battle startup regression
+
+In Free Mode, select the Republic and Ocean World. Sortie with the Republic deck and place a Shield Liger. Confirm deployment and wait for the opening objective panel. It should display `Rout foes/base` and `Lose: All down`. Confirm the panel and check that the renderer keeps advancing on the battle map.
+
+The retail battle script renderer uses a 30-byte stack buffer for each line. The objective and deployment rows allow fourteen fullwidth glyphs plus the terminator. The translation audit checks those emitted rows against this limit. Use `python -B -X utf8 tools/audit_battle_script.py` for the remaining script groups and add `--csv` to identify lines that need reflow.
+
 ### Text
 
 - [ ] Memory-card dialog is clean English, no tail bleed.

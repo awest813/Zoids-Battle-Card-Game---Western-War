@@ -6,6 +6,7 @@ MENU_DISPLAY = {
     "コマンダー": "Commander",
     "決定": "OK",
     "ゾイド　メイショウ": "ZOID NAME",
+    "手　　札移　　動攻　　撃特　　殊": "HandMoveAtk Spcl",
 }
 
 # These bars are rasterized to textures that the game then slices at fixed
