@@ -17,6 +17,7 @@ OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/text_xlate.cpp.obj"
 RENDERER_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/gpu_gl_renderer.c.obj"
 BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
 MOVIE_CAPTIONS = Path(__file__).with_name("movie_captions.inc")
+MOVIE_LOOKUP = Path(__file__).with_name("movie_lookup.inc")
 CAPTION_TEXT = WORKSPACE / "translations/zoids.movie_captions.json"
 MOVIE_INVENTORY = WORKSPACE / "analysis/MOVIE_INVENTORY.csv"
 
@@ -237,7 +238,7 @@ def main():
     osd = runtime.with_name("host_osd.c")
     stock_exe = build / TARGET
     sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE,
-               MOVIE_CAPTIONS, CAPTION_TEXT, MOVIE_INVENTORY)
+               MOVIE_CAPTIONS, MOVIE_LOOKUP, CAPTION_TEXT, MOVIE_INVENTORY)
     fingerprint = hashlib.sha256(b"".join(path.read_bytes() for path in sources)
                                  + str(build).encode() + str(toolchain).encode()).hexdigest()
     stamp = output / "source.sha256"
@@ -246,7 +247,8 @@ def main():
         return
 
     code = output / "text_xlate.cpp"
-    code.write_text(relocated_source(runtime.read_text(encoding="utf-8")), encoding="utf-8")
+    code.write_text(relocated_source(runtime.read_text(encoding="utf-8")) + "\n"
+                    + MOVIE_LOOKUP.read_text(encoding="utf-8"), encoding="utf-8")
     obj = output / "text_xlate.cpp.obj"
     video_code = output / "gpu_gl_renderer.c"
     video_obj = output / "gpu_gl_renderer.c.obj"
@@ -277,7 +279,7 @@ def main():
     link_command = command_for(build, TARGET, toolchain)
     link_flags = link_command.split("clang++.exe ", 1)[1].split(" @", 1)[0]
     temporary = output / "ZoidsBattleCardGame.new.exe"
-    subprocess.run(f'"{compiler}" {link_flags} "@{rsp}" -o "{temporary}"',
+    subprocess.run(f'"{compiler}" {link_flags} -Wl,--wrap=func_800BBF6C "@{rsp}" -o "{temporary}"',
                    cwd=build, check=True)
     temporary.replace(output / TARGET)
     stamp.write_text(fingerprint, encoding="ascii")
