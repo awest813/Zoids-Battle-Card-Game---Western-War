@@ -6,6 +6,7 @@ import hashlib
 import json
 import re
 import subprocess
+from itertools import groupby
 from pathlib import Path
 
 PROJECT = Path.home() / "zoids-recomp/zoids-battle-card-game"
@@ -125,11 +126,14 @@ def captioned_renderer(source, osd):
     with MOVIE_INVENTORY.open(encoding="utf-8-sig", newline="") as inventory:
         clips = {row["path"]: row for row in csv.DictReader(inventory)}
     records = []
-    for path, cues in json.loads(CAPTION_TEXT.read_text(encoding="utf-8")).items():
+    for path, track in json.loads(CAPTION_TEXT.read_text(encoding="utf-8")).items():
         clip = clips[path]
         disc = [int(clip[key]) for key in ("start_lba", "sector_count", "nominal_fps", "width", "height")]
         width, height = disc[-2:]
-        for cue in cues:
+        lead = track["sector_lead_frames"]
+        if not isinstance(lead, int) or lead < 0:
+            raise ValueError(f"{path}: invalid sector lead")
+        for cue in track["cues"]:
             first, end = cue["frames"]
             x, y, w, h = cue["box"]
             lines = cue["lines"]
@@ -143,15 +147,23 @@ def captioned_renderer(source, osd):
                 if (not line or any(not 32 <= ord(char) <= 126 for char in line)
                         or sum(glyph_widths[ord(char) - 32] for char in line) > w - 4):
                     raise ValueError(f"{path}: caption line is non-ASCII or too wide: {line!r}")
-            numbers = ", ".join(map(str, (*disc, first, end, x, y, w, h)))
             text = ", ".join(json.dumps(line) for line in lines)
-            records.append(f"    {{ {numbers}, {{ {text} }} }},")
+            top_rows = cue.get("top_rows", [y] * (end - first))
+            if len(top_rows) != end - first:
+                raise ValueError(f"{path}: provide one top row per frame: {cue}")
+            for top, run in groupby(top_rows):
+                if not isinstance(top, int) or not 0 <= top <= height - h:
+                    raise ValueError(f"{path}: moving caption outside the movie: {cue}")
+                stop = first + sum(1 for _ in run)
+                numbers = ", ".join(map(str, (*disc, lead, first, stop, x, top, w, h)))
+                records.append(f"    {{ {numbers}, {{ {text} }} }},")
+                first = stop
     if not records:
         raise ValueError("No movie captions defined")
     table = "static const ZoidsMovieCaption zoids_captions[] = {\n" + "\n".join(records) + "\n};"
     code = MOVIE_CAPTIONS.read_text(encoding="utf-8").replace("/* ZOIDS_CAPTION_DATA */", font[0] + "\n" + table)
     replacements = (
-        ('#include "gpu_fmv_hd.h"', '#include "gpu_fmv_hd.h"\n#include "cdrom.h"\n#include "mdec.h"'),
+        ('#include "gpu_fmv_hd.h"', '#include "gpu_fmv_hd.h"\n#include "cdrom.h"'),
         ("static void present_fmv_hd(const FmvHdImage *hd) {",
          code + "\nstatic void present_fmv_hd(const FmvHdImage *hd, const FmvHdTimeline *timeline) {"),
         ("    pres_record(GL_PRES_CPU, 0, 0, hd->w, hd->h, lx, ly, lw, lh);",
@@ -185,7 +197,7 @@ def captioned_renderer(source, osd):
          "    present_vram_impl(disp_x, disp_y, w, h, linear, force_4_3, stream_lba, delivered_lba);"),
         ("int gl_renderer_present_wide_fbo(int disp_x, int disp_y, int disp_h, int linear) {",
          "void gl_renderer_present_vram(int disp_x, int disp_y, int w, int h, int linear, int force_4_3) {\n"
-         "    const int stream_lba = mdec_recently_active(8) ? cdrom_get_stream_start_lba() : -1;\n"
+         "    const int stream_lba = cdrom_fmv_stream_pending() ? cdrom_get_stream_start_lba() : -1;\n"
          "    const int delivered_lba = stream_lba < 0 ? -1 : cdrom_get_delivered_lba();\n"
          "    present_vram_with_movie(disp_x, disp_y, w, h, linear, force_4_3, stream_lba, delivered_lba);\n"
          "}\n\nint gl_renderer_present_wide_fbo(int disp_x, int disp_y, int disp_h, int linear) {"),

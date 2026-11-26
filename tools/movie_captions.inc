@@ -5,7 +5,7 @@ static void gl_draw_osd_image(const uint32_t *px, int ow, int oh,
 
 typedef struct {
     int lba, sector_count, fps, width, height;
-    int first_frame, end_frame;
+    int sector_lead_frames, first_frame, end_frame;
     int x, y, w, h;
     const char *lines[2];
 } ZoidsMovieCaption;
@@ -55,7 +55,7 @@ static void zoids_movie_captions(int stream_lba, int delivered_lba,
         const ZoidsMovieCaption *cue = &zoids_captions[i];
         if (stream_lba != cue->lba || delivered_lba < cue->lba ||
             delivered_lba >= cue->lba + cue->sector_count) continue;
-        const int frame = (delivered_lba - cue->lba) * cue->fps / 150;
+        const int frame = (delivered_lba - cue->lba) * cue->fps / 150 - cue->sector_lead_frames;
         if (frame < cue->first_frame || frame >= cue->end_frame) continue;
         uint32_t image[320 * 48];
         for (int pixel = 0; pixel < cue->w * cue->h; pixel++)
