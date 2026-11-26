@@ -103,6 +103,8 @@ The English runtime wraps those groups to fourteen glyphs and displays up to thr
 
 Add `--choices` to the script audit to scan prompts followed by Yes/No. For the End Turn prompt, confirm the first page and wait for both options on the second page. Repeat from a test state and try both answers to check that the choice advances the original script.
 
+For dialogue with substituted values, check a greeting after naming the commander, a card acquisition or equip message, and the shop price prompt. Check that the name or number appears and that confirmation returns to the original script. In a disposable test, use a card name that pushes the message onto a second page and check each line against the fourteen-glyph limit.
+
 ### Text
 
 - [ ] Memory-card dialog is clean English, no tail bleed.

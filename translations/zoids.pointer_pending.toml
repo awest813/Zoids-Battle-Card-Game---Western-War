@@ -8296,7 +8296,7 @@ ptr_addrs = ["0x800c9714"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "You understood?"
+en = "was it?"
 note = "story inplace max=5"
 
 [[entry]]
@@ -8439,7 +8439,7 @@ ptr_addrs = ["0x800c9664"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Welcome."
+en = "Welcome,"
 note = "story inplace max=5"
 
 [[entry]]
@@ -9414,7 +9414,7 @@ ptr_addrs = ["0x800ca00c", "0x800ca2f0"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "I want."
+en = "under you in this operation."
 note = "story inplace max=7"
 
 [[entry]]
@@ -9427,7 +9427,7 @@ ptr_addrs = ["0x800ca008", "0x800ca2ec"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "under, participate in the operation"
+en = "I'd like to serve"
 note = "story inplace max=11"
 
 [[entry]]
@@ -15342,7 +15342,7 @@ ptr_addrs = ["0x800cccb0"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "We have arrived."
+en = "has arrived."
 note = "story inplace max=7"
 
 [[entry]]
@@ -18891,7 +18891,7 @@ ptr_addrs = ["0x800cf1a8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "So, new packs again"
+en = "take a look."
 note = "story inplace max=13"
 
 [[entry]]
@@ -21881,7 +21881,7 @@ ptr_addrs = ["0x800d1074"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "the Alpha card"
+en = "α"
 note = "ui inplace max=9"
 
 [[entry]]
@@ -21920,7 +21920,7 @@ ptr_addrs = ["0x800d10f4", "0x800d1b50", "0x800d1bb8", "0x800d2080", "0x800d2308
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Alpha"
+en = "α"
 note = "ui inplace max=5"
 
 [[entry]]
@@ -22544,7 +22544,7 @@ ptr_addrs = ["0x800d1c20"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "gamma squares of forest"
+en = "γ forest tiles"
 note = "ui inplace max=7"
 
 [[entry]]
@@ -22557,7 +22557,7 @@ ptr_addrs = ["0x800d1c88"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "gamma squares of water"
+en = "γ water tiles"
 note = "ui inplace max=7"
 
 [[entry]]
@@ -22596,7 +22596,7 @@ ptr_addrs = ["0x800d1d3c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "transferred."
+en = "Transfer complete."
 note = "ui inplace max=9"
 
 [[entry]]
@@ -22609,7 +22609,7 @@ ptr_addrs = ["0x800d1d34"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Alpha"
+en = "Pilot α"
 note = "ui inplace max=5"
 
 [[entry]]
@@ -23467,7 +23467,7 @@ ptr_addrs = ["0x800d2850", "0x800d288c", "0x800d28c8"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "it costs gamma points,"
+en = "γ points."
 note = "ui inplace max=11"
 
 [[entry]]
@@ -23480,7 +23480,7 @@ ptr_addrs = ["0x800d284c", "0x800d2888", "0x800d28c4"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "the price of one pack"
+en = "One pack costs"
 note = "ui inplace max=9"
 
 [[entry]]
@@ -23610,7 +23610,7 @@ ptr_addrs = ["0x800d28ec"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "One pack, please."
+en = "Pack purchased."
 note = "ui inplace max=11"
 
 [[entry]]
@@ -23636,7 +23636,7 @@ ptr_addrs = ["0x800d2908"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "This is Alpha's"
+en = "From α:"
 note = "ui inplace max=5"
 
 [[entry]]
@@ -31523,6 +31523,16 @@ en = "Acquire"
 note = "Zoid ability outside static tracker"
 
 [[entry]]
+src_hex = "81978141"
+src_jp = "＠、"
+src_addr = 0x800f6b8c
+ptr_addrs = ["0x800c46b8", "0x800ca054", "0x800ca338", "0x800ca928", "0x800cad18", "0x800cadf4", "0x800caf50", "0x800cb648", "0x800cb730", "0x800ccb4c", "0x800ccff8", "0x800cd278", "0x800cd384", "0x800ce10c", "0x800ce264", "0x800ce3c0", "0x800ce6a8", "0x800cf894", "0x800cfdac", "0x800cfdec", "0x800cff90", "0x800d010c"]
+term = "nul"
+pad = "none"
+en = "@,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
 src_hex = "82dc82b78142"
 src_jp = "ます。"
 src_addr = 0x800f6b94
@@ -31573,6 +31583,36 @@ en = " "
 note = "Short dialogue outside static tracker"
 
 [[entry]]
+src_hex = "817783bf8178"
+src_jp = "『α』"
+src_addr = 0x800f6bbc
+ptr_addrs = ["0x800c5fd0", "0x800c6014", "0x800c608c", "0x800d09b8", "0x800d0b80", "0x800d0d18", "0x800d119c", "0x800d1610", "0x800d17d4", "0x800d1940"]
+term = "nul"
+pad = "none"
+en = "α"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "817783c28178"
+src_jp = "『δ』"
+src_addr = 0x800f6bc4
+ptr_addrs = ["0x800c60c4"]
+term = "nul"
+pad = "none"
+en = "δ"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "817783c08178"
+src_jp = "『β』"
+src_addr = 0x800f6bcc
+ptr_addrs = ["0x800c60a8", "0x800d1614", "0x800d1d38", "0x800d290c"]
+term = "nul"
+pad = "none"
+en = "β"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
 src_hex = "82ad82bb82c1"
 src_jp = "くそっ"
 src_addr = 0x800f6bd4
@@ -31613,6 +31653,16 @@ en = "North Europa."
 note = "Short dialogue outside static tracker"
 
 [[entry]]
+src_hex = "819782c6"
+src_jp = "＠と"
+src_addr = 0x800f6bf4
+ptr_addrs = ["0x800c9710"]
+term = "nul"
+pad = "none"
+en = "@,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
 src_hex = "82a882a28141"
 src_jp = "おい、"
 src_addr = 0x800f6bfc
@@ -31620,6 +31670,16 @@ ptr_addrs = ["0x800c970c"]
 term = "nul"
 pad = "none"
 en = "Hey,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "81978142"
+src_jp = "＠。"
+src_addr = 0x800f6c04
+ptr_addrs = ["0x800c9668", "0x800ca820", "0x800cba4c"]
+term = "nul"
+pad = "none"
+en = "@."
 note = "Short dialogue outside static tracker"
 
 [[entry]]
@@ -31643,6 +31703,16 @@ en = "Hmm."
 note = "Short dialogue outside static tracker"
 
 [[entry]]
+src_hex = "819782cc"
+src_jp = "＠の"
+src_addr = 0x800f6c1c
+ptr_addrs = ["0x800ca004", "0x800ca2e8", "0x800cf1a4"]
+term = "nul"
+pad = "none"
+en = "@,"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
 src_hex = "837483938142"
 src_jp = "フン。"
 src_addr = 0x800f6c24
@@ -31660,6 +31730,16 @@ ptr_addrs = ["0x800c9f70", "0x800ca254"]
 term = "nul"
 pad = "none"
 en = "Send him in."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82a081418197"
+src_jp = "あ、＠"
+src_addr = 0x800f6c34
+ptr_addrs = ["0x800cab44"]
+term = "nul"
+pad = "none"
+en = "Oh, @!"
 note = "Short dialogue outside static tracker"
 
 [[entry]]
@@ -31733,6 +31813,16 @@ en = "All right,"
 note = "Short dialogue outside static tracker"
 
 [[entry]]
+src_hex = "819782c18149"
+src_jp = "＠っ！"
+src_addr = 0x800f6c74
+ptr_addrs = ["0x800cbe98"]
+term = "nul"
+pad = "none"
+en = "@!"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
 src_hex = "8a7489ba8142"
 src_jp = "閣下。"
 src_addr = 0x800f6c7c
@@ -31760,6 +31850,16 @@ ptr_addrs = ["0x800cce84"]
 term = "nul"
 pad = "none"
 en = "east coast."
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "819782aa"
+src_jp = "＠が"
+src_addr = 0x800f6c94
+ptr_addrs = ["0x800cccac"]
+term = "nul"
+pad = "none"
+en = "@"
 note = "Short dialogue outside static tracker"
 
 [[entry]]
@@ -31817,6 +31917,36 @@ src_hex = "82cc82a98163"
 src_jp = "のか…"
 src_addr = 0x800f6cc4
 ptr_addrs = ["0x800ceadc"]
+term = "nul"
+pad = "none"
+en = " "
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "83bf"
+src_jp = "α"
+src_addr = 0x800f6ccc
+ptr_addrs = ["0x800d0660", "0x800d06e4", "0x800d281c"]
+term = "nul"
+pad = "none"
+en = "α"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "83bf82f0"
+src_jp = "αを"
+src_addr = 0x800f6cd0
+ptr_addrs = ["0x800d28e8"]
+term = "nul"
+pad = "none"
+en = "α"
+note = "Short dialogue outside static tracker"
+
+[[entry]]
+src_hex = "82be82e68142"
+src_jp = "だよ。"
+src_addr = 0x800f6cd8
+ptr_addrs = ["0x800d2910"]
 term = "nul"
 pad = "none"
 en = " "

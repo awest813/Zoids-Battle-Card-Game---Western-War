@@ -640,7 +640,7 @@ TXT-0638,story,P1,inplace,006280,0x80015a80,800c9750,28,13,したわが帝国と
 TXT-0639,story,P1,inplace,00629c,0x80015a9c,800c974c,32,15,エウロペ大陸では、北から進行,"In Europa, advancing from the north",35,no,draft,table-driven; use pointer redirection
 TXT-0640,story,P1,inplace,0062bc,0x80015abc,800c972c,12,5,良く聞け。,Listen well.,12,no,draft,table-driven; use pointer redirection
 TXT-0641,story,P1,inplace,0062c8,0x80015ac8,800c9728,24,11,一度しか説明しないから,I will explain only once.,25,no,draft,table-driven; use pointer redirection
-TXT-0642,story,P1,inplace,0062e0,0x80015ae0,800c9714,12,5,いったな,You understood?,15,no,draft,table-driven; use pointer redirection
+TXT-0642,story,P1,inplace,0062e0,0x80015ae0,800c9714,12,5,いったな,was it?,7,no,draft,table-driven; use pointer redirection
 TXT-0643,story,P1,inplace,0062ec,0x80015aec,800c96f8,16,7,はい、閣下。,"Yes, Your Excellency.",21,no,draft,table-driven; use pointer redirection
 TXT-0644,story,P1,inplace,0062fc,0x80015afc,800c96cc,16,7,ハンナ少佐。,Major Hanna.,12,no,draft,table-driven; use pointer redirection
 TXT-0645,story,P1,inplace,00630c,0x80015b0c,800c96c8,16,7,説明しよう。,I will explain.,15,no,draft,table-driven; use pointer redirection
@@ -651,7 +651,7 @@ TXT-0649,story,P1,inplace,006370,0x80015b70,800c9698,16,7,本題に入ろう。,
 TXT-0650,story,P1,inplace,006380,0x80015b80,800c9694,28,13,あいさつはこれくらいにして,Enough with the greetings.,26,no,draft,table-driven; use pointer redirection
 TXT-0651,story,P1,inplace,00639c,0x80015b9c,800c9680,24,11,ルドルフ皇帝の代理だ。,I act for Emperor Rudolf.,25,no,draft,table-driven; use pointer redirection
 TXT-0652,story,P1,inplace,0063b4,0x80015bb4,800c967c,20,9,私はプロイツェン。,I am Proitzen.,14,no,draft,table-driven; use pointer redirection
-TXT-0653,story,P1,inplace,0063c8,0x80015bc8,800c9664,12,5,よくきた,Welcome.,8,no,draft,table-driven; use pointer redirection
+TXT-0653,story,P1,inplace,0063c8,0x80015bc8,800c9664,12,5,よくきた,"Welcome,",8,no,draft,table-driven; use pointer redirection
 TXT-0654,story,P1,inplace,0063d4,0x80015bd4,800c9a48,28,13,良い知らせを待っている。,I await good news.,18,no,draft,table-driven; use pointer redirection
 TXT-0655,story,P1,inplace,0063f0,0x80015bf0,800c9a34,20,9,手段は問わない。,Any means are acceptable.,25,no,draft,table-driven; use pointer redirection
 TXT-0656,story,P1,inplace,006404,0x80015c04,800c9a30,32,15,オペレーションさえ成功すれば,As long as the operation succeeds,33,no,draft,table-driven; use pointer redirection
@@ -726,8 +726,8 @@ TXT-0724,story,P1,inplace,006a60,0x80016260,800ca0a4,16,7,『ブラキオス』,
 TXT-0725,story,P1,inplace,006a70,0x80016270,800ca058,24,11,以後、よろしく頼む。,I look forward to working with you.,35,no,draft,table-driven; use pointer redirection
 TXT-0726,story,P1,inplace,006a88,0x80016288,800ca050,20,9,ということでだ、,"So, then,",9,yes,draft,table-driven; use pointer redirection
 TXT-0727,story,P1,inplace,006a9c,0x8001629c,800ca03c,20,9,ご命令とあらば。,If you command it.,18,no,draft,table-driven; use pointer redirection
-TXT-0728,story,P1,inplace,006ab0,0x800162b0,800ca00c,16,7,もらいたい。,I want.,7,yes,draft,table-driven; use pointer redirection
-TXT-0729,story,P1,inplace,006ac0,0x800162c0,800ca008,24,11,元で、作戦に参加して,"under, participate in the operation",35,no,draft,table-driven; use pointer redirection
+TXT-0728,story,P1,inplace,006ab0,0x800162b0,800ca00c,16,7,もらいたい。,under you in this operation.,28,no,draft,table-driven; use pointer redirection
+TXT-0729,story,P1,inplace,006ac0,0x800162c0,800ca008,24,11,元で、作戦に参加して,I'd like to serve,17,no,draft,table-driven; use pointer redirection
 TXT-0730,story,P1,inplace,006ad8,0x800162d8,800c9ff0,16,7,今後の話だが…,About the future...,19,no,draft,table-driven; use pointer redirection
 TXT-0731,story,P1,inplace,006ae8,0x800162e8,800c9fec,28,13,ところで、バーガン准将。,"By the way, Brigadier General Bargen.",37,no,draft,table-driven; use pointer redirection
 TXT-0732,story,P1,inplace,006b04,0x80016304,800c9fd8,24,11,基地と呼べるかどうか。,Whether you can call it a base.,31,no,draft,table-driven; use pointer redirection
@@ -1182,7 +1182,7 @@ TXT-1180,story,P1,inplace,0095c0,0x80018dc0,800ccd08,32,15,みな、大いに期
 TXT-1181,story,P1,inplace,0095e0,0x80018de0,800ccd04,32,15,君が指揮を取るということで、,"Since you will take command,",28,no,draft,table-driven; use pointer redirection
 TXT-1182,story,P1,inplace,009600,0x80018e00,800cccf0,24,11,私の名はハーマンだ。,My name is Herman.,18,no,draft,table-driven; use pointer redirection
 TXT-1183,story,P1,inplace,009618,0x80018e18,800cccdc,20,9,よく来てくれた。,Thank you for coming.,21,no,draft,table-driven; use pointer redirection
-TXT-1184,story,P1,inplace,00962c,0x80018e2c,800cccb0,16,7,到着しました。,We have arrived.,16,no,draft,table-driven; use pointer redirection
+TXT-1184,story,P1,inplace,00962c,0x80018e2c,800cccb0,16,7,到着しました。,has arrived.,12,no,draft,table-driven; use pointer redirection
 TXT-1185,story,P1,inplace,00963c,0x80018e3c,800cd09c,20,9,明日に備えてくれ。,Prepare for tomorrow.,21,no,draft,table-driven; use pointer redirection
 TXT-1186,story,P1,inplace,009650,0x80018e50,800cd098,32,15,まぁ、今日はゆっくり休んで、,"Well, rest well today,",22,no,draft,table-driven; use pointer redirection
 TXT-1187,story,P1,inplace,009670,0x80018e70,800cd084,16,7,いって欲しい。,I want you to go.,17,no,draft,table-driven; use pointer redirection
@@ -1455,7 +1455,7 @@ TXT-1453,story,P1,inplace,00af94,0x8001a794,800cef54,28,13,入っているとい
 TXT-1454,story,P1,inplace,00afb0,0x8001a7b0,800cef50,28,13,デスザウラーが起動準備に,The Death Saurer is preparing to activate.,42,no,draft,table-driven; use pointer redirection
 TXT-1455,story,P1,inplace,00afcc,0x8001a7cc,800cef38,28,13,ブロント平地の敵基地を確認,Enemy base confirmed on the Bront Plain.,40,no,draft,table-driven; use pointer redirection
 TXT-1456,story,P1,inplace,00afe8,0x8001a7e8,800cf1ac,24,11,入荷しといたからねっ！,I've stocked new packs!,23,no,draft,table-driven; use pointer redirection
-TXT-1457,story,P1,inplace,00b000,0x8001a800,800cf1a8,28,13,ために、また新しいパックを,"So, new packs again",19,no,draft,table-driven; use pointer redirection
+TXT-1457,story,P1,inplace,00b000,0x8001a800,800cf1a8,28,13,ために、また新しいパックを,take a look.,12,yes,draft,table-driven; use pointer redirection
 TXT-1458,story,P1,inplace,00b01c,0x8001a81c,800cf190,32,15,ずいぶん活躍してるじゃない！,You've been doing great!,24,no,draft,table-driven; use pointer redirection
 TXT-1459,story,P1,inplace,00b03c,0x8001a83c,800cf15c,32,15,『シールドライガーＤＣＳＪ』,Shield Liger DCSJ,17,no,draft,table-driven; use pointer redirection
 TXT-1460,story,P1,inplace,00b05c,0x8001a85c,800cf120,24,11,『マリン・ブルーガー』,Marin Blueger,13,no,draft,table-driven; use pointer redirection
@@ -1685,10 +1685,10 @@ TXT-1683,ui,P0,inplace,00c59c,0x8001bd9c,800d0fcc,20,9,水際にいるゾイド�
 TXT-1684,ui,P0,inplace,00c5b0,0x8001bdb0,800d1010,20,9,を終了させます。,ends.,5,yes,draft,table-driven; use pointer redirection
 TXT-1685,ui,P0,inplace,00c5c4,0x8001bdc4,800d100c,24,11,『強襲上陸カプセル』,Assault Landing Capsule,23,no,draft,table-driven; use pointer redirection
 TXT-1686,ui,P0,inplace,00c5dc,0x8001bddc,800d1078,20,9,使用されました。,was used.,9,yes,draft,table-driven; use pointer redirection
-TXT-1687,ui,P0,inplace,00c5f0,0x8001bdf0,800d1074,20,9,『α』のカードを,the Alpha card,14,no,draft,table-driven; use pointer redirection
+TXT-1687,ui,P0,inplace,00c5f0,0x8001bdf0,800d1074,20,9,『α』のカードを,α,1,yes,draft,table-driven; use pointer redirection
 TXT-1688,ui,P0,inplace,00c604,0x8001be04,800d10b4,32,15,『保安部隊』を使用しますか？,Use Security Force?,19,no,draft,table-driven; use pointer redirection
 TXT-1689,ui,P0,inplace,00c624,0x8001be24,800d10f8,20,9,無効化しました。,Nullified.,10,no,draft,table-driven; use pointer redirection
-TXT-1690,ui,P0,inplace,00c638,0x8001be38,800d10f4,12,5,『α』を,Alpha,5,yes,draft,table-driven; use pointer redirection
+TXT-1690,ui,P0,inplace,00c638,0x8001be38,800d10f4,12,5,『α』を,α,1,yes,draft,table-driven; use pointer redirection
 TXT-1691,ui,P0,inplace,00c644,0x8001be44,800d10f0,16,7,『保安部隊』で,with Security Force,19,no,draft,table-driven; use pointer redirection
 TXT-1692,ui,P0,inplace,00c654,0x8001be54,800d115c,28,13,手札に戻すイベントカードを,the Event card to return to hand,32,no,draft,table-driven; use pointer redirection
 TXT-1693,ui,P0,inplace,00c670,0x8001be70,800d120c,28,13,『最後の一撃』のカードを,the Last Strike card,20,no,draft,table-driven; use pointer redirection
@@ -1736,12 +1736,12 @@ TXT-1734,ui,P0,inplace,00ca74,0x8001c274,800d1ae4,24,11,ゾイドはマヒしま
 TXT-1735,ui,P0,inplace,00ca8c,0x8001c28c,800d1b54,16,7,破壊しました。,destroyed.,10,no,draft,table-driven; use pointer redirection
 TXT-1736,ui,P0,inplace,00ca9c,0x8001c29c,800d1bbc,24,11,トラッシュしました。,trashed.,8,yes,draft,table-driven; use pointer redirection
 TXT-1737,ui,P0,inplace,00cab4,0x8001c2b4,800d1c24,24,11,平地へと変えました。,changed to plain.,17,no,draft,table-driven; use pointer redirection
-TXT-1738,ui,P0,inplace,00cacc,0x8001c2cc,800d1c20,16,7,γマス分の森を,gamma squares of forest,23,no,draft,table-driven; use pointer redirection
-TXT-1739,ui,P0,inplace,00cadc,0x8001c2dc,800d1c88,16,7,γマス分の水を,gamma squares of water,22,no,draft,table-driven; use pointer redirection
+TXT-1738,ui,P0,inplace,00cacc,0x8001c2cc,800d1c20,16,7,γマス分の森を,γ forest tiles,14,no,draft,table-driven; use pointer redirection
+TXT-1739,ui,P0,inplace,00cadc,0x8001c2dc,800d1c88,16,7,γマス分の水を,γ water tiles,13,no,draft,table-driven; use pointer redirection
 TXT-1740,ui,P0,inplace,00caec,0x8001c2ec,800d1cf4,28,13,乗り移る先の味方ゾイドを,the allied Zoid to transfer to,30,no,draft,table-driven; use pointer redirection
 TXT-1741,ui,P0,inplace,00cb08,0x8001c308,800d1cf0,32,15,高速ビーグルで、パイロットが,"with High-Speed Beagle, the pilot",33,no,draft,table-driven; use pointer redirection
-TXT-1742,ui,P0,inplace,00cb28,0x8001c328,800d1d3c,20,9,に乗り移りました。,transferred.,12,no,draft,table-driven; use pointer redirection
-TXT-1743,ui,P0,inplace,00cb3c,0x8001c33c,800d1d34,12,5,『α』が,Alpha,5,yes,draft,table-driven; use pointer redirection
+TXT-1742,ui,P0,inplace,00cb28,0x8001c328,800d1d3c,20,9,に乗り移りました。,Transfer complete.,18,no,draft,table-driven; use pointer redirection
+TXT-1743,ui,P0,inplace,00cb3c,0x8001c33c,800d1d34,12,5,『α』が,Pilot α,7,no,draft,table-driven; use pointer redirection
 TXT-1744,ui,P0,inplace,00cb48,0x8001c348,800d1df4,28,13,乗機ゾイドからＨＰを与える,give HP from the Zoid,21,no,draft,table-driven; use pointer redirection
 TXT-1745,ui,P0,inplace,00cb64,0x8001c364,800d1df0,28,13,隣接しているゾイド１機に、,"to one adjacent Zoid,",21,no,draft,table-driven; use pointer redirection
 TXT-1746,ui,P0,inplace,00cb80,0x8001c380,800d1e7c,28,13,命中判定を＋１できます。,hit roll +1.,12,yes,draft,table-driven; use pointer redirection
@@ -1807,8 +1807,8 @@ TXT-1805,ui,P0,inplace,00d168,0x8001c968,800d27d8,28,13,ここではパックを
 TXT-1806,ui,P0,inplace,00d184,0x8001c984,800d2800,24,11,方向キーで選んでね。,choose with the D-pad.,22,no,draft,table-driven; use pointer redirection
 TXT-1807,ui,P0,inplace,00d19c,0x8001c99c,800d27fc,20,9,購入するパックを,the pack to buy,15,no,draft,table-driven; use pointer redirection
 TXT-1808,ui,P0,inplace,00d1b0,0x8001c9b0,800d2854,16,7,これでいいの？,Is this okay?,13,no,draft,table-driven; use pointer redirection
-TXT-1809,ui,P0,inplace,00d1c0,0x8001c9c0,800d2850,24,11,γポイントになるけど、,"it costs gamma points,",22,no,draft,table-driven; use pointer redirection
-TXT-1810,ui,P0,inplace,00d1d8,0x8001c9d8,800d284c,20,9,１パック分の価格が,the price of one pack,21,no,draft,table-driven; use pointer redirection
+TXT-1809,ui,P0,inplace,00d1c0,0x8001c9c0,800d2850,24,11,γポイントになるけど、,γ points.,9,yes,draft,table-driven; use pointer redirection
+TXT-1810,ui,P0,inplace,00d1d8,0x8001c9d8,800d284c,20,9,１パック分の価格が,One pack costs,14,no,draft,table-driven; use pointer redirection
 TXT-1811,ui,P0,inplace,00d1ec,0x8001c9ec,800d2838,24,11,多く含まれてるわよ。,contains extra.,15,no,draft,table-driven; use pointer redirection
 TXT-1812,ui,P0,inplace,00d204,0x8001ca04,800d2834,24,11,使用頻度の高いカードが,commonly used cards,19,no,draft,table-driven; use pointer redirection
 TXT-1813,ui,P0,inplace,00d21c,0x8001ca1c,800d2830,32,15,基本的な能力を持つゾイドや、,basic Zoids and,15,yes,draft,table-driven; use pointer redirection
@@ -1818,9 +1818,9 @@ TXT-1816,ui,P0,inplace,00d270,0x8001ca70,800d286c,24,11,従来までのカード
 TXT-1817,ui,P0,inplace,00d288,0x8001ca88,800d28b0,20,9,含まれてるわよ。,are included.,13,no,draft,table-driven; use pointer redirection
 TXT-1818,ui,P0,inplace,00d29c,0x8001ca9c,800d28ac,28,13,使用場所の難しいカードが,cards that are hard to use,26,no,draft,table-driven; use pointer redirection
 TXT-1819,ui,P0,inplace,00d2b8,0x8001cab8,800d28a8,28,13,特殊な能力を持つゾイドや、,Zoids with special abilities and,32,no,draft,table-driven; use pointer redirection
-TXT-1820,ui,P0,inplace,00d2d4,0x8001cad4,800d28ec,24,11,１パックお買い上げ。,"One pack, please.",17,no,draft,table-driven; use pointer redirection
+TXT-1820,ui,P0,inplace,00d2d4,0x8001cad4,800d28ec,24,11,１パックお買い上げ。,Pack purchased.,15,no,draft,table-driven; use pointer redirection
 TXT-1821,ui,P0,inplace,00d2ec,0x8001caec,800d28e4,12,5,まいど〜！,Thanks!,7,no,draft,table-driven; use pointer redirection
-TXT-1822,ui,P0,inplace,00d2f8,0x8001caf8,800d2908,12,5,これはαの,This is Alpha's,15,no,draft,table-driven; use pointer redirection
+TXT-1822,ui,P0,inplace,00d2f8,0x8001caf8,800d2908,12,5,これはαの,From α:,7,no,draft,table-driven; use pointer redirection
 TXT-1823,ui,P0,inplace,00d304,0x8001cb04,800d2924,28,13,カードの補給はもういいの？,Done restocking cards?,22,no,draft,table-driven; use pointer redirection
 TXT-1824,ui,P0,inplace,00d320,0x8001cb20,800d2940,24,11,お待ちしておりま〜す！,Welcome!,8,yes,draft,table-driven; use pointer redirection
 TXT-1825,ui,P0,inplace,00d338,0x8001cb38,800d293c,16,7,またのご利用を,Please come again,17,no,draft,table-driven; use pointer redirection

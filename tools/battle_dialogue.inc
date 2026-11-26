@@ -10,8 +10,15 @@ constexpr uint32_t kScriptLines = 0x80630010u;
 constexpr uint32_t kScriptArenaLimit = 0x80640000u;
 constexpr uint16_t kShowText = 0x12u;
 constexpr uint16_t kWaitInput = 6u;
+constexpr uint16_t kFinishScript = 0x0Cu;
 constexpr uint16_t kChooseYesNo = 0x13u;
 constexpr size_t kBattleLineCells = 14u;
+constexpr uint32_t kPlayerName = 0x80123EF8u;
+constexpr uint32_t kDialogueValues = 0x80109648u;
+constexpr uint16_t kPlayerToken = 0x8197u;
+constexpr uint16_t kFirstValueToken = 0x83BFu;
+constexpr uint16_t kNumberToken = 0x83C1u;
+constexpr uint16_t kLastValueToken = 0x83C2u;
 
 uint32_t script_read(uint8_t* ram, uint32_t address, unsigned bytes = 4) {
     uint32_t value = 0;
@@ -28,19 +35,71 @@ void script_write(uint8_t* ram, uint32_t address, uint32_t value, unsigned bytes
 using BattleLine = std::vector<uint16_t>;
 
 bool read_battle_line(uint8_t* ram, uint32_t address, BattleLine& text) {
-    uint32_t limit = 0;
-    if (address >= 0x80010000u && address < 0x800F7000u) limit = 0x800F7000u;
-    if (address >= kPtrScratchBase && address < kPtrScratchLimit) limit = kPtrScratchLimit;
-    if (limit == 0) return false;
+    const uint32_t limit = 0x80000000u + psx_ram_live_bytes();
+    if (address < 0x80010000u || address >= limit) return false;
     for (uint32_t offset = 0; offset + 1 < std::min(kSrcMax, limit - address); offset += 2) {
         const uint8_t lead = grb(ram, address + offset);
         if (lead == 0) return true;
         const uint8_t trail = grb(ram, address + offset + 1);
         if (!((lead >= 0x81 && lead <= 0x9F) || (lead >= 0xE0 && lead <= 0xEF)))
             return false;
+        if (trail < 0x40 || trail > 0xFC || trail == 0x7F) return false;
         text.push_back((uint16_t(lead) << 8) | trail);
     }
     return false;
+}
+
+bool battle_token(uint16_t glyph) {
+    return glyph == kPlayerToken || (glyph >= kFirstValueToken && glyph <= kLastValueToken);
+}
+
+void translate_dialogue_value(uint8_t* ram, uint32_t& address) {
+    uint8_t bytes[kSrcMax];
+    uint32_t size = 0;
+    Term term = Term::None;
+    if (!g_prof->read_record(ram, address, bytes, &size, &term) || term != Term::Nul)
+        return;
+    std::lock_guard<std::mutex> lock(g_mtx);
+    const auto entry = g_table.find(fnv1a(bytes, size));
+    if (entry != g_table.end()) apply_to_reg(ram, &address, entry->second, term);
+}
+
+void expand_dialogue_values(uint8_t* ram, BattleLine& line, bool& expanded) {
+    if (std::none_of(line.begin(), line.end(), battle_token)) return;
+    BattleLine result;
+    for (const uint16_t glyph : line) {
+        if (!battle_token(glyph)) {
+            result.push_back(glyph);
+            continue;
+        }
+        expanded = true;
+        uint32_t address = kPlayerName;
+        if (glyph != kPlayerToken) {
+            // Alpha, beta and delta point to text. Gamma is an inline number.
+            constexpr uint32_t offsets[] = {0x24u, 0x28u, 0x30u, 0x2Cu};
+            const uint32_t field = kDialogueValues + offsets[glyph - kFirstValueToken];
+            address = glyph == kNumberToken ? field : script_read(ram, field);
+        }
+        BattleLine value;
+        if (!read_battle_line(ram, address, value)) {
+            result.push_back(0x8148u); // Unavailable value.
+            continue;
+        }
+        if (glyph != kPlayerToken && glyph != kNumberToken && !value.empty() &&
+            address < kHashBase) {
+            const uint32_t original = address;
+            translate_dialogue_value(ram, address);
+            if (address != original) {
+                BattleLine translated;
+                if (read_battle_line(ram, address, translated)) value = std::move(translated);
+            }
+        }
+        // The native formatter will see these finished lines again. A token
+        // in an inserted name must never trigger a second substitution.
+        for (const uint16_t cell : value)
+            result.push_back(battle_token(cell) ? 0x8148u : cell);
+    }
+    line = std::move(result);
 }
 
 void wrap_battle_line(const BattleLine& text, std::vector<BattleLine>& wrapped) {
@@ -100,25 +159,29 @@ void paginate_battle_text(uint8_t* ram, CPUState* cpu, uint32_t target) {
     const uint32_t followup = start + 12 + count * 4;
     if (followup + 4 > kRetailScriptLimit) return;
     const uint32_t next_command = script_read(ram, followup);
-    const bool choice = next_command == kChooseYesNo;
-    if (!choice && next_command != kWaitInput) return;
-    const uint32_t continuation = index + 2 * (count + (choice ? 3 : 4));
+    const bool final_wait = next_command == kWaitInput;
+    if (!final_wait && next_command != kChooseYesNo && next_command != kFinishScript) return;
+    const uint32_t continuation = index + 2 * (count + (final_wait ? 4 : 3));
     if (continuation >= 0x8000u || base + continuation * 2 >= kRetailScriptLimit) return;
 
     BattleLine lines[3];
-    bool needs_wrap = false;
+    bool needs_rewrite = false;
     for (uint32_t i = 0; i < count; ++i) {
         const uint32_t source = script_read(ram, start + 12 + i * 4);
+        if (!((source >= 0x80010000u && source < 0x800F7000u) ||
+              (source >= kPtrScratchBase && source < kPtrScratchLimit)))
+            return;
         if (!read_battle_line(ram, source, lines[i])) return;
-        needs_wrap |= lines[i].size() > kBattleLineCells;
+        expand_dialogue_values(ram, lines[i], needs_rewrite);
+        needs_rewrite |= lines[i].size() > kBattleLineCells;
     }
-    if (!needs_wrap) return;
+    if (!needs_rewrite) return;
 
     std::vector<BattleLine> wrapped;
     for (uint32_t i = 0; i < count; ++i) wrap_battle_line(lines[i], wrapped);
     constexpr uint32_t stride = 32;
     const size_t pages = (wrapped.size() + 2) / 3;
-    const size_t waits = pages - (choice ? 1 : 0);
+    const size_t waits = pages - (final_wait ? 0 : 1);
     const size_t end = index + 2 * (3 * pages + wrapped.size() + waits);
     if (end >= 0x8000u ||
         wrapped.size() > (kScriptArenaLimit - kScriptLines) / stride)
@@ -144,7 +207,7 @@ void paginate_battle_text(uint8_t* ram, CPUState* cpu, uint32_t target) {
             script_write(ram, address, line);
             address += 4;
         }
-        if (!choice || first + rows < wrapped.size()) {
+        if (final_wait || first + rows < wrapped.size()) {
             script_write(ram, address, kWaitInput);
             address += 4;
         }

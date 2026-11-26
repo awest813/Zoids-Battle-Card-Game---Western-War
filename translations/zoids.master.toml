@@ -8345,7 +8345,7 @@ ptr_addrs = ["0x800c9714"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "You understood?"
+en = "was it?"
 note = "story inplace max=5"
 
 [[entry]]
@@ -8488,7 +8488,7 @@ ptr_addrs = ["0x800c9664"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Welcome."
+en = "Welcome,"
 note = "story inplace max=5"
 
 [[entry]]
@@ -9463,7 +9463,7 @@ ptr_addrs = ["0x800ca00c", "0x800ca2f0"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "I want."
+en = "under you in this operation."
 note = "story inplace max=7"
 
 [[entry]]
@@ -9476,7 +9476,7 @@ ptr_addrs = ["0x800ca008", "0x800ca2ec"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "under, participate in the operation"
+en = "I'd like to serve"
 note = "story inplace max=11"
 
 [[entry]]
@@ -15391,7 +15391,7 @@ ptr_addrs = ["0x800cccb0"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "We have arrived."
+en = "has arrived."
 note = "story inplace max=7"
 
 [[entry]]
@@ -18940,7 +18940,7 @@ ptr_addrs = ["0x800cf1a8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "So, new packs again"
+en = "take a look."
 note = "story inplace max=13"
 
 [[entry]]
@@ -21930,7 +21930,7 @@ ptr_addrs = ["0x800d1074"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "the Alpha card"
+en = "α"
 note = "ui inplace max=9"
 
 [[entry]]
@@ -21969,7 +21969,7 @@ ptr_addrs = ["0x800d10f4", "0x800d1b50", "0x800d1bb8", "0x800d2080", "0x800d2308
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Alpha"
+en = "α"
 note = "ui inplace max=5"
 
 [[entry]]
@@ -22593,7 +22593,7 @@ ptr_addrs = ["0x800d1c20"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "gamma squares of forest"
+en = "γ forest tiles"
 note = "ui inplace max=7"
 
 [[entry]]
@@ -22606,7 +22606,7 @@ ptr_addrs = ["0x800d1c88"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "gamma squares of water"
+en = "γ water tiles"
 note = "ui inplace max=7"
 
 [[entry]]
@@ -22645,7 +22645,7 @@ ptr_addrs = ["0x800d1d3c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "transferred."
+en = "Transfer complete."
 note = "ui inplace max=9"
 
 [[entry]]
@@ -22658,7 +22658,7 @@ ptr_addrs = ["0x800d1d34"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Alpha"
+en = "Pilot α"
 note = "ui inplace max=5"
 
 [[entry]]
@@ -23516,7 +23516,7 @@ ptr_addrs = ["0x800d2850", "0x800d288c", "0x800d28c8"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "it costs gamma points,"
+en = "γ points."
 note = "ui inplace max=11"
 
 [[entry]]
@@ -23529,7 +23529,7 @@ ptr_addrs = ["0x800d284c", "0x800d2888", "0x800d28c4"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "the price of one pack"
+en = "One pack costs"
 note = "ui inplace max=9"
 
 [[entry]]
@@ -23659,7 +23659,7 @@ ptr_addrs = ["0x800d28ec"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "One pack, please."
+en = "Pack purchased."
 note = "ui inplace max=11"
 
 [[entry]]
@@ -23685,7 +23685,7 @@ ptr_addrs = ["0x800d2908"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "This is Alpha's"
+en = "From α:"
 note = "ui inplace max=5"
 
 [[entry]]

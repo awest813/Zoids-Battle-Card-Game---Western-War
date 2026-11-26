@@ -7,7 +7,7 @@ STORY_8 = {
     "TXT-1454": "The Death Saurer is preparing to activate.",
     "TXT-1455": "Enemy base confirmed on the Bront Plain.",
     "TXT-1456": "I've stocked new packs!",
-    "TXT-1457": "So, new packs again",
+    "TXT-1457": "take a look.",
     "TXT-1458": "You've been doing great!",
     "TXT-1459": "Shield Liger DCSJ",
     "TXT-1460": "Marin Blueger",

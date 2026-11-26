@@ -14,7 +14,7 @@ def dialogue_groups(executable):
         if offset + 12 + (count + 1) * 4 > limit:
             continue
         *sources, followup = struct.unpack_from(f"<{count + 1}I", executable, offset + 12)
-        if followup in (6, 0x13):
+        if followup in (6, 0x0C, 0x13):
             yield offset + RAM_BASE, followup, sources
 
 

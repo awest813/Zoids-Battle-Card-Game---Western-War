@@ -21,6 +21,7 @@ remaining = [r for r in rows if r["status"] not in ("translated", "input_layout"
 print("translated", len(translated), "input layout", len(layout), "remaining", len(remaining))
 
 jp_re = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
+token_re = re.compile(r"[@αβγδ]")
 empty, jp_left, too_long = [], [], []
 for r in translated:
     en = r["english"]
@@ -53,6 +54,11 @@ objective_addresses = {int(row["ram_addr"], 16): row["id"] for row in rows
                        if row["id"] in OBJECTIVES}
 objective_entries = set()
 errors = bool(empty or jp_left or remaining or len(ids) != len(set(ids)))
+for row in translated:
+    source_tokens = Counter(token_re.findall(row["japanese"].replace("＠", "@")))
+    if source_tokens and source_tokens != Counter(token_re.findall(row["english"])):
+        print(f"  {row['id']} dropped or changed a dialogue token")
+        errors = True
 for f in ("translations/zoids.master.toml", *live_files):
     with open(f, "rb") as table:
         d = tomllib.load(table)["entry"]
@@ -128,5 +134,9 @@ remaining_short = sorted(set(short_sources.values()) - SHORT_DIALOGUE.keys())
 print("remaining sources", len(remaining_short), remaining_short)
 for address in missing_short:
     print(f"  slot {address:#010x}")
-errors |= bool(missing_short)
+for japanese, english in SHORT_DIALOGUE.items():
+    if Counter(token_re.findall(japanese.replace("＠", "@"))) != Counter(token_re.findall(english)):
+        print(f"  short dialogue changed a token in {japanese!r}")
+        errors = True
+errors |= bool(missing_short or remaining_short)
 raise SystemExit(1 if errors or missing else 0)

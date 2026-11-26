@@ -134,7 +134,7 @@ STORY_5 = {
     "TXT-1181": "Since you will take command,",
     "TXT-1182": "My name is Herman.",
     "TXT-1183": "Thank you for coming.",
-    "TXT-1184": "We have arrived.",
+    "TXT-1184": "has arrived.",
     "TXT-1185": "Prepare for tomorrow.",
     "TXT-1186": "Well, rest well today,",
     "TXT-1187": "I want you to go.",

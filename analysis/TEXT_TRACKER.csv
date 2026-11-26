@@ -640,7 +640,7 @@ TXT-0638,006280,80015a80,27,13,story,inplace,1,800c9750,28,13,27,P1,translated,�
 TXT-0639,00629c,80015a9c,29,14,story,inplace,1,800c974c,32,15,31,P1,translated,エウロペ大陸では、北から進行,"In Europa, advancing from the north",1 pointer(s); pointer redirection
 TXT-0640,0062bc,80015abc,11,5,story,inplace,1,800c972c,12,5,11,P1,translated,良く聞け。,Listen well.,1 pointer(s); pointer redirection
 TXT-0641,0062c8,80015ac8,23,11,story,inplace,1,800c9728,24,11,23,P1,translated,一度しか説明しないから,I will explain only once.,1 pointer(s); pointer redirection
-TXT-0642,0062e0,80015ae0,9,4,story,inplace,1,800c9714,12,5,11,P1,translated,いったな,You understood?,1 pointer(s); pointer redirection
+TXT-0642,0062e0,80015ae0,9,4,story,inplace,1,800c9714,12,5,11,P1,translated,いったな,was it?,1 pointer(s); pointer redirection
 TXT-0643,0062ec,80015aec,13,6,story,inplace,1,800c96f8,16,7,15,P1,translated,はい、閣下。,"Yes, Your Excellency.",1 pointer(s); pointer redirection
 TXT-0644,0062fc,80015afc,13,6,story,inplace,1,800c96cc,16,7,15,P1,translated,ハンナ少佐。,Major Hanna.,1 pointer(s); pointer redirection
 TXT-0645,00630c,80015b0c,13,6,story,inplace,1,800c96c8,16,7,15,P1,translated,説明しよう。,I will explain.,1 pointer(s); pointer redirection
@@ -651,7 +651,7 @@ TXT-0649,006370,80015b70,15,7,story,inplace,1,800c9698,16,7,15,P1,translated,本
 TXT-0650,006380,80015b80,27,13,story,inplace,1,800c9694,28,13,27,P1,translated,あいさつはこれくらいにして,Enough with the greetings.,1 pointer(s); pointer redirection
 TXT-0651,00639c,80015b9c,23,11,story,inplace,1,800c9680,24,11,23,P1,translated,ルドルフ皇帝の代理だ。,I act for Emperor Rudolf.,1 pointer(s); pointer redirection
 TXT-0652,0063b4,80015bb4,19,9,story,inplace,1,800c967c,20,9,19,P1,translated,私はプロイツェン。,I am Proitzen.,1 pointer(s); pointer redirection
-TXT-0653,0063c8,80015bc8,9,4,story,inplace,1,800c9664,12,5,11,P1,translated,よくきた,Welcome.,1 pointer(s); pointer redirection
+TXT-0653,0063c8,80015bc8,9,4,story,inplace,1,800c9664,12,5,11,P1,translated,よくきた,"Welcome,",1 pointer(s); pointer redirection
 TXT-0654,0063d4,80015bd4,25,12,story,inplace,1,800c9a48,28,13,27,P1,translated,良い知らせを待っている。,I await good news.,1 pointer(s); pointer redirection
 TXT-0655,0063f0,80015bf0,17,8,story,inplace,1,800c9a34,20,9,19,P1,translated,手段は問わない。,Any means are acceptable.,1 pointer(s); pointer redirection
 TXT-0656,006404,80015c04,29,14,story,inplace,1,800c9a30,32,15,31,P1,translated,オペレーションさえ成功すれば,As long as the operation succeeds,1 pointer(s); pointer redirection
@@ -726,8 +726,8 @@ TXT-0724,006a60,80016260,15,7,story,inplace,2,800ca0a4,16,7,15,P1,translated,『
 TXT-0725,006a70,80016270,21,10,story,inplace,2,800ca058,24,11,23,P1,translated,以後、よろしく頼む。,I look forward to working with you.,2 pointer(s); pointer redirection
 TXT-0726,006a88,80016288,17,8,story,inplace,2,800ca050,20,9,19,P1,translated,ということでだ、,"So, then,",2 pointer(s); pointer redirection
 TXT-0727,006a9c,8001629c,17,8,story,inplace,2,800ca03c,20,9,19,P1,translated,ご命令とあらば。,If you command it.,2 pointer(s); pointer redirection
-TXT-0728,006ab0,800162b0,13,6,story,inplace,2,800ca00c,16,7,15,P1,translated,もらいたい。,I want.,2 pointer(s); pointer redirection
-TXT-0729,006ac0,800162c0,21,10,story,inplace,2,800ca008,24,11,23,P1,translated,元で、作戦に参加して,"under, participate in the operation",2 pointer(s); pointer redirection
+TXT-0728,006ab0,800162b0,13,6,story,inplace,2,800ca00c,16,7,15,P1,translated,もらいたい。,under you in this operation.,2 pointer(s); pointer redirection
+TXT-0729,006ac0,800162c0,21,10,story,inplace,2,800ca008,24,11,23,P1,translated,元で、作戦に参加して,I'd like to serve,2 pointer(s); pointer redirection
 TXT-0730,006ad8,800162d8,15,7,story,inplace,2,800c9ff0,16,7,15,P1,translated,今後の話だが…,About the future...,2 pointer(s); pointer redirection
 TXT-0731,006ae8,800162e8,25,12,story,inplace,2,800c9fec,28,13,27,P1,translated,ところで、バーガン准将。,"By the way, Brigadier General Bargen.",2 pointer(s); pointer redirection
 TXT-0732,006b04,80016304,23,11,story,inplace,2,800c9fd8,24,11,23,P1,translated,基地と呼べるかどうか。,Whether you can call it a base.,2 pointer(s); pointer redirection
@@ -1182,7 +1182,7 @@ TXT-1180,0095c0,80018dc0,29,14,story,inplace,1,800ccd08,32,15,31,P1,translated,�
 TXT-1181,0095e0,80018de0,29,14,story,inplace,1,800ccd04,32,15,31,P1,translated,君が指揮を取るということで、,"Since you will take command,",1 pointer(s); pointer redirection
 TXT-1182,009600,80018e00,21,10,story,inplace,1,800cccf0,24,11,23,P1,translated,私の名はハーマンだ。,My name is Herman.,1 pointer(s); pointer redirection
 TXT-1183,009618,80018e18,17,8,story,inplace,1,800cccdc,20,9,19,P1,translated,よく来てくれた。,Thank you for coming.,1 pointer(s); pointer redirection
-TXT-1184,00962c,80018e2c,15,7,story,inplace,1,800cccb0,16,7,15,P1,translated,到着しました。,We have arrived.,1 pointer(s); pointer redirection
+TXT-1184,00962c,80018e2c,15,7,story,inplace,1,800cccb0,16,7,15,P1,translated,到着しました。,has arrived.,1 pointer(s); pointer redirection
 TXT-1185,00963c,80018e3c,19,9,story,inplace,1,800cd09c,20,9,19,P1,translated,明日に備えてくれ。,Prepare for tomorrow.,1 pointer(s); pointer redirection
 TXT-1186,009650,80018e50,29,14,story,inplace,1,800cd098,32,15,31,P1,translated,まぁ、今日はゆっくり休んで、,"Well, rest well today,",1 pointer(s); pointer redirection
 TXT-1187,009670,80018e70,15,7,story,inplace,1,800cd084,16,7,15,P1,translated,いって欲しい。,I want you to go.,1 pointer(s); pointer redirection
@@ -1455,7 +1455,7 @@ TXT-1453,00af94,8001a794,27,13,story,inplace,1,800cef54,28,13,27,P1,translated,�
 TXT-1454,00afb0,8001a7b0,25,12,story,inplace,1,800cef50,28,13,27,P1,translated,デスザウラーが起動準備に,The Death Saurer is preparing to activate.,1 pointer(s); pointer redirection
 TXT-1455,00afcc,8001a7cc,27,13,story,inplace,1,800cef38,28,13,27,P1,translated,ブロント平地の敵基地を確認,Enemy base confirmed on the Bront Plain.,1 pointer(s); pointer redirection
 TXT-1456,00afe8,8001a7e8,23,11,story,inplace,1,800cf1ac,24,11,23,P1,translated,入荷しといたからねっ！,I've stocked new packs!,1 pointer(s); pointer redirection
-TXT-1457,00b000,8001a800,27,13,story,inplace,1,800cf1a8,28,13,27,P1,translated,ために、また新しいパックを,"So, new packs again",1 pointer(s); pointer redirection
+TXT-1457,00b000,8001a800,27,13,story,inplace,1,800cf1a8,28,13,27,P1,translated,ために、また新しいパックを,take a look.,1 pointer(s); pointer redirection
 TXT-1458,00b01c,8001a81c,29,14,story,inplace,1,800cf190,32,15,31,P1,translated,ずいぶん活躍してるじゃない！,You've been doing great!,1 pointer(s); pointer redirection
 TXT-1459,00b03c,8001a83c,29,14,story,inplace,1,800cf15c,32,15,31,P1,translated,『シールドライガーＤＣＳＪ』,Shield Liger DCSJ,1 pointer(s); pointer redirection
 TXT-1460,00b05c,8001a85c,23,11,story,inplace,1,800cf120,24,11,23,P1,translated,『マリン・ブルーガー』,Marin Blueger,1 pointer(s); pointer redirection
@@ -1685,10 +1685,10 @@ TXT-1683,00c59c,8001bd9c,19,9,ui,inplace,1,800d0fcc,20,9,19,P0,translated,水際
 TXT-1684,00c5b0,8001bdb0,17,8,ui,inplace,1,800d1010,20,9,19,P0,translated,を終了させます。,ends.,1 pointer(s); pointer redirection
 TXT-1685,00c5c4,8001bdc4,21,10,ui,inplace,1,800d100c,24,11,23,P0,translated,『強襲上陸カプセル』,Assault Landing Capsule,1 pointer(s); pointer redirection
 TXT-1686,00c5dc,8001bddc,17,8,ui,inplace,2,800d1078,20,9,19,P0,translated,使用されました。,was used.,2 pointer(s); pointer redirection
-TXT-1687,00c5f0,8001bdf0,17,8,ui,inplace,1,800d1074,20,9,19,P0,translated,『α』のカードを,the Alpha card,1 pointer(s); pointer redirection
+TXT-1687,00c5f0,8001bdf0,17,8,ui,inplace,1,800d1074,20,9,19,P0,translated,『α』のカードを,α,1 pointer(s); pointer redirection
 TXT-1688,00c604,8001be04,29,14,ui,inplace,1,800d10b4,32,15,31,P0,translated,『保安部隊』を使用しますか？,Use Security Force?,1 pointer(s); pointer redirection
 TXT-1689,00c624,8001be24,17,8,ui,inplace,1,800d10f8,20,9,19,P0,translated,無効化しました。,Nullified.,1 pointer(s); pointer redirection
-TXT-1690,00c638,8001be38,9,4,ui,inplace,5,800d10f4,12,5,11,P0,translated,『α』を,Alpha,5 pointer(s); pointer redirection
+TXT-1690,00c638,8001be38,9,4,ui,inplace,5,800d10f4,12,5,11,P0,translated,『α』を,α,5 pointer(s); pointer redirection
 TXT-1691,00c644,8001be44,15,7,ui,inplace,1,800d10f0,16,7,15,P0,translated,『保安部隊』で,with Security Force,1 pointer(s); pointer redirection
 TXT-1692,00c654,8001be54,27,13,ui,inplace,1,800d115c,28,13,27,P0,translated,手札に戻すイベントカードを,the Event card to return to hand,1 pointer(s); pointer redirection
 TXT-1693,00c670,8001be70,25,12,ui,inplace,1,800d120c,28,13,27,P0,translated,『最後の一撃』のカードを,the Last Strike card,1 pointer(s); pointer redirection
@@ -1736,12 +1736,12 @@ TXT-1734,00ca74,8001c274,23,11,ui,inplace,1,800d1ae4,24,11,23,P0,translated,ゾ�
 TXT-1735,00ca8c,8001c28c,15,7,ui,inplace,1,800d1b54,16,7,15,P0,translated,破壊しました。,destroyed.,1 pointer(s); pointer redirection
 TXT-1736,00ca9c,8001c29c,21,10,ui,inplace,3,800d1bbc,24,11,23,P0,translated,トラッシュしました。,trashed.,3 pointer(s); pointer redirection
 TXT-1737,00cab4,8001c2b4,21,10,ui,inplace,2,800d1c24,24,11,23,P0,translated,平地へと変えました。,changed to plain.,2 pointer(s); pointer redirection
-TXT-1738,00cacc,8001c2cc,15,7,ui,inplace,1,800d1c20,16,7,15,P0,translated,γマス分の森を,gamma squares of forest,1 pointer(s); pointer redirection
-TXT-1739,00cadc,8001c2dc,15,7,ui,inplace,1,800d1c88,16,7,15,P0,translated,γマス分の水を,gamma squares of water,1 pointer(s); pointer redirection
+TXT-1738,00cacc,8001c2cc,15,7,ui,inplace,1,800d1c20,16,7,15,P0,translated,γマス分の森を,γ forest tiles,1 pointer(s); pointer redirection
+TXT-1739,00cadc,8001c2dc,15,7,ui,inplace,1,800d1c88,16,7,15,P0,translated,γマス分の水を,γ water tiles,1 pointer(s); pointer redirection
 TXT-1740,00caec,8001c2ec,25,12,ui,inplace,1,800d1cf4,28,13,27,P0,translated,乗り移る先の味方ゾイドを,the allied Zoid to transfer to,1 pointer(s); pointer redirection
 TXT-1741,00cb08,8001c308,29,14,ui,inplace,1,800d1cf0,32,15,31,P0,translated,高速ビーグルで、パイロットが,"with High-Speed Beagle, the pilot",1 pointer(s); pointer redirection
-TXT-1742,00cb28,8001c328,19,9,ui,inplace,1,800d1d3c,20,9,19,P0,translated,に乗り移りました。,transferred.,1 pointer(s); pointer redirection
-TXT-1743,00cb3c,8001c33c,9,4,ui,inplace,1,800d1d34,12,5,11,P0,translated,『α』が,Alpha,1 pointer(s); pointer redirection
+TXT-1742,00cb28,8001c328,19,9,ui,inplace,1,800d1d3c,20,9,19,P0,translated,に乗り移りました。,Transfer complete.,1 pointer(s); pointer redirection
+TXT-1743,00cb3c,8001c33c,9,4,ui,inplace,1,800d1d34,12,5,11,P0,translated,『α』が,Pilot α,1 pointer(s); pointer redirection
 TXT-1744,00cb48,8001c348,27,13,ui,inplace,1,800d1df4,28,13,27,P0,translated,乗機ゾイドからＨＰを与える,give HP from the Zoid,1 pointer(s); pointer redirection
 TXT-1745,00cb64,8001c364,27,13,ui,inplace,1,800d1df0,28,13,27,P0,translated,隣接しているゾイド１機に、,"to one adjacent Zoid,",1 pointer(s); pointer redirection
 TXT-1746,00cb80,8001c380,25,12,ui,inplace,1,800d1e7c,28,13,27,P0,translated,命中判定を＋１できます。,hit roll +1.,1 pointer(s); pointer redirection
@@ -1807,8 +1807,8 @@ TXT-1805,00d168,8001c968,27,13,ui,inplace,1,800d27d8,28,13,27,P0,translated,こ�
 TXT-1806,00d184,8001c984,21,10,ui,inplace,1,800d2800,24,11,23,P0,translated,方向キーで選んでね。,choose with the D-pad.,1 pointer(s); pointer redirection
 TXT-1807,00d19c,8001c99c,17,8,ui,inplace,1,800d27fc,20,9,19,P0,translated,購入するパックを,the pack to buy,1 pointer(s); pointer redirection
 TXT-1808,00d1b0,8001c9b0,15,7,ui,inplace,3,800d2854,16,7,15,P0,translated,これでいいの？,Is this okay?,3 pointer(s); pointer redirection
-TXT-1809,00d1c0,8001c9c0,23,11,ui,inplace,3,800d2850,24,11,23,P0,translated,γポイントになるけど、,"it costs gamma points,",3 pointer(s); pointer redirection
-TXT-1810,00d1d8,8001c9d8,19,9,ui,inplace,3,800d284c,20,9,19,P0,translated,１パック分の価格が,the price of one pack,3 pointer(s); pointer redirection
+TXT-1809,00d1c0,8001c9c0,23,11,ui,inplace,3,800d2850,24,11,23,P0,translated,γポイントになるけど、,γ points.,3 pointer(s); pointer redirection
+TXT-1810,00d1d8,8001c9d8,19,9,ui,inplace,3,800d284c,20,9,19,P0,translated,１パック分の価格が,One pack costs,3 pointer(s); pointer redirection
 TXT-1811,00d1ec,8001c9ec,21,10,ui,inplace,1,800d2838,24,11,23,P0,translated,多く含まれてるわよ。,contains extra.,1 pointer(s); pointer redirection
 TXT-1812,00d204,8001ca04,23,11,ui,inplace,1,800d2834,24,11,23,P0,translated,使用頻度の高いカードが,commonly used cards,1 pointer(s); pointer redirection
 TXT-1813,00d21c,8001ca1c,29,14,ui,inplace,1,800d2830,32,15,31,P0,translated,基本的な能力を持つゾイドや、,basic Zoids and,1 pointer(s); pointer redirection
@@ -1818,9 +1818,9 @@ TXT-1816,00d270,8001ca70,23,11,ui,inplace,1,800d286c,24,11,23,P0,translated,従�
 TXT-1817,00d288,8001ca88,17,8,ui,inplace,1,800d28b0,20,9,19,P0,translated,含まれてるわよ。,are included.,1 pointer(s); pointer redirection
 TXT-1818,00d29c,8001ca9c,25,12,ui,inplace,1,800d28ac,28,13,27,P0,translated,使用場所の難しいカードが,cards that are hard to use,1 pointer(s); pointer redirection
 TXT-1819,00d2b8,8001cab8,27,13,ui,inplace,1,800d28a8,28,13,27,P0,translated,特殊な能力を持つゾイドや、,Zoids with special abilities and,1 pointer(s); pointer redirection
-TXT-1820,00d2d4,8001cad4,21,10,ui,inplace,1,800d28ec,24,11,23,P0,translated,１パックお買い上げ。,"One pack, please.",1 pointer(s); pointer redirection
+TXT-1820,00d2d4,8001cad4,21,10,ui,inplace,1,800d28ec,24,11,23,P0,translated,１パックお買い上げ。,Pack purchased.,1 pointer(s); pointer redirection
 TXT-1821,00d2ec,8001caec,11,5,ui,inplace,1,800d28e4,12,5,11,P0,translated,まいど〜！,Thanks!,1 pointer(s); pointer redirection
-TXT-1822,00d2f8,8001caf8,11,5,ui,inplace,1,800d2908,12,5,11,P0,translated,これはαの,This is Alpha's,1 pointer(s); pointer redirection
+TXT-1822,00d2f8,8001caf8,11,5,ui,inplace,1,800d2908,12,5,11,P0,translated,これはαの,From α:,1 pointer(s); pointer redirection
 TXT-1823,00d304,8001cb04,27,13,ui,inplace,1,800d2924,28,13,27,P0,translated,カードの補給はもういいの？,Done restocking cards?,1 pointer(s); pointer redirection
 TXT-1824,00d320,8001cb20,23,11,ui,inplace,1,800d2940,24,11,23,P0,translated,お待ちしておりま〜す！,Welcome!,1 pointer(s); pointer redirection
 TXT-1825,00d338,8001cb38,15,7,ui,inplace,1,800d293c,16,7,15,P0,translated,またのご利用を,Please come again,1 pointer(s); pointer redirection

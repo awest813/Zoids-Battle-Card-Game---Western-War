@@ -76,15 +76,26 @@ def relocated_source(source):
          "    else if (project_root && *project_root)\n"
          '        g_dir = (fs::path(project_root) / "translations").string();'),
         (STACK_SCRATCH, HASH_ARENA),
+        ("        case '@':  return 0x8197;",
+         "        case '@':  return 0x8197;\n"
+         "        case 0x03B1: return 0x83BF;  // dialogue parameter alpha\n"
+         "        case 0x03B2: return 0x83C0;\n"
+         "        case 0x03B3: return 0x83C1;\n"
+         "        case 0x03B4: return 0x83C2;"),
         ("} // namespace", BATTLE_DIALOGUE.read_text(encoding="utf-8") + "\n} // namespace"),
         ("    uint32_t* argregs[4] =",
          "    if (app) paginate_battle_text(ram, cpu, target);\n    uint32_t* argregs[4] ="),
+        ("        if (scratch_recent(va)) continue;  // don't recapture our own English scratch",
+         "        if (scratch_recent(va) || (va >= kScriptLines && va < kScriptArenaLimit)) continue;"),
     )
     for stock, updated in replacements:
         if source.count(stock) != 1:
             raise ValueError(f"Unexpected reference runtime source near {stock!r}")
         source = source.replace(stock, updated, 1)
-    return source
+    encoded_glyph = "fw_sjis_for_ascii(cp <= 0x7E ? cp : ' ')"
+    if source.count(encoded_glyph) != 3:
+        raise ValueError("Unexpected number of Shift-JIS encoders in the reference runtime")
+    return source.replace(encoded_glyph, "fw_sjis_for_ascii(cp)")
 
 
 def command_for(build, target, toolchain=BIN):
