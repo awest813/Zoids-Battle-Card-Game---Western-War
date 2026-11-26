@@ -16,9 +16,9 @@ CARD_TEXT_2 = {
 
     # Card 34 — Divison
     "TXT-2296": "Attack 300.",
-    "TXT-2295": "Hit -1, but the Zoid hit",
-    "TXT-2294": "can trash one Armor-type Custom Card",
-    "TXT-2293": "equipped to it.",
+    "TXT-2295": "Subtract 1 from the hit roll.",
+    "TXT-2294": "On a hit, you may discard one Armor Custom Card",
+    "TXT-2293": "equipped to the target.",
 
     # Card 35 — Command Wolf
     "TXT-2292": "When this card is attached to a Zoid's WR,",
@@ -54,8 +54,8 @@ CARD_TEXT_2 = {
     # Card 40 — Double Sword
     "TXT-2271": "Use when the opponent plays the Event Card",
     "TXT-2270": '"Spy."',
-    "TXT-2269": "You can use it against the opponent who played",
-    "TXT-2268": "that card.",
+    "TXT-2269": "Apply Spy's effect against",
+    "TXT-2268": "the opponent who played it.",
 
     # Card 41 — Blade Liger
     "TXT-2267": "Return one Event Card from your discard pile",
@@ -85,9 +85,9 @@ CARD_TEXT_2 = {
 
     # Card 45 — Command Wolf AS
     "TXT-2249": "Fighting attack +200.",
-    "TXT-2248": "Nullify the Custom Card equipped to the attacking Zoid",
-    "TXT-2247": "and deal damage.",
-    "TXT-2246": "Deal damage directly.",
+    "TXT-2248": "Ignore the equipped Custom Card effects",
+    "TXT-2247": "of the target Zoid when",
+    "TXT-2246": "you deal damage.",
 
     # Card 46 — Shield Liger DCS-J
     "TXT-2245": "Attack +300.",
@@ -100,11 +100,11 @@ CARD_TEXT_2 = {
     "TXT-2240": "that was attacked.",
 
     # Card 48 — Gustav MS
-    "TXT-2239": "Burn forest squares in a straight line up to D6/2",
-    "TXT-2238": "(half a die) and turn them into plain.",
+    "TXT-2239": "Roll a d6 and halve the result. Straight ahead,",
+    "TXT-2238": "burn that many forest squares into plains.",
 
     # Card 49 — Gojulas the Ogre
-    "TXT-2237": "(half a die) and turn them into plain.",
+    "TXT-2237": "freeze that many water squares into plains.",
 
     # Card 50 — Mammoth
     "TXT-2236": "The equipped Zoid gains desert aptitude.",

@@ -118,6 +118,34 @@ REVIEWED_RULES = {
     27: "Place a barricade on any empty square except water. Only flying Zoids can enter or cross it.",
     28: "Remove 1 barricade from the map.",
     29: "Piercing. Declare before attacking. Deal 500 damage to 2 Zoids in range straight ahead. On a roll of 1, lose 300 HP. Guard has no effect. M-types only.",
+    30: "Declare before attacking. Subtract 1 from the hit roll. A hit immediately paralyzes the target until the next turn. It cannot attack or counterattack while paralyzed. S- and M-types only.",
+    31: "Reduce damage from frontal attacks by 200. S- and M-types only.",
+    32: "Declare before attacking. Range 7. Attack 500. Add 1 to the hit roll. On a die roll of 1, lose 200 HP. M- and L-types only.",
+    33: "Attack +100. S- and M-types only. Gustav and Morga cannot equip it.",
+    34: "Declare before attacking. Attack 300. Subtract 1 from the hit roll. On a hit, you may discard 1 Armor Custom Card equipped to the target. S- and M-types only.",
+    35: "Attach to a Zoid's WR to equip 2 additional Custom Cards. Opposing Event Cards cannot discard this card.",
+    36: "Declare before attacking or counterattacking a flying Zoid. Attack 300. Add 1 to the hit roll.",
+    37: "Declare before attacking. Range 1. Attack 800 against bases or 500 against Zoids. Flying Zoids only. Cannot target flying Zoids.",
+    38: "Use at the start of the Battle Phase. Add 1 to the hit rolls of all Zoids that attack this turn.",
+    39: "Declare before moving. This Move Phase, any number of Zoids without Water aptitude at the water's edge may move 6 squares through water. Discard this card at the end of the Move Phase.",
+    40: "When your opponent plays Spy, apply its effect against that opponent.",
+    41: "Return 1 Event Card from your discard pile to your hand.",
+    42: "Use immediately after an allied Zoid is destroyed. It can attack an enemy Zoid once at any range before being discarded.",
+    43: "Forest: Ranged and melee attack +100.\nIron Kong SS or Saber Tiger SS: +200 HP and Forest, Mountain, and Sand aptitude when piloting a Schwarz Custom Zoid.",
+    44: "Sand\nRev Raptor: +200 HP, movement 5, and +1 straight movement.\nOn a Zoid with Sand aptitude, subtract 1 from enemy hit rolls while on sand or plains.",
+    45: "Melee attack +200. Ignore the target's equipped Custom Card effects when dealing damage.",
+    46: "Attack +300. Backfire deals 100 damage one square directly behind you, including allies and bases. S-types only.",
+    47: "Declare before attacking. Discard the Pilot Card equipped to the enemy Zoid you attack.",
+    48: "Declare before attacking. Roll a d6 and halve the result. Burn that many forest squares straight ahead, turning them into plains.",
+    49: "Declare before attacking. Roll a d6 and halve the result. Freeze that many water squares straight ahead, turning them into plains.",
+    50: "Gain Sand aptitude. Sand costs 1 movement point per square. S-types only.",
+    51: "Declare before moving. Instead of moving, transfer this card and its Zoid's pilot to another Zoid without a pilot.",
+    52: "Declare before attacking. Target a Zoid in water 5–10 squares straight ahead. Attack +400. Subtract 1 from the hit roll.",
+    53: "Destroy 1 of your Zoids and add its current HP to your base, up to the base's max HP.",
+    54: "Use when a Zoid takes damage to cancel that damage.",
+    55: "Look at the top 4 cards of your deck and put them back in any order.",
+    56: "Deal 500 damage to all Zoids in your territory, including allies. Bases are excluded.",
+    57: "Discard any number of cards from your hand, then draw that many cards.",
     77: "Sand: HP +200\nCommand Wolf AS: Movement +3\nOn a hit check, you may spend 300 HP to add 1 to the roll.",
 }
 TERRAIN_ICONS = (
@@ -262,12 +290,17 @@ def paint_zoid(face, name, index, record):
         paint_rule(face, (special_box[2], special_box[1], right, bottom), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
 
 
-def paint_cep(face, name, rule, pilot, source):
+def paint_cep(face, name, rule, category, source):
+    pilot = category == 2
     # Preserve the red property mark beside some Custom/Event names.
     mark = next((x for x in range(15, 85)
                  if any(r > 95 and r > g * 1.45 and r > b * 1.45
                         for r, g, b, _ in (source.getpixel((x, y)) for y in range(103, 110)))), None)
-    right = mark if mark is not None and mark >= 35 and not pilot else 86
+    if category == 1:
+        # Event names are centered across a wider band with no equipment badge.
+        right = 116
+    else:
+        right = mark if mark is not None and mark >= 35 and not pilot else 86
     ink = "#fff0a6" if pilot else "#fff9e6"
     paint_label(face, (12, 102, right, 111), name, "#3a3c39", ink)
     if rule:
@@ -349,8 +382,8 @@ def main():
         if kind == "zoid":
             paint_zoid(face, name, index, record)
         else:
-            pilot = struct.unpack_from("<H", record, 0x28)[0] == 2
-            paint_cep(face, name, face_rule(cep_rules[index], rules, pilot), pilot, source)
+            category, = struct.unpack_from("<H", record, 0x28)
+            paint_cep(face, name, face_rule(cep_rules[index], rules, category == 2), category, source)
         upload, palette = keys[face_index]
         face.save(output / f"texupload-STP8-{upload}-{palette}-64x160-0-0-128x160-P0-255.png")
         upload, palette = thumb_keys[face_index]

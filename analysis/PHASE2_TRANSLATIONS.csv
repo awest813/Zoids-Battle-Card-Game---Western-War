@@ -2222,18 +2222,18 @@ TXT-2233,card,P1,inplace,016f3c,0x8002673c,800eb7b8,16,7,で移動できる。,I
 TXT-2234,card,P1,inplace,016f4c,0x8002674c,800eb7b4,12,5,移動力１,at movement 1.,14,no,draft,table-driven; use pointer redirection
 TXT-2235,card,P1,inplace,016f58,0x80026758,800eb7b0,12,5,砂漠地形を,Desert terrain can be crossed,29,no,draft,table-driven; use pointer redirection
 TXT-2236,card,P1,inplace,016f64,0x80026764,800eb7ac,36,17,装備したゾイドに砂漠適性が付く。,The equipped Zoid gains desert aptitude.,40,no,draft,table-driven; use pointer redirection
-TXT-2237,card,P1,inplace,016f88,0x80026788,800eb774,36,17,の水のマスを凍らせて平地とする。,(half a die) and turn them into plain.,38,no,draft,table-driven; use pointer redirection
-TXT-2238,card,P1,inplace,016fac,0x800267ac,800eb734,32,15,の森のマスを焼いて平地とする。,(half a die) and turn them into plain.,38,no,draft,table-driven; use pointer redirection
-TXT-2239,card,P1,inplace,016fcc,0x800267cc,800eb730,36,17,正面からＤ６／２（サイコロ半分）分,Burn forest squares in a straight line up to D6/2,49,no,draft,table-driven; use pointer redirection
+TXT-2237,card,P1,inplace,016f88,0x80026788,800eb774,36,17,の水のマスを凍らせて平地とする。,freeze that many water squares into plains.,43,no,draft,table-driven; use pointer redirection
+TXT-2238,card,P1,inplace,016fac,0x800267ac,800eb734,32,15,の森のマスを焼いて平地とする。,burn that many forest squares into plains.,42,no,draft,table-driven; use pointer redirection
+TXT-2239,card,P1,inplace,016fcc,0x800267cc,800eb730,36,17,正面からＤ６／２（サイコロ半分）分,"Roll a d6 and halve the result. Straight ahead,",47,no,draft,table-driven; use pointer redirection
 TXT-2240,card,P1,inplace,016ff0,0x800267f0,800eb6f4,36,17,パイロットカードをトラッシュする。,that was attacked.,18,no,draft,table-driven; use pointer redirection
 TXT-2241,card,P1,inplace,017014,0x80026814,800eb6f0,32,15,攻撃した敵ゾイドに付けられた,Trash the Pilot Card attached to the enemy Zoid,47,no,draft,table-driven; use pointer redirection
 TXT-2242,card,P1,inplace,017034,0x80026834,800eb6b8,16,7,ダメージ１００,100 damage.,11,no,draft,table-driven; use pointer redirection
 TXT-2243,card,P1,inplace,017044,0x80026844,800eb6b4,16,7,るゾイドにも,for,3,yes,draft,table-driven; use pointer redirection
 TXT-2244,card,P1,inplace,017054,0x80026854,800eb6b0,36,17,バックファイアーで真後ろ１マスにい,Backfire also hits Zoids one square directly behind,51,no,draft,table-driven; use pointer redirection
 TXT-2245,card,P1,inplace,017078,0x80026878,800eb6ac,16,7,攻撃力＋３００,Attack +300.,12,no,draft,table-driven; use pointer redirection
-TXT-2246,card,P1,inplace,017088,0x80026888,800eb678,12,5,与える。,Deal damage directly.,21,no,draft,table-driven; use pointer redirection
-TXT-2247,card,P1,inplace,017094,0x80026894,800eb674,36,17,カードの効果を無効にしてダメージを,and deal damage.,16,yes,draft,table-driven; use pointer redirection
-TXT-2248,card,P1,inplace,0170b8,0x800268b8,800eb670,36,17,攻撃したゾイドに付けられたカスタム,Nullify the Custom Card equipped to the attacking Zoid,54,no,draft,table-driven; use pointer redirection
+TXT-2246,card,P1,inplace,017088,0x80026888,800eb678,12,5,与える。,you deal damage.,16,no,draft,table-driven; use pointer redirection
+TXT-2247,card,P1,inplace,017094,0x80026894,800eb674,36,17,カードの効果を無効にしてダメージを,of the target Zoid when,23,no,draft,table-driven; use pointer redirection
+TXT-2248,card,P1,inplace,0170b8,0x800268b8,800eb670,36,17,攻撃したゾイドに付けられたカスタム,Ignore the equipped Custom Card effects,39,no,draft,table-driven; use pointer redirection
 TXT-2249,card,P1,inplace,0170dc,0x800268dc,800eb66c,20,9,格闘攻撃力＋２００,Fighting attack +200.,21,no,draft,table-driven; use pointer redirection
 TXT-2250,card,P1,inplace,0170f0,0x800268f0,800eb648,36,17,命中判定−１（砂・平地にいるとき）,hit -1 (when on sand or plain).,31,no,draft,table-driven; use pointer redirection
 TXT-2251,card,P1,inplace,017114,0x80026914,800eb644,36,17,砂適性ゾイドに乗ったとき、敵からの,"When riding a desert-aptitude Zoid, enemy",41,no,draft,table-driven; use pointer redirection
@@ -2253,8 +2253,8 @@ TXT-2264,card,P1,inplace,017284,0x80026a84,800eb5b4,36,17,破壊されたゾイ�
 TXT-2265,card,P1,inplace,0172a8,0x80026aa8,800eb5ac,36,17,味方ゾイドが破壊された直後に使用す,Use immediately after an allied Zoid is destroyed.,50,no,draft,table-driven; use pointer redirection
 TXT-2266,card,P1,inplace,0172cc,0x80026acc,800eb570,32,15,カードを１枚、手札にもどせる。,to your hand.,13,yes,draft,table-driven; use pointer redirection
 TXT-2267,card,P1,inplace,0172ec,0x80026aec,800eb56c,36,17,自分のカード捨て場の中からイベント,Return one Event Card from your discard pile,44,no,draft,table-driven; use pointer redirection
-TXT-2268,card,P1,inplace,017310,0x80026b10,800eb538,16,7,て使用できる。,that card.,10,no,draft,table-driven; use pointer redirection
-TXT-2269,card,P1,inplace,017320,0x80026b20,800eb534,36,17,そのカードの効果を出した相手に対し,You can use it against the opponent who played,46,no,draft,table-driven; use pointer redirection
+TXT-2268,card,P1,inplace,017310,0x80026b10,800eb538,16,7,て使用できる。,the opponent who played it.,27,no,draft,table-driven; use pointer redirection
+TXT-2269,card,P1,inplace,017320,0x80026b20,800eb534,36,17,そのカードの効果を出した相手に対し,Apply Spy's effect against,26,no,draft,table-driven; use pointer redirection
 TXT-2270,card,P1,inplace,017344,0x80026b44,800eb530,20,9,ときに使用する。,"""Spy.""",6,yes,draft,table-driven; use pointer redirection
 TXT-2271,card,P1,inplace,017358,0x80026b58,800eb52c,36,17,イベントカード「スパイ」を出された,Use when the opponent plays the Event Card,42,no,draft,table-driven; use pointer redirection
 TXT-2272,card,P1,inplace,01737c,0x80026b7c,800eb500,36,17,※移動フェイズ終了時にトラッシュす,*Trash this card at the end of the Movement Phase.,50,no,draft,table-driven; use pointer redirection
@@ -2278,9 +2278,9 @@ TXT-2289,card,P1,inplace,017564,0x80026d64,800eb3f8,32,15,　によるトラッ�
 TXT-2290,card,P1,inplace,017584,0x80026d84,800eb3f4,36,17,※このカードは相手のイベントカード,*This card is not affected by the opponent's Event Cards,56,no,draft,table-driven; use pointer redirection
 TXT-2291,card,P1,inplace,0175a8,0x80026da8,800eb3f0,36,17,さらにカスタムカード＋２できる。,it can hold 2 more Custom Cards.,32,no,draft,table-driven; use pointer redirection
 TXT-2292,card,P1,inplace,0175cc,0x80026dcc,800eb3ec,36,17,ゾイドのＷＲにこのカードを付けると,"When this card is attached to a Zoid's WR,",42,no,draft,table-driven; use pointer redirection
-TXT-2293,card,P1,inplace,0175f0,0x80026df0,800eb3bc,32,15,カードを１枚トラッシュできる。,equipped to it.,15,yes,draft,table-driven; use pointer redirection
-TXT-2294,card,P1,inplace,017610,0x80026e10,800eb3b8,36,17,ドに付いているアーマー系のカスタム,can trash one Armor-type Custom Card,36,no,draft,table-driven; use pointer redirection
-TXT-2295,card,P1,inplace,017634,0x80026e34,800eb3b4,36,17,命中判定が−１されるが命中したゾイ,"Hit -1, but the Zoid hit",24,no,draft,table-driven; use pointer redirection
+TXT-2293,card,P1,inplace,0175f0,0x80026df0,800eb3bc,32,15,カードを１枚トラッシュできる。,equipped to the target.,23,no,draft,table-driven; use pointer redirection
+TXT-2294,card,P1,inplace,017610,0x80026e10,800eb3b8,36,17,ドに付いているアーマー系のカスタム,"On a hit, you may discard one Armor Custom Card",47,no,draft,table-driven; use pointer redirection
+TXT-2295,card,P1,inplace,017634,0x80026e34,800eb3b4,36,17,命中判定が−１されるが命中したゾイ,Subtract 1 from the hit roll.,29,no,draft,table-driven; use pointer redirection
 TXT-2296,card,P1,inplace,017658,0x80026e58,800eb3b0,16,7,攻撃力３００,Attack 300.,11,no,draft,table-driven; use pointer redirection
 TXT-2297,card,P1,inplace,017668,0x80026e68,800eb378,20,9,　グスタフ、モルガ,"Gustav, Morga.",14,no,draft,table-driven; use pointer redirection
 TXT-2298,card,P1,inplace,01767c,0x80026e7c,800eb374,36,17,※以下のゾイドには装備できない。,*Cannot equip the following Zoids:,34,no,draft,table-driven; use pointer redirection

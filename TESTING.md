@@ -140,6 +140,8 @@ The OpenGL album test opened Geno Saurer, Gojulas V1, Geno Breaker RS, Blade Lig
 
 The first Custom, Event, and Pilot review checked 31 distinct rules against the Japanese game text. These rules appear on 59 faces. A pixel comparison across all 274 full-size textures found changes confined to the rule boxes on 49 faces. A disposable Card Album fixture verified readable rules on Long Cannon, Float Unit, Self-Destruct, External Charged Particle Cannon, and Irvine. A fresh English launcher resolved all five revised live text slots. Check that Float Unit says Saboteur cannot discard it and that Self-Destruct includes nearby allies and bases.
 
+The next review checked 28 more rules used by 52 faces. In the Card Album, compare Flamethrower's forest squares with Coolant Sprayer's water squares. Both convert the affected squares to plains. Check that Pile Bunker can discard the target's Armor Custom Card and that Laser Sword ignores the target's equipped Custom Card effects. The fresh English launcher resolved the corrected live rule fragments. Check the complete name band on both Assault Landing Capsule variants. All 70 Event name bands now use their full width, which covers the original lettering on long titles.
+
 Scroll through the Card Album to check `Zoids`, `Pilots`, `Custom`, and `Events`. All four headers were verified in the native OpenGL renderer after loading a disposable album state. The renderer now receives an eight-cell label specific to the album's drawing calls. The separate `Event Card` and `Pilot Card` text slots retained their full wording in the same run.
 
 - [ ] Memory-card dialog is clean English, no tail bleed.

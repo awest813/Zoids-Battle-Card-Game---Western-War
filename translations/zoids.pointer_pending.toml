@@ -28225,7 +28225,7 @@ ptr_addrs = ["0x800eb774"]
 term = "nul"
 pad = "none"
 orig_w = 16
-en = "(half a die) and turn them into plain."
+en = "freeze that many water squares into plains."
 note = "card inplace max=17"
 
 [[entry]]
@@ -28238,7 +28238,7 @@ ptr_addrs = ["0x800eb734"]
 term = "nul"
 pad = "none"
 orig_w = 15
-en = "(half a die) and turn them into plain."
+en = "burn that many forest squares into plains."
 note = "card inplace max=15"
 
 [[entry]]
@@ -28251,7 +28251,7 @@ ptr_addrs = ["0x800eb730", "0x800eb770"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Burn forest squares in a straight line up to D6/2"
+en = "Roll a d6 and halve the result. Straight ahead,"
 note = "card inplace max=17"
 
 [[entry]]
@@ -28342,7 +28342,7 @@ ptr_addrs = ["0x800eb678"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Deal damage directly."
+en = "you deal damage."
 note = "card inplace max=5"
 
 [[entry]]
@@ -28355,7 +28355,7 @@ ptr_addrs = ["0x800eb674"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "and deal damage."
+en = "of the target Zoid when"
 note = "card inplace max=17"
 
 [[entry]]
@@ -28368,7 +28368,7 @@ ptr_addrs = ["0x800eb670"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Nullify the Custom Card equipped to the attacking Zoid"
+en = "Ignore the equipped Custom Card effects"
 note = "card inplace max=17"
 
 [[entry]]
@@ -28628,7 +28628,7 @@ ptr_addrs = ["0x800eb538"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "that card."
+en = "the opponent who played it."
 note = "card inplace max=7"
 
 [[entry]]
@@ -28641,7 +28641,7 @@ ptr_addrs = ["0x800eb534"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "You can use it against the opponent who played"
+en = "Apply Spy's effect against"
 note = "card inplace max=17"
 
 [[entry]]
@@ -28953,7 +28953,7 @@ ptr_addrs = ["0x800eb3bc"]
 term = "nul"
 pad = "none"
 orig_w = 15
-en = "equipped to it."
+en = "equipped to the target."
 note = "card inplace max=15"
 
 [[entry]]
@@ -28966,7 +28966,7 @@ ptr_addrs = ["0x800eb3b8"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "can trash one Armor-type Custom Card"
+en = "On a hit, you may discard one Armor Custom Card"
 note = "card inplace max=17"
 
 [[entry]]
@@ -28979,7 +28979,7 @@ ptr_addrs = ["0x800eb3b4"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Hit -1, but the Zoid hit"
+en = "Subtract 1 from the hit roll."
 note = "card inplace max=17"
 
 [[entry]]

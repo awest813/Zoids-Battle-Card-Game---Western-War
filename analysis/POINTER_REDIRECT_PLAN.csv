@@ -2184,18 +2184,18 @@ TXT-2233,card,で移動できる。,0x8002673c,1,800eb7b8,16,7,It can move.
 TXT-2234,card,移動力１,0x8002674c,1,800eb7b4,12,5,at movement 1.
 TXT-2235,card,砂漠地形を,0x80026758,1,800eb7b0,12,5,Desert terrain can be crossed
 TXT-2236,card,装備したゾイドに砂漠適性が付く。,0x80026764,1,800eb7ac,36,17,The equipped Zoid gains desert aptitude.
-TXT-2237,card,の水のマスを凍らせて平地とする。,0x80026788,1,800eb774,36,17,(half a die) and turn them into plain.
-TXT-2238,card,の森のマスを焼いて平地とする。,0x800267ac,1,800eb734,32,15,(half a die) and turn them into plain.
-TXT-2239,card,正面からＤ６／２（サイコロ半分）分,0x800267cc,2,800eb730;800eb770,36,17,Burn forest squares in a straight line up to D6/2
+TXT-2237,card,の水のマスを凍らせて平地とする。,0x80026788,1,800eb774,36,17,freeze that many water squares into plains.
+TXT-2238,card,の森のマスを焼いて平地とする。,0x800267ac,1,800eb734,32,15,burn that many forest squares into plains.
+TXT-2239,card,正面からＤ６／２（サイコロ半分）分,0x800267cc,2,800eb730;800eb770,36,17,"Roll a d6 and halve the result. Straight ahead,"
 TXT-2240,card,パイロットカードをトラッシュする。,0x800267f0,1,800eb6f4,36,17,that was attacked.
 TXT-2241,card,攻撃した敵ゾイドに付けられた,0x80026814,1,800eb6f0,32,15,Trash the Pilot Card attached to the enemy Zoid
 TXT-2242,card,ダメージ１００,0x80026834,1,800eb6b8,16,7,100 damage.
 TXT-2243,card,るゾイドにも,0x80026844,1,800eb6b4,16,7,for
 TXT-2244,card,バックファイアーで真後ろ１マスにい,0x80026854,1,800eb6b0,36,17,Backfire also hits Zoids one square directly behind
 TXT-2245,card,攻撃力＋３００,0x80026878,3,800eb6ac;800ebcbc;800ec508,16,7,Attack +300.
-TXT-2246,card,与える。,0x80026888,1,800eb678,12,5,Deal damage directly.
-TXT-2247,card,カードの効果を無効にしてダメージを,0x80026894,1,800eb674,36,17,and deal damage.
-TXT-2248,card,攻撃したゾイドに付けられたカスタム,0x800268b8,1,800eb670,36,17,Nullify the Custom Card equipped to the attacking Zoid
+TXT-2246,card,与える。,0x80026888,1,800eb678,12,5,you deal damage.
+TXT-2247,card,カードの効果を無効にしてダメージを,0x80026894,1,800eb674,36,17,of the target Zoid when
+TXT-2248,card,攻撃したゾイドに付けられたカスタム,0x800268b8,1,800eb670,36,17,Ignore the equipped Custom Card effects
 TXT-2249,card,格闘攻撃力＋２００,0x800268dc,2,800eb66c;800ec1ac,20,9,Fighting attack +200.
 TXT-2250,card,命中判定−１（砂・平地にいるとき）,0x800268f0,1,800eb648,36,17,hit -1 (when on sand or plain).
 TXT-2251,card,砂適性ゾイドに乗ったとき、敵からの,0x80026914,1,800eb644,36,17,"When riding a desert-aptitude Zoid, enemy"
@@ -2215,8 +2215,8 @@ TXT-2264,card,破壊されたゾイドは相手ゾイドに対し,0x80026a84,1,8
 TXT-2265,card,味方ゾイドが破壊された直後に使用す,0x80026aa8,1,800eb5ac,36,17,Use immediately after an allied Zoid is destroyed.
 TXT-2266,card,カードを１枚、手札にもどせる。,0x80026acc,1,800eb570,32,15,to your hand.
 TXT-2267,card,自分のカード捨て場の中からイベント,0x80026aec,1,800eb56c,36,17,Return one Event Card from your discard pile
-TXT-2268,card,て使用できる。,0x80026b10,1,800eb538,16,7,that card.
-TXT-2269,card,そのカードの効果を出した相手に対し,0x80026b20,1,800eb534,36,17,You can use it against the opponent who played
+TXT-2268,card,て使用できる。,0x80026b10,1,800eb538,16,7,the opponent who played it.
+TXT-2269,card,そのカードの効果を出した相手に対し,0x80026b20,1,800eb534,36,17,Apply Spy's effect against
 TXT-2270,card,ときに使用する。,0x80026b44,1,800eb530,20,9,"""Spy."""
 TXT-2271,card,イベントカード「スパイ」を出された,0x80026b58,1,800eb52c,36,17,Use when the opponent plays the Event Card
 TXT-2272,card,※移動フェイズ終了時にトラッシュす,0x80026b7c,1,800eb500,36,17,*Trash this card at the end of the Movement Phase.
@@ -2240,9 +2240,9 @@ TXT-2289,card,　によるトラッシュは受けない。,0x80026d64,1,800eb3f
 TXT-2290,card,※このカードは相手のイベントカード,0x80026d84,1,800eb3f4,36,17,*This card is not affected by the opponent's Event Cards
 TXT-2291,card,さらにカスタムカード＋２できる。,0x80026da8,1,800eb3f0,36,17,it can hold 2 more Custom Cards.
 TXT-2292,card,ゾイドのＷＲにこのカードを付けると,0x80026dcc,1,800eb3ec,36,17,"When this card is attached to a Zoid's WR,"
-TXT-2293,card,カードを１枚トラッシュできる。,0x80026df0,1,800eb3bc,32,15,equipped to it.
-TXT-2294,card,ドに付いているアーマー系のカスタム,0x80026e10,1,800eb3b8,36,17,can trash one Armor-type Custom Card
-TXT-2295,card,命中判定が−１されるが命中したゾイ,0x80026e34,1,800eb3b4,36,17,"Hit -1, but the Zoid hit"
+TXT-2293,card,カードを１枚トラッシュできる。,0x80026df0,1,800eb3bc,32,15,equipped to the target.
+TXT-2294,card,ドに付いているアーマー系のカスタム,0x80026e10,1,800eb3b8,36,17,"On a hit, you may discard one Armor Custom Card"
+TXT-2295,card,命中判定が−１されるが命中したゾイ,0x80026e34,1,800eb3b4,36,17,Subtract 1 from the hit roll.
 TXT-2296,card,攻撃力３００,0x80026e58,2,800eb3b0;800ec12c,16,7,Attack 300.
 TXT-2297,card,　グスタフ、モルガ,0x80026e68,1,800eb378,20,9,"Gustav, Morga."
 TXT-2298,card,※以下のゾイドには装備できない。,0x80026e7c,2,800eb374;800ec8b4,36,17,*Cannot equip the following Zoids:
