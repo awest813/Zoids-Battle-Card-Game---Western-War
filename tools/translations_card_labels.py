@@ -1,0 +1,27 @@
+"""English card designations and deck names (TXT-1925..1942, TXT-2471..2475)."""
+
+CARD_LABELS = {
+    "TXT-1925": "RZ-028 BS",
+    "TXT-1926": "Van's Zoid",
+    "TXT-1927": "Raven's Zoid",
+    "TXT-1928": "Command Wolf Custom",
+    "TXT-1929": "Red Horn Enhanced",
+    "TXT-1930": "Leo Master Custom",
+    "TXT-1931": "ZIO-024 AS",
+    "TXT-1932": "Irvine's Custom",
+    "TXT-1933": "EZ-034 RS",
+    "TXT-1934": "EZ-016 SS",
+    "TXT-1935": "ZI-025 MS",
+    "TXT-1936": "Moonbay's Custom",
+    "TXT-1937": "EZ-015 SS",
+    "TXT-1938": "Schwarz's Custom",
+    "TXT-1939": "EZ-016 RS",
+    "TXT-1940": "Raven's Custom",
+    "TXT-1941": "EZ-022",
+    "TXT-1942": "Gustav, Stealth Viper",
+    "TXT-2471": "Republic",
+    "TXT-2472": "Deck 2",
+    "TXT-2473": "Deck 3",
+    "TXT-2474": "Deck 4",
+    "TXT-2475": "Empire",
+}

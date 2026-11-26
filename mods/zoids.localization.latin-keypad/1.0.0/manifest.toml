@@ -1,0 +1,163 @@
+# Rotate only page table pointers. The stock glyphs and key handling stay intact.
+format_version = 5
+id = "zoids.localization.latin-keypad"
+version = "1.0.0"
+name = "Latin-first name entry"
+description = "Open the original Latin name-entry page first in English."
+resolver = "declarative"
+save_compatibility = "shared"
+
+[[target]]
+game_id = "SLPS-03255"
+
+[[feature]]
+id = "latin-first"
+name = "Latin-first name entry"
+default_enabled = false
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f36c
+expected = "54 f3 01 80"
+replace = "98 6d 0f 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f60c
+expected = "cc f3 01 80"
+replace = "4c f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f684
+expected = "ec f3 01 80"
+replace = "6c f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f6fc
+expected = "0c f4 01 80"
+replace = "8c f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f774
+expected = "2c f4 01 80"
+replace = "ac f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f7ec
+expected = "4c f4 01 80"
+replace = "cc f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f864
+expected = "6c f4 01 80"
+replace = "ec f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f38c
+expected = "60 f3 01 80"
+replace = "54 f3 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f8dc
+expected = "8c f4 01 80"
+replace = "cc f3 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f954
+expected = "ac f4 01 80"
+replace = "ec f3 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f9cc
+expected = "cc f4 01 80"
+replace = "0c f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fa44
+expected = "ec f4 01 80"
+replace = "2c f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fabc
+expected = "0c f5 01 80"
+replace = "4c f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fb34
+expected = "2c f5 01 80"
+replace = "6c f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001f3ac
+expected = "98 6d 0f 80"
+replace = "60 f3 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fbac
+expected = "4c f5 01 80"
+replace = "8c f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fc24
+expected = "6c f5 01 80"
+replace = "ac f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fc9c
+expected = "8c f5 01 80"
+replace = "cc f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fd14
+expected = "ac f5 01 80"
+replace = "ec f4 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fd8c
+expected = "cc f5 01 80"
+replace = "0c f5 01 80"
+
+[[patch]]
+feature = "latin-first"
+target = "main_exe"
+address = 0x8001fe04
+expected = "ec f5 01 80"
+replace = "2c f5 01 80"
