@@ -18,6 +18,8 @@ SCALE = 4
 FACE_ARCHIVE_HASH = "78ba8b1ea0a37c8e47a2c4e81d01b67453b878faf28b1b10da99e56dc0d91e40"
 THUMB_ARCHIVE_HASH = "b38a63767faf619609cb6888c4cc77a75365c2db14c78ccecee9463666d772f0"
 PACK = Path("work/localization-textures/SLPS-03255")
+WATER_OR_AIR = "Water aptitude on water tiles. Air aptitude on all other tiles."
+BLADE_LIGER_SPECIAL = "Side melee power 800. Frontal attack damage taken -200."
 ZOID_SPECIAL = {
     6: "Frontal attack damage taken -100.",
     13: "Enemy ranged hit checks -1.",
@@ -25,13 +27,20 @@ ZOID_SPECIAL = {
     18: "Melee attack +100.",
     19: "Ranged attack +100 against Zoids with air aptitude.",
     21: "Melee attack +200.",
+    23: WATER_OR_AIR,
+    27: WATER_OR_AIR,
     32: "Can also make ranged attacks one square diagonally behind, on either side.",
+    41: BLADE_LIGER_SPECIAL,
+    42: "Side melee power 700.",
     43: "Counterattack hit checks +1.",
     44: "Ranged hit checks +1 against Zoids with air aptitude.",
     49: "Range +3 on turns when this Zoid does not move.",
     52: "Ranged attack +200 against Zoids with air aptitude.",
+    55: WATER_OR_AIR,
+    60: BLADE_LIGER_SPECIAL,
     76: "Melee attack +100.",
 }
+ZOID_SPECIAL_RIGHT_EDGE = {6: 104, 14: 104, 32: 104, 41: 103, 60: 103}
 REVIEWED_RULES = {
     0: "All Zoids within one square of the user take 300 damage, including diagonals. Allies and bases are also affected.",
     1: "Target a square 5–10 spaces straight ahead. Zoids on the target take 300 damage. Zoids on adjacent squares take 200. Allies and bases are also affected.",
@@ -119,8 +128,8 @@ def paint_zoid(face, name, index, aptitude):
                 position -= 11
     paint_label(face, (8, 138, 29, 145), "SPECIAL", "#dfdfd6", "#343331", max_size=18)
     if index in ZOID_SPECIAL:
-        right = 104 if index in (6, 14, 32) else 124
-        paint_rule(face, (29, 138, right, 154), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
+        right = ZOID_SPECIAL_RIGHT_EDGE.get(index, 119)
+        paint_rule(face, (29, 138, right, 153), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
 
 
 def paint_cep(face, name, rule, pilot, source):
