@@ -38,7 +38,7 @@ CARD_TEXT_1 = {
     "TXT-2392": "Range +2.",
     "TXT-2391": "Attack = M-type +100, L-type +200.",
     "TXT-2390": "While equipped, this unit can attack and counter",
-    "TXT-2389": "only from the front line with its main gun.",
+    "TXT-2389": "only targets straight ahead.",
     "TXT-2388": "*Only M/L-types can equip. Water/air types",
     "TXT-2387": "cannot equip it.",
     "TXT-2386": "*To make a normal attack or counterattack, discard",
@@ -72,8 +72,8 @@ CARD_TEXT_1 = {
 
     # Card 13 — Gator
     "TXT-2368": "Even units without water aptitude can move through water.",
-    "TXT-2367": "*This card cannot be used if obstructed",
-    "TXT-2366": "by a demolition expert.",
+    "TXT-2367": "*Saboteur cannot",
+    "TXT-2366": "discard this card.",
 
     # Card 14 — Saber Tiger RS
     "TXT-2365": "Movement +2.",
@@ -111,9 +111,9 @@ CARD_TEXT_1 = {
 
     # Card 21 — Black Rhimos
     "TXT-2345": "Self-destruct one of your Zoids. Its HP becomes 0,",
-    "TXT-2344": "and all enemies within 2 squares (including diagonals)",
+    "TXT-2344": "and all Zoids within 2 squares (including diagonals)",
     "TXT-2343": "take damage.",
-    "TXT-2342": "Deal damage to all enemies.",
+    "TXT-2342": "Damage by distance:",
     "TXT-2341": "1st square: 300 damage",
     "TXT-2340": "2nd square: 200 damage",
     "TXT-2339": "*Includes base and allies.",

@@ -29590,7 +29590,7 @@ ptr_addrs = ["0x800eb078"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Deal damage to all enemies."
+en = "Damage by distance:"
 note = "card inplace max=9"
 
 [[entry]]
@@ -29616,7 +29616,7 @@ ptr_addrs = ["0x800eb070"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "and all enemies within 2 squares (including diagonals)"
+en = "and all Zoids within 2 squares (including diagonals)"
 note = "card inplace max=17"
 
 [[entry]]
@@ -29902,7 +29902,7 @@ ptr_addrs = ["0x800eae78"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "by a demolition expert."
+en = "discard this card."
 note = "card inplace max=5"
 
 [[entry]]
@@ -29915,7 +29915,7 @@ ptr_addrs = ["0x800eae74"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "*This card cannot be used if obstructed"
+en = "*Saboteur cannot"
 note = "card inplace max=17"
 
 [[entry]]
@@ -30201,7 +30201,7 @@ ptr_addrs = ["0x800eac38"]
 term = "nul"
 pad = "none"
 orig_w = 15
-en = "only from the front line with its main gun."
+en = "only targets straight ahead."
 note = "card inplace max=15"
 
 [[entry]]

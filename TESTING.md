@@ -138,6 +138,10 @@ The Zoid face pass compared the game's printed rules against matching retail car
 
 The OpenGL album test opened Geno Saurer, Gojulas V1, Geno Breaker RS, Blade Liger BS, Heldigunner DT and Ultrasaurus. A disposable state exposed locked entries and the two compact variants for rendering. A pixel comparison with the prior pack found changes limited to the rule bands of 29 faces and confirmed that the targeting diagrams were preserved.
 
+The first Custom, Event, and Pilot review checked 31 distinct rules against the Japanese game text. These rules appear on 59 faces. A pixel comparison across all 274 full-size textures found changes confined to the rule boxes on 49 faces. A disposable Card Album fixture verified readable rules on Long Cannon, Float Unit, Self-Destruct, External Charged Particle Cannon, and Irvine. A fresh English launcher resolved all five revised live text slots. Check that Float Unit says Saboteur cannot discard it and that Self-Destruct includes nearby allies and bases.
+
+Scrolling into the later Card Album categories displayed truncated headings such as `CustomCa` and `Pilot Ca`. Check all four category labels against the eight glyph cells used by the heading.
+
 - [ ] Memory-card dialog is clean English, no tail bleed.
 - [ ] Opening story: 10–20 consecutive lines, no clipping.
 - [ ] Battle voice/tutorial prompts are English.

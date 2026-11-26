@@ -2289,9 +2289,9 @@ TXT-2338,card,相手の持っている手札を見て、そこか,0x80027348,1,8
 TXT-2339,card,※基地、味方も含む。,0x8002736c,2,800eb084;800eb6bc,24,11,*Includes base and allies.
 TXT-2340,card,２マス目のダメージ２００,0x80027384,1,800eb080,28,13,2nd square: 200 damage
 TXT-2341,card,１マス目のダメージ３００,0x800273a0,1,800eb07c,28,13,1st square: 300 damage
-TXT-2342,card,敵全てにダメージ。,0x800273bc,1,800eb078,20,9,Deal damage to all enemies.
+TXT-2342,card,敵全てにダメージ。,0x800273bc,1,800eb078,20,9,Damage by distance:
 TXT-2343,card,マスの周囲２マス分（斜めも含む）の,0x800273d0,1,800eb074,36,17,take damage.
-TXT-2344,card,ゾイドのＨＰが０になる代わりにその,0x800273f4,1,800eb070,36,17,and all enemies within 2 squares (including diagonals)
+TXT-2344,card,ゾイドのＨＰが０になる代わりにその,0x800273f4,1,800eb070,36,17,and all Zoids within 2 squares (including diagonals)
 TXT-2345,card,自分のゾイド１機を自爆させる。その,0x80027418,1,800eb06c,36,17,"Self-destruct one of your Zoids. Its HP becomes 0,"
 TXT-2346,card,　攻撃力＋２００,0x8002743c,1,800eb038,20,9,Attack +200.
 TXT-2347,card,※攻撃は１回のみ有効。,0x80027450,1,800eb034,24,11,*Only one attack is affected.
@@ -2313,8 +2313,8 @@ TXT-2362,card,敵からの命中率がさがる。,0x800275ec,1,800eaf2c,28,13,E
 TXT-2363,card,ダメージを−２００,0x80027608,1,800eaef0,20,9,is reduced by 200.
 TXT-2364,card,※Ｍ・Ｌ型のみ装備できる。,0x8002761c,2,800eaeb0;800eb33c,28,13,*Only M/L-types can equip.
 TXT-2365,card,移動力＋２,0x80027638,1,800eaeac,12,5,Movement +2.
-TXT-2366,card,　けない。,0x80027644,1,800eae78,12,5,by a demolition expert.
-TXT-2367,card,※このカードは破壊工作員の妨害を受,0x80027650,1,800eae74,36,17,*This card cannot be used if obstructed
+TXT-2366,card,　けない。,0x80027644,1,800eae78,12,5,discard this card.
+TXT-2367,card,※このカードは破壊工作員の妨害を受,0x80027650,1,800eae74,36,17,*Saboteur cannot
 TXT-2368,card,水適性以外の機体でも、水を移動でき,0x80027674,1,800eae6c,36,17,Even units without water aptitude can move through water.
 TXT-2369,card,※Ｓ・Ｍ型のみ装備できる。,0x80027698,9,800eae34;800eae7c;800eaf38;800eb2f4;800eb370;800eb3c0;800ec1c8;800ec208;800ec8b0,28,13,*Only S/M-types can equip.
 TXT-2370,card,力１で移動できる。,0x800276b4,1,800eae30,20,9,mountains and forests at a movement cost of 1.
@@ -2336,7 +2336,7 @@ TXT-2385,card,　ドをトラッシュする。,0x80027824,1,800eac48,24,11,this
 TXT-2386,card,※通常攻撃、反撃をしたい場合はカー,0x8002783c,1,800eac44,36,17,"*To make a normal attack or counterattack, discard"
 TXT-2387,card,　空は装備できない。,0x80027860,1,800eac40,24,11,cannot equip it.
 TXT-2388,card,※Ｍ・Ｌ型のみ装備可能。ただし水・,0x80027878,1,800eac3c,36,17,*Only M/L-types can equip. Water/air types
-TXT-2389,card,イン以外は攻撃、反撃できない。,0x8002789c,1,800eac38,32,15,only from the front line with its main gun.
+TXT-2389,card,イン以外は攻撃、反撃できない。,0x8002789c,1,800eac38,32,15,only targets straight ahead.
 TXT-2390,card,このカードを装備している間は正面ラ,0x800278bc,1,800eac34,36,17,"While equipped, this unit can attack and counter"
 TXT-2391,card,攻撃力＝Ｍ型＋１００　Ｌ型＋２００,0x800278e0,1,800eac30,36,17,"Attack = M-type +100, L-type +200."
 TXT-2392,card,射程距離＋２,0x80027904,1,800eac2c,16,7,Range +2.

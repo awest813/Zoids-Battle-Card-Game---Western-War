@@ -2327,9 +2327,9 @@ TXT-2338,card,P1,inplace,017b48,0x80027348,800eb0ac,36,17,相手の持ってい�
 TXT-2339,card,P1,inplace,017b6c,0x8002736c,800eb084,24,11,※基地、味方も含む。,*Includes base and allies.,26,no,draft,table-driven; use pointer redirection
 TXT-2340,card,P1,inplace,017b84,0x80027384,800eb080,28,13,２マス目のダメージ２００,2nd square: 200 damage,22,no,draft,table-driven; use pointer redirection
 TXT-2341,card,P1,inplace,017ba0,0x800273a0,800eb07c,28,13,１マス目のダメージ３００,1st square: 300 damage,22,no,draft,table-driven; use pointer redirection
-TXT-2342,card,P1,inplace,017bbc,0x800273bc,800eb078,20,9,敵全てにダメージ。,Deal damage to all enemies.,27,no,draft,table-driven; use pointer redirection
+TXT-2342,card,P1,inplace,017bbc,0x800273bc,800eb078,20,9,敵全てにダメージ。,Damage by distance:,19,no,draft,table-driven; use pointer redirection
 TXT-2343,card,P1,inplace,017bd0,0x800273d0,800eb074,36,17,マスの周囲２マス分（斜めも含む）の,take damage.,12,yes,draft,table-driven; use pointer redirection
-TXT-2344,card,P1,inplace,017bf4,0x800273f4,800eb070,36,17,ゾイドのＨＰが０になる代わりにその,and all enemies within 2 squares (including diagonals),54,no,draft,table-driven; use pointer redirection
+TXT-2344,card,P1,inplace,017bf4,0x800273f4,800eb070,36,17,ゾイドのＨＰが０になる代わりにその,and all Zoids within 2 squares (including diagonals),52,no,draft,table-driven; use pointer redirection
 TXT-2345,card,P1,inplace,017c18,0x80027418,800eb06c,36,17,自分のゾイド１機を自爆させる。その,"Self-destruct one of your Zoids. Its HP becomes 0,",50,no,draft,table-driven; use pointer redirection
 TXT-2346,card,P1,inplace,017c3c,0x8002743c,800eb038,20,9,　攻撃力＋２００,Attack +200.,12,no,draft,table-driven; use pointer redirection
 TXT-2347,card,P1,inplace,017c50,0x80027450,800eb034,24,11,※攻撃は１回のみ有効。,*Only one attack is affected.,29,no,draft,table-driven; use pointer redirection
@@ -2351,8 +2351,8 @@ TXT-2362,card,P1,inplace,017dec,0x800275ec,800eaf2c,28,13,敵からの命中率�
 TXT-2363,card,P1,inplace,017e08,0x80027608,800eaef0,20,9,ダメージを−２００,is reduced by 200.,18,no,draft,table-driven; use pointer redirection
 TXT-2364,card,P1,inplace,017e1c,0x8002761c,800eaeb0,28,13,※Ｍ・Ｌ型のみ装備できる。,*Only M/L-types can equip.,26,no,draft,table-driven; use pointer redirection
 TXT-2365,card,P1,inplace,017e38,0x80027638,800eaeac,12,5,移動力＋２,Movement +2.,12,no,draft,table-driven; use pointer redirection
-TXT-2366,card,P1,inplace,017e44,0x80027644,800eae78,12,5,　けない。,by a demolition expert.,23,no,draft,table-driven; use pointer redirection
-TXT-2367,card,P1,inplace,017e50,0x80027650,800eae74,36,17,※このカードは破壊工作員の妨害を受,*This card cannot be used if obstructed,39,no,draft,table-driven; use pointer redirection
+TXT-2366,card,P1,inplace,017e44,0x80027644,800eae78,12,5,　けない。,discard this card.,18,no,draft,table-driven; use pointer redirection
+TXT-2367,card,P1,inplace,017e50,0x80027650,800eae74,36,17,※このカードは破壊工作員の妨害を受,*Saboteur cannot,16,yes,draft,table-driven; use pointer redirection
 TXT-2368,card,P1,inplace,017e74,0x80027674,800eae6c,36,17,水適性以外の機体でも、水を移動でき,Even units without water aptitude can move through water.,57,no,draft,table-driven; use pointer redirection
 TXT-2369,card,P1,inplace,017e98,0x80027698,800eae34,28,13,※Ｓ・Ｍ型のみ装備できる。,*Only S/M-types can equip.,26,no,draft,table-driven; use pointer redirection
 TXT-2370,card,P1,inplace,017eb4,0x800276b4,800eae30,20,9,力１で移動できる。,mountains and forests at a movement cost of 1.,46,no,draft,table-driven; use pointer redirection
@@ -2374,7 +2374,7 @@ TXT-2385,card,P1,inplace,018024,0x80027824,800eac48,24,11,　ドをトラッシ�
 TXT-2386,card,P1,inplace,01803c,0x8002783c,800eac44,36,17,※通常攻撃、反撃をしたい場合はカー,"*To make a normal attack or counterattack, discard",50,no,draft,table-driven; use pointer redirection
 TXT-2387,card,P1,inplace,018060,0x80027860,800eac40,24,11,　空は装備できない。,cannot equip it.,16,no,draft,table-driven; use pointer redirection
 TXT-2388,card,P1,inplace,018078,0x80027878,800eac3c,36,17,※Ｍ・Ｌ型のみ装備可能。ただし水・,*Only M/L-types can equip. Water/air types,42,no,draft,table-driven; use pointer redirection
-TXT-2389,card,P1,inplace,01809c,0x8002789c,800eac38,32,15,イン以外は攻撃、反撃できない。,only from the front line with its main gun.,43,no,draft,table-driven; use pointer redirection
+TXT-2389,card,P1,inplace,01809c,0x8002789c,800eac38,32,15,イン以外は攻撃、反撃できない。,only targets straight ahead.,28,no,draft,table-driven; use pointer redirection
 TXT-2390,card,P1,inplace,0180bc,0x800278bc,800eac34,36,17,このカードを装備している間は正面ラ,"While equipped, this unit can attack and counter",48,no,draft,table-driven; use pointer redirection
 TXT-2391,card,P1,inplace,0180e0,0x800278e0,800eac30,36,17,攻撃力＝Ｍ型＋１００　Ｌ型＋２００,"Attack = M-type +100, L-type +200.",34,no,draft,table-driven; use pointer redirection
 TXT-2392,card,P1,inplace,018104,0x80027904,800eac2c,16,7,射程距離＋２,Range +2.,9,no,draft,table-driven; use pointer redirection

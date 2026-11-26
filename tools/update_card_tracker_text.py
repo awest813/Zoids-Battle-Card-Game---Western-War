@@ -3,7 +3,7 @@
 import csv
 from pathlib import Path
 
-from build_card_faces import LIGER_ZERO_CARDS, ZOID_SPECIAL
+from build_card_faces import LIGER_ZERO_CARDS, REVIEWED_RULES, ZOID_SPECIAL
 from card_catalog import card_records, cep_rule_indices, english_names
 from card_text_table import EXE
 
@@ -24,6 +24,9 @@ for kind, index, face, japanese, _ in card_records():
         row.update(text_method=f"DAT name + CEP rule record {rules[index]}",
                    status="face_rendered_pending_review",
                    notes="Confirm rule fit and wording in the album.")
+        if rules[index] in REVIEWED_RULES:
+            row.update(status="face_rule_reviewed",
+                       notes="English wording checked against the Japanese game text.")
     elif index in ZOID_SPECIAL:
         row.update(text_method="DAT name + printed special",
                    status="face_rendered_pending_review",
