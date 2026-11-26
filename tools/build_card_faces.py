@@ -52,6 +52,15 @@ TERRAIN_ICONS = (
     (0x10, "WTR", "#286b9e"),
     (0x01, "AIR", "#575783"),
 )
+RANGE_MODIFIERS = {
+    1: "FRONT",
+    2: "ALL",
+    3: "FRONT/SIDE",
+    4: "REAR",
+    5: "WATER",
+    6: "SIDE/REAR",
+}
+MOVE_MODIFIERS = {1: "STRAIGHT", 2: "WATER"}
 
 
 def scaled(box):
@@ -103,9 +112,27 @@ def paint_rule(face, box, rule, background, bold=False):
         draw.text((x + 6, y + 3 + index * step), line, font=font, fill="#252521", anchor="lt")
 
 
-def paint_zoid(face, name, index, aptitude):
+def paint_zoid_modifiers(face, record, stat_offset):
+    # The range kind follows its bonus, while the movement bonus is signed.
+    range_bonus, range_kind = struct.unpack_from("<hH", record, 0x36)
+    move_bonus, move_kind = struct.unpack_from("<hH", record, 0x3C)
+    if range_kind:
+        # The top of the old direction glyphs can share a row with the base range.
+        face.paste("#edaf62", scaled((82, 112 + stat_offset, 111, 113 + stat_offset)))
+        paint_label(face, (82, 113 + stat_offset, 119, 120 + stat_offset),
+                    f"{RANGE_MODIFIERS[range_kind]} {range_bonus:+d}",
+                    "#edaf62", "#2e2618", max_size=17)
+    if move_kind:
+        paint_label(face, (36, 128 + stat_offset, 63, 135 + stat_offset),
+                    f"{MOVE_MODIFIERS[move_kind]} {move_bonus:+d}",
+                    "#a6cc99", "#253e2a", max_size=17)
+
+
+def paint_zoid(face, name, index, record):
     paint_label(face, (31, 5, 96, 13), name, "#484e56", "#fff9e2")
-    for box, label, background in (
+    compact_stats = index in (77, 78)
+    stat_offset = -4 if compact_stats else 0
+    for (x, y, right, bottom), label, background in (
         ((8, 106, 28, 113), "ATK", "#dca450"),
         ((32, 107, 45, 114), "SHOT", "#e6c484"),
         ((32, 114, 45, 119), "MELEE", "#d6ad65"),
@@ -113,10 +140,13 @@ def paint_zoid(face, name, index, aptitude):
         ((8, 121, 29, 129), "MOVE", "#80b47f"),
         ((65, 121, 86, 128), "TERRAIN", "#7db389"),
     ):
-        paint_label(face, box, label, background, "#29271e", max_size=18)
+        paint_label(face, (x, y + stat_offset, right, bottom + stat_offset),
+                    label, background, "#29271e", max_size=18)
+    paint_zoid_modifiers(face, record, stat_offset)
+    aptitude, = struct.unpack_from("<H", record, 0x40)
     if aptitude:
-        # The two Geno variants use the shorter green strip above their rules.
-        top, bottom = (119, 129) if index in (77, 78) else (122, 134)
+        # These variants have a shorter green strip above their rules.
+        top, bottom = (119, 129) if compact_stats else (122, 134)
         x, y, right, end = scaled((86, top, 120, bottom))
         background = face.crop((x - 4, y, x, end))
         face.paste(background.resize((right - x, end - y)), (x, y))
@@ -126,7 +156,8 @@ def paint_zoid(face, name, index, aptitude):
                 paint_label(face, (position - 10, top + 1, position, bottom - 1),
                             label, color, "#fff9e6", max_size=11)
                 position -= 11
-    paint_label(face, (8, 138, 29, 145), "SPECIAL", "#dfdfd6", "#343331", max_size=18)
+    special_box = (8, 133, 25, 139) if compact_stats else (8, 138, 29, 145)
+    paint_label(face, special_box, "SPECIAL", "#dfdfd6", "#343331", max_size=18)
     if index in ZOID_SPECIAL:
         right = ZOID_SPECIAL_RIGHT_EDGE.get(index, 119)
         paint_rule(face, (29, 138, right, 153), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
@@ -217,8 +248,7 @@ def main():
         source = paletted_image((128, 160), pixels, palette, p8=True, semitransparent=True)
         face = source.resize((128 * SCALE, 160 * SCALE), Image.Resampling.NEAREST)
         if kind == "zoid":
-            aptitude, = struct.unpack_from("<H", record, 0x40)
-            paint_zoid(face, name, index, aptitude)
+            paint_zoid(face, name, index, record)
         else:
             pilot = struct.unpack_from("<H", record, 0x28)[0] == 2
             paint_cep(face, name, face_rule(cep_rules[index], rules, pilot), pilot, source)
