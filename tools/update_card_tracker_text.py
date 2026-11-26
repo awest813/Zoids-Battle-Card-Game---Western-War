@@ -3,7 +3,7 @@
 import csv
 from pathlib import Path
 
-from build_card_faces import ZOID_SPECIAL
+from build_card_faces import LIGER_ZERO_CARDS, ZOID_SPECIAL
 from card_catalog import card_records, cep_rule_indices, english_names
 from card_text_table import EXE
 
@@ -28,6 +28,8 @@ for kind, index, face, japanese, _ in card_records():
         row.update(text_method="DAT name + printed special",
                    status="face_rendered_pending_review",
                    notes="English stat labels and printed special rendered.")
+        if index in LIGER_ZERO_CARDS:
+            row["notes"] = "English special wording rendered. Verify the preserved frontal melee bonus amount."
     else:
         row.update(text_method="DAT name + baked stat labels",
                    status="face_labels_rendered",

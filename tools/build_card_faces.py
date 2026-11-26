@@ -7,7 +7,7 @@ import tomllib
 from collections import defaultdict
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 from build_ui_textures import average_light, faded
 from card_catalog import card_records, cep_rule_indices, english_names, face_data
@@ -20,6 +20,8 @@ THUMB_ARCHIVE_HASH = "b38a63767faf619609cb6888c4cc77a75365c2db14c78ccecee9463666
 PACK = Path("work/localization-textures/SLPS-03255")
 WATER_OR_AIR = "Water aptitude on water tiles. Air aptitude on all other tiles."
 BLADE_LIGER_SPECIAL = "Side melee power 800. Frontal attack damage taken -200."
+LIGER_ZERO_SPECIAL = "Frontal melee power\nMelee power 700 against L-types."
+LIGER_ZERO_CARDS = (79, 80)
 FOCUSED_CANNON = "Focused Charged Particle Cannon. Spend 200 HP. Deal 700 piercing damage to 2 Zoids in front range."
 TRANSPORT = "When moving, carry up to 2 adjacent allied M-types or 4 adjacent allied S-types."
 WEAPON_DESTROY = "On a hit, discard 1 target Custom Card instead of dealing damage."
@@ -36,10 +38,10 @@ ZOID_SPECIAL = {
     15: "Red Parts armor reduces damage from frontal attacks by 100.",
     16: "Charged Particle Cannon. Spend 200 HP. Deal 900 piercing damage to 2 Zoids in range.",
     17: TRANSPORT,
-    18: "Melee attack +100.",
+    18: "Frontal melee power +100.",
     19: "Ranged attack +100 against Zoids with air aptitude.",
     20: f"Weapon Destroy. {WEAPON_DESTROY}\n{FOCUSED_CANNON}",
-    21: "Melee attack +200.",
+    21: "Frontal melee power +200.",
     22: "Booster Cannon. Ranged power 500, range 5.",
     23: WATER_OR_AIR,
     24: f"Equipment Destroy. {WEAPON_DESTROY}\n"
@@ -74,11 +76,12 @@ ZOID_SPECIAL = {
     67: "Frontal damage taken -200. A hit roll of 6 against Geno Breaker doubles damage without the +100 crit bonus.",
     73: "Twin Fangs. Melee up to 2 Zoids across the 3 forward tiles.",
     74: "Instead of a normal move, move twice as far on sand. You cannot leave sand.",
-    76: "Melee attack +100.",
+    76: "Frontal melee power +100.",
     77: "ATK +400 vs Van's Zoid. On hit, discard 1 target Custom instead of damage. "
         "Use Shadow here for +700 HP, +300 ATK. Shadow's revival effect is unavailable.",
     78: "Side melee +100. ATK +300 vs Raven's Zoid. Energy Shield cuts frontal damage by 300. "
         "Use Zeke here for +800 HP, +200 ATK. Zeke's revival effect is unavailable.",
+    **dict.fromkeys(LIGER_ZERO_CARDS, LIGER_ZERO_SPECIAL),
 }
 ZOID_SPECIAL_RIGHT_EDGE = {
     6: 104, 14: 104, 29: 103, 32: 104, 41: 103, 47: 103, 50: 104, 60: 103, 67: 102, 73: 103,
@@ -153,6 +156,7 @@ def paint_rule(face, box, rule, background, bold=False):
     draw = ImageDraw.Draw(face)
     for index, line in enumerate(lines):
         draw.text((x + 6, y + 3 + index * step), line, font=font, fill="#252521", anchor="lt")
+    return font
 
 
 def paint_zoid_modifiers(face, record, stat_offset):
@@ -169,6 +173,22 @@ def paint_zoid_modifiers(face, record, stat_offset):
         paint_label(face, (36, 128 + stat_offset, 63, 135 + stat_offset),
                     f"{MOVE_MODIFIERS[move_kind]} {move_bonus:+d}",
                     "#a6cc99", "#253e2a", max_size=17)
+
+
+def paint_liger_zero_special(face):
+    # The tiny digits cannot reliably distinguish +200 and +300. Retain the
+    # disc's bonus amount and raise its contrast alongside the English rule.
+    amount_box = (42, 138, 55, 144)
+    native_size = (amount_box[2] - amount_box[0], amount_box[3] - amount_box[1])
+    source = face.crop(scaled(amount_box)).resize(native_size, Image.Resampling.NEAREST)
+    red, green, _, _ = source.split()
+    amount = ImageChops.subtract(red, green).point(lambda shade: min(255, max(0, (shade - 9) * 3)))
+    amount = amount.resize(tuple(dimension * SCALE for dimension in native_size), Image.Resampling.BICUBIC)
+    box = (29, 138, 119, 153)
+    font = paint_rule(face, box, LIGER_ZERO_SPECIAL, "#d2d3cd", bold=True)
+    label = LIGER_ZERO_SPECIAL.splitlines()[0]
+    x = box[0] * SCALE + 12 + round(font.getlength(label))
+    face.paste("#252521", (x, box[1] * SCALE), amount)
 
 
 def paint_zoid(face, name, index, record):
@@ -201,7 +221,9 @@ def paint_zoid(face, name, index, record):
                 position -= 11
     special_box = (8, 133, 25, 139) if compact_stats else (8, 138, 29, 145)
     paint_label(face, special_box, "SPECIAL", "#dfdfd6", "#343331", max_size=18)
-    if index in ZOID_SPECIAL:
+    if index in LIGER_ZERO_CARDS:
+        paint_liger_zero_special(face)
+    elif index in ZOID_SPECIAL:
         right = ZOID_SPECIAL_RIGHT_EDGE.get(index, 119)
         bottom = 154 if index in (20, 24, 56, 63, 67, 77, 78) else 153
         if index in ZOID_BUILT_IN_WEAPONS:
