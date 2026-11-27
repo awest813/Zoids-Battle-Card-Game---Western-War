@@ -81,7 +81,7 @@ CARD_TEXT_4 = {
     "TXT-2007": "cannot return to your territory.",
     "TXT-2245": "Attack +300.",
 
-    # Card 104 — Custom Off & Charge
+    # Card 104 — Unequip & Heal
     "TXT-2006": "Bear Fighter",
     "TXT-2005": "Mountain-aptitude Zoids only.",
     "TXT-2004": "[Maintenance] Attack hit -1.",

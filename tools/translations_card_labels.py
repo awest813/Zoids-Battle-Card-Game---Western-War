@@ -85,7 +85,7 @@ COMPACT_CARD_LABELS = {
     "High-Mobility Thruster": "MOB. THRUSTER",
     "Smoke Discharger": "SMOKE UNIT",
     "Diversion Agent": "DIVERSION",
-    "Custom Off & Charge": "UNEQUIP&LOAD",
+    "Unequip & Heal": "UNEQUIP&HEAL",
     "Remove Barricade": "REMOVE WALL",
     "External Charged Particle Cannon": "EXTERNAL CPC",
     "Electromagnetic Net Round": "EM NET ROUND",

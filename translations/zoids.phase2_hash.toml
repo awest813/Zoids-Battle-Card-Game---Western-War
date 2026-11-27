@@ -1357,7 +1357,7 @@ note = "Exact DAT card name field. The compact font uses uppercase Latin."
 src_hex = "834a8358835e838083498374819583608383815b8357"
 src_jp = "カスタムオフ＆チャージ"
 term = "nul"
-en = "UNEQUIP&LOAD"
+en = "UNEQUIP&HEAL"
 note = "Exact DAT card name field. The compact font uses uppercase Latin."
 
 [[entry]]

@@ -117,7 +117,7 @@ From a fresh English boot, select Scenario Mode, New Game, and the Republic. Ent
 
 The same campaign continued into the training mission through the original controls. The briefing review rewrote 35 text entries in display order. A running English build resolved sampled lines from the operation briefing to the updated English and reported zero pending pointer redirects. In the training mission, check the `PLN` terrain badge during Move, then select a destination and confirm the Zoid's facing. The OpenGL test moved a unit and displayed the localized badge on its new tile.
 
-Moving the lead Zoid into enemy territory on turn two opened the combat lesson. The movement and combat pass rewrote 32 entries, including instructions for facing, melee, counterattacks, and the `Fix` command. A replay from a disposable checkpoint showed the revised combat pages in the game. Restoring a checkpoint can show Japanese textures until the game uploads them again.
+Moving the lead Zoid into enemy territory on turn two opened the combat lesson. The movement and combat pass rewrote 32 entries, including instructions for facing, melee, counterattacks, and the `Fix` command. A replay from a disposable checkpoint showed the revised combat pages in the game. On Republic Stage 2, uninterrupted play from a native save displayed `MOVE PHASE` in English. Restoring an emulator checkpoint at the same phase displayed Japanese artwork from the saved VRAM.
 
 The combat lesson uses `Atk`, matching the command menu. The running campaign resolved the revised prompt and opened the green targeting overlay for Godos and Gojulas. On turn five, Shield Liger moved adjacent to Iguan, resolved the Normal Attack dice and animation, and opened the card lesson. The revised draw, discard, and equipment prompts fit the fourteen-character dialogue rows. Check that the discard instruction appears as a single page and that the equipment prompts name `Gear` and `Rmve`, matching the Custom Phase command menu.
 
@@ -131,7 +131,7 @@ The Republic training mission was cleared through regular gameplay on turn eight
 
 After the post-training briefing, check `Sortie`, `Info`, `Hand`, `Supply`, and `Save` at Operations Base. Supply displays `Buy` and `Cancel`. Choose Sortie and check `New Helic City` on the Stage 2 route map. The OpenGL run verified these labels and the shorter acquisition and supply instructions.
 
-In a disposable test, the English runtime exited during the initial memory-card write after restoring an Operations Base checkpoint. A control run with the text tables and textures disabled created a valid `BISLPS-03255` save from the same checkpoint. Track the fresh-boot and restored-state save paths independently when reproducing the write failure.
+The memory-card regression covers both writing after restoring an Operations Base checkpoint and loading through Scenario Mode after a fresh boot. See the native save checks above for the expected card contents and restored profile.
 
 The Stage 13 `Road to Gaigalus` and Stage 5 `Imperial Capital Gaigalus` overlays match the city spelling in the briefing map and dialogue. A pixel comparison confirmed that the corrections only change the title line. Live playback of both later stage captions is still pending.
 
