@@ -11,7 +11,7 @@ CARD_TEXT_2 = {
     "TXT-2299": "*If a 1 is rolled on the die, HP -200.",
 
     # Card 33 — Shield Liger
-    "TXT-2298": "*Cannot equip the following Zoids:",
+    "TXT-2298": "*Cannot be equipped by",
     "TXT-2297": "Gustav, Morga.",
 
     # Card 34 — Divison

@@ -144,6 +144,10 @@ The next review checked 28 more rules used by 52 faces. In the Card Album, compa
 
 The third review checked 33 more rules on 45 faces. In the Card Album, one Moonbay variant reduces incoming damage by a die roll times 100. The other transfers that much HP from Gustav to an adjacent Zoid instead of attacking. Hanna Hanna refers to Prozen, and Security Unit names Diversion Agent and Saboteur. A fresh English launcher resolved the shared Moonbay, Whale King, and Neo Turtle Ship fragment in context. The terrain exception appears in the two transport rules. The complete English names on the gold-framed Organoid Shadow and Organoid Zeke faces were verified in the same disposable album fixture.
 
+The final rule review checked 27 more records used by 37 faces. The face builder requires reviewed wording for every rule mapped by the original executable, covering all 119 distinct rules and 193 faces. In a disposable Card Album fixture, verify Lightning Strike's neutral-territory targets, Lady Coral's incoming penalties, Lilie Hartmann's attack-only healing, and the variant of Strike Long Claw that excludes Gustav and Stealth Viper. A fresh English run resolved the corrected live lines for Lightning Strike, Lady Coral, and both Strike Long Claw restrictions.
+
+The 32 Pilot terrain badges use `MTN`, `FOR`, `SND`, `AIR`, and `WTR`. Check Moonbay, Karl L. Schwarz, Kirsche Hartriegel, Sulis Claret, and Burgan Dane for one of each label. Schwarz's printed badge is Forest, matching the rule text and the original green badge. Raven has an empty badge area. The image audit isolates these edits to the badge interiors.
+
 Scroll through the Card Album to check `Zoids`, `Pilots`, `Custom`, and `Events`. All four headers were verified in the native OpenGL renderer after loading a disposable album state. The renderer now receives an eight-cell label specific to the album's drawing calls. The separate `Event Card` and `Pilot Card` text slots retained their full wording in the same run.
 
 - [ ] Memory-card dialog is clean English, no tail bleed.

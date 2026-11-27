@@ -1890,9 +1890,9 @@ TXT-1939,card,ＥＺ−０１６・ＲＳ　　　,0x800243fc,1,800ea5d4,28,13,E
 TXT-1940,card,レイヴン仕様機　　　,0x80024418,2,800ea5d0;800ea698,24,11,Raven's Custom
 TXT-1941,card,ＥＺー０２２　　　　　　,0x80024430,1,800ea5c0,25,12,EZ-022
 TXT-1942,card,　グスタフ、ステルスバイパー,0x800245d0,1,800ec8b8,32,15,"Gustav, Stealth Viper"
-TXT-1943,card,ダメージ−２００される。,0x800245f0,1,800ec884,28,13,and deals -200 damage.
-TXT-1944,card,からの攻撃・反撃は命中判定−１、,0x8002460c,1,800ec880,36,17,"has -1 hit on attacks and counterattacks,"
-TXT-1945,card,「誘惑」男性パイロットが乗るゾイド,0x80024630,1,800ec87c,36,17,[Temptation] A Zoid with a male pilot
+TXT-1943,card,ダメージ−２００される。,0x800245f0,1,800ec884,28,13,and deal 200 less damage.
+TXT-1944,card,からの攻撃・反撃は命中判定−１、,0x8002460c,1,800ec880,36,17,from a Zoid with a male pilot get -1 to the hit roll
+TXT-1945,card,「誘惑」男性パイロットが乗るゾイド,0x80024630,1,800ec87c,36,17,"[Temptation] Against this Zoid, attacks and counters"
 TXT-1946,card,レッドホーン,0x80024654,1,800ec870,16,7,RED HORN
 TXT-1947,card,山札を上から１枚トラッシュできる。,0x80024664,1,800ec844,36,17,of the opponent's deck.
 TXT-1948,card,た場合、ダメージを与えた上で相手の,0x80024688,1,800ec840,36,17,"after dealing damage, you may trash the top card"
@@ -1976,11 +1976,11 @@ TXT-2025,card,射撃攻撃の目標になったときに使用で,0x80024f38,1,8
 TXT-2026,card,　のゾイドにダメージを与える。,0x80024f5c,1,800ec3c8,32,15,take damage.
 TXT-2027,card,　なかった場合は中立領地内のすべて,0x80024f7c,1,800ec3c4,36,17,all Zoids in neutral territory
 TXT-2028,card,※出目よりも少ない数のゾイドしかい,0x80024fa0,1,800ec3c0,36,17,"*If there are fewer Zoids than the die result,"
-TXT-2029,card,イドはカードの使用者が決定できる。,0x80024fc4,1,800ec3bc,36,17,which Zoids take damage.
-TXT-2030,card,ダメージ２００。ダメージを与えるゾ,0x80024fe8,1,800ec3b8,36,17,that take 200 damage. The card user chooses
-TXT-2031,card,ダイスを振り、出た目の数のゾイドに,0x8002500c,1,800ec3b4,36,17,Roll a die; the result is the number of Zoids
-TXT-2032,card,標にして雷が落ちる。,0x80025030,1,800ec3b0,24,11,Target all Zoids in neutral territory.
-TXT-2033,card,中立領地内にいるすべてのゾイドを目,0x80025048,1,800ec3ac,36,17,Lightning strikes all Zoids in neutral territory.
+TXT-2029,card,イドはカードの使用者が決定できる。,0x80024fc4,1,800ec3bc,36,17,which Zoids are hit.
+TXT-2030,card,ダメージ２００。ダメージを与えるゾ,0x80024fe8,1,800ec3b8,36,17,take 200 damage. The card user chooses
+TXT-2031,card,ダイスを振り、出た目の数のゾイドに,0x8002500c,1,800ec3b4,36,17,Roll a die to determine how many Zoids
+TXT-2032,card,標にして雷が落ちる。,0x80025030,1,800ec3b0,24,11,Only Zoids in neutral territory are eligible.
+TXT-2033,card,中立領地内にいるすべてのゾイドを目,0x80025048,1,800ec3ac,36,17,Lightning strikes in neutral territory.
 TXT-2034,card,か１機のみ反撃を受ける。,0x8002506c,1,800ec384,28,13,only 1 of them receives a counterattack.
 TXT-2035,card,通常の命中判定で行った後で、どちら,0x80025088,1,800ec380,36,17,with a normal hit check; then
 TXT-2036,card,い。そうでない場合は２機目の攻撃を,0x800250ac,1,800ec37c,36,17,"Otherwise, make the second Zoid's attack"
@@ -2245,7 +2245,7 @@ TXT-2294,card,ドに付いているアーマー系のカスタム,0x80026e10,1,8
 TXT-2295,card,命中判定が−１されるが命中したゾイ,0x80026e34,1,800eb3b4,36,17,Subtract 1 from the hit roll.
 TXT-2296,card,攻撃力３００,0x80026e58,2,800eb3b0;800ec12c,16,7,Attack 300.
 TXT-2297,card,　グスタフ、モルガ,0x80026e68,1,800eb378,20,9,"Gustav, Morga."
-TXT-2298,card,※以下のゾイドには装備できない。,0x80026e7c,2,800eb374;800ec8b4,36,17,*Cannot equip the following Zoids:
+TXT-2298,card,※以下のゾイドには装備できない。,0x80026e7c,2,800eb374;800ec8b4,36,17,*Cannot be equipped by
 TXT-2299,card,※サイコロで１がでたらＨＰ−２００,0x80026ea0,1,800eb338,36,17,"*If a 1 is rolled on the die, HP -200."
 TXT-2300,card,命中判定＋１,0x80026ec4,2,800eb334;800eb4b4,16,7,Hit +1.
 TXT-2301,card,射程距離７　攻撃力５００,0x80026ed4,2,800eb330;800ebd78,28,13,"Range 7, attack 500."

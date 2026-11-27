@@ -1928,9 +1928,9 @@ TXT-1939,card,P1,inplace,014bfc,0x800243fc,800ea5d4,28,13,ＥＺ−０１６・�
 TXT-1940,card,P1,inplace,014c18,0x80024418,800ea5d0,24,11,レイヴン仕様機　　　,Raven's Custom,14,no,draft,table-driven; use pointer redirection
 TXT-1941,card,P1,inplace,014c30,0x80024430,800ea5c0,25,12,ＥＺー０２２　　　　　　,EZ-022,6,yes,draft,table-driven; use pointer redirection
 TXT-1942,card,P1,inplace,014dd0,0x800245d0,800ec8b8,32,15,　グスタフ、ステルスバイパー,"Gustav, Stealth Viper",21,no,draft,table-driven; use pointer redirection
-TXT-1943,card,P1,inplace,014df0,0x800245f0,800ec884,28,13,ダメージ−２００される。,and deals -200 damage.,22,no,draft,table-driven; use pointer redirection
-TXT-1944,card,P1,inplace,014e0c,0x8002460c,800ec880,36,17,からの攻撃・反撃は命中判定−１、,"has -1 hit on attacks and counterattacks,",41,no,draft,table-driven; use pointer redirection
-TXT-1945,card,P1,inplace,014e30,0x80024630,800ec87c,36,17,「誘惑」男性パイロットが乗るゾイド,[Temptation] A Zoid with a male pilot,37,no,draft,table-driven; use pointer redirection
+TXT-1943,card,P1,inplace,014df0,0x800245f0,800ec884,28,13,ダメージ−２００される。,and deal 200 less damage.,25,no,draft,table-driven; use pointer redirection
+TXT-1944,card,P1,inplace,014e0c,0x8002460c,800ec880,36,17,からの攻撃・反撃は命中判定−１、,from a Zoid with a male pilot get -1 to the hit roll,52,no,draft,table-driven; use pointer redirection
+TXT-1945,card,P1,inplace,014e30,0x80024630,800ec87c,36,17,「誘惑」男性パイロットが乗るゾイド,"[Temptation] Against this Zoid, attacks and counters",52,no,draft,table-driven; use pointer redirection
 TXT-1946,card,P1,inplace,014e54,0x80024654,800ec870,16,7,レッドホーン,RED HORN,8,no,draft,table-driven; use pointer redirection
 TXT-1947,card,P1,inplace,014e64,0x80024664,800ec844,36,17,山札を上から１枚トラッシュできる。,of the opponent's deck.,23,no,draft,table-driven; use pointer redirection
 TXT-1948,card,P1,inplace,014e88,0x80024688,800ec840,36,17,た場合、ダメージを与えた上で相手の,"after dealing damage, you may trash the top card",48,no,draft,table-driven; use pointer redirection
@@ -2014,11 +2014,11 @@ TXT-2025,card,P1,inplace,015738,0x80024f38,800ec3ec,36,17,射撃攻撃の目標�
 TXT-2026,card,P1,inplace,01575c,0x80024f5c,800ec3c8,32,15,　のゾイドにダメージを与える。,take damage.,12,yes,draft,table-driven; use pointer redirection
 TXT-2027,card,P1,inplace,01577c,0x80024f7c,800ec3c4,36,17,　なかった場合は中立領地内のすべて,all Zoids in neutral territory,30,no,draft,table-driven; use pointer redirection
 TXT-2028,card,P1,inplace,0157a0,0x80024fa0,800ec3c0,36,17,※出目よりも少ない数のゾイドしかい,"*If there are fewer Zoids than the die result,",46,no,draft,table-driven; use pointer redirection
-TXT-2029,card,P1,inplace,0157c4,0x80024fc4,800ec3bc,36,17,イドはカードの使用者が決定できる。,which Zoids take damage.,24,no,draft,table-driven; use pointer redirection
-TXT-2030,card,P1,inplace,0157e8,0x80024fe8,800ec3b8,36,17,ダメージ２００。ダメージを与えるゾ,that take 200 damage. The card user chooses,43,no,draft,table-driven; use pointer redirection
-TXT-2031,card,P1,inplace,01580c,0x8002500c,800ec3b4,36,17,ダイスを振り、出た目の数のゾイドに,Roll a die; the result is the number of Zoids,45,no,draft,table-driven; use pointer redirection
-TXT-2032,card,P1,inplace,015830,0x80025030,800ec3b0,24,11,標にして雷が落ちる。,Target all Zoids in neutral territory.,38,no,draft,table-driven; use pointer redirection
-TXT-2033,card,P1,inplace,015848,0x80025048,800ec3ac,36,17,中立領地内にいるすべてのゾイドを目,Lightning strikes all Zoids in neutral territory.,49,no,draft,table-driven; use pointer redirection
+TXT-2029,card,P1,inplace,0157c4,0x80024fc4,800ec3bc,36,17,イドはカードの使用者が決定できる。,which Zoids are hit.,20,no,draft,table-driven; use pointer redirection
+TXT-2030,card,P1,inplace,0157e8,0x80024fe8,800ec3b8,36,17,ダメージ２００。ダメージを与えるゾ,take 200 damage. The card user chooses,38,no,draft,table-driven; use pointer redirection
+TXT-2031,card,P1,inplace,01580c,0x8002500c,800ec3b4,36,17,ダイスを振り、出た目の数のゾイドに,Roll a die to determine how many Zoids,38,no,draft,table-driven; use pointer redirection
+TXT-2032,card,P1,inplace,015830,0x80025030,800ec3b0,24,11,標にして雷が落ちる。,Only Zoids in neutral territory are eligible.,45,no,draft,table-driven; use pointer redirection
+TXT-2033,card,P1,inplace,015848,0x80025048,800ec3ac,36,17,中立領地内にいるすべてのゾイドを目,Lightning strikes in neutral territory.,39,no,draft,table-driven; use pointer redirection
 TXT-2034,card,P1,inplace,01586c,0x8002506c,800ec384,28,13,か１機のみ反撃を受ける。,only 1 of them receives a counterattack.,40,no,draft,table-driven; use pointer redirection
 TXT-2035,card,P1,inplace,015888,0x80025088,800ec380,36,17,通常の命中判定で行った後で、どちら,with a normal hit check; then,29,no,draft,table-driven; use pointer redirection
 TXT-2036,card,P1,inplace,0158ac,0x800250ac,800ec37c,36,17,い。そうでない場合は２機目の攻撃を,"Otherwise, make the second Zoid's attack",40,no,draft,table-driven; use pointer redirection
@@ -2283,7 +2283,7 @@ TXT-2294,card,P1,inplace,017610,0x80026e10,800eb3b8,36,17,ドに付いている�
 TXT-2295,card,P1,inplace,017634,0x80026e34,800eb3b4,36,17,命中判定が−１されるが命中したゾイ,Subtract 1 from the hit roll.,29,no,draft,table-driven; use pointer redirection
 TXT-2296,card,P1,inplace,017658,0x80026e58,800eb3b0,16,7,攻撃力３００,Attack 300.,11,no,draft,table-driven; use pointer redirection
 TXT-2297,card,P1,inplace,017668,0x80026e68,800eb378,20,9,　グスタフ、モルガ,"Gustav, Morga.",14,no,draft,table-driven; use pointer redirection
-TXT-2298,card,P1,inplace,01767c,0x80026e7c,800eb374,36,17,※以下のゾイドには装備できない。,*Cannot equip the following Zoids:,34,no,draft,table-driven; use pointer redirection
+TXT-2298,card,P1,inplace,01767c,0x80026e7c,800eb374,36,17,※以下のゾイドには装備できない。,*Cannot be equipped by,22,no,draft,table-driven; use pointer redirection
 TXT-2299,card,P1,inplace,0176a0,0x80026ea0,800eb338,36,17,※サイコロで１がでたらＨＰ−２００,"*If a 1 is rolled on the die, HP -200.",38,no,draft,table-driven; use pointer redirection
 TXT-2300,card,P1,inplace,0176c4,0x80026ec4,800eb334,16,7,命中判定＋１,Hit +1.,7,yes,draft,table-driven; use pointer redirection
 TXT-2301,card,P1,inplace,0176d4,0x80026ed4,800eb330,28,13,射程距離７　攻撃力５００,"Range 7, attack 500.",20,no,draft,table-driven; use pointer redirection

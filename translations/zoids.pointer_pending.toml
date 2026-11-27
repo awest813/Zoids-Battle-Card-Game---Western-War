@@ -24403,7 +24403,7 @@ ptr_addrs = ["0x800ec884"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "and deals -200 damage."
+en = "and deal 200 less damage."
 note = "card inplace max=13"
 
 [[entry]]
@@ -24416,7 +24416,7 @@ ptr_addrs = ["0x800ec880"]
 term = "nul"
 pad = "none"
 orig_w = 16
-en = "has -1 hit on attacks and counterattacks,"
+en = "from a Zoid with a male pilot get -1 to the hit roll"
 note = "card inplace max=17"
 
 [[entry]]
@@ -24429,7 +24429,7 @@ ptr_addrs = ["0x800ec87c"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "[Temptation] A Zoid with a male pilot"
+en = "[Temptation] Against this Zoid, attacks and counters"
 note = "card inplace max=17"
 
 [[entry]]
@@ -25521,7 +25521,7 @@ ptr_addrs = ["0x800ec3bc"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "which Zoids take damage."
+en = "which Zoids are hit."
 note = "card inplace max=17"
 
 [[entry]]
@@ -25534,7 +25534,7 @@ ptr_addrs = ["0x800ec3b8"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "that take 200 damage. The card user chooses"
+en = "take 200 damage. The card user chooses"
 note = "card inplace max=17"
 
 [[entry]]
@@ -25547,7 +25547,7 @@ ptr_addrs = ["0x800ec3b4"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Roll a die; the result is the number of Zoids"
+en = "Roll a die to determine how many Zoids"
 note = "card inplace max=17"
 
 [[entry]]
@@ -25560,7 +25560,7 @@ ptr_addrs = ["0x800ec3b0"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Target all Zoids in neutral territory."
+en = "Only Zoids in neutral territory are eligible."
 note = "card inplace max=11"
 
 [[entry]]
@@ -25573,7 +25573,7 @@ ptr_addrs = ["0x800ec3ac"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Lightning strikes all Zoids in neutral territory."
+en = "Lightning strikes in neutral territory."
 note = "card inplace max=17"
 
 [[entry]]
@@ -29018,7 +29018,7 @@ ptr_addrs = ["0x800eb374", "0x800ec8b4"]
 term = "nul"
 pad = "none"
 orig_w = 16
-en = "*Cannot equip the following Zoids:"
+en = "*Cannot be equipped by"
 note = "card inplace max=17"
 
 [[entry]]

@@ -42,11 +42,11 @@ CARD_TEXT_4 = {
     "TXT-2034": "only 1 of them receives a counterattack.",
 
     # Card 98 — Whale King
-    "TXT-2033": "Lightning strikes all Zoids in neutral territory.",
-    "TXT-2032": "Target all Zoids in neutral territory.",
-    "TXT-2031": "Roll a die; the result is the number of Zoids",
-    "TXT-2030": "that take 200 damage. The card user chooses",
-    "TXT-2029": "which Zoids take damage.",
+    "TXT-2033": "Lightning strikes in neutral territory.",
+    "TXT-2032": "Only Zoids in neutral territory are eligible.",
+    "TXT-2031": "Roll a die to determine how many Zoids",
+    "TXT-2030": "take 200 damage. The card user chooses",
+    "TXT-2029": "which Zoids are hit.",
     "TXT-2028": "*If there are fewer Zoids than the die result,",
     "TXT-2027": "all Zoids in neutral territory",
     "TXT-2026": "take damage.",
@@ -169,9 +169,9 @@ CARD_TEXT_4 = {
 
     # Card 117 — Radar-Linked Anti-Air Gun
     "TXT-1946": "Red Horn",
-    "TXT-1945": "[Temptation] A Zoid with a male pilot",
-    "TXT-1944": "has -1 hit on attacks and counterattacks,",
-    "TXT-1943": "and deals -200 damage.",
+    "TXT-1945": "[Temptation] Against this Zoid, attacks and counters",
+    "TXT-1944": "from a Zoid with a male pilot get -1 to the hit roll",
+    "TXT-1943": "and deal 200 less damage.",
 
     # Card 119 — Electronic Warfare Unit (names)
     "TXT-2433": "Special Armor",

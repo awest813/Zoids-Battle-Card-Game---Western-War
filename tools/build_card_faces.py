@@ -3,7 +3,6 @@
 import csv
 import hashlib
 import struct
-import tomllib
 from collections import defaultdict
 from pathlib import Path
 
@@ -11,7 +10,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 from build_ui_textures import average_light, faded
 from card_catalog import card_records, cep_rule_indices, english_names, face_data
-from card_text_table import EXE, card_text_slots
+from card_text_table import EXE
 from packed_ui import paletted_image
 
 SCALE = 4
@@ -180,6 +179,33 @@ REVIEWED_RULES = {
     89: "Melee attack +300. Instead of attacking, roll a die, halve the result and round up. Crush that many mountain squares straight ahead, turning them into plains. L-types only.",
     90: "Melee attack +200. A melee hit pushes the enemy Zoid 2 squares back. If a base or barricade blocks it, deal 200 extra damage instead. S- and M-types only.",
     91: "Declare use. Roll 4 hit checks against the same target in one attack. Deal 100 damage per hit. Cannot target Zoids with Air aptitude. S- and M-types only.",
+    92: "Immune to weather Event Cards. When attacking, ignore the target's terrain modifier to the hit roll. S-types only.",
+    93: "Declare during movement. Range 5. Attack 300. You cannot move this turn. Attacks with this card always hit.",
+    94: "Choose 1 Pilot Card from your deck and show it to your opponent. Add it to your hand, then shuffle your deck.",
+    95: "Move up to 3 Zoids in order, then have them fire on the same enemy Zoid in that order. If all 3 attacks hit, deal 300 extra damage. After all attacks, only 1 Zoid receives a counterattack.",
+    96: "Move up to 3 S-type Zoids in order, then have them attack the same enemy Zoid in that order. If all 3 hit, deal 400 extra damage and prevent the counterattack. Otherwise, only 1 Zoid receives a counterattack.",
+    97: "Attack 1 enemy Zoid with 2 M-type Zoids in melee. If the first hits, the second hits on 2 or higher and receives no counterattack. Otherwise, roll normally for the second attack, then only 1 of the pair receives a counterattack.",
+    98: "Roll a die. Choose that many Zoids in neutral territory. If fewer are there, choose all of them. Each chosen Zoid takes 200 damage.",
+    99: "Use when targeted by a ranged attack. Redirect it to a Zoid within the attacker's range or to the attacker itself. The attacking player makes the hit roll.",
+    100: "Choose allied, enemy, or neutral territory. All Zoids there have range -2 until the end of the turn.",
+    101: "All players draw 4 cards.",
+    102: "Mountain: HP +200\nBlade Liger KS: Movement +2. M-types only.\nDraw Sword. On a melee hit roll of 6, you receive no counterattack.",
+    103: "Sand: HP +200\nGojulas: Movement +1\nFrontline. Can only board a Zoid in enemy or neutral territory, and that Zoid cannot return to your territory. Attack +300.",
+    104: "Mountain: HP +200\nBear Fighter: Movement +1. Mountain aptitude only.\nMaintenance. Subtract 1 from attack hit rolls. Recover 100 HP each time you deal damage with an attack. Counterattacks do not heal.",
+    105: "Water: HP +200\nCannon Tortoise: Movement +2. Range 5 or higher only.\nSupport. Attack +200 on support attacks.",
+    106: "Forest: HP +200\nStealth Viper: Movement +2\nRead Mind. The piloted Zoid cannot be targeted by Event Cards.",
+    107: "Sand: HP +200\nGuysack: Movement +1. S- and M-types only.\nExpert. Attacks and counterattacks hit on 4 or higher. The piloted Zoid cannot equip Custom Cards that modify hit rolls.",
+    108: "Water: HP +200\nUltrasaurus: Movement +2. L- and LL-types only.\nMorale Boost. Allied Zoids in the piloted Zoid's territory gain +100 Attack. If it is destroyed, all allied Zoids take 100 damage.",
+    109: "Restore 400 HP to all your Zoids with pilots.",
+    110: "Forest: HP +200\nLightning Saix BS: Movement +2. M-types only.\nSnipe. Spend 100 HP to gain +1 Range. This bonus stacks up to +5.",
+    111: "Forest: HP +200\nIguan: Range +2. S- and M-types only.\nGamble. On an attack hit roll of 6, the critical hit bonus becomes +300. On a roll of 1, lose 200 HP.",
+    112: "Forest: HP +200\nHelcat: Movement +2. Forest aptitude only.\nAmbush. You receive no counterattack when attacking from terrain you have aptitude for.",
+    113: "Air: HP +200\nSaicurtis: Movement +2. Movement 5 or higher only.\nVanity. Gain +200 Attack if a Zoid with a female pilot is in the same territory.",
+    114: "Forest: HP +200\nBlack Rhimos: Movement +2\nTransfer. During the Custom Phase, you may move to another compatible Zoid without a pilot.",
+    115: "Sand: HP +200\nDead Border: Movement +2. S- and M-types only.\nWeapon Destroy. After a hit deals damage, you may return 1 of the target's equipped Custom Cards to your opponent's hand.",
+    116: "Mountain: HP +200\nDark Horn: Movement +2. M-types only.\nDisruption. After a hit damages a base, you may discard the top card of your opponent's deck.",
+    117: "Mountain: HP +200\nRed Horn: Movement +2. M-types only.\nTemptation. Against the piloted Zoid, attacks and counterattacks from Zoids with male pilots get -1 to the hit roll and deal 200 less damage.",
+    118: "Attack +100. S- and M-types only. Gustav and Stealth Viper cannot equip it.",
 }
 TERRAIN_ICONS = (
     (0x02, "MTN", "#744d32"),
@@ -347,30 +373,16 @@ def paint_cep(face, name, rule, category, source):
         paint_rule(face, (12, 117, 117, 150), rule, "#f1efeb")
 
 
-def rule_text(executable):
-    translations = {}
-    for file in ("zoids.pointer_pending.toml", "zoids.card_short.toml"):
-        with (Path("translations") / file).open("rb") as stream:
-            for entry in tomllib.load(stream)["entry"]:
-                for address in entry.get("ptr_addrs", []):
-                    translations[int(address, 0), entry["src_addr"]] = entry["en"]
-    lines = defaultdict(list)
-    for index, slot, address, source in card_text_slots(executable):
-        translation = translations[address, source].strip()
-        if translation:
-            lines[index].append((slot, translation))
-    return lines
-
-
-def face_rule(index, rules, pilot):
-    if index in REVIEWED_RULES:
-        return REVIEWED_RULES[index]
-    rows = rules.get(index, ())
-    if not pilot:
-        return " ".join(text for _, text in rows)
-    summary = [text for slot, text in rows if slot < 4 and text not in ("-", "---")]
-    effect = " ".join(text for slot, text in rows if slot >= 4)
-    return "\n".join(summary + [effect])
+def paint_pilot_terrain(face, record):
+    # The printed badge uses the first terrain bit. Schwarz's record also
+    # contains Sand while the face and its rule show the Forest badge.
+    terrain, = struct.unpack_from("<H", record, 0x2C)
+    printed_terrain = terrain & -terrain
+    for bit, label, color in TERRAIN_ICONS:
+        if bit == printed_terrain:
+            paint_label(face, (109, 101, 118, 109), "SND" if label == "SAND" else label,
+                        color, "#fff9e6", max_size=14)
+            break
 
 
 def texture_keys(path):
@@ -407,8 +419,9 @@ def main():
     thumb_keys = texture_keys("analysis/CARD_THUMBNAIL_KEYS.csv")
     names = english_names()
     executable = EXE.read_bytes()
-    rules = rule_text(executable)
     cep_rules = cep_rule_indices(executable)
+    if set(cep_rules) != REVIEWED_RULES.keys():
+        raise ValueError("Reviewed text does not match the executable's CEP rule records")
     output = PACK / "replacements"
     output.mkdir(parents=True, exist_ok=True)
     dumps = defaultdict(list)
@@ -423,7 +436,9 @@ def main():
             paint_zoid(face, name, index, record)
         else:
             category, = struct.unpack_from("<H", record, 0x28)
-            paint_cep(face, name, face_rule(cep_rules[index], rules, category == 2), category, source)
+            paint_cep(face, name, REVIEWED_RULES[cep_rules[index]], category, source)
+            if category == 2:
+                paint_pilot_terrain(face, record)
         upload, palette = keys[face_index]
         face.save(output / f"texupload-STP8-{upload}-{palette}-64x160-0-0-128x160-P0-255.png")
         upload, palette = thumb_keys[face_index]
