@@ -15677,7 +15677,7 @@ ptr_addrs = ["0x800cd184"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "We have a transmission from the Empire."
+en = "The Empire is calling."
 note = "story inplace max=15"
 
 [[entry]]
@@ -15703,7 +15703,7 @@ ptr_addrs = ["0x800cd120"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Unmanned Redlers approaching."
+en = "Drone Redlers inbound."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15716,7 +15716,7 @@ ptr_addrs = ["0x800cd11c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "From the Elemia Desert direction,"
+en = "Elemia Desert:"
 note = "story inplace max=11"
 
 [[entry]]

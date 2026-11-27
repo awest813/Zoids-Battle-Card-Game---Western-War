@@ -1202,10 +1202,10 @@ TXT-1202,story,侵略者である君たちに,0x80018fcc,1,800cd200,24,11,To you
 TXT-1203,story,われわれ帝国は、エウロペの,0x80018fe4,1,800cd1fc,28,13,"We, the Empire, will take Europa"
 TXT-1204,story,共和国の諸君。,0x80019000,1,800cd1e8,16,7,Citizens of the Republic.
 TXT-1205,story,まわしてくれ。,0x80019010,1,800cd1b0,16,7,Patch them through.
-TXT-1206,story,帝国から通信が入っています。,0x80019020,1,800cd184,32,15,We have a transmission from the Empire.
+TXT-1206,story,帝国から通信が入っています。,0x80019020,1,800cd184,32,15,The Empire is calling.
 TXT-1207,story,ついに来たか…。,0x80019040,1,800cd14c,20,9,So it's finally come...
-TXT-1208,story,無人レドラーが接近中。,0x80019054,1,800cd120,24,11,Unmanned Redlers approaching.
-TXT-1209,story,エレミア砂漠方面より、,0x8001906c,1,800cd11c,24,11,"From the Elemia Desert direction,"
+TXT-1208,story,無人レドラーが接近中。,0x80019054,1,800cd120,24,11,Drone Redlers inbound.
+TXT-1209,story,エレミア砂漠方面より、,0x8001906c,1,800cd11c,24,11,Elemia Desert:
 TXT-1210,story,なんだ？！,0x80019084,1,800cd0e4,12,5,What?!
 TXT-1211,story,敵部隊への反撃にうつるぞ！,0x80019090,1,800cd2d4,28,13,Counterattack the enemy unit!
 TXT-1212,story,このまま、エレミア砂漠の,0x800190ac,1,800cd2d0,28,13,"As it is, the Elemia Desert's"

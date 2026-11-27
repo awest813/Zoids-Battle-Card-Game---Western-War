@@ -1204,10 +1204,10 @@ TXT-1202,story,P1,inplace,0097cc,0x80018fcc,800cd200,24,11,侵略者である君
 TXT-1203,story,P1,inplace,0097e4,0x80018fe4,800cd1fc,28,13,われわれ帝国は、エウロペの,"We, the Empire, will take Europa",32,no,draft,table-driven; use pointer redirection
 TXT-1204,story,P1,inplace,009800,0x80019000,800cd1e8,16,7,共和国の諸君。,Citizens of the Republic.,25,no,draft,table-driven; use pointer redirection
 TXT-1205,story,P1,inplace,009810,0x80019010,800cd1b0,16,7,まわしてくれ。,Patch them through.,19,no,draft,table-driven; use pointer redirection
-TXT-1206,story,P1,inplace,009820,0x80019020,800cd184,32,15,帝国から通信が入っています。,We have a transmission from the Empire.,39,no,draft,table-driven; use pointer redirection
+TXT-1206,story,P1,inplace,009820,0x80019020,800cd184,32,15,帝国から通信が入っています。,The Empire is calling.,22,no,draft,table-driven; use pointer redirection
 TXT-1207,story,P1,inplace,009840,0x80019040,800cd14c,20,9,ついに来たか…。,So it's finally come...,23,no,draft,table-driven; use pointer redirection
-TXT-1208,story,P1,inplace,009854,0x80019054,800cd120,24,11,無人レドラーが接近中。,Unmanned Redlers approaching.,29,no,draft,table-driven; use pointer redirection
-TXT-1209,story,P1,inplace,00986c,0x8001906c,800cd11c,24,11,エレミア砂漠方面より、,"From the Elemia Desert direction,",33,no,draft,table-driven; use pointer redirection
+TXT-1208,story,P1,inplace,009854,0x80019054,800cd120,24,11,無人レドラーが接近中。,Drone Redlers inbound.,22,no,draft,table-driven; use pointer redirection
+TXT-1209,story,P1,inplace,00986c,0x8001906c,800cd11c,24,11,エレミア砂漠方面より、,Elemia Desert:,14,no,draft,table-driven; use pointer redirection
 TXT-1210,story,P1,inplace,009884,0x80019084,800cd0e4,12,5,なんだ？！,What?!,6,no,draft,table-driven; use pointer redirection
 TXT-1211,story,P1,inplace,009890,0x80019090,800cd2d4,28,13,敵部隊への反撃にうつるぞ！,Counterattack the enemy unit!,29,no,draft,table-driven; use pointer redirection
 TXT-1212,story,P1,inplace,0098ac,0x800190ac,800cd2d0,28,13,このまま、エレミア砂漠の,"As it is, the Elemia Desert's",29,no,draft,table-driven; use pointer redirection

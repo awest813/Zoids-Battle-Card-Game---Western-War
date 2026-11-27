@@ -1204,10 +1204,10 @@ TXT-1202,0097cc,80018fcc,21,10,story,inplace,1,800cd200,24,11,23,P1,translated,�
 TXT-1203,0097e4,80018fe4,27,13,story,inplace,1,800cd1fc,28,13,27,P1,translated,われわれ帝国は、エウロペの,"We, the Empire, will take Europa",1 pointer(s); pointer redirection
 TXT-1204,009800,80019000,15,7,story,inplace,1,800cd1e8,16,7,15,P1,translated,共和国の諸君。,Citizens of the Republic.,1 pointer(s); pointer redirection
 TXT-1205,009810,80019010,15,7,story,inplace,1,800cd1b0,16,7,15,P1,translated,まわしてくれ。,Patch them through.,1 pointer(s); pointer redirection
-TXT-1206,009820,80019020,29,14,story,inplace,1,800cd184,32,15,31,P1,translated,帝国から通信が入っています。,We have a transmission from the Empire.,1 pointer(s); pointer redirection
+TXT-1206,009820,80019020,29,14,story,inplace,1,800cd184,32,15,31,P1,translated,帝国から通信が入っています。,The Empire is calling.,1 pointer(s); pointer redirection
 TXT-1207,009840,80019040,17,8,story,inplace,1,800cd14c,20,9,19,P1,translated,ついに来たか…。,So it's finally come...,1 pointer(s); pointer redirection
-TXT-1208,009854,80019054,23,11,story,inplace,1,800cd120,24,11,23,P1,translated,無人レドラーが接近中。,Unmanned Redlers approaching.,1 pointer(s); pointer redirection
-TXT-1209,00986c,8001906c,23,11,story,inplace,1,800cd11c,24,11,23,P1,translated,エレミア砂漠方面より、,"From the Elemia Desert direction,",1 pointer(s); pointer redirection
+TXT-1208,009854,80019054,23,11,story,inplace,1,800cd120,24,11,23,P1,translated,無人レドラーが接近中。,Drone Redlers inbound.,1 pointer(s); pointer redirection
+TXT-1209,00986c,8001906c,23,11,story,inplace,1,800cd11c,24,11,23,P1,translated,エレミア砂漠方面より、,Elemia Desert:,1 pointer(s); pointer redirection
 TXT-1210,009884,80019084,11,5,story,inplace,1,800cd0e4,12,5,11,P1,translated,なんだ？！,What?!,1 pointer(s); pointer redirection
 TXT-1211,009890,80019090,27,13,story,inplace,1,800cd2d4,28,13,27,P1,translated,敵部隊への反撃にうつるぞ！,Counterattack the enemy unit!,1 pointer(s); pointer redirection
 TXT-1212,0098ac,800190ac,25,12,story,inplace,1,800cd2d0,28,13,27,P1,translated,このまま、エレミア砂漠の,"As it is, the Elemia Desert's",1 pointer(s); pointer redirection
