@@ -353,41 +353,41 @@ TXT-0351,tutorial,P1,inplace,004798,0x80013f98,800c4804,24,11,となりにいる
 TXT-0352,tutorial,P1,inplace,0047b0,0x80013fb0,800c47f0,28,13,２種類の攻撃があります。,and melee attacks.,18,no,draft,table-driven; use pointer redirection
 TXT-0353,tutorial,P1,inplace,0047cc,0x80013fcc,800c47ec,24,11,ゾイドには射撃と格闘の,Zoids use ranged attacks,24,no,draft,table-driven; use pointer redirection
 TXT-0354,tutorial,P1,inplace,0047e4,0x80013fe4,800c47d8,28,13,次は、戦闘をしてみよう。,"Next, let's try combat.",23,no,draft,table-driven; use pointer redirection
-TXT-0355,tutorial,P1,inplace,004800,0x80014000,800c4a60,28,13,手に入ったら使ってみよう！,Use them once you get them!,27,no,draft,table-driven; use pointer redirection
-TXT-0356,tutorial,P1,inplace,00481c,0x8001401c,800c4a5c,28,13,いるうちに手にはいるので、,"You can obtain them as you play,",32,no,draft,table-driven; use pointer redirection
-TXT-0357,tutorial,P1,inplace,004838,0x80014038,800c4a58,32,15,パイロットカードはプレイして,Pilot cards are played,22,no,draft,table-driven; use pointer redirection
-TXT-0358,tutorial,P1,inplace,004858,0x80014058,800c4a44,24,11,つけることができます。,and attached to a Zoid.,23,no,draft,table-driven; use pointer redirection
-TXT-0359,tutorial,P1,inplace,004870,0x80014070,800c4a40,32,15,カスタムフェイズの『装備』で,"In the Custom Phase, use EQUIP",30,no,draft,table-driven; use pointer redirection
-TXT-0360,tutorial,P1,inplace,004890,0x80014090,800c4a3c,32,15,パイロットカードも同じように,Pilot cards work the same way.,30,no,draft,table-driven; use pointer redirection
-TXT-0361,tutorial,P1,inplace,0048b0,0x800140b0,800c4a28,32,15,装備したカードをはずせます。,You can remove equipped cards.,30,no,draft,table-driven; use pointer redirection
-TXT-0362,tutorial,P1,inplace,0048d0,0x800140d0,800c4a24,24,11,また、『取り外し』で,"Also, with REMOVE,",18,no,draft,table-driven; use pointer redirection
-TXT-0363,tutorial,P1,inplace,0048e8,0x800140e8,800c4a10,24,11,ゾイドを選択します。,select a Zoid.,14,no,draft,table-driven; use pointer redirection
-TXT-0364,tutorial,P1,inplace,004900,0x80014100,800c4a0c,32,15,『装備』でカードを選んでから,"After selecting a card with EQUIP,",34,no,draft,table-driven; use pointer redirection
-TXT-0365,tutorial,P1,inplace,004920,0x80014120,800c4a08,32,15,カスタムカードをつけるには、,"to attach a Custom card,",24,no,draft,table-driven; use pointer redirection
-TXT-0366,tutorial,P1,inplace,004940,0x80014140,800c49f4,24,11,つけられないので注意！,you can't attach it - be careful!,33,no,draft,table-driven; use pointer redirection
-TXT-0367,tutorial,P1,inplace,004958,0x80014158,800c49f0,28,13,同じ名前のカードは１枚しか,You can only have one card,26,no,draft,table-driven; use pointer redirection
-TXT-0368,tutorial,P1,inplace,004974,0x80014174,800c49dc,20,9,ことができます。,with the same name.,19,no,draft,table-driven; use pointer redirection
-TXT-0369,tutorial,P1,inplace,004988,0x80014188,800c49d8,28,13,数字の数までカードをつける,You can attach cards up to,26,no,draft,table-driven; use pointer redirection
-TXT-0370,tutorial,P1,inplace,0049a4,0x800141a4,800c49d4,28,13,ゾイドのＷＲで書かれている,the number shown in the Zoid's WR.,34,no,draft,table-driven; use pointer redirection
-TXT-0371,tutorial,P1,inplace,0049c0,0x800141c0,800c49bc,28,13,カードを、ゾイドにとりつけ,with Custom,11,yes,draft,table-driven; use pointer redirection
-TXT-0372,tutorial,P1,inplace,0049dc,0x800141dc,800c49b8,28,13,このフェイズで、カスタム,Equip Zoids,11,yes,draft,table-driven; use pointer redirection
-TXT-0373,tutorial,P1,inplace,0049f8,0x800141f8,800c49a4,28,13,カスタムフェイズがきます。,the Custom Phase begins.,24,no,draft,table-driven; use pointer redirection
-TXT-0374,tutorial,P1,inplace,004a14,0x80014214,800c49a0,28,13,武器を装備することができる,You can equip weapons,21,no,draft,table-driven; use pointer redirection
-TXT-0375,tutorial,P1,inplace,004a30,0x80014230,800c499c,28,13,ターンの始めに、ゾイドに,"At the start of your turn,",26,no,draft,table-driven; use pointer redirection
-TXT-0376,tutorial,P1,inplace,004a4c,0x8001424c,800c4988,28,13,まずはカスタムカードから,"First, start with Custom cards.",31,no,draft,table-driven; use pointer redirection
-TXT-0377,tutorial,P1,inplace,004a68,0x80014268,800c4974,12,5,できます。,You can do this.,16,no,draft,table-driven; use pointer redirection
-TXT-0378,tutorial,P1,inplace,004a74,0x80014274,800c4970,28,13,の３種類を組みこむことが,You can build a deck with three,31,no,draft,table-driven; use pointer redirection
-TXT-0379,tutorial,P1,inplace,004a90,0x80014290,800c495c,20,9,パイロットカード,"Pilot cards,",12,no,draft,table-driven; use pointer redirection
+TXT-0355,tutorial,P1,inplace,004800,0x80014000,800c4a60,28,13,手に入ったら使ってみよう！,Try one out!,12,yes,draft,table-driven; use pointer redirection
+TXT-0356,tutorial,P1,inplace,00481c,0x8001401c,800c4a5c,28,13,いるうちに手にはいるので、,as you play.,12,yes,draft,table-driven; use pointer redirection
+TXT-0357,tutorial,P1,inplace,004838,0x80014038,800c4a58,32,15,パイロットカードはプレイして,Find Pilots,11,yes,draft,table-driven; use pointer redirection
+TXT-0358,tutorial,P1,inplace,004858,0x80014058,800c4a44,24,11,つけることができます。,during Custom.,14,no,draft,table-driven; use pointer redirection
+TXT-0359,tutorial,P1,inplace,004870,0x80014070,800c4a40,32,15,カスタムフェイズの『装備』で,Equip via Gear,14,yes,draft,table-driven; use pointer redirection
+TXT-0360,tutorial,P1,inplace,004890,0x80014090,800c4a3c,32,15,パイロットカードも同じように,Pilots too.,11,yes,draft,table-driven; use pointer redirection
+TXT-0361,tutorial,P1,inplace,0048b0,0x800140b0,800c4a28,32,15,装備したカードをはずせます。,unequip cards.,14,yes,draft,table-driven; use pointer redirection
+TXT-0362,tutorial,P1,inplace,0048d0,0x800140d0,800c4a24,24,11,また、『取り外し』で,Use Rmve to,11,yes,draft,table-driven; use pointer redirection
+TXT-0363,tutorial,P1,inplace,0048e8,0x800140e8,800c4a10,24,11,ゾイドを選択します。,then the Zoid.,14,no,draft,table-driven; use pointer redirection
+TXT-0364,tutorial,P1,inplace,004900,0x80014100,800c4a0c,32,15,『装備』でカードを選んでから,"Gear, a card,",13,yes,draft,table-driven; use pointer redirection
+TXT-0365,tutorial,P1,inplace,004920,0x80014120,800c4a08,32,15,カスタムカードをつけるには、,"To equip, pick",14,yes,draft,table-driven; use pointer redirection
+TXT-0366,tutorial,P1,inplace,004940,0x80014140,800c49f4,24,11,つけられないので注意！,of each name.,13,no,draft,table-driven; use pointer redirection
+TXT-0367,tutorial,P1,inplace,004958,0x80014158,800c49f0,28,13,同じ名前のカードは１枚しか,Equip one copy,14,no,draft,table-driven; use pointer redirection
+TXT-0368,tutorial,P1,inplace,004974,0x80014174,800c49dc,20,9,ことができます。,it can equip.,13,no,draft,table-driven; use pointer redirection
+TXT-0369,tutorial,P1,inplace,004988,0x80014188,800c49d8,28,13,数字の数までカードをつける,how many cards,14,no,draft,table-driven; use pointer redirection
+TXT-0370,tutorial,P1,inplace,0049a4,0x800141a4,800c49d4,28,13,ゾイドのＷＲで書かれている,WR limits,9,yes,draft,table-driven; use pointer redirection
+TXT-0371,tutorial,P1,inplace,0049c0,0x800141c0,800c49bc,28,13,カードを、ゾイドにとりつけ,on your Zoids.,14,no,draft,table-driven; use pointer redirection
+TXT-0372,tutorial,P1,inplace,0049dc,0x800141dc,800c49b8,28,13,このフェイズで、カスタム,Equip Customs,13,yes,draft,table-driven; use pointer redirection
+TXT-0373,tutorial,P1,inplace,0049f8,0x800141f8,800c49a4,28,13,カスタムフェイズがきます。,in Custom.,10,yes,draft,table-driven; use pointer redirection
+TXT-0374,tutorial,P1,inplace,004a14,0x80014214,800c49a0,28,13,武器を装備することができる,equip weapons,13,yes,draft,table-driven; use pointer redirection
+TXT-0375,tutorial,P1,inplace,004a30,0x80014230,800c499c,28,13,ターンの始めに、ゾイドに,Start of turn:,14,no,draft,table-driven; use pointer redirection
+TXT-0376,tutorial,P1,inplace,004a4c,0x8001424c,800c4988,28,13,まずはカスタムカードから,Customs first.,14,no,draft,table-driven; use pointer redirection
+TXT-0377,tutorial,P1,inplace,004a68,0x80014268,800c4974,12,5,できます。,all three.,10,no,draft,table-driven; use pointer redirection
+TXT-0378,tutorial,P1,inplace,004a74,0x80014274,800c4970,28,13,の３種類を組みこむことが,You can mix,11,yes,draft,table-driven; use pointer redirection
+TXT-0379,tutorial,P1,inplace,004a90,0x80014290,800c495c,20,9,パイロットカード,Pilot cards.,12,no,draft,table-driven; use pointer redirection
 TXT-0380,tutorial,P1,inplace,004aa4,0x800142a4,800c4958,16,7,イベントカード,"Event cards,",12,no,draft,table-driven; use pointer redirection
-TXT-0381,tutorial,P1,inplace,004ab4,0x800142b4,800c4954,16,7,カスタムカード,Custom cards.,13,no,draft,table-driven; use pointer redirection
-TXT-0382,tutorial,P1,inplace,004ac4,0x800142c4,800c4940,16,7,デッキには、,Your deck contains,18,no,draft,table-driven; use pointer redirection
-TXT-0383,tutorial,P1,inplace,004ad4,0x800142d4,800c492c,28,13,デッキから、くばられます。,dealt from your deck.,21,no,draft,table-driven; use pointer redirection
-TXT-0384,tutorial,P1,inplace,004af0,0x800142f0,800c4928,32,15,カードはあらかじめ組んでいた,Cards are dealt from the deck,29,no,draft,table-driven; use pointer redirection
-TXT-0385,tutorial,P1,inplace,004b10,0x80014310,800c4914,28,13,カードを７枚に減らします。,Reduce your hand to 7 cards.,28,no,draft,table-driven; use pointer redirection
-TXT-0386,tutorial,P1,inplace,004b2c,0x8001432c,800c4910,28,13,持っていた場合、手持ちの,"If you have more than 7,",24,no,draft,table-driven; use pointer redirection
-TXT-0387,tutorial,P1,inplace,004b48,0x80014348,800c490c,28,13,ターンの終わりに８枚以上,"at the end of the turn,",23,no,draft,table-driven; use pointer redirection
+TXT-0381,tutorial,P1,inplace,004ab4,0x800142b4,800c4954,16,7,カスタムカード,"Custom cards,",13,no,draft,table-driven; use pointer redirection
+TXT-0382,tutorial,P1,inplace,004ac4,0x800142c4,800c4940,16,7,デッキには、,Decks can hold,14,no,draft,table-driven; use pointer redirection
+TXT-0383,tutorial,P1,inplace,004ad4,0x800142d4,800c492c,28,13,デッキから、くばられます。,prebuilt deck.,14,no,draft,table-driven; use pointer redirection
+TXT-0384,tutorial,P1,inplace,004af0,0x800142f0,800c4928,32,15,カードはあらかじめ組んでいた,Draw from your,14,yes,draft,table-driven; use pointer redirection
+TXT-0385,tutorial,P1,inplace,004b10,0x80014310,800c4914,28,13,カードを７枚に減らします。,discard to 7.,13,yes,draft,table-driven; use pointer redirection
+TXT-0386,tutorial,P1,inplace,004b2c,0x8001432c,800c4910,28,13,持っていた場合、手持ちの,"with 8+ cards,",14,no,draft,table-driven; use pointer redirection
+TXT-0387,tutorial,P1,inplace,004b48,0x80014348,800c490c,28,13,ターンの終わりに８枚以上,"At turn end,",12,yes,draft,table-driven; use pointer redirection
 TXT-0388,tutorial,P1,inplace,004b64,0x80014364,800c48f8,28,13,カードが２枚くばられます。,draw 2 cards.,13,yes,draft,table-driven; use pointer redirection
-TXT-0389,tutorial,P1,inplace,004b80,0x80014380,800c48f4,28,13,ターンの始めにプレイヤーに,"At the start of each turn,",26,no,draft,table-driven; use pointer redirection
+TXT-0389,tutorial,P1,inplace,004b80,0x80014380,800c48f4,28,13,ターンの始めにプレイヤーに,"At turn start,",14,no,draft,table-driven; use pointer redirection
 TXT-0390,tutorial,P1,inplace,004b9c,0x8001439c,800c48e0,32,15,次に、カードを使ってみよう。,"Next, let's use a card.",23,no,draft,table-driven; use pointer redirection
 TXT-0391,tutorial,P1,inplace,004bbc,0x800143bc,800c4b38,24,11,使うことができるぞ！,You can use it!,15,no,draft,table-driven; use pointer redirection
 TXT-0392,tutorial,P1,inplace,004bd4,0x800143d4,800c4b34,28,13,ければ、イベントカードを,"Otherwise, Event cards",22,no,draft,table-driven; use pointer redirection

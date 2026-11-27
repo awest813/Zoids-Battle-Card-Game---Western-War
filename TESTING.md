@@ -113,7 +113,9 @@ The same campaign continued into the training mission through the original contr
 
 Moving the lead Zoid into enemy territory on turn two opened the combat lesson. The movement and combat pass rewrote 32 entries, including instructions for facing, melee, counterattacks, and the `Fix` command. A replay from a disposable checkpoint showed the revised combat pages in the game. Restoring a checkpoint can show Japanese textures until the game uploads them again.
 
-The combat lesson uses `Atk`, matching the command menu. The running campaign resolved the revised prompt and opened the green targeting overlay for Godos and Gojulas. On a coastal map, check `SHL` on shallow water and `DEP` on deep water. Both badges were checked against their original captured textures. The transparent palette variant is left to the game renderer.
+The combat lesson uses `Atk`, matching the command menu. The running campaign resolved the revised prompt and opened the green targeting overlay for Godos and Gojulas. On turn five, Shield Liger moved adjacent to Iguan, resolved the Normal Attack dice and animation, and opened the card lesson. The revised draw, discard, and equipment prompts fit the fourteen-character dialogue rows. Check that the discard instruction appears as a single page and that the equipment prompts name `Gear` and `Rmve`, matching the Custom Phase command menu.
+
+From a fresh English boot, enter Free Mode as the Republic, choose Ocean World, and deploy Shield Liger in the first slot. The opening objective camera shows `SHL` on shallow water. End the Custom Phase, enter Move, and move the cursor up three tiles to see `DEP` on deep water. Both badges appeared in the live OpenGL renderer.
 
 ### Movie inventory and opening playback
 

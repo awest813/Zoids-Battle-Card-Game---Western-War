@@ -353,41 +353,41 @@ TXT-0351,004798,80013f98,23,11,tutorial,inplace,2,800c4804,24,11,23,P1,translate
 TXT-0352,0047b0,80013fb0,25,12,tutorial,inplace,2,800c47f0,28,13,27,P1,translated,２種類の攻撃があります。,and melee attacks.,2 pointer(s); pointer redirection
 TXT-0353,0047cc,80013fcc,23,11,tutorial,inplace,2,800c47ec,24,11,23,P1,translated,ゾイドには射撃と格闘の,Zoids use ranged attacks,2 pointer(s); pointer redirection
 TXT-0354,0047e4,80013fe4,25,12,tutorial,inplace,2,800c47d8,28,13,27,P1,translated,次は、戦闘をしてみよう。,"Next, let's try combat.",2 pointer(s); pointer redirection
-TXT-0355,004800,80014000,27,13,tutorial,inplace,9,800c4a60,28,13,27,P1,translated,手に入ったら使ってみよう！,Use them once you get them!,9 pointer(s); pointer redirection
-TXT-0356,00481c,8001401c,27,13,tutorial,inplace,2,800c4a5c,28,13,27,P1,translated,いるうちに手にはいるので、,"You can obtain them as you play,",2 pointer(s); pointer redirection
-TXT-0357,004838,80014038,29,14,tutorial,inplace,2,800c4a58,32,15,31,P1,translated,パイロットカードはプレイして,Pilot cards are played,2 pointer(s); pointer redirection
-TXT-0358,004858,80014058,23,11,tutorial,inplace,2,800c4a44,24,11,23,P1,translated,つけることができます。,and attached to a Zoid.,2 pointer(s); pointer redirection
-TXT-0359,004870,80014070,29,14,tutorial,inplace,2,800c4a40,32,15,31,P1,translated,カスタムフェイズの『装備』で,"In the Custom Phase, use EQUIP",2 pointer(s); pointer redirection
-TXT-0360,004890,80014090,29,14,tutorial,inplace,2,800c4a3c,32,15,31,P1,translated,パイロットカードも同じように,Pilot cards work the same way.,2 pointer(s); pointer redirection
-TXT-0361,0048b0,800140b0,29,14,tutorial,inplace,2,800c4a28,32,15,31,P1,translated,装備したカードをはずせます。,You can remove equipped cards.,2 pointer(s); pointer redirection
-TXT-0362,0048d0,800140d0,21,10,tutorial,inplace,2,800c4a24,24,11,23,P1,translated,また、『取り外し』で,"Also, with REMOVE,",2 pointer(s); pointer redirection
-TXT-0363,0048e8,800140e8,21,10,tutorial,inplace,2,800c4a10,24,11,23,P1,translated,ゾイドを選択します。,select a Zoid.,2 pointer(s); pointer redirection
-TXT-0364,004900,80014100,29,14,tutorial,inplace,2,800c4a0c,32,15,31,P1,translated,『装備』でカードを選んでから,"After selecting a card with EQUIP,",2 pointer(s); pointer redirection
-TXT-0365,004920,80014120,29,14,tutorial,inplace,2,800c4a08,32,15,31,P1,translated,カスタムカードをつけるには、,"to attach a Custom card,",2 pointer(s); pointer redirection
-TXT-0366,004940,80014140,23,11,tutorial,inplace,2,800c49f4,24,11,23,P1,translated,つけられないので注意！,you can't attach it - be careful!,2 pointer(s); pointer redirection
-TXT-0367,004958,80014158,27,13,tutorial,inplace,2,800c49f0,28,13,27,P1,translated,同じ名前のカードは１枚しか,You can only have one card,2 pointer(s); pointer redirection
-TXT-0368,004974,80014174,17,8,tutorial,inplace,6,800c49dc,20,9,19,P1,translated,ことができます。,with the same name.,6 pointer(s); pointer redirection
-TXT-0369,004988,80014188,27,13,tutorial,inplace,2,800c49d8,28,13,27,P1,translated,数字の数までカードをつける,You can attach cards up to,2 pointer(s); pointer redirection
-TXT-0370,0049a4,800141a4,27,13,tutorial,inplace,2,800c49d4,28,13,27,P1,translated,ゾイドのＷＲで書かれている,the number shown in the Zoid's WR.,2 pointer(s); pointer redirection
-TXT-0371,0049c0,800141c0,27,13,tutorial,inplace,2,800c49bc,28,13,27,P1,translated,カードを、ゾイドにとりつけ,with Custom,2 pointer(s); pointer redirection
-TXT-0372,0049dc,800141dc,25,12,tutorial,inplace,2,800c49b8,28,13,27,P1,translated,このフェイズで、カスタム,Equip Zoids,2 pointer(s); pointer redirection
-TXT-0373,0049f8,800141f8,27,13,tutorial,inplace,2,800c49a4,28,13,27,P1,translated,カスタムフェイズがきます。,the Custom Phase begins.,2 pointer(s); pointer redirection
-TXT-0374,004a14,80014214,27,13,tutorial,inplace,2,800c49a0,28,13,27,P1,translated,武器を装備することができる,You can equip weapons,2 pointer(s); pointer redirection
-TXT-0375,004a30,80014230,25,12,tutorial,inplace,2,800c499c,28,13,27,P1,translated,ターンの始めに、ゾイドに,"At the start of your turn,",2 pointer(s); pointer redirection
-TXT-0376,004a4c,8001424c,25,12,tutorial,inplace,2,800c4988,28,13,27,P1,translated,まずはカスタムカードから,"First, start with Custom cards.",2 pointer(s); pointer redirection
-TXT-0377,004a68,80014268,11,5,tutorial,inplace,6,800c4974,12,5,11,P1,translated,できます。,You can do this.,6 pointer(s); pointer redirection
-TXT-0378,004a74,80014274,25,12,tutorial,inplace,2,800c4970,28,13,27,P1,translated,の３種類を組みこむことが,You can build a deck with three,2 pointer(s); pointer redirection
-TXT-0379,004a90,80014290,17,8,tutorial,inplace,2,800c495c,20,9,19,P1,translated,パイロットカード,"Pilot cards,",2 pointer(s); pointer redirection
+TXT-0355,004800,80014000,27,13,tutorial,inplace,9,800c4a60,28,13,27,P1,translated,手に入ったら使ってみよう！,Try one out!,9 pointer(s); pointer redirection
+TXT-0356,00481c,8001401c,27,13,tutorial,inplace,2,800c4a5c,28,13,27,P1,translated,いるうちに手にはいるので、,as you play.,2 pointer(s); pointer redirection
+TXT-0357,004838,80014038,29,14,tutorial,inplace,2,800c4a58,32,15,31,P1,translated,パイロットカードはプレイして,Find Pilots,2 pointer(s); pointer redirection
+TXT-0358,004858,80014058,23,11,tutorial,inplace,2,800c4a44,24,11,23,P1,translated,つけることができます。,during Custom.,2 pointer(s); pointer redirection
+TXT-0359,004870,80014070,29,14,tutorial,inplace,2,800c4a40,32,15,31,P1,translated,カスタムフェイズの『装備』で,Equip via Gear,2 pointer(s); pointer redirection
+TXT-0360,004890,80014090,29,14,tutorial,inplace,2,800c4a3c,32,15,31,P1,translated,パイロットカードも同じように,Pilots too.,2 pointer(s); pointer redirection
+TXT-0361,0048b0,800140b0,29,14,tutorial,inplace,2,800c4a28,32,15,31,P1,translated,装備したカードをはずせます。,unequip cards.,2 pointer(s); pointer redirection
+TXT-0362,0048d0,800140d0,21,10,tutorial,inplace,2,800c4a24,24,11,23,P1,translated,また、『取り外し』で,Use Rmve to,2 pointer(s); pointer redirection
+TXT-0363,0048e8,800140e8,21,10,tutorial,inplace,2,800c4a10,24,11,23,P1,translated,ゾイドを選択します。,then the Zoid.,2 pointer(s); pointer redirection
+TXT-0364,004900,80014100,29,14,tutorial,inplace,2,800c4a0c,32,15,31,P1,translated,『装備』でカードを選んでから,"Gear, a card,",2 pointer(s); pointer redirection
+TXT-0365,004920,80014120,29,14,tutorial,inplace,2,800c4a08,32,15,31,P1,translated,カスタムカードをつけるには、,"To equip, pick",2 pointer(s); pointer redirection
+TXT-0366,004940,80014140,23,11,tutorial,inplace,2,800c49f4,24,11,23,P1,translated,つけられないので注意！,of each name.,2 pointer(s); pointer redirection
+TXT-0367,004958,80014158,27,13,tutorial,inplace,2,800c49f0,28,13,27,P1,translated,同じ名前のカードは１枚しか,Equip one copy,2 pointer(s); pointer redirection
+TXT-0368,004974,80014174,17,8,tutorial,inplace,6,800c49dc,20,9,19,P1,translated,ことができます。,it can equip.,6 pointer(s); pointer redirection
+TXT-0369,004988,80014188,27,13,tutorial,inplace,2,800c49d8,28,13,27,P1,translated,数字の数までカードをつける,how many cards,2 pointer(s); pointer redirection
+TXT-0370,0049a4,800141a4,27,13,tutorial,inplace,2,800c49d4,28,13,27,P1,translated,ゾイドのＷＲで書かれている,WR limits,2 pointer(s); pointer redirection
+TXT-0371,0049c0,800141c0,27,13,tutorial,inplace,2,800c49bc,28,13,27,P1,translated,カードを、ゾイドにとりつけ,on your Zoids.,2 pointer(s); pointer redirection
+TXT-0372,0049dc,800141dc,25,12,tutorial,inplace,2,800c49b8,28,13,27,P1,translated,このフェイズで、カスタム,Equip Customs,2 pointer(s); pointer redirection
+TXT-0373,0049f8,800141f8,27,13,tutorial,inplace,2,800c49a4,28,13,27,P1,translated,カスタムフェイズがきます。,in Custom.,2 pointer(s); pointer redirection
+TXT-0374,004a14,80014214,27,13,tutorial,inplace,2,800c49a0,28,13,27,P1,translated,武器を装備することができる,equip weapons,2 pointer(s); pointer redirection
+TXT-0375,004a30,80014230,25,12,tutorial,inplace,2,800c499c,28,13,27,P1,translated,ターンの始めに、ゾイドに,Start of turn:,2 pointer(s); pointer redirection
+TXT-0376,004a4c,8001424c,25,12,tutorial,inplace,2,800c4988,28,13,27,P1,translated,まずはカスタムカードから,Customs first.,2 pointer(s); pointer redirection
+TXT-0377,004a68,80014268,11,5,tutorial,inplace,6,800c4974,12,5,11,P1,translated,できます。,all three.,6 pointer(s); pointer redirection
+TXT-0378,004a74,80014274,25,12,tutorial,inplace,2,800c4970,28,13,27,P1,translated,の３種類を組みこむことが,You can mix,2 pointer(s); pointer redirection
+TXT-0379,004a90,80014290,17,8,tutorial,inplace,2,800c495c,20,9,19,P1,translated,パイロットカード,Pilot cards.,2 pointer(s); pointer redirection
 TXT-0380,004aa4,800142a4,15,7,tutorial,inplace,2,800c4958,16,7,15,P1,translated,イベントカード,"Event cards,",2 pointer(s); pointer redirection
-TXT-0381,004ab4,800142b4,15,7,tutorial,inplace,2,800c4954,16,7,15,P1,translated,カスタムカード,Custom cards.,2 pointer(s); pointer redirection
-TXT-0382,004ac4,800142c4,13,6,tutorial,inplace,2,800c4940,16,7,15,P1,translated,デッキには、,Your deck contains,2 pointer(s); pointer redirection
-TXT-0383,004ad4,800142d4,27,13,tutorial,inplace,2,800c492c,28,13,27,P1,translated,デッキから、くばられます。,dealt from your deck.,2 pointer(s); pointer redirection
-TXT-0384,004af0,800142f0,29,14,tutorial,inplace,2,800c4928,32,15,31,P1,translated,カードはあらかじめ組んでいた,Cards are dealt from the deck,2 pointer(s); pointer redirection
-TXT-0385,004b10,80014310,27,13,tutorial,inplace,2,800c4914,28,13,27,P1,translated,カードを７枚に減らします。,Reduce your hand to 7 cards.,2 pointer(s); pointer redirection
-TXT-0386,004b2c,8001432c,25,12,tutorial,inplace,2,800c4910,28,13,27,P1,translated,持っていた場合、手持ちの,"If you have more than 7,",2 pointer(s); pointer redirection
-TXT-0387,004b48,80014348,25,12,tutorial,inplace,2,800c490c,28,13,27,P1,translated,ターンの終わりに８枚以上,"at the end of the turn,",2 pointer(s); pointer redirection
+TXT-0381,004ab4,800142b4,15,7,tutorial,inplace,2,800c4954,16,7,15,P1,translated,カスタムカード,"Custom cards,",2 pointer(s); pointer redirection
+TXT-0382,004ac4,800142c4,13,6,tutorial,inplace,2,800c4940,16,7,15,P1,translated,デッキには、,Decks can hold,2 pointer(s); pointer redirection
+TXT-0383,004ad4,800142d4,27,13,tutorial,inplace,2,800c492c,28,13,27,P1,translated,デッキから、くばられます。,prebuilt deck.,2 pointer(s); pointer redirection
+TXT-0384,004af0,800142f0,29,14,tutorial,inplace,2,800c4928,32,15,31,P1,translated,カードはあらかじめ組んでいた,Draw from your,2 pointer(s); pointer redirection
+TXT-0385,004b10,80014310,27,13,tutorial,inplace,2,800c4914,28,13,27,P1,translated,カードを７枚に減らします。,discard to 7.,2 pointer(s); pointer redirection
+TXT-0386,004b2c,8001432c,25,12,tutorial,inplace,2,800c4910,28,13,27,P1,translated,持っていた場合、手持ちの,"with 8+ cards,",2 pointer(s); pointer redirection
+TXT-0387,004b48,80014348,25,12,tutorial,inplace,2,800c490c,28,13,27,P1,translated,ターンの終わりに８枚以上,"At turn end,",2 pointer(s); pointer redirection
 TXT-0388,004b64,80014364,27,13,tutorial,inplace,2,800c48f8,28,13,27,P1,translated,カードが２枚くばられます。,draw 2 cards.,2 pointer(s); pointer redirection
-TXT-0389,004b80,80014380,27,13,tutorial,inplace,2,800c48f4,28,13,27,P1,translated,ターンの始めにプレイヤーに,"At the start of each turn,",2 pointer(s); pointer redirection
+TXT-0389,004b80,80014380,27,13,tutorial,inplace,2,800c48f4,28,13,27,P1,translated,ターンの始めにプレイヤーに,"At turn start,",2 pointer(s); pointer redirection
 TXT-0390,004b9c,8001439c,29,14,tutorial,inplace,2,800c48e0,32,15,31,P1,translated,次に、カードを使ってみよう。,"Next, let's use a card.",2 pointer(s); pointer redirection
 TXT-0391,004bbc,800143bc,21,10,tutorial,inplace,2,800c4b38,24,11,23,P1,translated,使うことができるぞ！,You can use it!,2 pointer(s); pointer redirection
 TXT-0392,004bd4,800143d4,25,12,tutorial,inplace,2,800c4b34,28,13,27,P1,translated,ければ、イベントカードを,"Otherwise, Event cards",2 pointer(s); pointer redirection

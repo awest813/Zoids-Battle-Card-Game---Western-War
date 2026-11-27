@@ -351,41 +351,41 @@ TXT-0351,tutorial,となりにいるゾイドには,0x80013f98,2,800c4804;800c62
 TXT-0352,tutorial,２種類の攻撃があります。,0x80013fb0,2,800c47f0;800c62b0,28,13,and melee attacks.
 TXT-0353,tutorial,ゾイドには射撃と格闘の,0x80013fcc,2,800c47ec;800c62ac,24,11,Zoids use ranged attacks
 TXT-0354,tutorial,次は、戦闘をしてみよう。,0x80013fe4,2,800c47d8;800c6298,28,13,"Next, let's try combat."
-TXT-0355,tutorial,手に入ったら使ってみよう！,0x80014000,9,800c4a60;800c6520;800d3340;800d3d9c;800d4440;800d4b28;800d9cb0;800db818;800e1838,28,13,Use them once you get them!
-TXT-0356,tutorial,いるうちに手にはいるので、,0x8001401c,2,800c4a5c;800c651c,28,13,"You can obtain them as you play,"
-TXT-0357,tutorial,パイロットカードはプレイして,0x80014038,2,800c4a58;800c6518,32,15,Pilot cards are played
-TXT-0358,tutorial,つけることができます。,0x80014058,2,800c4a44;800c6504,24,11,and attached to a Zoid.
-TXT-0359,tutorial,カスタムフェイズの『装備』で,0x80014070,2,800c4a40;800c6500,32,15,"In the Custom Phase, use EQUIP"
-TXT-0360,tutorial,パイロットカードも同じように,0x80014090,2,800c4a3c;800c64fc,32,15,Pilot cards work the same way.
-TXT-0361,tutorial,装備したカードをはずせます。,0x800140b0,2,800c4a28;800c64e8,32,15,You can remove equipped cards.
-TXT-0362,tutorial,また、『取り外し』で,0x800140d0,2,800c4a24;800c64e4,24,11,"Also, with REMOVE,"
-TXT-0363,tutorial,ゾイドを選択します。,0x800140e8,2,800c4a10;800c64d0,24,11,select a Zoid.
-TXT-0364,tutorial,『装備』でカードを選んでから,0x80014100,2,800c4a0c;800c64cc,32,15,"After selecting a card with EQUIP,"
-TXT-0365,tutorial,カスタムカードをつけるには、,0x80014120,2,800c4a08;800c64c8,32,15,"to attach a Custom card,"
-TXT-0366,tutorial,つけられないので注意！,0x80014140,2,800c49f4;800c64b4,24,11,you can't attach it - be careful!
-TXT-0367,tutorial,同じ名前のカードは１枚しか,0x80014158,2,800c49f0;800c64b0,28,13,You can only have one card
-TXT-0368,tutorial,ことができます。,0x80014174,6,800c49dc;800c4acc;800c649c;800c658c;800d1df8;800d1efc,20,9,with the same name.
-TXT-0369,tutorial,数字の数までカードをつける,0x80014188,2,800c49d8;800c6498,28,13,You can attach cards up to
-TXT-0370,tutorial,ゾイドのＷＲで書かれている,0x800141a4,2,800c49d4;800c6494,28,13,the number shown in the Zoid's WR.
-TXT-0371,tutorial,カードを、ゾイドにとりつけ,0x800141c0,2,800c49bc;800c647c,28,13,with Custom
-TXT-0372,tutorial,このフェイズで、カスタム,0x800141dc,2,800c49b8;800c6478,28,13,Equip Zoids
-TXT-0373,tutorial,カスタムフェイズがきます。,0x800141f8,2,800c49a4;800c6464,28,13,the Custom Phase begins.
-TXT-0374,tutorial,武器を装備することができる,0x80014214,2,800c49a0;800c6460,28,13,You can equip weapons
-TXT-0375,tutorial,ターンの始めに、ゾイドに,0x80014230,2,800c499c;800c645c,28,13,"At the start of your turn,"
-TXT-0376,tutorial,まずはカスタムカードから,0x8001424c,2,800c4988;800c6448,28,13,"First, start with Custom cards."
-TXT-0377,tutorial,できます。,0x80014268,6,800c4974;800c4ae8;800c6434;800c65a8;800d2044;800d241c,12,5,You can do this.
-TXT-0378,tutorial,の３種類を組みこむことが,0x80014274,2,800c4970;800c6430,28,13,You can build a deck with three
-TXT-0379,tutorial,パイロットカード,0x80014290,2,800c495c;800c641c,20,9,"Pilot cards,"
+TXT-0355,tutorial,手に入ったら使ってみよう！,0x80014000,9,800c4a60;800c6520;800d3340;800d3d9c;800d4440;800d4b28;800d9cb0;800db818;800e1838,28,13,Try one out!
+TXT-0356,tutorial,いるうちに手にはいるので、,0x8001401c,2,800c4a5c;800c651c,28,13,as you play.
+TXT-0357,tutorial,パイロットカードはプレイして,0x80014038,2,800c4a58;800c6518,32,15,Find Pilots
+TXT-0358,tutorial,つけることができます。,0x80014058,2,800c4a44;800c6504,24,11,during Custom.
+TXT-0359,tutorial,カスタムフェイズの『装備』で,0x80014070,2,800c4a40;800c6500,32,15,Equip via Gear
+TXT-0360,tutorial,パイロットカードも同じように,0x80014090,2,800c4a3c;800c64fc,32,15,Pilots too.
+TXT-0361,tutorial,装備したカードをはずせます。,0x800140b0,2,800c4a28;800c64e8,32,15,unequip cards.
+TXT-0362,tutorial,また、『取り外し』で,0x800140d0,2,800c4a24;800c64e4,24,11,Use Rmve to
+TXT-0363,tutorial,ゾイドを選択します。,0x800140e8,2,800c4a10;800c64d0,24,11,then the Zoid.
+TXT-0364,tutorial,『装備』でカードを選んでから,0x80014100,2,800c4a0c;800c64cc,32,15,"Gear, a card,"
+TXT-0365,tutorial,カスタムカードをつけるには、,0x80014120,2,800c4a08;800c64c8,32,15,"To equip, pick"
+TXT-0366,tutorial,つけられないので注意！,0x80014140,2,800c49f4;800c64b4,24,11,of each name.
+TXT-0367,tutorial,同じ名前のカードは１枚しか,0x80014158,2,800c49f0;800c64b0,28,13,Equip one copy
+TXT-0368,tutorial,ことができます。,0x80014174,6,800c49dc;800c4acc;800c649c;800c658c;800d1df8;800d1efc,20,9,it can equip.
+TXT-0369,tutorial,数字の数までカードをつける,0x80014188,2,800c49d8;800c6498,28,13,how many cards
+TXT-0370,tutorial,ゾイドのＷＲで書かれている,0x800141a4,2,800c49d4;800c6494,28,13,WR limits
+TXT-0371,tutorial,カードを、ゾイドにとりつけ,0x800141c0,2,800c49bc;800c647c,28,13,on your Zoids.
+TXT-0372,tutorial,このフェイズで、カスタム,0x800141dc,2,800c49b8;800c6478,28,13,Equip Customs
+TXT-0373,tutorial,カスタムフェイズがきます。,0x800141f8,2,800c49a4;800c6464,28,13,in Custom.
+TXT-0374,tutorial,武器を装備することができる,0x80014214,2,800c49a0;800c6460,28,13,equip weapons
+TXT-0375,tutorial,ターンの始めに、ゾイドに,0x80014230,2,800c499c;800c645c,28,13,Start of turn:
+TXT-0376,tutorial,まずはカスタムカードから,0x8001424c,2,800c4988;800c6448,28,13,Customs first.
+TXT-0377,tutorial,できます。,0x80014268,6,800c4974;800c4ae8;800c6434;800c65a8;800d2044;800d241c,12,5,all three.
+TXT-0378,tutorial,の３種類を組みこむことが,0x80014274,2,800c4970;800c6430,28,13,You can mix
+TXT-0379,tutorial,パイロットカード,0x80014290,2,800c495c;800c641c,20,9,Pilot cards.
 TXT-0380,tutorial,イベントカード,0x800142a4,2,800c4958;800c6418,16,7,"Event cards,"
-TXT-0381,tutorial,カスタムカード,0x800142b4,2,800c4954;800c6414,16,7,Custom cards.
-TXT-0382,tutorial,デッキには、,0x800142c4,2,800c4940;800c6400,16,7,Your deck contains
-TXT-0383,tutorial,デッキから、くばられます。,0x800142d4,2,800c492c;800c63ec,28,13,dealt from your deck.
-TXT-0384,tutorial,カードはあらかじめ組んでいた,0x800142f0,2,800c4928;800c63e8,32,15,Cards are dealt from the deck
-TXT-0385,tutorial,カードを７枚に減らします。,0x80014310,2,800c4914;800c63d4,28,13,Reduce your hand to 7 cards.
-TXT-0386,tutorial,持っていた場合、手持ちの,0x8001432c,2,800c4910;800c63d0,28,13,"If you have more than 7,"
-TXT-0387,tutorial,ターンの終わりに８枚以上,0x80014348,2,800c490c;800c63cc,28,13,"at the end of the turn,"
+TXT-0381,tutorial,カスタムカード,0x800142b4,2,800c4954;800c6414,16,7,"Custom cards,"
+TXT-0382,tutorial,デッキには、,0x800142c4,2,800c4940;800c6400,16,7,Decks can hold
+TXT-0383,tutorial,デッキから、くばられます。,0x800142d4,2,800c492c;800c63ec,28,13,prebuilt deck.
+TXT-0384,tutorial,カードはあらかじめ組んでいた,0x800142f0,2,800c4928;800c63e8,32,15,Draw from your
+TXT-0385,tutorial,カードを７枚に減らします。,0x80014310,2,800c4914;800c63d4,28,13,discard to 7.
+TXT-0386,tutorial,持っていた場合、手持ちの,0x8001432c,2,800c4910;800c63d0,28,13,"with 8+ cards,"
+TXT-0387,tutorial,ターンの終わりに８枚以上,0x80014348,2,800c490c;800c63cc,28,13,"At turn end,"
 TXT-0388,tutorial,カードが２枚くばられます。,0x80014364,2,800c48f8;800c63b8,28,13,draw 2 cards.
-TXT-0389,tutorial,ターンの始めにプレイヤーに,0x80014380,2,800c48f4;800c63b4,28,13,"At the start of each turn,"
+TXT-0389,tutorial,ターンの始めにプレイヤーに,0x80014380,2,800c48f4;800c63b4,28,13,"At turn start,"
 TXT-0390,tutorial,次に、カードを使ってみよう。,0x8001439c,2,800c48e0;800c63a0,32,15,"Next, let's use a card."
 TXT-0391,tutorial,使うことができるぞ！,0x800143bc,2,800c4b38;800c65f8,24,11,You can use it!
 TXT-0392,tutorial,ければ、イベントカードを,0x800143d4,2,800c4b34;800c65f4,28,13,"Otherwise, Event cards"
