@@ -317,41 +317,41 @@ TXT-0315,tutorial,P1,inplace,00441c,0x80013c1c,800c45f0,24,11,ブラキオス攻
 TXT-0316,tutorial,P1,inplace,004434,0x80013c34,800c4678,24,11,エンカウントしました。,Enemy encountered.,18,no,draft,table-driven; use pointer redirection
 TXT-0317,tutorial,P1,inplace,00444c,0x80013c4c,800c4674,20,9,スリーパーゾイドに,A Sleeper Zoid...,17,no,draft,table-driven; use pointer redirection
 TXT-0318,tutorial,P1,inplace,004460,0x80013c60,800c46b4,12,5,全機撤退！,"All units, retreat!",19,no,draft,table-driven; use pointer redirection
-TXT-0319,tutorial,P1,inplace,00446c,0x80013c6c,800c479c,12,5,選びます。,select it.,10,no,draft,table-driven; use pointer redirection
-TXT-0320,tutorial,P1,inplace,004478,0x80013c78,800c4798,24,11,移動先と移動後の方向を,the destination and facing,26,no,draft,table-driven; use pointer redirection
-TXT-0321,tutorial,P1,inplace,004490,0x80013c90,800c4794,28,13,移動するには『移動』を選び,"To move, select MOVE",20,no,draft,table-driven; use pointer redirection
+TXT-0319,tutorial,P1,inplace,00446c,0x80013c6c,800c479c,12,5,選びます。,then pick which way to face.,28,no,draft,table-driven; use pointer redirection
+TXT-0320,tutorial,P1,inplace,004478,0x80013c78,800c4798,24,11,移動先と移動後の方向を,"Choose a destination,",21,no,draft,table-driven; use pointer redirection
+TXT-0321,tutorial,P1,inplace,004490,0x80013c90,800c4794,28,13,移動するには『移動』を選び,Select Move.,12,yes,draft,table-driven; use pointer redirection
 TXT-0322,tutorial,P1,inplace,0044ac,0x80013cac,800c4780,28,13,ゾイドを移動させてみよう。,Try moving a Zoid.,18,no,draft,table-driven; use pointer redirection
 TXT-0323,tutorial,P1,inplace,0044c8,0x80013cc8,800c477c,24,11,まずは、敵の領地まで,"First, reach enemy territory.",29,no,draft,table-driven; use pointer redirection
-TXT-0324,tutorial,P1,inplace,0044e0,0x80013ce0,800c4768,24,11,よく考えて動かそう。,Think before you move.,22,no,draft,table-driven; use pointer redirection
-TXT-0325,tutorial,P1,inplace,0044f8,0x80013cf8,800c4764,28,13,出撃順になっているので、,"They are in sortie order, so...",31,no,draft,table-driven; use pointer redirection
-TXT-0326,tutorial,P1,inplace,004514,0x80013d14,800c4760,28,13,行動できるゾイドの順番は,The order in which Zoids act,28,no,draft,table-driven; use pointer redirection
-TXT-0327,tutorial,P1,inplace,004530,0x80013d30,800c474c,24,11,ゾイドを動かせます。,lets you move Zoids.,20,no,draft,table-driven; use pointer redirection
-TXT-0328,tutorial,P1,inplace,004548,0x80013d48,800c4748,28,13,自分のターンがきたときに、,"When your turn comes,",21,no,draft,table-driven; use pointer redirection
-TXT-0329,tutorial,P1,inplace,004564,0x80013d64,800c4744,32,15,行動はターン制になっていて、,"actions are turn-based,",23,no,draft,table-driven; use pointer redirection
-TXT-0330,tutorial,P1,inplace,004584,0x80013d84,800c4730,12,5,みよう。,let's see.,10,no,draft,table-driven; use pointer redirection
-TXT-0331,tutorial,P1,inplace,004590,0x80013d90,800c472c,28,13,まずは、ゾイドを移動させて,"First, try moving a Zoid",24,no,draft,table-driven; use pointer redirection
-TXT-0332,tutorial,P1,inplace,0045ac,0x80013dac,800c4700,20,9,操ってみたまえ。,and controlling it.,19,no,draft,table-driven; use pointer redirection
-TXT-0333,tutorial,P1,inplace,0045c0,0x80013dc0,800c46fc,28,13,指示にしたがい、ゾイドを,Follow the instructions and,27,no,draft,table-driven; use pointer redirection
+TXT-0324,tutorial,P1,inplace,0044e0,0x80013ce0,800c4768,24,11,よく考えて動かそう。,Plan your moves accordingly.,28,no,draft,table-driven; use pointer redirection
+TXT-0325,tutorial,P1,inplace,0044f8,0x80013cf8,800c4764,28,13,出撃順になっているので、,in the order they deployed.,27,no,draft,table-driven; use pointer redirection
+TXT-0326,tutorial,P1,inplace,004514,0x80013d14,800c4760,28,13,行動できるゾイドの順番は,Your Zoids act,14,no,draft,table-driven; use pointer redirection
+TXT-0327,tutorial,P1,inplace,004530,0x80013d30,800c474c,24,11,ゾイドを動かせます。,on your own turn.,17,no,draft,table-driven; use pointer redirection
+TXT-0328,tutorial,P1,inplace,004548,0x80013d48,800c4748,28,13,自分のターンがきたときに、,You can move Zoids,18,no,draft,table-driven; use pointer redirection
+TXT-0329,tutorial,P1,inplace,004564,0x80013d64,800c4744,32,15,行動はターン制になっていて、,Both sides take turns.,22,no,draft,table-driven; use pointer redirection
+TXT-0330,tutorial,P1,inplace,004584,0x80013d84,800c4730,12,5,みよう。,to learn the controls.,22,no,draft,table-driven; use pointer redirection
+TXT-0331,tutorial,P1,inplace,004590,0x80013d90,800c472c,28,13,まずは、ゾイドを移動させて,"First, move a Zoid",18,no,draft,table-driven; use pointer redirection
+TXT-0332,tutorial,P1,inplace,0045ac,0x80013dac,800c4700,20,9,操ってみたまえ。,to control your Zoids.,22,no,draft,table-driven; use pointer redirection
+TXT-0333,tutorial,P1,inplace,0045c0,0x80013dc0,800c46fc,28,13,指示にしたがい、ゾイドを,Follow the instructions,23,no,draft,table-driven; use pointer redirection
 TXT-0334,tutorial,P1,inplace,0045dc,0x80013ddc,800c46f8,24,11,では、演習をはじめる。,"Now, let's begin the drill.",27,no,draft,table-driven; use pointer redirection
-TXT-0335,tutorial,P1,inplace,0045f4,0x80013df4,800c48a4,20,9,こともできます。,You can also do that.,21,no,draft,table-driven; use pointer redirection
-TXT-0336,tutorial,P1,inplace,004608,0x80013e08,800c48a0,28,13,『修復』でＨＰを回復する,Use REPAIR to restore HP,24,no,draft,table-driven; use pointer redirection
-TXT-0337,tutorial,P1,inplace,004624,0x80013e24,800c489c,32,15,なお、移動も戦闘もしない場合,"If you neither move nor fight,",30,no,draft,table-driven; use pointer redirection
-TXT-0338,tutorial,P1,inplace,004644,0x80013e44,800c4888,20,9,攻撃をしてみよう！,try attacking!,14,no,draft,table-driven; use pointer redirection
-TXT-0339,tutorial,P1,inplace,004658,0x80013e58,800c4884,28,13,移動して、『攻撃』を選んで,"Move, then select ATTACK",24,no,draft,table-driven; use pointer redirection
-TXT-0340,tutorial,P1,inplace,004674,0x80013e74,800c4880,32,15,敵ゾイドが射程内に入るように,so the enemy Zoid is in range.,30,no,draft,table-driven; use pointer redirection
-TXT-0341,tutorial,P1,inplace,004694,0x80013e94,800c486c,20,9,ひとつの手です。,That's one option.,18,no,draft,table-driven; use pointer redirection
-TXT-0342,tutorial,P1,inplace,0046a8,0x80013ea8,800c4868,28,13,相手をさそいこんで倒すのも,Luring the enemy in to defeat them,34,no,draft,table-driven; use pointer redirection
-TXT-0343,tutorial,P1,inplace,0046c4,0x80013ec4,800c4854,28,13,地形適性などで変わります。,varies with terrain aptitude.,29,no,draft,table-driven; use pointer redirection
-TXT-0344,tutorial,P1,inplace,0046e0,0x80013ee0,800c4850,28,13,また、命中率は相手ゾイドの,"Also, hit chance depends on the",31,no,draft,table-driven; use pointer redirection
-TXT-0345,tutorial,P1,inplace,0046fc,0x80013efc,800c483c,12,5,なります。,enemy Zoid.,11,no,draft,table-driven; use pointer redirection
-TXT-0346,tutorial,P1,inplace,004708,0x80013f08,800c4838,24,11,自分側が反撃することに,Your side will counterattack,28,no,draft,table-driven; use pointer redirection
-TXT-0347,tutorial,P1,inplace,004720,0x80013f20,800c4834,28,13,もちろん、攻撃されたときは,"Of course, when attacked,",25,no,draft,table-driven; use pointer redirection
-TXT-0348,tutorial,P1,inplace,00473c,0x80013f3c,800c4820,32,15,反撃されることはありません。,you will not be counterattacked.,32,no,draft,table-driven; use pointer redirection
-TXT-0349,tutorial,P1,inplace,00475c,0x80013f5c,800c481c,32,15,相手の射程の外からねらえば、,"If you attack from outside range,",33,no,draft,table-driven; use pointer redirection
-TXT-0350,tutorial,P1,inplace,00477c,0x80013f7c,800c4808,28,13,必ず格闘攻撃になります。,it becomes a melee attack.,26,no,draft,table-driven; use pointer redirection
-TXT-0351,tutorial,P1,inplace,004798,0x80013f98,800c4804,24,11,となりにいるゾイドには,Zoids adjacent to you have,26,no,draft,table-driven; use pointer redirection
-TXT-0352,tutorial,P1,inplace,0047b0,0x80013fb0,800c47f0,28,13,２種類の攻撃があります。,two types of attack.,20,no,draft,table-driven; use pointer redirection
-TXT-0353,tutorial,P1,inplace,0047cc,0x80013fcc,800c47ec,24,11,ゾイドには射撃と格闘の,Zoids have ranged and melee,27,no,draft,table-driven; use pointer redirection
+TXT-0335,tutorial,P1,inplace,0045f4,0x80013df4,800c48a4,20,9,こともできます。,to restore HP.,14,no,draft,table-driven; use pointer redirection
+TXT-0336,tutorial,P1,inplace,004608,0x80013e08,800c48a0,28,13,『修復』でＨＰを回復する,you can use Fix,15,no,draft,table-driven; use pointer redirection
+TXT-0337,tutorial,P1,inplace,004624,0x80013e24,800c489c,32,15,なお、移動も戦闘もしない場合,"If you stay put and don't attack,",33,no,draft,table-driven; use pointer redirection
+TXT-0338,tutorial,P1,inplace,004644,0x80013e44,800c4888,20,9,攻撃をしてみよう！,to strike.,10,no,draft,table-driven; use pointer redirection
+TXT-0339,tutorial,P1,inplace,004658,0x80013e58,800c4884,28,13,移動して、『攻撃』を選んで,Then select Attack,18,no,draft,table-driven; use pointer redirection
+TXT-0340,tutorial,P1,inplace,004674,0x80013e74,800c4880,32,15,敵ゾイドが射程内に入るように,Move until an enemy is in range.,32,no,draft,table-driven; use pointer redirection
+TXT-0341,tutorial,P1,inplace,004694,0x80013e94,800c486c,20,9,ひとつの手です。,and finish it off.,18,no,draft,table-driven; use pointer redirection
+TXT-0342,tutorial,P1,inplace,0046a8,0x80013ea8,800c4868,28,13,相手をさそいこんで倒すのも,You can also lure the enemy closer,34,no,draft,table-driven; use pointer redirection
+TXT-0343,tutorial,P1,inplace,0046c4,0x80013ec4,800c4854,28,13,地形適性などで変わります。,can affect your aim.,20,no,draft,table-driven; use pointer redirection
+TXT-0344,tutorial,P1,inplace,0046e0,0x80013ee0,800c4850,28,13,また、命中率は相手ゾイドの,The target's terrain aptitude,29,no,draft,table-driven; use pointer redirection
+TXT-0345,tutorial,P1,inplace,0046fc,0x80013efc,800c483c,12,5,なります。,if the enemy is in range.,25,no,draft,table-driven; use pointer redirection
+TXT-0346,tutorial,P1,inplace,004708,0x80013f08,800c4838,24,11,自分側が反撃することに,your Zoid can hit back,22,no,draft,table-driven; use pointer redirection
+TXT-0347,tutorial,P1,inplace,004720,0x80013f20,800c4834,28,13,もちろん、攻撃されたときは,"When the enemy attacks,",23,no,draft,table-driven; use pointer redirection
+TXT-0348,tutorial,P1,inplace,00473c,0x80013f3c,800c4820,32,15,反撃されることはありません。,the enemy can't hit back.,25,no,draft,table-driven; use pointer redirection
+TXT-0349,tutorial,P1,inplace,00475c,0x80013f5c,800c481c,32,15,相手の射程の外からねらえば、,Attack from outside its range and,33,no,draft,table-driven; use pointer redirection
+TXT-0350,tutorial,P1,inplace,00477c,0x80013f7c,800c4808,28,13,必ず格闘攻撃になります。,always use melee.,17,no,draft,table-driven; use pointer redirection
+TXT-0351,tutorial,P1,inplace,004798,0x80013f98,800c4804,24,11,となりにいるゾイドには,Attacks on adjacent Zoids,25,no,draft,table-driven; use pointer redirection
+TXT-0352,tutorial,P1,inplace,0047b0,0x80013fb0,800c47f0,28,13,２種類の攻撃があります。,and melee attacks.,18,no,draft,table-driven; use pointer redirection
+TXT-0353,tutorial,P1,inplace,0047cc,0x80013fcc,800c47ec,24,11,ゾイドには射撃と格闘の,Zoids use ranged attacks,24,no,draft,table-driven; use pointer redirection
 TXT-0354,tutorial,P1,inplace,0047e4,0x80013fe4,800c47d8,28,13,次は、戦闘をしてみよう。,"Next, let's try combat.",23,no,draft,table-driven; use pointer redirection
 TXT-0355,tutorial,P1,inplace,004800,0x80014000,800c4a60,28,13,手に入ったら使ってみよう！,Use them once you get them!,27,no,draft,table-driven; use pointer redirection
 TXT-0356,tutorial,P1,inplace,00481c,0x8001401c,800c4a5c,28,13,いるうちに手にはいるので、,"You can obtain them as you play,",32,no,draft,table-driven; use pointer redirection

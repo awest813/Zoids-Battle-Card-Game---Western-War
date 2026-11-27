@@ -4146,7 +4146,7 @@ ptr_addrs = ["0x800c479c", "0x800c625c"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "select it."
+en = "then pick which way to face."
 note = "tutorial inplace max=5"
 
 [[entry]]
@@ -4159,7 +4159,7 @@ ptr_addrs = ["0x800c4798", "0x800c6258"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "the destination and facing"
+en = "Choose a destination,"
 note = "tutorial inplace max=11"
 
 [[entry]]
@@ -4172,7 +4172,7 @@ ptr_addrs = ["0x800c4794", "0x800c6254"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "To move, select MOVE"
+en = "Select Move."
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4211,7 +4211,7 @@ ptr_addrs = ["0x800c4768", "0x800c6228"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Think before you move."
+en = "Plan your moves accordingly."
 note = "tutorial inplace max=11"
 
 [[entry]]
@@ -4224,7 +4224,7 @@ ptr_addrs = ["0x800c4764", "0x800c6224"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "They are in sortie order, so..."
+en = "in the order they deployed."
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4237,7 +4237,7 @@ ptr_addrs = ["0x800c4760", "0x800c6220"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "The order in which Zoids act"
+en = "Your Zoids act"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4250,7 +4250,7 @@ ptr_addrs = ["0x800c474c", "0x800c620c"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "lets you move Zoids."
+en = "on your own turn."
 note = "tutorial inplace max=11"
 
 [[entry]]
@@ -4263,7 +4263,7 @@ ptr_addrs = ["0x800c4748", "0x800c6208"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "When your turn comes,"
+en = "You can move Zoids"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4276,7 +4276,7 @@ ptr_addrs = ["0x800c4744", "0x800c6204"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "actions are turn-based,"
+en = "Both sides take turns."
 note = "tutorial inplace max=15"
 
 [[entry]]
@@ -4289,7 +4289,7 @@ ptr_addrs = ["0x800c4730", "0x800c61f0"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "let's see."
+en = "to learn the controls."
 note = "tutorial inplace max=5"
 
 [[entry]]
@@ -4302,7 +4302,7 @@ ptr_addrs = ["0x800c472c", "0x800c61ec"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "First, try moving a Zoid"
+en = "First, move a Zoid"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4315,7 +4315,7 @@ ptr_addrs = ["0x800c4700"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "and controlling it."
+en = "to control your Zoids."
 note = "tutorial inplace max=9"
 
 [[entry]]
@@ -4328,7 +4328,7 @@ ptr_addrs = ["0x800c46fc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Follow the instructions and"
+en = "Follow the instructions"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4354,7 +4354,7 @@ ptr_addrs = ["0x800c48a4", "0x800c6364"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "You can also do that."
+en = "to restore HP."
 note = "tutorial inplace max=9"
 
 [[entry]]
@@ -4367,7 +4367,7 @@ ptr_addrs = ["0x800c48a0", "0x800c6360"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Use REPAIR to restore HP"
+en = "you can use Fix"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4380,7 +4380,7 @@ ptr_addrs = ["0x800c489c", "0x800c635c"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "If you neither move nor fight,"
+en = "If you stay put and don't attack,"
 note = "tutorial inplace max=15"
 
 [[entry]]
@@ -4393,7 +4393,7 @@ ptr_addrs = ["0x800c4888", "0x800c6348"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "try attacking!"
+en = "to strike."
 note = "tutorial inplace max=9"
 
 [[entry]]
@@ -4406,7 +4406,7 @@ ptr_addrs = ["0x800c4884", "0x800c6344"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Move, then select ATTACK"
+en = "Then select Attack"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4419,7 +4419,7 @@ ptr_addrs = ["0x800c4880", "0x800c6340"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "so the enemy Zoid is in range."
+en = "Move until an enemy is in range."
 note = "tutorial inplace max=15"
 
 [[entry]]
@@ -4432,7 +4432,7 @@ ptr_addrs = ["0x800c486c", "0x800c632c"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "That's one option."
+en = "and finish it off."
 note = "tutorial inplace max=9"
 
 [[entry]]
@@ -4445,7 +4445,7 @@ ptr_addrs = ["0x800c4868", "0x800c6328"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Luring the enemy in to defeat them"
+en = "You can also lure the enemy closer"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4458,7 +4458,7 @@ ptr_addrs = ["0x800c4854", "0x800c6314"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "varies with terrain aptitude."
+en = "can affect your aim."
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4471,7 +4471,7 @@ ptr_addrs = ["0x800c4850", "0x800c6310"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Also, hit chance depends on the"
+en = "The target's terrain aptitude"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4484,7 +4484,7 @@ ptr_addrs = ["0x800c483c", "0x800c62fc", "0x800caae8", "0x800ce208"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "enemy Zoid."
+en = "if the enemy is in range."
 note = "tutorial inplace max=5"
 
 [[entry]]
@@ -4497,7 +4497,7 @@ ptr_addrs = ["0x800c4838", "0x800c62f8"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Your side will counterattack"
+en = "your Zoid can hit back"
 note = "tutorial inplace max=11"
 
 [[entry]]
@@ -4510,7 +4510,7 @@ ptr_addrs = ["0x800c4834", "0x800c62f4"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Of course, when attacked,"
+en = "When the enemy attacks,"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4523,7 +4523,7 @@ ptr_addrs = ["0x800c4820", "0x800c62e0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "you will not be counterattacked."
+en = "the enemy can't hit back."
 note = "tutorial inplace max=15"
 
 [[entry]]
@@ -4536,7 +4536,7 @@ ptr_addrs = ["0x800c481c", "0x800c62dc"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "If you attack from outside range,"
+en = "Attack from outside its range and"
 note = "tutorial inplace max=15"
 
 [[entry]]
@@ -4549,7 +4549,7 @@ ptr_addrs = ["0x800c4808", "0x800c62c8"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "it becomes a melee attack."
+en = "always use melee."
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4562,7 +4562,7 @@ ptr_addrs = ["0x800c4804", "0x800c62c4"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Zoids adjacent to you have"
+en = "Attacks on adjacent Zoids"
 note = "tutorial inplace max=11"
 
 [[entry]]
@@ -4575,7 +4575,7 @@ ptr_addrs = ["0x800c47f0", "0x800c62b0"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "two types of attack."
+en = "and melee attacks."
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4588,7 +4588,7 @@ ptr_addrs = ["0x800c47ec", "0x800c62ac"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Zoids have ranged and melee"
+en = "Zoids use ranged attacks"
 note = "tutorial inplace max=11"
 
 [[entry]]
