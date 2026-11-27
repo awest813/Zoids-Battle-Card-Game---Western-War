@@ -26,6 +26,8 @@ The launcher uses the REFERENCE build as input and stages the executable, config
 
 Use the in-game memory-card save to move between Japanese and English. Emulator savestates record RAM geometry, so a 2 MiB state from an older English build or the Japanese launch cannot load in the current 8 MiB English runtime. Start from a fresh boot when the translation tables change between test runs.
 
+Use a native memory-card save when checking baked UI during a replay. This runtime writes texture tracking sidecars for Beetle packs. With this project's DuckStation pack, loading an emulator checkpoint restores the original artwork for textures that the game has yet to upload again. A same-session Stage 2 checkpoint reproduced this on the phase heading and hand thumbnails.
+
 To test the original UI, launch with `-Lang jp`. To test English without the texture pack, add `-NoTextures`. To collect more OpenGL textures, use `-TextureDump`. The dump and replacement folders live under `work/localization-textures/SLPS-03255/`.
 
 ```powershell
