@@ -4783,7 +4783,7 @@ ptr_addrs = ["0x800c49dc", "0x800c4acc", "0x800c649c", "0x800c658c", "0x800d1df8
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "it can equip."
+en = "are usable."
 note = "tutorial inplace max=9"
 
 [[entry]]
@@ -4796,7 +4796,7 @@ ptr_addrs = ["0x800c49d8", "0x800c6498"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "how many cards"
+en = "many cards"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4809,7 +4809,7 @@ ptr_addrs = ["0x800c49d4", "0x800c6494"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "WR limits"
+en = "WR limits how"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -4900,7 +4900,7 @@ ptr_addrs = ["0x800c4974", "0x800c4ae8", "0x800c6434", "0x800c65a8", "0x800d2044
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "all three."
+en = "can be played."
 note = "tutorial inplace max=5"
 
 [[entry]]
@@ -4913,7 +4913,7 @@ ptr_addrs = ["0x800c4970", "0x800c6430"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "You can mix"
+en = "All three"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -5082,7 +5082,7 @@ ptr_addrs = ["0x800c4b38", "0x800c65f8"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "You can use it!"
+en = "play an Event."
 note = "tutorial inplace max=11"
 
 [[entry]]
@@ -5095,7 +5095,7 @@ ptr_addrs = ["0x800c4b34", "0x800c65f4"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Otherwise, Event cards"
+en = "play first,"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -5108,7 +5108,7 @@ ptr_addrs = ["0x800c4b30", "0x800c65f0"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "if the opponent doesn't play a card"
+en = "If foes don't"
 note = "tutorial inplace max=13"
 
 [[entry]]
@@ -5121,7 +5121,7 @@ ptr_addrs = ["0x800c4b1c", "0x800c65dc"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Press the △ button!"
+en = "Press Triangle"
 note = "story inplace max=9"
 
 [[entry]]
@@ -5134,7 +5134,7 @@ ptr_addrs = ["0x800c4b18", "0x800c65d8"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "On the enemy turn,"
+en = "On enemy turn:"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5147,7 +5147,7 @@ ptr_addrs = ["0x800c4b04", "0x800c65c4"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "select it."
+en = "pick the card."
 note = "story inplace max=7"
 
 [[entry]]
@@ -5160,7 +5160,7 @@ ptr_addrs = ["0x800c4b00", "0x800c65c0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Choose HAND, then the card."
+en = "open Hand and"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5173,7 +5173,7 @@ ptr_addrs = ["0x800c4afc", "0x800c65bc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "To use an Event Card,"
+en = "To play one,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -5186,7 +5186,7 @@ ptr_addrs = ["0x800c4ae4", "0x800c65a4"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "you can use up to three"
+en = "up to 3 Events"
 note = "story inplace max=13"
 
 [[entry]]
@@ -5199,7 +5199,7 @@ ptr_addrs = ["0x800c4ae0", "0x800c65a0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "on each turn."
+en = "On either turn"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5212,7 +5212,7 @@ ptr_addrs = ["0x800c4ac8", "0x800c6588"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Event Cards work anytime."
+en = "At any time, Event cards"
 note = "story inplace max=15"
 
 [[entry]]
@@ -5225,7 +5225,7 @@ ptr_addrs = ["0x800c4ab4", "0x800c6574"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "They give you a big edge!"
+en = "give an edge."
 note = "story inplace max=11"
 
 [[entry]]
@@ -5238,7 +5238,7 @@ ptr_addrs = ["0x800c4ab0", "0x800c6570"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Event Cards make battle"
+en = "Event cards"
 note = "story inplace max=13"
 
 [[entry]]
@@ -5251,7 +5251,7 @@ ptr_addrs = ["0x800c4a9c", "0x800c655c"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Next is the Event Card."
+en = "Next, Events."
 note = "story inplace max=15"
 
 [[entry]]

@@ -366,17 +366,17 @@ TXT-0364,tutorial,P1,inplace,004900,0x80014100,800c4a0c,32,15,『装備』でカ
 TXT-0365,tutorial,P1,inplace,004920,0x80014120,800c4a08,32,15,カスタムカードをつけるには、,"To equip, pick",14,yes,draft,table-driven; use pointer redirection
 TXT-0366,tutorial,P1,inplace,004940,0x80014140,800c49f4,24,11,つけられないので注意！,of each name.,13,no,draft,table-driven; use pointer redirection
 TXT-0367,tutorial,P1,inplace,004958,0x80014158,800c49f0,28,13,同じ名前のカードは１枚しか,Equip one copy,14,no,draft,table-driven; use pointer redirection
-TXT-0368,tutorial,P1,inplace,004974,0x80014174,800c49dc,20,9,ことができます。,it can equip.,13,no,draft,table-driven; use pointer redirection
-TXT-0369,tutorial,P1,inplace,004988,0x80014188,800c49d8,28,13,数字の数までカードをつける,how many cards,14,no,draft,table-driven; use pointer redirection
-TXT-0370,tutorial,P1,inplace,0049a4,0x800141a4,800c49d4,28,13,ゾイドのＷＲで書かれている,WR limits,9,yes,draft,table-driven; use pointer redirection
+TXT-0368,tutorial,P1,inplace,004974,0x80014174,800c49dc,20,9,ことができます。,are usable.,11,no,draft,table-driven; use pointer redirection
+TXT-0369,tutorial,P1,inplace,004988,0x80014188,800c49d8,28,13,数字の数までカードをつける,many cards,10,yes,draft,table-driven; use pointer redirection
+TXT-0370,tutorial,P1,inplace,0049a4,0x800141a4,800c49d4,28,13,ゾイドのＷＲで書かれている,WR limits how,13,yes,draft,table-driven; use pointer redirection
 TXT-0371,tutorial,P1,inplace,0049c0,0x800141c0,800c49bc,28,13,カードを、ゾイドにとりつけ,on your Zoids.,14,no,draft,table-driven; use pointer redirection
 TXT-0372,tutorial,P1,inplace,0049dc,0x800141dc,800c49b8,28,13,このフェイズで、カスタム,Equip Customs,13,yes,draft,table-driven; use pointer redirection
 TXT-0373,tutorial,P1,inplace,0049f8,0x800141f8,800c49a4,28,13,カスタムフェイズがきます。,in Custom.,10,yes,draft,table-driven; use pointer redirection
 TXT-0374,tutorial,P1,inplace,004a14,0x80014214,800c49a0,28,13,武器を装備することができる,equip weapons,13,yes,draft,table-driven; use pointer redirection
 TXT-0375,tutorial,P1,inplace,004a30,0x80014230,800c499c,28,13,ターンの始めに、ゾイドに,Start of turn:,14,no,draft,table-driven; use pointer redirection
 TXT-0376,tutorial,P1,inplace,004a4c,0x8001424c,800c4988,28,13,まずはカスタムカードから,Customs first.,14,no,draft,table-driven; use pointer redirection
-TXT-0377,tutorial,P1,inplace,004a68,0x80014268,800c4974,12,5,できます。,all three.,10,no,draft,table-driven; use pointer redirection
-TXT-0378,tutorial,P1,inplace,004a74,0x80014274,800c4970,28,13,の３種類を組みこむことが,You can mix,11,yes,draft,table-driven; use pointer redirection
+TXT-0377,tutorial,P1,inplace,004a68,0x80014268,800c4974,12,5,できます。,can be played.,14,no,draft,table-driven; use pointer redirection
+TXT-0378,tutorial,P1,inplace,004a74,0x80014274,800c4970,28,13,の３種類を組みこむことが,All three,9,yes,draft,table-driven; use pointer redirection
 TXT-0379,tutorial,P1,inplace,004a90,0x80014290,800c495c,20,9,パイロットカード,Pilot cards.,12,no,draft,table-driven; use pointer redirection
 TXT-0380,tutorial,P1,inplace,004aa4,0x800142a4,800c4958,16,7,イベントカード,"Event cards,",12,no,draft,table-driven; use pointer redirection
 TXT-0381,tutorial,P1,inplace,004ab4,0x800142b4,800c4954,16,7,カスタムカード,"Custom cards,",13,no,draft,table-driven; use pointer redirection
@@ -389,20 +389,20 @@ TXT-0387,tutorial,P1,inplace,004b48,0x80014348,800c490c,28,13,ターンの終わ
 TXT-0388,tutorial,P1,inplace,004b64,0x80014364,800c48f8,28,13,カードが２枚くばられます。,draw 2 cards.,13,yes,draft,table-driven; use pointer redirection
 TXT-0389,tutorial,P1,inplace,004b80,0x80014380,800c48f4,28,13,ターンの始めにプレイヤーに,"At turn start,",14,no,draft,table-driven; use pointer redirection
 TXT-0390,tutorial,P1,inplace,004b9c,0x8001439c,800c48e0,32,15,次に、カードを使ってみよう。,"Next, let's use a card.",23,no,draft,table-driven; use pointer redirection
-TXT-0391,tutorial,P1,inplace,004bbc,0x800143bc,800c4b38,24,11,使うことができるぞ！,You can use it!,15,no,draft,table-driven; use pointer redirection
-TXT-0392,tutorial,P1,inplace,004bd4,0x800143d4,800c4b34,28,13,ければ、イベントカードを,"Otherwise, Event cards",22,no,draft,table-driven; use pointer redirection
-TXT-0393,tutorial,P1,inplace,004bf0,0x800143f0,800c4b30,28,13,相手が先にカードを使わな,if the opponent doesn't play a card,35,no,draft,table-driven; use pointer redirection
-TXT-0394,story,P1,inplace,004c0c,0x8001440c,800c4b1c,20,9,△ボタンを押そう！,Press the △ button!,19,no,draft,table-driven; use pointer redirection
-TXT-0395,story,P1,inplace,004c20,0x80014420,800c4b18,32,15,相手のターンで使いたいときは,"On the enemy turn,",18,no,draft,table-driven; use pointer redirection
-TXT-0396,story,P1,inplace,004c40,0x80014440,800c4b04,16,7,選択します。,select it.,10,no,draft,table-driven; use pointer redirection
-TXT-0397,story,P1,inplace,004c50,0x80014450,800c4b00,32,15,『手札』を選んでからカードを,"Choose HAND, then the card.",27,no,draft,table-driven; use pointer redirection
-TXT-0398,story,P1,inplace,004c70,0x80014470,800c4afc,28,13,イベントカードを使うには,"To use an Event Card,",21,no,draft,table-driven; use pointer redirection
-TXT-0399,story,P1,inplace,004c8c,0x8001448c,800c4ae4,28,13,それぞれ３枚まで使うことが,you can use up to three,23,no,draft,table-driven; use pointer redirection
-TXT-0400,story,P1,inplace,004ca8,0x800144a8,800c4ae0,32,15,自分のターン、相手のターンで,on each turn.,13,yes,draft,table-driven; use pointer redirection
-TXT-0401,story,P1,inplace,004cc8,0x800144c8,800c4ac8,32,15,イベントカードはいつでも使う,Event Cards work anytime.,25,no,draft,table-driven; use pointer redirection
-TXT-0402,story,P1,inplace,004ce8,0x800144e8,800c4ab4,24,11,さらに有利にします！,They give you a big edge!,25,no,draft,table-driven; use pointer redirection
-TXT-0403,story,P1,inplace,004d00,0x80014500,800c4ab0,28,13,イベントカードはバトルを,Event Cards make battle,23,no,draft,table-driven; use pointer redirection
-TXT-0404,story,P1,inplace,004d1c,0x8001451c,800c4a9c,32,15,次のカードはイベントカード。,Next is the Event Card.,23,no,draft,table-driven; use pointer redirection
+TXT-0391,tutorial,P1,inplace,004bbc,0x800143bc,800c4b38,24,11,使うことができるぞ！,play an Event.,14,no,draft,table-driven; use pointer redirection
+TXT-0392,tutorial,P1,inplace,004bd4,0x800143d4,800c4b34,28,13,ければ、イベントカードを,"play first,",11,yes,draft,table-driven; use pointer redirection
+TXT-0393,tutorial,P1,inplace,004bf0,0x800143f0,800c4b30,28,13,相手が先にカードを使わな,If foes don't,13,yes,draft,table-driven; use pointer redirection
+TXT-0394,story,P1,inplace,004c0c,0x8001440c,800c4b1c,20,9,△ボタンを押そう！,Press Triangle,14,no,draft,table-driven; use pointer redirection
+TXT-0395,story,P1,inplace,004c20,0x80014420,800c4b18,32,15,相手のターンで使いたいときは,On enemy turn:,14,yes,draft,table-driven; use pointer redirection
+TXT-0396,story,P1,inplace,004c40,0x80014440,800c4b04,16,7,選択します。,pick the card.,14,no,draft,table-driven; use pointer redirection
+TXT-0397,story,P1,inplace,004c50,0x80014450,800c4b00,32,15,『手札』を選んでからカードを,open Hand and,13,yes,draft,table-driven; use pointer redirection
+TXT-0398,story,P1,inplace,004c70,0x80014470,800c4afc,28,13,イベントカードを使うには,"To play one,",12,yes,draft,table-driven; use pointer redirection
+TXT-0399,story,P1,inplace,004c8c,0x8001448c,800c4ae4,28,13,それぞれ３枚まで使うことが,up to 3 Events,14,no,draft,table-driven; use pointer redirection
+TXT-0400,story,P1,inplace,004ca8,0x800144a8,800c4ae0,32,15,自分のターン、相手のターンで,On either turn,14,yes,draft,table-driven; use pointer redirection
+TXT-0401,story,P1,inplace,004cc8,0x800144c8,800c4ac8,32,15,イベントカードはいつでも使う,"At any time, Event cards",24,no,draft,table-driven; use pointer redirection
+TXT-0402,story,P1,inplace,004ce8,0x800144e8,800c4ab4,24,11,さらに有利にします！,give an edge.,13,no,draft,table-driven; use pointer redirection
+TXT-0403,story,P1,inplace,004d00,0x80014500,800c4ab0,28,13,イベントカードはバトルを,Event cards,11,yes,draft,table-driven; use pointer redirection
+TXT-0404,story,P1,inplace,004d1c,0x8001451c,800c4a9c,32,15,次のカードはイベントカード。,"Next, Events.",13,yes,draft,table-driven; use pointer redirection
 TXT-0405,story,P1,inplace,004d3c,0x8001453c,800c4b78,32,15,実戦でもこうあってほしいもの,I hope real battle is like this.,32,no,draft,table-driven; use pointer redirection
 TXT-0406,story,P1,inplace,004d5c,0x8001455c,800c4b74,20,9,なかなかのものだ。,Not bad at all.,15,no,draft,table-driven; use pointer redirection
 TXT-0407,story,P1,inplace,004d70,0x80014570,800c4bd4,32,15,敵はデッキを持っていません。,The enemy has no deck.,22,no,draft,table-driven; use pointer redirection

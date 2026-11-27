@@ -366,17 +366,17 @@ TXT-0364,004900,80014100,29,14,tutorial,inplace,2,800c4a0c,32,15,31,P1,translate
 TXT-0365,004920,80014120,29,14,tutorial,inplace,2,800c4a08,32,15,31,P1,translated,カスタムカードをつけるには、,"To equip, pick",2 pointer(s); pointer redirection
 TXT-0366,004940,80014140,23,11,tutorial,inplace,2,800c49f4,24,11,23,P1,translated,つけられないので注意！,of each name.,2 pointer(s); pointer redirection
 TXT-0367,004958,80014158,27,13,tutorial,inplace,2,800c49f0,28,13,27,P1,translated,同じ名前のカードは１枚しか,Equip one copy,2 pointer(s); pointer redirection
-TXT-0368,004974,80014174,17,8,tutorial,inplace,6,800c49dc,20,9,19,P1,translated,ことができます。,it can equip.,6 pointer(s); pointer redirection
-TXT-0369,004988,80014188,27,13,tutorial,inplace,2,800c49d8,28,13,27,P1,translated,数字の数までカードをつける,how many cards,2 pointer(s); pointer redirection
-TXT-0370,0049a4,800141a4,27,13,tutorial,inplace,2,800c49d4,28,13,27,P1,translated,ゾイドのＷＲで書かれている,WR limits,2 pointer(s); pointer redirection
+TXT-0368,004974,80014174,17,8,tutorial,inplace,6,800c49dc,20,9,19,P1,translated,ことができます。,are usable.,6 pointer(s); pointer redirection
+TXT-0369,004988,80014188,27,13,tutorial,inplace,2,800c49d8,28,13,27,P1,translated,数字の数までカードをつける,many cards,2 pointer(s); pointer redirection
+TXT-0370,0049a4,800141a4,27,13,tutorial,inplace,2,800c49d4,28,13,27,P1,translated,ゾイドのＷＲで書かれている,WR limits how,2 pointer(s); pointer redirection
 TXT-0371,0049c0,800141c0,27,13,tutorial,inplace,2,800c49bc,28,13,27,P1,translated,カードを、ゾイドにとりつけ,on your Zoids.,2 pointer(s); pointer redirection
 TXT-0372,0049dc,800141dc,25,12,tutorial,inplace,2,800c49b8,28,13,27,P1,translated,このフェイズで、カスタム,Equip Customs,2 pointer(s); pointer redirection
 TXT-0373,0049f8,800141f8,27,13,tutorial,inplace,2,800c49a4,28,13,27,P1,translated,カスタムフェイズがきます。,in Custom.,2 pointer(s); pointer redirection
 TXT-0374,004a14,80014214,27,13,tutorial,inplace,2,800c49a0,28,13,27,P1,translated,武器を装備することができる,equip weapons,2 pointer(s); pointer redirection
 TXT-0375,004a30,80014230,25,12,tutorial,inplace,2,800c499c,28,13,27,P1,translated,ターンの始めに、ゾイドに,Start of turn:,2 pointer(s); pointer redirection
 TXT-0376,004a4c,8001424c,25,12,tutorial,inplace,2,800c4988,28,13,27,P1,translated,まずはカスタムカードから,Customs first.,2 pointer(s); pointer redirection
-TXT-0377,004a68,80014268,11,5,tutorial,inplace,6,800c4974,12,5,11,P1,translated,できます。,all three.,6 pointer(s); pointer redirection
-TXT-0378,004a74,80014274,25,12,tutorial,inplace,2,800c4970,28,13,27,P1,translated,の３種類を組みこむことが,You can mix,2 pointer(s); pointer redirection
+TXT-0377,004a68,80014268,11,5,tutorial,inplace,6,800c4974,12,5,11,P1,translated,できます。,can be played.,6 pointer(s); pointer redirection
+TXT-0378,004a74,80014274,25,12,tutorial,inplace,2,800c4970,28,13,27,P1,translated,の３種類を組みこむことが,All three,2 pointer(s); pointer redirection
 TXT-0379,004a90,80014290,17,8,tutorial,inplace,2,800c495c,20,9,19,P1,translated,パイロットカード,Pilot cards.,2 pointer(s); pointer redirection
 TXT-0380,004aa4,800142a4,15,7,tutorial,inplace,2,800c4958,16,7,15,P1,translated,イベントカード,"Event cards,",2 pointer(s); pointer redirection
 TXT-0381,004ab4,800142b4,15,7,tutorial,inplace,2,800c4954,16,7,15,P1,translated,カスタムカード,"Custom cards,",2 pointer(s); pointer redirection
@@ -389,20 +389,20 @@ TXT-0387,004b48,80014348,25,12,tutorial,inplace,2,800c490c,28,13,27,P1,translate
 TXT-0388,004b64,80014364,27,13,tutorial,inplace,2,800c48f8,28,13,27,P1,translated,カードが２枚くばられます。,draw 2 cards.,2 pointer(s); pointer redirection
 TXT-0389,004b80,80014380,27,13,tutorial,inplace,2,800c48f4,28,13,27,P1,translated,ターンの始めにプレイヤーに,"At turn start,",2 pointer(s); pointer redirection
 TXT-0390,004b9c,8001439c,29,14,tutorial,inplace,2,800c48e0,32,15,31,P1,translated,次に、カードを使ってみよう。,"Next, let's use a card.",2 pointer(s); pointer redirection
-TXT-0391,004bbc,800143bc,21,10,tutorial,inplace,2,800c4b38,24,11,23,P1,translated,使うことができるぞ！,You can use it!,2 pointer(s); pointer redirection
-TXT-0392,004bd4,800143d4,25,12,tutorial,inplace,2,800c4b34,28,13,27,P1,translated,ければ、イベントカードを,"Otherwise, Event cards",2 pointer(s); pointer redirection
-TXT-0393,004bf0,800143f0,25,12,tutorial,inplace,2,800c4b30,28,13,27,P1,translated,相手が先にカードを使わな,if the opponent doesn't play a card,2 pointer(s); pointer redirection
-TXT-0394,004c0c,8001440c,19,9,story,inplace,2,800c4b1c,20,9,19,P1,translated,△ボタンを押そう！,Press the △ button!,2 pointer(s); pointer redirection
-TXT-0395,004c20,80014420,29,14,story,inplace,2,800c4b18,32,15,31,P1,translated,相手のターンで使いたいときは,"On the enemy turn,",2 pointer(s); pointer redirection
-TXT-0396,004c40,80014440,13,6,story,inplace,2,800c4b04,16,7,15,P1,translated,選択します。,select it.,2 pointer(s); pointer redirection
-TXT-0397,004c50,80014450,29,14,story,inplace,2,800c4b00,32,15,31,P1,translated,『手札』を選んでからカードを,"Choose HAND, then the card.",2 pointer(s); pointer redirection
-TXT-0398,004c70,80014470,25,12,story,inplace,2,800c4afc,28,13,27,P1,translated,イベントカードを使うには,"To use an Event Card,",2 pointer(s); pointer redirection
-TXT-0399,004c8c,8001448c,27,13,story,inplace,2,800c4ae4,28,13,27,P1,translated,それぞれ３枚まで使うことが,you can use up to three,2 pointer(s); pointer redirection
-TXT-0400,004ca8,800144a8,29,14,story,inplace,2,800c4ae0,32,15,31,P1,translated,自分のターン、相手のターンで,on each turn.,2 pointer(s); pointer redirection
-TXT-0401,004cc8,800144c8,29,14,story,inplace,2,800c4ac8,32,15,31,P1,translated,イベントカードはいつでも使う,Event Cards work anytime.,2 pointer(s); pointer redirection
-TXT-0402,004ce8,800144e8,21,10,story,inplace,2,800c4ab4,24,11,23,P1,translated,さらに有利にします！,They give you a big edge!,2 pointer(s); pointer redirection
-TXT-0403,004d00,80014500,25,12,story,inplace,2,800c4ab0,28,13,27,P1,translated,イベントカードはバトルを,Event Cards make battle,2 pointer(s); pointer redirection
-TXT-0404,004d1c,8001451c,29,14,story,inplace,2,800c4a9c,32,15,31,P1,translated,次のカードはイベントカード。,Next is the Event Card.,2 pointer(s); pointer redirection
+TXT-0391,004bbc,800143bc,21,10,tutorial,inplace,2,800c4b38,24,11,23,P1,translated,使うことができるぞ！,play an Event.,2 pointer(s); pointer redirection
+TXT-0392,004bd4,800143d4,25,12,tutorial,inplace,2,800c4b34,28,13,27,P1,translated,ければ、イベントカードを,"play first,",2 pointer(s); pointer redirection
+TXT-0393,004bf0,800143f0,25,12,tutorial,inplace,2,800c4b30,28,13,27,P1,translated,相手が先にカードを使わな,If foes don't,2 pointer(s); pointer redirection
+TXT-0394,004c0c,8001440c,19,9,story,inplace,2,800c4b1c,20,9,19,P1,translated,△ボタンを押そう！,Press Triangle,2 pointer(s); pointer redirection
+TXT-0395,004c20,80014420,29,14,story,inplace,2,800c4b18,32,15,31,P1,translated,相手のターンで使いたいときは,On enemy turn:,2 pointer(s); pointer redirection
+TXT-0396,004c40,80014440,13,6,story,inplace,2,800c4b04,16,7,15,P1,translated,選択します。,pick the card.,2 pointer(s); pointer redirection
+TXT-0397,004c50,80014450,29,14,story,inplace,2,800c4b00,32,15,31,P1,translated,『手札』を選んでからカードを,open Hand and,2 pointer(s); pointer redirection
+TXT-0398,004c70,80014470,25,12,story,inplace,2,800c4afc,28,13,27,P1,translated,イベントカードを使うには,"To play one,",2 pointer(s); pointer redirection
+TXT-0399,004c8c,8001448c,27,13,story,inplace,2,800c4ae4,28,13,27,P1,translated,それぞれ３枚まで使うことが,up to 3 Events,2 pointer(s); pointer redirection
+TXT-0400,004ca8,800144a8,29,14,story,inplace,2,800c4ae0,32,15,31,P1,translated,自分のターン、相手のターンで,On either turn,2 pointer(s); pointer redirection
+TXT-0401,004cc8,800144c8,29,14,story,inplace,2,800c4ac8,32,15,31,P1,translated,イベントカードはいつでも使う,"At any time, Event cards",2 pointer(s); pointer redirection
+TXT-0402,004ce8,800144e8,21,10,story,inplace,2,800c4ab4,24,11,23,P1,translated,さらに有利にします！,give an edge.,2 pointer(s); pointer redirection
+TXT-0403,004d00,80014500,25,12,story,inplace,2,800c4ab0,28,13,27,P1,translated,イベントカードはバトルを,Event cards,2 pointer(s); pointer redirection
+TXT-0404,004d1c,8001451c,29,14,story,inplace,2,800c4a9c,32,15,31,P1,translated,次のカードはイベントカード。,"Next, Events.",2 pointer(s); pointer redirection
 TXT-0405,004d3c,8001453c,29,14,story,inplace,1,800c4b78,32,15,31,P1,translated,実戦でもこうあってほしいもの,I hope real battle is like this.,1 pointer(s); pointer redirection
 TXT-0406,004d5c,8001455c,19,9,story,inplace,1,800c4b74,20,9,19,P1,translated,なかなかのものだ。,Not bad at all.,1 pointer(s); pointer redirection
 TXT-0407,004d70,80014570,29,14,story,inplace,8,800c4bd4,32,15,31,P1,translated,敵はデッキを持っていません。,The enemy has no deck.,8 pointer(s); pointer redirection

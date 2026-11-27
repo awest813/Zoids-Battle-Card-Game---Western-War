@@ -119,6 +119,8 @@ From a fresh English boot, enter Free Mode as the Republic, choose Ocean World, 
 
 In Republic training on turn six, equipping Missile Pod on Shield Liger raises `WR` from `0/3` to `1/3`. Open `Rmve` and select Shield Liger to see Missile Pod in its occupied slot. Confirm removal and check that `Rmve` is disabled when the last card is removed. Both actions were tried on the campaign checkpoint.
 
+After defeating the first Iguan, check the Event Card lesson. It should explain the limit of three Event cards on either turn, how to select a card through `Hand`, and when to press Triangle during the enemy turn. Two Japanese sentence endings are shared with the Custom and deck lessons. The revised English endings were checked at all four live pointer slots so each lesson reads correctly.
+
 The Stage 13 `Road to Gaigalus` and Stage 5 `Imperial Capital Gaigalus` overlays match the city spelling in the briefing map and dialogue. A pixel comparison confirmed that the corrections only change the title line. Live playback of both later stage captions is still pending.
 
 ### Movie inventory and opening playback

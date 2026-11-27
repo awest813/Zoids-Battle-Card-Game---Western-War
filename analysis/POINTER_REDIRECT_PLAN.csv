@@ -364,17 +364,17 @@ TXT-0364,tutorial,『装備』でカードを選んでから,0x80014100,2,800c4a
 TXT-0365,tutorial,カスタムカードをつけるには、,0x80014120,2,800c4a08;800c64c8,32,15,"To equip, pick"
 TXT-0366,tutorial,つけられないので注意！,0x80014140,2,800c49f4;800c64b4,24,11,of each name.
 TXT-0367,tutorial,同じ名前のカードは１枚しか,0x80014158,2,800c49f0;800c64b0,28,13,Equip one copy
-TXT-0368,tutorial,ことができます。,0x80014174,6,800c49dc;800c4acc;800c649c;800c658c;800d1df8;800d1efc,20,9,it can equip.
-TXT-0369,tutorial,数字の数までカードをつける,0x80014188,2,800c49d8;800c6498,28,13,how many cards
-TXT-0370,tutorial,ゾイドのＷＲで書かれている,0x800141a4,2,800c49d4;800c6494,28,13,WR limits
+TXT-0368,tutorial,ことができます。,0x80014174,6,800c49dc;800c4acc;800c649c;800c658c;800d1df8;800d1efc,20,9,are usable.
+TXT-0369,tutorial,数字の数までカードをつける,0x80014188,2,800c49d8;800c6498,28,13,many cards
+TXT-0370,tutorial,ゾイドのＷＲで書かれている,0x800141a4,2,800c49d4;800c6494,28,13,WR limits how
 TXT-0371,tutorial,カードを、ゾイドにとりつけ,0x800141c0,2,800c49bc;800c647c,28,13,on your Zoids.
 TXT-0372,tutorial,このフェイズで、カスタム,0x800141dc,2,800c49b8;800c6478,28,13,Equip Customs
 TXT-0373,tutorial,カスタムフェイズがきます。,0x800141f8,2,800c49a4;800c6464,28,13,in Custom.
 TXT-0374,tutorial,武器を装備することができる,0x80014214,2,800c49a0;800c6460,28,13,equip weapons
 TXT-0375,tutorial,ターンの始めに、ゾイドに,0x80014230,2,800c499c;800c645c,28,13,Start of turn:
 TXT-0376,tutorial,まずはカスタムカードから,0x8001424c,2,800c4988;800c6448,28,13,Customs first.
-TXT-0377,tutorial,できます。,0x80014268,6,800c4974;800c4ae8;800c6434;800c65a8;800d2044;800d241c,12,5,all three.
-TXT-0378,tutorial,の３種類を組みこむことが,0x80014274,2,800c4970;800c6430,28,13,You can mix
+TXT-0377,tutorial,できます。,0x80014268,6,800c4974;800c4ae8;800c6434;800c65a8;800d2044;800d241c,12,5,can be played.
+TXT-0378,tutorial,の３種類を組みこむことが,0x80014274,2,800c4970;800c6430,28,13,All three
 TXT-0379,tutorial,パイロットカード,0x80014290,2,800c495c;800c641c,20,9,Pilot cards.
 TXT-0380,tutorial,イベントカード,0x800142a4,2,800c4958;800c6418,16,7,"Event cards,"
 TXT-0381,tutorial,カスタムカード,0x800142b4,2,800c4954;800c6414,16,7,"Custom cards,"
@@ -387,20 +387,20 @@ TXT-0387,tutorial,ターンの終わりに８枚以上,0x80014348,2,800c490c;800
 TXT-0388,tutorial,カードが２枚くばられます。,0x80014364,2,800c48f8;800c63b8,28,13,draw 2 cards.
 TXT-0389,tutorial,ターンの始めにプレイヤーに,0x80014380,2,800c48f4;800c63b4,28,13,"At turn start,"
 TXT-0390,tutorial,次に、カードを使ってみよう。,0x8001439c,2,800c48e0;800c63a0,32,15,"Next, let's use a card."
-TXT-0391,tutorial,使うことができるぞ！,0x800143bc,2,800c4b38;800c65f8,24,11,You can use it!
-TXT-0392,tutorial,ければ、イベントカードを,0x800143d4,2,800c4b34;800c65f4,28,13,"Otherwise, Event cards"
-TXT-0393,tutorial,相手が先にカードを使わな,0x800143f0,2,800c4b30;800c65f0,28,13,if the opponent doesn't play a card
-TXT-0394,story,△ボタンを押そう！,0x8001440c,2,800c4b1c;800c65dc,20,9,Press the △ button!
-TXT-0395,story,相手のターンで使いたいときは,0x80014420,2,800c4b18;800c65d8,32,15,"On the enemy turn,"
-TXT-0396,story,選択します。,0x80014440,2,800c4b04;800c65c4,16,7,select it.
-TXT-0397,story,『手札』を選んでからカードを,0x80014450,2,800c4b00;800c65c0,32,15,"Choose HAND, then the card."
-TXT-0398,story,イベントカードを使うには,0x80014470,2,800c4afc;800c65bc,28,13,"To use an Event Card,"
-TXT-0399,story,それぞれ３枚まで使うことが,0x8001448c,2,800c4ae4;800c65a4,28,13,you can use up to three
-TXT-0400,story,自分のターン、相手のターンで,0x800144a8,2,800c4ae0;800c65a0,32,15,on each turn.
-TXT-0401,story,イベントカードはいつでも使う,0x800144c8,2,800c4ac8;800c6588,32,15,Event Cards work anytime.
-TXT-0402,story,さらに有利にします！,0x800144e8,2,800c4ab4;800c6574,24,11,They give you a big edge!
-TXT-0403,story,イベントカードはバトルを,0x80014500,2,800c4ab0;800c6570,28,13,Event Cards make battle
-TXT-0404,story,次のカードはイベントカード。,0x8001451c,2,800c4a9c;800c655c,32,15,Next is the Event Card.
+TXT-0391,tutorial,使うことができるぞ！,0x800143bc,2,800c4b38;800c65f8,24,11,play an Event.
+TXT-0392,tutorial,ければ、イベントカードを,0x800143d4,2,800c4b34;800c65f4,28,13,"play first,"
+TXT-0393,tutorial,相手が先にカードを使わな,0x800143f0,2,800c4b30;800c65f0,28,13,If foes don't
+TXT-0394,story,△ボタンを押そう！,0x8001440c,2,800c4b1c;800c65dc,20,9,Press Triangle
+TXT-0395,story,相手のターンで使いたいときは,0x80014420,2,800c4b18;800c65d8,32,15,On enemy turn:
+TXT-0396,story,選択します。,0x80014440,2,800c4b04;800c65c4,16,7,pick the card.
+TXT-0397,story,『手札』を選んでからカードを,0x80014450,2,800c4b00;800c65c0,32,15,open Hand and
+TXT-0398,story,イベントカードを使うには,0x80014470,2,800c4afc;800c65bc,28,13,"To play one,"
+TXT-0399,story,それぞれ３枚まで使うことが,0x8001448c,2,800c4ae4;800c65a4,28,13,up to 3 Events
+TXT-0400,story,自分のターン、相手のターンで,0x800144a8,2,800c4ae0;800c65a0,32,15,On either turn
+TXT-0401,story,イベントカードはいつでも使う,0x800144c8,2,800c4ac8;800c6588,32,15,"At any time, Event cards"
+TXT-0402,story,さらに有利にします！,0x800144e8,2,800c4ab4;800c6574,24,11,give an edge.
+TXT-0403,story,イベントカードはバトルを,0x80014500,2,800c4ab0;800c6570,28,13,Event cards
+TXT-0404,story,次のカードはイベントカード。,0x8001451c,2,800c4a9c;800c655c,32,15,"Next, Events."
 TXT-0405,story,実戦でもこうあってほしいもの,0x8001453c,1,800c4b78,32,15,I hope real battle is like this.
 TXT-0406,story,なかなかのものだ。,0x8001455c,1,800c4b74,20,9,Not bad at all.
 TXT-0407,story,敵はデッキを持っていません。,0x80014570,8,800c4bd4;800c5620;800c5948;800c5ae0;800c5c84;800c6694;800c67f4;800c7828,32,15,The enemy has no deck.
