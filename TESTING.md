@@ -105,6 +105,10 @@ Add `--choices` to the script audit to scan prompts followed by Yes/No. For the 
 
 For dialogue with substituted values, check a greeting after naming the commander, a card acquisition or equip message, and the shop price prompt. Check that the name or number appears and that confirmation returns to the original script. In a disposable test, use a card name that pushes the message onto a second page and check each line against the fourteen-glyph limit.
 
+### Campaign briefing map
+
+From a fresh English boot, select Scenario Mode, New Game, and the Republic. Enter a commander name and advance the opening briefing until the map appears. The red Gaigalus and blue New Helic City labels fit their original boxes. The OpenGL check used that route and reloaded the texture pack while the briefing was on screen. The six overlays cover three original palettes in both draw modes.
+
 ### Movie inventory and opening playback
 
 `analysis/MOVIE_INVENTORY.csv` records 155 clips from the retail disc. The opening has 1,544 frames at nominal 15 fps. The TOMY logo and 153 small clips use nominal 30 fps. `duration_seconds` describes the encoded clip. The game can leave playback earlier. Every clip has an XA audio stream. Two pairs have identical encoded audio, recorded under `matching_xa`. Whether a clip contains speech or readable text still requires review.

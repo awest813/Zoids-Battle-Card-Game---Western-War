@@ -314,6 +314,21 @@ def result_variants(path, entry, upload, palette):
     }
 
 
+def briefing_map_labels(image, _ratio, font):
+    typeface = ImageFont.truetype(font, 8)
+    draw = ImageDraw.Draw(image)
+    for box, label in (((1, 1, 35, 15), "Gaigalus"), ((21, 33, 79, 47), "New Helic City")):
+        left, top, right, bottom = box
+        background = image.getpixel((left, top))
+        _, level = image.crop(box).convert("L").getextrema()
+        image.paste(background, box)
+        x0, y0, x1, y1 = typeface.getbbox(label)
+        x = (left + right - x1 - x0) // 2
+        y = (top + bottom - y1 - y0) // 2
+        draw.text((x, y), label, font=typeface, fill=(level, level, level, 255))
+    return image
+
+
 def battle_phase_textures(output, tim_dir, font):
     targets = (
         (1, "0D4796B6C01E2BF8", ("AADDEBE587988EE9",), battle_phase_header),
@@ -354,6 +369,12 @@ def main():
     name_palettes = ("7CBD707322EDD1A9", "0A6C13463C31C65A", "B597D20C389A9477",
                      "AA0E879BE88C966E", "3D83B302374031D5")
     trade_key = "texupload-STP8-30D4BEA33BB38122-7DBF66BB68759093-160x240-0-0-320x240-P0-255.png"
+    briefing_upload = "6406868784A31B5B"
+    briefing_palettes = ("C7718B80FD3E1185", "8EA415BE1C8CF65E", "84785383870A1486")
+    briefing_variants = {}
+    for semi in (False, True):
+        briefing_variants.update(packed_variants(tim_dir / "W_MES.TIM", 1, briefing_upload,
+                                                 briefing_palettes, semitransparent=semi))
     targets = (
         ("F599271AE8C30811", (320, 240), title_screen, {}),
         ("17FAC7112EA5B272", (256, 216), mode_atlas, {}),
@@ -363,6 +384,7 @@ def main():
         ("9F3DDEFED6A65324", (256, 240), free_mode,
          packed_variants(tim_dir / "FREE.TIM", 1, "9F3DDEFED6A65324", ("7CB0F98E291D9225",))),
         ("30D4BEA33BB38122", (320, 240), card_trade, {trade_key: native_trade}),
+        (briefing_upload, (144, 56), briefing_map_labels, briefing_variants),
         ("79154A56B51A7D00", (320, 240), battle_result,
          result_variants(tim_dir / "W_MES2.TIM", 2, "79154A56B51A7D00", "5B530EA479C453E2")),
         ("9AAE8862C1D40981", (320, 240), battle_result,
