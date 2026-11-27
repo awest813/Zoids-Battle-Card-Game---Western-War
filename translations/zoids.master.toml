@@ -4393,7 +4393,7 @@ ptr_addrs = ["0x800c4888", "0x800c6348"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "to strike."
+en = "to attack."
 note = "tutorial inplace max=9"
 
 [[entry]]
@@ -4406,7 +4406,7 @@ ptr_addrs = ["0x800c4884", "0x800c6344"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Then select Attack"
+en = "Then select Atk"
 note = "tutorial inplace max=13"
 
 [[entry]]

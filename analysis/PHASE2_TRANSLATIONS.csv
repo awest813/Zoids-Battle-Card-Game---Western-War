@@ -336,8 +336,8 @@ TXT-0334,tutorial,P1,inplace,0045dc,0x80013ddc,800c46f8,24,11,では、演習を
 TXT-0335,tutorial,P1,inplace,0045f4,0x80013df4,800c48a4,20,9,こともできます。,to restore HP.,14,no,draft,table-driven; use pointer redirection
 TXT-0336,tutorial,P1,inplace,004608,0x80013e08,800c48a0,28,13,『修復』でＨＰを回復する,you can use Fix,15,no,draft,table-driven; use pointer redirection
 TXT-0337,tutorial,P1,inplace,004624,0x80013e24,800c489c,32,15,なお、移動も戦闘もしない場合,"If you stay put and don't attack,",33,no,draft,table-driven; use pointer redirection
-TXT-0338,tutorial,P1,inplace,004644,0x80013e44,800c4888,20,9,攻撃をしてみよう！,to strike.,10,no,draft,table-driven; use pointer redirection
-TXT-0339,tutorial,P1,inplace,004658,0x80013e58,800c4884,28,13,移動して、『攻撃』を選んで,Then select Attack,18,no,draft,table-driven; use pointer redirection
+TXT-0338,tutorial,P1,inplace,004644,0x80013e44,800c4888,20,9,攻撃をしてみよう！,to attack.,10,no,draft,table-driven; use pointer redirection
+TXT-0339,tutorial,P1,inplace,004658,0x80013e58,800c4884,28,13,移動して、『攻撃』を選んで,Then select Atk,15,no,draft,table-driven; use pointer redirection
 TXT-0340,tutorial,P1,inplace,004674,0x80013e74,800c4880,32,15,敵ゾイドが射程内に入るように,Move until an enemy is in range.,32,no,draft,table-driven; use pointer redirection
 TXT-0341,tutorial,P1,inplace,004694,0x80013e94,800c486c,20,9,ひとつの手です。,and finish it off.,18,no,draft,table-driven; use pointer redirection
 TXT-0342,tutorial,P1,inplace,0046a8,0x80013ea8,800c4868,28,13,相手をさそいこんで倒すのも,You can also lure the enemy closer,34,no,draft,table-driven; use pointer redirection

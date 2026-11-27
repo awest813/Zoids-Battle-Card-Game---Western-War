@@ -113,6 +113,8 @@ The same campaign continued into the training mission through the original contr
 
 Moving the lead Zoid into enemy territory on turn two opened the combat lesson. The movement and combat pass rewrote 32 entries, including instructions for facing, melee, counterattacks, and the `Fix` command. A replay from a disposable checkpoint showed the revised combat pages in the game. Restoring a checkpoint can show Japanese textures until the game uploads them again.
 
+The combat lesson uses `Atk`, matching the command menu. The running campaign resolved the revised prompt and opened the green targeting overlay for Godos and Gojulas. On a coastal map, check `SHL` on shallow water and `DEP` on deep water. Both badges were checked against their original captured textures. The transparent palette variant is left to the game renderer.
+
 ### Movie inventory and opening playback
 
 `analysis/MOVIE_INVENTORY.csv` records 155 clips from the retail disc. The opening has 1,544 frames at nominal 15 fps. The TOMY logo and 153 small clips use nominal 30 fps. `duration_seconds` describes the encoded clip. The game can leave playback earlier. Every clip has an XA audio stream. Two pairs have identical encoded audio, recorded under `matching_xa`. Whether a clip contains speech or readable text still requires review.

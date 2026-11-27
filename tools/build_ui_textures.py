@@ -256,6 +256,8 @@ ROSTER_ICONS = {
     (48, 160): "SP",
     (200, 184): "REM",
     (128, 224): "PLN",
+    (144, 224): "SHL",
+    (160, 224): "DEP",
 }
 
 
@@ -274,6 +276,9 @@ def roster_icons(output, dumps, font):
                 continue
             box = (left + 2, top + 2, left + 14, top + 14)
             center = image.crop(box)
+            if center.getchannel("A").getbbox() is None:
+                # Some atlas variants use a transparent palette for this tile.
+                continue
             edge = center.crop((0, 0, 1, 12))
             image.paste(edge.resize(center.size, Image.Resampling.NEAREST), box[:2])
             _, level = center.convert("L").getextrema()

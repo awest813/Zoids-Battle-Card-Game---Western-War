@@ -334,8 +334,8 @@ TXT-0334,tutorial,では、演習をはじめる。,0x80013ddc,1,800c46f8,24,11,
 TXT-0335,tutorial,こともできます。,0x80013df4,2,800c48a4;800c6364,20,9,to restore HP.
 TXT-0336,tutorial,『修復』でＨＰを回復する,0x80013e08,2,800c48a0;800c6360,28,13,you can use Fix
 TXT-0337,tutorial,なお、移動も戦闘もしない場合,0x80013e24,2,800c489c;800c635c,32,15,"If you stay put and don't attack,"
-TXT-0338,tutorial,攻撃をしてみよう！,0x80013e44,2,800c4888;800c6348,20,9,to strike.
-TXT-0339,tutorial,移動して、『攻撃』を選んで,0x80013e58,2,800c4884;800c6344,28,13,Then select Attack
+TXT-0338,tutorial,攻撃をしてみよう！,0x80013e44,2,800c4888;800c6348,20,9,to attack.
+TXT-0339,tutorial,移動して、『攻撃』を選んで,0x80013e58,2,800c4884;800c6344,28,13,Then select Atk
 TXT-0340,tutorial,敵ゾイドが射程内に入るように,0x80013e74,2,800c4880;800c6340,32,15,Move until an enemy is in range.
 TXT-0341,tutorial,ひとつの手です。,0x80013e94,2,800c486c;800c632c,20,9,and finish it off.
 TXT-0342,tutorial,相手をさそいこんで倒すのも,0x80013ea8,2,800c4868;800c6328,28,13,You can also lure the enemy closer
