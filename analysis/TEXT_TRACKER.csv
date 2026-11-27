@@ -2171,8 +2171,8 @@ TXT-2169,016844,80026044,35,17,card,inplace,2,800ebbfc,36,17,35,P1,translated,�
 TXT-2170,016868,80026068,17,8,card,inplace,1,800ebbf8,20,9,19,P1,translated,Ｓ型ゾイドのみ。,S-type Zoids only.,1 pointer(s); pointer redirection
 TXT-2171,01687c,8002607c,9,4,card,inplace,1,800ebbf0,12,5,11,P1,translated,ゲーター,GATOR,1 pointer(s); pointer redirection
 TXT-2172,016888,80026088,17,8,card,inplace,1,800ebbec,20,9,19,P1,translated,森　ＨＰ＋１００,Forest: HP +100,1 pointer(s); pointer redirection
-TXT-2173,01689c,8002609c,23,11,card,inplace,1,800ebbc8,24,11,23,P1,translated,どし、山札を切り直す。,and shuffle the deck.,1 pointer(s); pointer redirection
-TXT-2174,0168b4,800260b4,35,17,card,inplace,1,800ebbc4,36,17,35,P1,translated,る代わりにそのパイロットを山札にも,return that pilot to the deck,1 pointer(s); pointer redirection
+TXT-2173,01689c,8002609c,23,11,card,inplace,1,800ebbc8,24,11,23,P1,translated,どし、山札を切り直す。,and shuffle that deck.,1 pointer(s); pointer redirection
+TXT-2174,0168b4,800260b4,35,17,card,inplace,1,800ebbc4,36,17,35,P1,translated,る代わりにそのパイロットを山札にも,return that pilot to its owner's deck,1 pointer(s); pointer redirection
 TXT-2175,0168d8,800260d8,35,17,card,inplace,1,800ebbc0,36,17,35,P1,translated,攻撃が成功した場合、ダメージを与え,"instead of dealing damage,",1 pointer(s); pointer redirection
 TXT-2176,0168fc,800260fc,35,17,card,inplace,1,800ebbbc,36,17,35,P1,translated,パイロットが乗ったゾイドに対しての,"When an attack against a Zoid with a pilot succeeds,",1 pointer(s); pointer redirection
 TXT-2177,016920,80026120,21,10,card,inplace,4,800ebbb8,24,11,23,P1,translated,Ｓ・Ｍ型ゾイドのみ。,S/M-type Zoids only.,4 pointer(s); pointer redirection
@@ -2181,7 +2181,7 @@ TXT-2179,016944,80026144,17,8,card,inplace,1,800ebbb0,20,9,19,P1,translated,ヘ�
 TXT-2180,016958,80026158,17,8,card,inplace,1,800ebbac,20,9,19,P1,translated,砂　ＨＰ＋１００,Sand: HP +100,1 pointer(s); pointer redirection
 TXT-2181,01696c,8002616c,33,16,card,inplace,1,800ebb84,36,17,35,P1,translated,受けるダメージが−２００される。,and damage taken -200.,1 pointer(s); pointer redirection
 TXT-2182,016990,80026190,25,12,card,inplace,1,800ebb80,28,13,27,P1,translated,攻撃力が＋２００上がり、,"attack power +200,",1 pointer(s); pointer redirection
-TXT-2183,0169ac,800261ac,35,17,card,inplace,1,800ebb7c,36,17,35,P1,translated,「プロイツェン」に隣接している場合,"When adjacent to 'Proitzen,'",1 pointer(s); pointer redirection
+TXT-2183,0169ac,800261ac,35,17,card,inplace,1,800ebb7c,36,17,35,P1,translated,「プロイツェン」に隣接している場合,"While adjacent to Prozen,",1 pointer(s); pointer redirection
 TXT-2184,0169d0,800261d0,9,4,card,inplace,3,800ebb74,12,5,11,P1,translated,移動＋３,Movement +3,3 pointer(s); pointer redirection
 TXT-2185,0169dc,800261dc,19,9,card,inplace,1,800ebb70,20,9,19,P1,translated,アイアンコングＰＫ,IRON KONG PK,1 pointer(s); pointer redirection
 TXT-2186,0169f0,800261f0,17,8,card,inplace,8,800ebb6c,20,9,19,P1,translated,森　ＨＰ＋２００,Forest: HP +200,8 pointer(s); pointer redirection
@@ -2189,8 +2189,8 @@ TXT-2187,016a04,80026204,35,17,card,inplace,1,800ebb40,36,17,35,P1,translated,�
 TXT-2188,016a28,80026228,35,17,card,inplace,1,800ebb3c,36,17,35,P1,translated,自分の領地にいる場合、領地内の味方,"While in your territory, all allied Zoids in the territory",1 pointer(s); pointer redirection
 TXT-2189,016a4c,8002624c,15,7,card,inplace,1,800ebb38,16,7,15,P1,translated,Ｌ型ゾイドのみ,L-type Zoids only.,1 pointer(s); pointer redirection
 TXT-2190,016a5c,8002625c,13,6,card,inplace,1,800ebb30,16,7,15,P1,translated,デスザウラー,DEATH SAURER,1 pointer(s); pointer redirection
-TXT-2191,016a6c,8002626c,33,16,card,inplace,1,800ebb00,36,17,35,P1,translated,ダイス目×１００分のＨＰを減らす,the die result x100 HP.,1 pointer(s); pointer redirection
-TXT-2192,016a90,80026290,21,10,card,inplace,1,800ebafc,24,11,23,P1,translated,攻撃されたダメージを,"When attacked, damage is reduced by",1 pointer(s); pointer redirection
+TXT-2191,016a6c,8002626c,33,16,card,inplace,1,800ebb00,36,17,35,P1,translated,ダイス目×１００分のＨＰを減らす,by 100 per point rolled,1 pointer(s); pointer redirection
+TXT-2192,016a90,80026290,21,10,card,inplace,1,800ebafc,24,11,23,P1,translated,攻撃されたダメージを,"When attacked, roll a die and reduce damage",1 pointer(s); pointer redirection
 TXT-2193,016aa8,800262a8,15,7,card,inplace,2,800ebaf8,16,7,15,P1,translated,グスタフのみ。,Gustav only.,2 pointer(s); pointer redirection
 TXT-2194,016ab8,800262b8,9,4,card,inplace,10,800ebaf4,12,5,11,P1,translated,移動＋１,Movement +1,10 pointer(s); pointer redirection
 TXT-2195,016ac4,800262c4,9,4,card,inplace,2,800ebaf0,12,5,11,P1,translated,グスタフ,Gustav,2 pointer(s); pointer redirection
@@ -2201,9 +2201,9 @@ TXT-2199,016b20,80026320,35,17,card,inplace,1,800eba6c,36,17,35,P1,translated,�
 TXT-2200,016b44,80026344,19,9,card,inplace,1,800eba34,20,9,19,P1,translated,※敵ゾイドも含む。,*Includes enemy Zoids.,1 pointer(s); pointer redirection
 TXT-2201,016b58,80026358,21,10,card,inplace,1,800eba30,24,11,23,P1,translated,ＨＰ２００回復する。,200 HP.,1 pointer(s); pointer redirection
 TXT-2202,016b70,80026370,35,17,card,inplace,1,800eba2c,36,17,35,P1,translated,自軍の領地内にいるすべてのゾイドは,All Zoids in your territory recover,1 pointer(s); pointer redirection
-TXT-2203,016b94,80026394,33,16,card,inplace,1,800eb9f4,36,17,35,P1,translated,そのカードの効果を無効にできる。,Its effect can be nullified.,1 pointer(s); pointer redirection
-TXT-2204,016bb8,800263b8,19,9,card,inplace,1,800eb9f0,20,9,19,P1,translated,たときに使用する。,"""~ Agent.""",1 pointer(s); pointer redirection
-TXT-2205,016bcc,800263cc,35,17,card,inplace,1,800eb9ec,36,17,35,P1,translated,イベントカード「〜工作員」を出され,Use when the opponent plays an Event Card,1 pointer(s); pointer redirection
+TXT-2203,016b94,80026394,33,16,card,inplace,1,800eb9f4,36,17,35,P1,translated,そのカードの効果を無効にできる。,cancel that card's effect.,1 pointer(s); pointer redirection
+TXT-2204,016bb8,800263b8,19,9,card,inplace,1,800eb9f0,20,9,19,P1,translated,たときに使用する。,"Diversion Agent or Saboteur,",1 pointer(s); pointer redirection
+TXT-2205,016bcc,800263cc,35,17,card,inplace,1,800eb9ec,36,17,35,P1,translated,イベントカード「〜工作員」を出され,When the opponent plays,1 pointer(s); pointer redirection
 TXT-2206,016bf0,800263f0,13,6,card,inplace,1,800eb9bc,16,7,15,P1,translated,　ならない。,Zoid.,1 pointer(s); pointer redirection
 TXT-2207,016c00,80026400,33,16,card,inplace,1,800eb9b8,36,17,35,P1,translated,※移し替えは適性なものでなければ,*The transfer must be to a compatible,1 pointer(s); pointer redirection
 TXT-2208,016c24,80026424,33,16,card,inplace,1,800eb9b0,36,17,35,P1,translated,ドを１枚、他の自ゾイドに移すこと,to another of your Zoids.,1 pointer(s); pointer redirection
@@ -2356,8 +2356,8 @@ TXT-2354,017d0c,8002750c,35,17,card,inplace,1,800eafb4,36,17,35,P1,translated,�
 TXT-2355,017d30,80027530,11,5,card,inplace,2,800eafb0,12,5,11,P1,translated,ができる。,You can do this.,2 pointer(s); pointer redirection
 TXT-2356,017d3c,8002753c,35,17,card,inplace,1,800eafac,36,17,35,P1,translated,敵ゾイド１機を６マス移動させること,Move one enemy Zoid 6 spaces.,1 pointer(s); pointer redirection
 TXT-2357,017d60,80027560,35,17,card,inplace,2,800eaf74,36,17,35,P1,translated,※地形効果による移動制限は受けない,*Terrain movement restrictions do not apply.,2 pointer(s); pointer redirection
-TXT-2358,017d84,80027584,15,7,card,inplace,3,800eaf70,16,7,15,P1,translated,ことができる。,This movement is not affected by terrain.,3 pointer(s); pointer redirection
-TXT-2359,017d94,80027594,35,17,card,inplace,2,800eaf6c,36,17,35,P1,translated,自分のゾイド１機を６マス移動させる,Move one of your Zoids 6 spaces.,2 pointer(s); pointer redirection
+TXT-2358,017d84,80027584,15,7,card,inplace,3,800eaf70,16,7,15,P1,translated,ことができる。,if you choose.,3 pointer(s); pointer redirection
+TXT-2359,017d94,80027594,35,17,card,inplace,2,800eaf6c,36,17,35,P1,translated,自分のゾイド１機を６マス移動させる,Move one of your Zoids 6 spaces,2 pointer(s); pointer redirection
 TXT-2360,017db8,800275b8,15,7,card,inplace,1,800eaf34,16,7,15,P1,translated,して判定する。,and check the result.,1 pointer(s); pointer redirection
 TXT-2361,017dc8,800275c8,35,17,card,inplace,1,800eaf30,36,17,35,P1,translated,命中判定の際、サイコロの目から−１,"When making a hit check, subtract 1 from the die roll",1 pointer(s); pointer redirection
 TXT-2362,017dec,800275ec,25,12,card,inplace,1,800eaf2c,28,13,27,P1,translated,敵からの命中率がさがる。,Enemy hit chance decreases.,1 pointer(s); pointer redirection

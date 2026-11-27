@@ -157,9 +157,9 @@ CARD_TEXT_2 = {
     "TXT-2206": "Zoid.",
 
     # Card 59 — Gojulas HG-1
-    "TXT-2205": "Use when the opponent plays an Event Card",
-    "TXT-2204": '"~ Agent."',
-    "TXT-2203": "Its effect can be nullified.",
+    "TXT-2205": "When the opponent plays",
+    "TXT-2204": "Diversion Agent or Saboteur,",
+    "TXT-2203": "cancel that card's effect.",
 
     # Card 60 — Blade Liger K
     "TXT-2202": "All Zoids in your territory recover",

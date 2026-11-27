@@ -2120,8 +2120,8 @@ TXT-2169,card,敵領地にいて移動しなかったターンは,0x80026044,2,8
 TXT-2170,card,Ｓ型ゾイドのみ。,0x80026068,1,800ebbf8,20,9,S-type Zoids only.
 TXT-2171,card,ゲーター,0x8002607c,1,800ebbf0,12,5,GATOR
 TXT-2172,card,森　ＨＰ＋１００,0x80026088,1,800ebbec,20,9,Forest: HP +100
-TXT-2173,card,どし、山札を切り直す。,0x8002609c,1,800ebbc8,24,11,and shuffle the deck.
-TXT-2174,card,る代わりにそのパイロットを山札にも,0x800260b4,1,800ebbc4,36,17,return that pilot to the deck
+TXT-2173,card,どし、山札を切り直す。,0x8002609c,1,800ebbc8,24,11,and shuffle that deck.
+TXT-2174,card,る代わりにそのパイロットを山札にも,0x800260b4,1,800ebbc4,36,17,return that pilot to its owner's deck
 TXT-2175,card,攻撃が成功した場合、ダメージを与え,0x800260d8,1,800ebbc0,36,17,"instead of dealing damage,"
 TXT-2176,card,パイロットが乗ったゾイドに対しての,0x800260fc,1,800ebbbc,36,17,"When an attack against a Zoid with a pilot succeeds,"
 TXT-2177,card,Ｓ・Ｍ型ゾイドのみ。,0x80026120,4,800ebbb8;800ec5f8;800ec6f8;800ec7f8,24,11,S/M-type Zoids only.
@@ -2130,7 +2130,7 @@ TXT-2179,card,ヘルディガンナー,0x80026144,1,800ebbb0,20,9,HELDIGUNNER
 TXT-2180,card,砂　ＨＰ＋１００,0x80026158,1,800ebbac,20,9,Sand: HP +100
 TXT-2181,card,受けるダメージが−２００される。,0x8002616c,1,800ebb84,36,17,and damage taken -200.
 TXT-2182,card,攻撃力が＋２００上がり、,0x80026190,1,800ebb80,28,13,"attack power +200,"
-TXT-2183,card,「プロイツェン」に隣接している場合,0x800261ac,1,800ebb7c,36,17,"When adjacent to 'Proitzen,'"
+TXT-2183,card,「プロイツェン」に隣接している場合,0x800261ac,1,800ebb7c,36,17,"While adjacent to Prozen,"
 TXT-2184,card,移動＋３,0x800261d0,3,800ebb74;800ebe74;800ebf74,12,5,Movement +3
 TXT-2185,card,アイアンコングＰＫ,0x800261dc,1,800ebb70,20,9,IRON KONG PK
 TXT-2186,card,森　ＨＰ＋２００,0x800261f0,8,800ebb6c;800ebf6c;800ebfac;800ec5ac;800ec6ac;800ec6ec;800ec72c;800ec7ac,20,9,Forest: HP +200
@@ -2138,8 +2138,8 @@ TXT-2187,card,ゾイドすべての攻撃力に＋１００でき,0x80026204,1,8
 TXT-2188,card,自分の領地にいる場合、領地内の味方,0x80026228,1,800ebb3c,36,17,"While in your territory, all allied Zoids in the territory"
 TXT-2189,card,Ｌ型ゾイドのみ,0x8002624c,1,800ebb38,16,7,L-type Zoids only.
 TXT-2190,card,デスザウラー,0x8002625c,1,800ebb30,16,7,DEATH SAURER
-TXT-2191,card,ダイス目×１００分のＨＰを減らす,0x8002626c,1,800ebb00,36,17,the die result x100 HP.
-TXT-2192,card,攻撃されたダメージを,0x80026290,1,800ebafc,24,11,"When attacked, damage is reduced by"
+TXT-2191,card,ダイス目×１００分のＨＰを減らす,0x8002626c,1,800ebb00,36,17,by 100 per point rolled
+TXT-2192,card,攻撃されたダメージを,0x80026290,1,800ebafc,24,11,"When attacked, roll a die and reduce damage"
 TXT-2193,card,グスタフのみ。,0x800262a8,2,800ebaf8;800ebe38,16,7,Gustav only.
 TXT-2194,card,移動＋１,0x800262b8,10,800ebaf4;800ebb34;800ebbf4;800ebc74;800ebe34;800ebef4;800ebfb4;800ec4f4;800ec534;800ec5f4,12,5,Movement +1
 TXT-2195,card,グスタフ,0x800262c4,2,800ebaf0;800ebe30,12,5,Gustav
@@ -2150,9 +2150,9 @@ TXT-2199,card,このターンのみ、ゾイド１機の移動か,0x80026320,1,8
 TXT-2200,card,※敵ゾイドも含む。,0x80026344,1,800eba34,20,9,*Includes enemy Zoids.
 TXT-2201,card,ＨＰ２００回復する。,0x80026358,1,800eba30,24,11,200 HP.
 TXT-2202,card,自軍の領地内にいるすべてのゾイドは,0x80026370,1,800eba2c,36,17,All Zoids in your territory recover
-TXT-2203,card,そのカードの効果を無効にできる。,0x80026394,1,800eb9f4,36,17,Its effect can be nullified.
-TXT-2204,card,たときに使用する。,0x800263b8,1,800eb9f0,20,9,"""~ Agent."""
-TXT-2205,card,イベントカード「〜工作員」を出され,0x800263cc,1,800eb9ec,36,17,Use when the opponent plays an Event Card
+TXT-2203,card,そのカードの効果を無効にできる。,0x80026394,1,800eb9f4,36,17,cancel that card's effect.
+TXT-2204,card,たときに使用する。,0x800263b8,1,800eb9f0,20,9,"Diversion Agent or Saboteur,"
+TXT-2205,card,イベントカード「〜工作員」を出され,0x800263cc,1,800eb9ec,36,17,When the opponent plays
 TXT-2206,card,　ならない。,0x800263f0,1,800eb9bc,16,7,Zoid.
 TXT-2207,card,※移し替えは適性なものでなければ,0x80026400,1,800eb9b8,36,17,*The transfer must be to a compatible
 TXT-2208,card,ドを１枚、他の自ゾイドに移すこと,0x80026424,1,800eb9b0,36,17,to another of your Zoids.
@@ -2305,8 +2305,8 @@ TXT-2354,card,※地形効果による移動制限そのまま。,0x8002750c,1,8
 TXT-2355,card,ができる。,0x80027530,2,800eafb0;800eb9b4,12,5,You can do this.
 TXT-2356,card,敵ゾイド１機を６マス移動させること,0x8002753c,1,800eafac,36,17,Move one enemy Zoid 6 spaces.
 TXT-2357,card,※地形効果による移動制限は受けない,0x80027560,2,800eaf74;800ebd34,36,17,*Terrain movement restrictions do not apply.
-TXT-2358,card,ことができる。,0x80027584,3,800eaf70;800ebb04;800ebd30,16,7,This movement is not affected by terrain.
-TXT-2359,card,自分のゾイド１機を６マス移動させる,0x80027594,2,800eaf6c;800ebd2c,36,17,Move one of your Zoids 6 spaces.
+TXT-2358,card,ことができる。,0x80027584,3,800eaf70;800ebb04;800ebd30,16,7,if you choose.
+TXT-2359,card,自分のゾイド１機を６マス移動させる,0x80027594,2,800eaf6c;800ebd2c,36,17,Move one of your Zoids 6 spaces
 TXT-2360,card,して判定する。,0x800275b8,1,800eaf34,16,7,and check the result.
 TXT-2361,card,命中判定の際、サイコロの目から−１,0x800275c8,1,800eaf30,36,17,"When making a hit check, subtract 1 from the die roll"
 TXT-2362,card,敵からの命中率がさがる。,0x800275ec,1,800eaf2c,28,13,Enemy hit chance decreases.

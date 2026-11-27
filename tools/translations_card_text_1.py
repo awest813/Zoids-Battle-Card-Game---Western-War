@@ -88,8 +88,8 @@ CARD_TEXT_1 = {
     "TXT-2360": "and check the result.",
 
     # Card 17 — Gustav MS
-    "TXT-2359": "Move one of your Zoids 6 spaces.",
-    "TXT-2358": "This movement is not affected by terrain.",
+    "TXT-2359": "Move one of your Zoids 6 spaces",
+    "TXT-2358": "if you choose.",
     "TXT-2357": "*Terrain movement restrictions do not apply.",
 
     # Card 18 — Iron Kong PK

@@ -27393,7 +27393,7 @@ ptr_addrs = ["0x800ebbc8"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "and shuffle the deck."
+en = "and shuffle that deck."
 note = "card inplace max=11"
 
 [[entry]]
@@ -27406,7 +27406,7 @@ ptr_addrs = ["0x800ebbc4"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "return that pilot to the deck"
+en = "return that pilot to its owner's deck"
 note = "card inplace max=17"
 
 [[entry]]
@@ -27523,7 +27523,7 @@ ptr_addrs = ["0x800ebb7c"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "When adjacent to 'Proitzen,'"
+en = "While adjacent to Prozen,"
 note = "card inplace max=17"
 
 [[entry]]
@@ -27627,7 +27627,7 @@ ptr_addrs = ["0x800ebb00"]
 term = "nul"
 pad = "none"
 orig_w = 16
-en = "the die result x100 HP."
+en = "by 100 per point rolled"
 note = "card inplace max=17"
 
 [[entry]]
@@ -27640,7 +27640,7 @@ ptr_addrs = ["0x800ebafc"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "When attacked, damage is reduced by"
+en = "When attacked, roll a die and reduce damage"
 note = "card inplace max=11"
 
 [[entry]]
@@ -27783,7 +27783,7 @@ ptr_addrs = ["0x800eb9f4"]
 term = "nul"
 pad = "none"
 orig_w = 16
-en = "Its effect can be nullified."
+en = "cancel that card's effect."
 note = "card inplace max=17"
 
 [[entry]]
@@ -27796,7 +27796,7 @@ ptr_addrs = ["0x800eb9f0"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "\"~ Agent.\""
+en = "Diversion Agent or Saboteur,"
 note = "card inplace max=9"
 
 [[entry]]
@@ -27809,7 +27809,7 @@ ptr_addrs = ["0x800eb9ec"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Use when the opponent plays an Event Card"
+en = "When the opponent plays"
 note = "card inplace max=17"
 
 [[entry]]
@@ -29798,7 +29798,7 @@ ptr_addrs = ["0x800eaf70", "0x800ebb04", "0x800ebd30"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "This movement is not affected by terrain."
+en = "if you choose."
 note = "card inplace max=7"
 
 [[entry]]
@@ -29811,7 +29811,7 @@ ptr_addrs = ["0x800eaf6c", "0x800ebd2c"]
 term = "nul"
 pad = "none"
 orig_w = 17
-en = "Move one of your Zoids 6 spaces."
+en = "Move one of your Zoids 6 spaces"
 note = "card inplace max=17"
 
 [[entry]]

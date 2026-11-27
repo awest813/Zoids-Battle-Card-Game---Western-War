@@ -9,9 +9,8 @@ CARD_TEXT_3 = {
     "TXT-2195": "Gustav",
     "TXT-2194": "Movement +1",
     "TXT-2193": "Gustav only.",
-    "TXT-2192": "When attacked, damage is reduced by",
-    "TXT-2191": "the die result x100 HP.",
-    "TXT-2358": "This movement is not affected by terrain.",
+    "TXT-2192": "When attacked, roll a die and reduce damage",
+    "TXT-2191": "by 100 per point rolled",
 
     # Card 64 — Death Stinger
     "TXT-2190": "Death Saurer",
@@ -23,7 +22,7 @@ CARD_TEXT_3 = {
     "TXT-2186": "Forest: HP +200",
     "TXT-2185": "Iron Kong PK",
     "TXT-2184": "Movement +3",
-    "TXT-2183": "When adjacent to 'Proitzen,'",
+    "TXT-2183": "While adjacent to Prozen,",
     "TXT-2182": "attack power +200,",
     "TXT-2181": "and damage taken -200.",
 
@@ -34,8 +33,8 @@ CARD_TEXT_3 = {
     "TXT-2177": "S/M-type Zoids only.",
     "TXT-2176": "When an attack against a Zoid with a pilot succeeds,",
     "TXT-2175": "instead of dealing damage,",
-    "TXT-2174": "return that pilot to the deck",
-    "TXT-2173": "and shuffle the deck.",
+    "TXT-2174": "return that pilot to its owner's deck",
+    "TXT-2173": "and shuffle that deck.",
 
     # Card 67 — Blade Liger AB
     "TXT-2172": "Forest: HP +100",
@@ -75,7 +74,6 @@ CARD_TEXT_3 = {
     "TXT-2147": "movement +2, attack +300.",
 
     # Card 72 — Dead Border TP
-    "TXT-2359": "Move one of your Zoids 6 spaces.",
     "TXT-2357": "*Terrain movement restrictions do not apply.",
 
     # Card 73 — Cerberus

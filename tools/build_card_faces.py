@@ -146,7 +146,40 @@ REVIEWED_RULES = {
     55: "Look at the top 4 cards of your deck and put them back in any order.",
     56: "Deal 500 damage to all Zoids in your territory, including allies. Bases are excluded.",
     57: "Discard any number of cards from your hand, then draw that many cards.",
+    58: "Move 1 Custom Card between two of your Zoids. The receiving Zoid must be able to equip it.",
+    59: "When your opponent plays Diversion Agent or Saboteur, cancel that card's effect.",
+    60: "Restore 200 HP to every Zoid in your territory, including enemies.",
+    61: "This turn only, change when one Zoid moves or attacks in the turn order.",
+    62: "Change the facing of one of your Zoids.",
+    63: "Mountain: HP +200\nGustav: Movement +1. Gustav only.\nWhen attacked, you may roll a die and reduce incoming damage by 100 per point rolled.",
+    64: "Death Saurer: Movement +1. L-types only.\nWhile in your territory, give all allied Zoids there +100 Attack.",
+    65: "Forest: HP +200\nIron Kong PK: Movement +3\nWhile adjacent to Prozen, gain +200 Attack and take 200 less damage.",
+    66: "Sand: HP +100\nHeldigunner: Movement +2. S- and M-types only.\nWhen you hit a Zoid with a pilot, return the pilot to its owner's deck and shuffle that deck in place of dealing damage.",
+    67: "Forest: HP +100\nGator: Movement +1. S-types only.\nIf you are in enemy territory and did not move this turn, you may look at the top 3 cards of the opponent's deck and return them in any order instead of attacking.",
+    68: "Air: HP +200\nRedler or Redler BC: Movement +2. Air aptitude only.\nOn a hit, you may draw 2 cards instead of dealing damage.",
+    69: "Water: HP +200\nBrachios: Movement +1\nGive all allied Zoids with Water aptitude in the same territory +100 Attack.",
+    70: "Use as soon as an allied Zoid is destroyed. Revive it with 400 HP. It may immediately move with +5 Movement once. Attack +300. Takes no WR slot.",
+    71: "L-types cannot be piloted. On a compatible Zoid, gain +2 Movement and +300 Attack.",
+    72: "Move one of your Zoids 6 squares, ignoring terrain movement restrictions.",
+    73: "Rapid Fire. Declare before attacking. Range 7. Attack 500. Attack the same enemy twice in a row, then receive one counterattack. L-types only.",
+    74: "Mountain: Melee attacks and counters in all directions.\nShield Liger DCS-J: +200 HP on the Leo Master custom model.\nMelee attack 700 when piloting a Lion-type Zoid.",
+    75: "Air\nStorm Sworder: +200 HP and ranged attack 500.\nWhen piloting a Zoid with Air aptitude, hit targets on plains on a die roll of 2 or higher.",
+    76: "Mountain: HP +200\nGustav: Movement +1. Gustav only.\nInstead of attacking, roll a die and transfer 100 HP per point rolled from Gustav to one adjacent Zoid.",
     77: "Sand: HP +200\nCommand Wolf AS: Movement +3\nOn a hit check, you may spend 300 HP to add 1 to the roll.",
+    78: "Mountain: HP +200\nCommand Wolf: Movement +2\nCannot pilot Zoids with Water or Air aptitude. Gain +3 Movement in enemy territory.",
+    79: "Air: HP +100\nStorm Sworder or Raynos: Movement +1. Air aptitude only.\nIf you are in enemy territory and did not move this turn, you may look at the top 4 cards of the opponent's deck and replace them in the same order instead of attacking.",
+    80: "Water: HP +200\nHammerhead: Movement +2. Water aptitude only.\nOn a hit, you may draw 1 card.",
+    81: "Forest: HP +200\nShield Liger DCS-J: Movement +3\nRange +2 to the piloted Zoid. Lion-types only.",
+    82: "Forest: HP +200\nMammoth or Gordos: Movement +1\nRecover an extra 200 HP when using self-repair.",
+    83: "Use as soon as an allied Zoid is destroyed. Revive it with 500 HP. It may immediately move with +4 Movement once. Attack +200. Damage taken -200. Takes no WR slot.",
+    84: "L-types cannot be piloted. On a compatible Zoid, gain +3 Movement and +200 Attack.",
+    85: "Replace this Zoid's movement aptitude with Air. Declare during battle to use as a ranged weapon with range 6 and attack 500. Discard after firing. M-types only.",
+    86: "Declare use. Attack 700. Recoil moves your Zoid 1 square directly back. If blocked by a base, barricade, or other obstacle, lose 200 HP instead. S-types only.",
+    87: "Cannot be targeted by ranged attacks. Counterattacks still apply. Discard this card when the equipped Zoid takes damage. S-types only.",
+    88: "Attack 300. A ranged hit pushes the target 2 squares back. If blocked by a base, barricade, or other obstacle, deal 200 extra damage instead. S- and M-types only.",
+    89: "Melee attack +300. Instead of attacking, roll a die, halve the result and round up. Crush that many mountain squares straight ahead, turning them into plains. L-types only.",
+    90: "Melee attack +200. A melee hit pushes the enemy Zoid 2 squares back. If a base or barricade blocks it, deal 200 extra damage instead. S- and M-types only.",
+    91: "Declare use. Roll 4 hit checks against the same target in one attack. Deal 100 damage per hit. Cannot target Zoids with Air aptitude. S- and M-types only.",
 }
 TERRAIN_ICONS = (
     (0x02, "MTN", "#744d32"),
@@ -292,17 +325,24 @@ def paint_zoid(face, name, index, record):
 
 def paint_cep(face, name, rule, category, source):
     pilot = category == 2
-    # Preserve the red property mark beside some Custom/Event names.
-    mark = next((x for x in range(15, 85)
-                 if any(r > 95 and r > g * 1.45 and r > b * 1.45
-                        for r, g, b, _ in (source.getpixel((x, y)) for y in range(103, 110)))), None)
-    if category == 1:
+    name_box = (12, 102, 86, 111)
+    background = "#3a3c39"
+    if name.startswith("Organoid "):
+        # The gold frames have a brown name band beside their equipment badges.
+        name_box = (8, 102, 77, 111)
+        background = "#39291b"
+    elif category == 1:
         # Event names are centered across a wider band with no equipment badge.
-        right = 116
-    else:
-        right = mark if mark is not None and mark >= 35 and not pilot else 86
+        name_box = (12, 102, 116, 111)
+    elif not pilot:
+        # Preserve the red property mark beside some Custom names.
+        mark = next((x for x in range(15, 85)
+                     if any(r > 95 and r > g * 1.45 and r > b * 1.45
+                            for r, g, b, _ in (source.getpixel((x, y)) for y in range(103, 110)))), None)
+        if mark is not None and mark >= 35:
+            name_box = (12, 102, mark, 111)
     ink = "#fff0a6" if pilot else "#fff9e6"
-    paint_label(face, (12, 102, right, 111), name, "#3a3c39", ink)
+    paint_label(face, name_box, name, background, ink)
     if rule:
         paint_rule(face, (12, 117, 117, 150), rule, "#f1efeb")
 

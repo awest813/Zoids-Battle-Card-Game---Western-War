@@ -142,6 +142,8 @@ The first Custom, Event, and Pilot review checked 31 distinct rules against the 
 
 The next review checked 28 more rules used by 52 faces. In the Card Album, compare Flamethrower's forest squares with Coolant Sprayer's water squares. Both convert the affected squares to plains. Check that Pile Bunker can discard the target's Armor Custom Card and that Laser Sword ignores the target's equipped Custom Card effects. The fresh English launcher resolved the corrected live rule fragments. Check the complete name band on both Assault Landing Capsule variants. All 70 Event name bands now use their full width, which covers the original lettering on long titles.
 
+The third review checked 33 more rules on 45 faces. In the Card Album, one Moonbay variant reduces incoming damage by a die roll times 100. The other transfers that much HP from Gustav to an adjacent Zoid instead of attacking. Hanna Hanna refers to Prozen, and Security Unit names Diversion Agent and Saboteur. A fresh English launcher resolved the shared Moonbay, Whale King, and Neo Turtle Ship fragment in context. The terrain exception appears in the two transport rules. The complete English names on the gold-framed Organoid Shadow and Organoid Zeke faces were verified in the same disposable album fixture.
+
 Scroll through the Card Album to check `Zoids`, `Pilots`, `Custom`, and `Events`. All four headers were verified in the native OpenGL renderer after loading a disposable album state. The renderer now receives an eight-cell label specific to the album's drawing calls. The separate `Event Card` and `Pilot Card` text slots retained their full wording in the same run.
 
 - [ ] Memory-card dialog is clean English, no tail bleed.
