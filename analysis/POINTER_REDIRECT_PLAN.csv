@@ -1191,15 +1191,15 @@ TXT-1191,story,きても大丈夫だろう。,0x80018ed4,1,800ccfe4,24,11,we're 
 TXT-1192,story,これなら、いつ帝国が攻めて,0x80018eec,1,800ccfe0,28,13,If they strike
 TXT-1193,story,いい腕だ。,0x80018f08,1,800ccfdc,12,5,Nice work.
 TXT-1194,story,よろしくたのむ。,0x80018f14,1,800cd27c,20,9,I'm counting on you.
-TXT-1195,story,かねてからの作戦を発動する。,0x80018f28,1,800cd264,32,15,We will activate the long-planned operation.
-TXT-1196,story,みんな、聞いてのとおりだ。,0x80018f48,1,800cd260,28,13,"Everyone, as you heard."
-TXT-1197,story,まとめて帰るのだな。,0x80018f64,1,800cd234,24,11,"You're going back together, then."
-TXT-1198,story,まあ、早いところ荷物を,0x80018f7c,1,800cd230,24,11,"Well, hurry and pack your things."
-TXT-1199,story,もらった。,0x80018f94,1,800cd21c,12,5,I received it.
-TXT-1200,story,まずは、手みやげを送らせて,0x80018fa0,1,800cd218,28,13,"First, let me send a souvenir."
-TXT-1201,story,宣戦布告する。,0x80018fbc,1,800cd204,16,7,We declare war.
-TXT-1202,story,侵略者である君たちに,0x80018fcc,1,800cd200,24,11,To you invaders
-TXT-1203,story,われわれ帝国は、エウロペの,0x80018fe4,1,800cd1fc,28,13,"We, the Empire, will take Europa"
+TXT-1195,story,かねてからの作戦を発動する。,0x80018f28,1,800cd264,32,15,Begin the operation.
+TXT-1196,story,みんな、聞いてのとおりだ。,0x80018f48,1,800cd260,28,13,You heard him.
+TXT-1197,story,まとめて帰るのだな。,0x80018f64,1,800cd234,24,11,and go home.
+TXT-1198,story,まあ、早いところ荷物を,0x80018f7c,1,800cd230,24,11,Pack quickly
+TXT-1199,story,もらった。,0x80018f94,1,800cd21c,12,5,a little gift.
+TXT-1200,story,まずは、手みやげを送らせて,0x80018fa0,1,800cd218,28,13,"First, I sent you"
+TXT-1201,story,宣戦布告する。,0x80018fbc,1,800cd204,16,7,invaders.
+TXT-1202,story,侵略者である君たちに,0x80018fcc,1,800cd200,24,11,on Europa's
+TXT-1203,story,われわれ帝国は、エウロペの,0x80018fe4,1,800cd1fc,28,13,We declare war
 TXT-1204,story,共和国の諸君。,0x80019000,1,800cd1e8,16,7,Citizens of the Republic.
 TXT-1205,story,まわしてくれ。,0x80019010,1,800cd1b0,16,7,Patch them through.
 TXT-1206,story,帝国から通信が入っています。,0x80019020,1,800cd184,32,15,The Empire is calling.

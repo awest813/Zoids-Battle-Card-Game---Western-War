@@ -1,9 +1,9 @@
 """First-pass English for story/battle strings TXT-1201..TXT-1365."""
 
 STORY_6 = {
-    "TXT-1201": "We declare war.",
-    "TXT-1202": "To you invaders",
-    "TXT-1203": "We, the Empire, will take Europa",
+    "TXT-1201": "invaders.",
+    "TXT-1202": "on Europa's",
+    "TXT-1203": "We declare war",
     "TXT-1204": "Citizens of the Republic.",
     "TXT-1205": "Patch them through.",
     "TXT-1206": "The Empire is calling.",

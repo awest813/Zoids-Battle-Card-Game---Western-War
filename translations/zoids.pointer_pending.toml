@@ -15485,7 +15485,7 @@ ptr_addrs = ["0x800cd264"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "We will activate the long-planned operation."
+en = "Begin the operation."
 note = "story inplace max=15"
 
 [[entry]]
@@ -15498,7 +15498,7 @@ ptr_addrs = ["0x800cd260"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Everyone, as you heard."
+en = "You heard him."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15511,7 +15511,7 @@ ptr_addrs = ["0x800cd234"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "You're going back together, then."
+en = "and go home."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15524,7 +15524,7 @@ ptr_addrs = ["0x800cd230"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Well, hurry and pack your things."
+en = "Pack quickly"
 note = "story inplace max=11"
 
 [[entry]]
@@ -15537,7 +15537,7 @@ ptr_addrs = ["0x800cd21c"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "I received it."
+en = "a little gift."
 note = "story inplace max=5"
 
 [[entry]]
@@ -15550,7 +15550,7 @@ ptr_addrs = ["0x800cd218"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "First, let me send a souvenir."
+en = "First, I sent you"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15563,7 +15563,7 @@ ptr_addrs = ["0x800cd204"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "We declare war."
+en = "invaders."
 note = "story inplace max=7"
 
 [[entry]]
@@ -15576,7 +15576,7 @@ ptr_addrs = ["0x800cd200"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "To you invaders"
+en = "on Europa's"
 note = "story inplace max=11"
 
 [[entry]]
@@ -15589,7 +15589,7 @@ ptr_addrs = ["0x800cd1fc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We, the Empire, will take Europa"
+en = "We declare war"
 note = "story inplace max=13"
 
 [[entry]]

@@ -1193,15 +1193,15 @@ TXT-1191,story,P1,inplace,0096d4,0x80018ed4,800ccfe4,24,11,きても大丈夫だ
 TXT-1192,story,P1,inplace,0096ec,0x80018eec,800ccfe0,28,13,これなら、いつ帝国が攻めて,If they strike,14,no,draft,table-driven; use pointer redirection
 TXT-1193,story,P1,inplace,009708,0x80018f08,800ccfdc,12,5,いい腕だ。,Nice work.,10,no,draft,table-driven; use pointer redirection
 TXT-1194,story,P1,inplace,009714,0x80018f14,800cd27c,20,9,よろしくたのむ。,I'm counting on you.,20,no,draft,table-driven; use pointer redirection
-TXT-1195,story,P1,inplace,009728,0x80018f28,800cd264,32,15,かねてからの作戦を発動する。,We will activate the long-planned operation.,44,no,draft,table-driven; use pointer redirection
-TXT-1196,story,P1,inplace,009748,0x80018f48,800cd260,28,13,みんな、聞いてのとおりだ。,"Everyone, as you heard.",23,no,draft,table-driven; use pointer redirection
-TXT-1197,story,P1,inplace,009764,0x80018f64,800cd234,24,11,まとめて帰るのだな。,"You're going back together, then.",33,no,draft,table-driven; use pointer redirection
-TXT-1198,story,P1,inplace,00977c,0x80018f7c,800cd230,24,11,まあ、早いところ荷物を,"Well, hurry and pack your things.",33,no,draft,table-driven; use pointer redirection
-TXT-1199,story,P1,inplace,009794,0x80018f94,800cd21c,12,5,もらった。,I received it.,14,no,draft,table-driven; use pointer redirection
-TXT-1200,story,P1,inplace,0097a0,0x80018fa0,800cd218,28,13,まずは、手みやげを送らせて,"First, let me send a souvenir.",30,no,draft,table-driven; use pointer redirection
-TXT-1201,story,P1,inplace,0097bc,0x80018fbc,800cd204,16,7,宣戦布告する。,We declare war.,15,no,draft,table-driven; use pointer redirection
-TXT-1202,story,P1,inplace,0097cc,0x80018fcc,800cd200,24,11,侵略者である君たちに,To you invaders,15,no,draft,table-driven; use pointer redirection
-TXT-1203,story,P1,inplace,0097e4,0x80018fe4,800cd1fc,28,13,われわれ帝国は、エウロペの,"We, the Empire, will take Europa",32,no,draft,table-driven; use pointer redirection
+TXT-1195,story,P1,inplace,009728,0x80018f28,800cd264,32,15,かねてからの作戦を発動する。,Begin the operation.,20,no,draft,table-driven; use pointer redirection
+TXT-1196,story,P1,inplace,009748,0x80018f48,800cd260,28,13,みんな、聞いてのとおりだ。,You heard him.,14,no,draft,table-driven; use pointer redirection
+TXT-1197,story,P1,inplace,009764,0x80018f64,800cd234,24,11,まとめて帰るのだな。,and go home.,12,no,draft,table-driven; use pointer redirection
+TXT-1198,story,P1,inplace,00977c,0x80018f7c,800cd230,24,11,まあ、早いところ荷物を,Pack quickly,12,no,draft,table-driven; use pointer redirection
+TXT-1199,story,P1,inplace,009794,0x80018f94,800cd21c,12,5,もらった。,a little gift.,14,no,draft,table-driven; use pointer redirection
+TXT-1200,story,P1,inplace,0097a0,0x80018fa0,800cd218,28,13,まずは、手みやげを送らせて,"First, I sent you",17,no,draft,table-driven; use pointer redirection
+TXT-1201,story,P1,inplace,0097bc,0x80018fbc,800cd204,16,7,宣戦布告する。,invaders.,9,no,draft,table-driven; use pointer redirection
+TXT-1202,story,P1,inplace,0097cc,0x80018fcc,800cd200,24,11,侵略者である君たちに,on Europa's,11,yes,draft,table-driven; use pointer redirection
+TXT-1203,story,P1,inplace,0097e4,0x80018fe4,800cd1fc,28,13,われわれ帝国は、エウロペの,We declare war,14,no,draft,table-driven; use pointer redirection
 TXT-1204,story,P1,inplace,009800,0x80019000,800cd1e8,16,7,共和国の諸君。,Citizens of the Republic.,25,no,draft,table-driven; use pointer redirection
 TXT-1205,story,P1,inplace,009810,0x80019010,800cd1b0,16,7,まわしてくれ。,Patch them through.,19,no,draft,table-driven; use pointer redirection
 TXT-1206,story,P1,inplace,009820,0x80019020,800cd184,32,15,帝国から通信が入っています。,The Empire is calling.,22,no,draft,table-driven; use pointer redirection
