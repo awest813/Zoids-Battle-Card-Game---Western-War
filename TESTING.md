@@ -125,6 +125,10 @@ After defeating the first Iguan, check the Event Card lesson. It should explain 
 
 The Republic training mission was cleared through regular gameplay on turn eight. The live English Battle Results plate displayed 1,000 Assault Points and 1,000 from two defeated Zoids, for 2,000 Total Points. Confirming the results opened the next Republic briefing.
 
+After the post-training briefing, check `Sortie`, `Info`, `Hand`, `Supply`, and `Save` at Operations Base. Supply displays `Buy` and `Cancel`. Choose Sortie and check `New Helic City` on the Stage 2 route map. The OpenGL run verified these labels and the shorter acquisition and supply instructions.
+
+In a disposable test, the English runtime exited during the initial memory-card write after restoring an Operations Base checkpoint. A control run with the text tables and textures disabled created a valid `BISLPS-03255` save from the same checkpoint. Track the fresh-boot and restored-state save paths independently when reproducing the write failure.
+
 The Stage 13 `Road to Gaigalus` and Stage 5 `Imperial Capital Gaigalus` overlays match the city spelling in the briefing map and dialogue. A pixel comparison confirmed that the corrections only change the title line. Live playback of both later stage captions is still pending.
 
 ### Movie inventory and opening playback

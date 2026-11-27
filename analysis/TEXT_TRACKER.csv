@@ -657,9 +657,9 @@ TXT-0655,0063f0,80015bf0,17,8,story,inplace,1,800c9a34,20,9,19,P1,translated,手
 TXT-0656,006404,80015c04,29,14,story,inplace,1,800c9a30,32,15,31,P1,translated,オペレーションさえ成功すれば,As long as the operation succeeds,1 pointer(s); pointer redirection
 TXT-0657,006424,80015c24,27,13,story,inplace,1,800c9a1c,28,13,27,P1,translated,増強していってかまわない。,You may reinforce as you like.,1 pointer(s); pointer redirection
 TXT-0658,006440,80015c40,29,14,story,inplace,1,800c9a18,32,15,31,P1,translated,部隊は、補給を受けるなりして,The unit may receive supplies,1 pointer(s); pointer redirection
-TXT-0659,006460,80015c60,15,7,story,inplace,2,800c99e8,16,7,15,P1,translated,入手しました。,obtained.,2 pointer(s); pointer redirection
-TXT-0660,006470,80015c70,17,8,story,inplace,2,800c99e4,20,9,19,P1,translated,イベントカードを,Event cards,2 pointer(s); pointer redirection
-TXT-0661,006484,80015c84,25,12,story,inplace,2,800c99e0,28,13,27,P1,translated,ゾイド、カスタムカード、,"Zoids, Custom Cards,",2 pointer(s); pointer redirection
+TXT-0659,006460,80015c60,15,7,story,inplace,2,800c99e8,16,7,15,P1,translated,入手しました。,and Events.,2 pointer(s); pointer redirection
+TXT-0660,006470,80015c70,17,8,story,inplace,2,800c99e4,20,9,19,P1,translated,イベントカードを,"Custom cards,",2 pointer(s); pointer redirection
+TXT-0661,006484,80015c84,25,12,story,inplace,2,800c99e0,28,13,27,P1,translated,ゾイド、カスタムカード、,"Got Zoids,",2 pointer(s); pointer redirection
 TXT-0662,0064a0,80015ca0,23,11,story,inplace,1,800c9998,24,11,23,P1,translated,君に部隊をまかせよう。,I will entrust the unit to you.,1 pointer(s); pointer redirection
 TXT-0663,0064b8,80015cb8,9,4,story,inplace,1,800c9994,12,5,11,P1,translated,では、＠,"Now, @",1 pointer(s); pointer redirection
 TXT-0664,0064c4,80015cc4,29,14,story,inplace,1,800c9980,32,15,31,P1,translated,他の者も納得がいっただろう。,The others must be convinced too.,1 pointer(s); pointer redirection
@@ -1184,11 +1184,11 @@ TXT-1182,009600,80018e00,21,10,story,inplace,1,800cccf0,24,11,23,P1,translated,�
 TXT-1183,009618,80018e18,17,8,story,inplace,1,800cccdc,20,9,19,P1,translated,よく来てくれた。,Thank you for coming.,1 pointer(s); pointer redirection
 TXT-1184,00962c,80018e2c,15,7,story,inplace,1,800cccb0,16,7,15,P1,translated,到着しました。,has arrived.,1 pointer(s); pointer redirection
 TXT-1185,00963c,80018e3c,19,9,story,inplace,1,800cd09c,20,9,19,P1,translated,明日に備えてくれ。,Prepare for tomorrow.,1 pointer(s); pointer redirection
-TXT-1186,009650,80018e50,29,14,story,inplace,1,800cd098,32,15,31,P1,translated,まぁ、今日はゆっくり休んで、,"Well, rest well today,",1 pointer(s); pointer redirection
-TXT-1187,009670,80018e70,15,7,story,inplace,1,800cd084,16,7,15,P1,translated,いって欲しい。,I want you to go.,1 pointer(s); pointer redirection
-TXT-1188,009680,80018e80,27,13,story,inplace,1,800cd080,28,13,27,P1,translated,補給をうけ、部隊を強くして,Receive supplies and strengthen the unit.,1 pointer(s); pointer redirection
-TXT-1189,00969c,80018e9c,27,13,story,inplace,1,800cd000,28,13,27,P1,translated,あいさつをしておくといい。,You should greet them.,1 pointer(s); pointer redirection
-TXT-1190,0096b8,80018eb8,25,12,story,inplace,1,800ccffc,28,13,27,P1,translated,君の指揮下にはいる部隊と,With the units under your command,1 pointer(s); pointer redirection
+TXT-1186,009650,80018e50,29,14,story,inplace,1,800cd098,32,15,31,P1,translated,まぁ、今日はゆっくり休んで、,Rest today.,1 pointer(s); pointer redirection
+TXT-1187,009670,80018e70,15,7,story,inplace,1,800cd084,16,7,15,P1,translated,いって欲しい。,your unit.,1 pointer(s); pointer redirection
+TXT-1188,009680,80018e80,27,13,story,inplace,1,800cd080,28,13,27,P1,translated,補給をうけ、部隊を強くして,Use supplies to strengthen,1 pointer(s); pointer redirection
+TXT-1189,00969c,80018e9c,27,13,story,inplace,1,800cd000,28,13,27,P1,translated,あいさつをしておくといい。,you'll lead.,1 pointer(s); pointer redirection
+TXT-1190,0096b8,80018eb8,25,12,story,inplace,1,800ccffc,28,13,27,P1,translated,君の指揮下にはいる部隊と,Meet the units,1 pointer(s); pointer redirection
 TXT-1191,0096d4,80018ed4,21,10,story,inplace,1,800ccfe4,24,11,23,P1,translated,きても大丈夫だろう。,we're ready.,1 pointer(s); pointer redirection
 TXT-1192,0096ec,80018eec,27,13,story,inplace,1,800ccfe0,28,13,27,P1,translated,これなら、いつ帝国が攻めて,If they strike,1 pointer(s); pointer redirection
 TXT-1193,009708,80018f08,11,5,story,inplace,1,800ccfdc,12,5,11,P1,translated,いい腕だ。,Nice work.,1 pointer(s); pointer redirection
@@ -1799,8 +1799,8 @@ TXT-1797,00d0b0,8001c8b0,15,7,ui,inplace,1,800d2560,16,7,15,P0,translated,射出
 TXT-1798,00d0c0,8001c8c0,21,10,ui,inplace,1,800d25ac,24,11,23,P0,translated,１枚だけ破壊します。,destroy only 1.,1 pointer(s); pointer redirection
 TXT-1799,00d0d8,8001c8d8,25,12,ui,inplace,1,800d25a8,28,13,27,P0,translated,装備中のカスタムカードを,equipped Custom card,1 pointer(s); pointer redirection
 TXT-1800,00d0f4,8001c8f4,25,12,ui,inplace,1,800d25a4,28,13,27,P0,translated,ダメージを与える代わりに,"instead of dealing damage,",1 pointer(s); pointer redirection
-TXT-1801,00d110,8001c910,29,14,ui,inplace,1,800d27bc,32,15,31,P0,translated,カード補給エリアへようこそ！,Welcome to Card Supply!,1 pointer(s); pointer redirection
-TXT-1802,00d130,8001c930,11,5,ui,inplace,1,800d27b8,12,5,11,P0,translated,ムンベイの,Moonbay's,1 pointer(s); pointer redirection
+TXT-1801,00d110,8001c910,29,14,ui,inplace,1,800d27bc,32,15,31,P0,translated,カード補給エリアへようこそ！,Moonbay's Card Supply!,1 pointer(s); pointer redirection
+TXT-1802,00d130,8001c930,11,5,ui,inplace,1,800d27b8,12,5,11,P0,translated,ムンベイの,Welcome to,1 pointer(s); pointer redirection
 TXT-1803,00d13c,8001c93c,17,8,ui,inplace,1,800d27e0,20,9,19,P0,translated,入手できるのよ。,you can get it.,1 pointer(s); pointer redirection
 TXT-1804,00d150,8001c950,23,11,ui,inplace,1,800d27dc,24,11,23,P0,translated,新しいゾイドやカードを,new Zoids and cards,1 pointer(s); pointer redirection
 TXT-1805,00d168,8001c968,27,13,ui,inplace,1,800d27d8,28,13,27,P0,translated,ここではパックを購入して、,Buy packs here,1 pointer(s); pointer redirection

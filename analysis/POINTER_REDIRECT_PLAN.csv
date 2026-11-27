@@ -655,9 +655,9 @@ TXT-0655,story,手段は問わない。,0x80015bf0,1,800c9a34,20,9,Any means are
 TXT-0656,story,オペレーションさえ成功すれば,0x80015c04,1,800c9a30,32,15,As long as the operation succeeds
 TXT-0657,story,増強していってかまわない。,0x80015c24,1,800c9a1c,28,13,You may reinforce as you like.
 TXT-0658,story,部隊は、補給を受けるなりして,0x80015c40,1,800c9a18,32,15,The unit may receive supplies
-TXT-0659,story,入手しました。,0x80015c60,2,800c99e8;800cd050,16,7,obtained.
-TXT-0660,story,イベントカードを,0x80015c70,2,800c99e4;800cd04c,20,9,Event cards
-TXT-0661,story,ゾイド、カスタムカード、,0x80015c84,2,800c99e0;800cd048,28,13,"Zoids, Custom Cards,"
+TXT-0659,story,入手しました。,0x80015c60,2,800c99e8;800cd050,16,7,and Events.
+TXT-0660,story,イベントカードを,0x80015c70,2,800c99e4;800cd04c,20,9,"Custom cards,"
+TXT-0661,story,ゾイド、カスタムカード、,0x80015c84,2,800c99e0;800cd048,28,13,"Got Zoids,"
 TXT-0662,story,君に部隊をまかせよう。,0x80015ca0,1,800c9998,24,11,I will entrust the unit to you.
 TXT-0663,story,では、＠,0x80015cb8,1,800c9994,12,5,"Now, @"
 TXT-0664,story,他の者も納得がいっただろう。,0x80015cc4,1,800c9980,32,15,The others must be convinced too.
@@ -1182,11 +1182,11 @@ TXT-1182,story,私の名はハーマンだ。,0x80018e00,1,800cccf0,24,11,My nam
 TXT-1183,story,よく来てくれた。,0x80018e18,1,800cccdc,20,9,Thank you for coming.
 TXT-1184,story,到着しました。,0x80018e2c,1,800cccb0,16,7,has arrived.
 TXT-1185,story,明日に備えてくれ。,0x80018e3c,1,800cd09c,20,9,Prepare for tomorrow.
-TXT-1186,story,まぁ、今日はゆっくり休んで、,0x80018e50,1,800cd098,32,15,"Well, rest well today,"
-TXT-1187,story,いって欲しい。,0x80018e70,1,800cd084,16,7,I want you to go.
-TXT-1188,story,補給をうけ、部隊を強くして,0x80018e80,1,800cd080,28,13,Receive supplies and strengthen the unit.
-TXT-1189,story,あいさつをしておくといい。,0x80018e9c,1,800cd000,28,13,You should greet them.
-TXT-1190,story,君の指揮下にはいる部隊と,0x80018eb8,1,800ccffc,28,13,With the units under your command
+TXT-1186,story,まぁ、今日はゆっくり休んで、,0x80018e50,1,800cd098,32,15,Rest today.
+TXT-1187,story,いって欲しい。,0x80018e70,1,800cd084,16,7,your unit.
+TXT-1188,story,補給をうけ、部隊を強くして,0x80018e80,1,800cd080,28,13,Use supplies to strengthen
+TXT-1189,story,あいさつをしておくといい。,0x80018e9c,1,800cd000,28,13,you'll lead.
+TXT-1190,story,君の指揮下にはいる部隊と,0x80018eb8,1,800ccffc,28,13,Meet the units
 TXT-1191,story,きても大丈夫だろう。,0x80018ed4,1,800ccfe4,24,11,we're ready.
 TXT-1192,story,これなら、いつ帝国が攻めて,0x80018eec,1,800ccfe0,28,13,If they strike
 TXT-1193,story,いい腕だ。,0x80018f08,1,800ccfdc,12,5,Nice work.
@@ -1797,8 +1797,8 @@ TXT-1797,ui,射出する方向を,0x8001c8b0,1,800d2560,16,7,launch direction
 TXT-1798,ui,１枚だけ破壊します。,0x8001c8c0,1,800d25ac,24,11,destroy only 1.
 TXT-1799,ui,装備中のカスタムカードを,0x8001c8d8,1,800d25a8,28,13,equipped Custom card
 TXT-1800,ui,ダメージを与える代わりに,0x8001c8f4,1,800d25a4,28,13,"instead of dealing damage,"
-TXT-1801,ui,カード補給エリアへようこそ！,0x8001c910,1,800d27bc,32,15,Welcome to Card Supply!
-TXT-1802,ui,ムンベイの,0x8001c930,1,800d27b8,12,5,Moonbay's
+TXT-1801,ui,カード補給エリアへようこそ！,0x8001c910,1,800d27bc,32,15,Moonbay's Card Supply!
+TXT-1802,ui,ムンベイの,0x8001c930,1,800d27b8,12,5,Welcome to
 TXT-1803,ui,入手できるのよ。,0x8001c93c,1,800d27e0,20,9,you can get it.
 TXT-1804,ui,新しいゾイドやカードを,0x8001c950,1,800d27dc,24,11,new Zoids and cards
 TXT-1805,ui,ここではパックを購入して、,0x8001c968,1,800d27d8,28,13,Buy packs here

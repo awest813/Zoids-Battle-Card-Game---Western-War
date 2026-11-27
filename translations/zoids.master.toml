@@ -8566,7 +8566,7 @@ ptr_addrs = ["0x800c99e8", "0x800cd050"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "obtained."
+en = "and Events."
 note = "story inplace max=7"
 
 [[entry]]
@@ -8579,7 +8579,7 @@ ptr_addrs = ["0x800c99e4", "0x800cd04c"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Event cards"
+en = "Custom cards,"
 note = "story inplace max=9"
 
 [[entry]]
@@ -8592,7 +8592,7 @@ ptr_addrs = ["0x800c99e0", "0x800cd048"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Zoids, Custom Cards,"
+en = "Got Zoids,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15417,7 +15417,7 @@ ptr_addrs = ["0x800cd098"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Well, rest well today,"
+en = "Rest today."
 note = "story inplace max=15"
 
 [[entry]]
@@ -15430,7 +15430,7 @@ ptr_addrs = ["0x800cd084"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "I want you to go."
+en = "your unit."
 note = "story inplace max=7"
 
 [[entry]]
@@ -15443,7 +15443,7 @@ ptr_addrs = ["0x800cd080"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Receive supplies and strengthen the unit."
+en = "Use supplies to strengthen"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15456,7 +15456,7 @@ ptr_addrs = ["0x800cd000"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "You should greet them."
+en = "you'll lead."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15469,7 +15469,7 @@ ptr_addrs = ["0x800ccffc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "With the units under your command"
+en = "Meet the units"
 note = "story inplace max=13"
 
 [[entry]]
@@ -23412,7 +23412,7 @@ ptr_addrs = ["0x800d27bc"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Welcome to Card Supply!"
+en = "Moonbay's Card Supply!"
 note = "ui inplace max=15"
 
 [[entry]]
@@ -23425,7 +23425,7 @@ ptr_addrs = ["0x800d27b8"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "Moonbay's"
+en = "Welcome to"
 note = "ui inplace max=5"
 
 [[entry]]

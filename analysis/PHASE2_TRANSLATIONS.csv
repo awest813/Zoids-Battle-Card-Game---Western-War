@@ -657,9 +657,9 @@ TXT-0655,story,P1,inplace,0063f0,0x80015bf0,800c9a34,20,9,手段は問わない�
 TXT-0656,story,P1,inplace,006404,0x80015c04,800c9a30,32,15,オペレーションさえ成功すれば,As long as the operation succeeds,33,no,draft,table-driven; use pointer redirection
 TXT-0657,story,P1,inplace,006424,0x80015c24,800c9a1c,28,13,増強していってかまわない。,You may reinforce as you like.,30,no,draft,table-driven; use pointer redirection
 TXT-0658,story,P1,inplace,006440,0x80015c40,800c9a18,32,15,部隊は、補給を受けるなりして,The unit may receive supplies,29,no,draft,table-driven; use pointer redirection
-TXT-0659,story,P1,inplace,006460,0x80015c60,800c99e8,16,7,入手しました。,obtained.,9,no,draft,table-driven; use pointer redirection
-TXT-0660,story,P1,inplace,006470,0x80015c70,800c99e4,20,9,イベントカードを,Event cards,11,no,draft,table-driven; use pointer redirection
-TXT-0661,story,P1,inplace,006484,0x80015c84,800c99e0,28,13,ゾイド、カスタムカード、,"Zoids, Custom Cards,",20,no,draft,table-driven; use pointer redirection
+TXT-0659,story,P1,inplace,006460,0x80015c60,800c99e8,16,7,入手しました。,and Events.,11,no,draft,table-driven; use pointer redirection
+TXT-0660,story,P1,inplace,006470,0x80015c70,800c99e4,20,9,イベントカードを,"Custom cards,",13,no,draft,table-driven; use pointer redirection
+TXT-0661,story,P1,inplace,006484,0x80015c84,800c99e0,28,13,ゾイド、カスタムカード、,"Got Zoids,",10,yes,draft,table-driven; use pointer redirection
 TXT-0662,story,P1,inplace,0064a0,0x80015ca0,800c9998,24,11,君に部隊をまかせよう。,I will entrust the unit to you.,31,no,draft,table-driven; use pointer redirection
 TXT-0663,story,P1,inplace,0064b8,0x80015cb8,800c9994,12,5,では、＠,"Now, @",6,no,draft,table-driven; use pointer redirection
 TXT-0664,story,P1,inplace,0064c4,0x80015cc4,800c9980,32,15,他の者も納得がいっただろう。,The others must be convinced too.,33,no,draft,table-driven; use pointer redirection
@@ -1184,11 +1184,11 @@ TXT-1182,story,P1,inplace,009600,0x80018e00,800cccf0,24,11,私の名はハーマ
 TXT-1183,story,P1,inplace,009618,0x80018e18,800cccdc,20,9,よく来てくれた。,Thank you for coming.,21,no,draft,table-driven; use pointer redirection
 TXT-1184,story,P1,inplace,00962c,0x80018e2c,800cccb0,16,7,到着しました。,has arrived.,12,no,draft,table-driven; use pointer redirection
 TXT-1185,story,P1,inplace,00963c,0x80018e3c,800cd09c,20,9,明日に備えてくれ。,Prepare for tomorrow.,21,no,draft,table-driven; use pointer redirection
-TXT-1186,story,P1,inplace,009650,0x80018e50,800cd098,32,15,まぁ、今日はゆっくり休んで、,"Well, rest well today,",22,no,draft,table-driven; use pointer redirection
-TXT-1187,story,P1,inplace,009670,0x80018e70,800cd084,16,7,いって欲しい。,I want you to go.,17,no,draft,table-driven; use pointer redirection
-TXT-1188,story,P1,inplace,009680,0x80018e80,800cd080,28,13,補給をうけ、部隊を強くして,Receive supplies and strengthen the unit.,41,no,draft,table-driven; use pointer redirection
-TXT-1189,story,P1,inplace,00969c,0x80018e9c,800cd000,28,13,あいさつをしておくといい。,You should greet them.,22,no,draft,table-driven; use pointer redirection
-TXT-1190,story,P1,inplace,0096b8,0x80018eb8,800ccffc,28,13,君の指揮下にはいる部隊と,With the units under your command,33,no,draft,table-driven; use pointer redirection
+TXT-1186,story,P1,inplace,009650,0x80018e50,800cd098,32,15,まぁ、今日はゆっくり休んで、,Rest today.,11,yes,draft,table-driven; use pointer redirection
+TXT-1187,story,P1,inplace,009670,0x80018e70,800cd084,16,7,いって欲しい。,your unit.,10,no,draft,table-driven; use pointer redirection
+TXT-1188,story,P1,inplace,009680,0x80018e80,800cd080,28,13,補給をうけ、部隊を強くして,Use supplies to strengthen,26,no,draft,table-driven; use pointer redirection
+TXT-1189,story,P1,inplace,00969c,0x80018e9c,800cd000,28,13,あいさつをしておくといい。,you'll lead.,12,yes,draft,table-driven; use pointer redirection
+TXT-1190,story,P1,inplace,0096b8,0x80018eb8,800ccffc,28,13,君の指揮下にはいる部隊と,Meet the units,14,no,draft,table-driven; use pointer redirection
 TXT-1191,story,P1,inplace,0096d4,0x80018ed4,800ccfe4,24,11,きても大丈夫だろう。,we're ready.,12,no,draft,table-driven; use pointer redirection
 TXT-1192,story,P1,inplace,0096ec,0x80018eec,800ccfe0,28,13,これなら、いつ帝国が攻めて,If they strike,14,no,draft,table-driven; use pointer redirection
 TXT-1193,story,P1,inplace,009708,0x80018f08,800ccfdc,12,5,いい腕だ。,Nice work.,10,no,draft,table-driven; use pointer redirection
@@ -1799,8 +1799,8 @@ TXT-1797,ui,P0,inplace,00d0b0,0x8001c8b0,800d2560,16,7,射出する方向を,lau
 TXT-1798,ui,P0,inplace,00d0c0,0x8001c8c0,800d25ac,24,11,１枚だけ破壊します。,destroy only 1.,15,no,draft,table-driven; use pointer redirection
 TXT-1799,ui,P0,inplace,00d0d8,0x8001c8d8,800d25a8,28,13,装備中のカスタムカードを,equipped Custom card,20,no,draft,table-driven; use pointer redirection
 TXT-1800,ui,P0,inplace,00d0f4,0x8001c8f4,800d25a4,28,13,ダメージを与える代わりに,"instead of dealing damage,",26,no,draft,table-driven; use pointer redirection
-TXT-1801,ui,P0,inplace,00d110,0x8001c910,800d27bc,32,15,カード補給エリアへようこそ！,Welcome to Card Supply!,23,no,draft,table-driven; use pointer redirection
-TXT-1802,ui,P0,inplace,00d130,0x8001c930,800d27b8,12,5,ムンベイの,Moonbay's,9,no,draft,table-driven; use pointer redirection
+TXT-1801,ui,P0,inplace,00d110,0x8001c910,800d27bc,32,15,カード補給エリアへようこそ！,Moonbay's Card Supply!,22,no,draft,table-driven; use pointer redirection
+TXT-1802,ui,P0,inplace,00d130,0x8001c930,800d27b8,12,5,ムンベイの,Welcome to,10,no,draft,table-driven; use pointer redirection
 TXT-1803,ui,P0,inplace,00d13c,0x8001c93c,800d27e0,20,9,入手できるのよ。,you can get it.,15,no,draft,table-driven; use pointer redirection
 TXT-1804,ui,P0,inplace,00d150,0x8001c950,800d27dc,24,11,新しいゾイドやカードを,new Zoids and cards,19,no,draft,table-driven; use pointer redirection
 TXT-1805,ui,P0,inplace,00d168,0x8001c968,800d27d8,28,13,ここではパックを購入して、,Buy packs here,14,no,draft,table-driven; use pointer redirection

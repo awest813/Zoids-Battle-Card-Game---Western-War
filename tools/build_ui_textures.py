@@ -2,6 +2,7 @@
 
 import argparse
 import struct
+from collections import Counter
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageStat
@@ -103,6 +104,23 @@ def transparent_caption(image, box, label, ratio, font):
     image.alpha_composite(lettering, (x, y + 1))
 
 
+def button_label(image, box, label, ratio, font):
+    button = image.crop(box)
+    pixels = list(struct.iter_unpack("4B", button.tobytes()))
+    mask = Image.new("L", button.size)
+    mask.putdata([255 if a and r >= 40 and r <= g * 1.2 and g <= b * 1.35 else 0
+                  for r, g, b, a in pixels])
+    mask = mask.filter(ImageFilter.MaxFilter(5))
+    mask.putdata([0 if r > g * 1.2 and g > b * 1.2 else erase
+                  for (r, g, b, _), erase in zip(pixels, mask.tobytes())])
+    underline = button.crop((36, 0, 37, button.height)).resize(button.size, Image.Resampling.NEAREST)
+    x, y = box[:2]
+    image.paste(underline, (x, y), mask)
+    white = faded((243, 241, 226, 255), ratio)
+    lettering = text_layer(label, (74, 15), font, 13, white, (0, 0, 0, 255))
+    image.alpha_composite(lettering, (x + 3, y))
+
+
 def free_mode(image, ratio, font):
     for box, label in (
         ((0, 24, 73, 40), "- SELECT STAGE -"),
@@ -117,21 +135,60 @@ def free_mode(image, ratio, font):
     )):
         for row, label in enumerate(labels):
             x, y = column * 80, 48 + row * 16
-            box = (x, y, x + 80, y + 16)
-            button = image.crop(box)
-            pixels = list(struct.iter_unpack("4B", button.tobytes()))
-            mask = Image.new("L", button.size)
-            mask.putdata([255 if a and r >= 40 and r <= g * 1.2 and g <= b * 1.35 else 0
-                          for r, g, b, a in pixels])
-            mask = mask.filter(ImageFilter.MaxFilter(5))
-            mask.putdata([0 if r > g * 1.2 and g > b * 1.2 else erase
-                          for (r, g, b, _), erase in zip(pixels, mask.tobytes())])
-            underline = button.crop((36, 0, 37, button.height)).resize(button.size, Image.Resampling.NEAREST)
-            image.paste(underline, box[:2], mask)
-            white = faded((243, 241, 226, 255), ratio)
-            lettering = text_layer(label, (74, 15), font, 13, white, (0, 0, 0, 255))
-            image.alpha_composite(lettering, (x + 3, y))
+            button_label(image, (x, y, x + 80, y + 16), label, ratio, font)
     return image
+
+
+def operations_base_textures(output, dumps, font):
+    # Each display palette uploads the Sortie button and the lower six
+    # buttons separately. Their siblings contain the original English art.
+    labels = {
+        (176, 0, 80, 16): (("SORTIE",),),
+        (0, 24, 240, 32): (("INFO", "HAND", "SUPPLY"), ("SAVE", "BUY", "CANCEL")),
+        (80, 40, 80, 16): (("BUY",),),
+        (160, 40, 80, 16): (("CANCEL",),),
+    }
+    variants = {}
+    for name, path in dumps.items():
+        fields = name.split("-")
+        if fields[2] != "35930441D5B04801":
+            continue
+        with Image.open(path) as source:
+            image = source.convert("RGBA")
+        key = (*map(int, fields[5:7]), *image.size)
+        if key in labels:
+            variants.setdefault(key, []).append((name, image))
+    for key, images in variants.items():
+        reference = max(average_light(image) for _, image in images)
+        if not reference:
+            continue
+        for name, image in images:
+            ratio = average_light(image) / reference
+            for row, buttons in enumerate(labels[key]):
+                for col, label in enumerate(buttons):
+                    x, y = col * 80, row * 16
+                    button_label(image, (x, y, x + 80, y + 16), label, ratio, font)
+            image.save(output / name)
+
+    city = "texupload-P4-A6F8A51A32F094E4-EA65DF42BAF81E9F-64x248-128-80-128x24-P0-15.png"
+    if city in dumps:
+        with Image.open(dumps[city]) as source:
+            plate = source.convert("RGBA")
+        box = (3, 3, 125, 19)
+        background = plate.crop(box)
+        for y in range(background.height):
+            row = [background.getpixel((x, y)) for x in range(background.width)]
+            wood = Counter(color for color in row if 48 <= color[0] <= 164 and color[2] <= 49)
+            if wood:
+                fill = wood.most_common(1)[0][0]
+                for x, color in enumerate(row):
+                    if color not in wood:
+                        background.putpixel((x, y), fill)
+        plate.paste(background, box[:2])
+        lettering = text_layer("NEW HELIC CITY", background.size, font, 14,
+                               (255, 247, 230, 255), (32, 14, 4, 255))
+        plate.alpha_composite(lettering, box[:2])
+        plate.save(output / city)
 
 
 def title_screen(image, reference, ratio):
@@ -368,6 +425,7 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     font = "arialbd.ttf"
     roster_icons(output, dumps, font)
+    operations_base_textures(output, dumps, font)
     tim_dir = ROOT / "extracted/TIM"
     battle_phase_textures(output, tim_dir, font)
     data = (tim_dir / "CARD_T.TIM").read_bytes()
