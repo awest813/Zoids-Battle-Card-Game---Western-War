@@ -17,8 +17,11 @@ WORKSPACE = Path(__file__).resolve().parents[1]
 TARGET = "ZoidsBattleCardGame.exe"
 OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/text_xlate.cpp.obj"
 RENDERER_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/gpu_gl_renderer.c.obj"
+HD_TEXTURE_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/gpu_hd_textures.cpp.obj"
+DUCK_TEXTURE_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/duckstation_texture_pack.cpp.obj"
 BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
 MEMORY_CARD = Path(__file__).with_name("memory_card.inc")
+DUCK_RESIDENCY = Path(__file__).with_name("duck_texture_residency.inc")
 ALBUM_HEADINGS_SOURCE = Path(__file__).with_name("album_headings.inc")
 MENU_TRANSLATIONS = Path(__file__).with_name("translations_menu.py")
 MOVIE_CAPTIONS = Path(__file__).with_name("movie_captions.inc")
@@ -278,6 +281,49 @@ def captioned_renderer(source, osd):
     return source
 
 
+def duck_residency_dispatch(source):
+    replacements = (
+        ('extern "C" int gpu_hd_textures_residency_save(uint8_t** data, size_t* size) {',
+         """bool zoids_duck_residency_save(const DuckTexturePack*, std::vector<uint8_t>&);
+bool zoids_duck_residency_load(DuckTexturePack*, const uint16_t*, const uint8_t*, size_t);
+constexpr uint32_t kDuckResidencyVersion = 3u;
+
+extern "C" int gpu_hd_textures_residency_save(uint8_t** data, size_t* size) {"""),
+        ('    if (!data || !size || !session || !session->beetle || !native_vram) return 0;',
+         """    if (data && size && session && session->duck && native_vram) {
+        gl_renderer_render_thread_sync("duck_residency_save");
+        std::vector<uint8_t> tracking;
+        if (!zoids_duck_residency_save(session->duck, tracking)) return 0;
+        auto* out = static_cast<uint8_t*>(std::malloc(kResidencyHeader + tracking.size()));
+        if (!out) return 0;
+        put32(out, kResidencyMagic);
+        put32(out + 4, kDuckResidencyVersion);
+        put32(out + 8, hd_texture_crc32_words_le(native_vram, kVramWords));
+        put32(out + 12, 0);
+        std::memcpy(out + kResidencyHeader, tracking.data(), tracking.size());
+        *data = out;
+        *size = kResidencyHeader + tracking.size();
+        return 1;
+    }
+    if (!data || !size || !session || !session->beetle || !native_vram) return 0;"""),
+        ('    if (!data || size < kResidencyHeader || !session || !session->beetle || !native_vram) return 0;',
+         """    if (!data || size < kResidencyHeader || !session || !native_vram) return 0;
+    if (session->duck && get32(data + 4) == kDuckResidencyVersion) {
+        gl_renderer_render_thread_sync("duck_residency_load");
+        if (get32(data) != kResidencyMagic || get32(data + 12) != 0 ||
+            get32(data + 8) != hd_texture_crc32_words_le(native_vram, kVramWords)) return 0;
+        return zoids_duck_residency_load(session->duck, native_vram,
+                                         data + kResidencyHeader, size - kResidencyHeader);
+    }
+    if (!session->beetle) return 0;"""),
+    )
+    for stock, updated in replacements:
+        if source.count(stock) != 1:
+            raise ValueError(f"Unexpected texture residency code near {stock!r}")
+        source = source.replace(stock, updated, 1)
+    return source
+
+
 def compile_replacement(build, toolchain, target, compiler_name, source, output, original):
     compile_command = command_for(build, target, toolchain)
     compiler_marker = compiler_name + " "
@@ -301,9 +347,12 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     runtime = project / "psxrecomp/runtime/src/text_xlate.cpp"
     renderer = runtime.with_name("gpu_gl_renderer.c")
+    hd_textures = runtime.with_name("gpu_hd_textures.cpp")
+    duck_textures = runtime.with_name("duckstation_texture_pack.cpp")
     osd = runtime.with_name("host_osd.c")
     stock_exe = build / TARGET
-    sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE, MEMORY_CARD,
+    sources = (runtime, renderer, hd_textures, duck_textures, osd, stock_exe, Path(__file__),
+               BATTLE_DIALOGUE, MEMORY_CARD, DUCK_RESIDENCY,
                ALBUM_HEADINGS_SOURCE, MENU_TRANSLATIONS, MOVIE_CAPTIONS, MOVIE_LOOKUP, CREDITS_LOOKUP,
                CAPTION_TEXT, MOVIE_INVENTORY)
     fingerprint = hashlib.sha256(b"".join(path.read_bytes() for path in sources)
@@ -322,15 +371,26 @@ def main():
     video_obj = output / "gpu_gl_renderer.c.obj"
     video_code.write_text(captioned_renderer(renderer.read_text(encoding="utf-8"),
                                              osd.read_text(encoding="utf-8")), encoding="utf-8")
-    compile_replacement(build, toolchain, RENDERER_OBJECT, "clang.exe", video_code, video_obj, renderer)
-    compile_replacement(build, toolchain, OBJECT, "clang++.exe", code, obj, runtime)
+    hd_code = output / hd_textures.name
+    hd_code.write_text(duck_residency_dispatch(hd_textures.read_text(encoding="utf-8")), encoding="utf-8")
+    duck_code = output / duck_textures.name
+    duck_code.write_text(duck_textures.read_text(encoding="utf-8") + "\n"
+                         + DUCK_RESIDENCY.read_text(encoding="utf-8"), encoding="utf-8")
+    overlays = (
+        (OBJECT, "clang++.exe", code, obj, runtime),
+        (RENDERER_OBJECT, "clang.exe", video_code, video_obj, renderer),
+        (HD_TEXTURE_OBJECT, "clang++.exe", hd_code, hd_code.with_suffix(".cpp.obj"), hd_textures),
+        (DUCK_TEXTURE_OBJECT, "clang++.exe", duck_code, duck_code.with_suffix(".cpp.obj"), duck_textures),
+    )
+    for target, driver, code_path, object_path, original in overlays:
+        compile_replacement(build, toolchain, target, driver, code_path, object_path, original)
     compiler = toolchain / "clang++.exe"
 
     graph = (build / "build.ninja").read_text(encoding="utf-8")
     marker = f"build {TARGET}: CXX_EXECUTABLE_LINKER__psx-runtime_Release "
     edge = graph.split(marker, 1)[1].splitlines()
     inputs = edge[0].split(" |", 1)[0]
-    for original, replacement in ((OBJECT, obj), (RENDERER_OBJECT, video_obj)):
+    for original, _, _, replacement, _ in overlays:
         if inputs.count(original) != 1:
             raise ValueError(f"Missing or duplicate localization object in the link edge: {original}")
         inputs = inputs.replace(original, f'"{replacement.as_posix()}"')
