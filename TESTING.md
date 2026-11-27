@@ -123,6 +123,8 @@ In Republic training on turn six, equipping Missile Pod on Shield Liger raises `
 
 After defeating the first Iguan, check the Event Card lesson. It should explain the limit of three Event cards on either turn, how to select a card through `Hand`, and when to press Triangle during the enemy turn. Two Japanese sentence endings are shared with the Custom and deck lessons. The revised English endings were checked at all four live pointer slots so each lesson reads correctly.
 
+The Republic training mission was cleared through regular gameplay on turn eight. The live English Battle Results plate displayed 1,000 Assault Points and 1,000 from two defeated Zoids, for 2,000 Total Points. Confirming the results opened the next Republic briefing.
+
 The Stage 13 `Road to Gaigalus` and Stage 5 `Imperial Capital Gaigalus` overlays match the city spelling in the briefing map and dialogue. A pixel comparison confirmed that the corrections only change the title line. Live playback of both later stage captions is still pending.
 
 ### Movie inventory and opening playback

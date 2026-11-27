@@ -502,8 +502,8 @@ TXT-0500,0055a4,80014da4,15,7,story,inplace,2,800c617c,16,7,15,P1,translated,で
 TXT-0501,0055b4,80014db4,27,13,story,inplace,2,800c6178,28,13,27,P1,translated,どうやら、本隊は無事に撤退,Apparently the main force retreated safely.,2 pointer(s); pointer redirection
 TXT-0502,0055d0,80014dd0,27,13,story,inplace,1,800c61c0,28,13,27,P1,translated,指示にしたがってください。,Please follow the instructions.,1 pointer(s); pointer redirection
 TXT-0503,0055ec,80014dec,23,11,story,inplace,1,800c61bc,24,11,23,P1,translated,では、演習を行います。,"Now, we will begin the exercise.",1 pointer(s); pointer redirection
-TXT-0504,005604,80014e04,11,5,story,inplace,2,800c663c,12,5,11,P1,translated,ようだな。,You seem ready.,2 pointer(s); pointer redirection
-TXT-0505,005610,80014e10,27,13,story,inplace,1,800c6638,28,13,27,P1,translated,戦場のカンはにぶっていない,Your battlefield instinct hasn't dulled.,1 pointer(s); pointer redirection
+TXT-0504,005604,80014e04,11,5,story,inplace,2,800c663c,12,5,11,P1,translated,ようだな。,so it seems.,2 pointer(s); pointer redirection
+TXT-0505,005610,80014e10,27,13,story,inplace,1,800c6638,28,13,27,P1,translated,戦場のカンはにぶっていない,"Still sharp,",1 pointer(s); pointer redirection
 TXT-0506,00562c,80014e2c,27,13,story,inplace,1,800c66d4,28,13,27,P1,translated,すぐに、体制をたてなおせ！,Regroup immediately!,1 pointer(s); pointer redirection
 TXT-0507,005648,80014e48,11,5,story,inplace,1,800c66d0,12,5,11,P1,translated,一時退却！,Retreat for now!,1 pointer(s); pointer redirection
 TXT-0508,005654,80014e54,25,12,story,inplace,1,800c6710,28,13,27,P1,translated,勝利：レッドホーンの破壊,Win: Red Horn,1 pointer(s); pointer redirection
@@ -528,7 +528,7 @@ TXT-0526,0057e0,80014fe0,25,12,story,inplace,1,800c6d50,28,13,27,P1,translated,�
 TXT-0527,0057fc,80014ffc,29,14,story,inplace,1,800c6d4c,32,15,31,P1,translated,戦闘はさけて、退却するんだ。,Avoid battle and retreat.,1 pointer(s); pointer redirection
 TXT-0528,00581c,8001501c,15,7,story,inplace,2,800c6d20,16,7,15,P1,translated,出現しました。,has appeared.,2 pointer(s); pointer redirection
 TXT-0529,00582c,8001502c,27,13,story,inplace,1,800c6d1c,28,13,27,P1,translated,偵察隊の周囲に、敵ゾイドが,Enemy Zoids around the scout team,1 pointer(s); pointer redirection
-TXT-0530,005848,80015048,27,13,story,inplace,1,800c6ce0,28,13,27,P1,translated,無事、偵察隊はもどってきた,The scout team returned safely.,1 pointer(s); pointer redirection
+TXT-0530,005848,80015048,27,13,story,inplace,1,800c6ce0,28,13,27,P1,translated,無事、偵察隊はもどってきた,"Scouts made it back safely,",1 pointer(s); pointer redirection
 TXT-0531,005864,80015064,19,9,story,inplace,1,800c6dc0,20,9,19,P1,translated,と退却になります。,and retreat.,1 pointer(s); pointer redirection
 TXT-0532,005878,80015078,29,14,story,inplace,1,800c6dbc,32,15,31,P1,translated,味方の領地にゾイドを移動する,Move a Zoid into allied territory,1 pointer(s); pointer redirection
 TXT-0533,005898,80015098,9,4,story,inplace,1,800c6db8,12,5,11,P1,translated,『退却』,Retreat,1 pointer(s); pointer redirection
@@ -1189,9 +1189,9 @@ TXT-1187,009670,80018e70,15,7,story,inplace,1,800cd084,16,7,15,P1,translated,い
 TXT-1188,009680,80018e80,27,13,story,inplace,1,800cd080,28,13,27,P1,translated,補給をうけ、部隊を強くして,Receive supplies and strengthen the unit.,1 pointer(s); pointer redirection
 TXT-1189,00969c,80018e9c,27,13,story,inplace,1,800cd000,28,13,27,P1,translated,あいさつをしておくといい。,You should greet them.,1 pointer(s); pointer redirection
 TXT-1190,0096b8,80018eb8,25,12,story,inplace,1,800ccffc,28,13,27,P1,translated,君の指揮下にはいる部隊と,With the units under your command,1 pointer(s); pointer redirection
-TXT-1191,0096d4,80018ed4,21,10,story,inplace,1,800ccfe4,24,11,23,P1,translated,きても大丈夫だろう。,It should be fine.,1 pointer(s); pointer redirection
-TXT-1192,0096ec,80018eec,27,13,story,inplace,1,800ccfe0,28,13,27,P1,translated,これなら、いつ帝国が攻めて,"With this, whenever the Empire attacks",1 pointer(s); pointer redirection
-TXT-1193,009708,80018f08,11,5,story,inplace,1,800ccfdc,12,5,11,P1,translated,いい腕だ。,Good skill.,1 pointer(s); pointer redirection
+TXT-1191,0096d4,80018ed4,21,10,story,inplace,1,800ccfe4,24,11,23,P1,translated,きても大丈夫だろう。,we're ready.,1 pointer(s); pointer redirection
+TXT-1192,0096ec,80018eec,27,13,story,inplace,1,800ccfe0,28,13,27,P1,translated,これなら、いつ帝国が攻めて,If they strike,1 pointer(s); pointer redirection
+TXT-1193,009708,80018f08,11,5,story,inplace,1,800ccfdc,12,5,11,P1,translated,いい腕だ。,Nice work.,1 pointer(s); pointer redirection
 TXT-1194,009714,80018f14,17,8,story,inplace,1,800cd27c,20,9,19,P1,translated,よろしくたのむ。,I'm counting on you.,1 pointer(s); pointer redirection
 TXT-1195,009728,80018f28,29,14,story,inplace,1,800cd264,32,15,31,P1,translated,かねてからの作戦を発動する。,We will activate the long-planned operation.,1 pointer(s); pointer redirection
 TXT-1196,009748,80018f48,27,13,story,inplace,1,800cd260,28,13,27,P1,translated,みんな、聞いてのとおりだ。,"Everyone, as you heard.",1 pointer(s); pointer redirection

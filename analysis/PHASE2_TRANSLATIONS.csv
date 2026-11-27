@@ -502,8 +502,8 @@ TXT-0500,story,P1,inplace,0055a4,0x80014da4,800c617c,16,7,できたようだ。,
 TXT-0501,story,P1,inplace,0055b4,0x80014db4,800c6178,28,13,どうやら、本隊は無事に撤退,Apparently the main force retreated safely.,43,no,draft,table-driven; use pointer redirection
 TXT-0502,story,P1,inplace,0055d0,0x80014dd0,800c61c0,28,13,指示にしたがってください。,Please follow the instructions.,31,no,draft,table-driven; use pointer redirection
 TXT-0503,story,P1,inplace,0055ec,0x80014dec,800c61bc,24,11,では、演習を行います。,"Now, we will begin the exercise.",32,no,draft,table-driven; use pointer redirection
-TXT-0504,story,P1,inplace,005604,0x80014e04,800c663c,12,5,ようだな。,You seem ready.,15,no,draft,table-driven; use pointer redirection
-TXT-0505,story,P1,inplace,005610,0x80014e10,800c6638,28,13,戦場のカンはにぶっていない,Your battlefield instinct hasn't dulled.,40,no,draft,table-driven; use pointer redirection
+TXT-0504,story,P1,inplace,005604,0x80014e04,800c663c,12,5,ようだな。,so it seems.,12,no,draft,table-driven; use pointer redirection
+TXT-0505,story,P1,inplace,005610,0x80014e10,800c6638,28,13,戦場のカンはにぶっていない,"Still sharp,",12,yes,draft,table-driven; use pointer redirection
 TXT-0506,story,P1,inplace,00562c,0x80014e2c,800c66d4,28,13,すぐに、体制をたてなおせ！,Regroup immediately!,20,no,draft,table-driven; use pointer redirection
 TXT-0507,story,P1,inplace,005648,0x80014e48,800c66d0,12,5,一時退却！,Retreat for now!,16,no,draft,table-driven; use pointer redirection
 TXT-0508,story,P1,inplace,005654,0x80014e54,800c6710,28,13,勝利：レッドホーンの破壊,Win: Red Horn,13,yes,draft,table-driven; use pointer redirection
@@ -528,7 +528,7 @@ TXT-0526,story,P1,inplace,0057e0,0x80014fe0,800c6d50,28,13,なんとしても、
 TXT-0527,story,P1,inplace,0057fc,0x80014ffc,800c6d4c,32,15,戦闘はさけて、退却するんだ。,Avoid battle and retreat.,25,no,draft,table-driven; use pointer redirection
 TXT-0528,story,P1,inplace,00581c,0x8001501c,800c6d20,16,7,出現しました。,has appeared.,13,no,draft,table-driven; use pointer redirection
 TXT-0529,story,P1,inplace,00582c,0x8001502c,800c6d1c,28,13,偵察隊の周囲に、敵ゾイドが,Enemy Zoids around the scout team,33,no,draft,table-driven; use pointer redirection
-TXT-0530,story,P1,inplace,005848,0x80015048,800c6ce0,28,13,無事、偵察隊はもどってきた,The scout team returned safely.,31,no,draft,table-driven; use pointer redirection
+TXT-0530,story,P1,inplace,005848,0x80015048,800c6ce0,28,13,無事、偵察隊はもどってきた,"Scouts made it back safely,",27,no,draft,table-driven; use pointer redirection
 TXT-0531,story,P1,inplace,005864,0x80015064,800c6dc0,20,9,と退却になります。,and retreat.,12,no,draft,table-driven; use pointer redirection
 TXT-0532,story,P1,inplace,005878,0x80015078,800c6dbc,32,15,味方の領地にゾイドを移動する,Move a Zoid into allied territory,33,no,draft,table-driven; use pointer redirection
 TXT-0533,story,P1,inplace,005898,0x80015098,800c6db8,12,5,『退却』,Retreat,7,no,draft,table-driven; use pointer redirection
@@ -1189,9 +1189,9 @@ TXT-1187,story,P1,inplace,009670,0x80018e70,800cd084,16,7,いって欲しい。,
 TXT-1188,story,P1,inplace,009680,0x80018e80,800cd080,28,13,補給をうけ、部隊を強くして,Receive supplies and strengthen the unit.,41,no,draft,table-driven; use pointer redirection
 TXT-1189,story,P1,inplace,00969c,0x80018e9c,800cd000,28,13,あいさつをしておくといい。,You should greet them.,22,no,draft,table-driven; use pointer redirection
 TXT-1190,story,P1,inplace,0096b8,0x80018eb8,800ccffc,28,13,君の指揮下にはいる部隊と,With the units under your command,33,no,draft,table-driven; use pointer redirection
-TXT-1191,story,P1,inplace,0096d4,0x80018ed4,800ccfe4,24,11,きても大丈夫だろう。,It should be fine.,18,no,draft,table-driven; use pointer redirection
-TXT-1192,story,P1,inplace,0096ec,0x80018eec,800ccfe0,28,13,これなら、いつ帝国が攻めて,"With this, whenever the Empire attacks",38,no,draft,table-driven; use pointer redirection
-TXT-1193,story,P1,inplace,009708,0x80018f08,800ccfdc,12,5,いい腕だ。,Good skill.,11,no,draft,table-driven; use pointer redirection
+TXT-1191,story,P1,inplace,0096d4,0x80018ed4,800ccfe4,24,11,きても大丈夫だろう。,we're ready.,12,no,draft,table-driven; use pointer redirection
+TXT-1192,story,P1,inplace,0096ec,0x80018eec,800ccfe0,28,13,これなら、いつ帝国が攻めて,If they strike,14,no,draft,table-driven; use pointer redirection
+TXT-1193,story,P1,inplace,009708,0x80018f08,800ccfdc,12,5,いい腕だ。,Nice work.,10,no,draft,table-driven; use pointer redirection
 TXT-1194,story,P1,inplace,009714,0x80018f14,800cd27c,20,9,よろしくたのむ。,I'm counting on you.,20,no,draft,table-driven; use pointer redirection
 TXT-1195,story,P1,inplace,009728,0x80018f28,800cd264,32,15,かねてからの作戦を発動する。,We will activate the long-planned operation.,44,no,draft,table-driven; use pointer redirection
 TXT-1196,story,P1,inplace,009748,0x80018f48,800cd260,28,13,みんな、聞いてのとおりだ。,"Everyone, as you heard.",23,no,draft,table-driven; use pointer redirection

@@ -500,8 +500,8 @@ TXT-0500,story,できたようだ。,0x80014da4,2,800c617c;800c6b18,16,7,It seem
 TXT-0501,story,どうやら、本隊は無事に撤退,0x80014db4,2,800c6178;800c6b14,28,13,Apparently the main force retreated safely.
 TXT-0502,story,指示にしたがってください。,0x80014dd0,1,800c61c0,28,13,Please follow the instructions.
 TXT-0503,story,では、演習を行います。,0x80014dec,1,800c61bc,24,11,"Now, we will begin the exercise."
-TXT-0504,story,ようだな。,0x80014e04,2,800c663c;800c6ce4,12,5,You seem ready.
-TXT-0505,story,戦場のカンはにぶっていない,0x80014e10,1,800c6638,28,13,Your battlefield instinct hasn't dulled.
+TXT-0504,story,ようだな。,0x80014e04,2,800c663c;800c6ce4,12,5,so it seems.
+TXT-0505,story,戦場のカンはにぶっていない,0x80014e10,1,800c6638,28,13,"Still sharp,"
 TXT-0506,story,すぐに、体制をたてなおせ！,0x80014e2c,1,800c66d4,28,13,Regroup immediately!
 TXT-0507,story,一時退却！,0x80014e48,1,800c66d0,12,5,Retreat for now!
 TXT-0508,story,勝利：レッドホーンの破壊,0x80014e54,1,800c6710,28,13,Win: Red Horn
@@ -526,7 +526,7 @@ TXT-0526,story,なんとしても、情報を持ち,0x80014fe0,1,800c6d50,28,13,
 TXT-0527,story,戦闘はさけて、退却するんだ。,0x80014ffc,1,800c6d4c,32,15,Avoid battle and retreat.
 TXT-0528,story,出現しました。,0x8001501c,2,800c6d20;800ce948,16,7,has appeared.
 TXT-0529,story,偵察隊の周囲に、敵ゾイドが,0x8001502c,1,800c6d1c,28,13,Enemy Zoids around the scout team
-TXT-0530,story,無事、偵察隊はもどってきた,0x80015048,1,800c6ce0,28,13,The scout team returned safely.
+TXT-0530,story,無事、偵察隊はもどってきた,0x80015048,1,800c6ce0,28,13,"Scouts made it back safely,"
 TXT-0531,story,と退却になります。,0x80015064,1,800c6dc0,20,9,and retreat.
 TXT-0532,story,味方の領地にゾイドを移動する,0x80015078,1,800c6dbc,32,15,Move a Zoid into allied territory
 TXT-0533,story,『退却』,0x80015098,1,800c6db8,12,5,Retreat
@@ -1187,9 +1187,9 @@ TXT-1187,story,いって欲しい。,0x80018e70,1,800cd084,16,7,I want you to go
 TXT-1188,story,補給をうけ、部隊を強くして,0x80018e80,1,800cd080,28,13,Receive supplies and strengthen the unit.
 TXT-1189,story,あいさつをしておくといい。,0x80018e9c,1,800cd000,28,13,You should greet them.
 TXT-1190,story,君の指揮下にはいる部隊と,0x80018eb8,1,800ccffc,28,13,With the units under your command
-TXT-1191,story,きても大丈夫だろう。,0x80018ed4,1,800ccfe4,24,11,It should be fine.
-TXT-1192,story,これなら、いつ帝国が攻めて,0x80018eec,1,800ccfe0,28,13,"With this, whenever the Empire attacks"
-TXT-1193,story,いい腕だ。,0x80018f08,1,800ccfdc,12,5,Good skill.
+TXT-1191,story,きても大丈夫だろう。,0x80018ed4,1,800ccfe4,24,11,we're ready.
+TXT-1192,story,これなら、いつ帝国が攻めて,0x80018eec,1,800ccfe0,28,13,If they strike
+TXT-1193,story,いい腕だ。,0x80018f08,1,800ccfdc,12,5,Nice work.
 TXT-1194,story,よろしくたのむ。,0x80018f14,1,800cd27c,20,9,I'm counting on you.
 TXT-1195,story,かねてからの作戦を発動する。,0x80018f28,1,800cd264,32,15,We will activate the long-planned operation.
 TXT-1196,story,みんな、聞いてのとおりだ。,0x80018f48,1,800cd260,28,13,"Everyone, as you heard."

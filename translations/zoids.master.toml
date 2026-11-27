@@ -6551,7 +6551,7 @@ ptr_addrs = ["0x800c663c", "0x800c6ce4"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "You seem ready."
+en = "so it seems."
 note = "story inplace max=5"
 
 [[entry]]
@@ -6564,7 +6564,7 @@ ptr_addrs = ["0x800c6638"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Your battlefield instinct hasn't dulled."
+en = "Still sharp,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -6889,7 +6889,7 @@ ptr_addrs = ["0x800c6ce0"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "The scout team returned safely."
+en = "Scouts made it back safely,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15482,7 +15482,7 @@ ptr_addrs = ["0x800ccfe4"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "It should be fine."
+en = "we're ready."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15495,7 +15495,7 @@ ptr_addrs = ["0x800ccfe0"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "With this, whenever the Empire attacks"
+en = "If they strike"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15508,7 +15508,7 @@ ptr_addrs = ["0x800ccfdc"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "Good skill."
+en = "Nice work."
 note = "story inplace max=5"
 
 [[entry]]
