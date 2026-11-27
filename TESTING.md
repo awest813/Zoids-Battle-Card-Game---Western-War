@@ -218,6 +218,7 @@ Scroll through the Card Album to check `Zoids`, `Pilots`, `Custom`, and `Events`
 
 - [ ] Title and Mode Select labels are English throughout the fade and selection states.
 - [ ] Result, trade, and memory-card headings render in English.
+- [ ] In the Stage 2 deployment roster, use Left and Right to cycle stat pages. Check `MOV` on the movement page, `RNG` beside `FWD` on the range page, and `HP`/`WR` and the terrain badges on their own pages.
 - [ ] Name entry opens the Latin table in English and can switch to both kana tables.
 - [ ] Card-face localization and the remaining texture discovery are tracked in the completion plan.
 
