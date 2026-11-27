@@ -1,0 +1,156 @@
+path,distinct_channel_signals,peak_vad,vad_ranges_seconds,recognition_rechecked_by_channel,peak_audio_event_speech_score,top_audio_events,review_state
+M/C0/B1C001.STR,2,0.681,L 0.064-0.224 (0.673); R 0.064-0.224 (0.681),yes,0.0163,"Explosion 0.722; Artillery fire 0.406; Burst, pop 0.328; Gunshot, gunfire 0.200; Vehicle 0.052",listen_to_flagged_clip
+M/C0/B1C002.STR,1,0.265,,no,0.012,"Explosion 0.492; Burst, pop 0.395; Bang 0.252; Music 0.233; Sound effect 0.098",no_dialogue_flagged_by_models
+M/C0/B1C003.STR,2,0.553,,no,0.0044,"Explosion 0.288; Burst, pop 0.169; Eruption 0.036; Firecracker 0.030; Crackle 0.030",no_dialogue_flagged_by_models
+M/C0/B1C007.STR,1,0.66,,no,0.0131,"Explosion 0.550; Burst, pop 0.289; Sound effect 0.080; Music 0.068; Vehicle 0.063",no_dialogue_flagged_by_models
+M/C0/B1C011.STR,2,0.525,,no,0.0078,"Explosion 0.817; Burst, pop 0.526; Eruption 0.095; Artillery fire 0.094; Vehicle 0.060",no_dialogue_flagged_by_models
+M/C0/B1C015.STR,2,0.525,,no,0.0062,"Artillery fire 0.245; Gunshot, gunfire 0.213; Explosion 0.163; Vehicle 0.046; Burst, pop 0.038",no_dialogue_flagged_by_models
+M/C0/B1C017.STR,1,0.585,,no,0.0138,Sound effect 0.129; Car alarm 0.117; Siren 0.094; Ambulance (siren) 0.076; Emergency vehicle 0.068,no_dialogue_flagged_by_models
+M/C0/B2C001.STR,1,0.148,,no,0.0015,"Clang 0.331; Whoosh, swoosh, swish 0.127; Ding 0.085; Sound effect 0.063; Burst, pop 0.031",no_dialogue_flagged_by_models
+M/C0/B2C003.STR,1,0.154,,no,0.0112,"Explosion 0.852; Burst, pop 0.562; Bang 0.143; Music 0.100; Eruption 0.056",no_dialogue_flagged_by_models
+M/C0/B2C005.STR,1,0.332,,no,0.0049,Sound effect 0.427; Music 0.137; Grunt 0.050; Bicycle bell 0.018; Fart 0.015,no_dialogue_flagged_by_models
+M/C0/B2C015.STR,1,0.819,L 0.064-0.352 (0.819),yes,0.0114,"Sound effect 0.197; Whoosh, swoosh, swish 0.136; Explosion 0.119; Vehicle 0.082; Car 0.052",listen_to_flagged_clip
+M/C0/SC023_80.STR,2,0.674,L 0.128-0.416 (0.674),yes,0.0084,"Explosion 0.635; Burst, pop 0.215; Eruption 0.183; Artillery fire 0.070; Gunshot, gunfire 0.036",listen_to_flagged_clip
+M/C0/SC025_80.STR,1,0.063,,no,0.0062,"Sound effect 0.293; Explosion 0.288; Burst, pop 0.080; Eruption 0.055; Whoosh, swoosh, swish 0.041",no_dialogue_flagged_by_models
+M/C0/SC029_80.STR,2,0.63,,no,0.0081,"Music 0.762; Television 0.713; Scary music 0.112; Sound effect 0.084; Whoosh, swoosh, swish 0.035",no_dialogue_flagged_by_models
+M/C0/SC031_80.STR,2,0.48,,no,0.0048,"Explosion 0.250; Burst, pop 0.078; Artillery fire 0.073; Sound effect 0.066; Gunshot, gunfire 0.056",no_dialogue_flagged_by_models
+M/C0/SC033_80.STR,2,0.116,,no,0.0162,"Explosion 0.299; Burst, pop 0.225; Sound effect 0.110; Machine gun 0.033; Bang 0.028",no_dialogue_flagged_by_models
+M/E0/B1Z0022.STR,1,0.152,,no,0.006,"Explosion 0.611; Burst, pop 0.301; Sound effect 0.130; Smash, crash 0.077; Whoosh, swoosh, swish 0.043",no_dialogue_flagged_by_models
+M/E0/B1Z0092.STR,1,0.479,,no,0.0036,"Sound effect 0.187; Explosion 0.157; Burst, pop 0.105; Whoosh, swoosh, swish 0.070; Music 0.060",no_dialogue_flagged_by_models
+M/E0/B1Z0142.STR,1,0.881,L 0.128-0.640 (0.881),yes,0.0043,"Sound effect 0.324; Explosion 0.202; Music 0.173; Whoosh, swoosh, swish 0.159; Burst, pop 0.131",listen_to_flagged_clip
+M/E0/B2Z0072.STR,2,0.117,,no,0.0022,"Whip 0.282; Explosion 0.111; Burst, pop 0.095; Smash, crash 0.034; Eruption 0.028",no_dialogue_flagged_by_models
+M/E0/B2Z0082.STR,2,0.097,,no,0.0068,"Explosion 0.642; Burst, pop 0.344; Bang 0.073; Sound effect 0.072; Smash, crash 0.048",no_dialogue_flagged_by_models
+M/E0/B2Z0112.STR,2,0.525,,no,0.0089,"Explosion 0.638; Burst, pop 0.249; Music 0.073; Whoosh, swoosh, swish 0.040; Eruption 0.038",no_dialogue_flagged_by_models
+M/E0/B2Z0122.STR,1,0.587,,no,0.0041,"Sound effect 0.441; Whoosh, swoosh, swish 0.315; Music 0.141; Explosion 0.081; Bang 0.081",no_dialogue_flagged_by_models
+M/E0/B2Z0132.STR,2,0.085,,no,0.0006,"Sound effect 0.095; Explosion 0.067; Burst, pop 0.062; Smash, crash 0.061; Whack, thwack 0.035",no_dialogue_flagged_by_models
+M/E0/NZ0022.STR,2,0.097,,no,0.0068,"Explosion 0.642; Burst, pop 0.344; Bang 0.073; Sound effect 0.072; Smash, crash 0.048",no_dialogue_flagged_by_models
+M/E0/NZ0032.STR,2,0.886,L 1.152-1.408 (0.886); R 1.152-1.408 (0.886),yes,0.0086,"Sound effect 0.474; Whoosh, swoosh, swish 0.097; Smash, crash 0.085; Burst, pop 0.039; Explosion 0.035",listen_to_flagged_clip
+M/E0/NZ0042.STR,1,0.404,,yes,0.004,"Sound effect 0.233; Explosion 0.219; Whoosh, swoosh, swish 0.163; Smash, crash 0.150; Burst, pop 0.131",listen_to_flagged_clip
+M/F0/L0K0.STR,2,0.107,,no,0.0149,"Explosion 0.320; Burst, pop 0.261; Music 0.230; Whip 0.048; Smash, crash 0.044",no_dialogue_flagged_by_models
+M/F0/SZ0030.STR,1,0.105,,no,0.0034,"Gunshot, gunfire 0.293; Artillery fire 0.282; Explosion 0.237; Burst, pop 0.109; Sound effect 0.041",no_dialogue_flagged_by_models
+M/F0/SZ0040.STR,2,0.709,L 0.064-0.224 (0.657); L 1.408-1.600 (0.709); L 1.952-2.208 (0.479); R 0.064-0.224 (0.667); R 1.408-1.600 (0.658); R 1.952-2.208 (0.486),yes,0.0095,"Explosion 0.545; Burst, pop 0.332; Sound effect 0.046; Bang 0.029; Eruption 0.028",listen_to_flagged_clip
+M/F0/SZ0050.STR,1,0.174,,yes,0.0011,"Sound effect 0.170; Whack, thwack 0.122; Smash, crash 0.066; Whoosh, swoosh, swish 0.048; Burst, pop 0.047",listen_to_flagged_clip
+M/F0/SZ0060.STR,2,0.607,L 0.064-0.224 (0.591); R 0.064-0.224 (0.607),yes,0.0112,"Explosion 0.353; Burst, pop 0.222; Machine gun 0.069; Smash, crash 0.065; Gunshot, gunfire 0.060",listen_to_flagged_clip
+M/F0/SZ0070.STR,1,0.402,,no,0.004,"Roar 0.239; Sound effect 0.181; Grunt 0.037; Explosion 0.021; Burst, pop 0.018",no_dialogue_flagged_by_models
+M/F0/SZ0080.STR,2,0.673,,yes,0.0164,"Roar 0.244; Explosion 0.235; Burst, pop 0.098; Sound effect 0.094; Grunt 0.044",listen_to_flagged_clip
+M/F0/SZ0090.STR,1,0.025,,no,0.0074,"Artillery fire 0.378; Gunshot, gunfire 0.332; Explosion 0.252; Burst, pop 0.172; Sound effect 0.058",no_dialogue_flagged_by_models
+M/F0/SZ0100.STR,2,0.186,,no,0.0033,"Whip 0.188; Explosion 0.131; Burst, pop 0.126; Whoosh, swoosh, swish 0.057; Sound effect 0.057",no_dialogue_flagged_by_models
+M/F0/SZ0110.STR,1,0.54,,no,0.0049,Roar 0.502; Sound effect 0.366; Grunt 0.191; Animal 0.043; Music 0.027,no_dialogue_flagged_by_models
+M/F0/SZ0120.STR,1,0.484,,no,0.0036,"Explosion 0.628; Burst, pop 0.294; Sound effect 0.176; Bang 0.074; Gunshot, gunfire 0.067",no_dialogue_flagged_by_models
+M/F0/SZ0130.STR,1,0.104,,no,0.0077,Tap 0.237; Slam 0.102; Knock 0.059; Music 0.054; Explosion 0.050,no_dialogue_flagged_by_models
+M/F0/SZ0140.STR,1,0.621,,no,0.0007,"Sound effect 0.241; Explosion 0.116; Burst, pop 0.085; Whoosh, swoosh, swish 0.030; Roar 0.021",no_dialogue_flagged_by_models
+M/F0/SZ0150.STR,2,0.419,,no,0.0036,Sound effect 0.198; Roar 0.084; Music 0.067; Rumble 0.063; Scrape 0.049,no_dialogue_flagged_by_models
+M/F0/SZ0160.STR,2,0.774,L 0.064-0.288 (0.772); R 0.064-0.288 (0.774),yes,0.0032,"Explosion 0.545; Burst, pop 0.381; Bang 0.192; Sound effect 0.070; Smash, crash 0.029",listen_to_flagged_clip
+M/F0/SZ0170.STR,2,0.474,,yes,0.0028,"Smash, crash 0.112; Explosion 0.098; Whoosh, swoosh, swish 0.087; Sound effect 0.083; Burst, pop 0.079",listen_to_flagged_clip
+M/F0/SZ0180.STR,1,0.17,,no,0.0008,"Whip 0.830; Burst, pop 0.022; Whoosh, swoosh, swish 0.019; Explosion 0.017; Gunshot, gunfire 0.015",no_dialogue_flagged_by_models
+M/F0/SZ0190.STR,2,0.851,L 0.064-0.384 (0.851); R 0.064-0.384 (0.851),yes,0.0102,"Explosion 0.258; Gunshot, gunfire 0.127; Burst, pop 0.094; Artillery fire 0.070; Sound effect 0.038",listen_to_flagged_clip
+M/F0/SZ0200.STR,2,0.53,,no,0.0014,"Smash, crash 0.062; Sound effect 0.055; Whack, thwack 0.050; Burst, pop 0.043; Explosion 0.041",no_dialogue_flagged_by_models
+M/F0/SZ0210.STR,2,0.319,,no,0.0033,"Whip 0.124; Explosion 0.110; Gunshot, gunfire 0.082; Sound effect 0.058; Burst, pop 0.052",no_dialogue_flagged_by_models
+M/F0/SZ0220.STR,1,0.292,,no,0.0093,"Explosion 0.333; Sound effect 0.196; Gunshot, gunfire 0.109; Artillery fire 0.082; Burst, pop 0.078",no_dialogue_flagged_by_models
+M/F1/B1Z0010.STR,2,0.54,,no,0.0173,"Explosion 0.176; Burst, pop 0.109; Sound effect 0.093; Whoosh, swoosh, swish 0.070; Music 0.064",no_dialogue_flagged_by_models
+M/F1/B1Z0020.STR,1,0.279,,no,0.0189,"Explosion 0.212; Aircraft 0.144; Fixed-wing aircraft, airplane 0.100; Jet engine 0.097; Sound effect 0.083",no_dialogue_flagged_by_models
+M/F1/B1Z0030.STR,2,0.515,R 0.064-0.224 (0.515),yes,0.0152,"Sound effect 0.083; Eruption 0.080; Vehicle 0.067; Whoosh, swoosh, swish 0.066; Music 0.045",listen_to_flagged_clip
+M/F1/B1Z0040.STR,1,0.07,,yes,0.0119,"Sound effect 0.441; Music 0.204; Bang 0.057; Whack, thwack 0.041; Drum 0.025",listen_to_flagged_clip
+M/F1/B1Z0050.STR,2,0.542,,no,0.0065,"Explosion 0.543; Burst, pop 0.210; Eruption 0.168; Sound effect 0.065; Gunshot, gunfire 0.020",no_dialogue_flagged_by_models
+M/F1/B1Z0060.STR,1,0.495,,no,0.0058,"Sound effect 0.255; Explosion 0.188; Burst, pop 0.169; Music 0.158; Bang 0.076",no_dialogue_flagged_by_models
+M/F1/B1Z0070.STR,2,0.425,,no,0.0027,"Explosion 0.247; Whoosh, swoosh, swish 0.129; Burst, pop 0.113; Sound effect 0.090; Smash, crash 0.035",no_dialogue_flagged_by_models
+M/F1/B1Z0080.STR,2,0.663,,no,0.025,"Explosion 0.377; Burst, pop 0.081; Music 0.076; Gunshot, gunfire 0.047; Artillery fire 0.029",no_dialogue_flagged_by_models
+M/F1/B1Z0090.STR,1,0.336,,no,0.009,Sound effect 0.079; Music 0.067; Slam 0.044; Tap 0.029; Knock 0.025,no_dialogue_flagged_by_models
+M/F1/B1Z0100.STR,2,0.331,,no,0.0354,"Sound effect 0.209; Explosion 0.103; Music 0.069; Roar 0.066; Burst, pop 0.055",no_dialogue_flagged_by_models
+M/F1/B1Z0110.STR,2,0.449,,yes,0.0081,"Explosion 0.355; Burst, pop 0.183; Artillery fire 0.162; Sound effect 0.094; Gunshot, gunfire 0.085",listen_to_flagged_clip
+M/F1/B1Z0120.STR,1,0.299,,yes,0.0119,"Explosion 0.172; Sound effect 0.125; Smash, crash 0.115; Burst, pop 0.097; Bang 0.057",listen_to_flagged_clip
+M/F2/B2Z0010.STR,2,0.232,,no,0.0132,"Explosion 0.587; Burst, pop 0.294; Artillery fire 0.041; Gunshot, gunfire 0.034; Eruption 0.031",no_dialogue_flagged_by_models
+M/F2/B2Z0020.STR,2,0.225,,no,0.0097,"Explosion 0.632; Burst, pop 0.334; Artillery fire 0.048; Gunshot, gunfire 0.037; Eruption 0.026",no_dialogue_flagged_by_models
+M/F2/B2Z0030.STR,1,0.065,,no,0.0019,"Sound effect 0.280; Explosion 0.064; Smash, crash 0.047; Burst, pop 0.046; Bang 0.045",no_dialogue_flagged_by_models
+M/F2/B2Z0040.STR,1,0.612,,no,0.0018,"Sound effect 0.404; Roar 0.227; Explosion 0.120; Whoosh, swoosh, swish 0.054; Burst, pop 0.052",no_dialogue_flagged_by_models
+M/F2/B2Z0050.STR,1,0.308,,no,0.0098,"Explosion 0.467; Burst, pop 0.298; Artillery fire 0.127; Sound effect 0.106; Gunshot, gunfire 0.078",no_dialogue_flagged_by_models
+M/F2/B2Z0060.STR,2,0.4,,no,0.0095,"Explosion 0.266; Sound effect 0.134; Burst, pop 0.107; Whoosh, swoosh, swish 0.075; Eruption 0.043",no_dialogue_flagged_by_models
+M/F2/B2Z0070.STR,2,0.123,,yes,0.0027,"Whip 0.462; Burst, pop 0.066; Smash, crash 0.029; Explosion 0.025; Whack, thwack 0.024",listen_to_flagged_clip
+M/F2/B2Z0080.STR,1,0.127,,yes,0.0056,"Sound effect 0.289; Whoosh, swoosh, swish 0.105; Explosion 0.091; Smash, crash 0.075; Burst, pop 0.068",listen_to_flagged_clip
+M/F2/B2Z0090.STR,2,0.411,,no,0.0109,"Explosion 0.505; Sound effect 0.203; Burst, pop 0.196; Bang 0.169; Music 0.125",no_dialogue_flagged_by_models
+M/F2/B2Z0100.STR,2,0.337,,no,0.0028,"Sound effect 0.192; Explosion 0.190; Burst, pop 0.113; Music 0.076; Grunt 0.025",no_dialogue_flagged_by_models
+M/F2/B2Z0110.STR,2,0.144,,no,0.0041,"Smash, crash 0.222; Explosion 0.200; Music 0.090; Burst, pop 0.086; Whack, thwack 0.051",no_dialogue_flagged_by_models
+M/F2/B2Z0120.STR,2,0.85,L 0.064-0.384 (0.850); R 0.064-0.352 (0.850),yes,0.0079,"Explosion 0.717; Burst, pop 0.366; Eruption 0.161; Music 0.024; Vehicle 0.016",listen_to_flagged_clip
+M/F2/B2Z0130.STR,1,0.234,,yes,0.0924,"Slam 0.095; Speech 0.092; Sound effect 0.073; Explosion 0.072; Burst, pop 0.072",listen_to_flagged_clip
+M/F2/B2Z0140.STR,2,0.354,,no,0.0053,"Explosion 0.674; Burst, pop 0.310; Eruption 0.179; Music 0.120; Sound effect 0.024",no_dialogue_flagged_by_models
+M/F3/B3Z0030.STR,1,0.848,L 0.064-0.352 (0.848),yes,0.0091,"Sound effect 0.131; Explosion 0.063; Burst, pop 0.046; Scrape 0.038; Bang 0.034",listen_to_flagged_clip
+M/F3/B3Z0060.STR,2,0.16,,yes,0.0077,"Sound effect 0.256; Whack, thwack 0.046; Bouncing 0.026; Smash, crash 0.018; Burst, pop 0.015",listen_to_flagged_clip
+M/F3/B3Z0070.STR,2,0.21,,no,0.0053,"Sound effect 0.213; Bang 0.153; Smash, crash 0.106; Burst, pop 0.096; Explosion 0.090",no_dialogue_flagged_by_models
+M/F3/B3Z0080.STR,2,0.866,L 0.960-1.152 (0.568); R 0.960-1.152 (0.568),yes,0.0037,"Explosion 0.298; Burst, pop 0.261; Sound effect 0.080; Gunshot, gunfire 0.059; Artillery fire 0.040",listen_to_flagged_clip
+M/F3/B3Z0090.STR,1,0.634,,no,0.0079,"Sound effect 0.412; Grunt 0.212; Roar 0.173; Explosion 0.061; Smash, crash 0.049",no_dialogue_flagged_by_models
+M/F3/B3Z0100.STR,2,0.375,,no,0.0041,"Sound effect 0.449; Whack, thwack 0.125; Smash, crash 0.080; Whoosh, swoosh, swish 0.036; Explosion 0.028",no_dialogue_flagged_by_models
+M/F3/B3Z0130.STR,1,0.056,,yes,0.0072,"Explosion 0.403; Burst, pop 0.288; Sound effect 0.239; Bang 0.081; Artillery fire 0.048",listen_to_flagged_clip
+M/F3/B3Z0140.STR,2,0.184,,no,0.0043,"Explosion 0.262; Gunshot, gunfire 0.194; Artillery fire 0.156; Burst, pop 0.133; Sound effect 0.066",no_dialogue_flagged_by_models
+M/F3/NZ0020.STR,1,0.127,,yes,0.0056,"Sound effect 0.289; Whoosh, swoosh, swish 0.105; Explosion 0.091; Smash, crash 0.075; Burst, pop 0.068",listen_to_flagged_clip
+M/F3/NZ0030.STR,1,0.767,L 1.408-1.600 (0.767),yes,0.0025,"Whoosh, swoosh, swish 0.376; Sound effect 0.363; Whip 0.147; Smash, crash 0.024; Burst, pop 0.022",listen_to_flagged_clip
+M/F3/NZ0040.STR,2,0.119,,no,0.0065,"Explosion 0.183; Burst, pop 0.120; Vehicle 0.076; Car 0.074; Sound effect 0.064",no_dialogue_flagged_by_models
+M/F3/NZ0060.STR,1,0.278,,no,0.0104,"Explosion 0.210; Artillery fire 0.134; Burst, pop 0.108; Sound effect 0.094; Roar 0.072",no_dialogue_flagged_by_models
+M/F3/Z0010.STR,1,0.241,,no,0.0138,"Music 0.229; Sound effect 0.163; Explosion 0.120; Bang 0.102; Burst, pop 0.076",no_dialogue_flagged_by_models
+M/F3/Z0020.STR,2,0.121,,no,0.0085,"Explosion 0.413; Burst, pop 0.142; Sound effect 0.122; Eruption 0.048; Whack, thwack 0.036",no_dialogue_flagged_by_models
+M/F3/Z0030.STR,2,0.128,,no,0.003,"Smash, crash 0.331; Sound effect 0.242; Bang 0.110; Whack, thwack 0.065; Burst, pop 0.062",no_dialogue_flagged_by_models
+M/F3/Z0040.STR,2,0.265,,no,0.0048,"Bang 0.205; Sound effect 0.204; Burst, pop 0.112; Smash, crash 0.089; Explosion 0.078",no_dialogue_flagged_by_models
+M/OP_MOVIE.STR,2,0.179,,no,0.0219,Music 0.913; Video game music 0.712; Television 0.266; Soundtrack music 0.246; Background music 0.181,no_dialogue_flagged_by_models
+M/S0/L0K1.STR,2,0.394,,yes,0.0039,"Roar 0.359; Sound effect 0.237; Bang 0.028; Burst, pop 0.021; Grunt 0.020",listen_to_flagged_clip
+M/S0/SZ0031.STR,2,0.738,L 0.960-1.120 (0.481); R 0.960-1.120 (0.481),yes,0.0038,Sound effect 0.646; Scrape 0.124; Clatter 0.118; Flap 0.087; Explosion 0.083,listen_to_flagged_clip
+M/S0/SZ0041.STR,2,0.511,,yes,0.005,"Explosion 0.242; Sound effect 0.151; Burst, pop 0.114; Whoosh, swoosh, swish 0.039; Whip 0.013",listen_to_flagged_clip
+M/S0/SZ0051.STR,2,0.443,,no,0.0091,"Vehicle 0.120; Gunshot, gunfire 0.068; Car 0.060; Motorboat, speedboat 0.055; Sound effect 0.046",no_dialogue_flagged_by_models
+M/S0/SZ0061.STR,2,0.738,L 0.192-0.672 (0.738); R 0.192-0.672 (0.738),yes,0.0066,Sound effect 0.459; Machine gun 0.121; Explosion 0.070; Fusillade 0.040; Scrape 0.040,listen_to_flagged_clip
+M/S0/SZ0071.STR,2,0.686,L 2.080-2.240 (0.686),yes,0.0095,"Bang 0.113; Sound effect 0.090; Explosion 0.084; Whoosh, swoosh, swish 0.072; Burst, pop 0.053",listen_to_flagged_clip
+M/S0/SZ0081.STR,2,0.505,,yes,0.0068,"Roar 0.549; Sound effect 0.449; Grunt 0.235; Bang 0.060; Burst, pop 0.025",listen_to_flagged_clip
+M/S0/SZ0091.STR,1,0.814,L 0.064-0.416 (0.814),yes,0.0038,"Sound effect 0.321; Roar 0.213; Music 0.181; Explosion 0.054; Whoosh, swoosh, swish 0.048",listen_to_flagged_clip
+M/S0/SZ0101.STR,2,0.632,,no,0.0025,"Whoosh, swoosh, swish 0.083; Explosion 0.076; Burst, pop 0.072; Sound effect 0.064; Artillery fire 0.042",no_dialogue_flagged_by_models
+M/S0/SZ0111.STR,2,0.417,,yes,0.0054,"Sound effect 0.310; Fusillade 0.127; Bang 0.076; Gunshot, gunfire 0.068; Whoosh, swoosh, swish 0.060",listen_to_flagged_clip
+M/S0/SZ0121.STR,2,0.581,,no,0.0082,"Gunshot, gunfire 0.194; Sound effect 0.147; Machine gun 0.117; Explosion 0.075; Helicopter 0.066",no_dialogue_flagged_by_models
+M/S0/SZ0131.STR,2,0.634,,no,0.011,"Explosion 0.306; Burst, pop 0.188; Gunshot, gunfire 0.101; Artillery fire 0.098; Sound effect 0.069",no_dialogue_flagged_by_models
+M/S0/SZ0141.STR,1,0.229,,no,0.0053,"Sound effect 0.386; Whoosh, swoosh, swish 0.085; Music 0.056; Explosion 0.046; Burst, pop 0.020",no_dialogue_flagged_by_models
+M/S0/SZ0151.STR,2,0.124,,yes,0.0085,"Gunshot, gunfire 0.345; Machine gun 0.176; Sound effect 0.139; Fusillade 0.087; Artillery fire 0.068",listen_to_flagged_clip
+M/S0/SZ0161.STR,2,0.778,L 0.064-0.384 (0.778); R 0.064-0.384 (0.778),yes,0.0047,"Explosion 0.867; Burst, pop 0.560; Eruption 0.181; Vehicle 0.023; Music 0.015",listen_to_flagged_clip
+M/S0/SZ0171.STR,2,0.607,L 0.064-0.224 (0.591); R 0.064-0.224 (0.607),yes,0.0047,"Gunshot, gunfire 0.288; Artillery fire 0.122; Sound effect 0.119; Machine gun 0.059; Fusillade 0.046",listen_to_flagged_clip
+M/S0/SZ0181.STR,2,0.764,,no,0.0157,"Machine gun 0.443; Gunshot, gunfire 0.312; Sound effect 0.264; Fusillade 0.172; Music 0.088",no_dialogue_flagged_by_models
+M/S0/SZ0191.STR,2,0.542,,no,0.0115,"Explosion 0.244; Whoosh, swoosh, swish 0.222; Sound effect 0.165; Eruption 0.149; Music 0.115",no_dialogue_flagged_by_models
+M/S0/SZ0201.STR,2,0.653,,yes,0.0083,"Sound effect 0.164; Whoosh, swoosh, swish 0.100; Gunshot, gunfire 0.084; Fusillade 0.047; Artillery fire 0.042",listen_to_flagged_clip
+M/S0/SZ0211.STR,2,0.402,,no,0.0069,Helicopter 0.392; Sound effect 0.191; Explosion 0.113; Aircraft 0.065; Vehicle 0.047,no_dialogue_flagged_by_models
+M/S0/SZ0221.STR,1,0.394,,no,0.0089,"Sound effect 0.166; Whoosh, swoosh, swish 0.122; Music 0.110; Vehicle 0.073; Air brake 0.061",no_dialogue_flagged_by_models
+M/S1/B1Z0011.STR,2,0.171,,no,0.0343,"Explosion 0.434; Artillery fire 0.309; Burst, pop 0.232; Gunshot, gunfire 0.203; Machine gun 0.044",no_dialogue_flagged_by_models
+M/S1/B1Z0021.STR,2,0.513,,no,0.0055,"Explosion 0.262; Burst, pop 0.239; Whoosh, swoosh, swish 0.128; Sound effect 0.106; Smash, crash 0.103",no_dialogue_flagged_by_models
+M/S1/B1Z0031.STR,2,0.616,,no,0.0082,"Sound effect 0.556; Music 0.190; Gunshot, gunfire 0.083; Whoosh, swoosh, swish 0.068; Bang 0.065",no_dialogue_flagged_by_models
+M/S1/B1Z0041.STR,1,0.109,,yes,0.0128,"Bang 0.174; Sound effect 0.081; Burst, pop 0.074; Smash, crash 0.042; Whoosh, swoosh, swish 0.030",listen_to_flagged_clip
+M/S1/B1Z0051.STR,2,0.517,,no,0.006,"Sound effect 0.220; Vehicle 0.105; Whoosh, swoosh, swish 0.077; Clatter 0.065; Car 0.058",no_dialogue_flagged_by_models
+M/S1/B1Z0061.STR,1,0.977,L 2.880-3.072 (0.977),yes,0.0117,"Sound effect 0.293; Whoosh, swoosh, swish 0.100; Bang 0.097; Music 0.043; Burst, pop 0.032",listen_to_flagged_clip
+M/S1/B1Z0071.STR,2,0.38,,no,0.0054,"Explosion 0.852; Burst, pop 0.470; Eruption 0.323; Music 0.024; Boom 0.009",no_dialogue_flagged_by_models
+M/S1/B1Z0081.STR,2,0.078,,yes,0.0528,"Explosion 0.540; Burst, pop 0.288; Artillery fire 0.157; Gunshot, gunfire 0.118; Eruption 0.079",listen_to_flagged_clip
+M/S1/B1Z0091.STR,1,0.348,,yes,0.0046,Music 0.151; Sound effect 0.130; Throbbing 0.046; Electronic music 0.041; Dubstep 0.029,listen_to_flagged_clip
+M/S1/B1Z0101.STR,2,0.129,,no,0.0016,"Whip 0.094; Whack, thwack 0.074; Sound effect 0.058; Explosion 0.039; Smash, crash 0.037",no_dialogue_flagged_by_models
+M/S1/B1Z0111.STR,2,0.47,,yes,0.0065,"Roar 0.522; Sound effect 0.321; Grunt 0.057; Gunshot, gunfire 0.047; Bang 0.040",listen_to_flagged_clip
+M/S1/B1Z0121.STR,2,0.174,,no,0.0044,"Sound effect 0.469; Explosion 0.180; Burst, pop 0.112; Bang 0.036; Grunt 0.028",no_dialogue_flagged_by_models
+M/S2/B2Z0011.STR,2,0.466,,no,0.0111,"Gunshot, gunfire 0.198; Machine gun 0.188; Explosion 0.034; Burst, pop 0.033; Fusillade 0.020",no_dialogue_flagged_by_models
+M/S2/B2Z0021.STR,2,0.785,L 2.240-2.400 (0.779); R 2.240-2.400 (0.785),yes,0.0238,"Explosion 0.385; Burst, pop 0.235; Vehicle 0.065; Eruption 0.055; White noise 0.051",listen_to_flagged_clip
+M/S2/B2Z0031.STR,2,0.464,,no,0.0063,"Sound effect 0.471; Music 0.101; Explosion 0.096; Whoosh, swoosh, swish 0.088; Roar 0.060",no_dialogue_flagged_by_models
+M/S2/B2Z0041.STR,2,0.204,,yes,0.0023,"Sound effect 0.228; Bang 0.063; Fart 0.051; Explosion 0.047; Burst, pop 0.043",listen_to_flagged_clip
+M/S2/B2Z0051.STR,2,0.075,,no,0.0022,"Whip 0.103; Burst, pop 0.065; Sound effect 0.057; Explosion 0.033; Whoosh, swoosh, swish 0.031",no_dialogue_flagged_by_models
+M/S2/B2Z0061.STR,2,0.752,L 0.416-0.576 (0.752); R 0.416-0.576 (0.752),yes,0.0051,"Sound effect 0.423; Explosion 0.066; Whoosh, swoosh, swish 0.036; Burst, pop 0.032; Music 0.029",listen_to_flagged_clip
+M/S2/B2Z0071.STR,2,0.49,,no,0.0295,"Explosion 0.681; Burst, pop 0.352; Music 0.171; Eruption 0.091; Sound effect 0.080",no_dialogue_flagged_by_models
+M/S2/B2Z0081.STR,2,0.855,L 1.600-1.856 (0.855),yes,0.0057,"Sound effect 0.137; Gunshot, gunfire 0.070; Burst, pop 0.060; Explosion 0.059; Smash, crash 0.048",listen_to_flagged_clip
+M/S2/B2Z0091.STR,2,0.44,,yes,0.0524,"Sound effect 0.266; Explosion 0.115; Music 0.077; Burst, pop 0.058; Speech 0.052",listen_to_flagged_clip
+M/S2/B2Z0101.STR,2,0.65,L 1.792-1.952 (0.650),yes,0.0028,"Whip 0.187; Burst, pop 0.054; Explosion 0.050; Smash, crash 0.039; Whoosh, swoosh, swish 0.038",listen_to_flagged_clip
+M/S2/B2Z0111.STR,2,0.547,,no,0.0048,"Explosion 0.471; Burst, pop 0.251; Bang 0.107; Music 0.073; Smash, crash 0.041",no_dialogue_flagged_by_models
+M/S2/B2Z0121.STR,2,0.854,L 0.064-0.352 (0.854); R 0.064-0.352 (0.836),yes,0.0122,"Explosion 0.486; Burst, pop 0.250; Eruption 0.107; Bang 0.072; Sound effect 0.040",listen_to_flagged_clip
+M/S2/B2Z0131.STR,2,0.414,,no,0.0042,"Explosion 0.320; Sound effect 0.216; Burst, pop 0.155; Machine gun 0.070; Gunshot, gunfire 0.045",no_dialogue_flagged_by_models
+M/S2/B2Z0141.STR,1,0.097,,no,0.0379,"Explosion 0.454; Eruption 0.311; Vehicle 0.183; Burst, pop 0.118; Aircraft 0.067",no_dialogue_flagged_by_models
+M/S3/B3Z0031.STR,1,0.841,L 0.064-0.384 (0.841),yes,0.0395,"Sound effect 0.168; Music 0.082; Whoosh, swoosh, swish 0.074; Whir 0.059; Explosion 0.051",listen_to_flagged_clip
+M/S3/B3Z0061.STR,2,0.569,L 0.480-0.640 (0.569); R 0.480-0.640 (0.569),yes,0.0046,"Sound effect 0.452; Explosion 0.076; Clatter 0.073; Burst, pop 0.044; Vehicle 0.031",listen_to_flagged_clip
+M/S3/B3Z0071.STR,2,0.139,,no,0.0061,"Bang 0.153; Smash, crash 0.115; Sound effect 0.111; Explosion 0.103; Burst, pop 0.074",no_dialogue_flagged_by_models
+M/S3/B3Z0081.STR,2,0.405,,no,0.0033,Sound effect 0.453; Car 0.104; Vehicle 0.096; Explosion 0.087; Rumble 0.085,no_dialogue_flagged_by_models
+M/S3/B3Z0091.STR,2,0.346,,no,0.0154,"Sound effect 0.221; Domestic animals, pets 0.083; Animal 0.059; Howl 0.057; Dog 0.047",no_dialogue_flagged_by_models
+M/S3/B3Z0101.STR,2,0.551,,no,0.0035,"Sound effect 0.432; Whoosh, swoosh, swish 0.310; Explosion 0.117; Burst, pop 0.076; Smash, crash 0.056",no_dialogue_flagged_by_models
+M/S3/B3Z0131.STR,2,0.454,,yes,0.0039,"Explosion 0.177; Burst, pop 0.113; Artillery fire 0.100; Gunshot, gunfire 0.068; Sound effect 0.035",listen_to_flagged_clip
+M/S3/B3Z0141.STR,2,0.583,,no,0.0085,"Music 0.242; Sound effect 0.124; Bang 0.108; Gunshot, gunfire 0.101; Fusillade 0.096",no_dialogue_flagged_by_models
+M/S3/NZ0021.STR,2,0.881,L 1.600-2.240 (0.881); R 1.600-2.240 (0.807),yes,0.004,"Sound effect 0.136; Explosion 0.116; Burst, pop 0.098; Bang 0.081; Smash, crash 0.060",listen_to_flagged_clip
+M/S3/NZ0031.STR,2,0.612,L 0.128-0.288 (0.466),yes,0.004,"Sound effect 0.543; Whoosh, swoosh, swish 0.153; Music 0.040; Rumble 0.037; Vehicle 0.031",listen_to_flagged_clip
+M/S3/NZ0041.STR,2,0.068,,no,0.0165,"Explosion 0.296; Burst, pop 0.143; Whoosh, swoosh, swish 0.125; Bang 0.078; Music 0.068",no_dialogue_flagged_by_models
+M/S3/NZ0061.STR,2,0.094,,no,0.0052,"Sound effect 0.155; Bang 0.108; Gunshot, gunfire 0.079; Explosion 0.065; Artillery fire 0.036",no_dialogue_flagged_by_models
+M/S3/Z0011.STR,2,0.25,,yes,0.0034,"Sound effect 0.156; Roar 0.062; Whoosh, swoosh, swish 0.036; Bang 0.036; Whack, thwack 0.034",listen_to_flagged_clip
+M/S3/Z0021.STR,1,0.586,,no,0.0046,"Sound effect 0.831; Explosion 0.178; Whoosh, swoosh, swish 0.111; Burst, pop 0.075; Scrape 0.054",no_dialogue_flagged_by_models
+M/S3/Z0031.STR,2,0.427,,no,0.0062,"Explosion 0.183; Sound effect 0.172; Whoosh, swoosh, swish 0.130; Smash, crash 0.121; Burst, pop 0.108",no_dialogue_flagged_by_models
+M/S3/Z0041.STR,2,0.249,,yes,0.0051,"Gunshot, gunfire 0.255; Sound effect 0.120; Machine gun 0.097; Artillery fire 0.056; Fusillade 0.040",listen_to_flagged_clip
+M/TOMYLOGO.STR,2,0.662,L 0.032-0.384 (0.662); R 0.032-0.352 (0.638),yes,0.0076,"Marimba, xylophone 0.529; Music 0.324; Glockenspiel 0.282; Mallet percussion 0.172; Vibraphone 0.170",listen_to_flagged_clip

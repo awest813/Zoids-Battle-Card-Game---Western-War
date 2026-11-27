@@ -132,7 +132,15 @@ The `--album-exe` report reads the original executable's catalog order and check
 
 Death Saurer's ranged clip on page 8 previously stalled in the guest file search. The staged English runtime resolves small STR paths against the mounted disc's filesystem and passes the result to the original movie player. The boot clips use the guest file search. On a fresh English run, Death Saurer's ranged clip sought to LBA 93501, displayed decoded frames with XA active, and returned to page 8. Geno Saurer's special and All-Direction Shot replayed with XA active in the same run. A disposable opening state also showed the English movie title and returned to the localized interactive title after Start.
 
-The TOMY logo's visible wording is already English. Sampled frames across all 153 small clips showed Zoid and weapon animations. Audio still requires review before assigning their subtitle status.
+The TOMY logo's visible wording is already English. Sampled frames across all 153 small clips showed Zoid and weapon animations.
+
+### Movie audio screening
+
+`analysis/MOVIE_AUDIO_REVIEW.csv` covers all 155 STRs. FFmpeg decoded the single XA stream in each clip at 16 kHz. Silero VAD 6.2.1 screened 261 distinct left and right signals and marked runs of five or more 32 ms windows at or above 0.35. Whisper.cpp 1.9.6 ran Japanese recognition on every clip and a second pass on 101 channels across 59 flagged clips. The Audio Spectrogram Transformer scored speech and other sound events on each mix. The review includes the clips with a speech class score of 0.05 or above. [Silero VAD](https://github.com/snakers4/silero-vad/tree/v6.2.1) · [Whisper.cpp](https://github.com/ggml-org/whisper.cpp/tree/v1.9.6) · [Audio Spectrogram Transformer](https://arxiv.org/abs/2104.01778)
+
+The opening's strongest tag was music and neither channel produced a voice interval. The logo's short flagged interval corresponded to percussion tags and transcriptions that described music. Most flagged clips had strong effects tags or recognition that changed between channels. The pass found no dialogue reliable enough to subtitle. The 59 flagged clips still require listening. The remaining 96 were unflagged by the screen. It did not cover the separate in-game sound banks.
+
+To listen to a flagged clip, use the file path and times in the CSV. The timestamps are relative to the start of its decoded audio. Extract the STR from your own disc with `tools/audit_movies.py --extract` and use FFmpeg to play or decode its audio stream.
 
 ### Ending credits
 
