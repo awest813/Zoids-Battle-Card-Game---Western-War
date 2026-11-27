@@ -117,6 +117,10 @@ The combat lesson uses `Atk`, matching the command menu. The running campaign re
 
 From a fresh English boot, enter Free Mode as the Republic, choose Ocean World, and deploy Shield Liger in the first slot. The opening objective camera shows `SHL` on shallow water. End the Custom Phase, enter Move, and move the cursor up three tiles to see `DEP` on deep water. Both badges appeared in the live OpenGL renderer.
 
+In Republic training on turn six, equipping Missile Pod on Shield Liger raises `WR` from `0/3` to `1/3`. Open `Rmve` and select Shield Liger to see Missile Pod in its occupied slot. Confirm removal and check that `Rmve` is disabled when the last card is removed. Both actions were tried on the campaign checkpoint.
+
+The Stage 13 `Road to Gaigalus` and Stage 5 `Imperial Capital Gaigalus` overlays match the city spelling in the briefing map and dialogue. A pixel comparison confirmed that the corrections only change the title line. Live playback of both later stage captions is still pending.
+
 ### Movie inventory and opening playback
 
 `analysis/MOVIE_INVENTORY.csv` records 155 clips from the retail disc. The opening has 1,544 frames at nominal 15 fps. The TOMY logo and 153 small clips use nominal 30 fps. `duration_seconds` describes the encoded clip. The game can leave playback earlier. Every clip has an XA audio stream. Two pairs have identical encoded audio, recorded under `matching_xa`. Whether a clip contains speech or readable text still requires review.

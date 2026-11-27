@@ -97,7 +97,7 @@ This is the starting glossary for the English translation. It is intentionally c
 | トミー・パリス | Tommy Paris |
 | バルディ・ガータ | Baldi Garta (verify) |
 | カール | Karl |
-| ガイガロス | GaiGalos (verify) |
+| ガイガロス | Gaigalus |
 
 ## Zoid names (use official English spellings)
 
