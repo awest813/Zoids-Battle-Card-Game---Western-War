@@ -146,6 +146,12 @@ def captioned_renderer(source, osd):
     with MOVIE_INVENTORY.open(encoding="utf-8-sig", newline="") as inventory:
         clips = {row["path"]: row for row in csv.DictReader(inventory)}
     records = []
+    matches = []
+    styles = {
+        "caption": (0x141922, 0xFFFFFF),
+        "card_name": (0x30362E, 0xFFF9EA),
+        "card_rule": (0xF0EEE5, 0x27251F),
+    }
     for path, track in json.loads(CAPTION_TEXT.read_text(encoding="utf-8")).items():
         clip = clips[path]
         disc = [int(clip[key]) for key in ("start_lba", "sector_count", "nominal_fps", "width", "height")]
@@ -153,8 +159,22 @@ def captioned_renderer(source, osd):
         lead = track["sector_lead_frames"]
         if not isinstance(lead, int) or lead < 0:
             raise ValueError(f"{path}: invalid sector lead")
+        if "frame_match" in track:
+            match = track["frame_match"]
+            first = match["first_frame"]
+            signatures = match["signatures"]
+            if not 0 <= first < first + len(signatures) <= int(clip["frame_count"]):
+                raise ValueError(f"{path}: frame match outside the movie")
+            for frame, signature in enumerate(signatures, first):
+                pixels = bytes.fromhex(signature)
+                if len(pixels) != 20:
+                    raise ValueError(f"{path}: expected 20 luma samples for frame {frame}")
+                samples = ", ".join(map(str, pixels))
+                matches.append(f"    {{ {disc[0]}, {disc[2]}, {lead}, {frame}, {{ {samples} }} }},")
+        motions = track.get("motions", {})
         for cue in track["cues"]:
-            first, end = cue["frames"]
+            motion = motions[cue["motion"]] if "motion" in cue else None
+            first, end = (motion if motion else cue)["frames"]
             x, y, w, h = cue["box"]
             lines = cue["lines"]
             if not 0 <= first < end <= int(clip["frame_count"]):
@@ -168,22 +188,41 @@ def captioned_renderer(source, osd):
                         or sum(glyph_widths[ord(char) - 32] for char in line) > w - 4):
                     raise ValueError(f"{path}: caption line is non-ASCII or too wide: {line!r}")
             text = ", ".join(json.dumps(line) for line in lines)
-            top_rows = cue.get("top_rows", [y] * (end - first))
-            if len(top_rows) != end - first:
-                raise ValueError(f"{path}: provide one top row per frame: {cue}")
-            for top, run in groupby(top_rows):
-                if not isinstance(top, int) or not 0 <= top <= height - h:
+            duration = end - first
+            top_rows = cue.get("top_rows", [y] * duration)
+            left_columns = motion["left_columns"] if motion else [0] * duration
+            fade = motion.get("fade", []) if motion else []
+            if len(top_rows) != duration or len(left_columns) != duration or len(fade) > duration:
+                raise ValueError(f"{path}: provide one position per frame: {cue}")
+            opacity = [255] * (duration - len(fade)) + fade
+            colors = ", ".join(f"0x{color:06X}u" for color in styles[cue.get("style", "caption")])
+            for (left, top, alpha), run in groupby(zip(left_columns, top_rows, opacity)):
+                if not (isinstance(left, int) and 0 <= left < width
+                        and isinstance(top, int) and 0 <= top <= height - h
+                        and isinstance(alpha, int) and 0 <= alpha <= 255):
                     raise ValueError(f"{path}: moving caption outside the movie: {cue}")
                 stop = first + sum(1 for _ in run)
-                numbers = ", ".join(map(str, (*disc, lead, first, stop, x, top, w, h)))
-                records.append(f"    {{ {numbers}, {{ {text} }} }},")
+                numbers = ", ".join(map(str, (*disc, lead, first, stop, x + left, top, w, h, alpha)))
+                records.append(f"    {{ {numbers}, {colors}, {{ {text} }} }},")
                 first = stop
     if not records:
         raise ValueError("No movie captions defined")
     table = "static const ZoidsMovieCaption zoids_captions[] = {\n" + "\n".join(records) + "\n};"
+    table += "\nstatic const ZoidsFrameSignature zoids_signatures[] = {\n" + "\n".join(matches) + "\n};"
     code = MOVIE_CAPTIONS.read_text(encoding="utf-8").replace("/* ZOIDS_CAPTION_DATA */", font[0] + "\n" + table)
     replacements = (
         ('#include "gpu_fmv_hd.h"', '#include "gpu_fmv_hd.h"\n#include "cdrom.h"'),
+        ("static void gl_draw_osd_image(const uint32_t *px, int ow, int oh,\n"
+         "                              int dw, int dh, int vx, int vy, int ww, int wh) {",
+         "static void gl_draw_osd_layer(const uint32_t *px, int ow, int oh,\n"
+         "                              int dw, int dh, int vx, int vy, int ww, int wh, int blend) {"),
+        ("    glDisable(GL_BLEND);\n    if (p_glBlendEquationSeparate)\n"
+         "        p_glBlendEquationSeparate(PSXGL_FUNC_ADD, PSXGL_FUNC_ADD);\n    /* GL viewport origin is bottom-left. */",
+         "    if (blend) {\n        glEnable(GL_BLEND);\n"
+         "        p_glBlendFuncSeparate(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ONE, GL_ONE_MINUS_SRC_ALPHA);\n"
+         "    } else {\n        glDisable(GL_BLEND);\n    }\n"
+         "    if (p_glBlendEquationSeparate)\n"
+         "        p_glBlendEquationSeparate(PSXGL_FUNC_ADD, PSXGL_FUNC_ADD);\n    /* GL viewport origin is bottom-left. */"),
         ("static void present_fmv_hd(const FmvHdImage *hd) {",
          code + "\nstatic void present_fmv_hd(const FmvHdImage *hd, const FmvHdTimeline *timeline) {"),
         ("    pres_record(GL_PRES_CPU, 0, 0, hd->w, hd->h, lx, ly, lw, lh);",
