@@ -1132,50 +1132,50 @@ TXT-1132,story,帝国のものとなったのだ。,0x8001890c,1,800cca48,28,13,
 TXT-1133,story,エウロペ大陸は、,0x80018928,1,800cca44,20,9,The Europa continent is
 TXT-1134,story,ついに共和国は撤退した。,0x8001893c,1,800cca24,28,13,"At last, the Republic has retreated."
 TXT-1135,story,よろしく頼む。,0x80018958,2,800ccfa0;800cdcec,16,7,I'm counting on you.
-TXT-1136,story,おこなっておいてもらいたい。,0x80018968,1,800ccf8c,32,15,I want you to do it.
+TXT-1136,story,おこなっておいてもらいたい。,0x80018968,1,800ccf8c,32,15,before you take command.
 TXT-1137,story,君には悪いが、少し演習を,0x80018988,1,800ccf88,28,13,"Sorry, but I need you to run a drill."
-TXT-1138,story,こまる。,0x800189a4,1,800ccf74,12,5,That's a problem.
-TXT-1139,story,戦場のカンが失われていては,0x800189b0,1,800ccf70,28,13,"If you lose your battlefield instinct,"
-TXT-1140,story,長旅で疲れているだろうが、,0x800189cc,1,800ccf6c,28,13,"You must be tired from the long journey, but"
-TXT-1141,story,事実だ。,0x800189e8,1,800ccf58,12,5,It's a fact.
+TXT-1138,story,こまる。,0x800189a4,1,800ccf74,12,5,to lose your edge.
+TXT-1139,story,戦場のカンが失われていては,0x800189b0,1,800ccf70,28,13,but we can't afford for you
+TXT-1140,story,長旅で疲れているだろうが、,0x800189cc,1,800ccf6c,28,13,"I know it was a long journey,"
+TXT-1141,story,事実だ。,0x800189e8,1,800ccf58,12,5,before they make their move.
 TXT-1142,story,しかし、あまり時間が無いのも,0x800189f4,1,800ccf54,32,15,But there truly isn't much time.
-TXT-1143,story,今すぐというワケではない。,0x80018a14,1,800ccf40,28,13,It's not right now.
-TXT-1144,story,してきた場合の話だ。,0x80018a30,1,800ccf3c,24,11,This is if they come.
-TXT-1145,story,これはあくまでも帝国が侵攻,0x80018a48,1,800ccf38,28,13,This is strictly if the Empire invades.
-TXT-1146,story,もらえたと思う。,0x80018a64,1,800ccf24,20,9,I think we got it.
-TXT-1147,story,作戦については、理解して,0x80018a78,1,800ccf20,28,13,I understand the operation.
+TXT-1143,story,今すぐというワケではない。,0x80018a14,1,800ccf40,28,13,We won't act before then.
+TXT-1144,story,してきた場合の話だ。,0x80018a30,1,800ccf3c,24,11,if the Empire invades.
+TXT-1145,story,これはあくまでも帝国が侵攻,0x80018a48,1,800ccf38,28,13,This plan only goes ahead
+TXT-1146,story,もらえたと思う。,0x80018a64,1,800ccf24,20,9,a good idea of the plan.
+TXT-1147,story,作戦については、理解して,0x80018a78,1,800ccf20,28,13,That should give you
 TXT-1148,story,ありがとう、少尉。,0x80018a94,1,800ccf0c,20,9,"Thank you, Second Lieutenant."
-TXT-1149,story,作戦の説明は以上です。,0x80018aa8,1,800ccee0,24,11,That is all for the operation explanation.
-TXT-1150,story,します。,0x80018ac0,1,800ccec0,12,5,We will.
-TXT-1151,story,集結させて、これを撃破,0x80018acc,1,800ccebc,24,11,Assemble them and destroy this.
-TXT-1152,story,最後に、西エウロペに帝国を,0x80018ae4,1,800cceb8,28,13,"Finally, place the Empire in West Europa"
+TXT-1149,story,作戦の説明は以上です。,0x80018aa8,1,800ccee0,24,11,That concludes the briefing.
+TXT-1150,story,します。,0x80018ac0,1,800ccec0,12,5,and destroy them there.
+TXT-1151,story,集結させて、これを撃破,0x80018acc,1,800ccebc,24,11,to mass its troops in West Europa
+TXT-1152,story,最後に、西エウロペに帝国を,0x80018ae4,1,800cceb8,28,13,"Finally, we'll force the Empire"
 TXT-1153,story,北エウロペを奪回します。,0x80018b00,1,800cce98,28,13,We will retake North Europa.
-TXT-1154,story,受けて、北エウロペの東から,0x80018b1c,1,800cce80,28,13,then land on North Europa's
-TXT-1155,story,次に、デルポイからの補給を,0x80018b38,1,800cce7c,28,13,"Next, get supplies from Delphi,"
+TXT-1154,story,受けて、北エウロペの東から,0x80018b1c,1,800cce80,28,13,then attack from the east.
+TXT-1155,story,次に、デルポイからの補給を,0x80018b38,1,800cce7c,28,13,"Next, we'll resupply from Delphi,"
 TXT-1156,story,南エウロペを奪回します。,0x80018b54,1,800cce5c,28,13,We will retake South Europa.
-TXT-1157,story,これを撃退し、そのまま、,0x80018b70,1,800cce58,28,13,"Repel this and, as is,"
-TXT-1158,story,攻撃をしかけると思われます。,0x80018b8c,1,800cce44,32,15,They will probably attack.
-TXT-1159,story,まず、帝国はニューヘリックに,0x80018bac,1,800cce40,32,15,"First, the Empire will attack New Helic."
-TXT-1160,story,プロセスからなります。,0x80018bcc,1,800cce20,24,11,It consists of processes.
-TXT-1161,story,えー、今回の作戦は３つの,0x80018be4,1,800cce1c,28,13,"Um, this operation has three"
-TXT-1162,story,作戦の説明を頼む。,0x80018c00,1,800ccde8,20,9,Explain the operation.
-TXT-1163,story,帝国が宣戦布告してきた場合の,0x80018c14,1,800ccde4,32,15,"If the Empire declares war,"
+TXT-1157,story,これを撃退し、そのまま、,0x80018b70,1,800cce58,28,13,We'll repel the attack and press on.
+TXT-1158,story,攻撃をしかけると思われます。,0x80018b8c,1,800cce44,32,15,New Helic City first.
+TXT-1159,story,まず、帝国はニューヘリックに,0x80018bac,1,800cce40,32,15,We expect the Empire to attack
+TXT-1160,story,プロセスからなります。,0x80018bcc,1,800cce20,24,11,in three phases.
+TXT-1161,story,えー、今回の作戦は３つの,0x80018be4,1,800cce1c,28,13,We'll carry out this operation
+TXT-1162,story,作戦の説明を頼む。,0x80018c00,1,800ccde8,20,9,if the Empire declares war.
+TXT-1163,story,帝国が宣戦布告してきた場合の,0x80018c14,1,800ccde4,32,15,explain what we'll do
 TXT-1164,story,リーリエ少尉、,0x80018c34,1,800ccde0,16,7,"Second Lieutenant Lilie,"
-TXT-1165,story,向けて、準備は進めてきた。,0x80018c44,1,800ccdcc,28,13,We have been preparing for it.
-TXT-1166,story,われわれも、エウロペ奪回に,0x80018c60,1,800ccdc8,28,13,"We too, for the recapture of Europa"
-TXT-1167,story,そこで、君が呼ばれたわけだ。,0x80018c7c,1,800ccdb4,32,15,So you were called.
-TXT-1168,story,われわれは得た。,0x80018c9c,1,800ccda0,20,9,We have obtained.
-TXT-1169,story,しかけてくるという情報を,0x80018cb0,1,800ccd9c,28,13,The information that they will attack
-TXT-1170,story,しかしながら、近々、帝国が,0x80018ccc,1,800ccd98,28,13,"However, soon, the Empire"
-TXT-1171,story,状態だ。,0x80018ce8,1,800ccd78,12,5,It is a state.
-TXT-1172,story,現在もにらみあいが続いている,0x80018cf4,1,800ccd74,32,15,"Even now, the standoff continues."
-TXT-1173,story,目と鼻の先にあり、,0x80018d14,1,800ccd60,20,9,It is right before our eyes.
+TXT-1165,story,向けて、準備は進めてきた。,0x80018c44,1,800ccdcc,28,13,to retake Europa.
+TXT-1166,story,われわれも、エウロペ奪回に,0x80018c60,1,800ccdc8,28,13,We've made preparations of our own
+TXT-1167,story,そこで、君が呼ばれたわけだ。,0x80018c7c,1,800ccdb4,32,15,That's why we called you here.
+TXT-1168,story,われわれは得た。,0x80018c9c,1,800ccda0,20,9,a strike soon.
+TXT-1169,story,しかけてくるという情報を,0x80018cb0,1,800ccd9c,28,13,the Empire is planning
+TXT-1170,story,しかしながら、近々、帝国が,0x80018ccc,1,800ccd98,28,13,But our intelligence says
+TXT-1171,story,状態だ。,0x80018ce8,1,800ccd78,12,5,to this day.
+TXT-1172,story,現在もにらみあいが続いている,0x80018cf4,1,800ccd74,32,15,The standoff has lasted
+TXT-1173,story,目と鼻の先にあり、,0x80018d14,1,800ccd60,20,9,are practically neighbors.
 TXT-1174,story,ニューヘリックシティは,0x80018d28,1,800ccd5c,24,11,New Helic City
 TXT-1175,story,帝国のガイガロスとわれわれの,0x80018d40,1,800ccd58,32,15,The Empire's Gaigalus and our
-TXT-1176,story,ほぼ帝国が勝利をおさめた。,0x80018d60,1,800ccd44,28,13,The Empire has almost won.
+TXT-1176,story,ほぼ帝国が勝利をおさめた。,0x80018d60,1,800ccd44,28,13,the Empire nearly won.
 TXT-1177,story,前回のエウロペの大戦では、,0x80018d7c,1,800ccd40,28,13,"In the last great war in Europa,"
-TXT-1178,story,もらおう。,0x80018d98,1,800ccd20,12,5,Let's have it.
-TXT-1179,story,まずは、状況を再度確認して,0x80018da4,1,800ccd1c,28,13,"First, let's confirm the situation again."
+TXT-1178,story,もらおう。,0x80018d98,1,800ccd20,12,5,up to speed.
+TXT-1179,story,まずは、状況を再度確認して,0x80018da4,1,800ccd1c,28,13,"First, let me bring you"
 TXT-1180,story,みな、大いに期待しているよ。,0x80018dc0,1,800ccd08,32,15,Everyone has high expectations.
 TXT-1181,story,君が指揮を取るということで、,0x80018de0,1,800ccd04,32,15,"Since you will take command,"
 TXT-1182,story,私の名はハーマンだ。,0x80018e00,1,800cccf0,24,11,My name is Herman.

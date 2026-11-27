@@ -14718,7 +14718,7 @@ ptr_addrs = ["0x800ccf8c"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "I want you to do it."
+en = "before you take command."
 note = "story inplace max=15"
 
 [[entry]]
@@ -14744,7 +14744,7 @@ ptr_addrs = ["0x800ccf74"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "That's a problem."
+en = "to lose your edge."
 note = "story inplace max=5"
 
 [[entry]]
@@ -14757,7 +14757,7 @@ ptr_addrs = ["0x800ccf70"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "If you lose your battlefield instinct,"
+en = "but we can't afford for you"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14770,7 +14770,7 @@ ptr_addrs = ["0x800ccf6c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "You must be tired from the long journey, but"
+en = "I know it was a long journey,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14783,7 +14783,7 @@ ptr_addrs = ["0x800ccf58"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "It's a fact."
+en = "before they make their move."
 note = "story inplace max=5"
 
 [[entry]]
@@ -14809,7 +14809,7 @@ ptr_addrs = ["0x800ccf40"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "It's not right now."
+en = "We won't act before then."
 note = "story inplace max=13"
 
 [[entry]]
@@ -14822,7 +14822,7 @@ ptr_addrs = ["0x800ccf3c"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "This is if they come."
+en = "if the Empire invades."
 note = "story inplace max=11"
 
 [[entry]]
@@ -14835,7 +14835,7 @@ ptr_addrs = ["0x800ccf38"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "This is strictly if the Empire invades."
+en = "This plan only goes ahead"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14848,7 +14848,7 @@ ptr_addrs = ["0x800ccf24"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "I think we got it."
+en = "a good idea of the plan."
 note = "story inplace max=9"
 
 [[entry]]
@@ -14861,7 +14861,7 @@ ptr_addrs = ["0x800ccf20"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "I understand the operation."
+en = "That should give you"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14887,7 +14887,7 @@ ptr_addrs = ["0x800ccee0"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "That is all for the operation explanation."
+en = "That concludes the briefing."
 note = "story inplace max=11"
 
 [[entry]]
@@ -14900,7 +14900,7 @@ ptr_addrs = ["0x800ccec0"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "We will."
+en = "and destroy them there."
 note = "story inplace max=5"
 
 [[entry]]
@@ -14913,7 +14913,7 @@ ptr_addrs = ["0x800ccebc"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Assemble them and destroy this."
+en = "to mass its troops in West Europa"
 note = "story inplace max=11"
 
 [[entry]]
@@ -14926,7 +14926,7 @@ ptr_addrs = ["0x800cceb8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Finally, place the Empire in West Europa"
+en = "Finally, we'll force the Empire"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14952,7 +14952,7 @@ ptr_addrs = ["0x800cce80"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "then land on North Europa's"
+en = "then attack from the east."
 note = "story inplace max=13"
 
 [[entry]]
@@ -14965,7 +14965,7 @@ ptr_addrs = ["0x800cce7c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Next, get supplies from Delphi,"
+en = "Next, we'll resupply from Delphi,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14991,7 +14991,7 @@ ptr_addrs = ["0x800cce58"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Repel this and, as is,"
+en = "We'll repel the attack and press on."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15004,7 +15004,7 @@ ptr_addrs = ["0x800cce44"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "They will probably attack."
+en = "New Helic City first."
 note = "story inplace max=15"
 
 [[entry]]
@@ -15017,7 +15017,7 @@ ptr_addrs = ["0x800cce40"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "First, the Empire will attack New Helic."
+en = "We expect the Empire to attack"
 note = "story inplace max=15"
 
 [[entry]]
@@ -15030,7 +15030,7 @@ ptr_addrs = ["0x800cce20"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "It consists of processes."
+en = "in three phases."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15043,7 +15043,7 @@ ptr_addrs = ["0x800cce1c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Um, this operation has three"
+en = "We'll carry out this operation"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15056,7 +15056,7 @@ ptr_addrs = ["0x800ccde8"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Explain the operation."
+en = "if the Empire declares war."
 note = "story inplace max=9"
 
 [[entry]]
@@ -15069,7 +15069,7 @@ ptr_addrs = ["0x800ccde4"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "If the Empire declares war,"
+en = "explain what we'll do"
 note = "story inplace max=15"
 
 [[entry]]
@@ -15095,7 +15095,7 @@ ptr_addrs = ["0x800ccdcc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We have been preparing for it."
+en = "to retake Europa."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15108,7 +15108,7 @@ ptr_addrs = ["0x800ccdc8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We too, for the recapture of Europa"
+en = "We've made preparations of our own"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15121,7 +15121,7 @@ ptr_addrs = ["0x800ccdb4"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "So you were called."
+en = "That's why we called you here."
 note = "story inplace max=15"
 
 [[entry]]
@@ -15134,7 +15134,7 @@ ptr_addrs = ["0x800ccda0"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "We have obtained."
+en = "a strike soon."
 note = "story inplace max=9"
 
 [[entry]]
@@ -15147,7 +15147,7 @@ ptr_addrs = ["0x800ccd9c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "The information that they will attack"
+en = "the Empire is planning"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15160,7 +15160,7 @@ ptr_addrs = ["0x800ccd98"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "However, soon, the Empire"
+en = "But our intelligence says"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15173,7 +15173,7 @@ ptr_addrs = ["0x800ccd78"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "It is a state."
+en = "to this day."
 note = "story inplace max=5"
 
 [[entry]]
@@ -15186,7 +15186,7 @@ ptr_addrs = ["0x800ccd74"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Even now, the standoff continues."
+en = "The standoff has lasted"
 note = "story inplace max=15"
 
 [[entry]]
@@ -15199,7 +15199,7 @@ ptr_addrs = ["0x800ccd60"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "It is right before our eyes."
+en = "are practically neighbors."
 note = "story inplace max=9"
 
 [[entry]]
@@ -15238,7 +15238,7 @@ ptr_addrs = ["0x800ccd44"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "The Empire has almost won."
+en = "the Empire nearly won."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15264,7 +15264,7 @@ ptr_addrs = ["0x800ccd20"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "Let's have it."
+en = "up to speed."
 note = "story inplace max=5"
 
 [[entry]]
@@ -15277,7 +15277,7 @@ ptr_addrs = ["0x800ccd1c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "First, let's confirm the situation again."
+en = "First, let me bring you"
 note = "story inplace max=13"
 
 [[entry]]

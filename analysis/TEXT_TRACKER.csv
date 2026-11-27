@@ -1134,50 +1134,50 @@ TXT-1132,00910c,8001890c,25,12,story,inplace,1,800cca48,28,13,27,P1,translated,�
 TXT-1133,009128,80018928,17,8,story,inplace,1,800cca44,20,9,19,P1,translated,エウロペ大陸は、,The Europa continent is,1 pointer(s); pointer redirection
 TXT-1134,00913c,8001893c,25,12,story,inplace,1,800cca24,28,13,27,P1,translated,ついに共和国は撤退した。,"At last, the Republic has retreated.",1 pointer(s); pointer redirection
 TXT-1135,009158,80018958,15,7,story,inplace,2,800ccfa0,16,7,15,P1,translated,よろしく頼む。,I'm counting on you.,2 pointer(s); pointer redirection
-TXT-1136,009168,80018968,29,14,story,inplace,1,800ccf8c,32,15,31,P1,translated,おこなっておいてもらいたい。,I want you to do it.,1 pointer(s); pointer redirection
+TXT-1136,009168,80018968,29,14,story,inplace,1,800ccf8c,32,15,31,P1,translated,おこなっておいてもらいたい。,before you take command.,1 pointer(s); pointer redirection
 TXT-1137,009188,80018988,25,12,story,inplace,1,800ccf88,28,13,27,P1,translated,君には悪いが、少し演習を,"Sorry, but I need you to run a drill.",1 pointer(s); pointer redirection
-TXT-1138,0091a4,800189a4,9,4,story,inplace,1,800ccf74,12,5,11,P1,translated,こまる。,That's a problem.,1 pointer(s); pointer redirection
-TXT-1139,0091b0,800189b0,27,13,story,inplace,1,800ccf70,28,13,27,P1,translated,戦場のカンが失われていては,"If you lose your battlefield instinct,",1 pointer(s); pointer redirection
-TXT-1140,0091cc,800189cc,27,13,story,inplace,1,800ccf6c,28,13,27,P1,translated,長旅で疲れているだろうが、,"You must be tired from the long journey, but",1 pointer(s); pointer redirection
-TXT-1141,0091e8,800189e8,9,4,story,inplace,1,800ccf58,12,5,11,P1,translated,事実だ。,It's a fact.,1 pointer(s); pointer redirection
+TXT-1138,0091a4,800189a4,9,4,story,inplace,1,800ccf74,12,5,11,P1,translated,こまる。,to lose your edge.,1 pointer(s); pointer redirection
+TXT-1139,0091b0,800189b0,27,13,story,inplace,1,800ccf70,28,13,27,P1,translated,戦場のカンが失われていては,but we can't afford for you,1 pointer(s); pointer redirection
+TXT-1140,0091cc,800189cc,27,13,story,inplace,1,800ccf6c,28,13,27,P1,translated,長旅で疲れているだろうが、,"I know it was a long journey,",1 pointer(s); pointer redirection
+TXT-1141,0091e8,800189e8,9,4,story,inplace,1,800ccf58,12,5,11,P1,translated,事実だ。,before they make their move.,1 pointer(s); pointer redirection
 TXT-1142,0091f4,800189f4,29,14,story,inplace,1,800ccf54,32,15,31,P1,translated,しかし、あまり時間が無いのも,But there truly isn't much time.,1 pointer(s); pointer redirection
-TXT-1143,009214,80018a14,27,13,story,inplace,1,800ccf40,28,13,27,P1,translated,今すぐというワケではない。,It's not right now.,1 pointer(s); pointer redirection
-TXT-1144,009230,80018a30,21,10,story,inplace,1,800ccf3c,24,11,23,P1,translated,してきた場合の話だ。,This is if they come.,1 pointer(s); pointer redirection
-TXT-1145,009248,80018a48,27,13,story,inplace,1,800ccf38,28,13,27,P1,translated,これはあくまでも帝国が侵攻,This is strictly if the Empire invades.,1 pointer(s); pointer redirection
-TXT-1146,009264,80018a64,17,8,story,inplace,1,800ccf24,20,9,19,P1,translated,もらえたと思う。,I think we got it.,1 pointer(s); pointer redirection
-TXT-1147,009278,80018a78,25,12,story,inplace,1,800ccf20,28,13,27,P1,translated,作戦については、理解して,I understand the operation.,1 pointer(s); pointer redirection
+TXT-1143,009214,80018a14,27,13,story,inplace,1,800ccf40,28,13,27,P1,translated,今すぐというワケではない。,We won't act before then.,1 pointer(s); pointer redirection
+TXT-1144,009230,80018a30,21,10,story,inplace,1,800ccf3c,24,11,23,P1,translated,してきた場合の話だ。,if the Empire invades.,1 pointer(s); pointer redirection
+TXT-1145,009248,80018a48,27,13,story,inplace,1,800ccf38,28,13,27,P1,translated,これはあくまでも帝国が侵攻,This plan only goes ahead,1 pointer(s); pointer redirection
+TXT-1146,009264,80018a64,17,8,story,inplace,1,800ccf24,20,9,19,P1,translated,もらえたと思う。,a good idea of the plan.,1 pointer(s); pointer redirection
+TXT-1147,009278,80018a78,25,12,story,inplace,1,800ccf20,28,13,27,P1,translated,作戦については、理解して,That should give you,1 pointer(s); pointer redirection
 TXT-1148,009294,80018a94,19,9,story,inplace,1,800ccf0c,20,9,19,P1,translated,ありがとう、少尉。,"Thank you, Second Lieutenant.",1 pointer(s); pointer redirection
-TXT-1149,0092a8,80018aa8,23,11,story,inplace,1,800ccee0,24,11,23,P1,translated,作戦の説明は以上です。,That is all for the operation explanation.,1 pointer(s); pointer redirection
-TXT-1150,0092c0,80018ac0,9,4,story,inplace,1,800ccec0,12,5,11,P1,translated,します。,We will.,1 pointer(s); pointer redirection
-TXT-1151,0092cc,80018acc,23,11,story,inplace,1,800ccebc,24,11,23,P1,translated,集結させて、これを撃破,Assemble them and destroy this.,1 pointer(s); pointer redirection
-TXT-1152,0092e4,80018ae4,27,13,story,inplace,1,800cceb8,28,13,27,P1,translated,最後に、西エウロペに帝国を,"Finally, place the Empire in West Europa",1 pointer(s); pointer redirection
+TXT-1149,0092a8,80018aa8,23,11,story,inplace,1,800ccee0,24,11,23,P1,translated,作戦の説明は以上です。,That concludes the briefing.,1 pointer(s); pointer redirection
+TXT-1150,0092c0,80018ac0,9,4,story,inplace,1,800ccec0,12,5,11,P1,translated,します。,and destroy them there.,1 pointer(s); pointer redirection
+TXT-1151,0092cc,80018acc,23,11,story,inplace,1,800ccebc,24,11,23,P1,translated,集結させて、これを撃破,to mass its troops in West Europa,1 pointer(s); pointer redirection
+TXT-1152,0092e4,80018ae4,27,13,story,inplace,1,800cceb8,28,13,27,P1,translated,最後に、西エウロペに帝国を,"Finally, we'll force the Empire",1 pointer(s); pointer redirection
 TXT-1153,009300,80018b00,25,12,story,inplace,1,800cce98,28,13,27,P1,translated,北エウロペを奪回します。,We will retake North Europa.,1 pointer(s); pointer redirection
-TXT-1154,00931c,80018b1c,27,13,story,inplace,1,800cce80,28,13,27,P1,translated,受けて、北エウロペの東から,then land on North Europa's,1 pointer(s); pointer redirection
-TXT-1155,009338,80018b38,27,13,story,inplace,1,800cce7c,28,13,27,P1,translated,次に、デルポイからの補給を,"Next, get supplies from Delphi,",1 pointer(s); pointer redirection
+TXT-1154,00931c,80018b1c,27,13,story,inplace,1,800cce80,28,13,27,P1,translated,受けて、北エウロペの東から,then attack from the east.,1 pointer(s); pointer redirection
+TXT-1155,009338,80018b38,27,13,story,inplace,1,800cce7c,28,13,27,P1,translated,次に、デルポイからの補給を,"Next, we'll resupply from Delphi,",1 pointer(s); pointer redirection
 TXT-1156,009354,80018b54,25,12,story,inplace,1,800cce5c,28,13,27,P1,translated,南エウロペを奪回します。,We will retake South Europa.,1 pointer(s); pointer redirection
-TXT-1157,009370,80018b70,25,12,story,inplace,1,800cce58,28,13,27,P1,translated,これを撃退し、そのまま、,"Repel this and, as is,",1 pointer(s); pointer redirection
-TXT-1158,00938c,80018b8c,29,14,story,inplace,1,800cce44,32,15,31,P1,translated,攻撃をしかけると思われます。,They will probably attack.,1 pointer(s); pointer redirection
-TXT-1159,0093ac,80018bac,29,14,story,inplace,1,800cce40,32,15,31,P1,translated,まず、帝国はニューヘリックに,"First, the Empire will attack New Helic.",1 pointer(s); pointer redirection
-TXT-1160,0093cc,80018bcc,23,11,story,inplace,1,800cce20,24,11,23,P1,translated,プロセスからなります。,It consists of processes.,1 pointer(s); pointer redirection
-TXT-1161,0093e4,80018be4,25,12,story,inplace,1,800cce1c,28,13,27,P1,translated,えー、今回の作戦は３つの,"Um, this operation has three",1 pointer(s); pointer redirection
-TXT-1162,009400,80018c00,19,9,story,inplace,1,800ccde8,20,9,19,P1,translated,作戦の説明を頼む。,Explain the operation.,1 pointer(s); pointer redirection
-TXT-1163,009414,80018c14,29,14,story,inplace,1,800ccde4,32,15,31,P1,translated,帝国が宣戦布告してきた場合の,"If the Empire declares war,",1 pointer(s); pointer redirection
+TXT-1157,009370,80018b70,25,12,story,inplace,1,800cce58,28,13,27,P1,translated,これを撃退し、そのまま、,We'll repel the attack and press on.,1 pointer(s); pointer redirection
+TXT-1158,00938c,80018b8c,29,14,story,inplace,1,800cce44,32,15,31,P1,translated,攻撃をしかけると思われます。,New Helic City first.,1 pointer(s); pointer redirection
+TXT-1159,0093ac,80018bac,29,14,story,inplace,1,800cce40,32,15,31,P1,translated,まず、帝国はニューヘリックに,We expect the Empire to attack,1 pointer(s); pointer redirection
+TXT-1160,0093cc,80018bcc,23,11,story,inplace,1,800cce20,24,11,23,P1,translated,プロセスからなります。,in three phases.,1 pointer(s); pointer redirection
+TXT-1161,0093e4,80018be4,25,12,story,inplace,1,800cce1c,28,13,27,P1,translated,えー、今回の作戦は３つの,We'll carry out this operation,1 pointer(s); pointer redirection
+TXT-1162,009400,80018c00,19,9,story,inplace,1,800ccde8,20,9,19,P1,translated,作戦の説明を頼む。,if the Empire declares war.,1 pointer(s); pointer redirection
+TXT-1163,009414,80018c14,29,14,story,inplace,1,800ccde4,32,15,31,P1,translated,帝国が宣戦布告してきた場合の,explain what we'll do,1 pointer(s); pointer redirection
 TXT-1164,009434,80018c34,15,7,story,inplace,1,800ccde0,16,7,15,P1,translated,リーリエ少尉、,"Second Lieutenant Lilie,",1 pointer(s); pointer redirection
-TXT-1165,009444,80018c44,27,13,story,inplace,1,800ccdcc,28,13,27,P1,translated,向けて、準備は進めてきた。,We have been preparing for it.,1 pointer(s); pointer redirection
-TXT-1166,009460,80018c60,27,13,story,inplace,1,800ccdc8,28,13,27,P1,translated,われわれも、エウロペ奪回に,"We too, for the recapture of Europa",1 pointer(s); pointer redirection
-TXT-1167,00947c,80018c7c,29,14,story,inplace,1,800ccdb4,32,15,31,P1,translated,そこで、君が呼ばれたわけだ。,So you were called.,1 pointer(s); pointer redirection
-TXT-1168,00949c,80018c9c,17,8,story,inplace,1,800ccda0,20,9,19,P1,translated,われわれは得た。,We have obtained.,1 pointer(s); pointer redirection
-TXT-1169,0094b0,80018cb0,25,12,story,inplace,1,800ccd9c,28,13,27,P1,translated,しかけてくるという情報を,The information that they will attack,1 pointer(s); pointer redirection
-TXT-1170,0094cc,80018ccc,27,13,story,inplace,1,800ccd98,28,13,27,P1,translated,しかしながら、近々、帝国が,"However, soon, the Empire",1 pointer(s); pointer redirection
-TXT-1171,0094e8,80018ce8,9,4,story,inplace,1,800ccd78,12,5,11,P1,translated,状態だ。,It is a state.,1 pointer(s); pointer redirection
-TXT-1172,0094f4,80018cf4,29,14,story,inplace,1,800ccd74,32,15,31,P1,translated,現在もにらみあいが続いている,"Even now, the standoff continues.",1 pointer(s); pointer redirection
-TXT-1173,009514,80018d14,19,9,story,inplace,1,800ccd60,20,9,19,P1,translated,目と鼻の先にあり、,It is right before our eyes.,1 pointer(s); pointer redirection
+TXT-1165,009444,80018c44,27,13,story,inplace,1,800ccdcc,28,13,27,P1,translated,向けて、準備は進めてきた。,to retake Europa.,1 pointer(s); pointer redirection
+TXT-1166,009460,80018c60,27,13,story,inplace,1,800ccdc8,28,13,27,P1,translated,われわれも、エウロペ奪回に,We've made preparations of our own,1 pointer(s); pointer redirection
+TXT-1167,00947c,80018c7c,29,14,story,inplace,1,800ccdb4,32,15,31,P1,translated,そこで、君が呼ばれたわけだ。,That's why we called you here.,1 pointer(s); pointer redirection
+TXT-1168,00949c,80018c9c,17,8,story,inplace,1,800ccda0,20,9,19,P1,translated,われわれは得た。,a strike soon.,1 pointer(s); pointer redirection
+TXT-1169,0094b0,80018cb0,25,12,story,inplace,1,800ccd9c,28,13,27,P1,translated,しかけてくるという情報を,the Empire is planning,1 pointer(s); pointer redirection
+TXT-1170,0094cc,80018ccc,27,13,story,inplace,1,800ccd98,28,13,27,P1,translated,しかしながら、近々、帝国が,But our intelligence says,1 pointer(s); pointer redirection
+TXT-1171,0094e8,80018ce8,9,4,story,inplace,1,800ccd78,12,5,11,P1,translated,状態だ。,to this day.,1 pointer(s); pointer redirection
+TXT-1172,0094f4,80018cf4,29,14,story,inplace,1,800ccd74,32,15,31,P1,translated,現在もにらみあいが続いている,The standoff has lasted,1 pointer(s); pointer redirection
+TXT-1173,009514,80018d14,19,9,story,inplace,1,800ccd60,20,9,19,P1,translated,目と鼻の先にあり、,are practically neighbors.,1 pointer(s); pointer redirection
 TXT-1174,009528,80018d28,23,11,story,inplace,1,800ccd5c,24,11,23,P1,translated,ニューヘリックシティは,New Helic City,1 pointer(s); pointer redirection
 TXT-1175,009540,80018d40,29,14,story,inplace,1,800ccd58,32,15,31,P1,translated,帝国のガイガロスとわれわれの,The Empire's Gaigalus and our,1 pointer(s); pointer redirection
-TXT-1176,009560,80018d60,27,13,story,inplace,1,800ccd44,28,13,27,P1,translated,ほぼ帝国が勝利をおさめた。,The Empire has almost won.,1 pointer(s); pointer redirection
+TXT-1176,009560,80018d60,27,13,story,inplace,1,800ccd44,28,13,27,P1,translated,ほぼ帝国が勝利をおさめた。,the Empire nearly won.,1 pointer(s); pointer redirection
 TXT-1177,00957c,80018d7c,27,13,story,inplace,1,800ccd40,28,13,27,P1,translated,前回のエウロペの大戦では、,"In the last great war in Europa,",1 pointer(s); pointer redirection
-TXT-1178,009598,80018d98,11,5,story,inplace,1,800ccd20,12,5,11,P1,translated,もらおう。,Let's have it.,1 pointer(s); pointer redirection
-TXT-1179,0095a4,80018da4,27,13,story,inplace,1,800ccd1c,28,13,27,P1,translated,まずは、状況を再度確認して,"First, let's confirm the situation again.",1 pointer(s); pointer redirection
+TXT-1178,009598,80018d98,11,5,story,inplace,1,800ccd20,12,5,11,P1,translated,もらおう。,up to speed.,1 pointer(s); pointer redirection
+TXT-1179,0095a4,80018da4,27,13,story,inplace,1,800ccd1c,28,13,27,P1,translated,まずは、状況を再度確認して,"First, let me bring you",1 pointer(s); pointer redirection
 TXT-1180,0095c0,80018dc0,29,14,story,inplace,1,800ccd08,32,15,31,P1,translated,みな、大いに期待しているよ。,Everyone has high expectations.,1 pointer(s); pointer redirection
 TXT-1181,0095e0,80018de0,29,14,story,inplace,1,800ccd04,32,15,31,P1,translated,君が指揮を取るということで、,"Since you will take command,",1 pointer(s); pointer redirection
 TXT-1182,009600,80018e00,21,10,story,inplace,1,800cccf0,24,11,23,P1,translated,私の名はハーマンだ。,My name is Herman.,1 pointer(s); pointer redirection

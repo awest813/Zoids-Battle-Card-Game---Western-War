@@ -1134,50 +1134,50 @@ TXT-1132,story,P1,inplace,00910c,0x8001890c,800cca48,28,13,帝国のものとな
 TXT-1133,story,P1,inplace,009128,0x80018928,800cca44,20,9,エウロペ大陸は、,The Europa continent is,23,no,draft,table-driven; use pointer redirection
 TXT-1134,story,P1,inplace,00913c,0x8001893c,800cca24,28,13,ついに共和国は撤退した。,"At last, the Republic has retreated.",36,no,draft,table-driven; use pointer redirection
 TXT-1135,story,P1,inplace,009158,0x80018958,800ccfa0,16,7,よろしく頼む。,I'm counting on you.,20,no,draft,table-driven; use pointer redirection
-TXT-1136,story,P1,inplace,009168,0x80018968,800ccf8c,32,15,おこなっておいてもらいたい。,I want you to do it.,20,no,draft,table-driven; use pointer redirection
+TXT-1136,story,P1,inplace,009168,0x80018968,800ccf8c,32,15,おこなっておいてもらいたい。,before you take command.,24,no,draft,table-driven; use pointer redirection
 TXT-1137,story,P1,inplace,009188,0x80018988,800ccf88,28,13,君には悪いが、少し演習を,"Sorry, but I need you to run a drill.",37,no,draft,table-driven; use pointer redirection
-TXT-1138,story,P1,inplace,0091a4,0x800189a4,800ccf74,12,5,こまる。,That's a problem.,17,no,draft,table-driven; use pointer redirection
-TXT-1139,story,P1,inplace,0091b0,0x800189b0,800ccf70,28,13,戦場のカンが失われていては,"If you lose your battlefield instinct,",38,no,draft,table-driven; use pointer redirection
-TXT-1140,story,P1,inplace,0091cc,0x800189cc,800ccf6c,28,13,長旅で疲れているだろうが、,"You must be tired from the long journey, but",44,no,draft,table-driven; use pointer redirection
-TXT-1141,story,P1,inplace,0091e8,0x800189e8,800ccf58,12,5,事実だ。,It's a fact.,12,no,draft,table-driven; use pointer redirection
+TXT-1138,story,P1,inplace,0091a4,0x800189a4,800ccf74,12,5,こまる。,to lose your edge.,18,no,draft,table-driven; use pointer redirection
+TXT-1139,story,P1,inplace,0091b0,0x800189b0,800ccf70,28,13,戦場のカンが失われていては,but we can't afford for you,27,no,draft,table-driven; use pointer redirection
+TXT-1140,story,P1,inplace,0091cc,0x800189cc,800ccf6c,28,13,長旅で疲れているだろうが、,"I know it was a long journey,",29,no,draft,table-driven; use pointer redirection
+TXT-1141,story,P1,inplace,0091e8,0x800189e8,800ccf58,12,5,事実だ。,before they make their move.,28,no,draft,table-driven; use pointer redirection
 TXT-1142,story,P1,inplace,0091f4,0x800189f4,800ccf54,32,15,しかし、あまり時間が無いのも,But there truly isn't much time.,32,no,draft,table-driven; use pointer redirection
-TXT-1143,story,P1,inplace,009214,0x80018a14,800ccf40,28,13,今すぐというワケではない。,It's not right now.,19,no,draft,table-driven; use pointer redirection
-TXT-1144,story,P1,inplace,009230,0x80018a30,800ccf3c,24,11,してきた場合の話だ。,This is if they come.,21,no,draft,table-driven; use pointer redirection
-TXT-1145,story,P1,inplace,009248,0x80018a48,800ccf38,28,13,これはあくまでも帝国が侵攻,This is strictly if the Empire invades.,39,no,draft,table-driven; use pointer redirection
-TXT-1146,story,P1,inplace,009264,0x80018a64,800ccf24,20,9,もらえたと思う。,I think we got it.,18,no,draft,table-driven; use pointer redirection
-TXT-1147,story,P1,inplace,009278,0x80018a78,800ccf20,28,13,作戦については、理解して,I understand the operation.,27,no,draft,table-driven; use pointer redirection
+TXT-1143,story,P1,inplace,009214,0x80018a14,800ccf40,28,13,今すぐというワケではない。,We won't act before then.,25,no,draft,table-driven; use pointer redirection
+TXT-1144,story,P1,inplace,009230,0x80018a30,800ccf3c,24,11,してきた場合の話だ。,if the Empire invades.,22,no,draft,table-driven; use pointer redirection
+TXT-1145,story,P1,inplace,009248,0x80018a48,800ccf38,28,13,これはあくまでも帝国が侵攻,This plan only goes ahead,25,no,draft,table-driven; use pointer redirection
+TXT-1146,story,P1,inplace,009264,0x80018a64,800ccf24,20,9,もらえたと思う。,a good idea of the plan.,24,no,draft,table-driven; use pointer redirection
+TXT-1147,story,P1,inplace,009278,0x80018a78,800ccf20,28,13,作戦については、理解して,That should give you,20,no,draft,table-driven; use pointer redirection
 TXT-1148,story,P1,inplace,009294,0x80018a94,800ccf0c,20,9,ありがとう、少尉。,"Thank you, Second Lieutenant.",29,no,draft,table-driven; use pointer redirection
-TXT-1149,story,P1,inplace,0092a8,0x80018aa8,800ccee0,24,11,作戦の説明は以上です。,That is all for the operation explanation.,42,no,draft,table-driven; use pointer redirection
-TXT-1150,story,P1,inplace,0092c0,0x80018ac0,800ccec0,12,5,します。,We will.,8,no,draft,table-driven; use pointer redirection
-TXT-1151,story,P1,inplace,0092cc,0x80018acc,800ccebc,24,11,集結させて、これを撃破,Assemble them and destroy this.,31,no,draft,table-driven; use pointer redirection
-TXT-1152,story,P1,inplace,0092e4,0x80018ae4,800cceb8,28,13,最後に、西エウロペに帝国を,"Finally, place the Empire in West Europa",40,no,draft,table-driven; use pointer redirection
+TXT-1149,story,P1,inplace,0092a8,0x80018aa8,800ccee0,24,11,作戦の説明は以上です。,That concludes the briefing.,28,no,draft,table-driven; use pointer redirection
+TXT-1150,story,P1,inplace,0092c0,0x80018ac0,800ccec0,12,5,します。,and destroy them there.,23,no,draft,table-driven; use pointer redirection
+TXT-1151,story,P1,inplace,0092cc,0x80018acc,800ccebc,24,11,集結させて、これを撃破,to mass its troops in West Europa,33,no,draft,table-driven; use pointer redirection
+TXT-1152,story,P1,inplace,0092e4,0x80018ae4,800cceb8,28,13,最後に、西エウロペに帝国を,"Finally, we'll force the Empire",31,no,draft,table-driven; use pointer redirection
 TXT-1153,story,P1,inplace,009300,0x80018b00,800cce98,28,13,北エウロペを奪回します。,We will retake North Europa.,28,no,draft,table-driven; use pointer redirection
-TXT-1154,story,P1,inplace,00931c,0x80018b1c,800cce80,28,13,受けて、北エウロペの東から,then land on North Europa's,27,no,draft,table-driven; use pointer redirection
-TXT-1155,story,P1,inplace,009338,0x80018b38,800cce7c,28,13,次に、デルポイからの補給を,"Next, get supplies from Delphi,",31,no,draft,table-driven; use pointer redirection
+TXT-1154,story,P1,inplace,00931c,0x80018b1c,800cce80,28,13,受けて、北エウロペの東から,then attack from the east.,26,no,draft,table-driven; use pointer redirection
+TXT-1155,story,P1,inplace,009338,0x80018b38,800cce7c,28,13,次に、デルポイからの補給を,"Next, we'll resupply from Delphi,",33,no,draft,table-driven; use pointer redirection
 TXT-1156,story,P1,inplace,009354,0x80018b54,800cce5c,28,13,南エウロペを奪回します。,We will retake South Europa.,28,no,draft,table-driven; use pointer redirection
-TXT-1157,story,P1,inplace,009370,0x80018b70,800cce58,28,13,これを撃退し、そのまま、,"Repel this and, as is,",22,no,draft,table-driven; use pointer redirection
-TXT-1158,story,P1,inplace,00938c,0x80018b8c,800cce44,32,15,攻撃をしかけると思われます。,They will probably attack.,26,no,draft,table-driven; use pointer redirection
-TXT-1159,story,P1,inplace,0093ac,0x80018bac,800cce40,32,15,まず、帝国はニューヘリックに,"First, the Empire will attack New Helic.",40,no,draft,table-driven; use pointer redirection
-TXT-1160,story,P1,inplace,0093cc,0x80018bcc,800cce20,24,11,プロセスからなります。,It consists of processes.,25,no,draft,table-driven; use pointer redirection
-TXT-1161,story,P1,inplace,0093e4,0x80018be4,800cce1c,28,13,えー、今回の作戦は３つの,"Um, this operation has three",28,no,draft,table-driven; use pointer redirection
-TXT-1162,story,P1,inplace,009400,0x80018c00,800ccde8,20,9,作戦の説明を頼む。,Explain the operation.,22,no,draft,table-driven; use pointer redirection
-TXT-1163,story,P1,inplace,009414,0x80018c14,800ccde4,32,15,帝国が宣戦布告してきた場合の,"If the Empire declares war,",27,no,draft,table-driven; use pointer redirection
+TXT-1157,story,P1,inplace,009370,0x80018b70,800cce58,28,13,これを撃退し、そのまま、,We'll repel the attack and press on.,36,no,draft,table-driven; use pointer redirection
+TXT-1158,story,P1,inplace,00938c,0x80018b8c,800cce44,32,15,攻撃をしかけると思われます。,New Helic City first.,21,no,draft,table-driven; use pointer redirection
+TXT-1159,story,P1,inplace,0093ac,0x80018bac,800cce40,32,15,まず、帝国はニューヘリックに,We expect the Empire to attack,30,no,draft,table-driven; use pointer redirection
+TXT-1160,story,P1,inplace,0093cc,0x80018bcc,800cce20,24,11,プロセスからなります。,in three phases.,16,no,draft,table-driven; use pointer redirection
+TXT-1161,story,P1,inplace,0093e4,0x80018be4,800cce1c,28,13,えー、今回の作戦は３つの,We'll carry out this operation,30,no,draft,table-driven; use pointer redirection
+TXT-1162,story,P1,inplace,009400,0x80018c00,800ccde8,20,9,作戦の説明を頼む。,if the Empire declares war.,27,no,draft,table-driven; use pointer redirection
+TXT-1163,story,P1,inplace,009414,0x80018c14,800ccde4,32,15,帝国が宣戦布告してきた場合の,explain what we'll do,21,no,draft,table-driven; use pointer redirection
 TXT-1164,story,P1,inplace,009434,0x80018c34,800ccde0,16,7,リーリエ少尉、,"Second Lieutenant Lilie,",24,no,draft,table-driven; use pointer redirection
-TXT-1165,story,P1,inplace,009444,0x80018c44,800ccdcc,28,13,向けて、準備は進めてきた。,We have been preparing for it.,30,no,draft,table-driven; use pointer redirection
-TXT-1166,story,P1,inplace,009460,0x80018c60,800ccdc8,28,13,われわれも、エウロペ奪回に,"We too, for the recapture of Europa",35,no,draft,table-driven; use pointer redirection
-TXT-1167,story,P1,inplace,00947c,0x80018c7c,800ccdb4,32,15,そこで、君が呼ばれたわけだ。,So you were called.,19,no,draft,table-driven; use pointer redirection
-TXT-1168,story,P1,inplace,00949c,0x80018c9c,800ccda0,20,9,われわれは得た。,We have obtained.,17,no,draft,table-driven; use pointer redirection
-TXT-1169,story,P1,inplace,0094b0,0x80018cb0,800ccd9c,28,13,しかけてくるという情報を,The information that they will attack,37,no,draft,table-driven; use pointer redirection
-TXT-1170,story,P1,inplace,0094cc,0x80018ccc,800ccd98,28,13,しかしながら、近々、帝国が,"However, soon, the Empire",25,no,draft,table-driven; use pointer redirection
-TXT-1171,story,P1,inplace,0094e8,0x80018ce8,800ccd78,12,5,状態だ。,It is a state.,14,no,draft,table-driven; use pointer redirection
-TXT-1172,story,P1,inplace,0094f4,0x80018cf4,800ccd74,32,15,現在もにらみあいが続いている,"Even now, the standoff continues.",33,no,draft,table-driven; use pointer redirection
-TXT-1173,story,P1,inplace,009514,0x80018d14,800ccd60,20,9,目と鼻の先にあり、,It is right before our eyes.,28,no,draft,table-driven; use pointer redirection
+TXT-1165,story,P1,inplace,009444,0x80018c44,800ccdcc,28,13,向けて、準備は進めてきた。,to retake Europa.,17,no,draft,table-driven; use pointer redirection
+TXT-1166,story,P1,inplace,009460,0x80018c60,800ccdc8,28,13,われわれも、エウロペ奪回に,We've made preparations of our own,34,no,draft,table-driven; use pointer redirection
+TXT-1167,story,P1,inplace,00947c,0x80018c7c,800ccdb4,32,15,そこで、君が呼ばれたわけだ。,That's why we called you here.,30,no,draft,table-driven; use pointer redirection
+TXT-1168,story,P1,inplace,00949c,0x80018c9c,800ccda0,20,9,われわれは得た。,a strike soon.,14,no,draft,table-driven; use pointer redirection
+TXT-1169,story,P1,inplace,0094b0,0x80018cb0,800ccd9c,28,13,しかけてくるという情報を,the Empire is planning,22,no,draft,table-driven; use pointer redirection
+TXT-1170,story,P1,inplace,0094cc,0x80018ccc,800ccd98,28,13,しかしながら、近々、帝国が,But our intelligence says,25,no,draft,table-driven; use pointer redirection
+TXT-1171,story,P1,inplace,0094e8,0x80018ce8,800ccd78,12,5,状態だ。,to this day.,12,no,draft,table-driven; use pointer redirection
+TXT-1172,story,P1,inplace,0094f4,0x80018cf4,800ccd74,32,15,現在もにらみあいが続いている,The standoff has lasted,23,no,draft,table-driven; use pointer redirection
+TXT-1173,story,P1,inplace,009514,0x80018d14,800ccd60,20,9,目と鼻の先にあり、,are practically neighbors.,26,no,draft,table-driven; use pointer redirection
 TXT-1174,story,P1,inplace,009528,0x80018d28,800ccd5c,24,11,ニューヘリックシティは,New Helic City,14,no,draft,table-driven; use pointer redirection
 TXT-1175,story,P1,inplace,009540,0x80018d40,800ccd58,32,15,帝国のガイガロスとわれわれの,The Empire's Gaigalus and our,29,no,draft,table-driven; use pointer redirection
-TXT-1176,story,P1,inplace,009560,0x80018d60,800ccd44,28,13,ほぼ帝国が勝利をおさめた。,The Empire has almost won.,26,no,draft,table-driven; use pointer redirection
+TXT-1176,story,P1,inplace,009560,0x80018d60,800ccd44,28,13,ほぼ帝国が勝利をおさめた。,the Empire nearly won.,22,no,draft,table-driven; use pointer redirection
 TXT-1177,story,P1,inplace,00957c,0x80018d7c,800ccd40,28,13,前回のエウロペの大戦では、,"In the last great war in Europa,",32,no,draft,table-driven; use pointer redirection
-TXT-1178,story,P1,inplace,009598,0x80018d98,800ccd20,12,5,もらおう。,Let's have it.,14,no,draft,table-driven; use pointer redirection
-TXT-1179,story,P1,inplace,0095a4,0x80018da4,800ccd1c,28,13,まずは、状況を再度確認して,"First, let's confirm the situation again.",41,no,draft,table-driven; use pointer redirection
+TXT-1178,story,P1,inplace,009598,0x80018d98,800ccd20,12,5,もらおう。,up to speed.,12,no,draft,table-driven; use pointer redirection
+TXT-1179,story,P1,inplace,0095a4,0x80018da4,800ccd1c,28,13,まずは、状況を再度確認して,"First, let me bring you",23,no,draft,table-driven; use pointer redirection
 TXT-1180,story,P1,inplace,0095c0,0x80018dc0,800ccd08,32,15,みな、大いに期待しているよ。,Everyone has high expectations.,31,no,draft,table-driven; use pointer redirection
 TXT-1181,story,P1,inplace,0095e0,0x80018de0,800ccd04,32,15,君が指揮を取るということで、,"Since you will take command,",28,no,draft,table-driven; use pointer redirection
 TXT-1182,story,P1,inplace,009600,0x80018e00,800cccf0,24,11,私の名はハーマンだ。,My name is Herman.,18,no,draft,table-driven; use pointer redirection
