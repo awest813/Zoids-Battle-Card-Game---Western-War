@@ -224,6 +224,30 @@ RANGE_MODIFIERS = {
 }
 MOVE_MODIFIERS = {1: "STRAIGHT", 2: "WATER"}
 
+# Printed equipment categories in the retail Custom face art, keyed by rule.
+CUSTOM_EQUIPMENT = {
+    rule: labels.split()
+    for labels, rules in {
+        "R": (1, 4, 5, 11, 29, 30, 32, 36, 46, 52, 73, 86, 88, 91, 93),
+        "M": (33, 34, 45, 90, 118),
+        "MOV": (2, 12, 13, 14, 50, 51),
+        "DEF": (6, 15, 16, 31),
+        "MOD": (35, 47, 48, 49, 87, 92),
+        "REP": (3,),
+        "R M": (0, 8, 9, 10, 37, 70),
+        "REP MOV": (7,),
+        "MOD R": (85,),
+        "MOD M": (89,),
+        "R M DEF": (83,),
+    }.items()
+    for rule in rules
+}
+EQUIPMENT_INK = "#fff9e6"
+EQUIPMENT_BACKGROUNDS = {
+    "R": "#735617", "M": "#242426", "MOV": "#481d23",
+    "DEF": "#644324", "MOD": "#205068", "REP": "#294339",
+}
+
 
 def scaled(box):
     return tuple(value * SCALE for value in box)
@@ -349,10 +373,39 @@ def paint_zoid(face, name, index, record):
         paint_rule(face, (special_box[2], special_box[1], right, bottom), ZOID_SPECIAL[index], "#d2d3cd", bold=True)
 
 
-def paint_cep(face, name, rule, category, source):
+def custom_property(source):
+    tests = (
+        ("1X", "#ad182c", lambda r, g, b: r > 125 and r > 1.5 * g and r > 1.4 * b),
+        ("SET", "#746012", lambda r, g, b: r > 150 and g > 130 and r < 1.4 * g and g > 1.6 * b),
+    )
+    for label, background, matches in tests:
+        columns = [x for x in range(18, 86) if sum(
+            matches(*source.getpixel((x, y))[:3]) for y in range(102, 110)) >= 2]
+        if len(columns) >= 3:
+            return (columns[0], 103, columns[-1] + 1, 110), label, background
+    return None
+
+
+def paint_custom_equipment(face, rule_index):
+    labels = CUSTOM_EQUIPMENT[rule_index]
+    if rule_index == 70:
+        spans = ((89, 99), (108, 118))
+    elif rule_index == 83:
+        spans = ((83, 95), (99, 108), (113, 120))
+    elif len(labels) == 1:
+        spans = ((99, 110),)
+    else:
+        spans = ((94, 104), (109, 118))
+    for label, (left, right) in zip(labels, spans, strict=True):
+        paint_label(face, (left, 101, right, 109), label,
+                    EQUIPMENT_BACKGROUNDS[label], EQUIPMENT_INK, max_size=15)
+
+
+def paint_cep(face, name, rule_index, category, source):
     pilot = category == 2
     name_box = (12, 102, 86, 111)
     background = "#3a3c39"
+    property_mark = None
     if name.startswith("Organoid "):
         # The gold frames have a brown name band beside their equipment badges.
         name_box = (8, 102, 77, 111)
@@ -361,16 +414,17 @@ def paint_cep(face, name, rule, category, source):
         # Event names are centered across a wider band with no equipment badge.
         name_box = (12, 102, 116, 111)
     elif not pilot:
-        # Preserve the red property mark beside some Custom names.
-        mark = next((x for x in range(15, 85)
-                     if any(r > 95 and r > g * 1.45 and r > b * 1.45
-                            for r, g, b, _ in (source.getpixel((x, y)) for y in range(103, 110)))), None)
-        if mark is not None and mark >= 35:
-            name_box = (12, 102, mark, 111)
+        property_mark = custom_property(source)
+        if property_mark:
+            name_box = (12, 102, property_mark[0][0], 111)
     ink = "#fff0a6" if pilot else "#fff9e6"
     paint_label(face, name_box, name, background, ink)
-    if rule:
-        paint_rule(face, (12, 117, 117, 150), rule, "#f1efeb")
+    if property_mark:
+        box, label, color = property_mark
+        paint_label(face, box, label, color, EQUIPMENT_INK, max_size=13)
+    if category == 0:
+        paint_custom_equipment(face, rule_index)
+    paint_rule(face, (12, 117, 117, 150), REVIEWED_RULES[rule_index], "#f1efeb")
 
 
 def paint_pilot_terrain(face, record):
@@ -436,7 +490,7 @@ def main():
             paint_zoid(face, name, index, record)
         else:
             category, = struct.unpack_from("<H", record, 0x28)
-            paint_cep(face, name, REVIEWED_RULES[cep_rules[index]], category, source)
+            paint_cep(face, name, cep_rules[index], category, source)
             if category == 2:
                 paint_pilot_terrain(face, record)
         upload, palette = keys[face_index]

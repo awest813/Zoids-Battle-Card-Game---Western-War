@@ -148,6 +148,8 @@ The final rule review checked 27 more records used by 37 faces. The face builder
 
 The 32 Pilot terrain badges use `MTN`, `FOR`, `SND`, `AIR`, and `WTR`. Check Moonbay, Karl L. Schwarz, Kirsche Hartriegel, Sulis Claret, and Burgan Dane for one of each label. Schwarz's printed badge is Forest, matching the rule text and the original green badge. Raven has an empty badge area. The image audit isolates these edits to the badge interiors.
 
+The 88 Custom faces use `R` for ranged, `M` for melee, `MOV` for movement, `DEF` for defense, `MOD` for modification, and `REP` for repair. `SET` marks a standalone effect that uses the card's own values, while `1X` marks a consumable. Check All-Direction Shot for `1X` and two attack categories, External Charged Particle Cannon for `SET`, and Organoid Zeke for all three of its equipment categories. The 38 property marks were checked against the source artwork. [Printed card legend and examples](https://ameblo.jp/bluekoara/entry-12333276193.html) · [Organoid Zeke retail card](https://ameblo.jp/bluekoara/entry-12368425484.html)
+
 Scroll through the Card Album to check `Zoids`, `Pilots`, `Custom`, and `Events`. All four headers were verified in the native OpenGL renderer after loading a disposable album state. The renderer now receives an eight-cell label specific to the album's drawing calls. The separate `Event Card` and `Pilot Card` text slots retained their full wording in the same run.
 
 - [ ] Memory-card dialog is clean English, no tail bleed.
