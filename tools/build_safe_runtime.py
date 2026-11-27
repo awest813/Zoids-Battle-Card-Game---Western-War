@@ -112,7 +112,9 @@ def relocated_source(source):
          + localized_album_headings() + "\n} // namespace"),
         ("    uint32_t* argregs[4] =",
          "    if (app && redirect_album_heading(ram, cpu, target)) return;\n"
-         "    if (app) paginate_battle_text(ram, cpu, target);\n    uint32_t* argregs[4] ="),
+         "    if (app) paginate_battle_text(ram, cpu, target);\n"
+         "    if (copying_player_name(cpu, target)) return;\n"
+         "    uint32_t* argregs[4] ="),
         ("        if (scratch_recent(va)) continue;  // don't recapture our own English scratch",
          "        if (scratch_recent(va) || (va >= kScriptLines && va < kScriptArenaLimit)) continue;"),
     )

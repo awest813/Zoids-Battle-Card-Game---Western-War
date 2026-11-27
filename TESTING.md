@@ -105,6 +105,8 @@ Add `--choices` to the script audit to scan prompts followed by Yes/No. For the 
 
 For dialogue with substituted values, check a greeting after naming the commander, a card acquisition or equip message, and the shop price prompt. Check that the name or number appears and that confirmation returns to the original script. In a disposable test, use a card name that pushes the message onto a second page and check each line against the fourteen-glyph limit.
 
+In Scenario Mode, start a new Empire campaign. Accept the built-in name and check `Welcome, Commander.` in the briefing. Repeat with names entered on the Latin and kana keypads. The runtime check confirmed that `AB` and `あ` each appeared in the greeting and matched the values in the profile and active scenario. The translation hook excludes both native name-copy calls. It renders the exact Japanese default as `Commander` when expanding briefing dialogue.
+
 ### Campaign briefing map
 
 From a fresh English boot, select Scenario Mode, New Game, and the Republic. Enter a commander name and advance the opening briefing until the map appears. The red Gaigalus and blue New Helic City labels fit their original boxes. The OpenGL check used that route and reloaded the texture pack while the briefing was on screen. The six overlays cover three original palettes in both draw modes.

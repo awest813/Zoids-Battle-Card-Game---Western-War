@@ -14,11 +14,24 @@ constexpr uint16_t kFinishScript = 0x0Cu;
 constexpr uint16_t kChooseYesNo = 0x13u;
 constexpr size_t kBattleLineCells = 14u;
 constexpr uint32_t kPlayerName = 0x80123EF8u;
+constexpr uint32_t kDefaultPlayerName = 0x80027F44u;
 constexpr uint32_t kDialogueValues = 0x80109648u;
 constexpr uint16_t kPlayerToken = 0x8197u;
 constexpr uint16_t kFirstValueToken = 0x83BFu;
 constexpr uint16_t kNumberToken = 0x83C1u;
 constexpr uint16_t kLastValueToken = 0x83C2u;
+
+bool copying_player_name(const CPUState* cpu, uint32_t target) {
+    // Name Entry copies the entered bytes to the save profile and the live
+    // commander field. The destination can still hold the Japanese default.
+    // Neither the editable destination nor the chosen name is display text.
+    constexpr uint32_t strcpy_target = 0x800A107Cu;
+    constexpr uint32_t profile_copy_return = 0x80067070u;
+    constexpr uint32_t live_copy_return = 0x8006707Cu;
+    const uint32_t caller = cpu->gpr[31];
+    return target == strcpy_target &&
+           (caller == profile_copy_return || caller == live_copy_return);
+}
 
 uint32_t script_read(uint8_t* ram, uint32_t address, unsigned bytes = 4) {
     uint32_t value = 0;
@@ -85,8 +98,13 @@ void expand_dialogue_values(uint8_t* ram, BattleLine& line, bool& expanded) {
             result.push_back(0x8148u); // Unavailable value.
             continue;
         }
-        if (glyph != kPlayerToken && glyph != kNumberToken && !value.empty() &&
-            address < kHashBase) {
+        // The retail game stores the default name as kana in the same field
+        // as entered names. Reuse the name-entry label for that exact default.
+        BattleLine default_name;
+        const bool is_default_name = glyph == kPlayerToken &&
+            read_battle_line(ram, kDefaultPlayerName, default_name) && value == default_name;
+        if (glyph != kNumberToken && (glyph != kPlayerToken || is_default_name) &&
+            !value.empty() && address < kHashBase) {
             const uint32_t original = address;
             translate_dialogue_value(ram, address);
             if (address != original) {
