@@ -115,10 +115,13 @@ def relocated_source(source):
         ("    uint32_t* argregs[4] =",
          "    if (app && redirect_album_heading(ram, cpu, target)) return;\n"
          "    if (app) paginate_battle_text(ram, cpu, target);\n"
-         "    if (copying_player_name(cpu, target) || packing_memory_card(cpu, target)) return;\n"
+         "    if (copying_player_name(cpu, target) || memory_card_uses_binary_arguments(cpu, target)) return;\n"
          "    uint32_t* argregs[4] ="),
         ("        if (scratch_recent(va)) continue;  // don't recapture our own English scratch",
          "        if (scratch_recent(va) || (va >= kScriptLines && va < kScriptArenaLimit)) continue;"),
+        ("            if (apply_to_reg(ram, argregs[a], te, term))",
+         "            if (va == kPlayerName && !drawing_player_name(target, a)) continue;\n"
+         "            if (apply_to_reg(ram, argregs[a], te, term))"),
     )
     for stock, updated in replacements:
         if source.count(stock) != 1:

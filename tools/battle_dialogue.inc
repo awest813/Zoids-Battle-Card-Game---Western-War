@@ -33,6 +33,14 @@ bool copying_player_name(const CPUState* cpu, uint32_t target) {
            (caller == profile_copy_return || caller == live_copy_return);
 }
 
+bool drawing_player_name(uint32_t target, int argument) {
+    // Only the text renderers may substitute an argument pointing into the
+    // editable commander field. Other callers can write to it or use its
+    // address to reach adjacent save data and input state.
+    return (target == 0x8005BA48u && argument == 0) ||
+           (target == 0x8005B98Cu && argument == 2);
+}
+
 uint32_t script_read(uint8_t* ram, uint32_t address, unsigned bytes = 4) {
     uint32_t value = 0;
     for (unsigned i = 0; i < bytes; ++i)

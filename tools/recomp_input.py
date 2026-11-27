@@ -48,10 +48,11 @@ def cmd(obj, port=DEFAULT_PORT, timeout=15):
     return response
 
 
-def checked_cmd(obj, port):
+def checked_cmd(obj, port=DEFAULT_PORT):
     response = cmd(obj, port)
     if response.get("ok") is not True:
-        raise DebugRequestError(f"{obj['cmd']} on port {port}: {response.get('err', response)}")
+        reason = response.get("error") or response.get("err") or response
+        raise DebugRequestError(f"{obj['cmd']} on port {port}: {reason}")
     return response
 
 

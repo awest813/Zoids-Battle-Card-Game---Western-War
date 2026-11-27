@@ -67,7 +67,7 @@ python -X utf8 tools\ram_probe.py regs --port 4371
 python -X utf8 tools\ram_probe.py read --port 4371 --addr 0x800EAB2C --len 16
 ```
 
-The input helper sends active-low masks and reports rejected requests with the command and port. Use `sub` to choose an `xlate` action and check for `xlate.reloaded: true` after a reload. Use `op` for `savestate` and check that the reply reports the requested slot and operation before using any resulting screenshots as evidence.
+The input helper sends active-low masks and reports rejected requests with the command and port. Use `sub` to choose an `xlate` action and check for `xlate.reloaded: true` after a reload. Use `op` for `savestate`, choose a slot from `0` through `11`, and check that the reply echoes the requested slot and operation. Wait for a completed file after requesting a save state or `present_shot` capture.
 
 ---
 
@@ -90,6 +90,8 @@ Wait a few seconds. Expected text:
 The saved state may be from an older table; the runtime's idle sweep repairs the pointers within a few frames.
 
 To exercise native saves, launch English with the full translation and texture packs and a disposable `-SaveDir`. Clear Republic training and use **Operations Base → Save**. Confirm the first write, then return to **Save** and confirm **Overwrite save?**. Both operations should return to Operations Base. In the regression test, both writes produced the same 128 KiB `card1.mcd` as the control run from the same checkpoint with translations disabled. The card contained one `BISLPS-03255` save block.
+
+To boot with an archived native save, copy it to `card1.mcd` in the test `-SaveDir`. The runtime opens `card1.mcd` and `card2.mcd`. From the title screen, choose **Scenario Mode → Load Game**, move to the occupied campaign row, and confirm with Circle. A cold English boot with the full translation and texture packs restored the saved commander and 2,000 points at Operations Base.
 
 ---
 
