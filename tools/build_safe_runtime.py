@@ -21,6 +21,7 @@ BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
 ALBUM_HEADINGS_SOURCE = Path(__file__).with_name("album_headings.inc")
 MENU_TRANSLATIONS = Path(__file__).with_name("translations_menu.py")
 MOVIE_CAPTIONS = Path(__file__).with_name("movie_captions.inc")
+CREDITS_LOOKUP = Path(__file__).with_name("credits_lookup.inc")
 MOVIE_LOOKUP = Path(__file__).with_name("movie_lookup.inc")
 CAPTION_TEXT = WORKSPACE / "translations/zoids.movie_captions.json"
 MOVIE_INVENTORY = WORKSPACE / "analysis/MOVIE_INVENTORY.csv"
@@ -296,7 +297,8 @@ def main():
     osd = runtime.with_name("host_osd.c")
     stock_exe = build / TARGET
     sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE,
-               ALBUM_HEADINGS_SOURCE, MENU_TRANSLATIONS, MOVIE_CAPTIONS, MOVIE_LOOKUP, CAPTION_TEXT, MOVIE_INVENTORY)
+               ALBUM_HEADINGS_SOURCE, MENU_TRANSLATIONS, MOVIE_CAPTIONS, MOVIE_LOOKUP, CREDITS_LOOKUP,
+               CAPTION_TEXT, MOVIE_INVENTORY)
     fingerprint = hashlib.sha256(b"".join(path.read_bytes() for path in sources)
                                  + str(build).encode() + str(toolchain).encode()).hexdigest()
     stamp = output / "source.sha256"
@@ -306,7 +308,8 @@ def main():
 
     code = output / "text_xlate.cpp"
     code.write_text(relocated_source(runtime.read_text(encoding="utf-8")) + "\n"
-                    + MOVIE_LOOKUP.read_text(encoding="utf-8"), encoding="utf-8")
+                    + MOVIE_LOOKUP.read_text(encoding="utf-8") + "\n"
+                    + CREDITS_LOOKUP.read_text(encoding="utf-8"), encoding="utf-8")
     obj = output / "text_xlate.cpp.obj"
     video_code = output / "gpu_gl_renderer.c"
     video_obj = output / "gpu_gl_renderer.c.obj"
@@ -337,7 +340,8 @@ def main():
     link_command = command_for(build, TARGET, toolchain)
     link_flags = link_command.split("clang++.exe ", 1)[1].split(" @", 1)[0]
     temporary = output / "ZoidsBattleCardGame.new.exe"
-    subprocess.run(f'"{compiler}" {link_flags} -Wl,--wrap=func_800BBF6C "@{rsp}" -o "{temporary}"',
+    wrappers = "-Wl,--wrap=func_800BBF6C,--wrap=func_8005C36C"
+    subprocess.run(f'"{compiler}" {link_flags} {wrappers} "@{rsp}" -o "{temporary}"',
                    cwd=build, check=True)
     temporary.replace(output / TARGET)
     stamp.write_text(fingerprint, encoding="ascii")

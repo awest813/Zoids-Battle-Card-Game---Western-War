@@ -134,6 +134,12 @@ Death Saurer's ranged clip on page 8 previously stalled in the guest file search
 
 The TOMY logo's visible wording is already English. Sampled frames across all 153 small clips showed Zoid and weapon animations. Audio still requires review before assigning their subtitle status.
 
+### Ending credits
+
+`W_MES3.TIM` holds five 256×256 texture pages. Each page supplies two successive columns to the credit roll. `python -B -X utf8 tools/build_credits.py` rebuilds both draw modes from the retail archive and preserves the Japanese release's order, colors, and existing Latin labels. Two given-name readings, Naruko Nishikubo and Hisanao Takahashi, remain provisional. [Retail credit transcription](https://raido.moe/staff/ps1/ps1_zoids_battle_card_game.html) · [Act Japan staff records](https://gdri.smspower.org/wiki/index.php/Act_Japan_%28credits%29) · [Related TOMY credits](https://www.mobygames.com/game/62328/fighting-fury/credits/ps2/)
+
+The English runtime reads the requested background page from `TIM/W_MES4.TIM` through the mounted disc and leaves the credits' drawing and audio sequencing in the game. A disposable REFERENCE fixture opened the original credits routine from deployment. In windowed OpenGL, the original backgrounds changed behind the English scroll. The publisher credit appeared on the last page and the original English TOMY card followed. The full campaign route still needs a separate pass.
+
 ### Text
 
 The Zoid face pass compared the game's printed rules against matching retail card photographs. Check the built-in weapon label and HP cost on Geno Saurer, a preserved targeting diagram on Gojulas V1, and the denser rules on the compact Geno Breaker RS and Blade Liger BS faces. Both Liger Zero variants use the wording from the disc textures for their printed specials. Both preserve the original pixels for the frontal melee bonus amount because the digits are ambiguous at disc resolution. Check that the amount fits beside the English label and that the second line reads “Melee power 700 against L-types.” Check the frontal qualifier on Iron Kong PK, Black Rhimos, and Hammer Rock. [Geno Saurer card](https://ameblo.jp/bluekoara/entry-12253089685.html) · [Republic booster photographs](https://jp.mercari.com/item/m65897994071) · [Geno Breaker RS card](https://ameblo.jp/bluekoara/entry-12367147043.html) · [Blade Liger BS card](https://ameblo.jp/bluekoara/entry-12368697968.html)
