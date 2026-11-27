@@ -300,7 +300,7 @@ def main():
     renderer = runtime.with_name("gpu_gl_renderer.c")
     osd = runtime.with_name("host_osd.c")
     stock_exe = build / TARGET
-    sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE,
+    sources = (runtime, renderer, osd, stock_exe, Path(__file__), BATTLE_DIALOGUE, MEMORY_CARD,
                ALBUM_HEADINGS_SOURCE, MENU_TRANSLATIONS, MOVIE_CAPTIONS, MOVIE_LOOKUP, CREDITS_LOOKUP,
                CAPTION_TEXT, MOVIE_INVENTORY)
     fingerprint = hashlib.sha256(b"".join(path.read_bytes() for path in sources)

@@ -67,7 +67,7 @@ python -X utf8 tools\ram_probe.py regs --port 4371
 python -X utf8 tools\ram_probe.py read --port 4371 --addr 0x800EAB2C --len 16
 ```
 
-The input helpers send active-low masks. A keyboard or controller can also be used for manual verification.
+The input helper sends active-low masks and reports rejected requests with the command and port. Use `sub` to choose an `xlate` action and check for `xlate.reloaded: true` after a reload. Use `op` for `savestate` and check that the reply reports the requested slot and operation before using any resulting screenshots as evidence.
 
 ---
 
