@@ -89,6 +89,8 @@ Wait a few seconds. Expected text:
 
 The saved state may be from an older table; the runtime's idle sweep repairs the pointers within a few frames.
 
+To exercise native saves, launch English with the full translation and texture packs and a disposable `-SaveDir`. Clear Republic training and use **Operations Base → Save**. Confirm the first write, then return to **Save** and confirm **Overwrite save?**. Both operations should return to Operations Base. In the regression test, both writes produced the same 128 KiB `card1.mcd` as the control run from the same checkpoint with translations disabled. The card contained one `BISLPS-03255` save block.
+
 ---
 
 ## 4. Test checklist

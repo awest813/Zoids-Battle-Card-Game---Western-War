@@ -18,6 +18,7 @@ TARGET = "ZoidsBattleCardGame.exe"
 OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/text_xlate.cpp.obj"
 RENDERER_OBJECT = "CMakeFiles/psx-runtime.dir/psxrecomp/runtime/src/gpu_gl_renderer.c.obj"
 BATTLE_DIALOGUE = Path(__file__).with_name("battle_dialogue.inc")
+MEMORY_CARD = Path(__file__).with_name("memory_card.inc")
 ALBUM_HEADINGS_SOURCE = Path(__file__).with_name("album_headings.inc")
 MENU_TRANSLATIONS = Path(__file__).with_name("translations_menu.py")
 MOVIE_CAPTIONS = Path(__file__).with_name("movie_captions.inc")
@@ -109,11 +110,12 @@ def relocated_source(source):
          "        case 0x03B3: return 0x83C1;\n"
          "        case 0x03B4: return 0x83C2;"),
         ("} // namespace", BATTLE_DIALOGUE.read_text(encoding="utf-8") + "\n"
+         + MEMORY_CARD.read_text(encoding="utf-8") + "\n"
          + localized_album_headings() + "\n} // namespace"),
         ("    uint32_t* argregs[4] =",
          "    if (app && redirect_album_heading(ram, cpu, target)) return;\n"
          "    if (app) paginate_battle_text(ram, cpu, target);\n"
-         "    if (copying_player_name(cpu, target)) return;\n"
+         "    if (copying_player_name(cpu, target) || packing_memory_card(cpu, target)) return;\n"
          "    uint32_t* argregs[4] ="),
         ("        if (scratch_recent(va)) continue;  // don't recapture our own English scratch",
          "        if (scratch_recent(va) || (va >= kScriptLines && va < kScriptArenaLimit)) continue;"),
