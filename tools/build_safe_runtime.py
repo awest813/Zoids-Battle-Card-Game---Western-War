@@ -123,7 +123,8 @@ def relocated_source(source):
         ("        if (scratch_recent(va)) continue;  // don't recapture our own English scratch",
          "        if (scratch_recent(va) || (va >= kScriptLines && va < kScriptArenaLimit)) continue;"),
         ("            if (apply_to_reg(ram, argregs[a], te, term))",
-         "            if (va == kPlayerName && !drawing_player_name(target, a)) continue;\n"
+         "            if ((va == kPlayerName || trade_profile_argument(va, target, cpu->gpr[31])) &&\n"
+         "                !drawing_player_name(target, a)) continue;\n"
          "            if (apply_to_reg(ram, argregs[a], te, term))"),
     )
     for stock, updated in replacements:

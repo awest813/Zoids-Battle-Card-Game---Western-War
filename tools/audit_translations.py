@@ -7,7 +7,7 @@ from collections import Counter
 from battle_script import short_dialogue_slots
 from card_catalog import zoid_label_slots
 from card_text_table import EXE, RAM_BASE, card_text_slots
-from translations_polish import STORY_SLOT_ENDINGS
+from translations_polish import SLOT_TRANSLATIONS
 from translations_dialogue_short import SHORT_DIALOGUE
 from translations_objectives import OBJECTIVES, fits_objective
 
@@ -54,8 +54,8 @@ covered = set()
 objective_addresses = {int(row["ram_addr"], 16): row["id"] for row in rows
                        if row["id"] in OBJECTIVES}
 objective_entries = set()
-story_endings = {slot: (int(row["ram_addr"], 16), english)
-                 for row in rows for slot, english in STORY_SLOT_ENDINGS.get(row["id"], {}).items()}
+slot_text = {slot: (int(row["ram_addr"], 16), english)
+                 for row in rows for slot, english in SLOT_TRANSLATIONS.get(row["id"], {}).items()}
 
 errors = bool(empty or jp_left or remaining or len(ids) != len(set(ids)))
 for row in translated:
@@ -71,7 +71,13 @@ for f in ("translations/zoids.master.toml", *live_files):
     no_pad = [e for e in d if "pad" not in e]
     ram = [e for e in d if "ram_addr" in e]
     bad_addrs = []
-    found_endings = set()
+    # The memory dialog clears each row to its original fixed width.
+    for entry in d:
+        if (0x80011874 < entry.get("src_addr", 0) <= 0x80011C40 and
+                len(entry.get("en", "")) > len(entry["src_jp"])):
+            print(f"  memory-card dialog exceeds its retail row at {entry['src_addr']:#010x}")
+            errors = True
+    found_slots = set()
     for e in d:
         objective = objective_addresses.get(e.get("src_addr"))
         if f in live_files and objective:
@@ -81,15 +87,15 @@ for f in ("translations/zoids.master.toml", *live_files):
                 errors = True
         for a in e.get("ptr_addrs", []):
             slot_address = int(a, 0)
-            if slot_address in story_endings:
-                expected_source, expected_text = story_endings[slot_address]
+            if slot_address in slot_text:
+                expected_source, expected_text = slot_text[slot_address]
                 slot_offset = slot_address - RAM_BASE
                 original = int.from_bytes(executable[slot_offset:slot_offset + 4], "little")
-                if (slot_address in found_endings or original != expected_source or
+                if (slot_address in found_slots or original != expected_source or
                         (e.get("src_addr"), e.get("en")) != (expected_source, expected_text)):
-                    print(f"  incorrect story ending at {slot_address:#010x} in {f}")
+                    print(f"  incorrect context-specific translation at {slot_address:#010x} in {f}")
                     errors = True
-                found_endings.add(slot_address)
+                found_slots.add(slot_address)
             if not (0x80000000 <= slot_address <= 0x801FFFFC) or slot_address % 4:
                 bad_addrs.append((e.get("src_jp", "")[:20], a))
             elif f in live_files and e.get("en") and "src_addr" in e:
@@ -99,9 +105,9 @@ for f in ("translations/zoids.master.toml", *live_files):
                 if executable[offset:offset + len(source_bytes)] == source_bytes:
                     covered.add((slot_address, source))
     if f in ("translations/zoids.master.toml", "translations/zoids.pointer_pending.toml"):
-        missing_endings = story_endings.keys() - found_endings
-        print("  contextual story endings", len(found_endings), "missing", len(missing_endings))
-        errors |= bool(missing_endings)
+        missing_slots = slot_text.keys() - found_slots
+        print("  context-specific translations", len(found_slots), "missing", len(missing_slots))
+        errors |= bool(missing_slots)
     errors |= bool(ram or bad_addrs)
     print(f, "entries", len(d), "en", sum(bool(e.get("en")) for e in d),
           "no_ptr", len(no_ptr), "no_src", len(no_src), "no_pad", len(no_pad),

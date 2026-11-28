@@ -12,11 +12,37 @@ src_jp = "　メモリーカードを　　　　　　　"
 src_addr = 0x80011898
 record_addr = 0x80011898
 ptr_addr = 0x80011c70
-ptr_addrs = ["0x80011c70", "0x80011ca0", "0x80011cb8"]
+ptr_addrs = ["0x80011c70"]
 term = "nul"
 pad = "slot"
 orig_w = 9
-en = " Checking card..."
+en = " Checking card"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882f08140814081408140814081408140"
+src_jp = "　メモリーカードを　　　　　　　"
+src_addr = 0x80011898
+record_addr = 0x80011898
+ptr_addr = 0x80011ca0
+ptr_addrs = ["0x80011ca0"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Memory card"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882f08140814081408140814081408140"
+src_jp = "　メモリーカードを　　　　　　　"
+src_addr = 0x80011898
+record_addr = 0x80011898
+ptr_addr = 0x80011cb8
+ptr_addrs = ["0x80011cb8"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Memory card"
 note = "system inplace max=17"
 
 [[entry]]
@@ -51,11 +77,102 @@ src_jp = "　メモリーカードに　　　　　　　"
 src_addr = 0x80011904
 record_addr = 0x80011904
 ptr_addr = 0x80011c7c
-ptr_addrs = ["0x80011c7c", "0x80011cc4", "0x80011cd0", "0x80011cdc", "0x80011ce8", "0x80011cf4", "0x80011d30", "0x80011d54"]
+ptr_addrs = ["0x80011c7c"]
 term = "nul"
 pad = "slot"
 orig_w = 9
 en = " No Zoids Battle"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011cc4
+ptr_addrs = ["0x80011cc4"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Save game data"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011cd0
+ptr_addrs = ["0x80011cd0"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Saving data"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011cdc
+ptr_addrs = ["0x80011cdc"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Overwrite the"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011ce8
+ptr_addrs = ["0x80011ce8"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Could not save"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011cf4
+ptr_addrs = ["0x80011cf4"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Game data"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011d30
+ptr_addrs = ["0x80011d30"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " No Zoids Battle"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882c98140814081408140814081408140"
+src_jp = "　メモリーカードに　　　　　　　"
+src_addr = 0x80011904
+record_addr = 0x80011904
+ptr_addr = 0x80011d54
+ptr_addrs = ["0x80011d54"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " No continue"
 note = "system inplace max=17"
 
 [[entry]]
@@ -90,11 +207,24 @@ src_jp = "　メモリーカードが　　　　　　　"
 src_addr = 0x80011970
 record_addr = 0x80011970
 ptr_addr = 0x80011c88
-ptr_addrs = ["0x80011c88", "0x80011c94"]
+ptr_addrs = ["0x80011c88"]
 term = "nul"
 pad = "slot"
 orig_w = 9
 en = " No memory card"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882aa8140814081408140814081408140"
+src_jp = "　メモリーカードが　　　　　　　"
+src_addr = 0x80011970
+record_addr = 0x80011970
+ptr_addr = 0x80011c94
+ptr_addrs = ["0x80011c94"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " This card is"
 note = "system inplace max=17"
 
 [[entry]]
@@ -120,7 +250,7 @@ ptr_addrs = ["0x80011c98"]
 term = "nul"
 pad = "slot"
 orig_w = 15
-en = " Not formatted."
+en = " not formatted."
 note = "system inplace max=17"
 
 [[entry]]
@@ -133,7 +263,7 @@ ptr_addrs = ["0x80011c9c"]
 term = "nul"
 pad = "slot"
 orig_w = 13
-en = " Format this card?"
+en = " Format card?"
 note = "system inplace max=17"
 
 [[entry]]
@@ -155,11 +285,37 @@ src_jp = "　メモリーカードの　　　　　　　"
 src_addr = 0x80011a24
 record_addr = 0x80011a24
 ptr_addr = 0x80011cac
-ptr_addrs = ["0x80011cac", "0x80011d3c", "0x80011d48"]
+ptr_addrs = ["0x80011cac"]
 term = "nul"
 pad = "slot"
 orig_w = 9
 en = " Memory card"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882cc8140814081408140814081408140"
+src_jp = "　メモリーカードの　　　　　　　"
+src_addr = 0x80011a24
+record_addr = 0x80011a24
+ptr_addr = 0x80011d3c
+ptr_addrs = ["0x80011d3c"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Zoids Battle"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882cc8140814081408140814081408140"
+src_jp = "　メモリーカードの　　　　　　　"
+src_addr = 0x80011a24
+record_addr = 0x80011a24
+ptr_addr = 0x80011d48
+ptr_addrs = ["0x80011d48"]
+term = "nul"
+pad = "slot"
+orig_w = 9
+en = " Not enough"
 note = "system inplace max=17"
 
 [[entry]]
@@ -198,7 +354,7 @@ ptr_addrs = ["0x80011cc8"]
 term = "nul"
 pad = "slot"
 orig_w = 13
-en = " Save data?"
+en = " to this card?"
 note = "system inplace max=17"
 
 [[entry]]
@@ -211,7 +367,7 @@ ptr_addrs = ["0x80011cd4"]
 term = "nul"
 pad = "slot"
 orig_w = 14
-en = " Saving data..."
+en = " to this card..."
 note = "system inplace max=17"
 
 [[entry]]
@@ -224,7 +380,7 @@ ptr_addrs = ["0x80011ce0"]
 term = "nul"
 pad = "slot"
 orig_w = 12
-en = " Overwrite save?"
+en = " existing save?"
 note = "system inplace max=17"
 
 [[entry]]
@@ -237,7 +393,7 @@ ptr_addrs = ["0x80011cec"]
 term = "nul"
 pad = "slot"
 orig_w = 16
-en = " Save failed."
+en = " to this card."
 note = "system inplace max=17"
 
 [[entry]]
@@ -250,7 +406,7 @@ ptr_addrs = ["0x80011cf8"]
 term = "nul"
 pad = "slot"
 orig_w = 13
-en = " Data saved."
+en = " saved."
 note = "system inplace max=17"
 
 [[entry]]
@@ -259,11 +415,50 @@ src_jp = "　メモリーカードから　　　　　　"
 src_addr = 0x80011b44
 record_addr = 0x80011b44
 ptr_addr = 0x80011d00
-ptr_addrs = ["0x80011d00", "0x80011d0c", "0x80011d18", "0x80011d24"]
+ptr_addrs = ["0x80011d00"]
 term = "nul"
 pad = "slot"
 orig_w = 10
-en = " Load data from"
+en = " Load game data"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882a982e7814081408140814081408140"
+src_jp = "　メモリーカードから　　　　　　"
+src_addr = 0x80011b44
+record_addr = 0x80011b44
+ptr_addr = 0x80011d0c
+ptr_addrs = ["0x80011d0c"]
+term = "nul"
+pad = "slot"
+orig_w = 10
+en = " Loading data"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882a982e7814081408140814081408140"
+src_jp = "　メモリーカードから　　　　　　"
+src_addr = 0x80011b44
+record_addr = 0x80011b44
+ptr_addr = 0x80011d18
+ptr_addrs = ["0x80011d18"]
+term = "nul"
+pad = "slot"
+orig_w = 10
+en = " Could not load"
+note = "system inplace max=17"
+
+[[entry]]
+src_hex = "814083818382838a815b834a815b836882a982e7814081408140814081408140"
+src_jp = "　メモリーカードから　　　　　　"
+src_addr = 0x80011b44
+record_addr = 0x80011b44
+ptr_addr = 0x80011d24
+ptr_addrs = ["0x80011d24"]
+term = "nul"
+pad = "slot"
+orig_w = 10
+en = " Game data"
 note = "system inplace max=17"
 
 [[entry]]
@@ -276,7 +471,7 @@ ptr_addrs = ["0x80011d04"]
 term = "nul"
 pad = "slot"
 orig_w = 13
-en = " memory card?"
+en = " from this card?"
 note = "system inplace max=17"
 
 [[entry]]
@@ -289,7 +484,7 @@ ptr_addrs = ["0x80011d10"]
 term = "nul"
 pad = "slot"
 orig_w = 14
-en = " Loading data..."
+en = " from card..."
 note = "system inplace max=17"
 
 [[entry]]
@@ -302,7 +497,7 @@ ptr_addrs = ["0x80011d1c"]
 term = "nul"
 pad = "slot"
 orig_w = 16
-en = " Load failed."
+en = " game data."
 note = "system inplace max=17"
 
 [[entry]]
@@ -315,7 +510,7 @@ ptr_addrs = ["0x80011d28"]
 term = "nul"
 pad = "slot"
 orig_w = 13
-en = " Data loaded."
+en = " loaded."
 note = "system inplace max=17"
 
 [[entry]]
@@ -328,7 +523,7 @@ ptr_addrs = ["0x80011d44"]
 term = "nul"
 pad = "slot"
 orig_w = 12
-en = " Data corrupted."
+en = " is corrupted."
 note = "system inplace max=17"
 
 [[entry]]
@@ -341,7 +536,7 @@ ptr_addrs = ["0x80011d4c"]
 term = "nul"
 pad = "slot"
 orig_w = 12
-en = " Not enough space."
+en = " free space."
 note = "system inplace max=17"
 
 [[entry]]
@@ -354,7 +549,7 @@ ptr_addrs = ["0x80011d58"]
 term = "nul"
 pad = "slot"
 orig_w = 8
-en = " Continue"
+en = " data found"
 note = "system inplace max=16"
 
 [[entry]]

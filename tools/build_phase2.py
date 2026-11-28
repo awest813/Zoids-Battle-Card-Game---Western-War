@@ -34,7 +34,7 @@ from translations_card_text_2 import CARD_TEXT_2
 from translations_card_text_3 import CARD_TEXT_3
 from translations_card_text_4 import CARD_TEXT_4
 from translations_card_names_2 import CARD_NAMES_2
-from translations_polish import POLISH, STORY_SLOT_ENDINGS
+from translations_polish import POLISH, SLOT_TRANSLATIONS
 from translations_objectives import OBJECTIVES, fits_objective
 from translations_dialogue_short import SHORT_DIALOGUE
 
@@ -141,18 +141,18 @@ for p in ptr_rows:
 def translation_records():
     for row in tracker:
         pointers = ptrs_by_offset.get(row["offset"], [])
-        endings = STORY_SLOT_ENDINGS.get(row["id"])
+        slot_text = SLOT_TRANSLATIONS.get(row["id"])
         english = ALL_TR.get(row["id"], "")
-        if endings is None:
+        if slot_text is None:
             yield row, pointers, english
             continue
         addresses = {int(p["ptr_ram_addr"], 16) for p in pointers}
         primary = int(row["primary_ptr_source"], 16)
-        if addresses != endings.keys() or endings[primary] != english:
-            raise ValueError(f"{row['id']} story endings do not match the retail pointer map")
+        if addresses != slot_text.keys() or slot_text[primary] != english:
+            raise ValueError(f"{row['id']} translations do not match the retail pointer map")
         for pointer in pointers:
             slot = pointer["ptr_ram_addr"]
-            yield dict(row, primary_ptr_source=slot), [pointer], endings[int(slot, 16)]
+            yield dict(row, primary_ptr_source=slot), [pointer], slot_text[int(slot, 16)]
 
 
 plan = []

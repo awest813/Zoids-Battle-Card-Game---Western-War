@@ -1,5 +1,5 @@
 id,category,priority,method,offset,record_addr,ptr_addr,slot_bytes,max_fullwidth_cells,japanese,english,english_cells,fit_inplace,status,notes
-TXT-0001,system,P0,inplace,002098,0x80011898,80011c70,36,17,　メモリーカードを　　　　　　　, Checking card...,17,yes,draft,table-driven; use pointer redirection
+TXT-0001,system,P0,inplace,002098,0x80011898,80011c70,36,17,　メモリーカードを　　　　　　　, Checking card,14,yes,draft,table-driven; use pointer redirection
 TXT-0002,system,P0,inplace,0020bc,0x800118bc,80011c74,36,17,　チェックしています。　　　　　, Please wait...,15,yes,draft,table-driven; use pointer redirection
 TXT-0003,system,P0,hash,0020e0,0x800118e0,80011c78,36,17,メモリーカードを抜かないでください,Don't remove card,17,yes,draft,hash-safe; no in-place patch
 TXT-0004,system,P0,inplace,002104,0x80011904,80011c7c,36,17,　メモリーカードに　　　　　　　, No Zoids Battle,16,yes,draft,table-driven; use pointer redirection
@@ -7,25 +7,25 @@ TXT-0005,system,P0,inplace,002128,0x80011928,80011c80,36,17,　ゾイドバト�
 TXT-0006,system,P0,inplace,00214c,0x8001194c,80011c84,36,17,　のデータがありません　　　　　　, on this card.,14,yes,draft,table-driven; use pointer redirection
 TXT-0007,system,P0,inplace,002170,0x80011970,80011c88,36,17,　メモリーカードが　　　　　　　, No memory card,15,yes,draft,table-driven; use pointer redirection
 TXT-0008,system,P0,inplace,002194,0x80011994,80011c8c,36,17,　ささっていません。　　　　　　, inserted.,10,yes,draft,table-driven; use pointer redirection
-TXT-0009,system,P0,inplace,0021b8,0x800119b8,80011c98,36,17,　フォーマットされていません。　, Not formatted.,15,yes,draft,table-driven; use pointer redirection
-TXT-0010,system,P0,inplace,0021dc,0x800119dc,80011c9c,36,17,　　フォーマットしますか？　　　　, Format this card?,18,no,draft,table-driven; use pointer redirection
+TXT-0009,system,P0,inplace,0021b8,0x800119b8,80011c98,36,17,　フォーマットされていません。　, not formatted.,15,yes,draft,table-driven; use pointer redirection
+TXT-0010,system,P0,inplace,0021dc,0x800119dc,80011c9c,36,17,　　フォーマットしますか？　　　　, Format card?,13,yes,draft,table-driven; use pointer redirection
 TXT-0011,system,P0,inplace,002200,0x80011a00,80011ca4,36,17,　フォーマットしています。　　　, Formatting...,14,yes,draft,table-driven; use pointer redirection
 TXT-0012,system,P0,inplace,002224,0x80011a24,80011cac,36,17,　メモリーカードの　　　　　　　, Memory card,12,yes,draft,table-driven; use pointer redirection
 TXT-0013,system,P0,inplace,002248,0x80011a48,80011cb0,36,17,　フォーマットに失敗しました。　, format failed.,15,yes,draft,table-driven; use pointer redirection
 TXT-0014,system,P0,inplace,00226c,0x80011a6c,80011cbc,36,17,　フォーマットしました。　　　　, Card formatted.,16,yes,draft,table-driven; use pointer redirection
-TXT-0015,system,P0,inplace,002290,0x80011a90,80011cc8,36,17,　データをセーブしますか？　　　, Save data?,11,yes,draft,table-driven; use pointer redirection
-TXT-0016,system,P0,inplace,0022b4,0x80011ab4,80011cd4,36,17,　データをセーブしています。　　, Saving data...,15,yes,draft,table-driven; use pointer redirection
-TXT-0017,system,P0,inplace,0022d8,0x80011ad8,80011ce0,36,17,　上書きセーブしますか？　　　　, Overwrite save?,16,yes,draft,table-driven; use pointer redirection
-TXT-0018,system,P0,inplace,0022fc,0x80011afc,80011cec,36,17,　データをセーブできませんでした, Save failed.,13,yes,draft,table-driven; use pointer redirection
-TXT-0019,system,P0,inplace,002320,0x80011b20,80011cf8,36,17,　データをセーブしました。　　　, Data saved.,12,yes,draft,table-driven; use pointer redirection
-TXT-0020,system,P0,inplace,002344,0x80011b44,80011d00,36,17,　メモリーカードから　　　　　　, Load data from,15,yes,draft,table-driven; use pointer redirection
-TXT-0021,system,P0,inplace,002368,0x80011b68,80011d04,36,17,　データをロードしますか？　　　, memory card?,13,yes,draft,table-driven; use pointer redirection
-TXT-0022,system,P0,inplace,00238c,0x80011b8c,80011d10,36,17,　データをロードしています。　　, Loading data...,16,yes,draft,table-driven; use pointer redirection
-TXT-0023,system,P0,inplace,0023b0,0x80011bb0,80011d1c,36,17,　データをロードできませんでした, Load failed.,13,yes,draft,table-driven; use pointer redirection
-TXT-0024,system,P0,inplace,0023d4,0x80011bd4,80011d28,36,17,　データをロードしました。　　　, Data loaded.,13,yes,draft,table-driven; use pointer redirection
-TXT-0025,system,P0,inplace,0023f8,0x80011bf8,80011d44,36,17,　のデータが壊れてます。　　　　　, Data corrupted.,16,yes,draft,table-driven; use pointer redirection
-TXT-0026,system,P0,inplace,00241c,0x80011c1c,80011d4c,36,17,　空き容量がたりません。　　　　, Not enough space.,18,no,draft,table-driven; use pointer redirection
-TXT-0027,system,P0,inplace,002440,0x80011c40,80011d58,33,16,　コンティニュー　　　　　　　　, Continue,9,yes,draft,table-driven; use pointer redirection
+TXT-0015,system,P0,inplace,002290,0x80011a90,80011cc8,36,17,　データをセーブしますか？　　　, to this card?,14,yes,draft,table-driven; use pointer redirection
+TXT-0016,system,P0,inplace,0022b4,0x80011ab4,80011cd4,36,17,　データをセーブしています。　　, to this card...,16,yes,draft,table-driven; use pointer redirection
+TXT-0017,system,P0,inplace,0022d8,0x80011ad8,80011ce0,36,17,　上書きセーブしますか？　　　　, existing save?,15,yes,draft,table-driven; use pointer redirection
+TXT-0018,system,P0,inplace,0022fc,0x80011afc,80011cec,36,17,　データをセーブできませんでした, to this card.,14,yes,draft,table-driven; use pointer redirection
+TXT-0019,system,P0,inplace,002320,0x80011b20,80011cf8,36,17,　データをセーブしました。　　　, saved.,7,yes,draft,table-driven; use pointer redirection
+TXT-0020,system,P0,inplace,002344,0x80011b44,80011d00,36,17,　メモリーカードから　　　　　　, Load game data,15,yes,draft,table-driven; use pointer redirection
+TXT-0021,system,P0,inplace,002368,0x80011b68,80011d04,36,17,　データをロードしますか？　　　, from this card?,16,yes,draft,table-driven; use pointer redirection
+TXT-0022,system,P0,inplace,00238c,0x80011b8c,80011d10,36,17,　データをロードしています。　　, from card...,13,yes,draft,table-driven; use pointer redirection
+TXT-0023,system,P0,inplace,0023b0,0x80011bb0,80011d1c,36,17,　データをロードできませんでした, game data.,11,yes,draft,table-driven; use pointer redirection
+TXT-0024,system,P0,inplace,0023d4,0x80011bd4,80011d28,36,17,　データをロードしました。　　　, loaded.,8,yes,draft,table-driven; use pointer redirection
+TXT-0025,system,P0,inplace,0023f8,0x80011bf8,80011d44,36,17,　のデータが壊れてます。　　　　　, is corrupted.,14,yes,draft,table-driven; use pointer redirection
+TXT-0026,system,P0,inplace,00241c,0x80011c1c,80011d4c,36,17,　空き容量がたりません。　　　　, free space.,12,yes,draft,table-driven; use pointer redirection
+TXT-0027,system,P0,inplace,002440,0x80011c40,80011d58,33,16,　コンティニュー　　　　　　　　, data found,11,yes,draft,table-driven; use pointer redirection
 TXT-0028,system,P0,hash,002584,0x80011d84,,40,19,ゾイドバトルカードゲーム西方大陸戦記,Zoids Card Game,15,yes,draft,hash-safe; no in-place patch
 TXT-0029,system,P0,inplace,0025ac,0x80011dac,800121f0,28,13,共和国　〜シナリオ０１〜　,Republic 01,11,yes,draft,table-driven; use pointer redirection
 TXT-0030,system,P0,inplace,0025c8,0x80011dc8,800121f4,28,13,共和国　〜シナリオ０２〜　,Republic 02,11,yes,draft,table-driven; use pointer redirection

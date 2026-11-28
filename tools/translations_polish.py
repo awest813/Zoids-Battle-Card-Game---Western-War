@@ -1,7 +1,6 @@
-"""Polish overrides: keep story lines inside the message-box footprint.
+"""Short story lines and pointer-specific translations for the English text tables."""
 
-These are applied last so they replace the longer first-pass lines.
-"""
+from translations_memory import MEMORY_SLOT_TEXT
 
 POLISH = {
     "TXT-0616": "order and discipline to Europa.",
@@ -84,3 +83,5 @@ STORY_SLOT_ENDINGS = {
         0x800CF250: "to West Europa.",
     },
 }
+
+SLOT_TRANSLATIONS = MEMORY_SLOT_TEXT | STORY_SLOT_ENDINGS

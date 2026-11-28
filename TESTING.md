@@ -85,7 +85,7 @@ The original test savestate slot 0 is at the memory-card dialog in the 2 MiB run
 
 Wait a few seconds. Expected text:
 
-- `Checking card...`
+- `Checking card`
 - `Please wait...`
 - `Don't remove card`
 - `No Zoids Battle Card Game data on this card.`
@@ -268,15 +268,21 @@ When reporting a bug, include:
 
 The SLPS-03255 catalog contains 81 Zoid, 88 Custom, 70 Event, and 35 Pilot cards. Check both the 512 × 640 detail face and the 192 × 256 thumbnail. The thumbnail pack includes 505 normal and captured palette variants. The full face carries the complete English name. A thumbnail can use the existing compact card label when the full name exceeds its printed band. The two Liger Zero frontal melee bonus numerals still use the retail artwork.
 
+All 274 detail faces have been checked in the running OpenGL Card Album. The first 230 used an album-selection fixture. The remaining 44 used an unlocked test collection and the original Pilot, Custom and Event rows. The game stores Zoid IDs and the other three card types' IDs in separate ranges in its album list. Its ordinary grid contains 268 positions.
+
+The capture comparison aligned each portrait and checked the nameplate. It also compared 678 printed regions against the English replacement and the Japanese disc image. These covered titles, dimensions, stat panels and printed special rules on Zoids, plus titles and printed rules on Custom, Event and Pilot cards. Every region was closer to the English image. This checks which artwork the game presents. The rule and stat values have separate source checks.
+
 | Menu family | Evidence | Coverage still open |
 | --- | --- | --- |
 | Mode Select, Scenario, Free Mode | Opened all five branches from Mode Select. Checked Scenario commands, the empty-card message and Free Mode nation selection. | All combinations of Free Mode settings |
-| Trade | Opened the Trade screen and checked its start prompt and memory-card message. | Completed transfer between two populated cards |
+| Trade | Exchanged Iguan for Shield Liger between two populated memory cards. Checked both offer lists, overwrite prompts and saved inventories. | Cancellation during a proposed exchange |
 | Album | Opened the English album selector. Card detail, Zoid Album and Movie Album have in-game captures. Both Death Saurer clips returned to the movie grid. | Playback of every individual clip |
 | Options | Opened Options and changed the button mapping. | Persistence of every setting after restart |
 | Deployment, deck and gameplay | Existing captures cover roster and deck selection, card targeting, turn banners and all four battle phases. | Every deck-editor operation and every scripted choice |
 | Operations Base, Supply, Save | Existing English captures cover Sortie, Info, Hand, Supply and Save, the shop buttons and save prompts. A legacy checkpoint without a matching HD resource sidecar can restore Japanese button art. | Every shop transaction and save error path |
 | Battle Results | Both factions displayed English headings and points using deployment fixtures. A regular Republic training victory awarded 2,000 points and advanced to the next briefing. | Empire campaign completion |
+
+To reproduce the trade check, put a copy of the same campaign save in each slot. Each copy in this test held two Iguan and two Shield Liger cards. Select an empty offer space in each row and press Circle to choose a card. Offer Iguan from slot 1 and Shield Liger from slot 2. Press Start, confirm the exchange, and save to each card. At each overwrite prompt, move up from No to Yes and confirm. The resulting memory-card files held one Iguan and three Shield Ligers in slot 1, and three Iguan and one Shield Liger in slot 2. The other 272 inventory counters on each card matched the starting save.
 
 The text audit checks 59 menu, 228 UI and 67 system records alongside 1,231 story records. Its pointer and coverage checks complement the screen checks above. A translated record alone cannot verify its order or fit in a scene.
 The revised Supply greeting was verified in-game. The settled panel displays both lines in order beside the English Buy and Cancel commands.

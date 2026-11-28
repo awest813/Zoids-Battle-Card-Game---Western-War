@@ -14,3 +14,13 @@ bool memory_card_uses_binary_arguments(const CPUState* cpu, uint32_t target) {
            (return_address > pack_start && return_address < pack_end) ||
            (target >= picker_input_start && target < picker_input_end);
 }
+
+bool trade_profile_argument(uint32_t address, uint32_t target, uint32_t return_address) {
+    // Each slot's loaded profile starts with a commander name. The picker and
+    // transfer routines index inventory fields beyond that name.
+    if (address != 0x80195024u && address != 0x80197734u) return false;
+    constexpr uint32_t trade_start = 0x80056700u;
+    constexpr uint32_t trade_end = 0x80059714u;
+    return (target >= trade_start && target < trade_end) ||
+           (return_address > trade_start && return_address <= trade_end);
+}

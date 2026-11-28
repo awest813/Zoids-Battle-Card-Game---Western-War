@@ -1,31 +1,46 @@
 text_id,category,japanese,record_addr,ptr_count,ptr_ram_addrs,slot_bytes,max_fullwidth_cells,english
-TXT-0001,system,　メモリーカードを　　　　　　　,0x80011898,3,80011c70;80011ca0;80011cb8,36,17, Checking card...
+TXT-0001,system,　メモリーカードを　　　　　　　,0x80011898,1,80011c70,36,17, Checking card
+TXT-0001,system,　メモリーカードを　　　　　　　,0x80011898,1,80011ca0,36,17, Memory card
+TXT-0001,system,　メモリーカードを　　　　　　　,0x80011898,1,80011cb8,36,17, Memory card
 TXT-0002,system,　チェックしています。　　　　　,0x800118bc,1,80011c74,36,17, Please wait...
 TXT-0003,system,メモリーカードを抜かないでください,0x800118e0,4,80011c78;80011ca8;80011cd8;80011d14,36,17,Don't remove card
-TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,8,80011c7c;80011cc4;80011cd0;80011cdc;80011ce8;80011cf4;80011d30;80011d54,36,17, No Zoids Battle
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011c7c,36,17, No Zoids Battle
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011cc4,36,17, Save game data
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011cd0,36,17, Saving data
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011cdc,36,17, Overwrite the
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011ce8,36,17, Could not save
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011cf4,36,17, Game data
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011d30,36,17, No Zoids Battle
+TXT-0004,system,　メモリーカードに　　　　　　　,0x80011904,1,80011d54,36,17, No continue
 TXT-0005,system,　ゾイドバトルカードゲーム　　　,0x80011928,3,80011c80;80011d34;80011d40,36,17, Card Game data
 TXT-0006,system,　のデータがありません　　　　　　,0x8001194c,3,80011c84;80011d38;80011d5c,36,17, on this card.
-TXT-0007,system,　メモリーカードが　　　　　　　,0x80011970,2,80011c88;80011c94,36,17, No memory card
+TXT-0007,system,　メモリーカードが　　　　　　　,0x80011970,1,80011c88,36,17, No memory card
+TXT-0007,system,　メモリーカードが　　　　　　　,0x80011970,1,80011c94,36,17, This card is
 TXT-0008,system,　ささっていません。　　　　　　,0x80011994,1,80011c8c,36,17, inserted.
-TXT-0009,system,　フォーマットされていません。　,0x800119b8,1,80011c98,36,17, Not formatted.
-TXT-0010,system,　　フォーマットしますか？　　　　,0x800119dc,1,80011c9c,36,17, Format this card?
+TXT-0009,system,　フォーマットされていません。　,0x800119b8,1,80011c98,36,17, not formatted.
+TXT-0010,system,　　フォーマットしますか？　　　　,0x800119dc,1,80011c9c,36,17, Format card?
 TXT-0011,system,　フォーマットしています。　　　,0x80011a00,1,80011ca4,36,17, Formatting...
-TXT-0012,system,　メモリーカードの　　　　　　　,0x80011a24,3,80011cac;80011d3c;80011d48,36,17, Memory card
+TXT-0012,system,　メモリーカードの　　　　　　　,0x80011a24,1,80011cac,36,17, Memory card
+TXT-0012,system,　メモリーカードの　　　　　　　,0x80011a24,1,80011d3c,36,17, Zoids Battle
+TXT-0012,system,　メモリーカードの　　　　　　　,0x80011a24,1,80011d48,36,17, Not enough
 TXT-0013,system,　フォーマットに失敗しました。　,0x80011a48,1,80011cb0,36,17, format failed.
 TXT-0014,system,　フォーマットしました。　　　　,0x80011a6c,1,80011cbc,36,17, Card formatted.
-TXT-0015,system,　データをセーブしますか？　　　,0x80011a90,1,80011cc8,36,17, Save data?
-TXT-0016,system,　データをセーブしています。　　,0x80011ab4,1,80011cd4,36,17, Saving data...
-TXT-0017,system,　上書きセーブしますか？　　　　,0x80011ad8,1,80011ce0,36,17, Overwrite save?
-TXT-0018,system,　データをセーブできませんでした,0x80011afc,1,80011cec,36,17, Save failed.
-TXT-0019,system,　データをセーブしました。　　　,0x80011b20,1,80011cf8,36,17, Data saved.
-TXT-0020,system,　メモリーカードから　　　　　　,0x80011b44,4,80011d00;80011d0c;80011d18;80011d24,36,17, Load data from
-TXT-0021,system,　データをロードしますか？　　　,0x80011b68,1,80011d04,36,17, memory card?
-TXT-0022,system,　データをロードしています。　　,0x80011b8c,1,80011d10,36,17, Loading data...
-TXT-0023,system,　データをロードできませんでした,0x80011bb0,1,80011d1c,36,17, Load failed.
-TXT-0024,system,　データをロードしました。　　　,0x80011bd4,1,80011d28,36,17, Data loaded.
-TXT-0025,system,　のデータが壊れてます。　　　　　,0x80011bf8,1,80011d44,36,17, Data corrupted.
-TXT-0026,system,　空き容量がたりません。　　　　,0x80011c1c,1,80011d4c,36,17, Not enough space.
-TXT-0027,system,　コンティニュー　　　　　　　　,0x80011c40,1,80011d58,33,16, Continue
+TXT-0015,system,　データをセーブしますか？　　　,0x80011a90,1,80011cc8,36,17, to this card?
+TXT-0016,system,　データをセーブしています。　　,0x80011ab4,1,80011cd4,36,17, to this card...
+TXT-0017,system,　上書きセーブしますか？　　　　,0x80011ad8,1,80011ce0,36,17, existing save?
+TXT-0018,system,　データをセーブできませんでした,0x80011afc,1,80011cec,36,17, to this card.
+TXT-0019,system,　データをセーブしました。　　　,0x80011b20,1,80011cf8,36,17, saved.
+TXT-0020,system,　メモリーカードから　　　　　　,0x80011b44,1,80011d00,36,17, Load game data
+TXT-0020,system,　メモリーカードから　　　　　　,0x80011b44,1,80011d0c,36,17, Loading data
+TXT-0020,system,　メモリーカードから　　　　　　,0x80011b44,1,80011d18,36,17, Could not load
+TXT-0020,system,　メモリーカードから　　　　　　,0x80011b44,1,80011d24,36,17, Game data
+TXT-0021,system,　データをロードしますか？　　　,0x80011b68,1,80011d04,36,17, from this card?
+TXT-0022,system,　データをロードしています。　　,0x80011b8c,1,80011d10,36,17, from card...
+TXT-0023,system,　データをロードできませんでした,0x80011bb0,1,80011d1c,36,17, game data.
+TXT-0024,system,　データをロードしました。　　　,0x80011bd4,1,80011d28,36,17, loaded.
+TXT-0025,system,　のデータが壊れてます。　　　　　,0x80011bf8,1,80011d44,36,17, is corrupted.
+TXT-0026,system,　空き容量がたりません。　　　　,0x80011c1c,1,80011d4c,36,17, free space.
+TXT-0027,system,　コンティニュー　　　　　　　　,0x80011c40,1,80011d58,33,16, data found
 TXT-0029,system,共和国　〜シナリオ０１〜　,0x80011dac,1,800121f0,28,13,Republic 01
 TXT-0030,system,共和国　〜シナリオ０２〜　,0x80011dc8,1,800121f4,28,13,Republic 02
 TXT-0031,system,共和国　〜シナリオ０３〜　,0x80011de4,1,800121f8,28,13,Republic 03

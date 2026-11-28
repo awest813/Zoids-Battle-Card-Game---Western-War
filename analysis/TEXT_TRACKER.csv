@@ -1,5 +1,5 @@
 id,offset,ram_addr,bytes,chars,category,method,ptr_count,primary_ptr_source,slot_bytes,max_fullwidth_cells,max_ascii_bytes,priority,status,japanese,english,notes
-TXT-0001,002098,80011898,33,16,system,inplace,3,80011c70,36,17,35,P0,translated,　メモリーカードを　　　　　　　, Checking card...,3 pointer(s); pointer redirection
+TXT-0001,002098,80011898,33,16,system,inplace,3,80011c70,36,17,35,P0,translated,　メモリーカードを　　　　　　　, Checking card,3 pointer(s); pointer redirection
 TXT-0002,0020bc,800118bc,33,16,system,inplace,1,80011c74,36,17,35,P0,translated,　チェックしています。　　　　　, Please wait...,1 pointer(s); pointer redirection
 TXT-0003,0020e0,800118e0,35,17,system,inplace,4,80011c78,36,17,35,P0,translated,メモリーカードを抜かないでください,Don't remove card,4 pointer(s); patch record in place; hash substitution
 TXT-0004,002104,80011904,33,16,system,inplace,8,80011c7c,36,17,35,P0,translated,　メモリーカードに　　　　　　　, No Zoids Battle,8 pointer(s); pointer redirection
@@ -7,25 +7,25 @@ TXT-0005,002128,80011928,33,16,system,inplace,3,80011c80,36,17,35,P0,translated,
 TXT-0006,00214c,8001194c,35,17,system,inplace,3,80011c84,36,17,35,P0,translated,　のデータがありません　　　　　　, on this card.,3 pointer(s); pointer redirection
 TXT-0007,002170,80011970,33,16,system,inplace,2,80011c88,36,17,35,P0,translated,　メモリーカードが　　　　　　　, No memory card,2 pointer(s); pointer redirection
 TXT-0008,002194,80011994,33,16,system,inplace,1,80011c8c,36,17,35,P0,translated,　ささっていません。　　　　　　, inserted.,1 pointer(s); pointer redirection
-TXT-0009,0021b8,800119b8,33,16,system,inplace,1,80011c98,36,17,35,P0,translated,　フォーマットされていません。　, Not formatted.,1 pointer(s); pointer redirection
-TXT-0010,0021dc,800119dc,35,17,system,inplace,1,80011c9c,36,17,35,P0,translated,　　フォーマットしますか？　　　　, Format this card?,1 pointer(s); pointer redirection
+TXT-0009,0021b8,800119b8,33,16,system,inplace,1,80011c98,36,17,35,P0,translated,　フォーマットされていません。　, not formatted.,1 pointer(s); pointer redirection
+TXT-0010,0021dc,800119dc,35,17,system,inplace,1,80011c9c,36,17,35,P0,translated,　　フォーマットしますか？　　　　, Format card?,1 pointer(s); pointer redirection
 TXT-0011,002200,80011a00,33,16,system,inplace,1,80011ca4,36,17,35,P0,translated,　フォーマットしています。　　　, Formatting...,1 pointer(s); pointer redirection
 TXT-0012,002224,80011a24,33,16,system,inplace,3,80011cac,36,17,35,P0,translated,　メモリーカードの　　　　　　　, Memory card,3 pointer(s); pointer redirection
 TXT-0013,002248,80011a48,33,16,system,inplace,1,80011cb0,36,17,35,P0,translated,　フォーマットに失敗しました。　, format failed.,1 pointer(s); pointer redirection
 TXT-0014,00226c,80011a6c,33,16,system,inplace,1,80011cbc,36,17,35,P0,translated,　フォーマットしました。　　　　, Card formatted.,1 pointer(s); pointer redirection
-TXT-0015,002290,80011a90,33,16,system,inplace,1,80011cc8,36,17,35,P0,translated,　データをセーブしますか？　　　, Save data?,1 pointer(s); pointer redirection
-TXT-0016,0022b4,80011ab4,33,16,system,inplace,1,80011cd4,36,17,35,P0,translated,　データをセーブしています。　　, Saving data...,1 pointer(s); pointer redirection
-TXT-0017,0022d8,80011ad8,33,16,system,inplace,1,80011ce0,36,17,35,P0,translated,　上書きセーブしますか？　　　　, Overwrite save?,1 pointer(s); pointer redirection
-TXT-0018,0022fc,80011afc,33,16,system,inplace,1,80011cec,36,17,35,P0,translated,　データをセーブできませんでした, Save failed.,1 pointer(s); pointer redirection
-TXT-0019,002320,80011b20,33,16,system,inplace,1,80011cf8,36,17,35,P0,translated,　データをセーブしました。　　　, Data saved.,1 pointer(s); pointer redirection
-TXT-0020,002344,80011b44,33,16,system,inplace,4,80011d00,36,17,35,P0,translated,　メモリーカードから　　　　　　, Load data from,4 pointer(s); pointer redirection
-TXT-0021,002368,80011b68,33,16,system,inplace,1,80011d04,36,17,35,P0,translated,　データをロードしますか？　　　, memory card?,1 pointer(s); pointer redirection
-TXT-0022,00238c,80011b8c,33,16,system,inplace,1,80011d10,36,17,35,P0,translated,　データをロードしています。　　, Loading data...,1 pointer(s); pointer redirection
-TXT-0023,0023b0,80011bb0,33,16,system,inplace,1,80011d1c,36,17,35,P0,translated,　データをロードできませんでした, Load failed.,1 pointer(s); pointer redirection
-TXT-0024,0023d4,80011bd4,33,16,system,inplace,1,80011d28,36,17,35,P0,translated,　データをロードしました。　　　, Data loaded.,1 pointer(s); pointer redirection
-TXT-0025,0023f8,80011bf8,35,17,system,inplace,1,80011d44,36,17,35,P0,translated,　のデータが壊れてます。　　　　　, Data corrupted.,1 pointer(s); pointer redirection
-TXT-0026,00241c,80011c1c,33,16,system,inplace,1,80011d4c,36,17,35,P0,translated,　空き容量がたりません。　　　　, Not enough space.,1 pointer(s); pointer redirection
-TXT-0027,002440,80011c40,33,16,system,inplace,1,80011d58,33,16,32,P0,translated,　コンティニュー　　　　　　　　, Continue,1 pointer(s); pointer redirection
+TXT-0015,002290,80011a90,33,16,system,inplace,1,80011cc8,36,17,35,P0,translated,　データをセーブしますか？　　　, to this card?,1 pointer(s); pointer redirection
+TXT-0016,0022b4,80011ab4,33,16,system,inplace,1,80011cd4,36,17,35,P0,translated,　データをセーブしています。　　, to this card...,1 pointer(s); pointer redirection
+TXT-0017,0022d8,80011ad8,33,16,system,inplace,1,80011ce0,36,17,35,P0,translated,　上書きセーブしますか？　　　　, existing save?,1 pointer(s); pointer redirection
+TXT-0018,0022fc,80011afc,33,16,system,inplace,1,80011cec,36,17,35,P0,translated,　データをセーブできませんでした, to this card.,1 pointer(s); pointer redirection
+TXT-0019,002320,80011b20,33,16,system,inplace,1,80011cf8,36,17,35,P0,translated,　データをセーブしました。　　　, saved.,1 pointer(s); pointer redirection
+TXT-0020,002344,80011b44,33,16,system,inplace,4,80011d00,36,17,35,P0,translated,　メモリーカードから　　　　　　, Load game data,4 pointer(s); pointer redirection
+TXT-0021,002368,80011b68,33,16,system,inplace,1,80011d04,36,17,35,P0,translated,　データをロードしますか？　　　, from this card?,1 pointer(s); pointer redirection
+TXT-0022,00238c,80011b8c,33,16,system,inplace,1,80011d10,36,17,35,P0,translated,　データをロードしています。　　, from card...,1 pointer(s); pointer redirection
+TXT-0023,0023b0,80011bb0,33,16,system,inplace,1,80011d1c,36,17,35,P0,translated,　データをロードできませんでした, game data.,1 pointer(s); pointer redirection
+TXT-0024,0023d4,80011bd4,33,16,system,inplace,1,80011d28,36,17,35,P0,translated,　データをロードしました。　　　, loaded.,1 pointer(s); pointer redirection
+TXT-0025,0023f8,80011bf8,35,17,system,inplace,1,80011d44,36,17,35,P0,translated,　のデータが壊れてます。　　　　　, is corrupted.,1 pointer(s); pointer redirection
+TXT-0026,00241c,80011c1c,33,16,system,inplace,1,80011d4c,36,17,35,P0,translated,　空き容量がたりません。　　　　, free space.,1 pointer(s); pointer redirection
+TXT-0027,002440,80011c40,33,16,system,inplace,1,80011d58,33,16,32,P0,translated,　コンティニュー　　　　　　　　, data found,1 pointer(s); pointer redirection
 TXT-0028,002584,80011d84,37,18,system,hash,0,,40,19,39,P0,translated,ゾイドバトルカードゲーム西方大陸戦記,Zoids Card Game,dispatch-arg content hash; fallback static patch
 TXT-0029,0025ac,80011dac,27,13,system,inplace,1,800121f0,28,13,27,P0,translated,共和国　〜シナリオ０１〜　,Republic 01,1 pointer(s); pointer redirection
 TXT-0030,0025c8,80011dc8,27,13,system,inplace,1,800121f4,28,13,27,P0,translated,共和国　〜シナリオ０２〜　,Republic 02,1 pointer(s); pointer redirection
