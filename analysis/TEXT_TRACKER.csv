@@ -422,8 +422,8 @@ TXT-0420,004e9c,8001469c,11,5,story,inplace,1,800c4d38,12,5,11,P1,translated,笑
 TXT-0421,004ea8,800146a8,15,7,story,inplace,1,800c4d0c,16,7,15,P1,translated,敵ゾイド出現。,Enemy Zoid appeared.,1 pointer(s); pointer redirection
 TXT-0422,004eb8,800146b8,19,9,story,inplace,1,800c4dc4,20,9,19,P1,translated,『パイルバンカー』,Pile Bunker,1 pointer(s); pointer redirection
 TXT-0423,004ecc,800146cc,23,11,story,inplace,1,800c4eb4,24,11,23,P1,translated,『デスザウラー・Ｖ１』,Death Saurer V1,1 pointer(s); pointer redirection
-TXT-0424,004ee4,800146e4,15,7,story,inplace,2,800c4e84,16,7,15,P1,translated,発見しました。,Found it.,2 pointer(s); pointer redirection
-TXT-0425,004ef4,800146f4,21,10,story,inplace,1,800c4e80,24,11,23,P1,translated,敵基地より、ゾイドを,Enemy Zoids are launching,1 pointer(s); pointer redirection
+TXT-0424,004ee4,800146e4,15,7,story,inplace,2,800c4e84,16,7,15,P1,translated,発見しました。,Zoids.,2 pointer(s); pointer redirection
+TXT-0425,004ef4,800146f4,21,10,story,inplace,1,800c4e80,24,11,23,P1,translated,敵基地より、ゾイドを,At the enemy base we found,1 pointer(s); pointer redirection
 TXT-0426,004f0c,8001470c,21,10,story,inplace,6,800c4ff8,24,11,23,P1,translated,　　　２０ターン経過,20 turns pass,6 pointer(s); pointer redirection
 TXT-0427,004f24,80014724,15,7,story,inplace,1,800c503c,16,7,15,P1,translated,いけないか…。,This won't do...,1 pointer(s); pointer redirection
 TXT-0428,004f34,80014734,25,12,story,inplace,1,800c5038,28,13,27,P1,translated,ルートを見なおさなくては,We need to rethink the route.,1 pointer(s); pointer redirection
@@ -1234,42 +1234,42 @@ TXT-1232,009aa4,800192a4,11,5,story,inplace,1,800cd3c4,12,5,11,P1,translated,敵
 TXT-1233,009ab0,800192b0,29,14,story,inplace,1,800cd534,32,15,31,P1,translated,よし、このまま、後を追うぞ！,Good. Stay on their tail!,1 pointer(s); pointer redirection
 TXT-1234,009ad0,800192d0,19,9,story,inplace,1,800cd508,20,9,19,P1,translated,後退してゆきます。,toward Red River.,1 pointer(s); pointer redirection
 TXT-1235,009ae4,800192e4,27,13,story,inplace,1,800cd504,28,13,27,P1,translated,敵部隊、レッドリバー方面へ,The enemy is retreating,1 pointer(s); pointer redirection
-TXT-1236,009b00,80019300,25,12,story,inplace,1,800cd644,28,13,27,P1,translated,ひるんだスキに突破する！,Break through while they hesitate!,1 pointer(s); pointer redirection
-TXT-1237,009b1c,8001931c,29,14,story,inplace,1,800cd640,32,15,31,P1,translated,ある程度のダメージをあたえて,After dealing a certain amount of damage,1 pointer(s); pointer redirection
-TXT-1238,009b3c,8001933c,17,8,story,inplace,1,800cd63c,20,9,19,P1,translated,戦闘準備を急げ！,Hurry battle preparations!,1 pointer(s); pointer redirection
-TXT-1239,009b50,80019350,25,12,story,inplace,1,800cd610,28,13,27,P1,translated,こちらに向かってきます。,They're coming toward us.,1 pointer(s); pointer redirection
-TXT-1240,009b6c,8001936c,25,12,story,inplace,1,800cd60c,28,13,27,P1,translated,前方に野良ゾイドを発見。,Wild Zoids confirmed ahead.,1 pointer(s); pointer redirection
+TXT-1236,009b00,80019300,25,12,story,inplace,1,800cd644,28,13,27,P1,translated,ひるんだスキに突破する！,Break through when they falter!,1 pointer(s); pointer redirection
+TXT-1237,009b1c,8001931c,29,14,story,inplace,1,800cd640,32,15,31,P1,translated,ある程度のダメージをあたえて,Hit them hard.,1 pointer(s); pointer redirection
+TXT-1238,009b3c,8001933c,17,8,story,inplace,1,800cd63c,20,9,19,P1,translated,戦闘準備を急げ！,Battle stations!,1 pointer(s); pointer redirection
+TXT-1239,009b50,80019350,25,12,story,inplace,1,800cd610,28,13,27,P1,translated,こちらに向かってきます。,They're coming this way.,1 pointer(s); pointer redirection
+TXT-1240,009b6c,8001936c,25,12,story,inplace,1,800cd60c,28,13,27,P1,translated,前方に野良ゾイドを発見。,Wild Zoids ahead!,1 pointer(s); pointer redirection
 TXT-1241,009b88,80019388,15,7,story,inplace,1,800cd714,16,7,15,P1,translated,『ガイサック』,Gysack,1 pointer(s); pointer redirection
-TXT-1242,009b98,80019398,21,10,story,inplace,1,800cd6c8,24,11,23,P1,translated,ガイガロスに向かう！,We're heading for Gaigalus!,1 pointer(s); pointer redirection
-TXT-1243,009bb0,800193b0,29,14,story,inplace,1,800cd6c4,32,15,31,P1,translated,よし、そのゾイドを回収しだい,"Good, once we recover that Zoid",1 pointer(s); pointer redirection
-TXT-1244,009bd0,800193d0,25,12,story,inplace,1,800cd694,28,13,27,P1,translated,数台の使用可能なゾイドを,Several usable Zoids,1 pointer(s); pointer redirection
+TXT-1242,009b98,80019398,21,10,story,inplace,1,800cd6c8,24,11,23,P1,translated,ガイガロスに向かう！,then head for Gaigalus!,1 pointer(s); pointer redirection
+TXT-1243,009bb0,800193b0,29,14,story,inplace,1,800cd6c4,32,15,31,P1,translated,よし、そのゾイドを回収しだい,"Recover those Zoids,",1 pointer(s); pointer redirection
+TXT-1244,009bd0,800193d0,25,12,story,inplace,1,800cd694,28,13,27,P1,translated,数台の使用可能なゾイドを,We've found several serviceable,1 pointer(s); pointer redirection
 TXT-1245,009bec,800193ec,29,14,story,inplace,1,800cd680,32,15,31,P1,translated,敵ゾイド、後退してゆきます。,Enemy Zoids are retreating.,1 pointer(s); pointer redirection
-TXT-1246,009c0c,8001940c,25,12,story,inplace,1,800cd7a4,28,13,27,P1,translated,射程に注意して行動しろ！,Watch the range!,1 pointer(s); pointer redirection
-TXT-1247,009c28,80019428,13,6,story,inplace,1,800cd790,16,7,15,P1,translated,考えられる。,It can be considered.,1 pointer(s); pointer redirection
-TXT-1248,009c38,80019438,27,13,story,inplace,1,800cd78c,28,13,27,P1,translated,戦闘をおこなってくるものと,They will engage in battle.,1 pointer(s); pointer redirection
-TXT-1249,009c54,80019454,29,14,story,inplace,1,800cd788,32,15,31,P1,translated,よし、敵は射撃をメインにして,"Good, the enemy mainly uses shooting",1 pointer(s); pointer redirection
-TXT-1250,009c74,80019474,23,11,story,inplace,1,800cd75c,24,11,23,P1,translated,対岸に集結しています。,They're gathered on the opposite bank.,1 pointer(s); pointer redirection
-TXT-1251,009c8c,8001948c,25,12,story,inplace,1,800cd758,28,13,27,P1,translated,帝国部隊、レッドリバーの,"Imperial unit, at Red River",1 pointer(s); pointer redirection
-TXT-1252,009ca8,800194a8,9,4,story,inplace,1,800cd810,12,5,11,P1,translated,向かう！,We're heading there!,1 pointer(s); pointer redirection
-TXT-1253,009cb4,800194b4,27,13,story,inplace,1,800cd80c,28,13,27,P1,translated,よし、このままガイガロスに,"Good, continue to Gaigalus",1 pointer(s); pointer redirection
-TXT-1254,009cd0,800194d0,27,13,story,inplace,1,800cd7e0,28,13,27,P1,translated,敵の防衛線を突破しました。,We've broken through the enemy defense line.,1 pointer(s); pointer redirection
-TXT-1255,009cec,800194ec,19,9,story,inplace,1,800cd880,20,9,19,P1,translated,基地をねらうんだ！,Aim for the base!,1 pointer(s); pointer redirection
-TXT-1256,009d00,80019500,19,9,story,inplace,1,800cd87c,20,9,19,P1,translated,およばないように、,"So that it doesn't reach,",1 pointer(s); pointer redirection
-TXT-1257,009d14,80019514,23,11,story,inplace,1,800cd878,24,11,23,P1,translated,よし、一般市民に被害が,"Good, no damage to civilians.",1 pointer(s); pointer redirection
+TXT-1246,009c0c,8001940c,25,12,story,inplace,1,800cd7a4,28,13,27,P1,translated,射程に注意して行動しろ！,Watch their range!,1 pointer(s); pointer redirection
+TXT-1247,009c28,80019428,13,6,story,inplace,1,800cd790,16,7,15,P1,translated,考えられる。,on ranged fire.,1 pointer(s); pointer redirection
+TXT-1248,009c38,80019438,27,13,story,inplace,1,800cd78c,28,13,27,P1,translated,戦闘をおこなってくるものと,to rely mainly,1 pointer(s); pointer redirection
+TXT-1249,009c54,80019454,29,14,story,inplace,1,800cd788,32,15,31,P1,translated,よし、敵は射撃をメインにして,Expect the enemy,1 pointer(s); pointer redirection
+TXT-1250,009c74,80019474,23,11,story,inplace,1,800cd75c,24,11,23,P1,translated,対岸に集結しています。,across Red River.,1 pointer(s); pointer redirection
+TXT-1251,009c8c,8001948c,25,12,story,inplace,1,800cd758,28,13,27,P1,translated,帝国部隊、レッドリバーの,Imperial troops are massing,1 pointer(s); pointer redirection
+TXT-1252,009ca8,800194a8,9,4,story,inplace,1,800cd810,12,5,11,P1,translated,向かう！,to Gaigalus!,1 pointer(s); pointer redirection
+TXT-1253,009cb4,800194b4,27,13,story,inplace,1,800cd80c,28,13,27,P1,translated,よし、このままガイガロスに,Good. Press on,1 pointer(s); pointer redirection
+TXT-1254,009cd0,800194d0,27,13,story,inplace,1,800cd7e0,28,13,27,P1,translated,敵の防衛線を突破しました。,We've broken through their defenses.,1 pointer(s); pointer redirection
+TXT-1255,009cec,800194ec,19,9,story,inplace,1,800cd880,20,9,19,P1,translated,基地をねらうんだ！,out of harm's way!,1 pointer(s); pointer redirection
+TXT-1256,009d00,80019500,19,9,story,inplace,1,800cd87c,20,9,19,P1,translated,およばないように、,Keep the civilians,1 pointer(s); pointer redirection
+TXT-1257,009d14,80019514,23,11,story,inplace,1,800cd878,24,11,23,P1,translated,よし、一般市民に被害が,Aim for the base.,1 pointer(s); pointer redirection
 TXT-1258,009d2c,8001952c,27,13,story,inplace,1,800cd84c,28,13,27,P1,translated,ガイガロスに到着しました。,We've arrived at Gaigalus.,1 pointer(s); pointer redirection
 TXT-1259,009d48,80019548,23,11,story,inplace,1,800cd9c0,24,11,23,P1,translated,×１を手にいれました。,Obtained x1.,1 pointer(s); pointer redirection
 TXT-1260,009d60,80019560,15,7,story,inplace,1,800cd9bc,16,7,15,P1,translated,『ニ連速射砲』,Twin Rapid-Fire Cannon,1 pointer(s); pointer redirection
-TXT-1261,009d70,80019570,23,11,story,inplace,1,800cd970,24,11,23,P1,translated,逃走した部隊を追うぞ。,Chase the fleeing unit.,1 pointer(s); pointer redirection
-TXT-1262,009d88,80019588,23,11,story,inplace,1,800cd96c,24,11,23,P1,translated,よし、回収したらすぐに,"Good, once recovered, immediately",1 pointer(s); pointer redirection
-TXT-1263,009da0,800195a0,25,12,story,inplace,1,800cd940,28,13,27,P1,translated,工作班が回収しています。,The work team is recovering it.,1 pointer(s); pointer redirection
-TXT-1264,009dbc,800195bc,17,8,story,inplace,1,800cd93c,20,9,19,P1,translated,敵の武器を発見。,Enemy weapon discovered.,1 pointer(s); pointer redirection
-TXT-1265,009dd0,800195d0,27,13,story,inplace,1,800cd938,28,13,27,P1,translated,ガイガロスで開発されていた,It was being developed at Gaigalus.,1 pointer(s); pointer redirection
+TXT-1261,009d70,80019570,23,11,story,inplace,1,800cd970,24,11,23,P1,translated,逃走した部隊を追うぞ。,pursue the retreating troops!,1 pointer(s); pointer redirection
+TXT-1262,009d88,80019588,23,11,story,inplace,1,800cd96c,24,11,23,P1,translated,よし、回収したらすぐに,"Once they've recovered it,",1 pointer(s); pointer redirection
+TXT-1263,009da0,800195a0,25,12,story,inplace,1,800cd940,28,13,27,P1,translated,工作班が回収しています。,Our engineers are recovering it.,1 pointer(s); pointer redirection
+TXT-1264,009dbc,800195bc,17,8,story,inplace,1,800cd93c,20,9,19,P1,translated,敵の武器を発見。,developed in Gaigalus.,1 pointer(s); pointer redirection
+TXT-1265,009dd0,800195d0,27,13,story,inplace,1,800cd938,28,13,27,P1,translated,ガイガロスで開発されていた,We've found an enemy weapon,1 pointer(s); pointer redirection
 TXT-1266,009dec,800195ec,29,14,story,inplace,1,800cd908,32,15,31,P1,translated,ニューヘリックシティは安全に,New Helic City is safe.,1 pointer(s); pointer redirection
 TXT-1267,009e0c,8001960c,13,6,story,inplace,1,800cd904,16,7,15,P1,translated,とりあえず、,"For now,",1 pointer(s); pointer redirection
-TXT-1268,009e1c,8001961c,29,14,story,inplace,1,800cd8f0,32,15,31,P1,translated,帝国の活動拠点は無くなった。,The Empire's operational base is gone.,1 pointer(s); pointer redirection
-TXT-1269,009e3c,8001963c,21,10,story,inplace,1,800cd8ec,24,11,23,P1,translated,これで南エウロペでの,"With this, in South Europa",1 pointer(s); pointer redirection
-TXT-1270,009e54,80019654,11,5,story,inplace,1,800cd8c0,12,5,11,P1,translated,ゆきます。,We will go.,1 pointer(s); pointer redirection
-TXT-1271,009e60,80019660,25,12,story,inplace,1,800cd8bc,28,13,27,P1,translated,帝国部隊、北西に逃走して,"Imperial unit, fleeing northwest.",1 pointer(s); pointer redirection
+TXT-1268,009e1c,8001961c,29,14,story,inplace,1,800cd8f0,32,15,31,P1,translated,帝国の活動拠点は無くなった。,without a base in southern Europa.,1 pointer(s); pointer redirection
+TXT-1269,009e3c,8001963c,21,10,story,inplace,1,800cd8ec,24,11,23,P1,translated,これで南エウロペでの,That leaves the Empire,1 pointer(s); pointer redirection
+TXT-1270,009e54,80019654,11,5,story,inplace,1,800cd8c0,12,5,11,P1,translated,ゆきます。,are fleeing northwest.,1 pointer(s); pointer redirection
+TXT-1271,009e60,80019660,25,12,story,inplace,1,800cd8bc,28,13,27,P1,translated,帝国部隊、北西に逃走して,The Imperial forces,1 pointer(s); pointer redirection
 TXT-1272,009e7c,8001967c,25,12,story,inplace,1,800cdb5c,28,13,27,P1,translated,目の前のゾイドをたたく！,Strike the Zoid in front of us!,1 pointer(s); pointer redirection
 TXT-1273,009e98,80019698,13,6,story,inplace,1,800cdb58,16,7,15,P1,translated,目的を変更。,Change of objective.,1 pointer(s); pointer redirection
 TXT-1274,009ea8,800196a8,23,11,story,inplace,1,800cdb44,24,11,23,P1,translated,追撃は無理のようだな。,Pursuit seems impossible.,1 pointer(s); pointer redirection

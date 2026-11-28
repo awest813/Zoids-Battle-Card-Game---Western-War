@@ -420,8 +420,8 @@ TXT-0420,story,笑わせる。,0x8001469c,1,800c4d38,12,5,they can protect the b
 TXT-0421,story,敵ゾイド出現。,0x800146a8,1,800c4d0c,16,7,Enemy Zoid appeared.
 TXT-0422,story,『パイルバンカー』,0x800146b8,1,800c4dc4,20,9,Pile Bunker
 TXT-0423,story,『デスザウラー・Ｖ１』,0x800146cc,1,800c4eb4,24,11,Death Saurer V1
-TXT-0424,story,発見しました。,0x800146e4,2,800c4e84;800cd698,16,7,Found it.
-TXT-0425,story,敵基地より、ゾイドを,0x800146f4,1,800c4e80,24,11,Enemy Zoids are launching
+TXT-0424,story,発見しました。,0x800146e4,2,800c4e84;800cd698,16,7,Zoids.
+TXT-0425,story,敵基地より、ゾイドを,0x800146f4,1,800c4e80,24,11,At the enemy base we found
 TXT-0426,story,　　　２０ターン経過,0x8001470c,6,800c4ff8;800c5b60;800c7338;800c73e8;800c76bc;800c79e4,24,11,20 turns pass
 TXT-0427,story,いけないか…。,0x80014724,1,800c503c,16,7,This won't do...
 TXT-0428,story,ルートを見なおさなくては,0x80014734,1,800c5038,28,13,We need to rethink the route.
@@ -1232,42 +1232,42 @@ TXT-1232,story,敵ゾイド、,0x800192a4,1,800cd3c4,12,5,All enemy Zoids
 TXT-1233,story,よし、このまま、後を追うぞ！,0x800192b0,1,800cd534,32,15,Good. Stay on their tail!
 TXT-1234,story,後退してゆきます。,0x800192d0,1,800cd508,20,9,toward Red River.
 TXT-1235,story,敵部隊、レッドリバー方面へ,0x800192e4,1,800cd504,28,13,The enemy is retreating
-TXT-1236,story,ひるんだスキに突破する！,0x80019300,1,800cd644,28,13,Break through while they hesitate!
-TXT-1237,story,ある程度のダメージをあたえて,0x8001931c,1,800cd640,32,15,After dealing a certain amount of damage
-TXT-1238,story,戦闘準備を急げ！,0x8001933c,1,800cd63c,20,9,Hurry battle preparations!
-TXT-1239,story,こちらに向かってきます。,0x80019350,1,800cd610,28,13,They're coming toward us.
-TXT-1240,story,前方に野良ゾイドを発見。,0x8001936c,1,800cd60c,28,13,Wild Zoids confirmed ahead.
+TXT-1236,story,ひるんだスキに突破する！,0x80019300,1,800cd644,28,13,Break through when they falter!
+TXT-1237,story,ある程度のダメージをあたえて,0x8001931c,1,800cd640,32,15,Hit them hard.
+TXT-1238,story,戦闘準備を急げ！,0x8001933c,1,800cd63c,20,9,Battle stations!
+TXT-1239,story,こちらに向かってきます。,0x80019350,1,800cd610,28,13,They're coming this way.
+TXT-1240,story,前方に野良ゾイドを発見。,0x8001936c,1,800cd60c,28,13,Wild Zoids ahead!
 TXT-1241,story,『ガイサック』,0x80019388,1,800cd714,16,7,Gysack
-TXT-1242,story,ガイガロスに向かう！,0x80019398,1,800cd6c8,24,11,We're heading for Gaigalus!
-TXT-1243,story,よし、そのゾイドを回収しだい,0x800193b0,1,800cd6c4,32,15,"Good, once we recover that Zoid"
-TXT-1244,story,数台の使用可能なゾイドを,0x800193d0,1,800cd694,28,13,Several usable Zoids
+TXT-1242,story,ガイガロスに向かう！,0x80019398,1,800cd6c8,24,11,then head for Gaigalus!
+TXT-1243,story,よし、そのゾイドを回収しだい,0x800193b0,1,800cd6c4,32,15,"Recover those Zoids,"
+TXT-1244,story,数台の使用可能なゾイドを,0x800193d0,1,800cd694,28,13,We've found several serviceable
 TXT-1245,story,敵ゾイド、後退してゆきます。,0x800193ec,1,800cd680,32,15,Enemy Zoids are retreating.
-TXT-1246,story,射程に注意して行動しろ！,0x8001940c,1,800cd7a4,28,13,Watch the range!
-TXT-1247,story,考えられる。,0x80019428,1,800cd790,16,7,It can be considered.
-TXT-1248,story,戦闘をおこなってくるものと,0x80019438,1,800cd78c,28,13,They will engage in battle.
-TXT-1249,story,よし、敵は射撃をメインにして,0x80019454,1,800cd788,32,15,"Good, the enemy mainly uses shooting"
-TXT-1250,story,対岸に集結しています。,0x80019474,1,800cd75c,24,11,They're gathered on the opposite bank.
-TXT-1251,story,帝国部隊、レッドリバーの,0x8001948c,1,800cd758,28,13,"Imperial unit, at Red River"
-TXT-1252,story,向かう！,0x800194a8,1,800cd810,12,5,We're heading there!
-TXT-1253,story,よし、このままガイガロスに,0x800194b4,1,800cd80c,28,13,"Good, continue to Gaigalus"
-TXT-1254,story,敵の防衛線を突破しました。,0x800194d0,1,800cd7e0,28,13,We've broken through the enemy defense line.
-TXT-1255,story,基地をねらうんだ！,0x800194ec,1,800cd880,20,9,Aim for the base!
-TXT-1256,story,およばないように、,0x80019500,1,800cd87c,20,9,"So that it doesn't reach,"
-TXT-1257,story,よし、一般市民に被害が,0x80019514,1,800cd878,24,11,"Good, no damage to civilians."
+TXT-1246,story,射程に注意して行動しろ！,0x8001940c,1,800cd7a4,28,13,Watch their range!
+TXT-1247,story,考えられる。,0x80019428,1,800cd790,16,7,on ranged fire.
+TXT-1248,story,戦闘をおこなってくるものと,0x80019438,1,800cd78c,28,13,to rely mainly
+TXT-1249,story,よし、敵は射撃をメインにして,0x80019454,1,800cd788,32,15,Expect the enemy
+TXT-1250,story,対岸に集結しています。,0x80019474,1,800cd75c,24,11,across Red River.
+TXT-1251,story,帝国部隊、レッドリバーの,0x8001948c,1,800cd758,28,13,Imperial troops are massing
+TXT-1252,story,向かう！,0x800194a8,1,800cd810,12,5,to Gaigalus!
+TXT-1253,story,よし、このままガイガロスに,0x800194b4,1,800cd80c,28,13,Good. Press on
+TXT-1254,story,敵の防衛線を突破しました。,0x800194d0,1,800cd7e0,28,13,We've broken through their defenses.
+TXT-1255,story,基地をねらうんだ！,0x800194ec,1,800cd880,20,9,out of harm's way!
+TXT-1256,story,およばないように、,0x80019500,1,800cd87c,20,9,Keep the civilians
+TXT-1257,story,よし、一般市民に被害が,0x80019514,1,800cd878,24,11,Aim for the base.
 TXT-1258,story,ガイガロスに到着しました。,0x8001952c,1,800cd84c,28,13,We've arrived at Gaigalus.
 TXT-1259,story,×１を手にいれました。,0x80019548,1,800cd9c0,24,11,Obtained x1.
 TXT-1260,story,『ニ連速射砲』,0x80019560,1,800cd9bc,16,7,Twin Rapid-Fire Cannon
-TXT-1261,story,逃走した部隊を追うぞ。,0x80019570,1,800cd970,24,11,Chase the fleeing unit.
-TXT-1262,story,よし、回収したらすぐに,0x80019588,1,800cd96c,24,11,"Good, once recovered, immediately"
-TXT-1263,story,工作班が回収しています。,0x800195a0,1,800cd940,28,13,The work team is recovering it.
-TXT-1264,story,敵の武器を発見。,0x800195bc,1,800cd93c,20,9,Enemy weapon discovered.
-TXT-1265,story,ガイガロスで開発されていた,0x800195d0,1,800cd938,28,13,It was being developed at Gaigalus.
+TXT-1261,story,逃走した部隊を追うぞ。,0x80019570,1,800cd970,24,11,pursue the retreating troops!
+TXT-1262,story,よし、回収したらすぐに,0x80019588,1,800cd96c,24,11,"Once they've recovered it,"
+TXT-1263,story,工作班が回収しています。,0x800195a0,1,800cd940,28,13,Our engineers are recovering it.
+TXT-1264,story,敵の武器を発見。,0x800195bc,1,800cd93c,20,9,developed in Gaigalus.
+TXT-1265,story,ガイガロスで開発されていた,0x800195d0,1,800cd938,28,13,We've found an enemy weapon
 TXT-1266,story,ニューヘリックシティは安全に,0x800195ec,1,800cd908,32,15,New Helic City is safe.
 TXT-1267,story,とりあえず、,0x8001960c,1,800cd904,16,7,"For now,"
-TXT-1268,story,帝国の活動拠点は無くなった。,0x8001961c,1,800cd8f0,32,15,The Empire's operational base is gone.
-TXT-1269,story,これで南エウロペでの,0x8001963c,1,800cd8ec,24,11,"With this, in South Europa"
-TXT-1270,story,ゆきます。,0x80019654,1,800cd8c0,12,5,We will go.
-TXT-1271,story,帝国部隊、北西に逃走して,0x80019660,1,800cd8bc,28,13,"Imperial unit, fleeing northwest."
+TXT-1268,story,帝国の活動拠点は無くなった。,0x8001961c,1,800cd8f0,32,15,without a base in southern Europa.
+TXT-1269,story,これで南エウロペでの,0x8001963c,1,800cd8ec,24,11,That leaves the Empire
+TXT-1270,story,ゆきます。,0x80019654,1,800cd8c0,12,5,are fleeing northwest.
+TXT-1271,story,帝国部隊、北西に逃走して,0x80019660,1,800cd8bc,28,13,The Imperial forces
 TXT-1272,story,目の前のゾイドをたたく！,0x8001967c,1,800cdb5c,28,13,Strike the Zoid in front of us!
 TXT-1273,story,目的を変更。,0x80019698,1,800cdb58,16,7,Change of objective.
 TXT-1274,story,追撃は無理のようだな。,0x800196a8,1,800cdb44,24,11,Pursuit seems impossible.

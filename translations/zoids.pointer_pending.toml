@@ -5462,7 +5462,7 @@ ptr_addrs = ["0x800c4e84", "0x800cd698"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "Found it."
+en = "Zoids."
 note = "story inplace max=7"
 
 [[entry]]
@@ -5475,7 +5475,7 @@ ptr_addrs = ["0x800c4e80"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Enemy Zoids are launching"
+en = "At the enemy base we found"
 note = "story inplace max=11"
 
 [[entry]]
@@ -16018,7 +16018,7 @@ ptr_addrs = ["0x800cd644"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Break through while they hesitate!"
+en = "Break through when they falter!"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16031,7 +16031,7 @@ ptr_addrs = ["0x800cd640"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "After dealing a certain amount of damage"
+en = "Hit them hard."
 note = "story inplace max=15"
 
 [[entry]]
@@ -16044,7 +16044,7 @@ ptr_addrs = ["0x800cd63c"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Hurry battle preparations!"
+en = "Battle stations!"
 note = "story inplace max=9"
 
 [[entry]]
@@ -16057,7 +16057,7 @@ ptr_addrs = ["0x800cd610"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "They're coming toward us."
+en = "They're coming this way."
 note = "story inplace max=13"
 
 [[entry]]
@@ -16070,7 +16070,7 @@ ptr_addrs = ["0x800cd60c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Wild Zoids confirmed ahead."
+en = "Wild Zoids ahead!"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16096,7 +16096,7 @@ ptr_addrs = ["0x800cd6c8"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "We're heading for Gaigalus!"
+en = "then head for Gaigalus!"
 note = "story inplace max=11"
 
 [[entry]]
@@ -16109,7 +16109,7 @@ ptr_addrs = ["0x800cd6c4"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Good, once we recover that Zoid"
+en = "Recover those Zoids,"
 note = "story inplace max=15"
 
 [[entry]]
@@ -16122,7 +16122,7 @@ ptr_addrs = ["0x800cd694"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Several usable Zoids"
+en = "We've found several serviceable"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16148,7 +16148,7 @@ ptr_addrs = ["0x800cd7a4"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Watch the range!"
+en = "Watch their range!"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16161,7 +16161,7 @@ ptr_addrs = ["0x800cd790"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "It can be considered."
+en = "on ranged fire."
 note = "story inplace max=7"
 
 [[entry]]
@@ -16174,7 +16174,7 @@ ptr_addrs = ["0x800cd78c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "They will engage in battle."
+en = "to rely mainly"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16187,7 +16187,7 @@ ptr_addrs = ["0x800cd788"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Good, the enemy mainly uses shooting"
+en = "Expect the enemy"
 note = "story inplace max=15"
 
 [[entry]]
@@ -16200,7 +16200,7 @@ ptr_addrs = ["0x800cd75c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "They're gathered on the opposite bank."
+en = "across Red River."
 note = "story inplace max=11"
 
 [[entry]]
@@ -16213,7 +16213,7 @@ ptr_addrs = ["0x800cd758"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Imperial unit, at Red River"
+en = "Imperial troops are massing"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16226,7 +16226,7 @@ ptr_addrs = ["0x800cd810"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "We're heading there!"
+en = "to Gaigalus!"
 note = "story inplace max=5"
 
 [[entry]]
@@ -16239,7 +16239,7 @@ ptr_addrs = ["0x800cd80c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Good, continue to Gaigalus"
+en = "Good. Press on"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16252,7 +16252,7 @@ ptr_addrs = ["0x800cd7e0"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "We've broken through the enemy defense line."
+en = "We've broken through their defenses."
 note = "story inplace max=13"
 
 [[entry]]
@@ -16265,7 +16265,7 @@ ptr_addrs = ["0x800cd880"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Aim for the base!"
+en = "out of harm's way!"
 note = "story inplace max=9"
 
 [[entry]]
@@ -16278,7 +16278,7 @@ ptr_addrs = ["0x800cd87c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "So that it doesn't reach,"
+en = "Keep the civilians"
 note = "story inplace max=9"
 
 [[entry]]
@@ -16291,7 +16291,7 @@ ptr_addrs = ["0x800cd878"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Good, no damage to civilians."
+en = "Aim for the base."
 note = "story inplace max=11"
 
 [[entry]]
@@ -16343,7 +16343,7 @@ ptr_addrs = ["0x800cd970"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Chase the fleeing unit."
+en = "pursue the retreating troops!"
 note = "story inplace max=11"
 
 [[entry]]
@@ -16356,7 +16356,7 @@ ptr_addrs = ["0x800cd96c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Good, once recovered, immediately"
+en = "Once they've recovered it,"
 note = "story inplace max=11"
 
 [[entry]]
@@ -16369,7 +16369,7 @@ ptr_addrs = ["0x800cd940"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "The work team is recovering it."
+en = "Our engineers are recovering it."
 note = "story inplace max=13"
 
 [[entry]]
@@ -16382,7 +16382,7 @@ ptr_addrs = ["0x800cd93c"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "Enemy weapon discovered."
+en = "developed in Gaigalus."
 note = "story inplace max=9"
 
 [[entry]]
@@ -16395,7 +16395,7 @@ ptr_addrs = ["0x800cd938"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "It was being developed at Gaigalus."
+en = "We've found an enemy weapon"
 note = "story inplace max=13"
 
 [[entry]]
@@ -16434,7 +16434,7 @@ ptr_addrs = ["0x800cd8f0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "The Empire's operational base is gone."
+en = "without a base in southern Europa."
 note = "story inplace max=15"
 
 [[entry]]
@@ -16447,7 +16447,7 @@ ptr_addrs = ["0x800cd8ec"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "With this, in South Europa"
+en = "That leaves the Empire"
 note = "story inplace max=11"
 
 [[entry]]
@@ -16460,7 +16460,7 @@ ptr_addrs = ["0x800cd8c0"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "We will go."
+en = "are fleeing northwest."
 note = "story inplace max=5"
 
 [[entry]]
@@ -16473,7 +16473,7 @@ ptr_addrs = ["0x800cd8bc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Imperial unit, fleeing northwest."
+en = "The Imperial forces"
 note = "story inplace max=13"
 
 [[entry]]
