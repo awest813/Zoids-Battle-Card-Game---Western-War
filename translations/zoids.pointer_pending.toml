@@ -15693,7 +15693,7 @@ ptr_addrs = ["0x800cd2d4"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Counterattack the enemy unit!"
+en = "in the Elemia Desert!"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15706,7 +15706,7 @@ ptr_addrs = ["0x800cd2d0"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "As it is, the Elemia Desert's"
+en = "Let's strike back"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15719,7 +15719,7 @@ ptr_addrs = ["0x800cd2bc"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "It doesn't seem so."
+en = "unharmed."
 note = "story inplace max=7"
 
 [[entry]]
@@ -15732,7 +15732,7 @@ ptr_addrs = ["0x800cd2b8"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "For now, there is no damage to the town."
+en = "The town seems"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15745,7 +15745,7 @@ ptr_addrs = ["0x800cd388"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "I leave the judgment to you."
+en = "Your call."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15758,7 +15758,7 @@ ptr_addrs = ["0x800cd370"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "They will."
+en = "and they'll likely retreat."
 note = "story inplace max=7"
 
 [[entry]]
@@ -15771,7 +15771,7 @@ ptr_addrs = ["0x800cd36c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Defeat the leader and they'll retreat."
+en = "Take out their leader"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15784,7 +15784,7 @@ ptr_addrs = ["0x800cd340"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Leader unit confirmed as Red Horn."
+en = "Their leader pilots a Red Horn."
 note = "story inplace max=15"
 
 [[entry]]
@@ -15797,7 +15797,7 @@ ptr_addrs = ["0x800cd314"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "That's Gaigalus's unit."
+en = "are from Gaigalus."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15810,7 +15810,7 @@ ptr_addrs = ["0x800cd310"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "What you see ahead is"
+en = "Those troops ahead"
 note = "story inplace max=9"
 
 [[entry]]
@@ -15823,7 +15823,7 @@ ptr_addrs = ["0x800cd474", "0x800cd57c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "We'll put it in stock."
+en = "We'll put them in storage."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15836,7 +15836,7 @@ ptr_addrs = ["0x800cd470", "0x800cd578"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Supplies have arrived."
+en = "from New Helic City."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15849,7 +15849,7 @@ ptr_addrs = ["0x800cd46c", "0x800cd574"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "From New Helic City"
+en = "Supplies have arrived"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15862,7 +15862,7 @@ ptr_addrs = ["0x800cd42c"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "All units, begin moving immediately!"
+en = "All units, move out!"
 note = "story inplace max=15"
 
 [[entry]]
@@ -15875,7 +15875,7 @@ ptr_addrs = ["0x800cd418"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "We'll attack from there."
+en = "and attack from there."
 note = "story inplace max=9"
 
 [[entry]]
@@ -15888,7 +15888,7 @@ ptr_addrs = ["0x800cd414"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Move north of Gaigalus,"
+en = "north of Gaigalus"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15901,7 +15901,7 @@ ptr_addrs = ["0x800cd410"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Therefore, take a detour,"
+en = "We'll take a detour"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15914,7 +15914,7 @@ ptr_addrs = ["0x800cd3fc"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "The defense will become stronger."
+en = "on the road to Gaigalus."
 note = "story inplace max=13"
 
 [[entry]]
@@ -15927,7 +15927,7 @@ ptr_addrs = ["0x800cd3f8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "The route to Gaigalus"
+en = "Expect tighter defenses"
 note = "story inplace max=13"
 
 [[entry]]
@@ -15940,7 +15940,7 @@ ptr_addrs = ["0x800cd3f4"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "By annihilating the enemy,"
+en = "We wiped them out."
 note = "story inplace max=11"
 
 [[entry]]
@@ -15953,7 +15953,7 @@ ptr_addrs = ["0x800cd3c8"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "All stopped!"
+en = "have stopped!"
 note = "story inplace max=11"
 
 [[entry]]
@@ -15966,7 +15966,7 @@ ptr_addrs = ["0x800cd3c4"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "Enemy Zoids,"
+en = "All enemy Zoids"
 note = "story inplace max=5"
 
 [[entry]]
@@ -15979,7 +15979,7 @@ ptr_addrs = ["0x800cd534"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Good, chase them as they are!"
+en = "Good. Stay on their tail!"
 note = "story inplace max=15"
 
 [[entry]]
@@ -15992,7 +15992,7 @@ ptr_addrs = ["0x800cd508"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "They're retreating."
+en = "toward Red River."
 note = "story inplace max=9"
 
 [[entry]]
@@ -16005,7 +16005,7 @@ ptr_addrs = ["0x800cd504"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Enemy unit, toward Red River"
+en = "The enemy is retreating"
 note = "story inplace max=13"
 
 [[entry]]

@@ -1207,31 +1207,31 @@ TXT-1207,story,ついに来たか…。,0x80019040,1,800cd14c,20,9,So it's final
 TXT-1208,story,無人レドラーが接近中。,0x80019054,1,800cd120,24,11,Drone Redlers inbound.
 TXT-1209,story,エレミア砂漠方面より、,0x8001906c,1,800cd11c,24,11,Elemia Desert:
 TXT-1210,story,なんだ？！,0x80019084,1,800cd0e4,12,5,What?!
-TXT-1211,story,敵部隊への反撃にうつるぞ！,0x80019090,1,800cd2d4,28,13,Counterattack the enemy unit!
-TXT-1212,story,このまま、エレミア砂漠の,0x800190ac,1,800cd2d0,28,13,"As it is, the Elemia Desert's"
-TXT-1213,story,ないようだな。,0x800190c8,1,800cd2bc,16,7,It doesn't seem so.
-TXT-1214,story,とりあえず、町への被害は,0x800190d8,1,800cd2b8,28,13,"For now, there is no damage to the town."
-TXT-1215,story,判断は君にまかせる。,0x800190f4,1,800cd388,24,11,I leave the judgment to you.
-TXT-1216,story,するだろう。,0x8001910c,1,800cd370,16,7,They will.
-TXT-1217,story,リーダーを倒せば、敵は退却,0x8001911c,1,800cd36c,28,13,Defeat the leader and they'll retreat.
-TXT-1218,story,隊長機はレッドホーンと確認。,0x80019138,1,800cd340,32,15,Leader unit confirmed as Red Horn.
-TXT-1219,story,ガイガロスの部隊だな。,0x80019158,1,800cd314,24,11,That's Gaigalus's unit.
-TXT-1220,story,前方に見えるのは、,0x80019170,1,800cd310,20,9,What you see ahead is
-TXT-1221,story,ストックにまわします。,0x80019184,2,800cd474;800cd57c,24,11,We'll put it in stock.
-TXT-1222,story,物資がとどいています。,0x8001919c,2,800cd470;800cd578,24,11,Supplies have arrived.
-TXT-1223,story,ニューヘリックシティより,0x800191b4,2,800cd46c;800cd574,28,13,From New Helic City
-TXT-1224,story,全軍、すみやかに移動を開始！,0x800191d0,1,800cd42c,32,15,"All units, begin moving immediately!"
-TXT-1225,story,そこから攻める。,0x800191f0,1,800cd418,20,9,We'll attack from there.
-TXT-1226,story,ガイガロスの北に移動し、,0x80019204,1,800cd414,28,13,"Move north of Gaigalus,"
-TXT-1227,story,そのため、まわり道をして、,0x80019220,1,800cd410,28,13,"Therefore, take a detour,"
-TXT-1228,story,守備は強固になるだろう。,0x8001923c,1,800cd3fc,28,13,The defense will become stronger.
-TXT-1229,story,ガイガロスに向かうルートの,0x80019258,1,800cd3f8,28,13,The route to Gaigalus
-TXT-1230,story,敵を全滅させたことで、,0x80019274,1,800cd3f4,24,11,"By annihilating the enemy,"
-TXT-1231,story,すべて停止しました！,0x8001928c,1,800cd3c8,24,11,All stopped!
-TXT-1232,story,敵ゾイド、,0x800192a4,1,800cd3c4,12,5,"Enemy Zoids,"
-TXT-1233,story,よし、このまま、後を追うぞ！,0x800192b0,1,800cd534,32,15,"Good, chase them as they are!"
-TXT-1234,story,後退してゆきます。,0x800192d0,1,800cd508,20,9,They're retreating.
-TXT-1235,story,敵部隊、レッドリバー方面へ,0x800192e4,1,800cd504,28,13,"Enemy unit, toward Red River"
+TXT-1211,story,敵部隊への反撃にうつるぞ！,0x80019090,1,800cd2d4,28,13,in the Elemia Desert!
+TXT-1212,story,このまま、エレミア砂漠の,0x800190ac,1,800cd2d0,28,13,Let's strike back
+TXT-1213,story,ないようだな。,0x800190c8,1,800cd2bc,16,7,unharmed.
+TXT-1214,story,とりあえず、町への被害は,0x800190d8,1,800cd2b8,28,13,The town seems
+TXT-1215,story,判断は君にまかせる。,0x800190f4,1,800cd388,24,11,Your call.
+TXT-1216,story,するだろう。,0x8001910c,1,800cd370,16,7,and they'll likely retreat.
+TXT-1217,story,リーダーを倒せば、敵は退却,0x8001911c,1,800cd36c,28,13,Take out their leader
+TXT-1218,story,隊長機はレッドホーンと確認。,0x80019138,1,800cd340,32,15,Their leader pilots a Red Horn.
+TXT-1219,story,ガイガロスの部隊だな。,0x80019158,1,800cd314,24,11,are from Gaigalus.
+TXT-1220,story,前方に見えるのは、,0x80019170,1,800cd310,20,9,Those troops ahead
+TXT-1221,story,ストックにまわします。,0x80019184,2,800cd474;800cd57c,24,11,We'll put them in storage.
+TXT-1222,story,物資がとどいています。,0x8001919c,2,800cd470;800cd578,24,11,from New Helic City.
+TXT-1223,story,ニューヘリックシティより,0x800191b4,2,800cd46c;800cd574,28,13,Supplies have arrived
+TXT-1224,story,全軍、すみやかに移動を開始！,0x800191d0,1,800cd42c,32,15,"All units, move out!"
+TXT-1225,story,そこから攻める。,0x800191f0,1,800cd418,20,9,and attack from there.
+TXT-1226,story,ガイガロスの北に移動し、,0x80019204,1,800cd414,28,13,north of Gaigalus
+TXT-1227,story,そのため、まわり道をして、,0x80019220,1,800cd410,28,13,We'll take a detour
+TXT-1228,story,守備は強固になるだろう。,0x8001923c,1,800cd3fc,28,13,on the road to Gaigalus.
+TXT-1229,story,ガイガロスに向かうルートの,0x80019258,1,800cd3f8,28,13,Expect tighter defenses
+TXT-1230,story,敵を全滅させたことで、,0x80019274,1,800cd3f4,24,11,We wiped them out.
+TXT-1231,story,すべて停止しました！,0x8001928c,1,800cd3c8,24,11,have stopped!
+TXT-1232,story,敵ゾイド、,0x800192a4,1,800cd3c4,12,5,All enemy Zoids
+TXT-1233,story,よし、このまま、後を追うぞ！,0x800192b0,1,800cd534,32,15,Good. Stay on their tail!
+TXT-1234,story,後退してゆきます。,0x800192d0,1,800cd508,20,9,toward Red River.
+TXT-1235,story,敵部隊、レッドリバー方面へ,0x800192e4,1,800cd504,28,13,The enemy is retreating
 TXT-1236,story,ひるんだスキに突破する！,0x80019300,1,800cd644,28,13,Break through while they hesitate!
 TXT-1237,story,ある程度のダメージをあたえて,0x8001931c,1,800cd640,32,15,After dealing a certain amount of damage
 TXT-1238,story,戦闘準備を急げ！,0x8001933c,1,800cd63c,20,9,Hurry battle preparations!

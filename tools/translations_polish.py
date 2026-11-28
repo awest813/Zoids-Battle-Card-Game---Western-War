@@ -35,7 +35,6 @@ POLISH = {
     "TXT-1118": "We could not have done it without you.",
     "TXT-1137": "Sorry, but I need you to run a drill.",
     "TXT-1142": "But there truly isn't much time.",
-    "TXT-1217": "Defeat the leader and they'll retreat.",
     "TXT-1281": "I am Lt. Col. Schwarz of the Imperial Army.",
     "TXT-1290": "You two will defend the new base.",
     "TXT-1294": "A base at South Europa's northern tip.",

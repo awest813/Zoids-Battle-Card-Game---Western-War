@@ -1209,31 +1209,31 @@ TXT-1207,story,P1,inplace,009840,0x80019040,800cd14c,20,9,ついに来たか…�
 TXT-1208,story,P1,inplace,009854,0x80019054,800cd120,24,11,無人レドラーが接近中。,Drone Redlers inbound.,22,no,draft,table-driven; use pointer redirection
 TXT-1209,story,P1,inplace,00986c,0x8001906c,800cd11c,24,11,エレミア砂漠方面より、,Elemia Desert:,14,no,draft,table-driven; use pointer redirection
 TXT-1210,story,P1,inplace,009884,0x80019084,800cd0e4,12,5,なんだ？！,What?!,6,no,draft,table-driven; use pointer redirection
-TXT-1211,story,P1,inplace,009890,0x80019090,800cd2d4,28,13,敵部隊への反撃にうつるぞ！,Counterattack the enemy unit!,29,no,draft,table-driven; use pointer redirection
-TXT-1212,story,P1,inplace,0098ac,0x800190ac,800cd2d0,28,13,このまま、エレミア砂漠の,"As it is, the Elemia Desert's",29,no,draft,table-driven; use pointer redirection
-TXT-1213,story,P1,inplace,0098c8,0x800190c8,800cd2bc,16,7,ないようだな。,It doesn't seem so.,19,no,draft,table-driven; use pointer redirection
-TXT-1214,story,P1,inplace,0098d8,0x800190d8,800cd2b8,28,13,とりあえず、町への被害は,"For now, there is no damage to the town.",40,no,draft,table-driven; use pointer redirection
-TXT-1215,story,P1,inplace,0098f4,0x800190f4,800cd388,24,11,判断は君にまかせる。,I leave the judgment to you.,28,no,draft,table-driven; use pointer redirection
-TXT-1216,story,P1,inplace,00990c,0x8001910c,800cd370,16,7,するだろう。,They will.,10,no,draft,table-driven; use pointer redirection
-TXT-1217,story,P1,inplace,00991c,0x8001911c,800cd36c,28,13,リーダーを倒せば、敵は退却,Defeat the leader and they'll retreat.,38,no,draft,table-driven; use pointer redirection
-TXT-1218,story,P1,inplace,009938,0x80019138,800cd340,32,15,隊長機はレッドホーンと確認。,Leader unit confirmed as Red Horn.,34,no,draft,table-driven; use pointer redirection
-TXT-1219,story,P1,inplace,009958,0x80019158,800cd314,24,11,ガイガロスの部隊だな。,That's Gaigalus's unit.,23,no,draft,table-driven; use pointer redirection
-TXT-1220,story,P1,inplace,009970,0x80019170,800cd310,20,9,前方に見えるのは、,What you see ahead is,21,no,draft,table-driven; use pointer redirection
-TXT-1221,story,P1,inplace,009984,0x80019184,800cd474,24,11,ストックにまわします。,We'll put it in stock.,22,no,draft,table-driven; use pointer redirection
-TXT-1222,story,P1,inplace,00999c,0x8001919c,800cd470,24,11,物資がとどいています。,Supplies have arrived.,22,no,draft,table-driven; use pointer redirection
-TXT-1223,story,P1,inplace,0099b4,0x800191b4,800cd46c,28,13,ニューヘリックシティより,From New Helic City,19,no,draft,table-driven; use pointer redirection
-TXT-1224,story,P1,inplace,0099d0,0x800191d0,800cd42c,32,15,全軍、すみやかに移動を開始！,"All units, begin moving immediately!",36,no,draft,table-driven; use pointer redirection
-TXT-1225,story,P1,inplace,0099f0,0x800191f0,800cd418,20,9,そこから攻める。,We'll attack from there.,24,no,draft,table-driven; use pointer redirection
-TXT-1226,story,P1,inplace,009a04,0x80019204,800cd414,28,13,ガイガロスの北に移動し、,"Move north of Gaigalus,",23,no,draft,table-driven; use pointer redirection
-TXT-1227,story,P1,inplace,009a20,0x80019220,800cd410,28,13,そのため、まわり道をして、,"Therefore, take a detour,",25,no,draft,table-driven; use pointer redirection
-TXT-1228,story,P1,inplace,009a3c,0x8001923c,800cd3fc,28,13,守備は強固になるだろう。,The defense will become stronger.,33,no,draft,table-driven; use pointer redirection
-TXT-1229,story,P1,inplace,009a58,0x80019258,800cd3f8,28,13,ガイガロスに向かうルートの,The route to Gaigalus,21,no,draft,table-driven; use pointer redirection
-TXT-1230,story,P1,inplace,009a74,0x80019274,800cd3f4,24,11,敵を全滅させたことで、,"By annihilating the enemy,",26,no,draft,table-driven; use pointer redirection
-TXT-1231,story,P1,inplace,009a8c,0x8001928c,800cd3c8,24,11,すべて停止しました！,All stopped!,12,no,draft,table-driven; use pointer redirection
-TXT-1232,story,P1,inplace,009aa4,0x800192a4,800cd3c4,12,5,敵ゾイド、,"Enemy Zoids,",12,no,draft,table-driven; use pointer redirection
-TXT-1233,story,P1,inplace,009ab0,0x800192b0,800cd534,32,15,よし、このまま、後を追うぞ！,"Good, chase them as they are!",29,no,draft,table-driven; use pointer redirection
-TXT-1234,story,P1,inplace,009ad0,0x800192d0,800cd508,20,9,後退してゆきます。,They're retreating.,19,no,draft,table-driven; use pointer redirection
-TXT-1235,story,P1,inplace,009ae4,0x800192e4,800cd504,28,13,敵部隊、レッドリバー方面へ,"Enemy unit, toward Red River",28,no,draft,table-driven; use pointer redirection
+TXT-1211,story,P1,inplace,009890,0x80019090,800cd2d4,28,13,敵部隊への反撃にうつるぞ！,in the Elemia Desert!,21,no,draft,table-driven; use pointer redirection
+TXT-1212,story,P1,inplace,0098ac,0x800190ac,800cd2d0,28,13,このまま、エレミア砂漠の,Let's strike back,17,no,draft,table-driven; use pointer redirection
+TXT-1213,story,P1,inplace,0098c8,0x800190c8,800cd2bc,16,7,ないようだな。,unharmed.,9,no,draft,table-driven; use pointer redirection
+TXT-1214,story,P1,inplace,0098d8,0x800190d8,800cd2b8,28,13,とりあえず、町への被害は,The town seems,14,no,draft,table-driven; use pointer redirection
+TXT-1215,story,P1,inplace,0098f4,0x800190f4,800cd388,24,11,判断は君にまかせる。,Your call.,10,yes,draft,table-driven; use pointer redirection
+TXT-1216,story,P1,inplace,00990c,0x8001910c,800cd370,16,7,するだろう。,and they'll likely retreat.,27,no,draft,table-driven; use pointer redirection
+TXT-1217,story,P1,inplace,00991c,0x8001911c,800cd36c,28,13,リーダーを倒せば、敵は退却,Take out their leader,21,no,draft,table-driven; use pointer redirection
+TXT-1218,story,P1,inplace,009938,0x80019138,800cd340,32,15,隊長機はレッドホーンと確認。,Their leader pilots a Red Horn.,31,no,draft,table-driven; use pointer redirection
+TXT-1219,story,P1,inplace,009958,0x80019158,800cd314,24,11,ガイガロスの部隊だな。,are from Gaigalus.,18,no,draft,table-driven; use pointer redirection
+TXT-1220,story,P1,inplace,009970,0x80019170,800cd310,20,9,前方に見えるのは、,Those troops ahead,18,no,draft,table-driven; use pointer redirection
+TXT-1221,story,P1,inplace,009984,0x80019184,800cd474,24,11,ストックにまわします。,We'll put them in storage.,26,no,draft,table-driven; use pointer redirection
+TXT-1222,story,P1,inplace,00999c,0x8001919c,800cd470,24,11,物資がとどいています。,from New Helic City.,20,no,draft,table-driven; use pointer redirection
+TXT-1223,story,P1,inplace,0099b4,0x800191b4,800cd46c,28,13,ニューヘリックシティより,Supplies have arrived,21,no,draft,table-driven; use pointer redirection
+TXT-1224,story,P1,inplace,0099d0,0x800191d0,800cd42c,32,15,全軍、すみやかに移動を開始！,"All units, move out!",20,no,draft,table-driven; use pointer redirection
+TXT-1225,story,P1,inplace,0099f0,0x800191f0,800cd418,20,9,そこから攻める。,and attack from there.,22,no,draft,table-driven; use pointer redirection
+TXT-1226,story,P1,inplace,009a04,0x80019204,800cd414,28,13,ガイガロスの北に移動し、,north of Gaigalus,17,no,draft,table-driven; use pointer redirection
+TXT-1227,story,P1,inplace,009a20,0x80019220,800cd410,28,13,そのため、まわり道をして、,We'll take a detour,19,no,draft,table-driven; use pointer redirection
+TXT-1228,story,P1,inplace,009a3c,0x8001923c,800cd3fc,28,13,守備は強固になるだろう。,on the road to Gaigalus.,24,no,draft,table-driven; use pointer redirection
+TXT-1229,story,P1,inplace,009a58,0x80019258,800cd3f8,28,13,ガイガロスに向かうルートの,Expect tighter defenses,23,no,draft,table-driven; use pointer redirection
+TXT-1230,story,P1,inplace,009a74,0x80019274,800cd3f4,24,11,敵を全滅させたことで、,We wiped them out.,18,no,draft,table-driven; use pointer redirection
+TXT-1231,story,P1,inplace,009a8c,0x8001928c,800cd3c8,24,11,すべて停止しました！,have stopped!,13,no,draft,table-driven; use pointer redirection
+TXT-1232,story,P1,inplace,009aa4,0x800192a4,800cd3c4,12,5,敵ゾイド、,All enemy Zoids,15,no,draft,table-driven; use pointer redirection
+TXT-1233,story,P1,inplace,009ab0,0x800192b0,800cd534,32,15,よし、このまま、後を追うぞ！,Good. Stay on their tail!,25,no,draft,table-driven; use pointer redirection
+TXT-1234,story,P1,inplace,009ad0,0x800192d0,800cd508,20,9,後退してゆきます。,toward Red River.,17,no,draft,table-driven; use pointer redirection
+TXT-1235,story,P1,inplace,009ae4,0x800192e4,800cd504,28,13,敵部隊、レッドリバー方面へ,The enemy is retreating,23,no,draft,table-driven; use pointer redirection
 TXT-1236,story,P1,inplace,009b00,0x80019300,800cd644,28,13,ひるんだスキに突破する！,Break through while they hesitate!,34,no,draft,table-driven; use pointer redirection
 TXT-1237,story,P1,inplace,009b1c,0x8001931c,800cd640,32,15,ある程度のダメージをあたえて,After dealing a certain amount of damage,40,no,draft,table-driven; use pointer redirection
 TXT-1238,story,P1,inplace,009b3c,0x8001933c,800cd63c,20,9,戦闘準備を急げ！,Hurry battle preparations!,26,no,draft,table-driven; use pointer redirection

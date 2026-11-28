@@ -1209,31 +1209,31 @@ TXT-1207,009840,80019040,17,8,story,inplace,1,800cd14c,20,9,19,P1,translated,つ
 TXT-1208,009854,80019054,23,11,story,inplace,1,800cd120,24,11,23,P1,translated,無人レドラーが接近中。,Drone Redlers inbound.,1 pointer(s); pointer redirection
 TXT-1209,00986c,8001906c,23,11,story,inplace,1,800cd11c,24,11,23,P1,translated,エレミア砂漠方面より、,Elemia Desert:,1 pointer(s); pointer redirection
 TXT-1210,009884,80019084,11,5,story,inplace,1,800cd0e4,12,5,11,P1,translated,なんだ？！,What?!,1 pointer(s); pointer redirection
-TXT-1211,009890,80019090,27,13,story,inplace,1,800cd2d4,28,13,27,P1,translated,敵部隊への反撃にうつるぞ！,Counterattack the enemy unit!,1 pointer(s); pointer redirection
-TXT-1212,0098ac,800190ac,25,12,story,inplace,1,800cd2d0,28,13,27,P1,translated,このまま、エレミア砂漠の,"As it is, the Elemia Desert's",1 pointer(s); pointer redirection
-TXT-1213,0098c8,800190c8,15,7,story,inplace,1,800cd2bc,16,7,15,P1,translated,ないようだな。,It doesn't seem so.,1 pointer(s); pointer redirection
-TXT-1214,0098d8,800190d8,25,12,story,inplace,1,800cd2b8,28,13,27,P1,translated,とりあえず、町への被害は,"For now, there is no damage to the town.",1 pointer(s); pointer redirection
-TXT-1215,0098f4,800190f4,21,10,story,inplace,1,800cd388,24,11,23,P1,translated,判断は君にまかせる。,I leave the judgment to you.,1 pointer(s); pointer redirection
-TXT-1216,00990c,8001910c,13,6,story,inplace,1,800cd370,16,7,15,P1,translated,するだろう。,They will.,1 pointer(s); pointer redirection
-TXT-1217,00991c,8001911c,27,13,story,inplace,1,800cd36c,28,13,27,P1,translated,リーダーを倒せば、敵は退却,Defeat the leader and they'll retreat.,1 pointer(s); pointer redirection
-TXT-1218,009938,80019138,29,14,story,inplace,1,800cd340,32,15,31,P1,translated,隊長機はレッドホーンと確認。,Leader unit confirmed as Red Horn.,1 pointer(s); pointer redirection
-TXT-1219,009958,80019158,23,11,story,inplace,1,800cd314,24,11,23,P1,translated,ガイガロスの部隊だな。,That's Gaigalus's unit.,1 pointer(s); pointer redirection
-TXT-1220,009970,80019170,19,9,story,inplace,1,800cd310,20,9,19,P1,translated,前方に見えるのは、,What you see ahead is,1 pointer(s); pointer redirection
-TXT-1221,009984,80019184,23,11,story,inplace,2,800cd474,24,11,23,P1,translated,ストックにまわします。,We'll put it in stock.,2 pointer(s); pointer redirection
-TXT-1222,00999c,8001919c,23,11,story,inplace,2,800cd470,24,11,23,P1,translated,物資がとどいています。,Supplies have arrived.,2 pointer(s); pointer redirection
-TXT-1223,0099b4,800191b4,25,12,story,inplace,2,800cd46c,28,13,27,P1,translated,ニューヘリックシティより,From New Helic City,2 pointer(s); pointer redirection
-TXT-1224,0099d0,800191d0,29,14,story,inplace,1,800cd42c,32,15,31,P1,translated,全軍、すみやかに移動を開始！,"All units, begin moving immediately!",1 pointer(s); pointer redirection
-TXT-1225,0099f0,800191f0,17,8,story,inplace,1,800cd418,20,9,19,P1,translated,そこから攻める。,We'll attack from there.,1 pointer(s); pointer redirection
-TXT-1226,009a04,80019204,25,12,story,inplace,1,800cd414,28,13,27,P1,translated,ガイガロスの北に移動し、,"Move north of Gaigalus,",1 pointer(s); pointer redirection
-TXT-1227,009a20,80019220,27,13,story,inplace,1,800cd410,28,13,27,P1,translated,そのため、まわり道をして、,"Therefore, take a detour,",1 pointer(s); pointer redirection
-TXT-1228,009a3c,8001923c,25,12,story,inplace,1,800cd3fc,28,13,27,P1,translated,守備は強固になるだろう。,The defense will become stronger.,1 pointer(s); pointer redirection
-TXT-1229,009a58,80019258,27,13,story,inplace,1,800cd3f8,28,13,27,P1,translated,ガイガロスに向かうルートの,The route to Gaigalus,1 pointer(s); pointer redirection
-TXT-1230,009a74,80019274,23,11,story,inplace,1,800cd3f4,24,11,23,P1,translated,敵を全滅させたことで、,"By annihilating the enemy,",1 pointer(s); pointer redirection
-TXT-1231,009a8c,8001928c,21,10,story,inplace,1,800cd3c8,24,11,23,P1,translated,すべて停止しました！,All stopped!,1 pointer(s); pointer redirection
-TXT-1232,009aa4,800192a4,11,5,story,inplace,1,800cd3c4,12,5,11,P1,translated,敵ゾイド、,"Enemy Zoids,",1 pointer(s); pointer redirection
-TXT-1233,009ab0,800192b0,29,14,story,inplace,1,800cd534,32,15,31,P1,translated,よし、このまま、後を追うぞ！,"Good, chase them as they are!",1 pointer(s); pointer redirection
-TXT-1234,009ad0,800192d0,19,9,story,inplace,1,800cd508,20,9,19,P1,translated,後退してゆきます。,They're retreating.,1 pointer(s); pointer redirection
-TXT-1235,009ae4,800192e4,27,13,story,inplace,1,800cd504,28,13,27,P1,translated,敵部隊、レッドリバー方面へ,"Enemy unit, toward Red River",1 pointer(s); pointer redirection
+TXT-1211,009890,80019090,27,13,story,inplace,1,800cd2d4,28,13,27,P1,translated,敵部隊への反撃にうつるぞ！,in the Elemia Desert!,1 pointer(s); pointer redirection
+TXT-1212,0098ac,800190ac,25,12,story,inplace,1,800cd2d0,28,13,27,P1,translated,このまま、エレミア砂漠の,Let's strike back,1 pointer(s); pointer redirection
+TXT-1213,0098c8,800190c8,15,7,story,inplace,1,800cd2bc,16,7,15,P1,translated,ないようだな。,unharmed.,1 pointer(s); pointer redirection
+TXT-1214,0098d8,800190d8,25,12,story,inplace,1,800cd2b8,28,13,27,P1,translated,とりあえず、町への被害は,The town seems,1 pointer(s); pointer redirection
+TXT-1215,0098f4,800190f4,21,10,story,inplace,1,800cd388,24,11,23,P1,translated,判断は君にまかせる。,Your call.,1 pointer(s); pointer redirection
+TXT-1216,00990c,8001910c,13,6,story,inplace,1,800cd370,16,7,15,P1,translated,するだろう。,and they'll likely retreat.,1 pointer(s); pointer redirection
+TXT-1217,00991c,8001911c,27,13,story,inplace,1,800cd36c,28,13,27,P1,translated,リーダーを倒せば、敵は退却,Take out their leader,1 pointer(s); pointer redirection
+TXT-1218,009938,80019138,29,14,story,inplace,1,800cd340,32,15,31,P1,translated,隊長機はレッドホーンと確認。,Their leader pilots a Red Horn.,1 pointer(s); pointer redirection
+TXT-1219,009958,80019158,23,11,story,inplace,1,800cd314,24,11,23,P1,translated,ガイガロスの部隊だな。,are from Gaigalus.,1 pointer(s); pointer redirection
+TXT-1220,009970,80019170,19,9,story,inplace,1,800cd310,20,9,19,P1,translated,前方に見えるのは、,Those troops ahead,1 pointer(s); pointer redirection
+TXT-1221,009984,80019184,23,11,story,inplace,2,800cd474,24,11,23,P1,translated,ストックにまわします。,We'll put them in storage.,2 pointer(s); pointer redirection
+TXT-1222,00999c,8001919c,23,11,story,inplace,2,800cd470,24,11,23,P1,translated,物資がとどいています。,from New Helic City.,2 pointer(s); pointer redirection
+TXT-1223,0099b4,800191b4,25,12,story,inplace,2,800cd46c,28,13,27,P1,translated,ニューヘリックシティより,Supplies have arrived,2 pointer(s); pointer redirection
+TXT-1224,0099d0,800191d0,29,14,story,inplace,1,800cd42c,32,15,31,P1,translated,全軍、すみやかに移動を開始！,"All units, move out!",1 pointer(s); pointer redirection
+TXT-1225,0099f0,800191f0,17,8,story,inplace,1,800cd418,20,9,19,P1,translated,そこから攻める。,and attack from there.,1 pointer(s); pointer redirection
+TXT-1226,009a04,80019204,25,12,story,inplace,1,800cd414,28,13,27,P1,translated,ガイガロスの北に移動し、,north of Gaigalus,1 pointer(s); pointer redirection
+TXT-1227,009a20,80019220,27,13,story,inplace,1,800cd410,28,13,27,P1,translated,そのため、まわり道をして、,We'll take a detour,1 pointer(s); pointer redirection
+TXT-1228,009a3c,8001923c,25,12,story,inplace,1,800cd3fc,28,13,27,P1,translated,守備は強固になるだろう。,on the road to Gaigalus.,1 pointer(s); pointer redirection
+TXT-1229,009a58,80019258,27,13,story,inplace,1,800cd3f8,28,13,27,P1,translated,ガイガロスに向かうルートの,Expect tighter defenses,1 pointer(s); pointer redirection
+TXT-1230,009a74,80019274,23,11,story,inplace,1,800cd3f4,24,11,23,P1,translated,敵を全滅させたことで、,We wiped them out.,1 pointer(s); pointer redirection
+TXT-1231,009a8c,8001928c,21,10,story,inplace,1,800cd3c8,24,11,23,P1,translated,すべて停止しました！,have stopped!,1 pointer(s); pointer redirection
+TXT-1232,009aa4,800192a4,11,5,story,inplace,1,800cd3c4,12,5,11,P1,translated,敵ゾイド、,All enemy Zoids,1 pointer(s); pointer redirection
+TXT-1233,009ab0,800192b0,29,14,story,inplace,1,800cd534,32,15,31,P1,translated,よし、このまま、後を追うぞ！,Good. Stay on their tail!,1 pointer(s); pointer redirection
+TXT-1234,009ad0,800192d0,19,9,story,inplace,1,800cd508,20,9,19,P1,translated,後退してゆきます。,toward Red River.,1 pointer(s); pointer redirection
+TXT-1235,009ae4,800192e4,27,13,story,inplace,1,800cd504,28,13,27,P1,translated,敵部隊、レッドリバー方面へ,The enemy is retreating,1 pointer(s); pointer redirection
 TXT-1236,009b00,80019300,25,12,story,inplace,1,800cd644,28,13,27,P1,translated,ひるんだスキに突破する！,Break through while they hesitate!,1 pointer(s); pointer redirection
 TXT-1237,009b1c,8001931c,29,14,story,inplace,1,800cd640,32,15,31,P1,translated,ある程度のダメージをあたえて,After dealing a certain amount of damage,1 pointer(s); pointer redirection
 TXT-1238,009b3c,8001933c,17,8,story,inplace,1,800cd63c,20,9,19,P1,translated,戦闘準備を急げ！,Hurry battle preparations!,1 pointer(s); pointer redirection
