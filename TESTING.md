@@ -184,6 +184,8 @@ The English runtime reads the requested background page from `TIM/W_MES4.TIM` th
 
 ### Text
 
+The complete Zoid album check opened each of the 81 full-size faces from a disposable album save. The rendered portrait and measurement strip were compared with their corresponding pack texture. Bear Fighter TP lists quadrupedal and bipedal measurements in that order. Its weight is 45.6 t in either stance. The card-by-card sources and variant notes are in `analysis/ZOID_PRINT_REFERENCES.csv`.
+
 Four further dimension strips were checked against printed cards. Shield Liger weighs 92 t and Dibison weighs 230 t. Gojulas the Ogre and Gojulas HG-1 both measure 26 m long and 21 m high, but their printed weights are 230 t and 235 t respectively. Pixel comparisons on the regenerated full-size and miniature textures confined the changes to the measurement strip. [Shield Liger](https://ameblo.jp/bluekoara/entry-12251255197.html) · [Dibison](https://ameblo.jp/bluekoara/entry-12251885771.html) · [Gojulas the Ogre](https://ameblo.jp/bluekoara/entry-12256766101.html) · [Gojulas HG-1](https://ameblo.jp/bluekoara/entry-12257648175.html)
 
 Open Hand in Republic Stage 2 and compare the selected Zoid Core Booster with the six dimmed cards. Its rule and equipment badges should appear inside the thumbnail. Move the cursor to check the adjoining cards. Open the same card in the Card Album for the larger lettering. The thumbnail builder uses the matching English face for the printed panels and the retail miniature for the surrounding picture and frame. Compare each generated thumbnail's alpha channel with its original palette capture or disc miniature at the same scale. A fully transparent palette should also hide the name and rules.
