@@ -1799,7 +1799,7 @@ TXT-1797,ui,P0,inplace,00d0b0,0x8001c8b0,800d2560,16,7,射出する方向を,lau
 TXT-1798,ui,P0,inplace,00d0c0,0x8001c8c0,800d25ac,24,11,１枚だけ破壊します。,destroy only 1.,15,no,draft,table-driven; use pointer redirection
 TXT-1799,ui,P0,inplace,00d0d8,0x8001c8d8,800d25a8,28,13,装備中のカスタムカードを,equipped Custom card,20,no,draft,table-driven; use pointer redirection
 TXT-1800,ui,P0,inplace,00d0f4,0x8001c8f4,800d25a4,28,13,ダメージを与える代わりに,"instead of dealing damage,",26,no,draft,table-driven; use pointer redirection
-TXT-1801,ui,P0,inplace,00d110,0x8001c910,800d27bc,32,15,カード補給エリアへようこそ！,Moonbay's Card Supply!,22,no,draft,table-driven; use pointer redirection
+TXT-1801,ui,P0,inplace,00d110,0x8001c910,800d27bc,32,15,カード補給エリアへようこそ！,Moonbay's shop,14,yes,draft,table-driven; use pointer redirection
 TXT-1802,ui,P0,inplace,00d130,0x8001c930,800d27b8,12,5,ムンベイの,Welcome to,10,no,draft,table-driven; use pointer redirection
 TXT-1803,ui,P0,inplace,00d13c,0x8001c93c,800d27e0,20,9,入手できるのよ。,you can get it.,15,no,draft,table-driven; use pointer redirection
 TXT-1804,ui,P0,inplace,00d150,0x8001c950,800d27dc,24,11,新しいゾイドやカードを,new Zoids and cards,19,no,draft,table-driven; use pointer redirection

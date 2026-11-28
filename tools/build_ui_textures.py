@@ -485,6 +485,9 @@ def main():
             parser.error(f"Missing the full {dimensions} reference for {upload}")
         output.mkdir(parents=True, exist_ok=True)
         for name, (original, box) in variants.items():
+            if original.getchannel("A").getbbox() is None:
+                original.save(output / name)
+                continue
             max_light = average_light(reference.crop(box))
             ratio = min(1, average_light(original) / max_light) if max_light else 0
             edited = Image.new("RGBA", dimensions)

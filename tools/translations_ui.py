@@ -177,7 +177,7 @@ UI = {
     "TXT-1798": "destroy only 1.",
     "TXT-1799": "equipped Custom card",
     "TXT-1800": "instead of dealing damage,",
-    "TXT-1801": "Moonbay's Card Supply!",
+    "TXT-1801": "Moonbay's shop",
     "TXT-1802": "Welcome to",
     "TXT-1803": "you can get it.",
     "TXT-1804": "new Zoids and cards",

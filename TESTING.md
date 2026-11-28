@@ -263,3 +263,20 @@ When reporting a bug, include:
 - screenshot,
 - `xlate stats` output,
 - whether it reproduces after a fresh boot.
+
+## Card and menu audit
+
+The SLPS-03255 catalog contains 81 Zoid, 88 Custom, 70 Event, and 35 Pilot cards. Check both the 512 × 640 detail face and the 192 × 256 thumbnail. The thumbnail pack includes 505 normal and captured palette variants. The full face carries the complete English name. A thumbnail can use the existing compact card label when the full name exceeds its printed band. The two Liger Zero frontal melee bonus numerals still use the retail artwork.
+
+| Menu family | Evidence | Coverage still open |
+| --- | --- | --- |
+| Mode Select, Scenario, Free Mode | Opened all five branches from Mode Select. Checked Scenario commands, the empty-card message and Free Mode nation selection. | All combinations of Free Mode settings |
+| Trade | Opened the Trade screen and checked its start prompt and memory-card message. | Completed transfer between two populated cards |
+| Album | Opened the English album selector. Card detail, Zoid Album and Movie Album have in-game captures. Both Death Saurer clips returned to the movie grid. | Playback of every individual clip |
+| Options | Opened Options and changed the button mapping. | Persistence of every setting after restart |
+| Deployment, deck and gameplay | Existing captures cover roster and deck selection, card targeting, turn banners and all four battle phases. | Every deck-editor operation and every scripted choice |
+| Operations Base, Supply, Save | Existing English captures cover Sortie, Info, Hand, Supply and Save, the shop buttons and save prompts. A legacy checkpoint without a matching HD resource sidecar can restore Japanese button art. | Every shop transaction and save error path |
+| Battle Results | Both factions displayed English headings and points using deployment fixtures. A regular Republic training victory awarded 2,000 points and advanced to the next briefing. | Empire campaign completion |
+
+The text audit checks 59 menu, 228 UI and 67 system records alongside 1,231 story records. Its pointer and coverage checks complement the screen checks above. A translated record alone cannot verify its order or fit in a scene.
+The revised Supply greeting was verified in-game. The settled panel displays both lines in order beside the English Buy and Cancel commands.

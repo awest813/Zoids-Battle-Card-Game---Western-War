@@ -1797,7 +1797,7 @@ TXT-1797,ui,射出する方向を,0x8001c8b0,1,800d2560,16,7,launch direction
 TXT-1798,ui,１枚だけ破壊します。,0x8001c8c0,1,800d25ac,24,11,destroy only 1.
 TXT-1799,ui,装備中のカスタムカードを,0x8001c8d8,1,800d25a8,28,13,equipped Custom card
 TXT-1800,ui,ダメージを与える代わりに,0x8001c8f4,1,800d25a4,28,13,"instead of dealing damage,"
-TXT-1801,ui,カード補給エリアへようこそ！,0x8001c910,1,800d27bc,32,15,Moonbay's Card Supply!
+TXT-1801,ui,カード補給エリアへようこそ！,0x8001c910,1,800d27bc,32,15,Moonbay's shop
 TXT-1802,ui,ムンベイの,0x8001c930,1,800d27b8,12,5,Welcome to
 TXT-1803,ui,入手できるのよ。,0x8001c93c,1,800d27e0,20,9,you can get it.
 TXT-1804,ui,新しいゾイドやカードを,0x8001c950,1,800d27dc,24,11,new Zoids and cards

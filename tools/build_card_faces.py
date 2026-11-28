@@ -6,12 +6,13 @@ import struct
 from collections import defaultdict
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageColor, ImageDraw, ImageFont
 
 from build_ui_textures import average_light, faded
 from card_catalog import card_records, cep_rule_indices, english_names, face_data
 from card_text_table import EXE
 from packed_ui import paletted_image
+from translations_card_labels import COMPACT_CARD_LABELS
 
 SCALE = 4
 FACE_ARCHIVE_HASH = "78ba8b1ea0a37c8e47a2c4e81d01b67453b878faf28b1b10da99e56dc0d91e40"
@@ -353,13 +354,20 @@ def scaled(box):
     return tuple(value * SCALE for value in box)
 
 
-def paint_label(face, box, label, background, ink, max_size=24):
+def paint_label(face, box, label, background, ink, max_size=24, *, fit_title=False):
     x, y, right, bottom = scaled(box)
     width, height = right - x, bottom - y
     face.paste(background, (x, y, right, bottom))
     if not label:
         return
     font = ImageFont.truetype("arialbd.ttf", max_size)
+    if fit_title:
+        # Size the type before rasterizing so long names retain their proportions.
+        while font.size > 1:
+            left, top, edge, base = font.getbbox(label)
+            if edge - left <= width - 4 and base - top <= height - 2:
+                break
+            font = font.font_variant(size=font.size - 1)
     left, top, edge, base = font.getbbox(label)
     lettering = Image.new("RGBA", (edge - left, base - top))
     ImageDraw.Draw(lettering).text((-left, -top), label, font=font, fill=ink)
@@ -432,7 +440,7 @@ def paint_liger_zero_special(face):
 
 
 def paint_zoid(face, name, index, record):
-    paint_label(face, (31, 5, 96, 13), name, "#484e56", "#fff9e2")
+    paint_label(face, (31, 5, 96, 13), name, "#484e56", "#fff9e2", fit_title=True)
     compact_stats = index in (77, 78)
     stat_offset = -4 if compact_stats else 0
     if index in ZOID_VARIANT_CAPTIONS:
@@ -531,14 +539,14 @@ def paint_cep(face, name, rule_index, category, source):
         if property_mark:
             name_box = (12, 102, property_mark[0][0], 111)
     ink = "#fff0a6" if pilot else "#fff9e6"
-    paint_label(face, name_box, name, background, ink)
+    paint_label(face, name_box, name, background, ink, fit_title=True)
     if property_mark:
         box, label, color = property_mark
         paint_label(face, box, label, color, EQUIPMENT_INK, max_size=13)
     if category == 0:
         paint_custom_equipment(face, rule_index)
     paint_rule(face, (12, 117, 117, 150), REVIEWED_RULES[rule_index], "#f1efeb")
-    return name_box
+    return name_box, background, ink
 
 
 def paint_pilot_terrain(face, record):
@@ -567,7 +575,7 @@ def thumbnail_data(archive, index):
                           archive[offset + 1544:offset + 1576], p8=False)
 
 
-def paint_thumbnail(source, panels, name_box, name, ratio):
+def paint_thumbnail(source, panels, name_box, name, title_colors, ratio):
     face = source.resize((48 * SCALE, 64 * SCALE), Image.Resampling.NEAREST)
     coverage = face.getchannel("A")
     lut = [round(value * ratio) for value in range(256)]
@@ -575,9 +583,8 @@ def paint_thumbnail(source, panels, name_box, name, ratio):
         if ratio < 1:
             panel = panel.point(lut * 3 + list(range(256)))
         face.paste(panel, position)
-    background = faded((64, 66, 66, 255), ratio)
-    ink = faded((255, 249, 226, 255), ratio)
-    paint_label(face, name_box, name, background, ink, max_size=13)
+    background, ink = (faded(color, ratio) for color in title_colors)
+    paint_label(face, name_box, name, background, ink, max_size=13, fit_title=True)
     face.putalpha(coverage)
     return face
 
@@ -611,9 +618,12 @@ def main():
             # The compact frames and the two land/sea spec strips start higher.
             panel_box = (3, 38 if index in (77, 78, 25, 64, 69) else 39, 45, 62)
             name_box = (11, 2, 36, 6)
+            title_colors = ((72, 78, 86, 255), (255, 249, 226, 255))
         else:
             category, = struct.unpack_from("<H", record, 0x28)
-            left, _, right, _ = paint_cep(face, name, cep_rules[index], category, source)
+            full_name_box, background, ink = paint_cep(face, name, cep_rules[index], category, source)
+            left, _, right, _ = full_name_box
+            title_colors = (ImageColor.getcolor(background, "RGBA"), ImageColor.getcolor(ink, "RGBA"))
             panel_box = (3, 40, 45, 61)
             name_box = (round(left * 48 / 128), 41, round(right * 48 / 128), 45)
             if category == 2:
@@ -630,7 +640,14 @@ def main():
             bounds.append((round(x * miniature.width / 128), round(y * miniature.height / 160),
                            round(right * miniature.width / 128), round(bottom * miniature.height / 160)))
         panels = [(box[:2], miniature.crop(box)) for box in bounds]
-        panel_args = (panels, name_box, name)
+        thumb_name = name
+        small_font = ImageFont.truetype("arialbd.ttf", 9)
+        available = (name_box[2] - name_box[0]) * SCALE - 4
+        if small_font.getlength(name) > available and name in COMPACT_CARD_LABELS:
+            compact = COMPACT_CARD_LABELS[name]
+            if small_font.getlength(compact) < small_font.getlength(name):
+                thumb_name = compact
+        panel_args = (panels, name_box, thumb_name, title_colors)
         paint_thumbnail(source, *panel_args, 1).save(output / target)
         reference = average_light(source)
         for path in dumps[upload]:

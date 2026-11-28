@@ -23363,7 +23363,7 @@ ptr_addrs = ["0x800d27bc"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Moonbay's Card Supply!"
+en = "Moonbay's shop"
 note = "ui inplace max=15"
 
 [[entry]]

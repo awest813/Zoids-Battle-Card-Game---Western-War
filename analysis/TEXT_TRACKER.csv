@@ -1799,7 +1799,7 @@ TXT-1797,00d0b0,8001c8b0,15,7,ui,inplace,1,800d2560,16,7,15,P0,translated,射出
 TXT-1798,00d0c0,8001c8c0,21,10,ui,inplace,1,800d25ac,24,11,23,P0,translated,１枚だけ破壊します。,destroy only 1.,1 pointer(s); pointer redirection
 TXT-1799,00d0d8,8001c8d8,25,12,ui,inplace,1,800d25a8,28,13,27,P0,translated,装備中のカスタムカードを,equipped Custom card,1 pointer(s); pointer redirection
 TXT-1800,00d0f4,8001c8f4,25,12,ui,inplace,1,800d25a4,28,13,27,P0,translated,ダメージを与える代わりに,"instead of dealing damage,",1 pointer(s); pointer redirection
-TXT-1801,00d110,8001c910,29,14,ui,inplace,1,800d27bc,32,15,31,P0,translated,カード補給エリアへようこそ！,Moonbay's Card Supply!,1 pointer(s); pointer redirection
+TXT-1801,00d110,8001c910,29,14,ui,inplace,1,800d27bc,32,15,31,P0,translated,カード補給エリアへようこそ！,Moonbay's shop,1 pointer(s); pointer redirection
 TXT-1802,00d130,8001c930,11,5,ui,inplace,1,800d27b8,12,5,11,P0,translated,ムンベイの,Welcome to,1 pointer(s); pointer redirection
 TXT-1803,00d13c,8001c93c,17,8,ui,inplace,1,800d27e0,20,9,19,P0,translated,入手できるのよ。,you can get it.,1 pointer(s); pointer redirection
 TXT-1804,00d150,8001c950,23,11,ui,inplace,1,800d27dc,24,11,23,P0,translated,新しいゾイドやカードを,new Zoids and cards,1 pointer(s); pointer redirection
