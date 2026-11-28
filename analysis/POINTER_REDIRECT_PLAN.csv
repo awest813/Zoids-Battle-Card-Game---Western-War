@@ -540,8 +540,9 @@ TXT-0524,story,『火炎放射器』,0x80014fc0,1,800c6c60,16,7,Flamethrower
 TXT-0525,story,かえってくれ！,0x80014fd0,1,800c6d54,16,7,Go back!
 TXT-0526,story,なんとしても、情報を持ち,0x80014fe0,1,800c6d50,28,13,We must bring back the information
 TXT-0527,story,戦闘はさけて、退却するんだ。,0x80014ffc,1,800c6d4c,32,15,Avoid battle and retreat.
-TXT-0528,story,出現しました。,0x8001501c,2,800c6d20;800ce948,16,7,has appeared.
-TXT-0529,story,偵察隊の周囲に、敵ゾイドが,0x8001502c,1,800c6d1c,28,13,Enemy Zoids around the scout team
+TXT-0528,story,出現しました。,0x8001501c,1,800c6d20,16,7,spotted around our scouts!
+TXT-0528,story,出現しました。,0x8001501c,1,800ce948,16,7,from beneath the sand!
+TXT-0529,story,偵察隊の周囲に、敵ゾイドが,0x8001502c,1,800c6d1c,28,13,Enemy Zoids
 TXT-0530,story,無事、偵察隊はもどってきた,0x80015048,1,800c6ce0,28,13,"Scouts made it back safely,"
 TXT-0531,story,と退却になります。,0x80015064,1,800c6dc0,20,9,and retreat.
 TXT-0532,story,味方の領地にゾイドを移動する,0x80015078,1,800c6dbc,32,15,Move a Zoid into allied territory
@@ -664,7 +665,7 @@ TXT-0648,story,今回、君にコマンダーとして,0x80015b54,1,800c96ac,28,
 TXT-0649,story,本題に入ろう。,0x80015b70,1,800c9698,16,7,Let's get to the point.
 TXT-0650,story,あいさつはこれくらいにして,0x80015b80,1,800c9694,28,13,Enough with the greetings.
 TXT-0651,story,ルドルフ皇帝の代理だ。,0x80015b9c,1,800c9680,24,11,I act for Emperor Rudolf.
-TXT-0652,story,私はプロイツェン。,0x80015bb4,1,800c967c,20,9,I am Proitzen.
+TXT-0652,story,私はプロイツェン。,0x80015bb4,1,800c967c,20,9,I am Prozen.
 TXT-0653,story,よくきた,0x80015bc8,1,800c9664,12,5,"Welcome,"
 TXT-0654,story,良い知らせを待っている。,0x80015bd4,1,800c9a48,28,13,I await good news.
 TXT-0655,story,手段は問わない。,0x80015bf0,1,800c9a34,20,9,Any means are acceptable.
@@ -1027,9 +1028,10 @@ TXT-1003,story,私が指揮をとろう。,0x80017ccc,1,800cbcbc,20,9,I will tak
 TXT-1004,story,南エウロペの作戦は,0x80017ce0,1,800cbcb8,20,9,The South Europa operation
 TXT-1005,story,成功したそうだな。,0x80017cf4,1,800cbca0,20,9,I hear it succeeded.
 TXT-1006,story,西エウロペの作戦は,0x80017d08,1,800cbc9c,20,9,The West Europa operation
-TXT-1007,story,到着しています。,0x80017d1c,2,800cbc70;800cf034,20,9,has arrived.
-TXT-1008,story,プロイツェン閣下が,0x80017d30,1,800cbc6c,20,9,Your Excellency Proitzen
-TXT-1009,story,ガイガロスより、,0x80017d44,1,800cbc68,20,9,"From Gaigalus,"
+TXT-1007,story,到着しています。,0x80017d1c,1,800cbc70,20,9,from Gaigalus.
+TXT-1007,story,到着しています。,0x80017d1c,1,800cf034,20,9,in West Europa.
+TXT-1008,story,プロイツェン閣下が,0x80017d30,1,800cbc6c,20,9,Prozen has arrived
+TXT-1009,story,ガイガロスより、,0x80017d44,1,800cbc68,20,9,His Excellency
 TXT-1010,story,早めにたたいてしまえ。,0x80017d58,1,800cbfb0,24,11,Strike them early.
 TXT-1011,story,合流されるとめんどうだな。,0x80017d70,1,800cbfac,28,13,It will be troublesome if they join up.
 TXT-1012,story,約１５分で合流します。,0x80017d8c,1,800cbf80,24,11,In about 15 minutes.
@@ -1071,8 +1073,11 @@ TXT-1045,story,いうわけか。,0x800180c4,1,800cc358,16,7,So that's why.
 TXT-1046,story,海路での移動は難しい…と,0x800180d4,1,800cc354,28,13,Moving by sea is difficult... so
 TXT-1047,story,あの基地を壊さないかぎり、,0x800180f0,1,800cc350,28,13,"Unless we destroy that base,"
 TXT-1048,story,前方に共和国の基地を確認。,0x8001810c,1,800cc324,28,13,Republic base confirmed ahead.
-TXT-1049,story,しました。,0x80018128,4,800cc310;800cef3c;800cf664;800d1328,12,5,did.
-TXT-1050,story,ユーバス山脈の東海岸に到着,0x80018134,1,800cc30c,28,13,Reached the Ubas Mountains' east coast.
+TXT-1049,story,しました。,0x80018128,1,800cc310,12,5,of the Ubas Mountains.
+TXT-1049,story,しました。,0x80018128,1,800cef3c,12,5,base on the Bront Plain.
+TXT-1049,story,しました。,0x80018128,1,800cf664,12,5,the enemy main force arrived.
+TXT-1049,story,しました。,0x80018128,1,800d1328,12,5,the damage.
+TXT-1050,story,ユーバス山脈の東海岸に到着,0x80018134,1,800cc30c,28,13,We've reached the east coast
 TXT-1051,story,『ライトニングサイクス』,0x80018150,1,800cc440,28,13,Lightning Saix
 TXT-1052,story,ニューヘリックを攻める。,0x8001816c,1,800cc3f4,28,13,Attack New Helic.
 TXT-1053,story,マダガスカル島を拠点とし、,0x80018188,1,800cc3f0,28,13,"Using Madagascar Island as a base,"
@@ -1135,7 +1140,7 @@ TXT-1109,story,（いや、変な考えはよそう。,0x800186d8,1,800ccc1c,28,
 TXT-1110,story,　良いのだが…。）,0x800186f4,1,800ccc08,20,9,"It's fine, but...)"
 TXT-1111,story,（このまま、何もなければ,0x80018708,1,800ccc04,28,13,(If nothing happens like this
 TXT-1112,story,　国民の信頼を集めている…）,0x80018724,1,800ccbf0,32,15,He has gathered the people's trust...)
-TXT-1113,story,（プロイツェンは着実に,0x80018744,1,800ccbec,24,11,(Proitzen steadily
+TXT-1113,story,（プロイツェンは着実に,0x80018744,1,800ccbec,24,11,(Prozen steadily
 TXT-1114,story,　得たのは…？）,0x8001875c,1,800ccbc4,20,9,What did he gain...?)
 TXT-1115,story,（今度の戦争で、一番の利益を,0x80018770,1,800ccbc0,32,15,"(In this war, the greatest profit"
 TXT-1116,story,ゆっくりと休暇を取ってくれ。,0x80018790,1,800ccb80,32,15,Take a long vacation.
@@ -1376,8 +1381,8 @@ TXT-1349,story,偵察隊を準備してくれ。,0x80019dc4,1,800ce380,24,11,Pre
 TXT-1350,story,『コマンドウルフ・ＡＳ』,0x80019ddc,1,800ce5d0,28,13,Command Wolf AS
 TXT-1351,story,『アーバイン』,0x80019df8,1,800ce594,16,7,Irvine
 TXT-1352,story,ハッチをあけてやれ。,0x80019e08,1,800ce548,24,11,Open the hatch.
-TXT-1353,story,情報は欲しい。,0x80019e20,1,800ce534,16,7,I want information.
-TXT-1354,story,こちらとしても、北エウロペの,0x80019e30,1,800ce530,32,15,We also want North Europa's
+TXT-1353,story,情報は欲しい。,0x80019e20,1,800ce534,16,7,"on North Europa, too."
+TXT-1354,story,こちらとしても、北エウロペの,0x80019e30,1,800ce530,32,15,We could use more intel
 TXT-1355,story,どうしましょうか？,0x80019e50,1,800ce500,20,9,What shall we do?
 TXT-1356,story,共和国に協力したい。,0x80019e64,1,800ce4c0,24,11,I want to cooperate with the Republic.
 TXT-1357,story,ということで、だ。,0x80019e7c,1,800ce4bc,20,9,"So, then."
@@ -1391,94 +1396,94 @@ TXT-1364,story,おかしな通信が入っています。,0x80019f24,1,800ce43c,
 TXT-1365,story,情報の分析を急がせよう。,0x80019f44,1,800ce404,28,13,Hurry the analysis of the information.
 TXT-1366,story,よくやってくれた。,0x80019f60,2,800ce400;800d0114,20,9,Well done.
 TXT-1367,story,攻撃の準備を頼む。,0x80019f74,1,800ce6ac,20,9,Prepare the attack.
-TXT-1368,story,攻めるなら山側からだな。,0x80019f88,1,800ce67c,28,13,We'll attack from the mountain side.
-TXT-1369,story,湖側から攻めるのはまずい。,0x80019fa4,1,800ce668,28,13,Attacking from the lake side is a bad idea.
-TXT-1370,story,得意だ。,0x80019fc0,1,800ce664,12,5,They're good at it.
-TXT-1371,story,一部の飛行ゾイドは水中戦も,0x80019fcc,1,800ce660,28,13,Some flying Zoids can also fight underwater.
-TXT-1372,story,飛行ゾイドだ。,0x80019fe8,1,800ce64c,16,7,They're flying Zoids.
-TXT-1373,story,ただし、この基地にいるのは,0x80019ff8,1,800ce648,28,13,"However, the ones at this base are"
-TXT-1374,story,帝国の基地があるんだな？,0x8001a014,1,800ce618,28,13,"There's an Imperial base here, right?"
-TXT-1375,story,ここ、ヘスペリデス湖に、,0x8001a030,1,800ce614,28,13,"Here, at Lake Hesperides,"
-TXT-1376,story,ブロント平地へ進む！,0x8001a04c,1,800ce7e4,24,11,Advance to the Bront Plain!
-TXT-1377,story,よし、レッドラストを通り、,0x8001a064,1,800ce7e0,28,13,"Good, pass through Red Last,"
-TXT-1378,story,拠点だ。,0x8001a080,1,800ce7b4,12,5,It's a stronghold.
-TXT-1379,story,そこが、帝国の北エウロペの,0x8001a08c,1,800ce7b0,28,13,That's the Empire's North Europa stronghold.
-TXT-1380,story,あとは、ブロント平地だ。,0x8001a0a8,1,800ce7ac,28,13,"After that, the Bront Plain."
-TXT-1381,story,知らないか？,0x8001a0c4,1,800ce780,16,7,You don't know?
-TXT-1382,story,他に帝国の基地の位置を,0x8001a0d4,1,800ce77c,24,11,Other Imperial base locations
-TXT-1383,story,させることにある。,0x8001a0ec,1,800ce768,20,9,is to make them withdraw.
-TXT-1384,story,北エウロペから帝国を退却,0x8001a100,1,800ce764,28,13,Withdraw the Empire from North Europa.
-TXT-1385,story,われわれの目的は、,0x8001a11c,1,800ce760,20,9,"Our objective is,"
-TXT-1386,story,わけにはいかないのだ。,0x8001a130,1,800ce74c,24,11,We can't afford to.
-TXT-1387,story,むだな破壊をして、消耗する,0x8001a148,1,800ce748,28,13,Pointless destruction and attrition
-TXT-1388,story,また帝国のやつらがくるぜ。,0x8001a164,1,800ce71c,28,13,The Imperial bastards will come again.
-TXT-1389,story,基地を破壊しておかないと、,0x8001a180,1,800ce718,28,13,"If we don't destroy the base,"
-TXT-1390,story,あまいな。,0x8001a19c,1,800ce714,12,5,That's naive.
-TXT-1391,story,よし、敵の反撃はもうないな？,0x8001a1a8,1,800ce6e8,32,15,"Good, no more enemy counterattack?"
-TXT-1392,story,オリンポス山に向かう。,0x8001a1c8,1,800ce8c4,24,11,We're heading for Mount Olympus.
-TXT-1393,story,最終目的地をブロント平地とし,0x8001a1e0,1,800ce8c0,32,15,Our final destination is the Bront Plain.
+TXT-1368,story,攻めるなら山側からだな。,0x80019f88,1,800ce67c,28,13,Let's attack from the mountains.
+TXT-1369,story,湖側から攻めるのはまずい。,0x80019fa4,1,800ce668,28,13,We'd be exposed on the lake.
+TXT-1370,story,得意だ。,0x80019fc0,1,800ce664,12,5,"fight well underwater, too."
+TXT-1371,story,一部の飛行ゾイドは水中戦も,0x80019fcc,1,800ce660,28,13,Some flying Zoids
+TXT-1372,story,飛行ゾイドだ。,0x80019fe8,1,800ce64c,16,7,are all flying types.
+TXT-1373,story,ただし、この基地にいるのは,0x80019ff8,1,800ce648,28,13,But the Zoids stationed here
+TXT-1374,story,帝国の基地があるんだな？,0x8001a014,1,800ce618,28,13,here at Lake Hesperides?
+TXT-1375,story,ここ、ヘスペリデス湖に、,0x8001a030,1,800ce614,28,13,So the Empire has a base
+TXT-1376,story,ブロント平地へ進む！,0x8001a04c,1,800ce7e4,24,11,and on to the Bront Plain!
+TXT-1377,story,よし、レッドラストを通り、,0x8001a064,1,800ce7e0,28,13,Then we'll go through Red Last
+TXT-1378,story,拠点だ。,0x8001a080,1,800ce7b4,12,5,in North Europa.
+TXT-1379,story,そこが、帝国の北エウロペの,0x8001a08c,1,800ce7b0,28,13,That's their stronghold
+TXT-1380,story,あとは、ブロント平地だ。,0x8001a0a8,1,800ce7ac,28,13,There's one on the Bront Plain.
+TXT-1381,story,知らないか？,0x8001a0c4,1,800ce780,16,7,other Imperial bases?
+TXT-1382,story,他に帝国の基地の位置を,0x8001a0d4,1,800ce77c,24,11,Do you know of any
+TXT-1383,story,させることにある。,0x8001a0ec,1,800ce768,20,9,North Europa.
+TXT-1384,story,北エウロペから帝国を退却,0x8001a100,1,800ce764,28,13,forces out of
+TXT-1385,story,われわれの目的は、,0x8001a11c,1,800ce760,20,9,Drive Imperial
+TXT-1386,story,わけにはいかないのだ。,0x8001a130,1,800ce74c,24,11,destroying things for no reason.
+TXT-1387,story,むだな破壊をして、消耗する,0x8001a148,1,800ce748,28,13,We can't wear ourselves out
+TXT-1388,story,また帝国のやつらがくるぜ。,0x8001a164,1,800ce71c,28,13,and the Imperials will be back.
+TXT-1389,story,基地を破壊しておかないと、,0x8001a180,1,800ce718,28,13,Leave the base standing
+TXT-1390,story,あまいな。,0x8001a19c,1,800ce714,12,5,Don't count on it.
+TXT-1391,story,よし、敵の反撃はもうないな？,0x8001a1a8,1,800ce6e8,32,15,Good. Is that the last of them?
+TXT-1392,story,オリンポス山に向かう。,0x8001a1c8,1,800ce8c4,24,11,"First, we head for Mount Olympus."
+TXT-1393,story,最終目的地をブロント平地とし,0x8001a1e0,1,800ce8c0,32,15,The Bront Plain is our final goal.
 TXT-1394,story,わかった。,0x8001a200,1,800ce8ac,12,5,Understood.
-TXT-1395,story,重要拠点のようです。,0x8001a20c,1,800ce880,24,11,It seems to be an important stronghold.
-TXT-1396,story,また、ブロント平地の基地が,0x8001a224,1,800ce87c,28,13,"Also, the base on the Bront Plain"
+TXT-1395,story,重要拠点のようです。,0x8001a20c,1,800ce880,24,11,also seems to be a key position.
+TXT-1396,story,また、ブロント平地の基地が,0x8001a224,1,800ce87c,28,13,Their base on the Bront Plain
 TXT-1397,story,オリンポス山に研究施設が,0x8001a240,1,800ce864,28,13,There seems to be a research facility
-TXT-1398,story,情報を入手しました。,0x8001a25c,1,800ce850,24,11,We obtained information.
-TXT-1399,story,敵の通信記録から、施設の,0x8001a274,1,800ce84c,28,13,Enemy communications reveal the facility's
-TXT-1400,story,何か情報はないか？,0x8001a290,1,800ce820,20,9,Is there any information?
+TXT-1398,story,情報を入手しました。,0x8001a25c,1,800ce850,24,11,from the enemy's radio logs.
+TXT-1399,story,敵の通信記録から、施設の,0x8001a274,1,800ce84c,28,13,We learned about the facility
+TXT-1400,story,何か情報はないか？,0x8001a290,1,800ce820,20,9,What have we learned?
 TXT-1401,story,まちぶせです。,0x8001a2a4,1,800ce94c,16,7,It's an ambush.
-TXT-1402,story,帝国のゾイドが砂の中より,0x8001a2b4,1,800ce944,28,13,Imperial Zoids from the sand
+TXT-1402,story,帝国のゾイドが砂の中より,0x8001a2b4,1,800ce944,28,13,Imperial Zoids just emerged
 TXT-1403,story,『マンモス』,0x8001a2d0,1,800cea1c,16,7,Mammoth
-TXT-1404,story,よし、回収したら、先に進む。,0x8001a2e0,1,800ce9d0,32,15,"Good, once recovered, we advance."
+TXT-1404,story,よし、回収したら、先に進む。,0x8001a2e0,1,800ce9d0,32,15,"Good. Once it's recovered, we move on."
 TXT-1405,story,使えそうです。,0x8001a300,1,800ce9a4,16,7,It looks usable.
-TXT-1406,story,発見したもようです。,0x8001a310,1,800ce9a0,24,11,It seems they found it.
-TXT-1407,story,回収班が、遺跡でゾイドを,0x8001a328,1,800ce99c,28,13,The recovery team found a Zoid in the ruins.
+TXT-1406,story,発見したもようです。,0x8001a310,1,800ce9a0,24,11,finding a Zoid in the ruins.
+TXT-1407,story,回収班が、遺跡でゾイドを,0x8001a328,1,800ce99c,28,13,The recovery team reports
 TXT-1408,story,敵の反応、もうありません。,0x8001a344,1,800ce988,28,13,No more enemy signals.
-TXT-1409,story,いうわけだな…。,0x8001a360,1,800ceb58,20,9,So that's how it is...
-TXT-1410,story,たたくなら、今しか無いと,0x8001a374,1,800ceb54,28,13,"If we strike, it must be now."
-TXT-1411,story,移動もできないようです。,0x8001a390,1,800ceb28,28,13,It seems they can't move either.
-TXT-1412,story,また、カタパルトで固定され、,0x8001a3ac,1,800ceb24,32,15,"Also, fixed on the catapult,"
-TXT-1413,story,ファンがはずされているよう,0x8001a3cc,1,800ceb0c,28,13,The fan seems to be removed.
-TXT-1414,story,デスザウラーは調整中のため、,0x8001a3e8,1,800ceb08,32,15,"The Death Saurer is under adjustment,"
+TXT-1409,story,いうわけだな…。,0x8001a360,1,800ceb58,20,9,now's our chance.
+TXT-1410,story,たたくなら、今しか無いと,0x8001a374,1,800ceb54,28,13,"Then if we're going to strike,"
+TXT-1411,story,移動もできないようです。,0x8001a390,1,800ceb28,28,13,so it can't move either.
+TXT-1412,story,また、カタパルトで固定され、,0x8001a3ac,1,800ceb24,32,15,"It's secured to the catapult,"
+TXT-1413,story,ファンがはずされているよう,0x8001a3cc,1,800ceb0c,28,13,Its fan appears to be off.
+TXT-1414,story,デスザウラーは調整中のため、,0x8001a3e8,1,800ceb08,32,15,They're servicing the Death Saurer.
 TXT-1415,story,すでに、実戦配備されている,0x8001a408,1,800cead8,28,13,It's already deployed for combat?
-TXT-1416,story,バケモノか？,0x8001a424,1,800ceac4,16,7,Is it a monster?
-TXT-1417,story,あの、荷電粒子砲を持つ,0x8001a434,1,800ceac0,24,11,That one with the charged particle cannon
+TXT-1416,story,バケモノか？,0x8001a424,1,800ceac4,16,7,charged particle cannon?
+TXT-1417,story,あの、荷電粒子砲を持つ,0x8001a434,1,800ceac0,24,11,That monster with the
 TXT-1418,story,デスザウラー？,0x8001a44c,1,800ceabc,16,7,The Death Saurer?
-TXT-1419,story,デスザウラーです。,0x8001a45c,1,800cea90,20,9,It's the Death Saurer.
-TXT-1420,story,調整中のゾイドは…,0x8001a470,1,800cea8c,20,9,The Zoid under adjustment is...
-TXT-1421,story,ゾイドの調整施設と確認。,0x8001a484,1,800cea78,28,13,Confirmed as a Zoid adjustment facility.
-TXT-1422,story,山岳地帯に施設があります。,0x8001a4a0,1,800cea74,28,13,There is a facility in the mountains.
+TXT-1419,story,デスザウラーです。,0x8001a45c,1,800cea90,20,9,the Death Saurer.
+TXT-1420,story,調整中のゾイドは…,0x8001a470,1,800cea8c,20,9,The Zoid they're servicing is...
+TXT-1421,story,ゾイドの調整施設と確認。,0x8001a484,1,800cea78,28,13,They service Zoids there.
+TXT-1422,story,山岳地帯に施設があります。,0x8001a4a0,1,800cea74,28,13,We've located a mountain facility.
 TXT-1423,story,『ゴジュラスＨＧ−１』,0x8001a4bc,1,800cec4c,24,11,Gojulas HG-1
-TXT-1424,story,耐えられるかどうか…。,0x8001a4d4,1,800cec00,24,11,Whether it can withstand it...
-TXT-1425,story,ゴジュラスでも荷電粒子砲に,0x8001a4ec,1,800cebfc,28,13,Even Gojulas can't take a particle cannon.
+TXT-1424,story,耐えられるかどうか…。,0x8001a4d4,1,800cec00,24,11,a charged particle cannon?
+TXT-1425,story,ゴジュラスでも荷電粒子砲に,0x8001a4ec,1,800cebfc,28,13,Could even a Gojulas survive
 TXT-1426,story,うむ…。,0x8001a508,1,800cebf8,12,5,Mm...
 TXT-1427,story,ゴジュラスＨＧ−１です。,0x8001a514,1,800cebcc,28,13,It's the Gojulas HG-1.
-TXT-1428,story,こちらが持たないな。,0x8001a530,1,800ceb9c,24,11,We can't hold out.
-TXT-1429,story,あんなものが、多くいたのでは,0x8001a548,1,800ceb98,32,15,"If there are many of those,"
+TXT-1428,story,こちらが持たないな。,0x8001a530,1,800ceb9c,24,11,we won't hold out.
+TXT-1429,story,あんなものが、多くいたのでは,0x8001a548,1,800ceb98,32,15,"If they have many more like it,"
 TXT-1430,story,デスザウラーか…。,0x8001a568,1,800ceb94,20,9,"The Death Saurer, huh."
-TXT-1431,story,もらおうか。,0x8001a57c,1,800ced44,16,7,Shall we take it?
-TXT-1432,story,この前の借りを返させて,0x8001a58c,1,800ced40,24,11,Let me repay the debt from last time.
-TXT-1433,story,ひさしぶり…というべきか。,0x8001a5a4,1,800ced2c,28,13,It's been a while... I should say.
+TXT-1431,story,もらおうか。,0x8001a57c,1,800ced44,16,7,for last time.
+TXT-1432,story,この前の借りを返させて,0x8001a58c,1,800ced40,24,11,Let me repay you
+TXT-1433,story,ひさしぶり…というべきか。,0x8001a5a4,1,800ced2c,28,13,"It's been a while, hasn't it?"
 TXT-1434,story,む、あの部隊は…。,0x8001a5c0,1,800ced00,20,9,"Hm, that unit is..."
 TXT-1435,story,敵部隊と遭遇しました。,0x8001a5d4,1,800cecd4,24,11,Enemy unit encountered.
 TXT-1436,story,『ニ連大型キャノン』,0x8001a5ec,1,800ceef4,24,11,Twin Large Cannon
-TXT-1437,story,ってことだな。,0x8001a604,1,800ceea8,16,7,That's what it means.
-TXT-1438,story,オレのゴルドスかマンモス向き,0x8001a614,1,800ceea4,32,15,My Gordos or Mammoth is suited for it.
+TXT-1437,story,ってことだな。,0x8001a604,1,800ceea8,16,7,for my Gordos or Mammoth!
+TXT-1438,story,オレのゴルドスかマンモス向き,0x8001a614,1,800ceea4,32,15,Then it's just the thing
 TXT-1439,story,がはははは。,0x8001a634,1,800ceea0,16,7,Hahahaha.
-TXT-1440,story,つかないんです。,0x8001a644,1,800cee74,20,9,It won't attach.
-TXT-1441,story,残念ですが、Ｌ型にしか,0x8001a658,1,800cee70,24,11,"Unfortunately, only L-types can"
-TXT-1442,story,ぜひオレのコマンドウルフに…,0x8001a670,1,800cee44,32,15,"Please, my Command Wolf..."
+TXT-1440,story,つかないんです。,0x8001a644,1,800cee74,20,9,L-type Zoids.
+TXT-1441,story,残念ですが、Ｌ型にしか,0x8001a658,1,800cee70,24,11,"Sorry, it only fits"
+TXT-1442,story,ぜひオレのコマンドウルフに…,0x8001a670,1,800cee44,32,15,let's put it on my Command Wolf!
 TXT-1443,story,あ、それでしたら、さきほど,0x8001a690,1,800cee10,28,13,"Oh, in that case,"
-TXT-1444,story,なっているはずだが…。,0x8001a6ac,1,800cede4,24,11,"It should have arrived, but..."
-TXT-1445,story,その武器なら、とどく手はずに,0x8001a6c4,1,800cede0,32,15,"If it's that weapon, it should arrive."
-TXT-1446,story,武器が必要だな。,0x8001a6e4,1,800cedb4,20,9,We need weapons.
-TXT-1447,story,敵の荷電粒子砲に対抗する,0x8001a6f8,1,800cedb0,28,13,To counter the enemy particle cannon
-TXT-1448,story,かなりきつい戦いだな。,0x8001a714,1,800cedac,24,11,This will be a tough battle.
-TXT-1449,story,なんとか勝てたようだ。,0x8001a72c,1,800ced80,24,11,We somehow won.
-TXT-1450,story,いいということだな。,0x8001a744,1,800cef88,24,11,So that's what it means.
-TXT-1451,story,早めに基地を破壊した方が,0x8001a75c,1,800cef84,28,13,Better to destroy the base early.
-TXT-1452,story,デスザウラーが出撃する前に,0x8001a778,1,800cef80,28,13,"Before the Death Saurer sorties,"
-TXT-1453,story,入っているという情報です。,0x8001a794,1,800cef54,28,13,That's the information.
-TXT-1454,story,デスザウラーが起動準備に,0x8001a7b0,1,800cef50,28,13,The Death Saurer is preparing to activate.
-TXT-1455,story,ブロント平地の敵基地を確認,0x8001a7cc,1,800cef38,28,13,Enemy base confirmed on the Bront Plain.
+TXT-1444,story,なっているはずだが…。,0x8001a6ac,1,800cede4,24,11,should be on its way...
+TXT-1445,story,その武器なら、とどく手はずに,0x8001a6c4,1,800cede0,32,15,A weapon for that job
+TXT-1446,story,武器が必要だな。,0x8001a6e4,1,800cedb4,20,9,their charged particle cannon.
+TXT-1447,story,敵の荷電粒子砲に対抗する,0x8001a6f8,1,800cedb0,28,13,We need a weapon to counter
+TXT-1448,story,かなりきつい戦いだな。,0x8001a714,1,800cedac,24,11,That was a tough fight.
+TXT-1449,story,なんとか勝てたようだ。,0x8001a72c,1,800ced80,24,11,We pulled through.
+TXT-1450,story,いいということだな。,0x8001a744,1,800cef88,24,11,before the Death Saurer deploys.
+TXT-1451,story,早めに基地を破壊した方が,0x8001a75c,1,800cef84,28,13,and destroy the base
+TXT-1452,story,デスザウラーが出撃する前に,0x8001a778,1,800cef80,28,13,Then we should strike now
+TXT-1453,story,入っているという情報です。,0x8001a794,1,800cef54,28,13,the Death Saurer is powering up.
+TXT-1454,story,デスザウラーが起動準備に,0x8001a7b0,1,800cef50,28,13,Intelligence reports that
+TXT-1455,story,ブロント平地の敵基地を確認,0x8001a7cc,1,800cef38,28,13,We found their
 TXT-1456,story,入荷しといたからねっ！,0x8001a7e8,1,800cf1ac,24,11,I've stocked new packs!
 TXT-1457,story,ために、また新しいパックを,0x8001a800,1,800cf1a8,28,13,take a look.
 TXT-1458,story,ずいぶん活躍してるじゃない！,0x8001a81c,1,800cf190,32,15,You've been doing great!
@@ -1489,16 +1494,16 @@ TXT-1462,story,マリン・ブルーガー曹長です。,0x8001a890,1,800cf094,
 TXT-1463,story,よろしくな。,0x8001a8b0,1,800cf068,16,7,Nice to meet you.
 TXT-1464,story,セレス・アルドワーズ中尉だ。,0x8001a8c0,1,800cf064,32,15,I'm Lieutenant Celes Aldwars.
 TXT-1465,story,フッ…。,0x8001a8e0,1,800cf060,12,5,Hmph...
-TXT-1466,story,向けて、パイロットとゾイドが,0x8001a8ec,1,800cf030,32,15,"Ahead, pilots and Zoids"
-TXT-1467,story,西エウロペの最終作戦に,0x8001a90c,1,800cf02c,24,11,For the final operation in West Europa
-TXT-1468,story,だろう。,0x8001a924,1,800cf000,12,5,Probably.
-TXT-1469,story,敵の反撃は激しいものになる,0x8001a930,1,800ceffc,28,13,The enemy counterattack will be fierce.
-TXT-1470,story,ただ、その分、西エウロペの,0x8001a94c,1,800ceff8,28,13,"However, that means West Europa's"
-TXT-1471,story,ことだ。,0x8001a968,1,800cefe4,12,5,That's right.
-TXT-1472,story,上陸しにくくなったという,0x8001a974,1,800cefe0,28,13,It has become harder to land.
-TXT-1473,story,ニクス大陸からの敵の増援も,0x8001a990,1,800cefdc,28,13,Reinforcements from Nix as well.
-TXT-1474,story,退却した。,0x8001a9ac,1,800cefc8,12,5,Retreated.
-TXT-1475,story,これで、北エウロペの帝国軍も,0x8001a9b8,1,800cefc4,32,15,"Now, the Imperial army in North Europa too."
+TXT-1466,story,向けて、パイロットとゾイドが,0x8001a8ec,1,800cf030,32,15,for the final operation
+TXT-1467,story,西エウロペの最終作戦に,0x8001a90c,1,800cf02c,24,11,Pilots and Zoids have arrived
+TXT-1468,story,だろう。,0x8001a924,1,800cf000,12,5,in West Europa.
+TXT-1469,story,敵の反撃は激しいものになる,0x8001a930,1,800ceffc,28,13,a fiercer counterattack
+TXT-1470,story,ただ、その分、西エウロペの,0x8001a94c,1,800ceff8,28,13,But we can expect
+TXT-1471,story,ことだ。,0x8001a968,1,800cefe4,12,5,to land here.
+TXT-1472,story,上陸しにくくなったという,0x8001a974,1,800cefe0,28,13,for reinforcements from Nix
+TXT-1473,story,ニクス大陸からの敵の増援も,0x8001a990,1,800cefdc,28,13,That makes it harder
+TXT-1474,story,退却した。,0x8001a9ac,1,800cefc8,12,5,withdrawn from North Europa.
+TXT-1475,story,これで、北エウロペの帝国軍も,0x8001a9b8,1,800cefc4,32,15,The Imperial forces have
 TXT-1476,story,南の入り口にある基地を,0x8001a9d8,1,800cf24c,24,11,at the southern entrance
 TXT-1477,story,まずは、この西エウロペの,0x8001a9f0,1,800cf248,28,13,"First, we'll take the base"
 TXT-1478,story,選んでゆくことになる。,0x8001aa0c,1,800cf234,24,11,We'll choose as we go.
@@ -1542,8 +1547,8 @@ TXT-1515,story,順調に進んでいるか？,0x8001ad80,1,800cf550,24,11,Is it 
 TXT-1516,story,ウルトラザウルスの受け取りは,0x8001ad98,1,800cf54c,32,15,The receipt of the Ultrasaurus
 TXT-1517,story,北上する！,0x8001adb8,1,800cf694,12,5,We'll head north!
 TXT-1518,story,よし、海側のルートを通って,0x8001adc4,1,800cf690,28,13,"Good, take the sea-side route"
-TXT-1519,story,敵本隊が到着する前に終了,0x8001ade0,1,800cf660,28,13,Finish before the enemy main force arrives.
-TXT-1520,story,ウルトラザウルスの積みこみ、,0x8001adfc,1,800cf65c,32,15,"Loading the Ultrasaurus,"
+TXT-1519,story,敵本隊が到着する前に終了,0x8001ade0,1,800cf660,28,13,the Ultrasaurus before
+TXT-1520,story,ウルトラザウルスの積みこみ、,0x8001adfc,1,800cf65c,32,15,We finished loading
 TXT-1521,story,時間がない。頼むぞ！,0x8001ae1c,1,800cf89c,24,11,There's no time. Please!
 TXT-1522,story,聞いてのとおりだ。,0x8001ae34,1,800cf898,20,9,As you heard.
 TXT-1523,story,ゾイドが行動不能になります。,0x8001ae48,1,800cf868,32,15,The Zoids will become immobile.
@@ -1723,8 +1728,8 @@ TXT-1696,ui,味方ゾイドを選択して,0x8001beb8,1,800d1278,24,11,Select an
 TXT-1697,ui,基地防衛に当たらせる,0x8001bed0,1,800d1274,24,11,to defend the base
 TXT-1698,ui,自軍基地のＨＰに加算します。,0x8001bee8,1,800d12bc,32,15,Add to your base's HP.
 TXT-1699,ui,ゾイドのＨＰを,0x8001bf08,1,800d12b8,16,7,the Zoid's HP
-TXT-1700,ui,『フィーネ』の力で無効化,0x8001bf18,1,800d1324,28,13,nullify with Fine's power
-TXT-1701,ui,受けたダメージを,0x8001bf34,1,800d1320,20,9,the damage received
+TXT-1700,ui,『フィーネ』の力で無効化,0x8001bf18,1,800d1324,28,13,canceled out
+TXT-1701,ui,受けたダメージを,0x8001bf34,1,800d1320,20,9,Fine's power
 TXT-1702,ui,その番号順で山に戻ります。,0x8001bf48,1,800d1394,28,13,return to the deck in that order.
 TXT-1703,ui,好きな番号をつけてください。,0x8001bf64,1,800d1390,32,15,Assign any numbers.
 TXT-1704,ui,４枚のカードに,0x8001bf84,1,800d138c,16,7,to 4 cards

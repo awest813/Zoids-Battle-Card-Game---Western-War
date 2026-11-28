@@ -63,7 +63,7 @@ STORY_5 = {
     "TXT-1110": "It's fine, but...)",
     "TXT-1111": "(If nothing happens like this",
     "TXT-1112": "He has gathered the people's trust...)",
-    "TXT-1113": "(Proitzen steadily",
+    "TXT-1113": "(Prozen steadily",
     "TXT-1114": "What did he gain...?)",
     "TXT-1115": "(In this war, the greatest profit",
     "TXT-1116": "Take a long vacation.",

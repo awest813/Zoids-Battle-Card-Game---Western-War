@@ -52,7 +52,7 @@ STORY_2 = {
     "TXT-0649": "Let's get to the point.",
     "TXT-0650": "Enough with the greetings.",
     "TXT-0651": "I act for Emperor Rudolf.",
-    "TXT-0652": "I am Proitzen.",
+    "TXT-0652": "I am Prozen.",
     "TXT-0653": "Welcome,",
     "TXT-0654": "I await good news.",
     "TXT-0655": "Any means are acceptable.",

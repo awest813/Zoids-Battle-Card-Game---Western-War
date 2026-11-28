@@ -7018,11 +7018,24 @@ src_jp = "出現しました。"
 src_addr = 0x8001501c
 record_addr = 0x8001501c
 ptr_addr = 0x800c6d20
-ptr_addrs = ["0x800c6d20", "0x800ce948"]
+ptr_addrs = ["0x800c6d20"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "has appeared."
+en = "spotted around our scouts!"
+note = "story inplace max=7"
+
+[[entry]]
+src_hex = "8f6f8cbb82b582dc82b582bd8142"
+src_jp = "出現しました。"
+src_addr = 0x8001501c
+record_addr = 0x8001501c
+ptr_addr = 0x800ce948
+ptr_addrs = ["0x800ce948"]
+term = "nul"
+pad = "none"
+orig_w = 7
+en = "from beneath the sand!"
 note = "story inplace max=7"
 
 [[entry]]
@@ -7035,7 +7048,7 @@ ptr_addrs = ["0x800c6d1c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Enemy Zoids around the scout team"
+en = "Enemy Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -8634,7 +8647,7 @@ ptr_addrs = ["0x800c967c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "I am Proitzen."
+en = "I am Prozen."
 note = "story inplace max=9"
 
 [[entry]]
@@ -13349,11 +13362,24 @@ src_jp = "到着しています。"
 src_addr = 0x80017d1c
 record_addr = 0x80017d1c
 ptr_addr = 0x800cbc70
-ptr_addrs = ["0x800cbc70", "0x800cf034"]
+ptr_addrs = ["0x800cbc70"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "has arrived."
+en = "from Gaigalus."
+note = "story inplace max=9"
+
+[[entry]]
+src_hex = "939e928582b582c482a282dc82b78142"
+src_jp = "到着しています。"
+src_addr = 0x80017d1c
+record_addr = 0x80017d1c
+ptr_addr = 0x800cf034
+ptr_addrs = ["0x800cf034"]
+term = "nul"
+pad = "none"
+orig_w = 8
+en = "in West Europa."
 note = "story inplace max=9"
 
 [[entry]]
@@ -13366,7 +13392,7 @@ ptr_addrs = ["0x800cbc6c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Your Excellency Proitzen"
+en = "Prozen has arrived"
 note = "story inplace max=9"
 
 [[entry]]
@@ -13379,7 +13405,7 @@ ptr_addrs = ["0x800cbc68"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "From Gaigalus,"
+en = "His Excellency"
 note = "story inplace max=9"
 
 [[entry]]
@@ -13921,11 +13947,50 @@ src_jp = "しました。"
 src_addr = 0x80018128
 record_addr = 0x80018128
 ptr_addr = 0x800cc310
-ptr_addrs = ["0x800cc310", "0x800cef3c", "0x800cf664", "0x800d1328"]
+ptr_addrs = ["0x800cc310"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "did."
+en = "of the Ubas Mountains."
+note = "story inplace max=5"
+
+[[entry]]
+src_hex = "82b582dc82b582bd8142"
+src_jp = "しました。"
+src_addr = 0x80018128
+record_addr = 0x80018128
+ptr_addr = 0x800cef3c
+ptr_addrs = ["0x800cef3c"]
+term = "nul"
+pad = "none"
+orig_w = 5
+en = "base on the Bront Plain."
+note = "story inplace max=5"
+
+[[entry]]
+src_hex = "82b582dc82b582bd8142"
+src_jp = "しました。"
+src_addr = 0x80018128
+record_addr = 0x80018128
+ptr_addr = 0x800cf664
+ptr_addrs = ["0x800cf664"]
+term = "nul"
+pad = "none"
+orig_w = 5
+en = "the enemy main force arrived."
+note = "story inplace max=5"
+
+[[entry]]
+src_hex = "82b582dc82b582bd8142"
+src_jp = "しました。"
+src_addr = 0x80018128
+record_addr = 0x80018128
+ptr_addr = 0x800d1328
+ptr_addrs = ["0x800d1328"]
+term = "nul"
+pad = "none"
+orig_w = 5
+en = "the damage."
 note = "story inplace max=5"
 
 [[entry]]
@@ -13938,7 +14003,7 @@ ptr_addrs = ["0x800cc30c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Reached the Ubas Mountains' east coast."
+en = "We've reached the east coast"
 note = "story inplace max=13"
 
 [[entry]]
@@ -14757,7 +14822,7 @@ ptr_addrs = ["0x800ccbec"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "(Proitzen steadily"
+en = "(Prozen steadily"
 note = "story inplace max=11"
 
 [[entry]]
@@ -17890,7 +17955,7 @@ ptr_addrs = ["0x800ce534"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "I want information."
+en = "on North Europa, too."
 note = "story inplace max=7"
 
 [[entry]]
@@ -17903,7 +17968,7 @@ ptr_addrs = ["0x800ce530"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "We also want North Europa's"
+en = "We could use more intel"
 note = "story inplace max=15"
 
 [[entry]]
@@ -18085,7 +18150,7 @@ ptr_addrs = ["0x800ce67c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "We'll attack from the mountain side."
+en = "Let's attack from the mountains."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18098,7 +18163,7 @@ ptr_addrs = ["0x800ce668"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Attacking from the lake side is a bad idea."
+en = "We'd be exposed on the lake."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18111,7 +18176,7 @@ ptr_addrs = ["0x800ce664"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "They're good at it."
+en = "fight well underwater, too."
 note = "story inplace max=5"
 
 [[entry]]
@@ -18124,7 +18189,7 @@ ptr_addrs = ["0x800ce660"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Some flying Zoids can also fight underwater."
+en = "Some flying Zoids"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18137,7 +18202,7 @@ ptr_addrs = ["0x800ce64c"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "They're flying Zoids."
+en = "are all flying types."
 note = "story inplace max=7"
 
 [[entry]]
@@ -18150,7 +18215,7 @@ ptr_addrs = ["0x800ce648"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "However, the ones at this base are"
+en = "But the Zoids stationed here"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18163,7 +18228,7 @@ ptr_addrs = ["0x800ce618"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "There's an Imperial base here, right?"
+en = "here at Lake Hesperides?"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18176,7 +18241,7 @@ ptr_addrs = ["0x800ce614"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Here, at Lake Hesperides,"
+en = "So the Empire has a base"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18189,7 +18254,7 @@ ptr_addrs = ["0x800ce7e4"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "Advance to the Bront Plain!"
+en = "and on to the Bront Plain!"
 note = "story inplace max=11"
 
 [[entry]]
@@ -18202,7 +18267,7 @@ ptr_addrs = ["0x800ce7e0"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Good, pass through Red Last,"
+en = "Then we'll go through Red Last"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18215,7 +18280,7 @@ ptr_addrs = ["0x800ce7b4"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "It's a stronghold."
+en = "in North Europa."
 note = "story inplace max=5"
 
 [[entry]]
@@ -18228,7 +18293,7 @@ ptr_addrs = ["0x800ce7b0"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "That's the Empire's North Europa stronghold."
+en = "That's their stronghold"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18241,7 +18306,7 @@ ptr_addrs = ["0x800ce7ac"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "After that, the Bront Plain."
+en = "There's one on the Bront Plain."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18254,7 +18319,7 @@ ptr_addrs = ["0x800ce780"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "You don't know?"
+en = "other Imperial bases?"
 note = "story inplace max=7"
 
 [[entry]]
@@ -18267,7 +18332,7 @@ ptr_addrs = ["0x800ce77c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Other Imperial base locations"
+en = "Do you know of any"
 note = "story inplace max=11"
 
 [[entry]]
@@ -18280,7 +18345,7 @@ ptr_addrs = ["0x800ce768"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "is to make them withdraw."
+en = "North Europa."
 note = "story inplace max=9"
 
 [[entry]]
@@ -18293,7 +18358,7 @@ ptr_addrs = ["0x800ce764"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Withdraw the Empire from North Europa."
+en = "forces out of"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18306,7 +18371,7 @@ ptr_addrs = ["0x800ce760"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Our objective is,"
+en = "Drive Imperial"
 note = "story inplace max=9"
 
 [[entry]]
@@ -18319,7 +18384,7 @@ ptr_addrs = ["0x800ce74c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "We can't afford to."
+en = "destroying things for no reason."
 note = "story inplace max=11"
 
 [[entry]]
@@ -18332,7 +18397,7 @@ ptr_addrs = ["0x800ce748"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Pointless destruction and attrition"
+en = "We can't wear ourselves out"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18345,7 +18410,7 @@ ptr_addrs = ["0x800ce71c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "The Imperial bastards will come again."
+en = "and the Imperials will be back."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18358,7 +18423,7 @@ ptr_addrs = ["0x800ce718"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "If we don't destroy the base,"
+en = "Leave the base standing"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18371,7 +18436,7 @@ ptr_addrs = ["0x800ce714"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "That's naive."
+en = "Don't count on it."
 note = "story inplace max=5"
 
 [[entry]]
@@ -18384,7 +18449,7 @@ ptr_addrs = ["0x800ce6e8"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Good, no more enemy counterattack?"
+en = "Good. Is that the last of them?"
 note = "story inplace max=15"
 
 [[entry]]
@@ -18397,7 +18462,7 @@ ptr_addrs = ["0x800ce8c4"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "We're heading for Mount Olympus."
+en = "First, we head for Mount Olympus."
 note = "story inplace max=11"
 
 [[entry]]
@@ -18410,7 +18475,7 @@ ptr_addrs = ["0x800ce8c0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Our final destination is the Bront Plain."
+en = "The Bront Plain is our final goal."
 note = "story inplace max=15"
 
 [[entry]]
@@ -18436,7 +18501,7 @@ ptr_addrs = ["0x800ce880"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "It seems to be an important stronghold."
+en = "also seems to be a key position."
 note = "story inplace max=11"
 
 [[entry]]
@@ -18449,7 +18514,7 @@ ptr_addrs = ["0x800ce87c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Also, the base on the Bront Plain"
+en = "Their base on the Bront Plain"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18475,7 +18540,7 @@ ptr_addrs = ["0x800ce850"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "We obtained information."
+en = "from the enemy's radio logs."
 note = "story inplace max=11"
 
 [[entry]]
@@ -18488,7 +18553,7 @@ ptr_addrs = ["0x800ce84c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Enemy communications reveal the facility's"
+en = "We learned about the facility"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18501,7 +18566,7 @@ ptr_addrs = ["0x800ce820"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "Is there any information?"
+en = "What have we learned?"
 note = "story inplace max=9"
 
 [[entry]]
@@ -18527,7 +18592,7 @@ ptr_addrs = ["0x800ce944"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Imperial Zoids from the sand"
+en = "Imperial Zoids just emerged"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18553,7 +18618,7 @@ ptr_addrs = ["0x800ce9d0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Good, once recovered, we advance."
+en = "Good. Once it's recovered, we move on."
 note = "story inplace max=15"
 
 [[entry]]
@@ -18579,7 +18644,7 @@ ptr_addrs = ["0x800ce9a0"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "It seems they found it."
+en = "finding a Zoid in the ruins."
 note = "story inplace max=11"
 
 [[entry]]
@@ -18592,7 +18657,7 @@ ptr_addrs = ["0x800ce99c"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "The recovery team found a Zoid in the ruins."
+en = "The recovery team reports"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18618,7 +18683,7 @@ ptr_addrs = ["0x800ceb58"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "So that's how it is..."
+en = "now's our chance."
 note = "story inplace max=9"
 
 [[entry]]
@@ -18631,7 +18696,7 @@ ptr_addrs = ["0x800ceb54"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "If we strike, it must be now."
+en = "Then if we're going to strike,"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18644,7 +18709,7 @@ ptr_addrs = ["0x800ceb28"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "It seems they can't move either."
+en = "so it can't move either."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18657,7 +18722,7 @@ ptr_addrs = ["0x800ceb24"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Also, fixed on the catapult,"
+en = "It's secured to the catapult,"
 note = "story inplace max=15"
 
 [[entry]]
@@ -18670,7 +18735,7 @@ ptr_addrs = ["0x800ceb0c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "The fan seems to be removed."
+en = "Its fan appears to be off."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18683,7 +18748,7 @@ ptr_addrs = ["0x800ceb08"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "The Death Saurer is under adjustment,"
+en = "They're servicing the Death Saurer."
 note = "story inplace max=15"
 
 [[entry]]
@@ -18709,7 +18774,7 @@ ptr_addrs = ["0x800ceac4"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "Is it a monster?"
+en = "charged particle cannon?"
 note = "story inplace max=7"
 
 [[entry]]
@@ -18722,7 +18787,7 @@ ptr_addrs = ["0x800ceac0"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "That one with the charged particle cannon"
+en = "That monster with the"
 note = "story inplace max=11"
 
 [[entry]]
@@ -18748,7 +18813,7 @@ ptr_addrs = ["0x800cea90"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "It's the Death Saurer."
+en = "the Death Saurer."
 note = "story inplace max=9"
 
 [[entry]]
@@ -18761,7 +18826,7 @@ ptr_addrs = ["0x800cea8c"]
 term = "nul"
 pad = "none"
 orig_w = 9
-en = "The Zoid under adjustment is..."
+en = "The Zoid they're servicing is..."
 note = "story inplace max=9"
 
 [[entry]]
@@ -18774,7 +18839,7 @@ ptr_addrs = ["0x800cea78"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Confirmed as a Zoid adjustment facility."
+en = "They service Zoids there."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18787,7 +18852,7 @@ ptr_addrs = ["0x800cea74"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "There is a facility in the mountains."
+en = "We've located a mountain facility."
 note = "story inplace max=13"
 
 [[entry]]
@@ -18813,7 +18878,7 @@ ptr_addrs = ["0x800cec00"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Whether it can withstand it..."
+en = "a charged particle cannon?"
 note = "story inplace max=11"
 
 [[entry]]
@@ -18826,7 +18891,7 @@ ptr_addrs = ["0x800cebfc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Even Gojulas can't take a particle cannon."
+en = "Could even a Gojulas survive"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18865,7 +18930,7 @@ ptr_addrs = ["0x800ceb9c"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "We can't hold out."
+en = "we won't hold out."
 note = "story inplace max=11"
 
 [[entry]]
@@ -18878,7 +18943,7 @@ ptr_addrs = ["0x800ceb98"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "If there are many of those,"
+en = "If they have many more like it,"
 note = "story inplace max=15"
 
 [[entry]]
@@ -18904,7 +18969,7 @@ ptr_addrs = ["0x800ced44"]
 term = "nul"
 pad = "none"
 orig_w = 6
-en = "Shall we take it?"
+en = "for last time."
 note = "story inplace max=7"
 
 [[entry]]
@@ -18917,7 +18982,7 @@ ptr_addrs = ["0x800ced40"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Let me repay the debt from last time."
+en = "Let me repay you"
 note = "story inplace max=11"
 
 [[entry]]
@@ -18930,7 +18995,7 @@ ptr_addrs = ["0x800ced2c"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "It's been a while... I should say."
+en = "It's been a while, hasn't it?"
 note = "story inplace max=13"
 
 [[entry]]
@@ -18982,7 +19047,7 @@ ptr_addrs = ["0x800ceea8"]
 term = "nul"
 pad = "none"
 orig_w = 7
-en = "That's what it means."
+en = "for my Gordos or Mammoth!"
 note = "story inplace max=7"
 
 [[entry]]
@@ -18995,7 +19060,7 @@ ptr_addrs = ["0x800ceea4"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "My Gordos or Mammoth is suited for it."
+en = "Then it's just the thing"
 note = "story inplace max=15"
 
 [[entry]]
@@ -19021,7 +19086,7 @@ ptr_addrs = ["0x800cee74"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "It won't attach."
+en = "L-type Zoids."
 note = "story inplace max=9"
 
 [[entry]]
@@ -19034,7 +19099,7 @@ ptr_addrs = ["0x800cee70"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "Unfortunately, only L-types can"
+en = "Sorry, it only fits"
 note = "story inplace max=11"
 
 [[entry]]
@@ -19047,7 +19112,7 @@ ptr_addrs = ["0x800cee44"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Please, my Command Wolf..."
+en = "let's put it on my Command Wolf!"
 note = "story inplace max=15"
 
 [[entry]]
@@ -19073,7 +19138,7 @@ ptr_addrs = ["0x800cede4"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "It should have arrived, but..."
+en = "should be on its way..."
 note = "story inplace max=11"
 
 [[entry]]
@@ -19086,7 +19151,7 @@ ptr_addrs = ["0x800cede0"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "If it's that weapon, it should arrive."
+en = "A weapon for that job"
 note = "story inplace max=15"
 
 [[entry]]
@@ -19099,7 +19164,7 @@ ptr_addrs = ["0x800cedb4"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "We need weapons."
+en = "their charged particle cannon."
 note = "story inplace max=9"
 
 [[entry]]
@@ -19112,7 +19177,7 @@ ptr_addrs = ["0x800cedb0"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "To counter the enemy particle cannon"
+en = "We need a weapon to counter"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19125,7 +19190,7 @@ ptr_addrs = ["0x800cedac"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "This will be a tough battle."
+en = "That was a tough fight."
 note = "story inplace max=11"
 
 [[entry]]
@@ -19138,7 +19203,7 @@ ptr_addrs = ["0x800ced80"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "We somehow won."
+en = "We pulled through."
 note = "story inplace max=11"
 
 [[entry]]
@@ -19151,7 +19216,7 @@ ptr_addrs = ["0x800cef88"]
 term = "nul"
 pad = "none"
 orig_w = 10
-en = "So that's what it means."
+en = "before the Death Saurer deploys."
 note = "story inplace max=11"
 
 [[entry]]
@@ -19164,7 +19229,7 @@ ptr_addrs = ["0x800cef84"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Better to destroy the base early."
+en = "and destroy the base"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19177,7 +19242,7 @@ ptr_addrs = ["0x800cef80"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Before the Death Saurer sorties,"
+en = "Then we should strike now"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19190,7 +19255,7 @@ ptr_addrs = ["0x800cef54"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "That's the information."
+en = "the Death Saurer is powering up."
 note = "story inplace max=13"
 
 [[entry]]
@@ -19203,7 +19268,7 @@ ptr_addrs = ["0x800cef50"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "The Death Saurer is preparing to activate."
+en = "Intelligence reports that"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19216,7 +19281,7 @@ ptr_addrs = ["0x800cef38"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Enemy base confirmed on the Bront Plain."
+en = "We found their"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19359,7 +19424,7 @@ ptr_addrs = ["0x800cf030"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Ahead, pilots and Zoids"
+en = "for the final operation"
 note = "story inplace max=15"
 
 [[entry]]
@@ -19372,7 +19437,7 @@ ptr_addrs = ["0x800cf02c"]
 term = "nul"
 pad = "none"
 orig_w = 11
-en = "For the final operation in West Europa"
+en = "Pilots and Zoids have arrived"
 note = "story inplace max=11"
 
 [[entry]]
@@ -19385,7 +19450,7 @@ ptr_addrs = ["0x800cf000"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "Probably."
+en = "in West Europa."
 note = "story inplace max=5"
 
 [[entry]]
@@ -19398,7 +19463,7 @@ ptr_addrs = ["0x800ceffc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "The enemy counterattack will be fierce."
+en = "a fiercer counterattack"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19411,7 +19476,7 @@ ptr_addrs = ["0x800ceff8"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "However, that means West Europa's"
+en = "But we can expect"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19424,7 +19489,7 @@ ptr_addrs = ["0x800cefe4"]
 term = "nul"
 pad = "none"
 orig_w = 4
-en = "That's right."
+en = "to land here."
 note = "story inplace max=5"
 
 [[entry]]
@@ -19437,7 +19502,7 @@ ptr_addrs = ["0x800cefe0"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "It has become harder to land."
+en = "for reinforcements from Nix"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19450,7 +19515,7 @@ ptr_addrs = ["0x800cefdc"]
 term = "nul"
 pad = "none"
 orig_w = 13
-en = "Reinforcements from Nix as well."
+en = "That makes it harder"
 note = "story inplace max=13"
 
 [[entry]]
@@ -19463,7 +19528,7 @@ ptr_addrs = ["0x800cefc8"]
 term = "nul"
 pad = "none"
 orig_w = 5
-en = "Retreated."
+en = "withdrawn from North Europa."
 note = "story inplace max=5"
 
 [[entry]]
@@ -19476,7 +19541,7 @@ ptr_addrs = ["0x800cefc4"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Now, the Imperial army in North Europa too."
+en = "The Imperial forces have"
 note = "story inplace max=15"
 
 [[entry]]
@@ -20048,7 +20113,7 @@ ptr_addrs = ["0x800cf660"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "Finish before the enemy main force arrives."
+en = "the Ultrasaurus before"
 note = "story inplace max=13"
 
 [[entry]]
@@ -20061,7 +20126,7 @@ ptr_addrs = ["0x800cf65c"]
 term = "nul"
 pad = "none"
 orig_w = 14
-en = "Loading the Ultrasaurus,"
+en = "We finished loading"
 note = "story inplace max=15"
 
 [[entry]]
@@ -22401,7 +22466,7 @@ ptr_addrs = ["0x800d1324"]
 term = "nul"
 pad = "none"
 orig_w = 12
-en = "nullify with Fine's power"
+en = "canceled out"
 note = "ui inplace max=13"
 
 [[entry]]
@@ -22414,7 +22479,7 @@ ptr_addrs = ["0x800d1320"]
 term = "nul"
 pad = "none"
 orig_w = 8
-en = "the damage received"
+en = "Fine's power"
 note = "ui inplace max=9"
 
 [[entry]]

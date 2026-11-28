@@ -25,7 +25,6 @@ POLISH = {
     "TXT-0963": "In time for the South Europa operation",
     "TXT-1000": "Nothing should trouble Your Excellency.",
     "TXT-1038": "There's still time before the operation.",
-    "TXT-1050": "Reached the Ubas Mountains' east coast.",
     "TXT-1089": "The search found the Zoid and the girl",
     "TXT-1118": "We could not have done it without you.",
     "TXT-1137": "Sorry, but I need you to run a drill.",
@@ -35,14 +34,7 @@ POLISH = {
     "TXT-1294": "A base at South Europa's northern tip.",
     "TXT-1307": "Keep them away from the new base!",
     "TXT-1347": "Good, the North Europa base is",
-    "TXT-1368": "We'll attack from the mountain side.",
-    "TXT-1393": "Our final destination is the Bront Plain.",
-    "TXT-1399": "Enemy communications reveal the facility's",
-    "TXT-1410": "If we strike, it must be now.",
-    "TXT-1425": "Even Gojulas can't take a particle cannon.",
-    "TXT-1447": "To counter the enemy particle cannon",
-    "TXT-1451": "Better to destroy the base early.",
-    "TXT-1473": "Reinforcements from Nix as well.",
+    "TXT-1410": "Then if we're going to strike,",
     "TXT-1482": "Send the Imperials northwest of West Europa.",
     "TXT-1536": "Imperial Zoids closing from four sides.",
     "TXT-1551": "Little time remains before the operation.",
@@ -55,6 +47,10 @@ STORY_SLOT_ENDINGS = {
     "TXT-0478": {
         0x800C5BF4: "around a leader.",
         0x800CB2D4: "from home.",
+    },
+    "TXT-0528": {
+        0x800C6D20: "spotted around our scouts!",
+        0x800CE948: "from beneath the sand!",
     },
     "TXT-0695": {
         0x800C9C2C: "in the desert they fled to.",
@@ -72,6 +68,16 @@ STORY_SLOT_ENDINGS = {
         0x800CC17C: "from Gaigalus.",
         0x800CC3AC: "from Gaigalus.",
         0x800CEE14: "it just arrived.",
+    },
+    "TXT-1007": {
+        0x800CBC70: "from Gaigalus.",
+        0x800CF034: "in West Europa.",
+    },
+    "TXT-1049": {
+        0x800CC310: "of the Ubas Mountains.",
+        0x800CEF3C: "base on the Bront Plain.",
+        0x800CF664: "the enemy main force arrived.",
+        0x800D1328: "the damage.",
     },
     "TXT-1013": {
         0x800CBF7C: "soon.",

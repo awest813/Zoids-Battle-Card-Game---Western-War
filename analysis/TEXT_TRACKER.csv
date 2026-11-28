@@ -526,8 +526,8 @@ TXT-0524,0057c0,80014fc0,15,7,story,inplace,1,800c6c60,16,7,15,P1,translated,『
 TXT-0525,0057d0,80014fd0,15,7,story,inplace,1,800c6d54,16,7,15,P1,translated,かえってくれ！,Go back!,1 pointer(s); pointer redirection
 TXT-0526,0057e0,80014fe0,25,12,story,inplace,1,800c6d50,28,13,27,P1,translated,なんとしても、情報を持ち,We must bring back the information,1 pointer(s); pointer redirection
 TXT-0527,0057fc,80014ffc,29,14,story,inplace,1,800c6d4c,32,15,31,P1,translated,戦闘はさけて、退却するんだ。,Avoid battle and retreat.,1 pointer(s); pointer redirection
-TXT-0528,00581c,8001501c,15,7,story,inplace,2,800c6d20,16,7,15,P1,translated,出現しました。,has appeared.,2 pointer(s); pointer redirection
-TXT-0529,00582c,8001502c,27,13,story,inplace,1,800c6d1c,28,13,27,P1,translated,偵察隊の周囲に、敵ゾイドが,Enemy Zoids around the scout team,1 pointer(s); pointer redirection
+TXT-0528,00581c,8001501c,15,7,story,inplace,2,800c6d20,16,7,15,P1,translated,出現しました。,spotted around our scouts!,2 pointer(s); pointer redirection
+TXT-0529,00582c,8001502c,27,13,story,inplace,1,800c6d1c,28,13,27,P1,translated,偵察隊の周囲に、敵ゾイドが,Enemy Zoids,1 pointer(s); pointer redirection
 TXT-0530,005848,80015048,27,13,story,inplace,1,800c6ce0,28,13,27,P1,translated,無事、偵察隊はもどってきた,"Scouts made it back safely,",1 pointer(s); pointer redirection
 TXT-0531,005864,80015064,19,9,story,inplace,1,800c6dc0,20,9,19,P1,translated,と退却になります。,and retreat.,1 pointer(s); pointer redirection
 TXT-0532,005878,80015078,29,14,story,inplace,1,800c6dbc,32,15,31,P1,translated,味方の領地にゾイドを移動する,Move a Zoid into allied territory,1 pointer(s); pointer redirection
@@ -650,7 +650,7 @@ TXT-0648,006354,80015b54,27,13,story,inplace,1,800c96ac,28,13,27,P1,translated,�
 TXT-0649,006370,80015b70,15,7,story,inplace,1,800c9698,16,7,15,P1,translated,本題に入ろう。,Let's get to the point.,1 pointer(s); pointer redirection
 TXT-0650,006380,80015b80,27,13,story,inplace,1,800c9694,28,13,27,P1,translated,あいさつはこれくらいにして,Enough with the greetings.,1 pointer(s); pointer redirection
 TXT-0651,00639c,80015b9c,23,11,story,inplace,1,800c9680,24,11,23,P1,translated,ルドルフ皇帝の代理だ。,I act for Emperor Rudolf.,1 pointer(s); pointer redirection
-TXT-0652,0063b4,80015bb4,19,9,story,inplace,1,800c967c,20,9,19,P1,translated,私はプロイツェン。,I am Proitzen.,1 pointer(s); pointer redirection
+TXT-0652,0063b4,80015bb4,19,9,story,inplace,1,800c967c,20,9,19,P1,translated,私はプロイツェン。,I am Prozen.,1 pointer(s); pointer redirection
 TXT-0653,0063c8,80015bc8,9,4,story,inplace,1,800c9664,12,5,11,P1,translated,よくきた,"Welcome,",1 pointer(s); pointer redirection
 TXT-0654,0063d4,80015bd4,25,12,story,inplace,1,800c9a48,28,13,27,P1,translated,良い知らせを待っている。,I await good news.,1 pointer(s); pointer redirection
 TXT-0655,0063f0,80015bf0,17,8,story,inplace,1,800c9a34,20,9,19,P1,translated,手段は問わない。,Any means are acceptable.,1 pointer(s); pointer redirection
@@ -1005,9 +1005,9 @@ TXT-1003,0084cc,80017ccc,19,9,story,inplace,1,800cbcbc,20,9,19,P1,translated,私
 TXT-1004,0084e0,80017ce0,19,9,story,inplace,1,800cbcb8,20,9,19,P1,translated,南エウロペの作戦は,The South Europa operation,1 pointer(s); pointer redirection
 TXT-1005,0084f4,80017cf4,19,9,story,inplace,1,800cbca0,20,9,19,P1,translated,成功したそうだな。,I hear it succeeded.,1 pointer(s); pointer redirection
 TXT-1006,008508,80017d08,19,9,story,inplace,1,800cbc9c,20,9,19,P1,translated,西エウロペの作戦は,The West Europa operation,1 pointer(s); pointer redirection
-TXT-1007,00851c,80017d1c,17,8,story,inplace,2,800cbc70,20,9,19,P1,translated,到着しています。,has arrived.,2 pointer(s); pointer redirection
-TXT-1008,008530,80017d30,19,9,story,inplace,1,800cbc6c,20,9,19,P1,translated,プロイツェン閣下が,Your Excellency Proitzen,1 pointer(s); pointer redirection
-TXT-1009,008544,80017d44,17,8,story,inplace,1,800cbc68,20,9,19,P1,translated,ガイガロスより、,"From Gaigalus,",1 pointer(s); pointer redirection
+TXT-1007,00851c,80017d1c,17,8,story,inplace,2,800cbc70,20,9,19,P1,translated,到着しています。,from Gaigalus.,2 pointer(s); pointer redirection
+TXT-1008,008530,80017d30,19,9,story,inplace,1,800cbc6c,20,9,19,P1,translated,プロイツェン閣下が,Prozen has arrived,1 pointer(s); pointer redirection
+TXT-1009,008544,80017d44,17,8,story,inplace,1,800cbc68,20,9,19,P1,translated,ガイガロスより、,His Excellency,1 pointer(s); pointer redirection
 TXT-1010,008558,80017d58,23,11,story,inplace,1,800cbfb0,24,11,23,P1,translated,早めにたたいてしまえ。,Strike them early.,1 pointer(s); pointer redirection
 TXT-1011,008570,80017d70,27,13,story,inplace,1,800cbfac,28,13,27,P1,translated,合流されるとめんどうだな。,It will be troublesome if they join up.,1 pointer(s); pointer redirection
 TXT-1012,00858c,80017d8c,23,11,story,inplace,1,800cbf80,24,11,23,P1,translated,約１５分で合流します。,In about 15 minutes.,1 pointer(s); pointer redirection
@@ -1047,8 +1047,8 @@ TXT-1045,0088c4,800180c4,13,6,story,inplace,1,800cc358,16,7,15,P1,translated,い
 TXT-1046,0088d4,800180d4,25,12,story,inplace,1,800cc354,28,13,27,P1,translated,海路での移動は難しい…と,Moving by sea is difficult... so,1 pointer(s); pointer redirection
 TXT-1047,0088f0,800180f0,27,13,story,inplace,1,800cc350,28,13,27,P1,translated,あの基地を壊さないかぎり、,"Unless we destroy that base,",1 pointer(s); pointer redirection
 TXT-1048,00890c,8001810c,27,13,story,inplace,1,800cc324,28,13,27,P1,translated,前方に共和国の基地を確認。,Republic base confirmed ahead.,1 pointer(s); pointer redirection
-TXT-1049,008928,80018128,11,5,story,inplace,4,800cc310,12,5,11,P1,translated,しました。,did.,4 pointer(s); pointer redirection
-TXT-1050,008934,80018134,27,13,story,inplace,1,800cc30c,28,13,27,P1,translated,ユーバス山脈の東海岸に到着,Reached the Ubas Mountains' east coast.,1 pointer(s); pointer redirection
+TXT-1049,008928,80018128,11,5,story,inplace,4,800cc310,12,5,11,P1,translated,しました。,of the Ubas Mountains.,4 pointer(s); pointer redirection
+TXT-1050,008934,80018134,27,13,story,inplace,1,800cc30c,28,13,27,P1,translated,ユーバス山脈の東海岸に到着,We've reached the east coast,1 pointer(s); pointer redirection
 TXT-1051,008950,80018150,25,12,story,inplace,1,800cc440,28,13,27,P1,translated,『ライトニングサイクス』,Lightning Saix,1 pointer(s); pointer redirection
 TXT-1052,00896c,8001816c,25,12,story,inplace,1,800cc3f4,28,13,27,P1,translated,ニューヘリックを攻める。,Attack New Helic.,1 pointer(s); pointer redirection
 TXT-1053,008988,80018188,27,13,story,inplace,1,800cc3f0,28,13,27,P1,translated,マダガスカル島を拠点とし、,"Using Madagascar Island as a base,",1 pointer(s); pointer redirection
@@ -1111,7 +1111,7 @@ TXT-1109,008ed8,800186d8,27,13,story,inplace,1,800ccc1c,28,13,27,P1,translated,�
 TXT-1110,008ef4,800186f4,19,9,story,inplace,1,800ccc08,20,9,19,P1,translated,　良いのだが…。）,"It's fine, but...)",1 pointer(s); pointer redirection
 TXT-1111,008f08,80018708,25,12,story,inplace,1,800ccc04,28,13,27,P1,translated,（このまま、何もなければ,(If nothing happens like this,1 pointer(s); pointer redirection
 TXT-1112,008f24,80018724,29,14,story,inplace,1,800ccbf0,32,15,31,P1,translated,　国民の信頼を集めている…）,He has gathered the people's trust...),1 pointer(s); pointer redirection
-TXT-1113,008f44,80018744,23,11,story,inplace,1,800ccbec,24,11,23,P1,translated,（プロイツェンは着実に,(Proitzen steadily,1 pointer(s); pointer redirection
+TXT-1113,008f44,80018744,23,11,story,inplace,1,800ccbec,24,11,23,P1,translated,（プロイツェンは着実に,(Prozen steadily,1 pointer(s); pointer redirection
 TXT-1114,008f5c,8001875c,17,8,story,inplace,1,800ccbc4,20,9,19,P1,translated,　得たのは…？）,What did he gain...?),1 pointer(s); pointer redirection
 TXT-1115,008f70,80018770,29,14,story,inplace,1,800ccbc0,32,15,31,P1,translated,（今度の戦争で、一番の利益を,"(In this war, the greatest profit",1 pointer(s); pointer redirection
 TXT-1116,008f90,80018790,29,14,story,inplace,1,800ccb80,32,15,31,P1,translated,ゆっくりと休暇を取ってくれ。,Take a long vacation.,1 pointer(s); pointer redirection
@@ -1351,8 +1351,8 @@ TXT-1349,00a5c4,80019dc4,23,11,story,inplace,1,800ce380,24,11,23,P1,translated,�
 TXT-1350,00a5dc,80019ddc,25,12,story,inplace,1,800ce5d0,28,13,27,P1,translated,『コマンドウルフ・ＡＳ』,Command Wolf AS,1 pointer(s); pointer redirection
 TXT-1351,00a5f8,80019df8,15,7,story,inplace,1,800ce594,16,7,15,P1,translated,『アーバイン』,Irvine,1 pointer(s); pointer redirection
 TXT-1352,00a608,80019e08,21,10,story,inplace,1,800ce548,24,11,23,P1,translated,ハッチをあけてやれ。,Open the hatch.,1 pointer(s); pointer redirection
-TXT-1353,00a620,80019e20,15,7,story,inplace,1,800ce534,16,7,15,P1,translated,情報は欲しい。,I want information.,1 pointer(s); pointer redirection
-TXT-1354,00a630,80019e30,29,14,story,inplace,1,800ce530,32,15,31,P1,translated,こちらとしても、北エウロペの,We also want North Europa's,1 pointer(s); pointer redirection
+TXT-1353,00a620,80019e20,15,7,story,inplace,1,800ce534,16,7,15,P1,translated,情報は欲しい。,"on North Europa, too.",1 pointer(s); pointer redirection
+TXT-1354,00a630,80019e30,29,14,story,inplace,1,800ce530,32,15,31,P1,translated,こちらとしても、北エウロペの,We could use more intel,1 pointer(s); pointer redirection
 TXT-1355,00a650,80019e50,19,9,story,inplace,1,800ce500,20,9,19,P1,translated,どうしましょうか？,What shall we do?,1 pointer(s); pointer redirection
 TXT-1356,00a664,80019e64,21,10,story,inplace,1,800ce4c0,24,11,23,P1,translated,共和国に協力したい。,I want to cooperate with the Republic.,1 pointer(s); pointer redirection
 TXT-1357,00a67c,80019e7c,19,9,story,inplace,1,800ce4bc,20,9,19,P1,translated,ということで、だ。,"So, then.",1 pointer(s); pointer redirection
@@ -1366,94 +1366,94 @@ TXT-1364,00a724,80019f24,29,14,story,inplace,1,800ce43c,32,15,31,P1,translated,�
 TXT-1365,00a744,80019f44,25,12,story,inplace,1,800ce404,28,13,27,P1,translated,情報の分析を急がせよう。,Hurry the analysis of the information.,1 pointer(s); pointer redirection
 TXT-1366,00a760,80019f60,19,9,story,inplace,2,800ce400,20,9,19,P1,translated,よくやってくれた。,Well done.,2 pointer(s); pointer redirection
 TXT-1367,00a774,80019f74,19,9,story,inplace,1,800ce6ac,20,9,19,P1,translated,攻撃の準備を頼む。,Prepare the attack.,1 pointer(s); pointer redirection
-TXT-1368,00a788,80019f88,25,12,story,inplace,1,800ce67c,28,13,27,P1,translated,攻めるなら山側からだな。,We'll attack from the mountain side.,1 pointer(s); pointer redirection
-TXT-1369,00a7a4,80019fa4,27,13,story,inplace,1,800ce668,28,13,27,P1,translated,湖側から攻めるのはまずい。,Attacking from the lake side is a bad idea.,1 pointer(s); pointer redirection
-TXT-1370,00a7c0,80019fc0,9,4,story,inplace,1,800ce664,12,5,11,P1,translated,得意だ。,They're good at it.,1 pointer(s); pointer redirection
-TXT-1371,00a7cc,80019fcc,27,13,story,inplace,1,800ce660,28,13,27,P1,translated,一部の飛行ゾイドは水中戦も,Some flying Zoids can also fight underwater.,1 pointer(s); pointer redirection
-TXT-1372,00a7e8,80019fe8,15,7,story,inplace,1,800ce64c,16,7,15,P1,translated,飛行ゾイドだ。,They're flying Zoids.,1 pointer(s); pointer redirection
-TXT-1373,00a7f8,80019ff8,27,13,story,inplace,1,800ce648,28,13,27,P1,translated,ただし、この基地にいるのは,"However, the ones at this base are",1 pointer(s); pointer redirection
-TXT-1374,00a814,8001a014,25,12,story,inplace,1,800ce618,28,13,27,P1,translated,帝国の基地があるんだな？,"There's an Imperial base here, right?",1 pointer(s); pointer redirection
-TXT-1375,00a830,8001a030,25,12,story,inplace,1,800ce614,28,13,27,P1,translated,ここ、ヘスペリデス湖に、,"Here, at Lake Hesperides,",1 pointer(s); pointer redirection
-TXT-1376,00a84c,8001a04c,21,10,story,inplace,1,800ce7e4,24,11,23,P1,translated,ブロント平地へ進む！,Advance to the Bront Plain!,1 pointer(s); pointer redirection
-TXT-1377,00a864,8001a064,27,13,story,inplace,1,800ce7e0,28,13,27,P1,translated,よし、レッドラストを通り、,"Good, pass through Red Last,",1 pointer(s); pointer redirection
-TXT-1378,00a880,8001a080,9,4,story,inplace,1,800ce7b4,12,5,11,P1,translated,拠点だ。,It's a stronghold.,1 pointer(s); pointer redirection
-TXT-1379,00a88c,8001a08c,27,13,story,inplace,1,800ce7b0,28,13,27,P1,translated,そこが、帝国の北エウロペの,That's the Empire's North Europa stronghold.,1 pointer(s); pointer redirection
-TXT-1380,00a8a8,8001a0a8,25,12,story,inplace,1,800ce7ac,28,13,27,P1,translated,あとは、ブロント平地だ。,"After that, the Bront Plain.",1 pointer(s); pointer redirection
-TXT-1381,00a8c4,8001a0c4,13,6,story,inplace,1,800ce780,16,7,15,P1,translated,知らないか？,You don't know?,1 pointer(s); pointer redirection
-TXT-1382,00a8d4,8001a0d4,23,11,story,inplace,1,800ce77c,24,11,23,P1,translated,他に帝国の基地の位置を,Other Imperial base locations,1 pointer(s); pointer redirection
-TXT-1383,00a8ec,8001a0ec,19,9,story,inplace,1,800ce768,20,9,19,P1,translated,させることにある。,is to make them withdraw.,1 pointer(s); pointer redirection
-TXT-1384,00a900,8001a100,25,12,story,inplace,1,800ce764,28,13,27,P1,translated,北エウロペから帝国を退却,Withdraw the Empire from North Europa.,1 pointer(s); pointer redirection
-TXT-1385,00a91c,8001a11c,19,9,story,inplace,1,800ce760,20,9,19,P1,translated,われわれの目的は、,"Our objective is,",1 pointer(s); pointer redirection
-TXT-1386,00a930,8001a130,23,11,story,inplace,1,800ce74c,24,11,23,P1,translated,わけにはいかないのだ。,We can't afford to.,1 pointer(s); pointer redirection
-TXT-1387,00a948,8001a148,27,13,story,inplace,1,800ce748,28,13,27,P1,translated,むだな破壊をして、消耗する,Pointless destruction and attrition,1 pointer(s); pointer redirection
-TXT-1388,00a964,8001a164,27,13,story,inplace,1,800ce71c,28,13,27,P1,translated,また帝国のやつらがくるぜ。,The Imperial bastards will come again.,1 pointer(s); pointer redirection
-TXT-1389,00a980,8001a180,27,13,story,inplace,1,800ce718,28,13,27,P1,translated,基地を破壊しておかないと、,"If we don't destroy the base,",1 pointer(s); pointer redirection
-TXT-1390,00a99c,8001a19c,11,5,story,inplace,1,800ce714,12,5,11,P1,translated,あまいな。,That's naive.,1 pointer(s); pointer redirection
-TXT-1391,00a9a8,8001a1a8,29,14,story,inplace,1,800ce6e8,32,15,31,P1,translated,よし、敵の反撃はもうないな？,"Good, no more enemy counterattack?",1 pointer(s); pointer redirection
-TXT-1392,00a9c8,8001a1c8,23,11,story,inplace,1,800ce8c4,24,11,23,P1,translated,オリンポス山に向かう。,We're heading for Mount Olympus.,1 pointer(s); pointer redirection
-TXT-1393,00a9e0,8001a1e0,29,14,story,inplace,1,800ce8c0,32,15,31,P1,translated,最終目的地をブロント平地とし,Our final destination is the Bront Plain.,1 pointer(s); pointer redirection
+TXT-1368,00a788,80019f88,25,12,story,inplace,1,800ce67c,28,13,27,P1,translated,攻めるなら山側からだな。,Let's attack from the mountains.,1 pointer(s); pointer redirection
+TXT-1369,00a7a4,80019fa4,27,13,story,inplace,1,800ce668,28,13,27,P1,translated,湖側から攻めるのはまずい。,We'd be exposed on the lake.,1 pointer(s); pointer redirection
+TXT-1370,00a7c0,80019fc0,9,4,story,inplace,1,800ce664,12,5,11,P1,translated,得意だ。,"fight well underwater, too.",1 pointer(s); pointer redirection
+TXT-1371,00a7cc,80019fcc,27,13,story,inplace,1,800ce660,28,13,27,P1,translated,一部の飛行ゾイドは水中戦も,Some flying Zoids,1 pointer(s); pointer redirection
+TXT-1372,00a7e8,80019fe8,15,7,story,inplace,1,800ce64c,16,7,15,P1,translated,飛行ゾイドだ。,are all flying types.,1 pointer(s); pointer redirection
+TXT-1373,00a7f8,80019ff8,27,13,story,inplace,1,800ce648,28,13,27,P1,translated,ただし、この基地にいるのは,But the Zoids stationed here,1 pointer(s); pointer redirection
+TXT-1374,00a814,8001a014,25,12,story,inplace,1,800ce618,28,13,27,P1,translated,帝国の基地があるんだな？,here at Lake Hesperides?,1 pointer(s); pointer redirection
+TXT-1375,00a830,8001a030,25,12,story,inplace,1,800ce614,28,13,27,P1,translated,ここ、ヘスペリデス湖に、,So the Empire has a base,1 pointer(s); pointer redirection
+TXT-1376,00a84c,8001a04c,21,10,story,inplace,1,800ce7e4,24,11,23,P1,translated,ブロント平地へ進む！,and on to the Bront Plain!,1 pointer(s); pointer redirection
+TXT-1377,00a864,8001a064,27,13,story,inplace,1,800ce7e0,28,13,27,P1,translated,よし、レッドラストを通り、,Then we'll go through Red Last,1 pointer(s); pointer redirection
+TXT-1378,00a880,8001a080,9,4,story,inplace,1,800ce7b4,12,5,11,P1,translated,拠点だ。,in North Europa.,1 pointer(s); pointer redirection
+TXT-1379,00a88c,8001a08c,27,13,story,inplace,1,800ce7b0,28,13,27,P1,translated,そこが、帝国の北エウロペの,That's their stronghold,1 pointer(s); pointer redirection
+TXT-1380,00a8a8,8001a0a8,25,12,story,inplace,1,800ce7ac,28,13,27,P1,translated,あとは、ブロント平地だ。,There's one on the Bront Plain.,1 pointer(s); pointer redirection
+TXT-1381,00a8c4,8001a0c4,13,6,story,inplace,1,800ce780,16,7,15,P1,translated,知らないか？,other Imperial bases?,1 pointer(s); pointer redirection
+TXT-1382,00a8d4,8001a0d4,23,11,story,inplace,1,800ce77c,24,11,23,P1,translated,他に帝国の基地の位置を,Do you know of any,1 pointer(s); pointer redirection
+TXT-1383,00a8ec,8001a0ec,19,9,story,inplace,1,800ce768,20,9,19,P1,translated,させることにある。,North Europa.,1 pointer(s); pointer redirection
+TXT-1384,00a900,8001a100,25,12,story,inplace,1,800ce764,28,13,27,P1,translated,北エウロペから帝国を退却,forces out of,1 pointer(s); pointer redirection
+TXT-1385,00a91c,8001a11c,19,9,story,inplace,1,800ce760,20,9,19,P1,translated,われわれの目的は、,Drive Imperial,1 pointer(s); pointer redirection
+TXT-1386,00a930,8001a130,23,11,story,inplace,1,800ce74c,24,11,23,P1,translated,わけにはいかないのだ。,destroying things for no reason.,1 pointer(s); pointer redirection
+TXT-1387,00a948,8001a148,27,13,story,inplace,1,800ce748,28,13,27,P1,translated,むだな破壊をして、消耗する,We can't wear ourselves out,1 pointer(s); pointer redirection
+TXT-1388,00a964,8001a164,27,13,story,inplace,1,800ce71c,28,13,27,P1,translated,また帝国のやつらがくるぜ。,and the Imperials will be back.,1 pointer(s); pointer redirection
+TXT-1389,00a980,8001a180,27,13,story,inplace,1,800ce718,28,13,27,P1,translated,基地を破壊しておかないと、,Leave the base standing,1 pointer(s); pointer redirection
+TXT-1390,00a99c,8001a19c,11,5,story,inplace,1,800ce714,12,5,11,P1,translated,あまいな。,Don't count on it.,1 pointer(s); pointer redirection
+TXT-1391,00a9a8,8001a1a8,29,14,story,inplace,1,800ce6e8,32,15,31,P1,translated,よし、敵の反撃はもうないな？,Good. Is that the last of them?,1 pointer(s); pointer redirection
+TXT-1392,00a9c8,8001a1c8,23,11,story,inplace,1,800ce8c4,24,11,23,P1,translated,オリンポス山に向かう。,"First, we head for Mount Olympus.",1 pointer(s); pointer redirection
+TXT-1393,00a9e0,8001a1e0,29,14,story,inplace,1,800ce8c0,32,15,31,P1,translated,最終目的地をブロント平地とし,The Bront Plain is our final goal.,1 pointer(s); pointer redirection
 TXT-1394,00aa00,8001a200,11,5,story,inplace,1,800ce8ac,12,5,11,P1,translated,わかった。,Understood.,1 pointer(s); pointer redirection
-TXT-1395,00aa0c,8001a20c,21,10,story,inplace,1,800ce880,24,11,23,P1,translated,重要拠点のようです。,It seems to be an important stronghold.,1 pointer(s); pointer redirection
-TXT-1396,00aa24,8001a224,27,13,story,inplace,1,800ce87c,28,13,27,P1,translated,また、ブロント平地の基地が,"Also, the base on the Bront Plain",1 pointer(s); pointer redirection
+TXT-1395,00aa0c,8001a20c,21,10,story,inplace,1,800ce880,24,11,23,P1,translated,重要拠点のようです。,also seems to be a key position.,1 pointer(s); pointer redirection
+TXT-1396,00aa24,8001a224,27,13,story,inplace,1,800ce87c,28,13,27,P1,translated,また、ブロント平地の基地が,Their base on the Bront Plain,1 pointer(s); pointer redirection
 TXT-1397,00aa40,8001a240,25,12,story,inplace,1,800ce864,28,13,27,P1,translated,オリンポス山に研究施設が,There seems to be a research facility,1 pointer(s); pointer redirection
-TXT-1398,00aa5c,8001a25c,21,10,story,inplace,1,800ce850,24,11,23,P1,translated,情報を入手しました。,We obtained information.,1 pointer(s); pointer redirection
-TXT-1399,00aa74,8001a274,25,12,story,inplace,1,800ce84c,28,13,27,P1,translated,敵の通信記録から、施設の,Enemy communications reveal the facility's,1 pointer(s); pointer redirection
-TXT-1400,00aa90,8001a290,19,9,story,inplace,1,800ce820,20,9,19,P1,translated,何か情報はないか？,Is there any information?,1 pointer(s); pointer redirection
+TXT-1398,00aa5c,8001a25c,21,10,story,inplace,1,800ce850,24,11,23,P1,translated,情報を入手しました。,from the enemy's radio logs.,1 pointer(s); pointer redirection
+TXT-1399,00aa74,8001a274,25,12,story,inplace,1,800ce84c,28,13,27,P1,translated,敵の通信記録から、施設の,We learned about the facility,1 pointer(s); pointer redirection
+TXT-1400,00aa90,8001a290,19,9,story,inplace,1,800ce820,20,9,19,P1,translated,何か情報はないか？,What have we learned?,1 pointer(s); pointer redirection
 TXT-1401,00aaa4,8001a2a4,15,7,story,inplace,1,800ce94c,16,7,15,P1,translated,まちぶせです。,It's an ambush.,1 pointer(s); pointer redirection
-TXT-1402,00aab4,8001a2b4,25,12,story,inplace,1,800ce944,28,13,27,P1,translated,帝国のゾイドが砂の中より,Imperial Zoids from the sand,1 pointer(s); pointer redirection
+TXT-1402,00aab4,8001a2b4,25,12,story,inplace,1,800ce944,28,13,27,P1,translated,帝国のゾイドが砂の中より,Imperial Zoids just emerged,1 pointer(s); pointer redirection
 TXT-1403,00aad0,8001a2d0,13,6,story,inplace,1,800cea1c,16,7,15,P1,translated,『マンモス』,Mammoth,1 pointer(s); pointer redirection
-TXT-1404,00aae0,8001a2e0,29,14,story,inplace,1,800ce9d0,32,15,31,P1,translated,よし、回収したら、先に進む。,"Good, once recovered, we advance.",1 pointer(s); pointer redirection
+TXT-1404,00aae0,8001a2e0,29,14,story,inplace,1,800ce9d0,32,15,31,P1,translated,よし、回収したら、先に進む。,"Good. Once it's recovered, we move on.",1 pointer(s); pointer redirection
 TXT-1405,00ab00,8001a300,15,7,story,inplace,1,800ce9a4,16,7,15,P1,translated,使えそうです。,It looks usable.,1 pointer(s); pointer redirection
-TXT-1406,00ab10,8001a310,21,10,story,inplace,1,800ce9a0,24,11,23,P1,translated,発見したもようです。,It seems they found it.,1 pointer(s); pointer redirection
-TXT-1407,00ab28,8001a328,25,12,story,inplace,1,800ce99c,28,13,27,P1,translated,回収班が、遺跡でゾイドを,The recovery team found a Zoid in the ruins.,1 pointer(s); pointer redirection
+TXT-1406,00ab10,8001a310,21,10,story,inplace,1,800ce9a0,24,11,23,P1,translated,発見したもようです。,finding a Zoid in the ruins.,1 pointer(s); pointer redirection
+TXT-1407,00ab28,8001a328,25,12,story,inplace,1,800ce99c,28,13,27,P1,translated,回収班が、遺跡でゾイドを,The recovery team reports,1 pointer(s); pointer redirection
 TXT-1408,00ab44,8001a344,27,13,story,inplace,1,800ce988,28,13,27,P1,translated,敵の反応、もうありません。,No more enemy signals.,1 pointer(s); pointer redirection
-TXT-1409,00ab60,8001a360,17,8,story,inplace,1,800ceb58,20,9,19,P1,translated,いうわけだな…。,So that's how it is...,1 pointer(s); pointer redirection
-TXT-1410,00ab74,8001a374,25,12,story,inplace,1,800ceb54,28,13,27,P1,translated,たたくなら、今しか無いと,"If we strike, it must be now.",1 pointer(s); pointer redirection
-TXT-1411,00ab90,8001a390,25,12,story,inplace,1,800ceb28,28,13,27,P1,translated,移動もできないようです。,It seems they can't move either.,1 pointer(s); pointer redirection
-TXT-1412,00abac,8001a3ac,29,14,story,inplace,1,800ceb24,32,15,31,P1,translated,また、カタパルトで固定され、,"Also, fixed on the catapult,",1 pointer(s); pointer redirection
-TXT-1413,00abcc,8001a3cc,27,13,story,inplace,1,800ceb0c,28,13,27,P1,translated,ファンがはずされているよう,The fan seems to be removed.,1 pointer(s); pointer redirection
-TXT-1414,00abe8,8001a3e8,29,14,story,inplace,1,800ceb08,32,15,31,P1,translated,デスザウラーは調整中のため、,"The Death Saurer is under adjustment,",1 pointer(s); pointer redirection
+TXT-1409,00ab60,8001a360,17,8,story,inplace,1,800ceb58,20,9,19,P1,translated,いうわけだな…。,now's our chance.,1 pointer(s); pointer redirection
+TXT-1410,00ab74,8001a374,25,12,story,inplace,1,800ceb54,28,13,27,P1,translated,たたくなら、今しか無いと,"Then if we're going to strike,",1 pointer(s); pointer redirection
+TXT-1411,00ab90,8001a390,25,12,story,inplace,1,800ceb28,28,13,27,P1,translated,移動もできないようです。,so it can't move either.,1 pointer(s); pointer redirection
+TXT-1412,00abac,8001a3ac,29,14,story,inplace,1,800ceb24,32,15,31,P1,translated,また、カタパルトで固定され、,"It's secured to the catapult,",1 pointer(s); pointer redirection
+TXT-1413,00abcc,8001a3cc,27,13,story,inplace,1,800ceb0c,28,13,27,P1,translated,ファンがはずされているよう,Its fan appears to be off.,1 pointer(s); pointer redirection
+TXT-1414,00abe8,8001a3e8,29,14,story,inplace,1,800ceb08,32,15,31,P1,translated,デスザウラーは調整中のため、,They're servicing the Death Saurer.,1 pointer(s); pointer redirection
 TXT-1415,00ac08,8001a408,27,13,story,inplace,1,800cead8,28,13,27,P1,translated,すでに、実戦配備されている,It's already deployed for combat?,1 pointer(s); pointer redirection
-TXT-1416,00ac24,8001a424,13,6,story,inplace,1,800ceac4,16,7,15,P1,translated,バケモノか？,Is it a monster?,1 pointer(s); pointer redirection
-TXT-1417,00ac34,8001a434,23,11,story,inplace,1,800ceac0,24,11,23,P1,translated,あの、荷電粒子砲を持つ,That one with the charged particle cannon,1 pointer(s); pointer redirection
+TXT-1416,00ac24,8001a424,13,6,story,inplace,1,800ceac4,16,7,15,P1,translated,バケモノか？,charged particle cannon?,1 pointer(s); pointer redirection
+TXT-1417,00ac34,8001a434,23,11,story,inplace,1,800ceac0,24,11,23,P1,translated,あの、荷電粒子砲を持つ,That monster with the,1 pointer(s); pointer redirection
 TXT-1418,00ac4c,8001a44c,15,7,story,inplace,1,800ceabc,16,7,15,P1,translated,デスザウラー？,The Death Saurer?,1 pointer(s); pointer redirection
-TXT-1419,00ac5c,8001a45c,19,9,story,inplace,1,800cea90,20,9,19,P1,translated,デスザウラーです。,It's the Death Saurer.,1 pointer(s); pointer redirection
-TXT-1420,00ac70,8001a470,19,9,story,inplace,1,800cea8c,20,9,19,P1,translated,調整中のゾイドは…,The Zoid under adjustment is...,1 pointer(s); pointer redirection
-TXT-1421,00ac84,8001a484,25,12,story,inplace,1,800cea78,28,13,27,P1,translated,ゾイドの調整施設と確認。,Confirmed as a Zoid adjustment facility.,1 pointer(s); pointer redirection
-TXT-1422,00aca0,8001a4a0,27,13,story,inplace,1,800cea74,28,13,27,P1,translated,山岳地帯に施設があります。,There is a facility in the mountains.,1 pointer(s); pointer redirection
+TXT-1419,00ac5c,8001a45c,19,9,story,inplace,1,800cea90,20,9,19,P1,translated,デスザウラーです。,the Death Saurer.,1 pointer(s); pointer redirection
+TXT-1420,00ac70,8001a470,19,9,story,inplace,1,800cea8c,20,9,19,P1,translated,調整中のゾイドは…,The Zoid they're servicing is...,1 pointer(s); pointer redirection
+TXT-1421,00ac84,8001a484,25,12,story,inplace,1,800cea78,28,13,27,P1,translated,ゾイドの調整施設と確認。,They service Zoids there.,1 pointer(s); pointer redirection
+TXT-1422,00aca0,8001a4a0,27,13,story,inplace,1,800cea74,28,13,27,P1,translated,山岳地帯に施設があります。,We've located a mountain facility.,1 pointer(s); pointer redirection
 TXT-1423,00acbc,8001a4bc,23,11,story,inplace,1,800cec4c,24,11,23,P1,translated,『ゴジュラスＨＧ−１』,Gojulas HG-1,1 pointer(s); pointer redirection
-TXT-1424,00acd4,8001a4d4,23,11,story,inplace,1,800cec00,24,11,23,P1,translated,耐えられるかどうか…。,Whether it can withstand it...,1 pointer(s); pointer redirection
-TXT-1425,00acec,8001a4ec,27,13,story,inplace,1,800cebfc,28,13,27,P1,translated,ゴジュラスでも荷電粒子砲に,Even Gojulas can't take a particle cannon.,1 pointer(s); pointer redirection
+TXT-1424,00acd4,8001a4d4,23,11,story,inplace,1,800cec00,24,11,23,P1,translated,耐えられるかどうか…。,a charged particle cannon?,1 pointer(s); pointer redirection
+TXT-1425,00acec,8001a4ec,27,13,story,inplace,1,800cebfc,28,13,27,P1,translated,ゴジュラスでも荷電粒子砲に,Could even a Gojulas survive,1 pointer(s); pointer redirection
 TXT-1426,00ad08,8001a508,9,4,story,inplace,1,800cebf8,12,5,11,P1,translated,うむ…。,Mm...,1 pointer(s); pointer redirection
 TXT-1427,00ad14,8001a514,25,12,story,inplace,1,800cebcc,28,13,27,P1,translated,ゴジュラスＨＧ−１です。,It's the Gojulas HG-1.,1 pointer(s); pointer redirection
-TXT-1428,00ad30,8001a530,21,10,story,inplace,1,800ceb9c,24,11,23,P1,translated,こちらが持たないな。,We can't hold out.,1 pointer(s); pointer redirection
-TXT-1429,00ad48,8001a548,29,14,story,inplace,1,800ceb98,32,15,31,P1,translated,あんなものが、多くいたのでは,"If there are many of those,",1 pointer(s); pointer redirection
+TXT-1428,00ad30,8001a530,21,10,story,inplace,1,800ceb9c,24,11,23,P1,translated,こちらが持たないな。,we won't hold out.,1 pointer(s); pointer redirection
+TXT-1429,00ad48,8001a548,29,14,story,inplace,1,800ceb98,32,15,31,P1,translated,あんなものが、多くいたのでは,"If they have many more like it,",1 pointer(s); pointer redirection
 TXT-1430,00ad68,8001a568,19,9,story,inplace,1,800ceb94,20,9,19,P1,translated,デスザウラーか…。,"The Death Saurer, huh.",1 pointer(s); pointer redirection
-TXT-1431,00ad7c,8001a57c,13,6,story,inplace,1,800ced44,16,7,15,P1,translated,もらおうか。,Shall we take it?,1 pointer(s); pointer redirection
-TXT-1432,00ad8c,8001a58c,23,11,story,inplace,1,800ced40,24,11,23,P1,translated,この前の借りを返させて,Let me repay the debt from last time.,1 pointer(s); pointer redirection
-TXT-1433,00ada4,8001a5a4,27,13,story,inplace,1,800ced2c,28,13,27,P1,translated,ひさしぶり…というべきか。,It's been a while... I should say.,1 pointer(s); pointer redirection
+TXT-1431,00ad7c,8001a57c,13,6,story,inplace,1,800ced44,16,7,15,P1,translated,もらおうか。,for last time.,1 pointer(s); pointer redirection
+TXT-1432,00ad8c,8001a58c,23,11,story,inplace,1,800ced40,24,11,23,P1,translated,この前の借りを返させて,Let me repay you,1 pointer(s); pointer redirection
+TXT-1433,00ada4,8001a5a4,27,13,story,inplace,1,800ced2c,28,13,27,P1,translated,ひさしぶり…というべきか。,"It's been a while, hasn't it?",1 pointer(s); pointer redirection
 TXT-1434,00adc0,8001a5c0,19,9,story,inplace,1,800ced00,20,9,19,P1,translated,む、あの部隊は…。,"Hm, that unit is...",1 pointer(s); pointer redirection
 TXT-1435,00add4,8001a5d4,23,11,story,inplace,1,800cecd4,24,11,23,P1,translated,敵部隊と遭遇しました。,Enemy unit encountered.,1 pointer(s); pointer redirection
 TXT-1436,00adec,8001a5ec,21,10,story,inplace,1,800ceef4,24,11,23,P1,translated,『ニ連大型キャノン』,Twin Large Cannon,1 pointer(s); pointer redirection
-TXT-1437,00ae04,8001a604,15,7,story,inplace,1,800ceea8,16,7,15,P1,translated,ってことだな。,That's what it means.,1 pointer(s); pointer redirection
-TXT-1438,00ae14,8001a614,29,14,story,inplace,1,800ceea4,32,15,31,P1,translated,オレのゴルドスかマンモス向き,My Gordos or Mammoth is suited for it.,1 pointer(s); pointer redirection
+TXT-1437,00ae04,8001a604,15,7,story,inplace,1,800ceea8,16,7,15,P1,translated,ってことだな。,for my Gordos or Mammoth!,1 pointer(s); pointer redirection
+TXT-1438,00ae14,8001a614,29,14,story,inplace,1,800ceea4,32,15,31,P1,translated,オレのゴルドスかマンモス向き,Then it's just the thing,1 pointer(s); pointer redirection
 TXT-1439,00ae34,8001a634,13,6,story,inplace,1,800ceea0,16,7,15,P1,translated,がはははは。,Hahahaha.,1 pointer(s); pointer redirection
-TXT-1440,00ae44,8001a644,17,8,story,inplace,1,800cee74,20,9,19,P1,translated,つかないんです。,It won't attach.,1 pointer(s); pointer redirection
-TXT-1441,00ae58,8001a658,23,11,story,inplace,1,800cee70,24,11,23,P1,translated,残念ですが、Ｌ型にしか,"Unfortunately, only L-types can",1 pointer(s); pointer redirection
-TXT-1442,00ae70,8001a670,29,14,story,inplace,1,800cee44,32,15,31,P1,translated,ぜひオレのコマンドウルフに…,"Please, my Command Wolf...",1 pointer(s); pointer redirection
+TXT-1440,00ae44,8001a644,17,8,story,inplace,1,800cee74,20,9,19,P1,translated,つかないんです。,L-type Zoids.,1 pointer(s); pointer redirection
+TXT-1441,00ae58,8001a658,23,11,story,inplace,1,800cee70,24,11,23,P1,translated,残念ですが、Ｌ型にしか,"Sorry, it only fits",1 pointer(s); pointer redirection
+TXT-1442,00ae70,8001a670,29,14,story,inplace,1,800cee44,32,15,31,P1,translated,ぜひオレのコマンドウルフに…,let's put it on my Command Wolf!,1 pointer(s); pointer redirection
 TXT-1443,00ae90,8001a690,27,13,story,inplace,1,800cee10,28,13,27,P1,translated,あ、それでしたら、さきほど,"Oh, in that case,",1 pointer(s); pointer redirection
-TXT-1444,00aeac,8001a6ac,23,11,story,inplace,1,800cede4,24,11,23,P1,translated,なっているはずだが…。,"It should have arrived, but...",1 pointer(s); pointer redirection
-TXT-1445,00aec4,8001a6c4,29,14,story,inplace,1,800cede0,32,15,31,P1,translated,その武器なら、とどく手はずに,"If it's that weapon, it should arrive.",1 pointer(s); pointer redirection
-TXT-1446,00aee4,8001a6e4,17,8,story,inplace,1,800cedb4,20,9,19,P1,translated,武器が必要だな。,We need weapons.,1 pointer(s); pointer redirection
-TXT-1447,00aef8,8001a6f8,25,12,story,inplace,1,800cedb0,28,13,27,P1,translated,敵の荷電粒子砲に対抗する,To counter the enemy particle cannon,1 pointer(s); pointer redirection
-TXT-1448,00af14,8001a714,23,11,story,inplace,1,800cedac,24,11,23,P1,translated,かなりきつい戦いだな。,This will be a tough battle.,1 pointer(s); pointer redirection
-TXT-1449,00af2c,8001a72c,23,11,story,inplace,1,800ced80,24,11,23,P1,translated,なんとか勝てたようだ。,We somehow won.,1 pointer(s); pointer redirection
-TXT-1450,00af44,8001a744,21,10,story,inplace,1,800cef88,24,11,23,P1,translated,いいということだな。,So that's what it means.,1 pointer(s); pointer redirection
-TXT-1451,00af5c,8001a75c,25,12,story,inplace,1,800cef84,28,13,27,P1,translated,早めに基地を破壊した方が,Better to destroy the base early.,1 pointer(s); pointer redirection
-TXT-1452,00af78,8001a778,27,13,story,inplace,1,800cef80,28,13,27,P1,translated,デスザウラーが出撃する前に,"Before the Death Saurer sorties,",1 pointer(s); pointer redirection
-TXT-1453,00af94,8001a794,27,13,story,inplace,1,800cef54,28,13,27,P1,translated,入っているという情報です。,That's the information.,1 pointer(s); pointer redirection
-TXT-1454,00afb0,8001a7b0,25,12,story,inplace,1,800cef50,28,13,27,P1,translated,デスザウラーが起動準備に,The Death Saurer is preparing to activate.,1 pointer(s); pointer redirection
-TXT-1455,00afcc,8001a7cc,27,13,story,inplace,1,800cef38,28,13,27,P1,translated,ブロント平地の敵基地を確認,Enemy base confirmed on the Bront Plain.,1 pointer(s); pointer redirection
+TXT-1444,00aeac,8001a6ac,23,11,story,inplace,1,800cede4,24,11,23,P1,translated,なっているはずだが…。,should be on its way...,1 pointer(s); pointer redirection
+TXT-1445,00aec4,8001a6c4,29,14,story,inplace,1,800cede0,32,15,31,P1,translated,その武器なら、とどく手はずに,A weapon for that job,1 pointer(s); pointer redirection
+TXT-1446,00aee4,8001a6e4,17,8,story,inplace,1,800cedb4,20,9,19,P1,translated,武器が必要だな。,their charged particle cannon.,1 pointer(s); pointer redirection
+TXT-1447,00aef8,8001a6f8,25,12,story,inplace,1,800cedb0,28,13,27,P1,translated,敵の荷電粒子砲に対抗する,We need a weapon to counter,1 pointer(s); pointer redirection
+TXT-1448,00af14,8001a714,23,11,story,inplace,1,800cedac,24,11,23,P1,translated,かなりきつい戦いだな。,That was a tough fight.,1 pointer(s); pointer redirection
+TXT-1449,00af2c,8001a72c,23,11,story,inplace,1,800ced80,24,11,23,P1,translated,なんとか勝てたようだ。,We pulled through.,1 pointer(s); pointer redirection
+TXT-1450,00af44,8001a744,21,10,story,inplace,1,800cef88,24,11,23,P1,translated,いいということだな。,before the Death Saurer deploys.,1 pointer(s); pointer redirection
+TXT-1451,00af5c,8001a75c,25,12,story,inplace,1,800cef84,28,13,27,P1,translated,早めに基地を破壊した方が,and destroy the base,1 pointer(s); pointer redirection
+TXT-1452,00af78,8001a778,27,13,story,inplace,1,800cef80,28,13,27,P1,translated,デスザウラーが出撃する前に,Then we should strike now,1 pointer(s); pointer redirection
+TXT-1453,00af94,8001a794,27,13,story,inplace,1,800cef54,28,13,27,P1,translated,入っているという情報です。,the Death Saurer is powering up.,1 pointer(s); pointer redirection
+TXT-1454,00afb0,8001a7b0,25,12,story,inplace,1,800cef50,28,13,27,P1,translated,デスザウラーが起動準備に,Intelligence reports that,1 pointer(s); pointer redirection
+TXT-1455,00afcc,8001a7cc,27,13,story,inplace,1,800cef38,28,13,27,P1,translated,ブロント平地の敵基地を確認,We found their,1 pointer(s); pointer redirection
 TXT-1456,00afe8,8001a7e8,23,11,story,inplace,1,800cf1ac,24,11,23,P1,translated,入荷しといたからねっ！,I've stocked new packs!,1 pointer(s); pointer redirection
 TXT-1457,00b000,8001a800,27,13,story,inplace,1,800cf1a8,28,13,27,P1,translated,ために、また新しいパックを,take a look.,1 pointer(s); pointer redirection
 TXT-1458,00b01c,8001a81c,29,14,story,inplace,1,800cf190,32,15,31,P1,translated,ずいぶん活躍してるじゃない！,You've been doing great!,1 pointer(s); pointer redirection
@@ -1464,16 +1464,16 @@ TXT-1462,00b090,8001a890,29,14,story,inplace,1,800cf094,32,15,31,P1,translated,�
 TXT-1463,00b0b0,8001a8b0,13,6,story,inplace,1,800cf068,16,7,15,P1,translated,よろしくな。,Nice to meet you.,1 pointer(s); pointer redirection
 TXT-1464,00b0c0,8001a8c0,29,14,story,inplace,1,800cf064,32,15,31,P1,translated,セレス・アルドワーズ中尉だ。,I'm Lieutenant Celes Aldwars.,1 pointer(s); pointer redirection
 TXT-1465,00b0e0,8001a8e0,9,4,story,inplace,1,800cf060,12,5,11,P1,translated,フッ…。,Hmph...,1 pointer(s); pointer redirection
-TXT-1466,00b0ec,8001a8ec,29,14,story,inplace,1,800cf030,32,15,31,P1,translated,向けて、パイロットとゾイドが,"Ahead, pilots and Zoids",1 pointer(s); pointer redirection
-TXT-1467,00b10c,8001a90c,23,11,story,inplace,1,800cf02c,24,11,23,P1,translated,西エウロペの最終作戦に,For the final operation in West Europa,1 pointer(s); pointer redirection
-TXT-1468,00b124,8001a924,9,4,story,inplace,1,800cf000,12,5,11,P1,translated,だろう。,Probably.,1 pointer(s); pointer redirection
-TXT-1469,00b130,8001a930,27,13,story,inplace,1,800ceffc,28,13,27,P1,translated,敵の反撃は激しいものになる,The enemy counterattack will be fierce.,1 pointer(s); pointer redirection
-TXT-1470,00b14c,8001a94c,27,13,story,inplace,1,800ceff8,28,13,27,P1,translated,ただ、その分、西エウロペの,"However, that means West Europa's",1 pointer(s); pointer redirection
-TXT-1471,00b168,8001a968,9,4,story,inplace,1,800cefe4,12,5,11,P1,translated,ことだ。,That's right.,1 pointer(s); pointer redirection
-TXT-1472,00b174,8001a974,25,12,story,inplace,1,800cefe0,28,13,27,P1,translated,上陸しにくくなったという,It has become harder to land.,1 pointer(s); pointer redirection
-TXT-1473,00b190,8001a990,27,13,story,inplace,1,800cefdc,28,13,27,P1,translated,ニクス大陸からの敵の増援も,Reinforcements from Nix as well.,1 pointer(s); pointer redirection
-TXT-1474,00b1ac,8001a9ac,11,5,story,inplace,1,800cefc8,12,5,11,P1,translated,退却した。,Retreated.,1 pointer(s); pointer redirection
-TXT-1475,00b1b8,8001a9b8,29,14,story,inplace,1,800cefc4,32,15,31,P1,translated,これで、北エウロペの帝国軍も,"Now, the Imperial army in North Europa too.",1 pointer(s); pointer redirection
+TXT-1466,00b0ec,8001a8ec,29,14,story,inplace,1,800cf030,32,15,31,P1,translated,向けて、パイロットとゾイドが,for the final operation,1 pointer(s); pointer redirection
+TXT-1467,00b10c,8001a90c,23,11,story,inplace,1,800cf02c,24,11,23,P1,translated,西エウロペの最終作戦に,Pilots and Zoids have arrived,1 pointer(s); pointer redirection
+TXT-1468,00b124,8001a924,9,4,story,inplace,1,800cf000,12,5,11,P1,translated,だろう。,in West Europa.,1 pointer(s); pointer redirection
+TXT-1469,00b130,8001a930,27,13,story,inplace,1,800ceffc,28,13,27,P1,translated,敵の反撃は激しいものになる,a fiercer counterattack,1 pointer(s); pointer redirection
+TXT-1470,00b14c,8001a94c,27,13,story,inplace,1,800ceff8,28,13,27,P1,translated,ただ、その分、西エウロペの,But we can expect,1 pointer(s); pointer redirection
+TXT-1471,00b168,8001a968,9,4,story,inplace,1,800cefe4,12,5,11,P1,translated,ことだ。,to land here.,1 pointer(s); pointer redirection
+TXT-1472,00b174,8001a974,25,12,story,inplace,1,800cefe0,28,13,27,P1,translated,上陸しにくくなったという,for reinforcements from Nix,1 pointer(s); pointer redirection
+TXT-1473,00b190,8001a990,27,13,story,inplace,1,800cefdc,28,13,27,P1,translated,ニクス大陸からの敵の増援も,That makes it harder,1 pointer(s); pointer redirection
+TXT-1474,00b1ac,8001a9ac,11,5,story,inplace,1,800cefc8,12,5,11,P1,translated,退却した。,withdrawn from North Europa.,1 pointer(s); pointer redirection
+TXT-1475,00b1b8,8001a9b8,29,14,story,inplace,1,800cefc4,32,15,31,P1,translated,これで、北エウロペの帝国軍も,The Imperial forces have,1 pointer(s); pointer redirection
 TXT-1476,00b1d8,8001a9d8,23,11,story,inplace,1,800cf24c,24,11,23,P1,translated,南の入り口にある基地を,at the southern entrance,1 pointer(s); pointer redirection
 TXT-1477,00b1f0,8001a9f0,25,12,story,inplace,1,800cf248,28,13,27,P1,translated,まずは、この西エウロペの,"First, we'll take the base",1 pointer(s); pointer redirection
 TXT-1478,00b20c,8001aa0c,23,11,story,inplace,1,800cf234,24,11,23,P1,translated,選んでゆくことになる。,We'll choose as we go.,1 pointer(s); pointer redirection
@@ -1517,8 +1517,8 @@ TXT-1515,00b580,8001ad80,21,10,story,inplace,1,800cf550,24,11,23,P1,translated,�
 TXT-1516,00b598,8001ad98,29,14,story,inplace,1,800cf54c,32,15,31,P1,translated,ウルトラザウルスの受け取りは,The receipt of the Ultrasaurus,1 pointer(s); pointer redirection
 TXT-1517,00b5b8,8001adb8,11,5,story,inplace,1,800cf694,12,5,11,P1,translated,北上する！,We'll head north!,1 pointer(s); pointer redirection
 TXT-1518,00b5c4,8001adc4,27,13,story,inplace,1,800cf690,28,13,27,P1,translated,よし、海側のルートを通って,"Good, take the sea-side route",1 pointer(s); pointer redirection
-TXT-1519,00b5e0,8001ade0,25,12,story,inplace,1,800cf660,28,13,27,P1,translated,敵本隊が到着する前に終了,Finish before the enemy main force arrives.,1 pointer(s); pointer redirection
-TXT-1520,00b5fc,8001adfc,29,14,story,inplace,1,800cf65c,32,15,31,P1,translated,ウルトラザウルスの積みこみ、,"Loading the Ultrasaurus,",1 pointer(s); pointer redirection
+TXT-1519,00b5e0,8001ade0,25,12,story,inplace,1,800cf660,28,13,27,P1,translated,敵本隊が到着する前に終了,the Ultrasaurus before,1 pointer(s); pointer redirection
+TXT-1520,00b5fc,8001adfc,29,14,story,inplace,1,800cf65c,32,15,31,P1,translated,ウルトラザウルスの積みこみ、,We finished loading,1 pointer(s); pointer redirection
 TXT-1521,00b61c,8001ae1c,21,10,story,inplace,1,800cf89c,24,11,23,P1,translated,時間がない。頼むぞ！,There's no time. Please!,1 pointer(s); pointer redirection
 TXT-1522,00b634,8001ae34,19,9,story,inplace,1,800cf898,20,9,19,P1,translated,聞いてのとおりだ。,As you heard.,1 pointer(s); pointer redirection
 TXT-1523,00b648,8001ae48,29,14,story,inplace,1,800cf868,32,15,31,P1,translated,ゾイドが行動不能になります。,The Zoids will become immobile.,1 pointer(s); pointer redirection
@@ -1698,8 +1698,8 @@ TXT-1696,00c6b8,8001beb8,21,10,ui,inplace,1,800d1278,24,11,23,P0,translated,味�
 TXT-1697,00c6d0,8001bed0,21,10,ui,inplace,1,800d1274,24,11,23,P0,translated,基地防衛に当たらせる,to defend the base,1 pointer(s); pointer redirection
 TXT-1698,00c6e8,8001bee8,29,14,ui,inplace,1,800d12bc,32,15,31,P0,translated,自軍基地のＨＰに加算します。,Add to your base's HP.,1 pointer(s); pointer redirection
 TXT-1699,00c708,8001bf08,15,7,ui,inplace,1,800d12b8,16,7,15,P0,translated,ゾイドのＨＰを,the Zoid's HP,1 pointer(s); pointer redirection
-TXT-1700,00c718,8001bf18,25,12,ui,inplace,1,800d1324,28,13,27,P0,translated,『フィーネ』の力で無効化,nullify with Fine's power,1 pointer(s); pointer redirection
-TXT-1701,00c734,8001bf34,17,8,ui,inplace,1,800d1320,20,9,19,P0,translated,受けたダメージを,the damage received,1 pointer(s); pointer redirection
+TXT-1700,00c718,8001bf18,25,12,ui,inplace,1,800d1324,28,13,27,P0,translated,『フィーネ』の力で無効化,canceled out,1 pointer(s); pointer redirection
+TXT-1701,00c734,8001bf34,17,8,ui,inplace,1,800d1320,20,9,19,P0,translated,受けたダメージを,Fine's power,1 pointer(s); pointer redirection
 TXT-1702,00c748,8001bf48,27,13,ui,inplace,1,800d1394,28,13,27,P0,translated,その番号順で山に戻ります。,return to the deck in that order.,1 pointer(s); pointer redirection
 TXT-1703,00c764,8001bf64,29,14,ui,inplace,1,800d1390,32,15,31,P0,translated,好きな番号をつけてください。,Assign any numbers.,1 pointer(s); pointer redirection
 TXT-1704,00c784,8001bf84,15,7,ui,inplace,1,800d138c,16,7,15,P0,translated,４枚のカードに,to 4 cards,1 pointer(s); pointer redirection
