@@ -280,3 +280,11 @@ The SLPS-03255 catalog contains 81 Zoid, 88 Custom, 70 Event, and 35 Pilot cards
 
 The text audit checks 59 menu, 228 UI and 67 system records alongside 1,231 story records. Its pointer and coverage checks complement the screen checks above. A translated record alone cannot verify its order or fit in a scene.
 The revised Supply greeting was verified in-game. The settled panel displays both lines in order beside the English Buy and Cancel commands.
+
+### Shared campaign dialogue
+
+The game reuses short Japanese sentence endings across briefings and battle reports. The English ending can depend on the preceding line. For example, the same Japanese record completes both the report about New Helic City and the order limiting Zoid deployment. The tracker lists the English for the primary pointer. The pointer-redirection plan lists the wording at each script location.
+
+The build checks the configured endings against the retail pointer map. The audit checks the original pointers against the extracted executable and the English text against both generated tables. A Republic training checkpoint was used to read back all 18 contextual endings across six shared Japanese records, along with the surrounding tracked lines. The retreat report was also checked at both of its script locations.
+
+All five uses of なるだろう。 were also displayed in the native battle panel. The test fixture loaded the retail dialogue and speaker portrait for each passage and advanced when the continue prompt appeared. The report about Republic losses took two pages. The supplies, New Helic City, deployment and final-battle messages each fit on one page.

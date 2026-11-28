@@ -34,7 +34,7 @@ from translations_card_text_2 import CARD_TEXT_2
 from translations_card_text_3 import CARD_TEXT_3
 from translations_card_text_4 import CARD_TEXT_4
 from translations_card_names_2 import CARD_NAMES_2
-from translations_polish import POLISH
+from translations_polish import POLISH, STORY_SLOT_ENDINGS
 from translations_objectives import OBJECTIVES, fits_objective
 from translations_dialogue_short import SHORT_DIALOGUE
 
@@ -138,9 +138,25 @@ ptrs_by_offset = defaultdict(list)
 for p in ptr_rows:
     ptrs_by_offset[p["string_offset"]].append(p)
 
+def translation_records():
+    for row in tracker:
+        pointers = ptrs_by_offset.get(row["offset"], [])
+        endings = STORY_SLOT_ENDINGS.get(row["id"])
+        english = ALL_TR.get(row["id"], "")
+        if endings is None:
+            yield row, pointers, english
+            continue
+        addresses = {int(p["ptr_ram_addr"], 16) for p in pointers}
+        primary = int(row["primary_ptr_source"], 16)
+        if addresses != endings.keys() or endings[primary] != english:
+            raise ValueError(f"{row['id']} story endings do not match the retail pointer map")
+        for pointer in pointers:
+            slot = pointer["ptr_ram_addr"]
+            yield dict(row, primary_ptr_source=slot), [pointer], endings[int(slot, 16)]
+
+
 plan = []
-for r in tracker:
-    ptrs = ptrs_by_offset.get(r["offset"], [])
+for r, ptrs, en in translation_records():
     if not ptrs:
         continue
     plan.append({
@@ -152,7 +168,7 @@ for r in tracker:
         "ptr_ram_addrs": ";".join(p["ptr_ram_addr"] for p in ptrs),
         "slot_bytes": r["slot_bytes"],
         "max_fullwidth_cells": r["max_fullwidth_cells"],
-        "english": ALL_TR.get(r["id"], ""),
+        "english": en,
     })
 
 with open("analysis/POINTER_REDIRECT_PLAN.csv", "w", encoding="utf-8", newline="") as f:
@@ -189,8 +205,7 @@ pending_lines = [
     "",
 ]
 
-for r in tracker:
-    en = ALL_TR.get(r["id"], "")
+for r, ptrs, en in translation_records():
     method = r["method"]
     if r["id"] in HASH_SAFE_OVERRIDES:
         method = "hash"
@@ -210,7 +225,7 @@ for r in tracker:
     ]
     if ptr:
         lines.append(f'ptr_addr = 0x{int(ptr, 16):08x}')
-    ptr_addrs = sorted({p["ptr_ram_addr"] for p in ptrs_by_offset.get(r["offset"], [])})
+    ptr_addrs = sorted({p["ptr_ram_addr"] for p in ptrs})
     if r["id"] in KEYPAD_LABEL_SLOTS:
         ptr_addrs = [ptr]
     if ptr_addrs:
@@ -332,7 +347,7 @@ cats = Counter(r["category"] for r in phase2)
 print(f"phase2 translations: {len(phase2)} by category {dict(cats)}")
 print("  hash-safe:", sum(1 for r in phase2 if r["method"] == "hash"))
 print("  pointer-pending:", sum(1 for r in phase2 if r["method"] == "inplace"))
-print(f"master entries: {len(tracker)}")
+print(f"master entries: {master_lines.count('[[entry]]')}")
 print(f"hash table entries: {safe_lines.count('[[entry]]')}")
 print(f"pointer-pending entries: {pending_lines.count('[[entry]]')}")
 print("wrote analysis/PHASE2_TRANSLATIONS.csv, analysis/POINTER_REDIRECT_PLAN.csv")

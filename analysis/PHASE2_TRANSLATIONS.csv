@@ -476,8 +476,8 @@ TXT-0474,story,P1,inplace,00533c,0x80014b3c,800c5c68,28,13,勝利：デッドボ
 TXT-0475,story,P1,inplace,005358,0x80014b58,800c5c3c,20,9,もらっちまおう。,I'll take it.,13,no,draft,table-driven; use pointer redirection
 TXT-0476,story,P1,inplace,00536c,0x80014b6c,800c5c38,28,13,とっとと倒して、もらうもん,"Hurry up and beat them, then take",33,no,draft,table-driven; use pointer redirection
 TXT-0477,story,P1,inplace,005388,0x80014b88,800c5c20,32,15,要するにお宝の番人というワケ,"In short, it's a treasure guardian.",35,no,draft,table-driven; use pointer redirection
-TXT-0478,story,P1,inplace,0053a8,0x80014ba8,800c5bf4,12,5,います。,There they are.,15,no,draft,table-driven; use pointer redirection
-TXT-0479,story,P1,inplace,0053b4,0x80014bb4,800c5bf0,32,15,リーダーを中心に群れを作って,They form packs around a leader,31,no,draft,table-driven; use pointer redirection
+TXT-0478,story,P1,inplace,0053a8,0x80014ba8,800c5bf4,12,5,います。,around a leader.,16,no,draft,table-driven; use pointer redirection
+TXT-0479,story,P1,inplace,0053b4,0x80014bb4,800c5bf0,32,15,リーダーを中心に群れを作って,They form packs,15,yes,draft,table-driven; use pointer redirection
 TXT-0480,story,P1,inplace,0053d4,0x80014bd4,800c5bdc,28,13,内部にゾイドの反応を確認。,Zoid signals detected inside.,29,no,draft,table-driven; use pointer redirection
 TXT-0481,story,P1,inplace,0053f0,0x80014bf0,800c5d14,32,15,あれにやられたということか。,So that's what got them.,24,no,draft,table-driven; use pointer redirection
 TXT-0482,story,P1,inplace,005410,0x80014c10,800c5d10,32,15,とすると、ガイガロスの部隊は,Then the Gaigalus unit,22,no,draft,table-driven; use pointer redirection
@@ -498,8 +498,8 @@ TXT-0496,story,P1,inplace,005554,0x80014d54,800c60c0,20,9,パイロットカー�
 TXT-0497,story,P1,inplace,005568,0x80014d68,800c60a4,20,9,カスタムカードの,The Custom Card,15,no,draft,table-driven; use pointer redirection
 TXT-0498,story,P1,inplace,00557c,0x80014d7c,800c6088,20,9,イベントカードの,The Event Card,14,no,draft,table-driven; use pointer redirection
 TXT-0499,story,P1,inplace,005590,0x80014d90,800c6180,20,9,私も退却しよう。,I'll retreat too.,17,no,draft,table-driven; use pointer redirection
-TXT-0500,story,P1,inplace,0055a4,0x80014da4,800c617c,16,7,できたようだ。,It seems it's done.,19,no,draft,table-driven; use pointer redirection
-TXT-0501,story,P1,inplace,0055b4,0x80014db4,800c6178,28,13,どうやら、本隊は無事に撤退,Apparently the main force retreated safely.,43,no,draft,table-driven; use pointer redirection
+TXT-0500,story,P1,inplace,0055a4,0x80014da4,800c617c,16,7,できたようだ。,got away safely.,16,no,draft,table-driven; use pointer redirection
+TXT-0501,story,P1,inplace,0055b4,0x80014db4,800c6178,28,13,どうやら、本隊は無事に撤退,It looks like our main force,28,no,draft,table-driven; use pointer redirection
 TXT-0502,story,P1,inplace,0055d0,0x80014dd0,800c61c0,28,13,指示にしたがってください。,Please follow the instructions.,31,no,draft,table-driven; use pointer redirection
 TXT-0503,story,P1,inplace,0055ec,0x80014dec,800c61bc,24,11,では、演習を行います。,"Now, we will begin the exercise.",32,no,draft,table-driven; use pointer redirection
 TXT-0504,story,P1,inplace,005604,0x80014e04,800c663c,12,5,ようだな。,so it seems.,12,no,draft,table-driven; use pointer redirection
@@ -693,8 +693,8 @@ TXT-0691,story,P1,inplace,006750,0x80015f50,800c9c8c,28,13,レッドラストに
 TXT-0692,story,P1,inplace,00676c,0x80015f6c,800c9c88,16,7,わかりました。,Understood.,11,no,draft,table-driven; use pointer redirection
 TXT-0693,story,P1,inplace,00677c,0x80015f7c,800c9c5c,20,9,つぶしてしまえ。,Crush them.,11,no,draft,table-driven; use pointer redirection
 TXT-0694,story,P1,inplace,006790,0x80015f90,800c9c58,28,13,ついでだ、その基地とやらも,"While we're at it, that base too",32,no,draft,table-driven; use pointer redirection
-TXT-0695,story,P1,inplace,0067ac,0x80015fac,800c9c2c,20,9,あるもようです。,It seems there is one.,22,no,draft,table-driven; use pointer redirection
-TXT-0696,story,P1,inplace,0067c0,0x80015fc0,800c9c28,32,15,敵の逃げこんだ砂漠に、基地が,There is a base in the desert they fled to.,43,no,draft,table-driven; use pointer redirection
+TXT-0695,story,P1,inplace,0067ac,0x80015fac,800c9c2c,20,9,あるもようです。,in the desert they fled to.,27,no,draft,table-driven; use pointer redirection
+TXT-0696,story,P1,inplace,0067c0,0x80015fc0,800c9c28,32,15,敵の逃げこんだ砂漠に、基地が,They seem to have a base,24,no,draft,table-driven; use pointer redirection
 TXT-0697,story,P1,inplace,0067e0,0x80015fe0,800c9e6c,24,11,役に立つかもしれん。,It might be useful.,19,no,draft,table-driven; use pointer redirection
 TXT-0698,story,P1,inplace,0067f8,0x80015ff8,800c9e68,28,13,ので、本国からのユニットが,"So, the unit from the homeland",30,no,draft,table-driven; use pointer redirection
 TXT-0699,story,P1,inplace,006814,0x80016014,800c9e64,28,13,まわりが湖にかこまれている,is surrounded by a lake.,24,no,draft,table-driven; use pointer redirection
@@ -808,15 +808,15 @@ TXT-0806,story,P1,inplace,007218,0x80016a18,800ca8fc,28,13,移動の用意もで
 TXT-0807,story,P1,inplace,007234,0x80016a34,800ca8f8,28,13,閣下、増援が到着しました。,"Your Excellency, reinforcements are here.",41,no,draft,table-driven; use pointer redirection
 TXT-0808,story,P1,inplace,007250,0x80016a50,800ca8cc,32,15,考えないといけないだろうな。,We'll have to think about it.,29,no,draft,table-driven; use pointer redirection
 TXT-0809,story,P1,inplace,007270,0x80016a70,800ca8c8,32,15,ゾイド配備にかかるポイントも,The points needed to deploy Zoids,33,no,draft,table-driven; use pointer redirection
-TXT-0810,story,P1,inplace,007290,0x80016a90,800ca8b0,24,11,使っていくことが必要に,We must use them effectively.,29,no,draft,table-driven; use pointer redirection
-TXT-0811,story,P1,inplace,0072a8,0x80016aa8,800ca8ac,28,13,また、今後は資材をうまく,"Also, from now on, use resources wisely.",40,no,draft,table-driven; use pointer redirection
+TXT-0810,story,P1,inplace,007290,0x80016a90,800ca8b0,24,11,使っていくことが必要に,use supplies,12,no,draft,table-driven; use pointer redirection
+TXT-0811,story,P1,inplace,0072a8,0x80016aa8,800ca8ac,28,13,また、今後は資材をうまく,We'll have to,13,yes,draft,table-driven; use pointer redirection
 TXT-0812,story,P1,inplace,0072c4,0x80016ac4,800ca898,28,13,激しいものになるはずだ。,It will become fierce.,22,no,draft,table-driven; use pointer redirection
 TXT-0813,story,P1,inplace,0072e0,0x80016ae0,800ca894,28,13,西エウロペの戦いはいっそう,The battle for West Europa will be even more,44,no,draft,table-driven; use pointer redirection
 TXT-0814,story,P1,inplace,0072fc,0x80016afc,800ca880,16,7,攻めてくる。,They will attack.,17,no,draft,table-driven; use pointer redirection
 TXT-0815,story,P1,inplace,00730c,0x80016b0c,800ca87c,28,13,その分、相手は量より質で,The enemy relies on quality over quantity.,42,no,draft,table-driven; use pointer redirection
-TXT-0816,story,P1,inplace,007328,0x80016b28,800ca868,16,7,なるだろう。,It will be.,11,no,draft,table-driven; use pointer redirection
-TXT-0817,story,P1,inplace,007338,0x80016b38,800ca864,28,13,失われ、新たな上陸も困難に,"Lost, and a new landing becomes difficult.",42,no,draft,table-driven; use pointer redirection
-TXT-0818,story,P1,inplace,007354,0x80016b54,800ca860,32,15,これで共和国の戦力の５０％は,This cuts Republic strength by 50%.,35,no,draft,table-driven; use pointer redirection
+TXT-0816,story,P1,inplace,007328,0x80016b28,800ca868,16,7,なるだろう。,Landing again will be hard.,27,no,draft,table-driven; use pointer redirection
+TXT-0817,story,P1,inplace,007338,0x80016b38,800ca864,28,13,失われ、新たな上陸も困難に,will lose half its forces.,26,no,draft,table-driven; use pointer redirection
+TXT-0818,story,P1,inplace,007354,0x80016b54,800ca860,32,15,これで共和国の戦力の５０％は,The Republic,12,yes,draft,table-driven; use pointer redirection
 TXT-0819,story,P1,inplace,007374,0x80016b74,800cac50,16,7,いいだろう。,Good.,5,yes,draft,table-driven; use pointer redirection
 TXT-0820,story,P1,inplace,007384,0x80016b84,800cac4c,28,13,ほぼ当たらないと思った方が,You should assume it will hardly hit.,37,no,draft,table-driven; use pointer redirection
 TXT-0821,story,P1,inplace,0073a0,0x80016ba0,800cac48,20,9,基地への攻撃は、,Attacks on the base,19,no,draft,table-driven; use pointer redirection
@@ -898,7 +898,7 @@ TXT-0896,story,P1,inplace,007af8,0x800172f8,800cb31c,20,9,聞いているが…�
 TXT-0897,story,P1,inplace,007b0c,0x8001730c,800cb318,24,11,かなり謎の多いゾイドと,A Zoid with many mysteries,26,no,draft,table-driven; use pointer redirection
 TXT-0898,story,P1,inplace,007b24,0x80017324,800cb314,24,11,デススティンガーか。,"The Death Stinger, huh.",23,no,draft,table-driven; use pointer redirection
 TXT-0899,story,P1,inplace,007b3c,0x8001733c,800cb2e8,24,11,調整にまわしますか？,Send it for adjustment?,23,no,draft,table-driven; use pointer redirection
-TXT-0900,story,P1,inplace,007b54,0x80017354,800cb2d0,28,13,本国より、ゾイドが到着して,A Zoid has arrived from the homeland.,37,no,draft,table-driven; use pointer redirection
+TXT-0900,story,P1,inplace,007b54,0x80017354,800cb2d0,28,13,本国より、ゾイドが到着して,A Zoid has arrived,18,no,draft,table-driven; use pointer redirection
 TXT-0901,story,P1,inplace,007b70,0x80017370,800cb2a4,20,9,ごくろうだった。,Good work.,10,no,draft,table-driven; use pointer redirection
 TXT-0902,story,P1,inplace,007b84,0x80017384,800cb408,12,5,いくぞ。,Let's go.,9,no,draft,table-driven; use pointer redirection
 TXT-0903,story,P1,inplace,007b90,0x80017390,800cb404,24,11,整備中の今が好機だ。,Now's our chance while it's being serviced.,43,no,draft,table-driven; use pointer redirection
@@ -958,8 +958,8 @@ TXT-0956,story,P1,inplace,008060,0x80017860,800cb948,20,9,『外部荷電粒子�
 TXT-0957,story,P1,inplace,008074,0x80017874,800cb8fc,20,9,聞いていたが…。,"I had heard, but...",19,no,draft,table-driven; use pointer redirection
 TXT-0958,story,P1,inplace,008088,0x80017888,800cb8f8,20,9,開発しているとは,To think they were developing it.,33,no,draft,table-driven; use pointer redirection
 TXT-0959,story,P1,inplace,00809c,0x8001789c,800cb8f4,20,9,外部荷電粒子砲か。,"The External Charged Particle Cannon, huh.",42,no,draft,table-driven; use pointer redirection
-TXT-0960,story,P1,inplace,0080b0,0x800178b0,800cb8c8,20,9,とどいています。,It has arrived.,15,no,draft,table-driven; use pointer redirection
-TXT-0961,story,P1,inplace,0080c4,0x800178c4,800cb8c4,28,13,本国のドクトルＦから武器が,Weapons from Doctor F in the homeland,37,no,draft,table-driven; use pointer redirection
+TXT-0960,story,P1,inplace,0080b0,0x800178b0,800cb8c8,20,9,とどいています。,from home.,10,no,draft,table-driven; use pointer redirection
+TXT-0961,story,P1,inplace,0080c4,0x800178c4,800cb8c4,28,13,本国のドクトルＦから武器が,Dr. F sent weapons,18,no,draft,table-driven; use pointer redirection
 TXT-0962,story,P1,inplace,0080e0,0x800178e0,800cb898,20,9,間に合いそうだ。,We'll make it in time.,22,no,draft,table-driven; use pointer redirection
 TXT-0963,story,P1,inplace,0080f4,0x800178f4,800cb894,32,15,南エウロペ侵攻作戦の時間には,In time for the South Europa operation,38,no,draft,table-driven; use pointer redirection
 TXT-0964,story,P1,inplace,008114,0x80017914,800cba50,24,11,君の腕だけが頼りだ。,We're counting on your skill.,29,no,draft,table-driven; use pointer redirection
@@ -1010,9 +1010,9 @@ TXT-1008,story,P1,inplace,008530,0x80017d30,800cbc6c,20,9,プロイツェン閣�
 TXT-1009,story,P1,inplace,008544,0x80017d44,800cbc68,20,9,ガイガロスより、,"From Gaigalus,",14,no,draft,table-driven; use pointer redirection
 TXT-1010,story,P1,inplace,008558,0x80017d58,800cbfb0,24,11,早めにたたいてしまえ。,Strike them early.,18,no,draft,table-driven; use pointer redirection
 TXT-1011,story,P1,inplace,008570,0x80017d70,800cbfac,28,13,合流されるとめんどうだな。,It will be troublesome if they join up.,39,no,draft,table-driven; use pointer redirection
-TXT-1012,story,P1,inplace,00858c,0x80017d8c,800cbf80,24,11,約１５分で合流します。,They will join in about 15 minutes.,35,no,draft,table-driven; use pointer redirection
-TXT-1013,story,P1,inplace,0085a4,0x80017da4,800cbf7c,16,7,ありません。,There is none.,14,no,draft,table-driven; use pointer redirection
-TXT-1014,story,P1,inplace,0085b4,0x80017db4,800cbf78,24,11,合流まであまり時間が,There isn't much time until they join.,38,no,draft,table-driven; use pointer redirection
+TXT-1012,story,P1,inplace,00858c,0x80017d8c,800cbf80,24,11,約１５分で合流します。,In about 15 minutes.,20,no,draft,table-driven; use pointer redirection
+TXT-1013,story,P1,inplace,0085a4,0x80017da4,800cbf7c,16,7,ありません。,soon.,5,yes,draft,table-driven; use pointer redirection
+TXT-1014,story,P1,inplace,0085b4,0x80017db4,800cbf78,24,11,合流まであまり時間が,They'll join forces,19,no,draft,table-driven; use pointer redirection
 TXT-1015,story,P1,inplace,0085cc,0x80017dcc,800cbf64,32,15,近辺に、共和国の部隊を確認。,Republic units confirmed nearby.,32,no,draft,table-driven; use pointer redirection
 TXT-1016,story,P1,inplace,0085ec,0x80017dec,800cbf38,24,11,いたぶってやろうか？,Shall we toy with them?,23,no,draft,table-driven; use pointer redirection
 TXT-1017,story,P1,inplace,008604,0x80017e04,800cbf34,20,9,フフ…、じっくりと,Heh... slowly.,14,no,draft,table-driven; use pointer redirection
@@ -1033,7 +1033,7 @@ TXT-1031,story,P1,inplace,008764,0x80017f64,800cc040,28,13,前方にゾイドの
 TXT-1032,story,P1,inplace,008780,0x80017f80,800cc1f8,32,15,『セイバータイガーＡＴ・Ｐ』,Saber Tiger AT-P,16,no,draft,table-driven; use pointer redirection
 TXT-1033,story,P1,inplace,0087a0,0x80017fa0,800cc1ac,12,5,するか。,Shall we?,9,no,draft,table-driven; use pointer redirection
 TXT-1034,story,P1,inplace,0087ac,0x80017fac,800cc1a8,28,13,補給が追いついたので良しと,"The supplies caught up, so it's fine.",37,no,draft,table-driven; use pointer redirection
-TXT-1035,story,P1,inplace,0087c8,0x80017fc8,800cc178,28,13,ガイガロスより、ゾイドが,"From Gaigalus, Zoids",20,no,draft,table-driven; use pointer redirection
+TXT-1035,story,P1,inplace,0087c8,0x80017fc8,800cc178,28,13,ガイガロスより、ゾイドが,Zoids have arrived,18,no,draft,table-driven; use pointer redirection
 TXT-1036,story,P1,inplace,0087e4,0x80017fe4,800cc148,24,11,余計な時間を使ったか。,Did we waste extra time?,24,no,draft,table-driven; use pointer redirection
 TXT-1037,story,P1,inplace,0087fc,0x80017ffc,800cc2cc,28,13,調べてみるのもいいだろう。,It might be worth investigating.,32,no,draft,table-driven; use pointer redirection
 TXT-1038,story,P1,inplace,008818,0x80018018,800cc2c4,32,15,まだ、作戦開始までには時間が,There's still time before the operation.,40,no,draft,table-driven; use pointer redirection
@@ -1053,20 +1053,20 @@ TXT-1051,story,P1,inplace,008950,0x80018150,800cc440,28,13,『ライトニング
 TXT-1052,story,P1,inplace,00896c,0x8001816c,800cc3f4,28,13,ニューヘリックを攻める。,Attack New Helic.,17,no,draft,table-driven; use pointer redirection
 TXT-1053,story,P1,inplace,008988,0x80018188,800cc3f0,28,13,マダガスカル島を拠点とし、,"Using Madagascar Island as a base,",34,no,draft,table-driven; use pointer redirection
 TXT-1054,story,P1,inplace,0089a4,0x800181a4,800cc3ec,24,11,このまま海路を通り、,"Continue through the sea route,",31,no,draft,table-driven; use pointer redirection
-TXT-1055,story,P1,inplace,0089bc,0x800181bc,800cc3a8,28,13,ガイガロスから再度ゾイドが,Zoids from Gaigalus again,25,no,draft,table-driven; use pointer redirection
+TXT-1055,story,P1,inplace,0089bc,0x800181bc,800cc3a8,28,13,ガイガロスから再度ゾイドが,More Zoids have arrived,23,no,draft,table-driven; use pointer redirection
 TXT-1056,story,P1,inplace,0089d8,0x800181d8,800cc394,20,9,基地の沈黙を確認。,Base silence confirmed.,23,no,draft,table-driven; use pointer redirection
 TXT-1057,story,P1,inplace,0089ec,0x800181ec,800cc4ec,24,11,さっさとやっちまおう。,Let's finish this quickly.,26,no,draft,table-driven; use pointer redirection
 TXT-1058,story,P1,inplace,008a04,0x80018204,800cc4e8,20,9,やるしかないんだし,We have no choice but to do it.,31,no,draft,table-driven; use pointer redirection
 TXT-1059,story,P1,inplace,008a18,0x80018218,800cc4e4,20,9,どっちにしたって,"Either way,",11,no,draft,table-driven; use pointer redirection
-TXT-1060,story,P1,inplace,008a2c,0x8001822c,800cc4b4,24,11,遺跡の調査はできそうに,We may not be able to search the ruins.,39,no,draft,table-driven; use pointer redirection
-TXT-1061,story,P1,inplace,008a44,0x80018244,800cc4b0,32,15,野良ゾイドを破壊しないかぎり,Unless we destroy the wild Zoids,32,no,draft,table-driven; use pointer redirection
+TXT-1060,story,P1,inplace,008a2c,0x8001822c,800cc4b4,24,11,遺跡の調査はできそうに,we probably can't,17,no,draft,table-driven; use pointer redirection
+TXT-1061,story,P1,inplace,008a44,0x80018244,800cc4b0,32,15,野良ゾイドを破壊しないかぎり,"Until we destroy the wild Zoids,",32,no,draft,table-driven; use pointer redirection
 TXT-1062,story,P1,inplace,008a64,0x80018264,800cc484,32,15,遺跡周辺に野良ゾイドを確認。,Wild Zoids confirmed around the ruins.,38,no,draft,table-driven; use pointer redirection
 TXT-1063,story,P1,inplace,008a84,0x80018284,800cc558,16,7,うつります。,We will move on.,16,no,draft,table-driven; use pointer redirection
 TXT-1064,story,P1,inplace,008a94,0x80018294,800cc554,28,13,引き続き、遺跡内の調査に,Continue investigating the ruins.,33,no,draft,table-driven; use pointer redirection
 TXT-1065,story,P1,inplace,008ab0,0x800182b0,800cc528,32,15,どうやら、かたづいたようだね,It seems it's been settled.,27,no,draft,table-driven; use pointer redirection
 TXT-1066,story,P1,inplace,008ad0,0x800182d0,800cc6c4,20,9,てはいかんのか…。,Can't we...?,12,no,draft,table-driven; use pointer redirection
 TXT-1067,story,P1,inplace,008ae4,0x800182e4,800cc6c0,32,15,量に加えて、時間とも戦わなく,"In addition to numbers, we must fight time.",43,no,draft,table-driven; use pointer redirection
-TXT-1068,story,P1,inplace,008b04,0x80018304,800cc690,28,13,作戦開始まで、時間があまり,Little time remains before the operation.,41,no,draft,table-driven; use pointer redirection
+TXT-1068,story,P1,inplace,008b04,0x80018304,800cc690,28,13,作戦開始まで、時間があまり,the operation begins,20,no,draft,table-driven; use pointer redirection
 TXT-1069,story,P1,inplace,008b20,0x80018320,800cc660,24,11,作戦が水の泡と化す。,The operation will be ruined.,29,no,draft,table-driven; use pointer redirection
 TXT-1070,story,P1,inplace,008b38,0x80018338,800cc65c,28,13,ニューヘリックシティでの,At New Helic City,17,no,draft,table-driven; use pointer redirection
 TXT-1071,story,P1,inplace,008b54,0x80018354,800cc658,24,11,ここでおさえないと、,"If we don't hold here,",22,no,draft,table-driven; use pointer redirection
@@ -1264,8 +1264,8 @@ TXT-1262,story,P1,inplace,009d88,0x80019588,800cd96c,24,11,よし、回収した
 TXT-1263,story,P1,inplace,009da0,0x800195a0,800cd940,28,13,工作班が回収しています。,Our engineers are recovering it.,32,no,draft,table-driven; use pointer redirection
 TXT-1264,story,P1,inplace,009dbc,0x800195bc,800cd93c,20,9,敵の武器を発見。,developed in Gaigalus.,22,no,draft,table-driven; use pointer redirection
 TXT-1265,story,P1,inplace,009dd0,0x800195d0,800cd938,28,13,ガイガロスで開発されていた,We've found an enemy weapon,27,no,draft,table-driven; use pointer redirection
-TXT-1266,story,P1,inplace,009dec,0x800195ec,800cd908,32,15,ニューヘリックシティは安全に,New Helic City is safe.,23,no,draft,table-driven; use pointer redirection
-TXT-1267,story,P1,inplace,009e0c,0x8001960c,800cd904,16,7,とりあえず、,"For now,",8,no,draft,table-driven; use pointer redirection
+TXT-1266,story,P1,inplace,009dec,0x800195ec,800cd908,32,15,ニューヘリックシティは安全に,should be safe,14,yes,draft,table-driven; use pointer redirection
+TXT-1267,story,P1,inplace,009e0c,0x8001960c,800cd904,16,7,とりあえず、,New Helic City,14,no,draft,table-driven; use pointer redirection
 TXT-1268,story,P1,inplace,009e1c,0x8001961c,800cd8f0,32,15,帝国の活動拠点は無くなった。,without a base in southern Europa.,34,no,draft,table-driven; use pointer redirection
 TXT-1269,story,P1,inplace,009e3c,0x8001963c,800cd8ec,24,11,これで南エウロペでの,That leaves the Empire,22,no,draft,table-driven; use pointer redirection
 TXT-1270,story,P1,inplace,009e54,0x80019654,800cd8c0,12,5,ゆきます。,are fleeing northwest.,22,no,draft,table-driven; use pointer redirection
@@ -1314,8 +1314,8 @@ TXT-1312,story,P1,inplace,00a22c,0x80019a2c,800ce1d4,16,7,『ゴルドス』,Gor
 TXT-1313,story,P1,inplace,00a23c,0x80019a3c,800ce198,20,9,『トミー・パリス』,Tommy Paris,11,no,draft,table-driven; use pointer redirection
 TXT-1314,story,P1,inplace,00a250,0x80019a50,800ce15c,24,11,『バルディ・ガータ』,Bardi Garter,12,no,draft,table-driven; use pointer redirection
 TXT-1315,story,P1,inplace,00a268,0x80019a68,800ce110,28,13,良く考えて行動してほしい。,I want you to think carefully and act.,38,no,draft,table-driven; use pointer redirection
-TXT-1316,story,P1,inplace,00a284,0x80019a84,800ce0f4,28,13,出撃させることはできなく,You cannot sortie them.,23,no,draft,table-driven; use pointer redirection
-TXT-1317,story,P1,inplace,00a2a0,0x80019aa0,800ce0f0,24,11,今後は、余分なゾイドを,"From now on, extra Zoids",24,no,draft,table-driven; use pointer redirection
+TXT-1316,story,P1,inplace,00a284,0x80019a84,800ce0f4,28,13,出撃させることはできなく,deploy extra,12,yes,draft,table-driven; use pointer redirection
+TXT-1317,story,P1,inplace,00a2a0,0x80019aa0,800ce0f0,24,11,今後は、余分なゾイドを,We can't,8,yes,draft,table-driven; use pointer redirection
 TXT-1318,story,P1,inplace,00a2b8,0x80019ab8,800ce0dc,28,13,南エウロペの守りも必要だ。,We also need to defend South Europa.,36,no,draft,table-driven; use pointer redirection
 TXT-1319,story,P1,inplace,00a2d4,0x80019ad4,800ce0d8,24,11,逃げ込んだといっても、,"Even if they fled there,",24,no,draft,table-driven; use pointer redirection
 TXT-1320,story,P1,inplace,00a2ec,0x80019aec,800ce0d4,28,13,しかし、帝国が西エウロペに,"However, if the Empire is in West Europa",40,no,draft,table-driven; use pointer redirection
@@ -1339,8 +1339,8 @@ TXT-1337,story,P1,inplace,00a48c,0x80019c8c,800cdf48,32,15,新たに増援が到
 TXT-1338,story,P1,inplace,00a4ac,0x80019cac,800cdf1c,28,13,よし、基地の完成を急げ！,"Good, hurry the base's completion!",34,no,draft,table-driven; use pointer redirection
 TXT-1339,story,P1,inplace,00a4c8,0x80019cc8,800cdef0,28,13,基地の被害もありません。,There is no damage to the base.,31,no,draft,table-driven; use pointer redirection
 TXT-1340,story,P1,inplace,00a4e4,0x80019ce4,800cdeec,32,15,敵ゾイドすべて破壊しました。,All enemy Zoids destroyed.,26,no,draft,table-driven; use pointer redirection
-TXT-1341,story,P1,inplace,00a504,0x80019d04,800ce2ec,12,5,攻略する。,We will capture it.,19,no,draft,table-driven; use pointer redirection
-TXT-1342,story,P1,inplace,00a510,0x80019d10,800ce2e8,32,15,よし、まずはロブ平野の基地を,"Good, first the base on the Rob Plain",37,no,draft,table-driven; use pointer redirection
+TXT-1341,story,P1,inplace,00a504,0x80019d04,800ce2ec,12,5,攻略する。,on the Rob Plain.,17,no,draft,table-driven; use pointer redirection
+TXT-1342,story,P1,inplace,00a510,0x80019d10,800ce2e8,32,15,よし、まずはロブ平野の基地を,"First, we'll take the base",26,no,draft,table-driven; use pointer redirection
 TXT-1343,story,P1,inplace,00a530,0x80019d30,800ce2bc,24,11,全軍上陸完了しました。,All units have landed.,22,no,draft,table-driven; use pointer redirection
 TXT-1344,story,P1,inplace,00a548,0x80019d48,800ce344,20,9,作戦を実行する。,We will execute the operation.,30,no,draft,table-driven; use pointer redirection
 TXT-1345,story,P1,inplace,00a55c,0x80019d5c,800ce340,28,13,北エウロペの情報を集めて、,"Gather information on North Europa,",35,no,draft,table-driven; use pointer redirection
@@ -1395,7 +1395,7 @@ TXT-1393,story,P1,inplace,00a9e0,0x8001a1e0,800ce8c0,32,15,最終目的地をブ
 TXT-1394,story,P1,inplace,00aa00,0x8001a200,800ce8ac,12,5,わかった。,Understood.,11,no,draft,table-driven; use pointer redirection
 TXT-1395,story,P1,inplace,00aa0c,0x8001a20c,800ce880,24,11,重要拠点のようです。,It seems to be an important stronghold.,39,no,draft,table-driven; use pointer redirection
 TXT-1396,story,P1,inplace,00aa24,0x8001a224,800ce87c,28,13,また、ブロント平地の基地が,"Also, the base on the Bront Plain",33,no,draft,table-driven; use pointer redirection
-TXT-1397,story,P1,inplace,00aa40,0x8001a240,800ce864,28,13,オリンポス山に研究施設が,A research facility sits on Mount Olympus.,42,no,draft,table-driven; use pointer redirection
+TXT-1397,story,P1,inplace,00aa40,0x8001a240,800ce864,28,13,オリンポス山に研究施設が,There seems to be a research facility,37,no,draft,table-driven; use pointer redirection
 TXT-1398,story,P1,inplace,00aa5c,0x8001a25c,800ce850,24,11,情報を入手しました。,We obtained information.,24,no,draft,table-driven; use pointer redirection
 TXT-1399,story,P1,inplace,00aa74,0x8001a274,800ce84c,28,13,敵の通信記録から、施設の,Enemy communications reveal the facility's,42,no,draft,table-driven; use pointer redirection
 TXT-1400,story,P1,inplace,00aa90,0x8001a290,800ce820,20,9,何か情報はないか？,Is there any information?,25,no,draft,table-driven; use pointer redirection
@@ -1441,7 +1441,7 @@ TXT-1439,story,P1,inplace,00ae34,0x8001a634,800ceea0,16,7,がはははは。,Hah
 TXT-1440,story,P1,inplace,00ae44,0x8001a644,800cee74,20,9,つかないんです。,It won't attach.,16,no,draft,table-driven; use pointer redirection
 TXT-1441,story,P1,inplace,00ae58,0x8001a658,800cee70,24,11,残念ですが、Ｌ型にしか,"Unfortunately, only L-types can",31,no,draft,table-driven; use pointer redirection
 TXT-1442,story,P1,inplace,00ae70,0x8001a670,800cee44,32,15,ぜひオレのコマンドウルフに…,"Please, my Command Wolf...",26,no,draft,table-driven; use pointer redirection
-TXT-1443,story,P1,inplace,00ae90,0x8001a690,800cee10,28,13,あ、それでしたら、さきほど,"Ah, if that's the case, earlier",31,no,draft,table-driven; use pointer redirection
+TXT-1443,story,P1,inplace,00ae90,0x8001a690,800cee10,28,13,あ、それでしたら、さきほど,"Oh, in that case,",17,no,draft,table-driven; use pointer redirection
 TXT-1444,story,P1,inplace,00aeac,0x8001a6ac,800cede4,24,11,なっているはずだが…。,"It should have arrived, but...",30,no,draft,table-driven; use pointer redirection
 TXT-1445,story,P1,inplace,00aec4,0x8001a6c4,800cede0,32,15,その武器なら、とどく手はずに,"If it's that weapon, it should arrive.",38,no,draft,table-driven; use pointer redirection
 TXT-1446,story,P1,inplace,00aee4,0x8001a6e4,800cedb4,20,9,武器が必要だな。,We need weapons.,16,no,draft,table-driven; use pointer redirection
@@ -1474,8 +1474,8 @@ TXT-1472,story,P1,inplace,00b174,0x8001a974,800cefe0,28,13,上陸しにくくな
 TXT-1473,story,P1,inplace,00b190,0x8001a990,800cefdc,28,13,ニクス大陸からの敵の増援も,Reinforcements from Nix as well.,32,no,draft,table-driven; use pointer redirection
 TXT-1474,story,P1,inplace,00b1ac,0x8001a9ac,800cefc8,12,5,退却した。,Retreated.,10,no,draft,table-driven; use pointer redirection
 TXT-1475,story,P1,inplace,00b1b8,0x8001a9b8,800cefc4,32,15,これで、北エウロペの帝国軍も,"Now, the Imperial army in North Europa too.",43,no,draft,table-driven; use pointer redirection
-TXT-1476,story,P1,inplace,00b1d8,0x8001a9d8,800cf24c,24,11,南の入り口にある基地を,The base at the southern entrance,33,no,draft,table-driven; use pointer redirection
-TXT-1477,story,P1,inplace,00b1f0,0x8001a9f0,800cf248,28,13,まずは、この西エウロペの,"First, this West Europa's",25,no,draft,table-driven; use pointer redirection
+TXT-1476,story,P1,inplace,00b1d8,0x8001a9d8,800cf24c,24,11,南の入り口にある基地を,at the southern entrance,24,no,draft,table-driven; use pointer redirection
+TXT-1477,story,P1,inplace,00b1f0,0x8001a9f0,800cf248,28,13,まずは、この西エウロペの,"First, we'll take the base",26,no,draft,table-driven; use pointer redirection
 TXT-1478,story,P1,inplace,00b20c,0x8001aa0c,800cf234,24,11,選んでゆくことになる。,We'll choose as we go.,22,no,draft,table-driven; use pointer redirection
 TXT-1479,story,P1,inplace,00b224,0x8001aa24,800cf230,24,11,状況に応じてルートを,"Depending on the situation, the route",37,no,draft,table-driven; use pointer redirection
 TXT-1480,story,P1,inplace,00b23c,0x8001aa3c,800cf22c,28,13,われわれは、遊軍として、,"We, as a mobile force,",22,no,draft,table-driven; use pointer redirection
@@ -1578,7 +1578,7 @@ TXT-1576,story,P1,inplace,00bb64,0x8001b364,800cfca8,32,15,合流し、物資を
 TXT-1577,story,P1,inplace,00bb84,0x8001b384,800cfca4,32,15,北上ルートを通ってきた部隊と,With the units from the northern route,38,no,draft,table-driven; use pointer redirection
 TXT-1578,story,P1,inplace,00bba4,0x8001b3a4,800cfc90,28,13,無事、上陸を完了しました。,We have safely completed the landing.,37,no,draft,table-driven; use pointer redirection
 TXT-1579,story,P1,inplace,00bbc0,0x8001b3c0,800cfdb0,24,11,心してかかって欲しい。,I want you to be prepared.,26,no,draft,table-driven; use pointer redirection
-TXT-1580,story,P1,inplace,00bbd8,0x8001b3d8,800cfd94,28,13,ここが、最終決戦の場所に,This will be the place of the final battle.,43,no,draft,table-driven; use pointer redirection
+TXT-1580,story,P1,inplace,00bbd8,0x8001b3d8,800cfd94,28,13,ここが、最終決戦の場所に,We may fight,12,yes,draft,table-driven; use pointer redirection
 TXT-1581,story,P1,inplace,00bbf4,0x8001b3f4,800cfd80,16,7,追いつめた。,We've cornered them.,20,no,draft,table-driven; use pointer redirection
 TXT-1582,story,P1,inplace,00bc04,0x8001b404,800cfd7c,24,11,ついに、帝国をここまで,"At last, the Empire to this point",33,no,draft,table-driven; use pointer redirection
 TXT-1583,story,P1,inplace,00bc1c,0x8001b41c,800cfe24,24,11,少し休んでいてくれ。,Rest a little.,14,no,draft,table-driven; use pointer redirection
