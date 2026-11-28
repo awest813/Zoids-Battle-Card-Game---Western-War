@@ -86,6 +86,40 @@ ZOID_SPECIAL_RIGHT_EDGE = {
     6: 104, 14: 104, 29: 103, 32: 104, 41: 103, 47: 103, 50: 104, 60: 103, 67: 102, 73: 103,
 }
 ZOID_BUILT_IN_WEAPONS = {10, 16, 20, 24, 30, 45}
+# Length (m), height (m), and weight (t) from the matching printed cards.
+# The two Death Stinger faces list separate land and sea dimensions.
+PRINTED_DIMENSIONS = {
+    10: ("23", "11.7", "112.8"), 30: ("23", "11.7", "112.8"),
+    15: ("11.5", "17.7", "192"),
+    16: ("32.4", "21", "400"),
+    17: ("14.76", "9.36", "68.0"), 48: ("14.76", "9.36", "68.0"),
+    18: ("11.5", "17.7", "187"),
+    20: ("23", "13.7", "137.5"), 24: ("23", "13.7", "137.5"), 77: ("23", "13.7", "137.5"),
+    21: ("11.3", "7.6", "56.0"),
+    22: ("17", "6", "34"),
+    25: ("19.4/28.8", "10.7/4.6", "320"), 64: ("19.4/28.8", "10.7/4.6", "320"),
+    26: ("18.4", "8.8", "65"), 66: ("18.4", "8.8", "65"),
+    29: ("15.6", "9.1", "78"),
+    45: ("14.7", "8.6", "48"), 46: ("21.6", "9", "92"),
+    50: ("21.6", "12.2", "145"), 51: ("17.0", "6.6", "66.5"),
+    53: ("9.9", "5.8", "33.6"), 54: ("11.9", "7.2", "25"),
+    56: ("50", "27.5", "507"), 63: ("50", "27.5", "507"),
+    57: ("20.6", "10.8", "230"), 67: ("25.9", "12.2", "139"),
+    73: ("14.7", "7.9", "50"), 78: ("25.9", "12.2", "124"),
+    79: ("24", "8.3", "85"), 80: ("24", "8.3", "85"),
+}
+# Captions printed within the lower edge of the Zoid illustration.
+ZOID_VARIANT_CAPTIONS = {
+    15: ((71, 91, 116, 98), "Schwarz custom"),
+    17: ((77, 91, 116, 98), "Moonbay custom"),
+    24: ((71, 91, 116, 98), "Raven custom"),
+    45: ((71, 91, 116, 98), "Irvine custom"),
+    46: ((49, 91, 101, 98), "Leomaster unit"),
+    48: ((77, 91, 116, 98), "Moonbay custom"),
+    73: ((54, 91, 116, 98), "Modified Command Wolf"),
+    77: ((10, 88, 68, 95), "Piloted by Raven"),
+    78: ((68, 88, 116, 95), "Piloted by Van"),
+}
 REVIEWED_RULES = {
     0: "All Zoids within one square of the user take 300 damage, including diagonals. Allies and bases are also affected.",
     1: "Target a square 5–10 spaces straight ahead. Zoids on the target take 300 damage. Zoids on adjacent squares take 200. Allies and bases are also affected.",
@@ -335,6 +369,19 @@ def paint_zoid(face, name, index, record):
     paint_label(face, (31, 5, 96, 13), name, "#484e56", "#fff9e2")
     compact_stats = index in (77, 78)
     stat_offset = -4 if compact_stats else 0
+    if index in ZOID_VARIANT_CAPTIONS:
+        box, caption = ZOID_VARIANT_CAPTIONS[index]
+        paint_label(face, box, caption, "#343940", "#fff9e6", max_size=18)
+    if index in PRINTED_DIMENSIONS:
+        length, height, weight = PRINTED_DIMENSIONS[index]
+        box = (39, 98, 118, 104)
+        legend = f"Length {length} m   Height {height} m   Weight {weight} t"
+        if compact_stats:
+            box = (39, 95, 118, 101)
+        elif index in (25, 64):
+            box = (38, 95, 118, 104)
+            legend = f"Land/Sea   L {length} m   H {height} m   W {weight} t"
+        paint_label(face, box, legend, "#c7c8c6", "#20232a", max_size=17)
     for (x, y, right, bottom), label, background in (
         ((8, 106, 28, 113), "ATK", "#dca450"),
         ((32, 107, 45, 114), "SHOT", "#e6c484"),
@@ -425,6 +472,7 @@ def paint_cep(face, name, rule_index, category, source):
     if category == 0:
         paint_custom_equipment(face, rule_index)
     paint_rule(face, (12, 117, 117, 150), REVIEWED_RULES[rule_index], "#f1efeb")
+    return name_box
 
 
 def paint_pilot_terrain(face, record):
@@ -453,12 +501,18 @@ def thumbnail_data(archive, index):
                           archive[offset + 1544:offset + 1576], p8=False)
 
 
-def paint_thumbnail(source, kind, name, ratio):
+def paint_thumbnail(source, panels, name_box, name, ratio):
     face = source.resize((48 * SCALE, 64 * SCALE), Image.Resampling.NEAREST)
+    coverage = face.getchannel("A")
+    lut = [round(value * ratio) for value in range(256)]
+    for position, panel in panels:
+        if ratio < 1:
+            panel = panel.point(lut * 3 + list(range(256)))
+        face.paste(panel, position)
     background = faded((64, 66, 66, 255), ratio)
     ink = faded((255, 249, 226, 255), ratio)
-    box = (11, 2, 36, 6) if kind == "zoid" else (5, 41, 33, 45)
-    paint_label(face, box, name, background, ink, max_size=13)
+    paint_label(face, name_box, name, background, ink, max_size=13)
+    face.putalpha(coverage)
     return face
 
 
@@ -488,9 +542,14 @@ def main():
         face = source.resize((128 * SCALE, 160 * SCALE), Image.Resampling.NEAREST)
         if kind == "zoid":
             paint_zoid(face, name, index, record)
+            # The compact frames and the two land/sea spec strips start higher.
+            panel_box = (3, 38 if index in (77, 78, 25, 64) else 39, 45, 62)
+            name_box = (11, 2, 36, 6)
         else:
             category, = struct.unpack_from("<H", record, 0x28)
-            paint_cep(face, name, cep_rules[index], category, source)
+            left, _, right, _ = paint_cep(face, name, cep_rules[index], category, source)
+            panel_box = (3, 40, 45, 61)
+            name_box = (round(left * 48 / 128), 41, round(right * 48 / 128), 45)
             if category == 2:
                 paint_pilot_terrain(face, record)
         upload, palette = keys[face_index]
@@ -498,13 +557,23 @@ def main():
         upload, palette = thumb_keys[face_index]
         source = thumbnail_data(thumbs, face_index)
         target = f"texupload-P4-{upload}-{palette}-12x64-0-0-48x64-P0-15.png"
-        paint_thumbnail(source, kind, name, 1).save(output / target)
+        miniature = face.resize((48 * SCALE, 64 * SCALE), Image.Resampling.LANCZOS)
+        bounds = [scaled(panel_box)]
+        if kind == "zoid" and index in ZOID_VARIANT_CAPTIONS:
+            x, y, right, bottom = ZOID_VARIANT_CAPTIONS[index][0]
+            bounds.append((round(x * miniature.width / 128), round(y * miniature.height / 160),
+                           round(right * miniature.width / 128), round(bottom * miniature.height / 160)))
+        panels = [(box[:2], miniature.crop(box)) for box in bounds]
+        panel_args = (panels, name_box, name)
+        paint_thumbnail(source, *panel_args, 1).save(output / target)
         reference = average_light(source)
         for path in dumps[upload]:
+            if path.name == target:
+                continue
             with Image.open(path) as dump:
                 frame = dump.convert("RGBA")
-            paint_thumbnail(frame, kind, name, min(1, average_light(frame) / reference)).save(output / path.name)
-    print("Rendered English lettering for 274 card faces and thumbnail name bands.")
+            paint_thumbnail(frame, *panel_args, min(1, average_light(frame) / reference)).save(output / path.name)
+    print("Rendered 274 English card faces and their printed thumbnail panels.")
 
 
 if __name__ == "__main__":
